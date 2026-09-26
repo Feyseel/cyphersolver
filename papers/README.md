@@ -104,7 +104,7 @@ pdflatex armstrong1808 && bibtex armstrong1808 && pdflatex armstrong1808 && pdfl
    must not link to it, and the phrase-level overlap should be kept low. Safest: e-mail the programme chairs
    (2026 address: histocrypt2026@inria.fr) and ask whether web write-ups posted before submission are acceptable.
    Their answer decides whether the repository stays public during review.
-2. **Armstrong notes reconciled (2026-09-15):** `armstrong/NOTES.md` now matches the site and the paper: 48 of 49 groups
+2. **Armstrong notes reconciled (2026-09-15):** `targets/armstrong/NOTES.md` now matches the site and the paper: 48 of 49 groups
    determined, the 49th a probable slip (555 for 1555 *man*); 1394 is *ru*, not a null.
 3. **Fill the marked gaps.** Every `\todo{…}` in the drafts is a fact to supply or verify from the notes or the
    frames: exact frame numbers, the character-by-character Huang Xing alignment table, figure files.

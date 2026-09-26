@@ -9,6 +9,7 @@ import json, pathlib
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
+TARGETS = ROOT / 'targets'          # one folder per cipher target
 
 CT = 'key recovered from ciphertext-only'
 EXT_PT = 'key recovered based on plaintext from external sources'
@@ -77,7 +78,7 @@ def badge(method, ext, cls=None):
 def profile_paths():
     """{folder name (lower case): profile.json path}, nested sweep folders included."""
     out = {}
-    for p in sorted(ROOT.glob('*/*/profile.json')) + sorted(ROOT.glob('*/profile.json')):
+    for p in sorted((ROOT / 'research').glob('*/*/profile.json')) + sorted(TARGETS.glob('*/profile.json')):
         out[p.parent.name.lower()] = p          # top-level folders win over nested ones of the same name
     return out
 

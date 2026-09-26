@@ -40,7 +40,7 @@ LIVE = [
 
 ATTEMPTED = [
     ("Antoine de Bordeaux to Brienne, London, 30 May 1653", "1653",
-     GH + "bordeaux/NOTES.md", "", "not solved, design identified", "lo",
+     GH + "targets/bordeaux/NOTES.md", "", "not solved, design identified", "lo",
      "A Thurloe intercept, BL Add MS 4200 f. 88, <b>810 tokens over 156 symbols</b> in Tomokiyo's transcription: graphic signs, plain numbers and three "
      "diacritic series. <b>Attempted 16 September 2026.</b> Identified as a cipher of the Brienne office's 1651&ndash;54 family, in which consecutive numbers "
      "run through the syllabary in alphabetical order across the diacritic series, as in Lasry's 1654 Mazarin&ndash;Bordeaux key. A solver with that "
@@ -49,7 +49,7 @@ ATTEMPTED = [
      "drops the solver to 52&nbsp;% and 9&nbsp;% on two seeds, and Tomokiyo's copy is provisional. The plaintext is not in print (Birch, Guizot checked). "
      "Ways in: the DECODE images of R8390 to fix the diacritics, the 1653 English key for &ldquo;Mr. Bordeaux&rdquo; in BL Add MS 32263 f. 1 (R7537), or "
      "the letter-book at the BnF. The companion item, Mazarin to Bordeaux of 22 June 1654, was solved by George Lasry in February 2025 and is closed. "
-     "<a href=\"" + GH + "bordeaux/NOTES.md\">Notes &rarr;</a>"),
+     "<a href=\"" + GH + "targets/bordeaux/NOTES.md\">Notes &rarr;</a>"),
 
     ("Armstrong to Madison, 20 February 1808: the contest solution does not hold", "1808",
      "armstrong.html", "", "adjudicated", "md",
@@ -59,10 +59,10 @@ ATTEMPTED = [
      "procedure on a shuffled ciphertext, 500 random keys fit the claimed sentence with all 60 words in order and account for more of the text than the "
      "AFIO key does. Madison wrote in May 1808 that no such cipher was in the office, and every pencil decode on roll 13 is THE&nbsp;=&nbsp;972, so the "
      "frames cannot supply it either. The claim does not hold; the letter stays unsolved and needs the key Armstrong actually used. "
-     "<a href=\"" + GH + "armstrong/NOTES.md\">Notes &rarr;</a>"),
+     "<a href=\"" + GH + "targets/armstrong/NOTES.md\">Notes &rarr;</a>"),
 
     ("Lodovico Birago to the Duke of Nevers, the numerical paragraph", "1571",
-     GH + "birago/NOTES.md", "", "not solved, structure fixed", "lo",
+     GH + "targets/birago/NOTES.md", "", "not solved, structure fixed", "lo",
      "BnF fr. 3251 f. 119, a letter of 13 November 1571 in Italian; one paragraph is in a figure cipher unlike Birago's other letters. <b>Attempted "
      "16 September 2026, four sessions.</b> The page was fetched from Gallica and re-read glyph by glyph: 483 digits, sixteen carrying a dot, bar or "
      "cross, nine wavy signs inline, six null letters. Every variable-length design was excluded with scans that recover the true rule on matched "
@@ -73,29 +73,29 @@ ATTEMPTED = [
      "polyphonic single-figure design, with a method that reads its control three times out of three; structured homophony rules; a syllabic "
      "alphabet. A sweep of the volume's 118 openings finds no second letter in the cipher. The Nevers key of 1574 (fr. 3315) is a symbol alphabet with a "
      "figure nomenclature 8&ndash;62, recorded as a gloss. Needs a sibling letter or one fixed code group. "
-     "<a href=\"" + GH + "birago/NOTES.md\">Notes &rarr;</a>"),
+     "<a href=\"" + GH + "targets/birago/NOTES.md\">Notes &rarr;</a>"),
 
     ("Louis XIV to the Duke of Chaulnes in Rome, 10 July 1690", "1690",
-     GH + "chaulnes/NOTES.md", "", "not solved, design fixed", "lo",
+     GH + "targets/chaulnes/NOTES.md", "", "not solved, design fixed", "lo",
      "<b>Attempted 16 September 2026.</b> The ciphertext verified from the page images, two transcription fixes: <b>300 groups, 116 distinct</b>. The "
      "step-10 chains give the design, a one-part Croissy table of ten columns running to at least 535. That is the whole result, because 300 groups do "
      "not determine a 116-entry nomenclator: the annealer recovers 4&ndash;12&nbsp;% of a matched control and wrong keys score within noise of the true one. "
      "No printed plaintext found; G&eacute;rin's 1877 article does not quote the letter. Needs the minute in Affaires &eacute;trang&egrave;res, "
      "Correspondance politique Rome 331&ndash;332, or a second letter in the code. "
-     "<a href=\"" + GH + "chaulnes/NOTES.md\">Notes &rarr;</a>"),
+     "<a href=\"" + GH + "targets/chaulnes/NOTES.md\">Notes &rarr;</a>"),
 
     ("Catherine de M&eacute;dicis to Philibert du Croc, 27 April 1567", "1567",
-     GH + "ducroc/NOTES.md", "", "below threshold", "lo",
+     GH + "targets/ducroc/NOTES.md", "", "below threshold", "lo",
      "Printed with a facsimile in Destray's 1924 life of du Croc; the plate fetched here from Gallica over IIIF and transcribed: about <b>147 symbols, "
      "40 distinct</b>, French, with sparse dots. <b>Attempted 16 September 2026.</b> A matched control, du Croc's own despatch of the same year "
      "enciphered with a 40-symbol key on the target's profile, is recovered at only 28&ndash;41&nbsp;% over six seeds, so a ciphertext-only attack at this "
      "length is below the solver's threshold and no reading is claimed. Lasry's key for the Charles IX letter in the same book is a different symbol "
      "set. What would move it: cribs from Catherine's and du Croc's other letters of April 1567, or the dots and ticks proving to be word separators, "
      "which would make it the Forster kind. The transcription needs a second reader. "
-     "<a href=\"" + GH + "ducroc/NOTES.md\">Notes &rarr;</a>"),
+     "<a href=\"" + GH + "targets/ducroc/NOTES.md\">Notes &rarr;</a>"),
 
     ("Telegram from Switzerland, “BLUME SALAMANCA”", "1937",
-     "https://github.com/dbourdeau/cyphersolver/blob/main/blume/NOTES.md", "", "attempted, not solved", "lo",
+     "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/NOTES.md", "", "attempted, not solved", "lo",
      "Zurich to London and on to Spain, 8 January 1937, from the firm of Werner Oswald, who had close ties to Franco's side. <b>Attempted "
      "September 2026.</b> The first telegram is transcribed from Schmeh's photograph, 123 groups, and checks against the 125 words on the form. "
      "It is a <b>transposition</b> (index of coincidence 0.070, no bigram structure of its own) of what the letter counts say is telegraphic "
@@ -110,7 +110,7 @@ ATTEMPTED = [
      "same day and same firm, or a crib such as <i>pesetas</i> or the firm's name."),
 
     ("Sir Richard Forster, 13 May 1644 (Val-d'Oise 68.H.8)", "1644",
-     "https://github.com/dbourdeau/cyphersolver/blob/main/forster/NOTES.md", "", "already read by others", "md",
+     "https://github.com/dbourdeau/cyphersolver/blob/main/targets/forster/NOTES.md", "", "already read by others", "md",
      "<b>Found already read, September 2026.</b> The passage was deciphered by George Lasry after Britland's 2013 article, independently by Norbert "
      "Biermann, and again by Robert Pitt (GitHub, 14 September 2026), whose key is public; Tomokiyo's page still lists it as unsolved. It is <b>207 tokens in 37 "
      "comma-separated words over 34 symbols</b>, not 134 over 24 as the queue said, and the key is a mixed homophonic alphabet, not a regular Stuart key. The text is "
@@ -118,10 +118,10 @@ ATTEMPTED = [
      "Verified here: z&nbsp;=&nbsp;8.8 against 20,000 permuted keys, and 31 of 34 symbols recovered blind from the ciphertext once the word edges are used and the "
      "French model writes <i>u</i> for <i>v</i> and <i>i</i> for <i>j</i>; six matched 207-letter controls read at 98&ndash;100%. Without that normalisation the controls "
      "pass and the letter fails, which is the useful lesson. Four slips and two single-occurrence words need the manuscript. "
-     "<a href=\"https://github.com/dbourdeau/cyphersolver/blob/main/forster/NOTES.md\">Notes &rarr;</a>"),
+     "<a href=\"https://github.com/dbourdeau/cyphersolver/blob/main/targets/forster/NOTES.md\">Notes &rarr;</a>"),
 
     ("Charles I and Nicholas to Boswell, TNA SP 84/157 ff. 217 and 219", "1643",
-     "https://github.com/dbourdeau/cyphersolver/tree/main/boswell", "", "read in substance", "md",
+     "https://github.com/dbourdeau/cyphersolver/tree/main/targets/boswell", "", "read in substance", "md",
      "<b>Attempted September 2026; alphabet solved, text read.</b> The alphabet was found by Robert Pitt days earlier (GitHub, 14 September 2026): a "
      "24-letter row, odd then even positions of the alphabet, repeated four times over 20&ndash;115, with supplementary homophones 116&ndash;159 in "
      "alphabetical blocks and nulls 0&ndash;19. Verified here: z&nbsp;=&nbsp;9.6 against 20,000 permuted rows, none as good. Added here: the four graphic "
@@ -130,7 +130,7 @@ ATTEMPTED = [
      "from Mitau with a cipher line in the same key; Nicholas's covering letter asks Boswell to hinder the Dutch embassy of 1644. The King had heard nothing from the Duke but "
      "the invitation to the funerals of the two Dukes; he asks for muskets, match and powder to Weymouth, Dartmouth, Exeter or Falmouth, and knows not whether his answer "
      "arrived. A dozen single-occurrence word codes and a table of transcription slips remain; the folios would settle them. "
-     "<a href=\"https://github.com/dbourdeau/cyphersolver/blob/main/boswell/NOTES.md\">Notes &rarr;</a>"),
+     "<a href=\"https://github.com/dbourdeau/cyphersolver/blob/main/targets/boswell/NOTES.md\">Notes &rarr;</a>"),
 
     ("Feuqui&egrave;res to Catinat, Pignerol, 25 January 1691", "1691",
      "feuquieres.html", "", "read (586 of 601 tokens)", "hi",
@@ -161,7 +161,7 @@ ATTEMPTED = [
      "telegram. <a href=\"huangxing.html\">Write-up, corrected &rarr;</a>"),
 
     ("Regent Moray to John Wood, the Scottish ambassador in London", "1568",
-     "https://github.com/dbourdeau/cyphersolver/blob/main/moray/NOTES.md", "", "undetermined", "lo",
+     "https://github.com/dbourdeau/cyphersolver/blob/main/targets/moray/NOTES.md", "", "undetermined", "lo",
      "BL Add MS 32091 f.213, 13 July 1568, <b>134 groups over 32 symbols</b> in Tomokiyo's transcription. The Catalogue of Additions says "
      "what the letter does: refuses Wood's recall and sends Border news. <b>Attempted September 2026.</b> A 5-gram Scots annealer, built from "
      "the <i>Diurnal of Occurrents</i>, the Privy Council register and Pitscottie, reads <b>five of six planted 134-letter controls</b> of the "
@@ -172,7 +172,7 @@ ATTEMPTED = [
      "Needs the page, offline since the BL cyber-attack, or a second letter in the cipher."),
 
     ("Two anonymous letters to English Catholics in France, SP53/16 nos. 78 and 79", "1585?",
-     "https://github.com/dbourdeau/cyphersolver/blob/main/sp53/NOTES.md", "", "undetermined", "lo",
+     "https://github.com/dbourdeau/cyphersolver/blob/main/targets/sp53/NOTES.md", "", "undetermined", "lo",
      "One to Mr Tempest, a priest in Paris, one to Dr Barret, president of the Rheims seminary, both endorsed by Phelippes and never read: "
      "<b>507 and 644 groups, 132 and 102 symbols</b> in Tomokiyo's glyph-label transcription. <b>Attempted September 2026, three sessions.</b> "
      "The first two closed the pair because the homophonic annealer failed its own planted controls; the third showed that was the annealer. "
@@ -185,7 +185,7 @@ ATTEMPTED = [
      "labels remain open and all need the page images. Calendar viii is full view on HathiTrust but refuses scripts. The &ldquo;Spanish spy&rdquo; "
      "slip SP 53/22 f. 52 (84 tokens, 22 symbols) stays below unicity. Needs the page images and the SP 53/22 keys, f. 53 first."),
 
-    ("Catokwacopa, line 29 in Latin", "1875", "https://github.com/dbourdeau/cyphersolver/blob/main/catokwacopa/NOTES.md", "top 50", "undetermined", "lo",
+    ("Catokwacopa, line 29 in Latin", "1875", "https://github.com/dbourdeau/cyphersolver/blob/main/targets/catokwacopa/NOTES.md", "top 50", "undetermined", "lo",
      "<b>Second session.</b> The exact-interleaving search rerun with a Latin vocabulary from 43 Latin Library texts. Control: line 17 returns QUI FIT "
      "first, ahead of <i>qui fuit</i>. Line 29 (<i>ereflodbr / rileohmae</i>) is junk in Latin as in English, three or four words at best; "
      "RELIGIONEM CONFIRMARE stays at eleven edits. The line is undetermined in both languages, and the Oxford reading is otherwise as audited before."),
@@ -201,7 +201,7 @@ ATTEMPTED = [
      "of the postscript no longer rests on inference for that group; it also adds <i>last, night, about, look</i>. Thirty-nine more frames are down "
      "and unread. The 20 February 1808 letter is a different code and is adjudicated separately above."),
 
-    ("Urquhart octastich", "17th c.", "https://github.com/dbourdeau/cyphersolver/blob/main/urquhart/NOTES.md", "top 50", "book-cipher shape", "lo",
+    ("Urquhart octastich", "17th c.", "https://github.com/dbourdeau/cyphersolver/blob/main/targets/urquhart/NOTES.md", "top 50", "book-cipher shape", "lo",
      "<b>Second session.</b> Measured: 272 numbers, 82 distinct, maximum 201, index of coincidence 0.021, forty per cent of values ten or less, "
      "and 31 of the distich's 32 values recur, so the two poems are one system with the shape of a word-index book cipher. Not attackable without "
      "the key text, and nobody has said where the octastich was printed."),

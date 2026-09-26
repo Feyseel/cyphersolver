@@ -1,6 +1,8 @@
 # cyphersolver
 
-Historical cipher targets, one folder per target with a `NOTES.md`, and a GitHub Pages site in `docs/`.
+Historical cipher targets, one folder per target under `targets/` with a `NOTES.md`, and a GitHub Pages site in `docs/`.
+Sweeps and surveys that are not a single target (Gallica sweeps, DECODE harvests, the oldest-cipher search, Schmeh's
+Top 50, MysteryTwister) live in `research/`. Skills and checkers take the bare folder name (`/writeup gramont1529`).
 The layout, the build scripts and the reading conventions are in `README.md` (Repository layout, The website,
 Conventions). Read them before touching `docs/`.
 
@@ -8,7 +10,7 @@ Conventions). Read them before touching `docs/`.
 
 Language models live in `lang/` (`lang/README.md`): a corpus registry, a model registry and one n-gram engine, e.g.
 `from lang import lm; lm.load('fr-1600-letters')`. Use one of its models, or add a corpus/model there, rather than
-writing a new `<target>/lm.py`. `lm.best_language(text)` is a quick language check on a decrypt.
+writing a new `targets/<target>/lm.py`. `lm.best_language(text)` is a quick language check on a decrypt.
 
 ## A target is finished only when it is written up
 
@@ -51,7 +53,7 @@ Priorities (TARGETS.md): original ciphertext-only attempts first, external-mater
 ## Every target keeps a profile.json
 
 The project is being written up with George Lasry as a paper on how LLMs perform against historical ciphers.
-The analysis runs on `<folder>/profile.json`, a fixed-field record of the cipher system, the ciphertexts, what
+The analysis runs on `targets/<folder>/profile.json`, a fixed-field record of the cipher system, the ciphertexts, what
 the model was given, the solution steps and the outcome (`profile.schema.json`; the `/profile` skill).
 
 - **Except the famous targets** (the Indus script, Voynich, Beale, Kryptos, Dorabella ...; `FAMOUS` in

@@ -14,7 +14,7 @@ permission to edit the record" (tested 2026-09-21). George expects Beáta Megyes
 3. **Key file** (`.txt`, DECODE key format), only where we rebuilt the key ourselves (group B below). Where the key
    is already in DECODE (group A), give its ID instead and upload nothing.
 4. **Decoded text** (`.txt`) for every record we read, in DECODE's decryption layout (header lines, then each
-   ciphertext line with its plaintext under it, as in Lasry's files, e.g. `acciaiuoli1757/decode/DOC_R195_D1657_1657.txt`).
+   ciphertext line with its plaintext under it, as in Lasry's files, e.g. `targets/acciaiuoli1757/decode/DOC_R195_D1657_1657.txt`).
 5. **Descriptive fields** (Symbol Set, Cipher Type, languages), only for original decodes, where DECODE's values are
    wrong or blank.
 
@@ -59,11 +59,11 @@ should be said plainly in the note.
 
 | Target | Records | How the key was rebuilt | Cite in Additional information | Key source file to convert |
 |---|---|---|---|---|
-| warsaw | R1408 | ciphertext-only | nothing | `warsaw/key_*.json` (pick the final one) |
+| warsaw | R1408 | ciphertext-only | nothing | `targets/warsaw/key_*.json` (pick the final one) |
 | lucca | R2159 | crib (the opening from Tomokiyo's unsolved page) | Tomokiyo, cryptiana | not in repo as a key file: derive from `plaintext.txt` |
 | lopehurtado | R9644, R9648, R9650 (+R9652 is clear) | crib: the clerk's clear version bound with the cipher | nothing (not in Tomokiyo 2025) | `key_codes.tsv` |
 | kauderbach1754 | R1043, R1044, R1954, R1958, R1959, R2078–R2082 | one-to-one annealing onto the vocabulary of the 1761 key | R936 (same design, different numbers) | `key.json` |
-| balbases1677, hernannunez1674, ronquillo1676 | R985–R998, R1012–R1015, R966–R984, R1001 | one key, rebuilt from the contemporary margins on these records | "key from the marginal decipherments on R985 etc." | `balbases1677/key.json` (+ the hernannunez additions) |
+| balbases1677, hernannunez1674, ronquillo1676 | R985–R998, R1012–R1015, R966–R984, R1001 | one key, rebuilt from the contemporary margins on these records | "key from the marginal decipherments on R985 etc." | `targets/balbases1677/key.json` (+ the hernannunez additions) |
 | kurtz1639 | R3811–R3815, R4625, R4645, R4734, R4736 | from the interlinear glosses on R3811 | Márka 2012 (summary of R3811; no key printed) | `key.json` / `KEY.md` |
 | affry1757 | R1054, R1065, R1070, R1072–R1074, R1076, R2067 | aligned on Lyonet's clear copies (R1052, R1053, R1062, R1063, R1066, R1069, R1075) | Bussemaker, *BMH* extracts; Lyonet, NA 1.01.50 inv. 221/223 | `key_U.json` |
 | sessa1524 | R9877, R9878 | from Sessa's decrypted sibling letters R9897, R9893, R9834 | nothing | `key_working.md` (needs finishing) |
@@ -114,7 +114,7 @@ Review by a reader of the language before upload:
 - **Machine streams split into words, many runs left joined with `?`:** alessandrino1568 (all 11), papai1706
   (R757, R765 worst), kurtz1639 (all 9; split by script, ~40% of lines carry `?`), deswart1782 (R1036, R1040),
   rakoczi1707 R902 (not split), ronquillo1676 R971, R974, R983, R1001 (`<W>chad<r>` artefacts, likely a glitch in
-  `ronquillo1676/read.py`; regenerate them from a fixed decoder).
+  `targets/ronquillo1676/read.py`; regenerate them from a fixed decoder).
 - **Thin: little of the letter is read:** sanchez1522 R9635/R9653, rome1536 R4234/R4235/R4239, sauli1579 R192-R194
   (cipher passages only; the clear text was summarised in English), ceva1632 R75/R84, soria1523 R9494,
   kauderbach1754 R1954, affry1757 R1072, kurtz1639 R4645/R4734/R4736.

@@ -1,0 +1,87 @@
+# Duke of Sessa → Charles V, February–April 1523 — RAH Salazar A-27 (9/27), DECODE R9660–R9666
+
+Status: read in part (follow-up 2026-09-21: R9665 read in full; R9660 transcribed in full and ~57% read)
+
+Catalogue entry 146 ("Luis Fernández? (Sesa) to unknown recipient, 7 ciphertexts"). Worked 2026-09-21.
+
+## 1. Identification: seven despatches of the Duke of Sessa to Charles V
+
+RAH signatura 9/27 is **Colección Salazar y Castro A-27**. "Luis Fernández" is Luis Fernández de Córdoba, 2nd Duke
+of Sessa, imperial ambassador in Rome (not his secretary); every letter is headed *S. C. C. M.*, so the recipient
+is the Emperor. "Sesa" is right for the first letter only, which is dated from his duchy. Dates are read from the
+letters' own date lines; CSP = Bergenroth, *Calendar of State Papers, Spain* vol. 2 (1866).
+
+| DECODE | ff. | date line | CSP vol. 2 | status |
+|---|---|---|---|---|
+| R9660 | 141–147 | "En Sesa a xx de hebrero de 1523" | not calendared | cipher, **no decipherment** |
+| R9661 | 149–152 | "En Roma, miercoles iiij de março 1523" | no. 534 (from the f. 190 copy, "cipher with contemporary deciphering") | duplicate of CSP 534 |
+| R9662 | 308–326 | [12 Apr 1523] | no. 541, "a duplicate of the preceding despatch" | duplicate of CSP 540 |
+| R9663 | 327–341 | [11 Apr 1523] | no. 540, ff. 327–343, "autograph in cipher, contemporary deciphering" | in print (calendar) |
+| R9664 | 418–422 | "De Roma xxv de abril 1523" | no. 544, ff. 424–430 deciphered | duplicate of CSP 544 |
+| R9665 | 437–438 | "De Roma xxvj de abril 1523" | not calendared | short, mostly clear |
+| R9666 | 439–441 | "De Roma … abril 1523" | no. 545 (27 Apr, arrest of Cardinal Soderini of Volterra) | clear, "autograph" |
+
+So four of the seven are the letters (or duplicates of letters) whose content Bergenroth calendared in English from
+the court's decipherments kept in the same volume (ff. 190, 342–343, 424–430). Those decipherment leaves are not in
+the DECODE records, so DECODE marks the ciphertexts "Non-decrypted".
+
+## 2. The cipher is the 1524 Sessa cipher
+
+The same code groups as [sessa1524](../sessa1524/NOTES.md) recur on every page: `gap` que, `sof` de, `suf` de la,
+`qib` el, `mus` la, `kef` lo, `dim` se, `cob` si, `ka` le, `coh` Su Santidad, `bas` V.Md., `Jap` papa, `pu3 qes`
+franceses, `lip` ningun-, `put` forma, `log` muy, `sis` despues, `njn` ha, the `f~` clear/cipher switch and the
+`v db` null opener. The key rebuilt there (about 110 groups plus the letter alphabet, from the court's decipherments
+of 1523–25 letters) applies unchanged.
+
+## 3. Sample reading (R9660, uncalendared)
+
+The second cipher paragraph of f. 141r read by eye with the 1524 key: [reading_f141_sample.txt](reading_f141_sample.txt) (superseded by section 5). About
+half the tokens resolve at once (*muy despues … a V.Md. de la … forma que el papa … de franceses … a ver a Su
+Santidad* [clear: *mas con color*] *… de ningun …* [clear: *disposicion de entender*] *… lo que V.Md. …*).
+
+## 4. Where it stops
+
+Outcome: **identified; four letters already in print (calendared from contemporary decipherments); the two
+uncalendared cipher letters (R9660, 20 Feb; R9665, 26 Apr) read in part only.** A full reading of the ~50
+cipher-bearing pages is a transcription job with the existing key (the token-tile method of sessa1524), not a
+cryptanalytic one; nothing about the cipher remains unknown beyond the groups already open in sessa1524. Next
+step if resumed: tokens.py over R9660 ff. 141–147, then read against key_working.md; for the calendared letters,
+compare Bergenroth's abstracts with the ciphertext as a check on the key.
+
+Images: `img/` (DECODE, fetched with the saved cookie; RAH permission required, git-ignored). Metadata: `decode/`.
+
+## 5. Follow-up (21 Sept 2026): R9660 and R9665 run through the key
+
+**R9665 (26 Apr 1523): read in full.** Three short cipher runs in a clear letter ([reading_r9665.txt](reading_r9665.txt)).
+f. 437r: *Su Santidad por esta bula es declarado contra Francia*, confirmed token for token by a contemporary margin
+note, which also gives the one new group `hef` = *por*. f. 437v: interlinear decipherments of the time, *…al de Ancona*
+(Cardinal Accolti, "muy buen servidor de V. Mt.") and *Su Sd. mejoro ayer*.
+
+**R9660 (Sessa, 20 Feb 1523): transcribed in full, read in part.** A fair copy in a clean hand, ff. 141r–147r, about
+2,050 cipher tokens: [reading_r9660.txt](reading_r9660.txt) (two parts). About 57% of tokens resolve; most of the rest are code groups
+(~150 distinct, listed with contexts at the end of each file). The margin notes are the copyist's restored omissions,
+not decipherments. New values from the two halves (they independently agree on `boz`, `z`, `q`) are in targets/sessa1524/key_working.md
+pass 15; each half's values were then retried on the other (e.g. `yim` = duque reads in both).
+Content: Adrian VI stands irresolute towards the French and refuses to join the league or give French envoys a
+safe-conduct; the viceroy Lannoy's visit to Rome; Francis I's plan to take a third of church revenue in France; the
+Swiss envoys' pay; the Duke of Bari (Francesco Sforza); Modena and Reggio against Alberto Pio da Carpi, committed to
+Cardinals Volterra, Monte and Iacobacci; Soderini (Volterra) making war on the Medici "como enemigo" with the Pope's
+favour; Siena after Petrucci's death (Francesco and Fabio Petrucci); the Datario, the bishopric of Tortosa; Rimini settled.
+
+## Remaining gaps
+- R9660 code groups (~150 distinct, ~40% of its tokens; commonest cas, cag, min, rep, put, var, ges) - blocker: needs-physical-access; the letter carries no decipherment, the groups do not recur in any deciphered page on DECODE, and the court's decipherment leaves of the sister letters (9/27 ff. 190, 342-343, 424-430) are not on DECODE, only in the RAH volume
+- R9661-R9664 cipher text re-read (CSP 534, 540, 541, 544) - blocker: needs-physical-access; read at the time and calendared by Bergenroth; the full decipherments are those same unimaged leaves
+- groups open in the sessa1524 key (vo, per, hay) - blocker: needs-physical-access; inherited, no attestation in any decipherment on DECODE
+
+## Escalation
+- [x] siblings: all seven records R9660-R9666 fetched and dated; the sessa1524 sibling key identified from shared groups
+- [x] clear-pages: every page of R9660-R9666 opened; the only glosses are R9665's (read) and R9660's copyist insertions (not decipherments); the decipherment leaves ff. 190, 342-343, 424-430 are not in these seven records (neighbouring DECODE records not searched)
+- [x] known-keys: sessa1524 key_working.md applied; it fits unchanged
+- [x] print: Bergenroth CSP Spain vol. 2 matched by folio (nos. 534, 540, 541, 544, 545); R9660 and R9665 not calendared
+- [x] key-rebuild: 15 values added from R9660/R9665 context and the R9665 gloss (key_working.md pass 15)
+- [x] retry: both halves of R9660 re-read with the pass-15 key; remaining groups have single or context-poor occurrences
+
+Outcome class: an audit on 21 Sept 2026 set this target to "already solved" because the court deciphered these
+letters at the time. That applies to R9661-R9664 and to R9665's short runs, but not to R9660: it has no decipherment
+bound with it and is not in Bergenroth. Its reading here (section 5, ~57%) is this project's own, so the class
+stays "read in part".

@@ -72,7 +72,7 @@
 <li>Doubled letters are often written once, so 33 can stand for <em>d</em> or <em>dd</em>.</li>
 </ul>
 
-<p>Applied to DECODE&rsquo;s transcriptions of all twenty-eight 6960 records, dividing the digit stream into one-, two- and three-digit units by dynamic programming, the key gives running Italian in every record. R286 opens <em>ho riceuto la risposta datami in scritto</em>, the first words of Kiewning&rsquo;s Nr. 153. About 2,000 nomenclator groups resolve from the 6956 key. About 1,750 three-digit groups do not appear in it; they are presumably names and titles particular to 1629, and they stay open. Some 200 digits fit no code, which is consistent with slips in the volunteer transcription. The unedited output is in the repository (<code>pallotto1629/key6956/decrypt_6960.txt</code>).</p>
+<p>Applied to DECODE&rsquo;s transcriptions of all twenty-eight 6960 records, dividing the digit stream into one-, two- and three-digit units by dynamic programming, the key gives running Italian in every record. R286 opens <em>ho riceuto la risposta datami in scritto</em>, the first words of Kiewning&rsquo;s Nr. 153. About 2,000 nomenclator groups resolve from the 6956 key. About 1,750 three-digit groups do not appear in it; they are presumably names and titles particular to 1629, and they stay open. Some 200 digits fit no code, which is consistent with slips in the volunteer transcription. The unedited output is in the repository (<code>targets/pallotto1629/key6956/decrypt_6960.txt</code>).</p>
 
 <p>The key also explains why every attack below failed. A null or a three-digit group shifts the phase of every two-digit code after it, so no fixed-width alignment can survive more than a few words. That is where the first-pass crib match stopped: the <code>8</code> after <em>ho</em> had been taken as the first digit of a two-digit code. The long repeated digit strings that section 04 reports are the nomenclator and syllable groups, written the same way every time.</p>
 
@@ -227,7 +227,7 @@ H  O  R  I  C  E  V  U  T  A  L  A  R  I  S  P  O  S  T  A  D  A  T  A  M  I  I
 <li>Kiewning&rsquo;s manuscript sources for the despatches: ASV, Nunz. di Germania 119 (the deciphered copies received in Rome) and Bibl. Barber. LXIX&ndash;LXX for the Barberini side.</li>
 </ul>
 
-<p class="muted">Working files, the DECODE transcriptions, the crib, the aligners and the solver: <a href="https://github.com/dbourdeau/cyphersolver/tree/main/pallotto1629">pallotto1629/</a>.</p>
+<p class="muted">Working files, the DECODE transcriptions, the crib, the aligners and the solver: <a href="https://github.com/dbourdeau/cyphersolver/tree/main/targets/pallotto1629">targets/pallotto1629/</a>.</p>
 <footer><div class="in">
   <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Manuscript rights: Biblioteca Apostolica Vaticana</span>
   <nav aria-label="Footer"><a href="index.html">Overview</a><a href="richelieu.html" rel="prev">&larr; Richelieu 1629</a><a href="riksarkivet1628.html" rel="next">Bremen to Salvius 1631 1628&ndash;33 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>

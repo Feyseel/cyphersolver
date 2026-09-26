@@ -103,7 +103,7 @@
 
 <h2 id="accounts"><span class="num">03</span> Reading the accounts</h2>
 <figure class="creveal" data-src="reveal/lineara.json"></figure>
-<p>A script (<code>lineara/reading/build_reading.py</code>) gives each of the 5,339 tokens in the corpus one class, not counting dividers and damage marks. Glosses are kept to those with a stated basis:</p>
+<p>A script (<code>targets/lineara/reading/build_reading.py</code>) gives each of the 5,339 tokens in the corpus one class, not counting dividers and damage marks. Glosses are kept to those with a stated basis:</p>
 <ul>
 <li><strong>Commodity pictograms:</strong> the GORILA labels (grain, wine, oil, olives, figs, men, goats, cyperus), which rest on the same signs&rsquo; meaning in Linear B.</li>
 <li><strong>Fraction values:</strong> Corazza et al. 2021, except the two that section 04 disputes.</li>
@@ -124,7 +124,7 @@
 <li><strong>SA-RA<sub>2</sub>:</strong> a transaction term used only at Haghia Triada, with grain and cyperus, in 20 records.</li>
 <li><strong>A-DU and KA-PA:</strong> heading terms.</li>
 </ul>
-<p>The full reading of every record (<code>reading/edition.txt</code>, built by <code>lineara/reading/build_reading.py</code>) is not in the public repository, because the digital texts it is built from carry no licence. It is available on request.</p>
+<p>The full reading of every record (<code>reading/edition.txt</code>, built by <code>targets/lineara/reading/build_reading.py</code>) is not in the public repository, because the digital texts it is built from carry no licence. It is available on request.</p>
 <p><strong>The totals.</strong> All 35 KU-RO and PO-TO-KU-RO totals were rechecked with exact fractions. For each, the entries were summed over several windows: from the start of the tablet, from the last rule, after a KI-RO heading, over both faces of the object, and by commodity.</p>
 <ul>
 <li><strong>Ten balance.</strong> HT 123a&rsquo;s olive total balances only when its olive entries are summed apart from the other commodities on the tablet, 31 + 31&frac12; + 16 + 15 = 93&frac12;. The figure below replays that tablet.</li>
@@ -151,7 +151,7 @@
 <li><strong>A second, weaker tension.</strong> Younger reads HT 34&rsquo;s last lines as settling earlier items, with PU F settling the item written A. On that reading F (&#8539;) is at most A, but A is 1/24.</li>
 </ul>
 <p>The authors themselves say optimality did not fix H and A, and chose those two values on structural grounds. HT 34 is a counterexample to those two values, not an alternative system: with 29 order pairs, the evidence is too thin for one. None of the 18 works citing the 2021 paper revises the values. The team&rsquo;s own later account, Corazza&rsquo;s <em data-term-ok>Computational methods for undeciphered scripts</em> (2024), repeats &ldquo;A = 1/24?, H = 1/16?&rdquo;, still marked tentative, and does not discuss HT 34. As far as the sources reachable online show, the conflict has not been raised before. Salgarella&rsquo;s 2025 book is closed access and was not checked. It is the one item left before the point can be called new with confidence. Tagging each fraction pair with its commodity does not rescue the published values either: the three exceptions fall under three different commodities, and HT 34&rsquo;s is the only pair in the corpus with both H and K.</p>
-<p>New evidence is on its way. The ivory handle KN Zg 58, found at Knossos in 2024, carries six different fraction signs in a row. Its excavators say the sequence orders the values differently from every published proposal (Kanta, Nakassis, Palaima and Perna 2025), but they reserve it for the final edition. That sequence, and a good photograph of HT 34 line 3 (Heraklion Museum, HM 22), would settle the question. A two-page note setting out the HT 34 argument is drafted in <code>lineara/note_HT34/</code>.</p>
+<p>New evidence is on its way. The ivory handle KN Zg 58, found at Knossos in 2024, carries six different fraction signs in a row. Its excavators say the sequence orders the values differently from every published proposal (Kanta, Nakassis, Palaima and Perna 2025), but they reserve it for the final edition. That sequence, and a good photograph of HT 34 line 3 (Heraklion Museum, HM 22), would settle the question. A two-page note setting out the HT 34 argument is drafted in <code>targets/lineara/note_HT34/</code>.</p>
 
 <h2 id="formula"><span class="num">05</span> The libation formula</h2>
 <p>Offering vessels from peak sanctuaries across Crete carry a recurring sequence of words. Across 14 inscriptions from 7 sites, the order of its slots holds in 77 of 78 pairs:</p>
@@ -217,7 +217,7 @@
 <li><strong>A calibrated test of the language proposals.</strong> Semitic, Luwian, Hurrian and the rest do no better than Hawaiian or Yoruba, and neither Eteocretan nor the Pre-Greek substrate shows a reliable link. The positive control shows that look-alike matching cannot identify a language at this scale (section 07).</li>
 <li><strong>Minoan names at Knossos.</strong> The Linear A words that survive into Linear B are names, significantly more than chance, and all of them Knossian, among them TA-NA-TI, KI-DA-RO, DA-I-PI-TA and I-TA-JA. Beyond these, the Knossos personal names as a whole are Minoan in shape, while the Pylos names are not (section 02).</li>
 <li><strong>Accounting functions across tablets.</strong> A-KA-RU and A-DU are categories over the same persons. PA<sub>3</sub> marks a delivered part, and KI-RO lists count persons one each (section 03).</li>
-<li><strong>Corrections to the digital texts:</strong> HT 34&rsquo;s KI-RO is 30, not 37. A field in a third-party SigLA decoder was mislabelled; it holds sign position and word index, not boundary states. A word-by-word comparison of the two digital editions lists 44 disagreements for their editors (<code>lineara/ERRATA.md</code>). Among them are a systematic JA/PA<sub>3</sub> confusion and three readings that affect results here: SU-KI-RA-TA, PA-RI-NE and DA-ZA in SigLA.</li>
+<li><strong>Corrections to the digital texts:</strong> HT 34&rsquo;s KI-RO is 30, not 37. A field in a third-party SigLA decoder was mislabelled; it holds sign position and word index, not boundary states. A word-by-word comparison of the two digital editions lists 44 disagreements for their editors (<code>targets/lineara/ERRATA.md</code>). Among them are a systematic JA/PA<sub>3</sub> confusion and three readings that affect results here: SU-KI-RA-TA, PA-RI-NE and DA-ZA in SigLA.</li>
 <li><strong>Replication, now measured over the whole corpus:</strong> the Linear B carry-over (argued before by Packard, and by Steele and Meissner); KU-RO, KI-RO and PO-TO-KU-RO; the place names; the name lists; the formula order. The share of the corpus that can be read without the language (41.8% of tokens) is measured here; no earlier measure of it was found. It contains no new reading.</li>
 <li><strong>Nothing on the language itself.</strong> No word is given a new meaning, and no language family is supported.</li>
 </ul>
@@ -227,7 +227,7 @@
 <li><strong>The meanings of the 2,164 tokens read only as sound</strong> (names, transaction terms, formula words). Blocked: the language is unidentified and no bilingual exists.</li>
 <li><strong>632 unidentified signs and ligatures</strong> (*301, *304, *308, QA<sub>2</sub>+&hellip;, MI+JA+&hellip;). They have no Linear B counterpart and no context fixes them.</li>
 <li><strong>The fraction signs H and A, and the rare L, W, X, Y and DD.</strong> Too few attestations.</li>
-<li><strong>Damaged entries and totals.</strong> Restorations are proposed in <code>lineara/reading/restorations.json</code>.</li>
+<li><strong>Damaged entries and totals.</strong> Restorations are proposed in <code>targets/lineara/reading/restorations.json</code>.</li>
 <li><strong>631 single-sign marks on sealings.</strong> One sign per object, no syntax.</li>
 <li><strong>Five totals that no window reconciles:</strong> HT 13, HT 25b, HT 102, HT 122b and PH(?) 31a. Only examining the tablets can say whether the scribe or the transcription erred.</li>
 <li><strong>A fuller Etruscan test.</strong> It waits on a larger open lexicon.</li>
@@ -256,7 +256,7 @@
 <li>H. C. Melchert, <em>Cuneiform Luvian Lexicon</em> (1993). Akkadian, Ugaritic, Etruscan, Ancient Greek and control lexicons from Wiktionary via <a href="https://kaikki.org/">Kaikki</a>.</li>
 </ul>
 
-<p class="muted">Scripts, results and notes are in <a href="https://github.com/dbourdeau/cyphersolver/tree/main/lineara"><code>lineara/</code></a>. The reading script is <code>lineara/reading/build_reading.py</code>, and <code>lineara/FRACTIONS_REPORT.md</code> gives the full fraction analysis, and <code>lineara/LEADS_REPORT.md</code> the language and names tests.</p>
+<p class="muted">Scripts, results and notes are in <a href="https://github.com/dbourdeau/cyphersolver/tree/main/targets/lineara"><code>targets/lineara/</code></a>. The reading script is <code>targets/lineara/reading/build_reading.py</code>, and <code>targets/lineara/FRACTIONS_REPORT.md</code> gives the full fraction analysis, and <code>targets/lineara/LEADS_REPORT.md</code> the language and names tests.</p>
 </main>
 <footer><div class="in">
   <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Photograph: ShlomoKatzav, CC0, via Wikimedia Commons; texts after GORILA via lineara.xyz and SigLA</span>

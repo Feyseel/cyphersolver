@@ -27,7 +27,7 @@
   "siena1421": "A corpus of 25 pieces to the Sienese government (the Concistoro, the Balia, the Priori: offices). The named correspondents of the pieces read (Galgano Borghesi, Leonardo Benvoglienti) have no portrait on Wikimedia Commons or Wikidata (searched 25 Sept 2026); Donato Acciaiuoli's only image is a photograph of a herm, excluded."
  },
  "reveal": {
-  "florence1429": "Graphic-sign cipher: the sign-by-sign table is florence1429/cipher171.tsv, but there are no per-token crops of the signs, so a replay would show labels, not the letter's signs.",
+  "florence1429": "Graphic-sign cipher: the sign-by-sign table is targets/florence1429/cipher171.tsv, but there are no per-token crops of the signs, so a replay would show labels, not the letter's signs.",
   "nevers1574": "The manuscript supplies interlinear decipherment and a clear copy, but no sign-level transcription paired with a verified 1574 key was produced; a token-by-token reveal would invent the alignment.",
   "bagno1652": "Unread: the Francia 346 key is incompatible and no 1652 key or sign-level reading is available, so no passage can be replayed sign by sign.",
   "walsingham1572": "Unread: the only cipher is one six-sign port name (plus one omitted name) in a clear letter-book copy, and no key survives to decode it.",

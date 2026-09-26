@@ -1,8 +1,8 @@
 # lang/ — shared language models
 
 Every target used to build its own character n-gram model: about 25 `lm.py` / `build_lm.py` scripts, each with its own
-normaliser and smoothing, several reaching into another target's folder for its corpus (`../beale/lmcorpus`,
-`../bethune/xivrey`, `../adfgvx/corpus`). This directory replaces that with one registry and one engine. New targets
+normaliser and smoothing, several reaching into another target's folder for its corpus (`../targets/beale/lmcorpus`,
+`../targets/bethune/xivrey`, `../targets/adfgvx/corpus`). This directory replaces that with one registry and one engine. New targets
 should start here; the old per-folder scripts stay where they are so past results reproduce exactly.
 
 | file | what it is |
@@ -16,7 +16,7 @@ should start here; the old per-folder scripts stay where they are so past result
 ## Using it from a target
 
 ```python
-import os, sys; sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+import os, sys; sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 from lang import lm
 
 m = lm.load('fr-1600-letters')           # first call fetches + builds (seconds), later calls load the cache
@@ -66,14 +66,14 @@ Always normalise candidate plaintext with the same scheme as the model (`models.
 
 ## Known gaps
 
-- `fr-rome-1600s`: the 6.1 M-char Recueil des instructions … Rome t. II text that `chaulnes/lm.py` was trained on is no
+- `fr-rome-1600s`: the 6.1 M-char Recueil des instructions … Rome t. II text that `targets/chaulnes/lm.py` was trained on is no
   longer on disk in any checkout. `fr-1650-rome` is Guizot + Henri IV until it is re-fetched (then add an `ia`/`url`
   recipe to `sources.json` so it survives).
 - `fr-1520s-diplomatic` and `fr-rome-1600s` have no remote recipe; they build only in a checkout that has the files.
   Corpora are found in this checkout, in `../cypher` (so worktrees see the main checkout's downloads), and in any
   directory listed in `CYPHER_CORPUS_ROOTS`.
-- Not migrated, because they are not character n-gram models: `sunyatsen/` (Chinese word dictionary),
-  `milroy/word_lm.json` and `bethune/lm.py`'s word model, `enigma/lm_build.py` (built from the bomm Enigma trigram
+- Not migrated, because they are not character n-gram models: `targets/sunyatsen/` (Chinese word dictionary),
+  `targets/milroy/word_lm.json` and `targets/bethune/lm.py`'s word model, `targets/enigma/lm_build.py` (built from the bomm Enigma trigram
   tables).
 
 ## Adding a corpus or a model

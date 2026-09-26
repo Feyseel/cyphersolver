@@ -4,7 +4,7 @@
  "title": "The tablet behind Venus's bed, p. 97",
  "caption": "Each sign of the printed inscription and its letter; the three dotted M/N/O signs are marked uncertain because they were separated with the plaintext in view.",
  "unit": "signs (word breaks not shown)",
- "key_note": "Sign table rebuilt here (andreae1616/key.tsv); stand-in letters for the invented alphabet.",
+ "key_note": "Sign table rebuilt here (targets/andreae1616/key.tsv); stand-in letters for the invented alphabet.",
  "tokens": [
   {
    "g": "w",

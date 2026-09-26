@@ -116,7 +116,7 @@ vicar and the Corpus Domini procession; the Pope &ldquo;pensa di procedere&rdquo
 
 <h2 id="method"><span class="num">04</span> Method</h2>
 <p>Each digit 1&ndash;9 gives two letters and 0 nothing, but a group X0Y0 may be a nomenclator word or two letters with their nulls.
-The decoder (<code>alessandrino1568/decrypt.py</code>) works through the page keeping the best few partial decryptions at each step; at each digit it tries both letters, the null, and
+The decoder (<code>targets/alessandrino1568/decrypt.py</code>) works through the page keeping the best few partial decryptions at each step; at each digit it tries both letters, the null, and
 any nomenclator group that starts there, and scores the resulting Italian with the repository&rsquo;s shared five-gram model (it-cinquecento,
 spaces removed). The same code, with a different key table, decrypted the Morosini ciphers of 1588&ndash;89. Every page decodes at about &minus;1.75
 nats a letter, the level of ordinary text for this model, and ends in a few letters of clerk&rsquo;s padding.</p>
@@ -143,7 +143,7 @@ letters may already be in print there in clear.</li>
 <li>Luciano Serrano, <i>Correspondencia diplom&aacute;tica entre Espa&ntilde;a y la Santa Sede durante el pontificado de S. P&iacute;o V</i>, Madrid 1914 (not consulted).</li>
 </ul>
 
-<p class="muted">Decoder, notes and decoded pages: <a href="https://github.com/dbourdeau/cyphersolver/tree/main/alessandrino1568"><code>alessandrino1568/</code></a>. Page images are not reproduced.</p>
+<p class="muted">Decoder, notes and decoded pages: <a href="https://github.com/dbourdeau/cyphersolver/tree/main/targets/alessandrino1568"><code>targets/alessandrino1568/</code></a>. Page images are not reproduced.</p>
 </main>
 <footer><div class="in">
   <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Archivio Apostolico Vaticano, via DECODE R93&ndash;R102, R115</span>

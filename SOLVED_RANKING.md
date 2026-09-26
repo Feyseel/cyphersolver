@@ -76,7 +76,7 @@ Not ranked: **Monsignor Giovanni Battista Pallotto (Vienna) → Barberini**, BAV
 identified in Kiewning's 1897 edition and confirmed against the register. The key was found by others: it is the
 Biermann–Bosbach key of Barb.lat. 6956 (2018, DECODE R215), which George Lasry matched to 6960. So there is no break
 of this project's to score on these axes. See [SOLVED_CATALOGUE.md](SOLVED_CATALOGUE.md) §4 and
-[pallotto1629/](pallotto1629/).
+[targets/pallotto1629/](targets/pallotto1629/).
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here (provisional) |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -511,7 +511,7 @@ TARGETS.md as of commit d1abee8; the five provisional rows against SOLVED_CATALO
 editorial.
 
 
-Nicholas Throckmorton (BL Add MS 4136, 1560–63; catalogue 88): **prior solution verified, unranked**, 20 Sept 2026. Two archive-key samples (42 tokens) and a twenty-record edition concordance; not counted as twenty new solves or a full transcription. See [evidence and limits](throckmorton/RESULT.md).
+Nicholas Throckmorton (BL Add MS 4136, 1560–63; catalogue 88): **prior solution verified, unranked**, 20 Sept 2026. Two archive-key samples (42 tokens) and a twenty-record edition concordance; not counted as twenty new solves or a full transcription. See [evidence and limits](targets/throckmorton/RESULT.md).
 
 Sir Thomas Smith → Cecil and Elizabeth I (BL Add MS 4136 ff. 157–168, DECODE R9248–R9254, 1563–66; catalogue 89): **read at the time, re-read with the archived key, unranked**, 21 Sept 2026. Eighteen letters' cipher passages (Forbes's copies) read with Smith's key, Add MS 4136 f. 179 (DECODE R9261); the 1563 ones match Forbes's 1741 print, the 1564–66 ones were only summarised in CSP Foreign. R9236 (f. 140, catalogue 94, 21 Sept 2026) adds five letters of Oct 1562–Nov 1563 in the same key: four read and checked against Forbes/CSP; the 31 Jan 1563 advertisements fragmentary. [Write-up](https://dbourdeau.github.io/cyphersolver/smith1562.html).
 

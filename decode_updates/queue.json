@@ -16,7 +16,7 @@
      "note": "All eight letters read at letter level with Lasry's key + 3 clear decipherments; ~27 codes open.",
      "reading": [
       {
-       "file": "acciaiuoli1757/READING.md",
+       "file": "targets/acciaiuoli1757/READING.md",
        "section": "= R25,"
       }
      ],
@@ -28,7 +28,7 @@
      "note": "All eight letters read at letter level with Lasry's key + 3 clear decipherments; ~27 codes open.",
      "reading": [
       {
-       "file": "acciaiuoli1757/READING.md",
+       "file": "targets/acciaiuoli1757/READING.md",
        "section": "= R195,"
       }
      ],
@@ -40,7 +40,7 @@
      "note": "All eight letters read at letter level with Lasry's key + 3 clear decipherments; ~27 codes open.",
      "reading": [
       {
-       "file": "acciaiuoli1757/READING.md",
+       "file": "targets/acciaiuoli1757/READING.md",
        "section": "= R201,"
       }
      ],
@@ -63,7 +63,7 @@
      "note": "R75, R84 read, with no previously published reading (~92% tokens valued); most nomenclator names still open.",
      "reading": [
       {
-       "file": "ceva1632/r75.read.txt"
+       "file": "targets/ceva1632/r75.read.txt"
       }
      ],
      "sent": false
@@ -74,7 +74,7 @@
      "note": "R75, R84 read, with no previously published reading (~92% tokens valued); most nomenclator names still open.",
      "reading": [
       {
-       "file": "ceva1632/r84.read.txt"
+       "file": "targets/ceva1632/r84.read.txt"
       }
      ],
      "sent": false
@@ -96,7 +96,7 @@
      "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain.",
      "reading": [
       {
-       "file": "alessandrino1568/decrypt_raw.txt",
+       "file": "targets/alessandrino1568/decrypt_raw.txt",
        "block": "== R93 "
       }
      ],
@@ -108,7 +108,7 @@
      "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain.",
      "reading": [
       {
-       "file": "alessandrino1568/decrypt_raw.txt",
+       "file": "targets/alessandrino1568/decrypt_raw.txt",
        "block": "== R94 "
       }
      ],
@@ -120,7 +120,7 @@
      "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain.",
      "reading": [
       {
-       "file": "alessandrino1568/decrypt_raw.txt",
+       "file": "targets/alessandrino1568/decrypt_raw.txt",
        "block": "== R95 "
       }
      ],
@@ -132,7 +132,7 @@
      "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain.",
      "reading": [
       {
-       "file": "alessandrino1568/decrypt_raw.txt",
+       "file": "targets/alessandrino1568/decrypt_raw.txt",
        "block": "== R96 "
       }
      ],
@@ -144,7 +144,7 @@
      "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain.",
      "reading": [
       {
-       "file": "alessandrino1568/decrypt_raw.txt",
+       "file": "targets/alessandrino1568/decrypt_raw.txt",
        "block": "== R97 "
       }
      ],
@@ -156,7 +156,7 @@
      "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain.",
      "reading": [
       {
-       "file": "alessandrino1568/decrypt_raw.txt",
+       "file": "targets/alessandrino1568/decrypt_raw.txt",
        "block": "== R98 "
       }
      ],
@@ -168,7 +168,7 @@
      "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain.",
      "reading": [
       {
-       "file": "alessandrino1568/decrypt_raw.txt",
+       "file": "targets/alessandrino1568/decrypt_raw.txt",
        "block": "== R99 "
       }
      ],
@@ -180,7 +180,7 @@
      "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain.",
      "reading": [
       {
-       "file": "alessandrino1568/decrypt_raw.txt",
+       "file": "targets/alessandrino1568/decrypt_raw.txt",
        "block": "== R100 "
       }
      ],
@@ -192,7 +192,7 @@
      "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain.",
      "reading": [
       {
-       "file": "alessandrino1568/decrypt_raw.txt",
+       "file": "targets/alessandrino1568/decrypt_raw.txt",
        "block": "== R101 "
       }
      ],
@@ -204,7 +204,7 @@
      "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain.",
      "reading": [
       {
-       "file": "alessandrino1568/decrypt_raw.txt",
+       "file": "targets/alessandrino1568/decrypt_raw.txt",
        "block": "== R102 "
       }
      ],
@@ -216,7 +216,7 @@
      "note": "All 11 read with Lasry's polyphonic key + language model; isolated letters uncertain.",
      "reading": [
       {
-       "file": "alessandrino1568/decrypt_raw.txt",
+       "file": "targets/alessandrino1568/decrypt_raw.txt",
        "block": "== R115 "
       }
      ],
@@ -255,7 +255,7 @@
      "note": "Read from the contemporary decipherments + Lasry's key; a few codes open.",
      "reading": [
       {
-       "file": "sauli1579/transcription_R192.md"
+       "file": "targets/sauli1579/transcription_R192.md"
       }
      ],
      "sent": false
@@ -266,7 +266,7 @@
      "note": "Read from the contemporary decipherments + Lasry's key; a few codes open.",
      "reading": [
       {
-       "file": "sauli1579/transcription_R193_R194.md"
+       "file": "targets/sauli1579/transcription_R193_R194.md"
       }
      ],
      "sent": false
@@ -277,7 +277,7 @@
      "note": "Read from the contemporary decipherments + Lasry's key; a few codes open.",
      "reading": [
       {
-       "file": "sauli1579/transcription_R193_R194.md"
+       "file": "targets/sauli1579/transcription_R193_R194.md"
       }
      ],
      "sent": false
@@ -301,7 +301,7 @@
      "note": "Cipher solved; transcript noisy, 72% clean.",
      "reading": [
       {
-       "file": "rakoczi1707/R902_key08_read.txt"
+       "file": "targets/rakoczi1707/R902_key08_read.txt"
       }
      ],
      "sent": false
@@ -311,7 +311,7 @@
   "ronquillo1676": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/ronquillo1676.html",
    "key": {
-    "file": "balbases1677/key.json",
+    "file": "targets/balbases1677/key.json",
     "lang": "ES",
     "how": "the balbases1677 key"
    },
@@ -324,7 +324,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R966.txt"
+       "file": "targets/ronquillo1676/read/R966.txt"
       }
      ],
      "sent": false
@@ -335,7 +335,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R969.txt"
+       "file": "targets/ronquillo1676/read/R969.txt"
       }
      ],
      "sent": false
@@ -346,7 +346,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R970.txt"
+       "file": "targets/ronquillo1676/read/R970.txt"
       }
      ],
      "sent": false
@@ -357,7 +357,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R971.txt"
+       "file": "targets/ronquillo1676/read/R971.txt"
       }
      ],
      "sent": false
@@ -368,7 +368,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R972.txt"
+       "file": "targets/ronquillo1676/read/R972.txt"
       }
      ],
      "sent": false
@@ -379,7 +379,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R973.txt"
+       "file": "targets/ronquillo1676/read/R973.txt"
       }
      ],
      "sent": false
@@ -390,7 +390,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R974.txt"
+       "file": "targets/ronquillo1676/read/R974.txt"
       }
      ],
      "sent": false
@@ -401,7 +401,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R981.txt"
+       "file": "targets/ronquillo1676/read/R981.txt"
       }
      ],
      "sent": false
@@ -412,7 +412,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R982.txt"
+       "file": "targets/ronquillo1676/read/R982.txt"
       }
      ],
      "sent": false
@@ -423,7 +423,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R983.txt"
+       "file": "targets/ronquillo1676/read/R983.txt"
       }
      ],
      "sent": false
@@ -434,7 +434,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R984.txt"
+       "file": "targets/ronquillo1676/read/R984.txt"
       }
      ],
      "sent": false
@@ -445,7 +445,7 @@
      "note": "All 20 letters read in gist (70-94% per letter).",
      "reading": [
       {
-       "file": "ronquillo1676/read/R1001.txt"
+       "file": "targets/ronquillo1676/read/R1001.txt"
       }
      ],
      "sent": false
@@ -455,7 +455,7 @@
   "balbases1677": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/balbases1677.html",
    "key": {
-    "file": "balbases1677/key.json",
+    "file": "targets/balbases1677/key.json",
     "lang": "ES",
     "how": "rebuilt from the contemporary marginal decipherments"
    },
@@ -468,7 +468,7 @@
      "note": "Key rebuilt from margins; all 14 letters, 97% of groups; R992/996-998 read for the first time.",
      "reading": [
       {
-       "file": "balbases1677/read/R985.txt"
+       "file": "targets/balbases1677/read/R985.txt"
       }
      ],
      "sent": false
@@ -479,7 +479,7 @@
      "note": "Key rebuilt from margins; all 14 letters, 97% of groups; R992/996-998 read for the first time.",
      "reading": [
       {
-       "file": "balbases1677/read/R991.txt"
+       "file": "targets/balbases1677/read/R991.txt"
       }
      ],
      "sent": false
@@ -490,7 +490,7 @@
      "note": "Key rebuilt from margins; all 14 letters, 97% of groups; R992/996-998 read for the first time.",
      "reading": [
       {
-       "file": "balbases1677/read/R992.txt"
+       "file": "targets/balbases1677/read/R992.txt"
       }
      ],
      "sent": false
@@ -501,7 +501,7 @@
      "note": "Key rebuilt from margins; all 14 letters, 97% of groups; R992/996-998 read for the first time.",
      "reading": [
       {
-       "file": "balbases1677/read/R993.txt"
+       "file": "targets/balbases1677/read/R993.txt"
       }
      ],
      "sent": false
@@ -512,7 +512,7 @@
      "note": "Key rebuilt from margins; all 14 letters, 97% of groups; R992/996-998 read for the first time.",
      "reading": [
       {
-       "file": "balbases1677/read/R995.txt"
+       "file": "targets/balbases1677/read/R995.txt"
       }
      ],
      "sent": false
@@ -523,7 +523,7 @@
      "note": "Key rebuilt from margins; all 14 letters, 97% of groups; R992/996-998 read for the first time.",
      "reading": [
       {
-       "file": "balbases1677/read/R996.txt"
+       "file": "targets/balbases1677/read/R996.txt"
       }
      ],
      "sent": false
@@ -534,7 +534,7 @@
      "note": "Key rebuilt from margins; all 14 letters, 97% of groups; R992/996-998 read for the first time.",
      "reading": [
       {
-       "file": "balbases1677/read/R997.txt"
+       "file": "targets/balbases1677/read/R997.txt"
       }
      ],
      "sent": false
@@ -545,7 +545,7 @@
      "note": "Key rebuilt from margins; all 14 letters, 97% of groups; R992/996-998 read for the first time.",
      "reading": [
       {
-       "file": "balbases1677/read/R998.txt"
+       "file": "targets/balbases1677/read/R998.txt"
       }
      ],
      "sent": false
@@ -555,7 +555,7 @@
   "hernannunez1674": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/hernannunez1674.html",
    "key": {
-    "file": "balbases1677/key.json",
+    "file": "targets/balbases1677/key.json",
     "lang": "ES",
     "how": "the balbases1677 key, unchanged, plus four values"
    },
@@ -568,7 +568,7 @@
      "note": "Read with the Balbases key; margins verified.",
      "reading": [
       {
-       "file": "hernannunez1674/read/R1012.txt"
+       "file": "targets/hernannunez1674/read/R1012.txt"
       }
      ],
      "sent": false
@@ -579,7 +579,7 @@
      "note": "Read with the Balbases key; margins verified.",
      "reading": [
       {
-       "file": "hernannunez1674/read/R1015.txt"
+       "file": "targets/hernannunez1674/read/R1015.txt"
       }
      ],
      "sent": false
@@ -601,7 +601,7 @@
      "note": "Read with the Grand Chiffre R1024 (452/472 groups).",
      "reading": [
       {
-       "file": "vanreede1787/reading_R1026.txt"
+       "file": "targets/vanreede1787/reading_R1026.txt"
       }
      ],
      "sent": false
@@ -612,7 +612,7 @@
      "note": "Read with the Grand Chiffre R1024 (452/472 groups).",
      "reading": [
       {
-       "file": "vanreede1787/reading_R1027.txt"
+       "file": "targets/vanreede1787/reading_R1027.txt"
       }
      ],
      "sent": false
@@ -636,7 +636,7 @@
      "note": "Read with the 1765 Croiset code R1038; 56 groups open.",
      "reading": [
       {
-       "file": "deswart1782/R1036_machine_decipherment.txt"
+       "file": "targets/deswart1782/R1036_machine_decipherment.txt"
       }
      ],
      "sent": false
@@ -657,7 +657,7 @@
   "kauderbach1754": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/kauderbach1754.html",
    "key": {
-    "file": "kauderbach1754/key.json",
+    "file": "targets/kauderbach1754/key.json",
     "lang": "FR",
     "how": "one-to-one annealing onto the 1761 key vocabulary (R936)"
    },
@@ -672,7 +672,7 @@
      "note": "All ten read; 99.8% of 8,512 groups valued.",
      "reading": [
       {
-       "file": "kauderbach1754/read/R1043.txt"
+       "file": "targets/kauderbach1754/read/R1043.txt"
       }
      ],
      "sent": false
@@ -683,7 +683,7 @@
      "note": "All ten read; 99.8% of 8,512 groups valued.",
      "reading": [
       {
-       "file": "kauderbach1754/read/R1044.txt"
+       "file": "targets/kauderbach1754/read/R1044.txt"
       }
      ],
      "sent": false
@@ -694,7 +694,7 @@
      "note": "All ten read; 99.8% of 8,512 groups valued.",
      "reading": [
       {
-       "file": "kauderbach1754/read/R1954.txt"
+       "file": "targets/kauderbach1754/read/R1954.txt"
       }
      ],
      "sent": false
@@ -705,7 +705,7 @@
      "note": "All ten read; 99.8% of 8,512 groups valued.",
      "reading": [
       {
-       "file": "kauderbach1754/read/R1958.txt"
+       "file": "targets/kauderbach1754/read/R1958.txt"
       }
      ],
      "sent": false
@@ -716,7 +716,7 @@
      "note": "All ten read; 99.8% of 8,512 groups valued.",
      "reading": [
       {
-       "file": "kauderbach1754/read/R1959.txt"
+       "file": "targets/kauderbach1754/read/R1959.txt"
       }
      ],
      "sent": false
@@ -727,7 +727,7 @@
      "note": "All ten read; 99.8% of 8,512 groups valued.",
      "reading": [
       {
-       "file": "kauderbach1754/read/R2078.txt"
+       "file": "targets/kauderbach1754/read/R2078.txt"
       }
      ],
      "sent": false
@@ -738,7 +738,7 @@
      "note": "All ten read; 99.8% of 8,512 groups valued.",
      "reading": [
       {
-       "file": "kauderbach1754/read/R2079.txt"
+       "file": "targets/kauderbach1754/read/R2079.txt"
       }
      ],
      "sent": false
@@ -749,7 +749,7 @@
      "note": "All ten read; 99.8% of 8,512 groups valued.",
      "reading": [
       {
-       "file": "kauderbach1754/read/R2080.txt"
+       "file": "targets/kauderbach1754/read/R2080.txt"
       }
      ],
      "sent": false
@@ -760,7 +760,7 @@
      "note": "All ten read; 99.8% of 8,512 groups valued.",
      "reading": [
       {
-       "file": "kauderbach1754/read/R2081.txt"
+       "file": "targets/kauderbach1754/read/R2081.txt"
       }
      ],
      "sent": false
@@ -771,7 +771,7 @@
      "note": "All ten read; 99.8% of 8,512 groups valued.",
      "reading": [
       {
-       "file": "kauderbach1754/read/R2082.txt"
+       "file": "targets/kauderbach1754/read/R2082.txt"
       }
      ],
      "sent": false
@@ -781,7 +781,7 @@
   "affry1757": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/affry1757.html",
    "key": {
-    "file": "affry1757/key_U.json",
+    "file": "targets/affry1757/key_U.json",
     "lang": "FR",
     "how": "aligned on Lyonet's clear copies R1052, R1053, R1062, R1063, R1066, R1069, R1075"
    },
@@ -794,7 +794,7 @@
      "note": "Nine undeciphered letters read from key rebuilt on Lyonet's clear copies (87% of groups).",
      "reading": [
       {
-       "file": "affry1757/read/R1054.md"
+       "file": "targets/affry1757/read/R1054.md"
       }
      ],
      "sent": false
@@ -805,7 +805,7 @@
      "note": "Nine undeciphered letters read from key rebuilt on Lyonet's clear copies (87% of groups).",
      "reading": [
       {
-       "file": "affry1757/plain/R1065.txt"
+       "file": "targets/affry1757/plain/R1065.txt"
       }
      ],
      "sent": false
@@ -816,7 +816,7 @@
      "note": "Nine undeciphered letters read from key rebuilt on Lyonet's clear copies (87% of groups).",
      "reading": [
       {
-       "file": "affry1757/read/R1070.md"
+       "file": "targets/affry1757/read/R1070.md"
       }
      ],
      "sent": false
@@ -827,7 +827,7 @@
      "note": "Nine undeciphered letters read from key rebuilt on Lyonet's clear copies (87% of groups).",
      "reading": [
       {
-       "file": "affry1757/read/R1072.md"
+       "file": "targets/affry1757/read/R1072.md"
       }
      ],
      "sent": false
@@ -838,7 +838,7 @@
      "note": "Nine undeciphered letters read from key rebuilt on Lyonet's clear copies (87% of groups).",
      "reading": [
       {
-       "file": "affry1757/read/R1073.md"
+       "file": "targets/affry1757/read/R1073.md"
       }
      ],
      "sent": false
@@ -849,7 +849,7 @@
      "note": "Nine undeciphered letters read from key rebuilt on Lyonet's clear copies (87% of groups).",
      "reading": [
       {
-       "file": "affry1757/read/R1074.md"
+       "file": "targets/affry1757/read/R1074.md"
       }
      ],
      "sent": false
@@ -860,7 +860,7 @@
      "note": "Nine undeciphered letters read from key rebuilt on Lyonet's clear copies (87% of groups).",
      "reading": [
       {
-       "file": "affry1757/read/R1076.md"
+       "file": "targets/affry1757/read/R1076.md"
       }
      ],
      "sent": false
@@ -871,7 +871,7 @@
      "note": "Nine undeciphered letters read from key rebuilt on Lyonet's clear copies (87% of groups).",
      "reading": [
       {
-       "file": "affry1757/read/R2067.md"
+       "file": "targets/affry1757/read/R2067.md"
       }
      ],
      "sent": false
@@ -881,7 +881,7 @@
   "buda1489": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/buda1489.html",
    "key": {
-    "file": "buda1489/key.json",
+    "file": "targets/buda1489/key.json",
     "lang": "IT",
     "how": "Somogyi's numeric key re-anchored to the signs"
    },
@@ -897,7 +897,7 @@
      "note": "Read in gist with Somogyi's key re-anchored to the signs; short groups in ll. 5, 6 and 9 do not yet resolve.",
      "reading": [
       {
-       "file": "buda1489/r1098_reading.md"
+       "file": "targets/buda1489/r1098_reading.md"
       }
      ],
      "sent": false
@@ -923,7 +923,7 @@
      "note": "Every spelled word read; ten word codes glossed.",
      "reading": [
       {
-       "file": "warsaw/plaintext.txt"
+       "file": "targets/warsaw/plaintext.txt"
       }
      ],
      "sent": false
@@ -959,10 +959,10 @@
      "note": "Every group read. The published transcription (Tomokiyo) has ten groups 17 that are 14 on the page (the writer's crossed 4); corrected against the images, 17 = i only, 19 = t/s the one polyphonic figure. Date on the record (1686-1877) should be 30 May 1644, Brody; the clear text names the speaker as Koniecpolski.",
      "reading": [
       {
-       "file": "lucca/plaintext.txt"
+       "file": "targets/lucca/plaintext.txt"
       },
       {
-       "file": "lucca/ct.txt"
+       "file": "targets/lucca/ct.txt"
       }
      ],
      "sent": false
@@ -972,7 +972,7 @@
   "kurtz1639": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/kurtz1639.html",
    "key": {
-    "file": "kurtz1639/key.json",
+    "file": "targets/kurtz1639/key.json",
     "lang": "DE",
     "how": "rebuilt from the interlinear glosses on R3811"
    },
@@ -985,7 +985,7 @@
      "note": "Key complete (rebuilt from R3811 glosses); 55-80% of each letter coherent.",
      "reading": [
       {
-       "file": "kurtz1639/read/R3811.txt"
+       "file": "targets/kurtz1639/read/R3811.txt"
       }
      ],
      "sent": false
@@ -996,7 +996,7 @@
      "note": "Key complete (rebuilt from R3811 glosses); 55-80% of each letter coherent.",
      "reading": [
       {
-       "file": "kurtz1639/read/R3812.txt"
+       "file": "targets/kurtz1639/read/R3812.txt"
       }
      ],
      "sent": false
@@ -1007,7 +1007,7 @@
      "note": "Key complete (rebuilt from R3811 glosses); 55-80% of each letter coherent.",
      "reading": [
       {
-       "file": "kurtz1639/read/R3813.txt"
+       "file": "targets/kurtz1639/read/R3813.txt"
       }
      ],
      "sent": false
@@ -1018,7 +1018,7 @@
      "note": "Key complete (rebuilt from R3811 glosses); 55-80% of each letter coherent.",
      "reading": [
       {
-       "file": "kurtz1639/read/R3814.txt"
+       "file": "targets/kurtz1639/read/R3814.txt"
       }
      ],
      "sent": false
@@ -1029,7 +1029,7 @@
      "note": "Key complete (rebuilt from R3811 glosses); 55-80% of each letter coherent.",
      "reading": [
       {
-       "file": "kurtz1639/read/R3815.txt"
+       "file": "targets/kurtz1639/read/R3815.txt"
       }
      ],
      "sent": false
@@ -1040,7 +1040,7 @@
      "note": "Key complete (rebuilt from R3811 glosses); 55-80% of each letter coherent.",
      "reading": [
       {
-       "file": "kurtz1639/read/R4625.txt"
+       "file": "targets/kurtz1639/read/R4625.txt"
       }
      ],
      "sent": false
@@ -1051,7 +1051,7 @@
      "note": "Key complete (rebuilt from R3811 glosses); 55-80% of each letter coherent.",
      "reading": [
       {
-       "file": "kurtz1639/read/R4645.txt"
+       "file": "targets/kurtz1639/read/R4645.txt"
       }
      ],
      "sent": false
@@ -1062,7 +1062,7 @@
      "note": "Key complete (rebuilt from R3811 glosses); 55-80% of each letter coherent.",
      "reading": [
       {
-       "file": "kurtz1639/read/R4734.txt"
+       "file": "targets/kurtz1639/read/R4734.txt"
       }
      ],
      "sent": false
@@ -1073,7 +1073,7 @@
      "note": "Key complete (rebuilt from R3811 glosses); 55-80% of each letter coherent.",
      "reading": [
       {
-       "file": "kurtz1639/read/R4736.txt"
+       "file": "targets/kurtz1639/read/R4736.txt"
       }
      ],
      "sent": false
@@ -1098,7 +1098,7 @@
      "note": "Read 2026-09-18 with the 1653 English key R7537.",
      "reading": [
       {
-       "file": "bordeaux/plaintext_1653.txt"
+       "file": "targets/bordeaux/plaintext_1653.txt"
       }
      ],
      "sent": false
@@ -1109,7 +1109,7 @@
      "note": "Read 2026-09-18 with the 1653 English key R7537.",
      "reading": [
       {
-       "file": "bordeaux/plaintext_1653.txt"
+       "file": "targets/bordeaux/plaintext_1653.txt"
       }
      ],
      "sent": false
@@ -1120,7 +1120,7 @@
      "note": "Read 2026-09-18 with the 1653 English key R7537.",
      "reading": [
       {
-       "file": "bordeaux/plaintext_1653.txt"
+       "file": "targets/bordeaux/plaintext_1653.txt"
       }
      ],
      "sent": false
@@ -1130,8 +1130,8 @@
   "soria1523": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/soria1523.html",
    "key": {
-    "file": "soria1523/keyA.md",
-    "file2": "soria1523/keyB.md",
+    "file": "targets/soria1523/keyA.md",
+    "file2": "targets/soria1523/keyB.md",
     "lang": "ES",
     "how": "key A rebuilt; key B also on R9844"
    },
@@ -1147,7 +1147,7 @@
      "note": "Key-A letters read nearly throughout; key-B in substance.",
      "reading": [
       {
-       "file": "soria1523/read_r9488.md"
+       "file": "targets/soria1523/read_r9488.md"
       }
      ],
      "sent": false
@@ -1158,7 +1158,7 @@
      "note": "Duplicate of R9488 (collated); the reading of R9488 applies. Key-A letters read nearly throughout; key-B in substance.",
      "reading": [
       {
-       "file": "soria1523/read_r9488.md"
+       "file": "targets/soria1523/read_r9488.md"
       }
      ],
      "sent": false
@@ -1169,7 +1169,7 @@
      "note": "Duplicate of R9488 (spot-collated); the reading of R9488 applies. Key-A letters read nearly throughout; key-B in substance.",
      "reading": [
       {
-       "file": "soria1523/read_r9488.md"
+       "file": "targets/soria1523/read_r9488.md"
       }
      ],
      "sent": false
@@ -1180,10 +1180,10 @@
      "note": "Key-A letters read nearly throughout; key-B in substance.",
      "reading": [
       {
-       "file": "soria1523/read_r9491.md"
+       "file": "targets/soria1523/read_r9491.md"
       },
       {
-       "file": "soria1523/read_r9491_b.md"
+       "file": "targets/soria1523/read_r9491_b.md"
       }
      ],
      "sent": false
@@ -1194,7 +1194,7 @@
      "note": "Key-A letters read nearly throughout; key-B in substance.",
      "reading": [
       {
-       "file": "soria1523/read_r9492_v2.md"
+       "file": "targets/soria1523/read_r9492_v2.md"
       }
      ],
      "sent": false
@@ -1205,7 +1205,7 @@
      "note": "Duplicate of R9492 (not collated); the reading of R9492 applies. Key-A letters read nearly throughout; key-B in substance.",
      "reading": [
       {
-       "file": "soria1523/read_r9492_v2.md"
+       "file": "targets/soria1523/read_r9492_v2.md"
       }
      ],
      "sent": false
@@ -1216,7 +1216,7 @@
      "note": "Key-A letters read nearly throughout; key-B in substance.",
      "reading": [
       {
-       "file": "soria1523/read_r9494.md"
+       "file": "targets/soria1523/read_r9494.md"
       }
      ],
      "sent": false
@@ -1227,7 +1227,7 @@
      "note": "Duplicate of R9494 (used as a check); the reading of R9494 applies. Key-A letters read nearly throughout; key-B in substance.",
      "reading": [
       {
-       "file": "soria1523/read_r9494.md"
+       "file": "targets/soria1523/read_r9494.md"
       }
      ],
      "sent": false
@@ -1238,7 +1238,7 @@
      "note": "Duplicate of R9494 (not collated); the reading of R9494 applies. Key-A letters read nearly throughout; key-B in substance.",
      "reading": [
       {
-       "file": "soria1523/read_r9494.md"
+       "file": "targets/soria1523/read_r9494.md"
       }
      ],
      "sent": false
@@ -1249,7 +1249,7 @@
      "note": "Key-A letters read nearly throughout; key-B in substance.",
      "reading": [
       {
-       "file": "soria1523/read_r9497_full.md"
+       "file": "targets/soria1523/read_r9497_full.md"
       }
      ],
      "sent": false
@@ -1260,7 +1260,7 @@
      "note": "Duplicate of R9497 (used as a check); the reading of R9497 applies. Key-A letters read nearly throughout; key-B in substance.",
      "reading": [
       {
-       "file": "soria1523/read_r9497_full.md"
+       "file": "targets/soria1523/read_r9497_full.md"
       }
      ],
      "sent": false
@@ -1270,7 +1270,7 @@
   "sanchez1522": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/sanchez1522.html",
    "key": {
-    "file": "sanchez1522/key_codes.tsv",
+    "file": "targets/sanchez1522/key_codes.tsv",
     "lang": "ES",
     "how": "Tomokiyo's key plus c-block numerals added here"
    },
@@ -1286,7 +1286,7 @@
      "note": "Parts read beyond Tomokiyo 2025 (credit his key).",
      "reading": [
       {
-       "file": "sanchez1522/read_r9635.md"
+       "file": "targets/sanchez1522/read_r9635.md"
       }
      ],
      "sent": false
@@ -1297,7 +1297,7 @@
      "note": "Parts read beyond Tomokiyo 2025 (credit his key).",
      "reading": [
       {
-       "file": "sanchez1522/read_r9653.md"
+       "file": "targets/sanchez1522/read_r9653.md"
       }
      ],
      "sent": false
@@ -1307,7 +1307,7 @@
   "lopehurtado": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/lopehurtado.html",
    "key": {
-    "file": "lopehurtado/key_codes.tsv",
+    "file": "targets/lopehurtado/key_codes.tsv",
     "lang": "ES",
     "how": "crib from the clear version bound with the cipher"
    },
@@ -1323,7 +1323,7 @@
      "note": "Clerk's full contemporary clear version is on the leaves.",
      "reading": [
       {
-       "file": "lopehurtado/read_r9644.md"
+       "file": "targets/lopehurtado/read_r9644.md"
       }
      ],
      "sent": false
@@ -1334,7 +1334,7 @@
      "note": "Duplicate of R9644.",
      "reading": [
       {
-       "file": "lopehurtado/read_r9644.md"
+       "file": "targets/lopehurtado/read_r9644.md"
       }
      ],
      "sent": false
@@ -1345,7 +1345,7 @@
      "note": "Clerk's full contemporary clear version is on the leaves.",
      "reading": [
       {
-       "file": "lopehurtado/read_r9650.md"
+       "file": "targets/lopehurtado/read_r9650.md"
       }
      ],
      "sent": false
@@ -1356,7 +1356,7 @@
      "note": "No cipher on this leaf; it is entirely in clear (DECODE says partially decrypted).",
      "reading": [
       {
-       "file": "lopehurtado/read_r9652.md"
+       "file": "targets/lopehurtado/read_r9652.md"
       }
      ],
      "sent": false
@@ -1366,7 +1366,7 @@
   "sessa1524": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/sessa1524.html",
    "key": {
-    "file": "sessa1524/key_working.md",
+    "file": "targets/sessa1524/key_working.md",
     "lang": "ES",
     "how": "from the decrypted sibling letters R9897, R9893, R9834"
    },
@@ -1382,7 +1382,7 @@
      "note": "Read in part from decrypted siblings.",
      "reading": [
       {
-       "file": "sessa1524/NOTES.md",
+       "file": "targets/sessa1524/NOTES.md",
        "section": "## 3. Reading"
       }
      ],
@@ -1394,7 +1394,7 @@
      "note": "Read in part from decrypted siblings.",
      "reading": [
       {
-       "file": "sessa1524/NOTES.md",
+       "file": "targets/sessa1524/NOTES.md",
        "section": "## 3. Reading"
       }
      ],
@@ -1417,7 +1417,7 @@
      "note": "Contemporary decipherment transcribed; the decryption with Lasry's key agrees word for word (cipher \"commercio\" where the clerk wrote \"concetto\").",
      "reading": [
       {
-       "file": "dandini1580/NOTES.md",
+       "file": "targets/dandini1580/NOTES.md",
        "section": "## The reading"
       }
      ],
@@ -1442,7 +1442,7 @@
      "note": "Read with the archive key; 336/336 groups in key.",
      "reading": [
       {
-       "file": "papai1706/DOC_R805_read.txt"
+       "file": "targets/papai1706/DOC_R805_read.txt"
       }
      ],
      "sent": false
@@ -1453,7 +1453,7 @@
      "note": "Read with the archive key; 1,609/1,632 groups in key.",
      "reading": [
       {
-       "file": "papai1706/DOC_R823_read.txt"
+       "file": "targets/papai1706/DOC_R823_read.txt"
       }
      ],
      "sent": false
@@ -1464,7 +1464,7 @@
      "note": "Read with the archive key; 4,787/4,864 groups in key.",
      "reading": [
       {
-       "file": "papai1706/DOC_R765_read.txt"
+       "file": "targets/papai1706/DOC_R765_read.txt"
       }
      ],
      "sent": false
@@ -1475,7 +1475,7 @@
      "note": "Read with the archive key; 2,695/2,758 groups in key.",
      "reading": [
       {
-       "file": "papai1706/DOC_R757_read.txt"
+       "file": "targets/papai1706/DOC_R757_read.txt"
       }
      ],
      "sent": false
@@ -1486,7 +1486,7 @@
      "note": "One cipher passage (168 groups), transcribed here from the images and read with the archive key.",
      "reading": [
       {
-       "file": "papai1706/R740_read.txt"
+       "file": "targets/papai1706/R740_read.txt"
       }
      ],
      "sent": false
@@ -1497,7 +1497,7 @@
      "note": "Read with the archive key; 1,458/1,466 groups in key.",
      "reading": [
       {
-       "file": "papai1706/DOC_R741_read.txt"
+       "file": "targets/papai1706/DOC_R741_read.txt"
       }
      ],
      "sent": false
@@ -1508,7 +1508,7 @@
      "note": "Read with the archive key (Pápai's, R580/R581); 587/594 groups in key. Unsigned report from Rákóczi's envoy at Constantinople; plaintext Hungarian.",
      "reading": [
       {
-       "file": "papai1706/DOC_R784_read.txt"
+       "file": "targets/papai1706/DOC_R784_read.txt"
       }
      ],
      "sent": false
@@ -1519,7 +1519,7 @@
      "note": "Read with the archive key (Pápai's, R580/R581), unchanged. Letter of Rákóczi's envoy János Pápai at Constantinople, 1706; plaintext Hungarian.",
      "reading": [
       {
-       "file": "papai1706/DOC_R793_read.txt"
+       "file": "targets/papai1706/DOC_R793_read.txt"
       }
      ],
      "sent": false
@@ -1530,7 +1530,7 @@
      "note": "Read with the archive key (Pápai's, R580/R581), unchanged. Letter of Rákóczi's envoy János Pápai at Constantinople, 1706; plaintext Hungarian.",
      "reading": [
       {
-       "file": "papai1706/DOC_R794_read.txt"
+       "file": "targets/papai1706/DOC_R794_read.txt"
       }
      ],
      "sent": false
@@ -1541,7 +1541,7 @@
      "note": "Read with the archive key (Pápai's, R580/R581), unchanged. Letter of Rákóczi's envoy János Pápai at Constantinople, 1706; plaintext Hungarian. Groups above 322 are nulls.",
      "reading": [
       {
-       "file": "papai1706/DOC_R795_read.txt"
+       "file": "targets/papai1706/DOC_R795_read.txt"
       }
      ],
      "sent": false
@@ -1552,7 +1552,7 @@
      "note": "Read with the archive key (Pápai's, R580/R581), unchanged. Letter of Rákóczi's envoy János Pápai at Constantinople, 1706; plaintext Hungarian.",
      "reading": [
       {
-       "file": "papai1706/DOC_R796_read.txt"
+       "file": "targets/papai1706/DOC_R796_read.txt"
       }
      ],
      "sent": false
@@ -1578,10 +1578,10 @@
      "note": "1,816 of 1,829 digit pairs read; about 129 graphic-sign occurrences (words or names) unread.",
      "reading": [
       {
-       "file": "r1892/decrypt_p1.txt"
+       "file": "targets/r1892/decrypt_p1.txt"
       },
       {
-       "file": "r1892/decrypt_p2.txt"
+       "file": "targets/r1892/decrypt_p2.txt"
       }
      ],
      "sent": false
@@ -1604,7 +1604,7 @@
      "note": "Bremen 1631 read in full; key rebuilt from the interlinear decipherment written at the time (about 80% of groups glossed).",
      "reading": [
       {
-       "file": "riksarkivet1628/bremen_decoded.txt"
+       "file": "targets/riksarkivet1628/bremen_decoded.txt"
       }
      ],
      "sent": false
@@ -1615,7 +1615,7 @@
      "note": "Bremen 1631 read in full; key rebuilt from the interlinear decipherment written at the time (about 80% of groups glossed).",
      "reading": [
       {
-       "file": "riksarkivet1628/bremen_decoded.txt"
+       "file": "targets/riksarkivet1628/bremen_decoded.txt"
       }
      ],
      "sent": false
@@ -1637,10 +1637,10 @@
      "note": "~95% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
-       "file": "rome1536/R4233.md"
+       "file": "targets/rome1536/R4233.md"
       },
       {
-       "file": "rome1536/pass5/R4233_pass5.md"
+       "file": "targets/rome1536/pass5/R4233_pass5.md"
       }
      ],
      "sent": false
@@ -1651,19 +1651,19 @@
      "note": "~94% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
-       "file": "rome1536/R4234.md"
+       "file": "targets/rome1536/R4234.md"
       },
       {
-       "file": "rome1536/R4234_P8-P12.md"
+       "file": "targets/rome1536/R4234_P8-P12.md"
       },
       {
-       "file": "rome1536/R4234_P10.md"
+       "file": "targets/rome1536/R4234_P10.md"
       },
       {
-       "file": "rome1536/R4234_P15-P20.md"
+       "file": "targets/rome1536/R4234_P15-P20.md"
       },
       {
-       "file": "rome1536/pass5/R4234_pass5.md"
+       "file": "targets/rome1536/pass5/R4234_pass5.md"
       }
      ],
      "sent": false
@@ -1674,16 +1674,16 @@
      "note": "~96% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
-       "file": "rome1536/R4235.md"
+       "file": "targets/rome1536/R4235.md"
       },
       {
-       "file": "rome1536/R4235_P2-P3.md"
+       "file": "targets/rome1536/R4235_P2-P3.md"
       },
       {
-       "file": "rome1536/R4235_P8D.md"
+       "file": "targets/rome1536/R4235_P8D.md"
       },
       {
-       "file": "rome1536/pass5/R4235_pass5.md"
+       "file": "targets/rome1536/pass5/R4235_pass5.md"
       }
      ],
      "sent": false
@@ -1694,10 +1694,10 @@
      "note": "~94% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
-       "file": "rome1536/R4238.md"
+       "file": "targets/rome1536/R4238.md"
       },
       {
-       "file": "rome1536/pass5/R4238_pass5.md"
+       "file": "targets/rome1536/pass5/R4238_pass5.md"
       }
      ],
      "sent": false
@@ -1708,16 +1708,16 @@
      "note": "~94% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
-       "file": "rome1536/R4239.md"
+       "file": "targets/rome1536/R4239.md"
       },
       {
-       "file": "rome1536/R4239b.md"
+       "file": "targets/rome1536/R4239b.md"
       },
       {
-       "file": "rome1536/R4239_pass3.md"
+       "file": "targets/rome1536/R4239_pass3.md"
       },
       {
-       "file": "rome1536/pass5/R4239_pass5.md"
+       "file": "targets/rome1536/pass5/R4239_pass5.md"
       }
      ],
      "sent": false
@@ -1728,10 +1728,10 @@
      "note": "~98% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
-       "file": "rome1536/R4240.md"
+       "file": "targets/rome1536/R4240.md"
       },
       {
-       "file": "rome1536/pass5/R4240_pass5.md"
+       "file": "targets/rome1536/pass5/R4240_pass5.md"
       }
      ],
      "sent": false
@@ -1742,13 +1742,13 @@
      "note": "~98% of cipher letters read (pass 5, shape-true re-transcription from Gallica scans, checked against contemporary clear copies).",
      "reading": [
       {
-       "file": "rome1536/R4247.md"
+       "file": "targets/rome1536/R4247.md"
       },
       {
-       "file": "rome1536/R4247_letter2.md"
+       "file": "targets/rome1536/R4247_letter2.md"
       },
       {
-       "file": "rome1536/pass5/R4247_pass5.md"
+       "file": "targets/rome1536/pass5/R4247_pass5.md"
       }
      ],
      "sent": false
@@ -1759,7 +1759,7 @@
      "note": "A different cipher; resolved by the contemporary decipherment on f. 86.",
      "reading": [
       {
-       "file": "rome1536/R4248.md"
+       "file": "targets/rome1536/R4248.md"
       }
      ],
      "sent": false
@@ -1772,7 +1772,7 @@
   "sp106box10": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/sp106box10.html",
    "key": {
-    "file": "sp106box10/cat62/venetian_code.tsv",
+    "file": "targets/sp106box10/cat62/venetian_code.tsv",
     "lang": "Italian",
     "how": "the codebreaker's own grid R658 of the three-figure Venetian code, a systematic syllabary; key R725 for the two-figure system"
    },
@@ -1787,7 +1787,7 @@
     "R658": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "Codebreaker's count-and-value grid of the three-figure 'Venetian Cifer' (the code of R660/R664), groups 136-565; with it the code is a systematic syllabary, table in sp106box10/cat62/venetian_code.tsv. Same file as R657-R725, c. 1623-24.",
+     "note": "Codebreaker's count-and-value grid of the three-figure 'Venetian Cifer' (the code of R660/R664), groups 136-565; with it the code is a systematic syllabary, table in targets/sp106box10/cat62/venetian_code.tsv. Same file as R657-R725, c. 1623-24.",
      "reading": null,
      "reading_not_needed": true,
      "sent": false
@@ -1854,7 +1854,7 @@
    }
   },
   "burghley1559": {
-   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/burghley1559/NOTES.md (notes only, no site page)",
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/burghley1559/NOTES.md (notes only, no site page)",
    "key": {
     "decode": "none needed (only two cipher groups; the key record R4851 in the same series is Randolph's cipher of 31 Aug 1559 and does not apply)"
    },
@@ -1916,7 +1916,7 @@
   "harley287": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/harley287.html",
    "key": {
-    "file": "harley287/key.tsv",
+    "file": "targets/harley287/key.tsv",
     "lang": "English",
     "how": "graphic-sign substitution rebuilt from clear-text cribs; key table in NOTES"
    },
@@ -1934,7 +1934,7 @@
      "note": "Lord Cobham, Ostend, 22 Mar 1587/8, p.1; cipher runs read in sense; code 42, .7. and one verb open",
      "reading": [
       {
-       "file": "harley287/READING.md",
+       "file": "targets/harley287/READING.md",
        "section": "R8482"
       }
      ],
@@ -1946,7 +1946,7 @@
      "note": "Lord Cobham, Ostend, 22 Mar 1587/8, p.2; cipher runs read in sense, a few words open",
      "reading": [
       {
-       "file": "harley287/READING.md",
+       "file": "targets/harley287/READING.md",
        "section": "R8483"
       }
      ],
@@ -1958,7 +1958,7 @@
      "note": "Intelligence from Middelburg enclosed with Cobham letters, Mar 1588; cipher lines read, the Jesuit's surname open",
      "reading": [
       {
-       "file": "harley287/READING.md",
+       "file": "targets/harley287/READING.md",
        "section": "R8484"
       }
      ],
@@ -1970,7 +1970,7 @@
      "note": "Lord Cobham, Ostend, 20 Mar 1587/8; cipher runs read",
      "reading": [
       {
-       "file": "harley287/READING.md",
+       "file": "targets/harley287/READING.md",
        "section": "R8485"
       }
      ],
@@ -1982,7 +1982,7 @@
      "note": "Lord Cobham, Ostend, 20 Mar 1587/8; cipher runs read in sense (Pigot and Barney), a few words open",
      "reading": [
       {
-       "file": "harley287/READING.md",
+       "file": "targets/harley287/READING.md",
        "section": "R8486"
       }
      ],
@@ -1994,7 +1994,7 @@
      "note": "Lord Cobham to [Walsingham], Ostend, 20 Mar 1587/8, signed page; short runs read, some words open",
      "reading": [
       {
-       "file": "harley287/READING.md",
+       "file": "targets/harley287/READING.md",
        "section": "R8487"
       }
      ],
@@ -2038,7 +2038,7 @@
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
      "note": "Read with the key R2235 (five alphabets D,G,L,N,R): the section capital sets the first line's alphabet, then one alphabet per line in the cycle D-G-L-N-R. Not homophonic.",
-     "reading": "r2234/reading.txt",
+     "reading": "targets/r2234/reading.txt",
      "sent": false,
      "fields": {
       "cipher_type": "polyalphabetic (5 alphabets, one per line)"
@@ -2049,7 +2049,7 @@
   "sanchez1523": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/sanchez1523.html",
    "key": {
-    "file": "sanchez1522/key_codes.tsv",
+    "file": "targets/sanchez1522/key_codes.tsv",
     "lang": "ES",
     "how": "the 1522 key unchanged (Tomokiyo 2025 plus this project's additions)"
    },
@@ -2115,7 +2115,7 @@
      "note": "Sánchez to Charles V, Venice 16 Aug 1523; not in CSP. Clear text in full; cipher read at code-group level, spelled runs partly (1522 key, Tomokiyo 2025).",
      "reading": [
       {
-       "file": "sanchez1523/read_r9767.md"
+       "file": "targets/sanchez1523/read_r9767.md"
       }
      ],
      "sent": false
@@ -2154,7 +2154,7 @@
      "note": "Letter TO Rakoczi (Dantzig, 28 Oct [1707]); 97.6% of groups read with key R639 (corrected: 45=S, 47=T, 173/174=de) from a new image transcription.",
      "reading": [
       {
-       "file": "rakoczi1704/R922_image_read.txt"
+       "file": "targets/rakoczi1704/R922_image_read.txt"
       }
      ],
      "sent": false
@@ -2165,7 +2165,7 @@
      "note": "Letter TO Rakoczi, Dantzig 22 Jan 1706; contemporary clear copy on pp. 116-117; word codes differ from R639 (earlier issue).",
      "reading": [
       {
-       "file": "rakoczi1704/R852_clear.txt"
+       "file": "targets/rakoczi1704/R852_clear.txt"
       }
      ],
      "sent": false
@@ -2176,7 +2176,7 @@
      "note": "Letter TO Rakoczi (5 Nov [1707]); 97.3% of groups read with key R639 (corrected) from a new image transcription.",
      "reading": [
       {
-       "file": "rakoczi1704/R912_image_read.txt"
+       "file": "targets/rakoczi1704/R912_image_read.txt"
       }
      ],
      "sent": false
@@ -2184,10 +2184,10 @@
     "R483": {
      "decode_status": "Partially decrypted",
      "proposed": "Decrypted",
-     "note": "Rakoczi, Lwow 27 June 1711 (not 7 June); full interlinear decipherment; syllabic key (224 codes) rebuilt from it, file rakoczi1704/R483_key_rebuilt.json.",
+     "note": "Rakoczi, Lwow 27 June 1711 (not 7 June); full interlinear decipherment; syllabic key (224 codes) rebuilt from it, file targets/rakoczi1704/R483_key_rebuilt.json.",
      "reading": [
       {
-       "file": "rakoczi1704/R483_key_read.txt"
+       "file": "targets/rakoczi1704/R483_key_read.txt"
       }
      ],
      "sent": false
@@ -2261,7 +2261,7 @@
   "cobham1588": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/cobham1588.html",
    "key": {
-    "file": "cobham1588/signs.tsv",
+    "file": "targets/cobham1588/signs.tsv",
     "lang": "English",
     "how": "sign inventory rebuilt from the interlinear decipherments of R8488, R8489, R8493 (same volume)"
    },
@@ -2274,7 +2274,7 @@
      "note": "Read in part from the key of the glossed Cobham letters in the same volume; about a third of the cipher words, graded.",
      "reading": [
       {
-       "file": "cobham1588/READING.md",
+       "file": "targets/cobham1588/READING.md",
        "section": "f. 80r"
       }
      ],
@@ -2286,7 +2286,7 @@
      "note": "Read in part from the key of the glossed Cobham letters in the same volume; about a third of the cipher words, graded.",
      "reading": [
       {
-       "file": "cobham1588/READING.md",
+       "file": "targets/cobham1588/READING.md",
        "section": "f. 88r"
       }
      ],
@@ -2298,7 +2298,7 @@
      "note": "Read in part from the key of the glossed Cobham letters in the same volume; about a third of the cipher words, graded.",
      "reading": [
       {
-       "file": "cobham1588/READING.md",
+       "file": "targets/cobham1588/READING.md",
        "section": "f. 92r"
       }
      ],
@@ -2310,7 +2310,7 @@
      "note": "Read in part from the key of the glossed Cobham letters in the same volume; about a third of the cipher words, graded.",
      "reading": [
       {
-       "file": "cobham1588/READING.md",
+       "file": "targets/cobham1588/READING.md",
        "section": "f. 96v"
       }
      ],
@@ -2321,7 +2321,7 @@
   "caprile1519": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/caprile1519.html",
    "key": {
-    "file": "caprile1519/key21.json",
+    "file": "targets/caprile1519/key21.json",
     "lang": "IT",
     "how": "Homophonic sign key rebuilt by EM alignment of the transcription against J. W. Somogyi's printed decipherment of the 16 Feb 1521 postscript (R1138 and Vestigia 1920)"
    },
@@ -2344,7 +2344,7 @@
      "note": "Read in part with the key rebuilt from Somogyi 2025; no earlier decipherment. Date 6 Apr 1521, Buda, to Duke Alfonso I.",
      "reading": [
       {
-       "file": "caprile1519/decrypt21_raw.txt"
+       "file": "targets/caprile1519/decrypt21_raw.txt"
       }
      ],
      "sent": false
@@ -2355,7 +2355,7 @@
      "note": "Read in part with the same key (1520-21 sign cipher); 8 Mar 1520, to Pistofilo.",
      "reading": [
       {
-       "file": "caprile1519/decrypt21_raw.txt"
+       "file": "targets/caprile1519/decrypt21_raw.txt"
       }
      ],
      "sent": false
@@ -2373,7 +2373,7 @@
   "florence1429": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/florence1429.html",
    "key": {
-    "file": "florence1429/key_extended.md",
+    "file": "targets/florence1429/key_extended.md",
     "lang": "Italian",
     "how": "Gabbrielli's key (1863, ASF, Chiavi delle cifre ... Dieci di Balìa vol. 1 no. 1; already on DECODE as key records R5687-R5690, ASFi_SIVol1_1-4), printed by A. Meister 1902 pp. 43-50; extended 24 Sept 2026 from Gabbrielli's interlinear glosses on R3754-R3757 (6 new letter values certain, 14 probable, nulls and one nomenclator entry added; graded H/M/I in the file). Checked first that no fuller key exists in Gabbrielli's volume (keys 1-4), Meister, Somogyi 2016 or DECODE. Upload as a derived key citing R5687-R5690, and link R5687-R5690 to R3754-R3757."
    },
@@ -2383,7 +2383,7 @@
     "R3754": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "The letter carries interlinear decipherments (Gabbrielli, 1863), so it is decrypted; the key is Gabbrielli's, printed in Meister 1902 pp. 43-50 and on DECODE as R5687-R5690 (link them). Language Italian, not Latin; sender Galeotto Fibindacci da Ricasoli, Urbino, early 1425 (1424 Florentine style). Deciphered end to end with the key extended from the siblings: 97 of 99 cipher tokens (write-up and florence1429/cipher171.tsv). Status change and key reference suggested by G. Lasry, 21 Sept 2026.",
+     "note": "The letter carries interlinear decipherments (Gabbrielli, 1863), so it is decrypted; the key is Gabbrielli's, printed in Meister 1902 pp. 43-50 and on DECODE as R5687-R5690 (link them). Language Italian, not Latin; sender Galeotto Fibindacci da Ricasoli, Urbino, early 1425 (1424 Florentine style). Deciphered end to end with the key extended from the siblings: 97 of 99 cipher tokens (write-up and targets/florence1429/cipher171.tsv). Status change and key reference suggested by G. Lasry, 21 Sept 2026.",
      "reading": [
       {
        "file": "docs/florence1429.html",
@@ -2395,10 +2395,10 @@
     "R3755": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "ASF Dieci di Balìa, Responsive 3 no. 21: Galeotto Fibindacci da Ricasoli to the Dieci, [Urbino, Feb. 1425]; glosses 'la novella della rotta', Faenza, Malatesta, Modigliana, Oriuolo, Imola, il Duca, Filippo, Galeotto, Dieci, pace, fiorini. Same cipher as R3754 (Gabbrielli's key 1, DECODE R5687-R5690; extended key florence1429/key_extended.md). Language Italian, not Latin. Carries Gabbrielli's 1863 interlinear glosses over most cipher runs, so it is a decrypted letter; the glossed runs are transcribed sign by sign in florence1429/TRANSCRIPTION.md. Not yet deciphered end to end.",
+     "note": "ASF Dieci di Balìa, Responsive 3 no. 21: Galeotto Fibindacci da Ricasoli to the Dieci, [Urbino, Feb. 1425]; glosses 'la novella della rotta', Faenza, Malatesta, Modigliana, Oriuolo, Imola, il Duca, Filippo, Galeotto, Dieci, pace, fiorini. Same cipher as R3754 (Gabbrielli's key 1, DECODE R5687-R5690; extended key targets/florence1429/key_extended.md). Language Italian, not Latin. Carries Gabbrielli's 1863 interlinear glosses over most cipher runs, so it is a decrypted letter; the glossed runs are transcribed sign by sign in targets/florence1429/TRANSCRIPTION.md. Not yet deciphered end to end.",
      "reading": [
       {
-       "file": "florence1429/TRANSCRIPTION.md",
+       "file": "targets/florence1429/TRANSCRIPTION.md",
        "section": "no. 21 (Responsive 3 no. 21, DECODE R3755)"
       }
      ],
@@ -2407,10 +2407,10 @@
     "R3756": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "ASF Dieci di Balìa, Responsive 3 no. 91 (DECODE name Responsive_3_096): Galeotto Fibindacci da Ricasoli, Urbino, 17 Feb. [1425]; glosses Carlo, Galeotto, Malatesta, mandato, del duca, guerra. Same cipher as R3754 (Gabbrielli's key 1, DECODE R5687-R5690; extended key florence1429/key_extended.md). Language Italian, not Latin. Carries Gabbrielli's 1863 interlinear glosses over most cipher runs, so it is a decrypted letter; the glossed runs are transcribed sign by sign in florence1429/TRANSCRIPTION.md. Not yet deciphered end to end.",
+     "note": "ASF Dieci di Balìa, Responsive 3 no. 91 (DECODE name Responsive_3_096): Galeotto Fibindacci da Ricasoli, Urbino, 17 Feb. [1425]; glosses Carlo, Galeotto, Malatesta, mandato, del duca, guerra. Same cipher as R3754 (Gabbrielli's key 1, DECODE R5687-R5690; extended key targets/florence1429/key_extended.md). Language Italian, not Latin. Carries Gabbrielli's 1863 interlinear glosses over most cipher runs, so it is a decrypted letter; the glossed runs are transcribed sign by sign in targets/florence1429/TRANSCRIPTION.md. Not yet deciphered end to end.",
      "reading": [
       {
-       "file": "florence1429/TRANSCRIPTION.md",
+       "file": "targets/florence1429/TRANSCRIPTION.md",
        "section": "no. 91 (Responsive 3 no. 91 [DECODE name Responsive_3_096], DECODE R3756)"
       }
      ],
@@ -2419,10 +2419,10 @@
     "R3757": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "ASF Dieci di Balìa, Responsive 3 no. 92 (DECODE name Responsive_3_097): Galeotto Fibindacci da Ricasoli, Urbino, 28 Feb. [1425], with a postscript; glosses hieri venne, il conte, salvo condotto, Mingardo, Faenza, ambasciatore. Same cipher as R3754 (Gabbrielli's key 1, DECODE R5687-R5690; extended key florence1429/key_extended.md). Language Italian, not Latin. Carries Gabbrielli's 1863 interlinear glosses over most cipher runs, so it is a decrypted letter; the glossed runs are transcribed sign by sign in florence1429/TRANSCRIPTION.md. About fifteen glossed runs not yet transcribed; not deciphered end to end.",
+     "note": "ASF Dieci di Balìa, Responsive 3 no. 92 (DECODE name Responsive_3_097): Galeotto Fibindacci da Ricasoli, Urbino, 28 Feb. [1425], with a postscript; glosses hieri venne, il conte, salvo condotto, Mingardo, Faenza, ambasciatore. Same cipher as R3754 (Gabbrielli's key 1, DECODE R5687-R5690; extended key targets/florence1429/key_extended.md). Language Italian, not Latin. Carries Gabbrielli's 1863 interlinear glosses over most cipher runs, so it is a decrypted letter; the glossed runs are transcribed sign by sign in targets/florence1429/TRANSCRIPTION.md. About fifteen glossed runs not yet transcribed; not deciphered end to end.",
      "reading": [
       {
-       "file": "florence1429/TRANSCRIPTION.md",
+       "file": "targets/florence1429/TRANSCRIPTION.md",
        "section": "no. 92 (Responsive 3 no. 92 [DECODE name Responsive_3_097], DECODE R3757)"
       }
      ],
@@ -2567,7 +2567,7 @@
     "R9236": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Forbes copy of cipher passages of five Smith letters (to Cecil 15 Oct, 20 Oct, 15/17 Dec 1562; to the Queen 4 Nov 1563; advertisements 31 Jan 1562/3); read with key R9261 (not R9262). 15 Oct, 20 Oct, 15/17 Dec 1562 agree with Forbes, Full View ii 119, 122, 238; 4 Nov 1563 agrees with CSP Foreign vi no. 1366; 31 Jan 1562/3 advertisements read only in fragments. Readings: smith1562/decipher_E.md.",
+     "note": "Forbes copy of cipher passages of five Smith letters (to Cecil 15 Oct, 20 Oct, 15/17 Dec 1562; to the Queen 4 Nov 1563; advertisements 31 Jan 1562/3); read with key R9261 (not R9262). 15 Oct, 20 Oct, 15/17 Dec 1562 agree with Forbes, Full View ii 119, 122, 238; 4 Nov 1563 agrees with CSP Foreign vi no. 1366; 31 Jan 1562/3 advertisements read only in fragments. Readings: targets/smith1562/decipher_E.md.",
      "reading": null,
      "sent": false,
      "reading_not_needed": false
@@ -2609,7 +2609,7 @@
      "note": "The clear letter's ciphered last sentence read with Lasry's key (one transcription slip, 63 = se); code 8107 open; the sentence continues on an unimaged leaf.",
      "reading": [
       {
-       "file": "lucini1767/READING.md"
+       "file": "targets/lucini1767/READING.md"
       }
      ],
      "sent": false
@@ -2654,7 +2654,7 @@
      "note": "Printed by Luo 2021 p. 287 (key AGS Estado leg. 1.1.1 doc. 169); pp. 16-17 also deciphered on the leaves (pp. 17-18). Origin: Borgo San Donnino (Italy), not Burgos; date 17 May 1536 (text: 'a xvii de Mayo'), not 8 May.",
      "reading": [
       {
-       "file": "charles1536/NOTES.md"
+       "file": "targets/charles1536/NOTES.md"
       }
      ],
      "fields": {
@@ -2670,7 +2670,7 @@
      "note": "Deciphered at the time: margins of ff. 10-12 and full decipherment ff. 13-14. The note 'Correspondence between the emperor and the empress 1531-1532' does not apply: this is Charles V to Prince Philip, Cremona, 19 June 1543.",
      "reading": [
       {
-       "file": "charles1536/NOTES.md"
+       "file": "targets/charles1536/NOTES.md"
       }
      ],
      "sent": false
@@ -2722,7 +2722,7 @@
     "R9": {
      "decode_status": "Partially decrypted",
      "proposed": "Decrypted",
-     "note": "Read at the time (decifrato in the volume) and printed deciphered in Lestocquoy, Acta Nuntiaturae Gallicae 9 (1972), no. 124; Lasry's key on the record reproduces it. Letter dated 1553-12-14, not 28 Jul 1552 (volume start). The three cancelled cipher lines are the clear P.S. below them (santacroce1552/r9_cancelled.txt).",
+     "note": "Read at the time (decifrato in the volume) and printed deciphered in Lestocquoy, Acta Nuntiaturae Gallicae 9 (1972), no. 124; Lasry's key on the record reproduces it. Letter dated 1553-12-14, not 28 Jul 1552 (volume start). The three cancelled cipher lines are the clear P.S. below them (targets/santacroce1552/r9_cancelled.txt).",
      "reading": null,
      "reading_not_needed": true,
      "fields": {
@@ -2744,7 +2744,7 @@
    }
   },
   "sadler1543": {
-   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/sadler1543/NOTES.md (notes only, no site page)",
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/sadler1543/NOTES.md (notes only, no site page)",
    "key": {
     "decode": "none needed (the contemporary decipher is bound at fol. 218)"
    },
@@ -2819,7 +2819,7 @@
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
      "note": "Read with George Lasry's reconstructed key TNA SP106-5 (on R929, the King-Queen cipher) applied unchanged: the King cannot convoy his artillery train and asks Rupert to march speedily and fetch it. Groups 81-98 are outside the key; about 15 code groups stay open.",
-     "reading": "rupert1645/reading.md",
+     "reading": "targets/rupert1645/reading.md",
      "sent": false
     }
    }
@@ -2890,7 +2890,7 @@
      "note": "Walsingham to Wotton, the Court, 21 Aug 1585: clear English with name numbers; not calendared; transcribed. Name code: 10 King James VI, 19 Earl of Arran, 20 Lord Maxwell (Morton), 24 Farnihurst, 39 Master of Gray, 40 Justice Clerk (from CSP glosses); 11 French party, 36 England (probable); 13, 14, 23, 30, 37 unidentified.",
      "reading": [
       {
-       "file": "walsingham1585/reading_R4840.txt"
+       "file": "targets/walsingham1585/reading_R4840.txt"
       }
      ],
      "sent": false
@@ -2901,7 +2901,7 @@
      "note": "Walsingham to Wotton, the Court, 10 Sep 1585: clear English with name numbers and about 14 words in a sign alphabet, unread (the interlinear decipherment is blotted out; no key found). Name code: 10 King James VI, 19 Earl of Arran, 20 Lord Maxwell (Morton), 24 Farnihurst, 39 Master of Gray, 40 Justice Clerk (from CSP glosses); 11 French party, 36 England (probable); 13, 14, 23, 30, 37 unidentified.",
      "reading": [
       {
-       "file": "walsingham1585/reading_R4844.txt"
+       "file": "targets/walsingham1585/reading_R4844.txt"
       }
      ],
      "sent": false
@@ -2921,14 +2921,14 @@
     "R1894": {
      "decode_status": "Non-decrypted",
      "proposed": "Non-decrypted",
-     "note": "Not read. The date 1 Jan 1520 is a placeholder for BnF's 1520-29 range; the same code is used in the letter to 'Garbino', Madrid 11 Apr 1528 (BnF fr. 3022 no. 20), so the late 1520s is likelier. R4450 (BnF fr. 20506 f. 136) is a copy of f. 9. A full transcription of ff. 9r-10v (initial letter + number groups) is attached; about 3,900 groups of this code are transcribed in all (vasto1527/n20/).",
+     "note": "Not read. The date 1 Jan 1520 is a placeholder for BnF's 1520-29 range; the same code is used in the letter to 'Garbino', Madrid 11 Apr 1528 (BnF fr. 3022 no. 20), so the late 1520s is likelier. R4450 (BnF fr. 20506 f. 136) is a copy of f. 9. A full transcription of ff. 9r-10v (initial letter + number groups) is attached; about 3,900 groups of this code are transcribed in all (targets/vasto1527/n20/).",
      "reading": null,
      "reading_not_needed": true,
      "transcription": [
-      "vasto1527/n20/ranzo_c017.txt",
-      "vasto1527/n20/ranzo_c018.txt",
-      "vasto1527/n20/ranzo_c019.txt",
-      "vasto1527/n20/ranzo_c020.txt"
+      "targets/vasto1527/n20/ranzo_c017.txt",
+      "targets/vasto1527/n20/ranzo_c018.txt",
+      "targets/vasto1527/n20/ranzo_c019.txt",
+      "targets/vasto1527/n20/ranzo_c020.txt"
      ],
      "sent": false
     },
@@ -2960,8 +2960,8 @@
       "date": "1788-12-22"
      },
      "transcription": [
-      "dedem1788/tx/R2121_cipher.txt",
-      "dedem1788/tx/R2121_clear.txt"
+      "targets/dedem1788/tx/R2121_cipher.txt",
+      "targets/dedem1788/tx/R2121_clear.txt"
      ]
     },
     "R2122": {
@@ -2972,7 +2972,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "dedem1788/tx/R2122_cipher.txt"
+      "targets/dedem1788/tx/R2122_cipher.txt"
      ]
     },
     "R2131": {
@@ -2983,7 +2983,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "dedem1788/tx/R2131_cipher.txt"
+      "targets/dedem1788/tx/R2131_cipher.txt"
      ]
     }
    }
@@ -3003,7 +3003,7 @@
      "note": "Read at the time: decipherment written above each cipher run on f.138r; Biermann-Bosbach key fits. Letter is Bernardino Spada (abp. of Damiata), Paris, 15 Aug 1625.",
      "reading": [
       {
-       "file": "damiata1624/NOTES.md",
+       "file": "targets/damiata1624/NOTES.md",
        "section": "## What the records are"
       }
      ],
@@ -3015,7 +3015,7 @@
      "note": "Read at the time: decipherment written above the figures on f.186r ('A cenar l'occasione di rispettar i Francesi sospettosissimi e gelosi di loro natura'). Bernardino Naro, Paris, last Feb 1625.",
      "reading": [
       {
-       "file": "damiata1624/NOTES.md",
+       "file": "targets/damiata1624/NOTES.md",
        "section": "## What the records are"
       }
      ],
@@ -3027,7 +3027,7 @@
      "note": "Read at the time: three passages glossed on the leaf; Biermann-Bosbach key fits. Bernardino Naro, Paris, 14 Apr 1625 (not 3 Jan).",
      "reading": [
       {
-       "file": "damiata1624/NOTES.md",
+       "file": "targets/damiata1624/NOTES.md",
        "section": "## What the records are"
       }
      ],
@@ -3068,7 +3068,7 @@
   "bergamo1585": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/bergamo1585.html",
    "key": {
-    "file": "bergamo1585/meister324_nomenclator.txt",
+    "file": "targets/bergamo1585/meister324_nomenclator.txt",
     "lang": "IT",
     "how": "R16: Lasry's F18 key (D3105) with the nomenclator of Meister p. 324 no. 2; R17: Meister pp. 393-394 no. 40, LM segmentation"
    },
@@ -3121,7 +3121,7 @@
   "champagne1590": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/champagne1590.html",
    "key": {
-    "file": "champagne1590/NOTES.md",
+    "file": "targets/champagne1590/NOTES.md",
     "lang": "French",
     "how": "no. 23: key slip bound on f. 36r; nos. 24/25/60: alphabetical two-digit table rebuilt from interlinear glosses"
    },
@@ -3144,7 +3144,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "champagne1590/ct_3623_twodigit.txt"
+      "targets/champagne1590/ct_3623_twodigit.txt"
      ]
     },
     "R9455": {
@@ -3169,13 +3169,13 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "champagne1590/ct_3623_78.txt"
+      "targets/champagne1590/ct_3623_78.txt"
      ]
     }
    }
   },
   "middelmore1563": {
-   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/middelmore1563/NOTES.md (notes only, no site page)",
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/middelmore1563/NOTES.md (notes only, no site page)",
    "key": {
     "none": "no key on DECODE or in the volume; the reading is Forbes's printed text"
    },
@@ -3214,7 +3214,7 @@
   "norreys1567": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/norreys1567.html",
    "key": {
-    "file": "norreys1567/NOTES.md",
+    "file": "targets/norreys1567/NOTES.md",
     "lang": "EN",
     "how": "Tomokiyo's reconstruction of the Cecil-Norris cipher (1568) from Cabala (1663), applied to Forbes's copies"
    },
@@ -3235,7 +3235,7 @@
    }
   },
   "throck1560": {
-   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/throck1560/NOTES.md (notes only, no site page)",
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/throck1560/NOTES.md (notes only, no site page)",
    "key": {
     "none": "not tested: no images on the record; Throckmorton's ciphers are R9260 (first, second) and R9262 (third)"
    },
@@ -3258,7 +3258,7 @@
    }
   },
   "lomer1563": {
-   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/lomer1563/NOTES.md (notes only, no site page)",
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/lomer1563/NOTES.md (notes only, no site page)",
    "key": {
     "decode": "R9262, Sir Nicholas Throckmorton's third cipher (same volume, f.180)"
    },
@@ -3284,7 +3284,7 @@
    }
   },
   "harley6345": {
-   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/harley6345/NOTES.md (notes only, no site page)",
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/harley6345/NOTES.md (notes only, no site page)",
    "key": {
     "none": "no key needed: one code name; key record R7764 (Harley 6345 f. 186) is a clear 1521 page, not a key"
    },
@@ -3331,7 +3331,7 @@
   "spinelly1516": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/spinelly1516.html",
    "key": {
-    "file": "spinelly1516/NOTES.md",
+    "file": "targets/spinelly1516/NOTES.md",
     "lang": "EN",
     "how": "Monoalphabetic substitution of invented signs with word signs, rebuilt from the clear-text crib audensier; table in NOTES.md."
    },
@@ -3376,7 +3376,7 @@
       "cleartext_lang": "French"
      },
      "transcription": [
-      "bl32305/R2964_transcription.txt"
+      "targets/bl32305/R2964_transcription.txt"
      ]
     },
     "R2965": {
@@ -3400,7 +3400,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "bl32305/carre/transcription_R2968.txt"
+      "targets/bl32305/carre/transcription_R2968.txt"
      ],
      "fields": {
       "receiver": "Mr Carré, Pall Mall, London",
@@ -3416,7 +3416,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "bl32305/carre/transcription_R2970.txt"
+      "targets/bl32305/carre/transcription_R2970.txt"
      ],
      "fields": {
       "date": "1742-08-22 (received; letter undated)",
@@ -3433,7 +3433,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "bl32305/carre/transcription_R2972.txt"
+      "targets/bl32305/carre/transcription_R2972.txt"
      ],
      "fields": {
       "cipher_types": "code (two-part, 3-figure)",
@@ -3475,7 +3475,7 @@
   "anne1711": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/anne1711.html",
    "key": {
-    "file": "anne1711/alignment.tsv",
+    "file": "targets/anne1711/alignment.tsv",
     "lang": "EN",
     "how": "No key found. The code runs are aligned with the clear text printed by Parke (1798) i 310-311; recurring groups are constant (534 to, 678 the, 839 you, 894 him, 609 his)."
    },
@@ -3518,7 +3518,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "prussia1702/transcription.txt"
+      "targets/prussia1702/transcription.txt"
      ]
     }
    }
@@ -3526,7 +3526,7 @@
   "stowe166": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/stowe166.html",
    "key": {
-    "file": "stowe166/NOTES.md",
+    "file": "targets/stowe166/NOTES.md",
     "lang": "English",
     "how": "graphic-sign simple substitution rebuilt from the clear context; table in NOTES"
    },
@@ -3609,9 +3609,9 @@
   "lopehurtado1523": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/lopehurtado1523.html",
    "key": {
-    "file": "lopehurtado1523/key_1524.tsv",
+    "file": "targets/lopehurtado1523/key_1524.tsv",
     "lang": "ES",
-    "how": "Lope Hurtado's 1522 key (lopehurtado/key_codes.tsv) revised against the clerk's clear of R9846 on f. 133r: 105 values, 65 confirmed; additions in key_1524_additions.tsv and key_1523_additions.tsv"
+    "how": "Lope Hurtado's 1522 key (targets/lopehurtado/key_codes.tsv) revised against the clerk's clear of R9846 on f. 133r: 105 values, 65 confirmed; additions in key_1524_additions.tsv and key_1523_additions.tsv"
    },
    "cite": "G. A. Bergenroth (ed.), Calendar of State Papers, Spain, vol. 2 (1866), nos. 548 (R9667) and 617 (R9846), abstracts from the contemporary decipherings",
    "fields": {
@@ -3668,7 +3668,7 @@
      "note": "To Charles V, Rome June 1523 (docket 10 June); clear transcribed, 8 cipher lines read in fragments with the rebuilt 1524 key. Not in CSP.",
      "reading": [
       {
-       "file": "lopehurtado1523/read_r9683.md"
+       "file": "targets/lopehurtado1523/read_r9683.md"
       }
      ],
      "sent": false
@@ -3679,7 +3679,7 @@
      "note": "Autograph draft to Charles V, Rome 8 July 1523 (DECODE: June). Clear read; cipher lines hardly read. Not in CSP.",
      "reading": [
       {
-       "file": "lopehurtado1523/read_r9695.md"
+       "file": "targets/lopehurtado1523/read_r9695.md"
       }
      ],
      "sent": false
@@ -3690,10 +3690,10 @@
      "note": "To Charles V, Rome 3/5 Feb 1524 = CSP Spain 2 no. 617. The clerk's clear of the first third is bound on f. 133r; ff. 130r-130v aligned against it clause by clause (the key's source). ff. 131r-132v not read.",
      "reading": [
       {
-       "file": "lopehurtado1523/r9846_clear.txt"
+       "file": "targets/lopehurtado1523/r9846_clear.txt"
       },
       {
-       "file": "lopehurtado1523/r9846_alignment.md"
+       "file": "targets/lopehurtado1523/r9846_alignment.md"
       }
      ],
      "sent": false
@@ -3704,7 +3704,7 @@
      "note": "To Gattinara (not unknown), Rome 28 Feb 1524, in 9/30 not 9/28. Clear transcribed; cipher read a quarter to a third.",
      "reading": [
       {
-       "file": "lopehurtado1523/read_r9866.md"
+       "file": "targets/lopehurtado1523/read_r9866.md"
       }
      ],
      "sent": false
@@ -3715,7 +3715,7 @@
      "note": "To Charles V, Rome 4 Jan 1524 (date and signature spelled in cipher), in 9/30. Wholly cipher, about 60% reads as Spanish.",
      "reading": [
       {
-       "file": "lopehurtado1523/read_r9867.md"
+       "file": "targets/lopehurtado1523/read_r9867.md"
       }
      ],
      "sent": false
@@ -3726,7 +3726,7 @@
      "note": "To Gattinara (not unknown), Rome 20 Mar 1524, in 9/30. Clear transcribed; cipher of f. 430r mostly read, f. 430v not.",
      "reading": [
       {
-       "file": "lopehurtado1523/read_r9868.md"
+       "file": "targets/lopehurtado1523/read_r9868.md"
       }
      ],
      "sent": false
@@ -3737,7 +3737,7 @@
      "note": "To Charles V, Rome 28 Mar 1524, in 9/30. Clear transcribed; cipher read about two thirds.",
      "reading": [
       {
-       "file": "lopehurtado1523/read_r9869.md"
+       "file": "targets/lopehurtado1523/read_r9869.md"
       }
      ],
      "sent": false
@@ -3969,10 +3969,10 @@
     "R8871": {
      "decode_status": "Non-decrypted",
      "proposed": "Non-decrypted",
-     "note": "f. 3 = 'Suite du No 13' / 'No 24': 77 three-character groups (letters, digits, oe) on a ruled form, French hand; transcription in r8871/f3_transcription.txt. No matching key among this volume's key records.",
+     "note": "f. 3 = 'Suite du No 13' / 'No 24': 77 three-character groups (letters, digits, oe) on a ruled form, French hand; transcription in targets/r8871/f3_transcription.txt. No matching key among this volume's key records.",
      "reading": [
       {
-       "file": "r8871/f3_transcription.txt",
+       "file": "targets/r8871/f3_transcription.txt",
        "section": ""
       }
      ],
@@ -3983,7 +3983,7 @@
   "castelcicala1816": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/castelcicala1816.html",
    "key": {
-    "file": "castelcicala1816/key.tsv",
+    "file": "targets/castelcicala1816/key.tsv",
     "lang": "Italian",
     "how": "162 values rebuilt from the contemporary interlinear decipherments on R9566 p3, R9569, R9571, R9589, graded G/X/I; partial"
    },
@@ -4071,7 +4071,7 @@
   "nunzio1736": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/nunzio1736.html",
    "key": {
-    "decode": "George Lasry's reconstructed key ASV - S423 attached to these records; 46 nomenclator values it lacks in nunzio1736/key_extra.txt",
+    "decode": "George Lasry's reconstructed key ASV - S423 attached to these records; 46 nomenclator values it lacks in targets/nunzio1736/key_extra.txt",
     "lang": "IT"
    },
    "cite": null,
@@ -4329,7 +4329,7 @@
     "R7931": {
      "decode_status": "Partially decrypted",
      "proposed": "N/A",
-     "note": "Not a letter: the Deciphering Branch's fair copy of its reconstructed Italian nomenclator (1-300, 193 filled) for Count Visconti at Brussels with Marq.s Visconti in London, 1727 (endorsement on image 2). Should be typed as a key, like its draft R7932 on ff. 43-44. Transcription: visconti1727/key_f42.tsv.",
+     "note": "Not a letter: the Deciphering Branch's fair copy of its reconstructed Italian nomenclator (1-300, 193 filled) for Count Visconti at Brussels with Marq.s Visconti in London, 1727 (endorsement on image 2). Should be typed as a key, like its draft R7932 on ff. 43-44. Transcription: targets/visconti1727/key_f42.tsv.",
      "reading": null,
      "sent": false,
      "reading_not_needed": true
@@ -4575,7 +4575,7 @@
      "note": "Deciphered at the time in the margin (Tomokiyo, cryptiana); the cipher is the Imperial Cipher of 1544-1554.",
      "reading": [
       {
-       "file": "vargas1552/NOTES.md"
+       "file": "targets/vargas1552/NOTES.md"
       }
      ],
      "sent": false
@@ -4594,7 +4594,7 @@
      "note": "Read at the time: image 5 (AGS Estado 862 f. 54r) is the contemporary decipherment of the cipher on ff. 53r-54r; marginal gloss on f. 53r. Letter dated Rome, 3 Sept 1534.",
      "reading": [
       {
-       "file": "cifuentes1534/NOTES.md",
+       "file": "targets/cifuentes1534/NOTES.md",
        "section": "## The document"
       }
      ],
@@ -4605,7 +4605,7 @@
   "ayala1516": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/ayala1516.html",
    "key": {
-    "file": "ayala1516/KEY.md",
+    "file": "targets/ayala1516/KEY.md",
     "lang": "ES",
     "how": "S. Tomokiyo's key (cryptiana spanish2C) rebuilt from R10024, with corrections (Phi=m, hook=j/x, two s variants, code signs for Xebres and emperador)"
    },
@@ -4673,7 +4673,7 @@
   "hereditary1796": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/hereditary1796.html",
    "key": {
-    "file": "hereditary1796/key_wordlist.txt",
+    "file": "targets/hereditary1796/key_wordlist.txt",
     "lang": "FR",
     "how": "numbered word list rebuilt from the contemporary decipherment bound in R2237 (same list), completed with Colenbrander's printed text as a crib"
    },
@@ -4684,7 +4684,7 @@
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
      "note": "Word-list code: each group is a whole entry, chosen letters of an entry, or an entry cut by k letters at the front (k/N) or back (N^k). List rebuilt from R2237's bound decipherment; the body is printed in Colenbrander, Gedenkstukken II no. 752, as to Prince Frederik; the opening paragraph is not printed and is read here. One word (entry 244) open.",
-     "reading": "hereditary1796/r2239_reading.txt",
+     "reading": "targets/hereditary1796/r2239_reading.txt",
      "sent": false,
      "fields": {
       "cipher_type": "code (numbered word list; whole words, letter positions, truncations)",
@@ -4696,7 +4696,7 @@
   "sessa1523": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/sessa1523.html",
    "key": {
-    "decode": "Sessa-Charles V 1523-25 nomenclator rebuilt from the court's decipherments (cyphersolver sessa1524/key_working.md)",
+    "decode": "Sessa-Charles V 1523-25 nomenclator rebuilt from the court's decipherments (cyphersolver targets/sessa1524/key_working.md)",
     "lang": "ES"
    },
    "cite": null,
@@ -4711,7 +4711,7 @@
      "note": "Sessa to Charles V, 'En Sesa a xx de hebrero de 1523' (RAH 9/27 ff. 141-147). Cipher is the Sessa-Charles V nomenclator of 1523-25; about 57% of the cipher read with it; about 150 code groups still open.",
      "reading": [
       {
-       "file": "sessa1523/reading_r9660.txt"
+       "file": "targets/sessa1523/reading_r9660.txt"
       }
      ],
      "sent": false
@@ -4722,7 +4722,7 @@
      "note": "Sessa to Charles V, Rome 26 Apr 1523 (ff. 437-438). Mostly clear; three short cipher runs, two deciphered interlinearly at the time, the third ('Su Sd. por esta bula es declarado contra Francia') confirmed by a contemporary margin note.",
      "reading": [
       {
-       "file": "sessa1523/reading_r9665.txt"
+       "file": "targets/sessa1523/reading_r9665.txt"
       }
      ],
      "sent": false
@@ -4777,7 +4777,7 @@
   "needham1587": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/needham1587.html",
    "key": {
-    "file": "needham1587/decode.py",
+    "file": "targets/needham1587/decode.py",
     "lang": "EN",
     "how": "Three-grid pigpen rebuilt from the contemporary glosses: nine box shapes plain = a-i, dot below = k-s, dot inside = t-z."
    },
@@ -4796,7 +4796,7 @@
      "note": "Francis Needham to Walsingham before Sluys. Pigpen key rebuilt from the glosses; every unglossed run of f. 39v read, one word open.",
      "reading": [
       {
-       "file": "needham1587/cipher.txt"
+       "file": "targets/needham1587/cipher.txt"
       }
      ],
      "sent": false
@@ -4835,7 +4835,7 @@
   "wod1568": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/wod1568.html",
    "key": {
-    "decode": "Tomokiyo's Cipher 1 key attached to R2988 (DOC_2988), with seven corrections listed in wod1568/NOTES.md"
+    "decode": "Tomokiyo's Cipher 1 key attached to R2988 (DOC_2988), with seven corrections listed in targets/wod1568/NOTES.md"
    },
    "cite": null,
    "fields": {},
@@ -4875,7 +4875,7 @@
      "note": "Read with Lasry's key; Bonavoglia's reading confirmed; 18 = qu, 55 = gli, 67 = g added; 45, 43, 76, 9336, 9356, 9441, 9485 open.",
      "reading": [
       {
-       "file": "colonia1721/READING.md"
+       "file": "targets/colonia1721/READING.md"
       }
      ],
      "sent": false
@@ -4885,9 +4885,9 @@
   "kaa4591": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/kaa4591.html",
    "key": {
-    "file": "kaa4591/NOTES.md",
+    "file": "targets/kaa4591/NOTES.md",
     "lang": "LA/DE",
-    "how": "Per record: R9325 key R9324 (same volume); R9322/R9323/R9417 key rebuilt from interlinear glosses (kaa4591/sysB/key_from_glosses.tsv); R9408-R9427 key from the R9427 gloss (kaa4591/r9427/key_full.tsv, kaa4591/sysA_decode.py); R9367 key register R9423 block 2_4; R9416 f.263 solved ciphertext-only"
+    "how": "Per record: R9325 key R9324 (same volume); R9322/R9323/R9417 key rebuilt from interlinear glosses (targets/kaa4591/sysB/key_from_glosses.tsv); R9408-R9427 key from the R9427 gloss (targets/kaa4591/r9427/key_full.tsv, targets/kaa4591/sysA_decode.py); R9367 key register R9423 block 2_4; R9416 f.263 solved ciphertext-only"
    },
    "cite": null,
    "fields": {},
@@ -4917,7 +4917,7 @@
      "note": "f.121 Hieronymus Laski, Buda 24 Nov 1529 (copy to Count Palatine Frederick); f.122 King John of Hungary to Duke Ludwig of Bavaria. Key rebuilt from the interlinear glosses.",
      "reading": [
       {
-       "file": "kaa4591/sysB/decoded.txt"
+       "file": "targets/kaa4591/sysB/decoded.txt"
       }
      ],
      "sent": false,
@@ -4934,7 +4934,7 @@
      "note": "Laski to the Bavarian secretary; lines 4 and 8-10 faint. Key rebuilt from glosses on R9322/R9417.",
      "reading": [
       {
-       "file": "kaa4591/sysB/R9323_decoded.txt"
+       "file": "targets/kaa4591/sysB/R9323_decoded.txt"
       }
      ],
      "sent": false,
@@ -4948,7 +4948,7 @@
      "note": "Fulda affair 1576: abbot Balthasar von Dernbach protests. Key R9324 (f. 124-127, same volume).",
      "reading": [
       {
-       "file": "kaa4591/r9325/reading.txt"
+       "file": "targets/kaa4591/r9325/reading.txt"
       }
      ],
      "sent": false,
@@ -5029,7 +5029,7 @@
      "note": "Laski, Krakow 16 June [1530], to the Bavarian secretary. Key rebuilt from the interlinear glosses.",
      "reading": [
       {
-       "file": "kaa4591/sysB/decoded.txt"
+       "file": "targets/kaa4591/sysB/decoded.txt"
       }
      ],
      "sent": false,
@@ -5132,7 +5132,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "desmarets1710/transcription.txt"
+      "targets/desmarets1710/transcription.txt"
      ]
     }
    }
@@ -5154,13 +5154,13 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "zeschau1841/ct_R5005.txt"
+      "targets/zeschau1841/ct_R5005.txt"
      ]
     },
     "R5006": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "Not read; same two-digit syllabary as R5005 (see zeschau1841/NOTES.md).",
+     "note": "Not read; same two-digit syllabary as R5005 (see targets/zeschau1841/NOTES.md).",
      "reading": null,
      "sent": false,
      "reading_not_needed": true
@@ -5168,7 +5168,7 @@
     "R5008": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "Not read; same two-digit syllabary as R5005 (see zeschau1841/NOTES.md).",
+     "note": "Not read; same two-digit syllabary as R5005 (see targets/zeschau1841/NOTES.md).",
      "reading": null,
      "sent": false,
      "reading_not_needed": true
@@ -5176,7 +5176,7 @@
     "R5007": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "Not read; same two-digit syllabary as R5005 (see zeschau1841/NOTES.md).",
+     "note": "Not read; same two-digit syllabary as R5005 (see targets/zeschau1841/NOTES.md).",
      "reading": null,
      "sent": false,
      "reading_not_needed": true,
@@ -5192,7 +5192,7 @@
   "caracciolo1537": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/caracciolo1537.html",
    "key": {
-    "file": "caracciolo1537/NOTES.md",
+    "file": "targets/caracciolo1537/NOTES.md",
     "lang": "Italian",
     "how": "Luo 2021 Cifrario 38 (Charles V - Caracciolo, 1530-38), applied unchanged"
    },
@@ -5271,7 +5271,7 @@
   "bizozola1520": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/bizozola1520.html",
    "key": {
-    "file": "bizozola1520/NOTES.md",
+    "file": "targets/bizozola1520/NOTES.md",
     "lang": "IT",
     "how": "George Lasry's key table of 5 Nov 2023 (shown on Tomokiyo, cryptiana GL.htm) with homophones a/u, f/s and a t sign added from the text"
    },
@@ -5287,7 +5287,7 @@
     "R4224": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Read with Lasry 2023 key (Tomokiyo GL.htm) plus homophones: all four pages, 97% of signs (doubtful stretches in bizozola1520/doubtful.txt); dated Bologna 4 Nov [1529] from the date line and the eve of Charles V entry. Full decoder output bizozola1520/reading_raw.txt.",
+     "note": "Read with Lasry 2023 key (Tomokiyo GL.htm) plus homophones: all four pages, 97% of signs (doubtful stretches in targets/bizozola1520/doubtful.txt); dated Bologna 4 Nov [1529] from the date line and the eve of Charles V entry. Full decoder output targets/bizozola1520/reading_raw.txt.",
      "reading": "decode_updates/decryptions/R4224.txt",
      "sent": false
     }
@@ -5296,7 +5296,7 @@
   "gonzaga1590": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/gonzaga1590.html",
    "key": {
-    "file": "gonzaga1590/key.tsv",
+    "file": "targets/gonzaga1590/key.tsv",
     "lang": "IT",
     "how": "BnF fr. 3995 f. 64 'Per Cavare 1590' (Tomokiyo's Nevers cipher no. 35), applied unchanged; values listed in NOTES.md"
    },
@@ -5311,7 +5311,7 @@
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
      "note": "95% of the cipher read with the Nevers key BnF fr. 3995 f. 64 (1590); sender is the Duke of Mantua, his uncle Nevers the recipient; four short garbled stretches (writer's slips, identical on the Gallica microfilm) remain.",
-     "reading": "gonzaga1590/reading.md",
+     "reading": "targets/gonzaga1590/reading.md",
      "sent": false
     }
    }
@@ -5331,13 +5331,13 @@
      "reading_not_needed": true,
      "note": "Attempted, not read. Numerical word code in six series (unmarked, wave, caret, double stroke, overbar, plus; values 1-992): Croiset's 1799-1803 Batavian Correspondentiecijffer, the code of the decrypted 1801 Bourdeaux dispatches R1944-R1946 and of Hogendorp's R1942. 430~ = start control, 763~ (group 69) = end control, groups 70-110 padding. Same-key solutions fix 394 = handen, 58 = brengen, 222(overbar) = niet; the rest needs the key. Not R1035 (5 Aug 1803 book), R1038 or R1891. Full transcription attached.",
      "transcription": [
-      "toulon1803/ciphertext.txt"
+      "targets/toulon1803/ciphertext.txt"
      ]
     }
    }
   },
   "coligny1563": {
-   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/coligny1563/NOTES.md (notes only, no site page)",
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/coligny1563/NOTES.md (notes only, no site page)",
    "key": {
     "decode": "R335"
    },
@@ -5374,7 +5374,7 @@
   "stafford1586": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/stafford1586.html",
    "key": {
-    "file": "stafford1586/NOTES.md",
+    "file": "targets/stafford1586/NOTES.md",
     "lang": "EN",
     "how": "letter values and codes rebuilt from the contemporary interlinear glosses on f. 74v; no key sheet known"
    },
@@ -5393,7 +5393,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "stafford1586/ciphertext.txt"
+      "targets/stafford1586/ciphertext.txt"
      ]
     }
    }
@@ -5418,7 +5418,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "jantini1517/t1126.txt"
+      "targets/jantini1517/t1126.txt"
      ]
     },
     "R1127": {
@@ -5429,7 +5429,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "jantini1517/t1127.txt"
+      "targets/jantini1517/t1127.txt"
      ]
     }
    }
@@ -5457,7 +5457,7 @@
      ],
      "sent": false,
      "transcription": [
-      "bay1706/R478_transcription.txt"
+      "targets/bay1706/R478_transcription.txt"
      ]
     }
    }
@@ -5490,7 +5490,7 @@
   "harley286": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/harley286.html",
    "key": {
-    "file": "harley286/key.md",
+    "file": "targets/harley286/key.md",
     "lang": "LA",
     "how": "rebuilt by crib from the text (D'Ewes's private alphabet)"
    },
@@ -5521,7 +5521,7 @@
   "marburg1635": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/marburg1635.html",
    "key": {
-    "file": "marburg1635/NOTES.md",
+    "file": "targets/marburg1635/NOTES.md",
     "lang": "DE",
     "how": "rebuilt here from the text (annealing on de-1500s), checked against the contemporary interlinear gloss"
    },
@@ -5548,7 +5548,7 @@
   "harley1582r8500": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/harley1582r8500.html",
    "key": {
-    "file": "harley1582r8500/key.tsv",
+    "file": "targets/harley1582r8500/key.tsv",
     "lang": "EN",
     "how": "letter key of Stafford's Walsingham cipher rebuilt from the f. 72r contemporary decipherment of the f. 71 runs (R8501) and the f. 73r glosses (R8502)"
    },
@@ -5568,7 +5568,7 @@
      "reading": "decode_updates/decryptions/R8500.txt",
      "sent": false,
      "transcription": [
-      "harley1582r8500/ciphertext.txt"
+      "targets/harley1582r8500/ciphertext.txt"
      ]
     }
    }
@@ -5576,9 +5576,9 @@
   "kaa4591b": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/kaa4591b.html",
    "key": {
-    "file": "kaa4591b/r9415/key.txt",
+    "file": "targets/kaa4591b/r9415/key.txt",
     "lang": "LA/DE",
-    "how": "three keys: R9403 Łaski's System B (kaa4591/sysB/key_from_glosses.tsv) with e/r swapped; R9415 homophonic key kaa4591b/r9415/key.txt; R9414 homophonic key kaa4591b/r9414/keyb.txt; the last two rebuilt from their glosses"
+    "how": "three keys: R9403 Łaski's System B (targets/kaa4591/sysB/key_from_glosses.tsv) with e/r swapped; R9415 homophonic key targets/kaa4591b/r9415/key.txt; R9414 homophonic key targets/kaa4591b/r9414/keyb.txt; the last two rebuilt from their glosses"
    },
    "cite": null,
    "fields": {
@@ -5648,7 +5648,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "burghley1572/transcription.txt"
+      "targets/burghley1572/transcription.txt"
      ]
     }
    }
@@ -5676,7 +5676,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "r8361/transcription.txt"
+      "targets/r8361/transcription.txt"
      ]
     }
    }
@@ -5716,7 +5716,7 @@
   "harley1582r8504": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/harley1582r8504.html",
    "key": {
-    "file": "harley1582r8500/key.tsv",
+    "file": "targets/harley1582r8500/key.tsv",
     "lang": "EN",
     "how": "letter key of Stafford's Walsingham cipher rebuilt from siblings R8501/R8502"
    },
@@ -5737,7 +5737,7 @@
      "reading": "decode_updates/decryptions/R8504.txt",
      "sent": false,
      "transcription": [
-      "harley1582r8504/ciphertext.txt"
+      "targets/harley1582r8504/ciphertext.txt"
      ]
     }
    }
@@ -5765,7 +5765,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "r8358/transcription.txt"
+      "targets/r8358/transcription.txt"
      ]
     }
    }
@@ -5773,9 +5773,9 @@
   "swieten1757": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/swieten1757.html",
    "key": {
-    "file": "swieten1757/key.json",
+    "file": "targets/swieten1757/key.json",
     "lang": "FR",
-    "how": "R955: its own decipherment on the page. R956/R957: 1759 alphabetical syllabary (100-442) rebuilt ciphertext-only, monotone annealing + context (swieten1757/msolve.py, dec.py)."
+    "how": "R955: its own decipherment on the page. R956/R957: 1759 alphabetical syllabary (100-442) rebuilt ciphertext-only, monotone annealing + context (targets/swieten1757/msolve.py, dec.py)."
    },
    "cite": null,
    "fields": {
@@ -5801,7 +5801,7 @@
     "R956": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "Read with the same rebuilt 1759 table; about 16 of 343 groups open (names). Four DECODE transcription runs have dropped/doubled digits; corrected from the scans (swieten1757/runs.txt).",
+     "note": "Read with the same rebuilt 1759 table; about 16 of 343 groups open (names). Four DECODE transcription runs have dropped/doubled digits; corrected from the scans (targets/swieten1757/runs.txt).",
      "reading": "decode_updates/decryptions/R956.txt",
      "sent": false
     }
@@ -5849,9 +5849,9 @@
   "mercoeur1587": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/mercoeur1587.html",
    "key": {
-    "file": "mercoeur1587/NOTES.md",
+    "file": "targets/mercoeur1587/NOTES.md",
     "lang": "FR",
-    "how": "George Lasry's 2022 fr. 15564 key (Cryptiana GL.htm), extended by about 15 values; see mercoeur1587/NOTES.md"
+    "how": "George Lasry's 2022 fr. 15564 key (Cryptiana GL.htm), extended by about 15 values; see targets/mercoeur1587/NOTES.md"
    },
    "cite": "G. Lasry 2022, key and f. 27 decipherment, in S. Tomokiyo, Cryptiana, GL.htm (http://cryptiana.web.fc2.com/code/GL.htm)",
    "fields": {
@@ -5882,7 +5882,7 @@
      "reading_not_needed": true,
      "sent": false,
      "key": {
-      "file": "mercoeur1587/NOTES.md",
+      "file": "targets/mercoeur1587/NOTES.md",
       "lang": "FR",
       "how": "Lasry's key, Cryptiana GL.htm"
      }
@@ -5890,7 +5890,7 @@
     "R4167": {
      "decode_status": "Non-decrypted",
      "proposed": "Non-decrypted",
-     "note": "f. 151, 'MR' slip of 26 June: a different cipher from ff. 27/78 (no shared signs); Lasry judged it too short. Clear frame transcribed, attempted and closed in the repository folder mercoeur1586/ (write-up https://dbourdeau.github.io/cyphersolver/mercoeur1586.html). Status unchanged.",
+     "note": "f. 151, 'MR' slip of 26 June: a different cipher from ff. 27/78 (no shared signs); Lasry judged it too short. Clear frame transcribed, attempted and closed in the repository folder targets/mercoeur1586/ (write-up https://dbourdeau.github.io/cyphersolver/mercoeur1586.html). Status unchanged.",
      "reading": null,
      "reading_not_needed": true,
      "sent": false,
@@ -5906,7 +5906,7 @@
   "visconti1528": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/visconti1528.html",
    "key": {
-    "file": "visconti1528/KEY.md",
+    "file": "targets/visconti1528/KEY.md",
     "lang": "IT",
     "how": "George Lasry's 2023 table 'BNF Francais 3045f28 and 3034f154 - Italian' (cryptiana GL.htm), extended on this letter; numbered name codes not recovered"
    },
@@ -5930,9 +5930,9 @@
   "guise1587": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/guise1587.html",
    "key": {
-    "file": "guise1587/key.md",
+    "file": "targets/guise1587/key.md",
     "lang": "FR",
-    "how": "George Lasry's 2022 fr. 15564 key (Cryptiana GL.htm), extended by about a dozen sign values; see guise1587/NOTES.md"
+    "how": "George Lasry's 2022 fr. 15564 key (Cryptiana GL.htm), extended by about a dozen sign values; see targets/guise1587/NOTES.md"
    },
    "cite": "Key: G. Lasry 2022, published by S. Tomokiyo, Cryptiana, https://cryptiana.web.fc2.com/code/GL.htm",
    "fields": {
@@ -5946,7 +5946,7 @@
      "note": "Read with Lasry's key, extended: 1,777 of 1,861 signs (95.5%); name codes 21, 43, 71 open.",
      "reading": [
       {
-       "file": "guise1587/f119_reading.txt"
+       "file": "targets/guise1587/f119_reading.txt"
       }
      ],
      "sent": false
@@ -5957,7 +5957,7 @@
      "note": "Read with Lasry's key, extended: cipher part 572 of 616 letter signs; name code 73 open.",
      "reading": [
       {
-       "file": "guise1587/f142_reading.txt"
+       "file": "targets/guise1587/f142_reading.txt"
       }
      ],
      "sent": false
@@ -5986,7 +5986,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "bayard1526/ct.txt"
+      "targets/bayard1526/ct.txt"
      ]
     }
    }
@@ -5994,7 +5994,7 @@
   "nevers1588": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/nevers1588.html",
    "key": {
-    "file": "nevers1588/key.md",
+    "file": "targets/nevers1588/key.md",
     "lang": "French",
     "how": "rebuilt from the interlinear glosses of the same informant's letter BnF fr. 3976 f. 131 (4 June 1588) and extended on this letter"
    },
@@ -6017,9 +6017,9 @@
   "visconti1529": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/visconti1529.html",
    "key": {
-    "file": "visconti1528/KEY.md",
+    "file": "targets/visconti1528/KEY.md",
     "lang": "IT",
-    "how": "George Lasry's 2023 table 'BNF Francais 3045f28 and 3034f154 - Italian' (cryptiana GL.htm), as extended in visconti1528/ and visconti1529/NOTES.md (bare Lambda doubles the next letter; far = CHE or NTO; rho = F; theta = D and G; q = H, F in fr. 3096); numbered name codes not recovered"
+    "how": "George Lasry's 2023 table 'BNF Francais 3045f28 and 3034f154 - Italian' (cryptiana GL.htm), as extended in targets/visconti1528/ and targets/visconti1529/NOTES.md (bare Lambda doubles the next letter; far = CHE or NTO; rho = F; theta = D and G; q = H, F in fr. 3096); numbered name codes not recovered"
    },
    "cite": "S. Tomokiyo, cryptiana, 'George Lasry's decipherments' (GL.htm), section 'Galeaz Vesconte's Cipher (1528-1529)'",
    "fields": {
@@ -6065,7 +6065,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "r688/transcription.txt"
+      "targets/r688/transcription.txt"
      ]
     }
    }
@@ -6123,7 +6123,7 @@
       }
      ],
      "transcription": [
-      "harley1582r8499/transcription.txt"
+      "targets/harley1582r8499/transcription.txt"
      ],
      "sent": false
     },
@@ -6155,7 +6155,7 @@
      "reading": null,
      "reading_not_needed": true,
      "transcription": [
-      "r1818/transcription_sample.txt"
+      "targets/r1818/transcription_sample.txt"
      ],
      "sent": false
     }
@@ -6164,7 +6164,7 @@
   "r4349": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/r4349.html",
    "key": {
-    "file": "r4349/decode.py",
+    "file": "targets/r4349/decode.py",
     "lang": "Latin",
     "how": "Vowel shift: each vowel written as the next letter of the alphabet (a->b, e->f, i->k, o->p, u->x), consonants plain; written b and p are also plain b and p, decided by context."
    },
@@ -6184,10 +6184,10 @@
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
      "note": "Two ciphers in Uppsala UB C 513. (1) The 'six symbols out in a note' are the close of a slip pasted on f. 1r (Alvin record 193385, attachment 3): an Old Swedish note sending herbs and cinnamon bark to Anders Larsson, ending 'til liff oth sel' and six signs ÿ ɑ M ÿ u ꝺ, probably the writer's name; not read (too short; the colophon's rule and all alphabet shifts fail). The note's clear text is transcribed in the attached transcription. (2) The scribe's dated colophon on f. 19v (attachment 42), four lines under chant notation, each vowel written as the next letter (a->b e->f i->k o->p u->x): Anno domini 1517 presens liber sequencionarius est scriptus in conuentu strengenensi pro conuentu insulensi. Printed in the Uppsala C-collection catalogue Bd. 5 (1992), the PDF on this record, and checked on a new transcription. The record's only image is a placeholder icon.",
-     "reading": "r4349/reading.txt",
+     "reading": "targets/r4349/reading.txt",
      "transcription": [
-      "r4349/ciphertext.txt",
-      "r4349/slip.txt"
+      "targets/r4349/ciphertext.txt",
+      "targets/r4349/slip.txt"
      ],
      "sent": false
     }
@@ -6213,7 +6213,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "r7707/ct.txt"
+      "targets/r7707/ct.txt"
      ]
     }
    }
@@ -6221,7 +6221,7 @@
   "andreae1616": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/andreae1616.html",
    "key": {
-    "file": "andreae1616/key.tsv",
+    "file": "targets/andreae1616/key.tsv",
     "lang": "DE",
     "how": "19-sign simple substitution rebuilt from the novel's own glosses (pp. 96, 98)"
    },
@@ -6240,7 +6240,7 @@
      "reading": "decode_updates/decryptions/R4502.txt",
      "sent": false,
      "transcription": [
-      "andreae1616/ciphertext.txt"
+      "targets/andreae1616/ciphertext.txt"
      ]
     }
    }
@@ -6248,7 +6248,7 @@
   "wesselenyi1664": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/wesselenyi1664.html",
    "key": {
-    "file": "wesselenyi1664/key.py",
+    "file": "targets/wesselenyi1664/key.py",
     "lang": "LA",
     "how": "rebuilt ciphertext-only here: reversed alphabet 24=a ... 1=z with vowel homophones 25=a 26=e 28=o 29=u; same alphabet as DECODE key R672 (Teleki collection keys 12), whose syllables/codes do not apply"
    },
@@ -6276,9 +6276,9 @@
   "augurelio1535": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/augurelio1535.html",
    "key": {
-    "file": "augurelio1535/pass2/key.txt",
+    "file": "targets/augurelio1535/pass2/key.txt",
     "lang": "DE",
-    "how": "System A' of KAA 4591: the key glossed over the sibling records R9410 and R9427 by a contemporary hand, carried over by sign shapes and extended (first pass: EM and a word-aware decoder, augurelio1535/work/sup2k.json; second pass: annealing and a polyphonic beam decoder over a new transcription). Word signs: hourglass = 'F.G.', dotted long s = King Ferdinand, triangle = a name (probably Hieronymus Laski)."
+    "how": "System A' of KAA 4591: the key glossed over the sibling records R9410 and R9427 by a contemporary hand, carried over by sign shapes and extended (first pass: EM and a word-aware decoder, targets/augurelio1535/work/sup2k.json; second pass: annealing and a polyphonic beam decoder over a new transcription). Word signs: hourglass = 'F.G.', dotted long s = King Ferdinand, triangle = a name (probably Hieronymus Laski)."
    },
    "cite": null,
    "fields": {
@@ -6319,12 +6319,12 @@
     "R2877": {
      "decode_status": "Non-decrypted",
      "proposed": "Non-decrypted",
-     "note": "Attempted, not read (cyphersolver mellon29/, 22 Sept 2026). Not a letter: the pseudo-Elian alchemical codex Lumen luminum (Latin) with an Italian prologue, North Italy c. 1525. The cipher is only on ff. 1v-2v (Sol and Luna recipe lists after 'piglierai' / 'piglia i nomi del signor', and a table 'Ariete se chiama srcon pggy' ... for the twelve zodiac cover names), about 234 Latin letters with scribal signs, and a looser late-16th-c. copy on the front pastedown. Not a simple substitution of Italian or Latin; homophonic, progressive, Vigenère and Alberti-disk attacks also fail. Same images free at Yale Digital Collections 17388793. Transcription attached.",
+     "note": "Attempted, not read (cyphersolver targets/mellon29/, 22 Sept 2026). Not a letter: the pseudo-Elian alchemical codex Lumen luminum (Latin) with an Italian prologue, North Italy c. 1525. The cipher is only on ff. 1v-2v (Sol and Luna recipe lists after 'piglierai' / 'piglia i nomi del signor', and a table 'Ariete se chiama srcon pggy' ... for the twelve zodiac cover names), about 234 Latin letters with scribal signs, and a looser late-16th-c. copy on the front pastedown. Not a simple substitution of Italian or Latin; homophonic, progressive, Vigenère and Alberti-disk attacks also fail. Same images free at Yale Digital Collections 17388793. Transcription attached.",
      "reading": null,
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "mellon29/transcription.txt"
+      "targets/mellon29/transcription.txt"
      ]
     }
    }
@@ -6332,9 +6332,9 @@
   "r3708": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/r3708.html",
    "key": {
-    "file": "nevers1588/key.md",
+    "file": "targets/nevers1588/key.md",
     "lang": "French",
-    "how": "key of the same informant rebuilt from BnF fr. 3976 f. 131 (glossed) and f. 62 (R3705), applied unchanged and extended by three signs from this letter (r3708/NOTES.md)"
+    "how": "key of the same informant rebuilt from BnF fr. 3976 f. 131 (glossed) and f. 62 (R3705), applied unchanged and extended by three signs from this letter (targets/r3708/NOTES.md)"
    },
    "cite": null,
    "fields": {
@@ -6348,7 +6348,7 @@
     "R3708": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "Letter of 6 June 1588 (dated head and foot) by the informant of R3705 (f. 62) and f. 131. All 18 cipher runs read with the key of R3705 (226 of 230 signs by the key, 4 from context). Code numbers 11 = Roy, 24 = Nevers, 102 = Paris, 9 = Guise, 10 = Epernon, 12 = the Queen Mother; 4, 23, 25, 33, 79, 94, 105, 106 open. Siblings by the same informant not on DECODE: f. 131 (4 June 1588) and f. 139 (9 June 1588), both with contemporary interlinear decipherment; f. 139 read with this key, every run matching the gloss (r3708/reading_f139.tsv). DECODE's cipher type 'numerical' should add letter-and-figure substitution.",
+     "note": "Letter of 6 June 1588 (dated head and foot) by the informant of R3705 (f. 62) and f. 131. All 18 cipher runs read with the key of R3705 (226 of 230 signs by the key, 4 from context). Code numbers 11 = Roy, 24 = Nevers, 102 = Paris, 9 = Guise, 10 = Epernon, 12 = the Queen Mother; 4, 23, 25, 33, 79, 94, 105, 106 open. Siblings by the same informant not on DECODE: f. 131 (4 June 1588) and f. 139 (9 June 1588), both with contemporary interlinear decipherment; f. 139 read with this key, every run matching the gloss (targets/r3708/reading_f139.tsv). DECODE's cipher type 'numerical' should add letter-and-figure substitution.",
      "reading": "decode_updates/decryptions/R3708.txt",
      "sent": false
     }
@@ -6385,9 +6385,9 @@
   "r4157": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/r4157.html",
    "key": {
-    "file": "r4157/key.tsv",
+    "file": "targets/r4157/key.tsv",
     "lang": "FR",
-    "how": "Satoshi Tomokiyo's reconstruction for BnF fr. 15564 f. 33 (Cryptiana henryiii.htm), with sign classes split and twelve values added; see r4157/NOTES.md"
+    "how": "Satoshi Tomokiyo's reconstruction for BnF fr. 15564 f. 33 (Cryptiana henryiii.htm), with sign classes split and twelve values added; see targets/r4157/NOTES.md"
    },
    "cite": "Lettres de Catherine de Médicis, t. VII, ed. Baguenault de Puchesse (Paris 1899), pp. 349–353; S. Tomokiyo, Cryptiana, 'French ciphers during the reigns of Charles IX and Henry III' (https://cryptiana.web.fc2.com/code/henryiii.htm), section BnF fr. 15564 f.33",
    "fields": {
@@ -6416,7 +6416,7 @@
   "nevers1587": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/nevers1587.html",
    "key": {
-    "file": "nevers1587/key.md",
+    "file": "targets/nevers1587/key.md",
     "lang": "French",
     "how": "BnF fr. 3995 no. 11 (f. 23, the Nevers key book; Tomokiyo no. 11), applied unchanged in the writer's glyph forms learnt from his glossed letter BnF fr. 3413 f. 102"
    },
@@ -6468,7 +6468,7 @@
      "reading": "decode_updates/decryptions/R8364.txt",
      "sent": false,
      "transcription": [
-      "r8364/transcription.txt"
+      "targets/r8364/transcription.txt"
      ]
     }
    }
@@ -6476,7 +6476,7 @@
   "harley1582r8505": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/harley1582r8505.html",
    "key": {
-    "file": "harley1582r8505/key_letters.txt",
+    "file": "targets/harley1582r8505/key_letters.txt",
     "lang": "French",
     "how": "homophonic alphabet of about 50 graphic signs, rebuilt here from the ciphertext alone; the letter m is written as a group of two, three or four dots"
    },
@@ -6496,11 +6496,11 @@
      "proposed": "Partially decrypted",
      "reading": "decode_updates/decryptions/R8505.txt",
      "transcription": [
-      "harley1582r8505/final/f1.txt",
-      "harley1582r8505/final/f2.txt",
-      "harley1582r8505/final/f3.txt",
-      "harley1582r8505/final/f4.txt",
-      "harley1582r8505/signs.md"
+      "targets/harley1582r8505/final/f1.txt",
+      "targets/harley1582r8505/final/f2.txt",
+      "targets/harley1582r8505/final/f3.txt",
+      "targets/harley1582r8505/final/f4.txt",
+      "targets/harley1582r8505/signs.md"
      ],
      "note": "Identified and deciphered 22 Sept 2026. The document is the French political memoir 'L'Estat du Roy de Navarre & de son party en France' (heading on f. 263r), written after 1580; the language is French, not 'English?'. The cipher is a homophonic alphabet of about fifty graphic signs, broken here from the ciphertext alone: the key is attached. Its unusual feature is that the letter m is written as a group of two, three or four dots, which earlier readings took for punctuation. 95.1% of the deciphered text reads as French; ten nomenclator numbers (6, 21, 26, 36, 51, 57, 72, 81, 99, 721) have no values, though 72 is a country (almost certainly France) and 81 a person (probably the King). Note also that R8501 (Harley 1582 ff. 71-72) carries its own contemporary decipherment on f. 72r.",
      "sent": false
@@ -6510,7 +6510,7 @@
   "ferdinand1619": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/ferdinand1619.html",
    "key": {
-    "file": "ferdinand1619/key.txt",
+    "file": "targets/ferdinand1619/key.txt",
     "lang": "DE",
     "how": "rebuilt ciphertext-only here by annealing against a 16th-century German character model: homophonic substitution on the even two-digit figures, a b c d e f = 10 12 14 16 18 20, g h i l m n o p q r s t u x z = 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58, second series a 60/70, e 62/72, i 64, o 66/76, u 68, k 74, w 78; two signs mark word ends; three-digit groups and odd two-digit groups are a nomenclator of which only 248 = und is established. Verified on the sibling R9425, which the same key reads unchanged."
    },
@@ -6544,7 +6544,7 @@
   "rangone1530": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/rangone1530.html",
    "key": {
-    "file": "rangone1530/key.json",
+    "file": "targets/rangone1530/key.json",
     "lang": "IT",
     "how": "homophonic key rebuilt here ciphertext-only by simulated annealing against a 16th-c. Italian model, from this letter and its sibling (Rangone, 24 Dec 1529, BnF fr. 3082 f. 42, not on DECODE); six signs unread"
    },
@@ -6567,9 +6567,9 @@
   "sperantio1534": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/sperantio1534.html",
    "key": {
-    "file": "sperantio1534/r9411/run7.txt",
+    "file": "targets/sperantio1534/r9411/run7.txt",
     "lang": "LA",
-    "how": "Rebuilt from the contemporary interlinear decipherment on R9411 (constrained annealing), refitted on German for R9412 (sperantio1534/r9411/run_r9412_R6.txt). The same key as R9415 in this volume (System L, kaa4591b/r9415/key.txt)."
+    "how": "Rebuilt from the contemporary interlinear decipherment on R9411 (constrained annealing), refitted on German for R9412 (targets/sperantio1534/r9411/run_r9412_R6.txt). The same key as R9415 in this volume (System L, targets/kaa4591b/r9415/key.txt)."
    },
    "cite": null,
    "fields": {
@@ -6599,7 +6599,7 @@
   "r1854": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/r1854.html",
    "key": {
-    "file": "r1854/keys.txt",
+    "file": "targets/r1854/keys.txt",
     "lang": "LA, IT",
     "how": "Images 2 and 4-5: homophonic keys rebuilt ciphertext-only (annealing on a Latin language model, then sign-by-sign checks). Image 3: key from the contemporary interlinear decipherment. Image 1: no key."
    },
@@ -6641,7 +6641,7 @@
      "reading": null,
      "reading_not_needed": true,
      "transcription": [
-      "vatican5/IA-2_reread.txt"
+      "targets/vatican5/IA-2_reread.txt"
      ],
      "sent": false
     },
@@ -6681,8 +6681,8 @@
      "reading": null,
      "reading_not_needed": true,
      "transcription": [
-      "vieuville1587/items.tsv",
-      "vieuville1587/ct_101r.txt"
+      "targets/vieuville1587/items.tsv",
+      "targets/vieuville1587/ct_101r.txt"
      ],
      "sent": false
     }
@@ -6691,7 +6691,7 @@
   "mellon136": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/mellon136.html",
    "key": {
-    "file": "mellon136/NOTES.md",
+    "file": "targets/mellon136/NOTES.md",
     "lang": "German",
     "how": "key drawn in the manuscript itself, p. 83 ('Die Figur unserer geheimen Schrift'): pigpen-type grid, cell shape = letter pair, dot = second letter, plus a ligature table; used unchanged"
    },
@@ -6709,11 +6709,11 @@
     "R2873": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "Read (cyphersolver mellon136/, 22 Sept 2026). Not a letter: the alchemical manuscript book 'Das zweyte Silentium Dei', copied 18-25 Sept 1798, ascribed to Johann Arndt (d. 1621). 31 cipher passages on pp. 24-76 (p. 24 wholly in cipher; the rest are phrases inside clear German). The key is drawn in the book on p. 83 and reads all of them: 1,545 signs, 2 unread. P. 24 was already read by G. Lasry and N. Kopal (Schmeh, Cipherbrain, 2022). Same images free at Yale Digital Collections 10187248.",
-     "reading": "mellon136/reading.txt",
+     "note": "Read (cyphersolver targets/mellon136/, 22 Sept 2026). Not a letter: the alchemical manuscript book 'Das zweyte Silentium Dei', copied 18-25 Sept 1798, ascribed to Johann Arndt (d. 1621). 31 cipher passages on pp. 24-76 (p. 24 wholly in cipher; the rest are phrases inside clear German). The key is drawn in the book on p. 83 and reads all of them: 1,545 signs, 2 unread. P. 24 was already read by G. Lasry and N. Kopal (Schmeh, Cipherbrain, 2022). Same images free at Yale Digital Collections 10187248.",
+     "reading": "targets/mellon136/reading.txt",
      "sent": false,
      "transcription": [
-      "mellon136/transcription.txt"
+      "targets/mellon136/transcription.txt"
      ]
     }
    }
@@ -6721,9 +6721,9 @@
   "r1862": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/r1862.html",
    "key": {
-    "file": "r1862/key_over.json",
+    "file": "targets/r1862/key_over.json",
     "lang": "Italian",
-    "how": "Syllabary grid rebuilt here by soft-EM alignment of DECODE R1874's cipher to the chancery decipherment imaged with it (r1874/em.py, run2.py); applied to R1862 unchanged, with the word codes read from context."
+    "how": "Syllabary grid rebuilt here by soft-EM alignment of DECODE R1874's cipher to the chancery decipherment imaged with it (targets/r1874/em.py, run2.py); applied to R1862 unchanged, with the word codes read from context."
    },
    "cite": null,
    "fields": {
@@ -6741,7 +6741,7 @@
      "note": "A Venetian ambassador's despatch to the Doge ('Ser.mo Principe'), Rome, 29 Apr 1628. Same cipher as R1874 (ASVe Busta 30 f. 174), whose contemporary decipherment is imaged with it; the key was rebuilt from that pair by EM alignment, extended from context and from the alphabetical order of the key's word band, and reads this letter. Syllabary grid: prefix = vowel (6 a, 51 e, 62 i, 53 o, 64 u), last two digits = consonant, plus single letters, ~35 word codes and paragraph marks (698/699/5198/5199, as 6499 in R1874). 1,280 code groups transcribed here from the images (the record has none, and one manuscript line on page 3 was missing from any earlier reading); 99.1% have a value and 0.95 of the text reads as sense. Content: Cardinal Barberini asked twice whether Palma (Palmanova) was fortified and what garrison it had, and whether the Pontebba pass was secured; he spoke of the disgusto di Aquileia, of arms standing in Germany and of a possible move against the Republic 'dalla parte del Friuli'; the ambassador urged that the Pope go in person as legate to settle Mantua and Savoy. Open: 12 word-code tokens and one line.",
      "reading": "decode_updates/decryptions/R1862.txt",
      "transcription": [
-      "r1862/tx/groups.txt"
+      "targets/r1862/tx/groups.txt"
      ],
      "sent": false
     }
@@ -6750,9 +6750,9 @@
   "lorraine1592": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/lorraine1592.html",
    "key": {
-    "file": "lorraine1592/ct/no97_reread.txt",
+    "file": "targets/lorraine1592/ct/no97_reread.txt",
     "lang": "FR",
-    "how": "ciphertext-only: reciprocal letter-pair substitution (a/i b/p c/f d/q e/t g/u l/y m/z n/s o/r h/x), dots under a letter double it, looped ae a null; figures 31 = ma, 139 = vous, 145 = me from context. Key and reading in the header and body of no97_reread.txt (decoder: lorraine1592/measure_reread.py); supersedes the 18 Sept 44-symbol key in ct/no97_solution.txt"
+    "how": "ciphertext-only: reciprocal letter-pair substitution (a/i b/p c/f d/q e/t g/u l/y m/z n/s o/r h/x), dots under a letter double it, looped ae a null; figures 31 = ma, 139 = vous, 145 = me from context. Key and reading in the header and body of no97_reread.txt (decoder: targets/lorraine1592/measure_reread.py); supersedes the 18 Sept 44-symbol key in ct/no97_solution.txt"
    },
    "cite": null,
    "fields": {
@@ -6778,7 +6778,7 @@
   "moncada1524": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/moncada1524.html",
    "key": {
-    "file": "moncada1524/KEY.md",
+    "file": "targets/moncada1524/KEY.md",
     "lang": "ES",
     "how": "homophonic key rebuilt from the letter by aligning its cipher runs with the printed 1854 decipherment (CODOIN XXIV pp. 417-419)"
    },
@@ -6800,10 +6800,10 @@
      "decode_status": "Decrypted",
      "proposed": "Decrypted",
      "note": "Letter of Hugo de Moncada to Charles V, Monaco, 6 Oct 1524 (sender, receiver, date and place missing on the record). The pencil note on f. 1r ('Descifrada en t. 24 Col. Doc. ined.') points to CODOIN XXIV (1854) pp. 417-419, which prints the secretariat's decipherment with one gap; the key was rebuilt against it and the gap read ('que le lleuase a Espana, diziendome muchas razones'). Three code groups and two signs open.",
-     "reading": "moncada1524/reading.txt",
+     "reading": "targets/moncada1524/reading.txt",
      "sent": false,
      "transcription": [
-      "moncada1524/ct.txt"
+      "targets/moncada1524/ct.txt"
      ]
     }
    }
@@ -6827,7 +6827,7 @@
      "reading": null,
      "reading_not_needed": true,
      "transcription": [
-      "baner1640/key_r4122.json"
+      "targets/baner1640/key_r4122.json"
      ],
      "sent": false
     },
@@ -6843,7 +6843,7 @@
      "reading": null,
      "reading_not_needed": true,
      "transcription": [
-      "baner1640/key_r4123.json"
+      "targets/baner1640/key_r4123.json"
      ],
      "sent": false
     },
@@ -6854,7 +6854,7 @@
      "reading": null,
      "reading_not_needed": true,
      "transcription": [
-      "baner1640/key_r4325c.json"
+      "targets/baner1640/key_r4325c.json"
      ],
      "sent": false
     },
@@ -6874,7 +6874,7 @@
   "selve1535": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/selve1535.html",
    "key": {
-    "file": "selve1535/KEY.md",
+    "file": "targets/selve1535/KEY.md",
     "lang": "FR",
     "how": "S. Tomokiyo's table for Selve's cipher (cryptiana francis.htm), extended on these letters"
    },
@@ -6890,7 +6890,7 @@
      "note": "Read in part with Tomokiyo's key extended here: 79% of signs, 95% outside the runs the contemporary decipherer struck through (those are glossed; the film scan cannot separate strike from sign). Letter of 14 Sept 1535 (BnF catalogue: 4 Sept).",
      "reading": [
       {
-       "file": "selve1535/READING_R3697.md"
+       "file": "targets/selve1535/READING_R3697.md"
       }
      ],
      "sent": false
@@ -6901,7 +6901,7 @@
      "note": "Read in full (99.1% of cipher signs) with Tomokiyo's key extended here; four runs carry contemporary decipherments that agree; one name code glossed 'Rang..'.",
      "reading": [
       {
-       "file": "selve1535/READING_R4232.md"
+       "file": "targets/selve1535/READING_R4232.md"
       }
      ],
      "sent": false
@@ -6928,7 +6928,7 @@
     "R5622": {
      "decode_status": "N/A",
      "proposed": "N/A",
-     "note": "Paris, 5 January 1652: Niccolò Guidi di Bagno to the Secretariat of State. AAV Francia 104 ff. 5r-7v has a clear cover and four pages of unseparated numeric cipher with some Italian words left clear. All five images checked; no DECODE transcript or attached decipherment. Lasry's Francia 346 key is excluded because 6 is its separator but this letter repeatedly writes 66 and 666. No matching key, clear copy, online decifrati register or edition found; remains unread. See write-up and bagno1652/NOTES.md.",
+     "note": "Paris, 5 January 1652: Niccolò Guidi di Bagno to the Secretariat of State. AAV Francia 104 ff. 5r-7v has a clear cover and four pages of unseparated numeric cipher with some Italian words left clear. All five images checked; no DECODE transcript or attached decipherment. Lasry's Francia 346 key is excluded because 6 is its separator but this letter repeatedly writes 66 and 666. No matching key, clear copy, online decifrati register or edition found; remains unread. See write-up and targets/bagno1652/NOTES.md.",
      "reading": null,
      "reading_not_needed": true,
      "sent": false
@@ -6938,7 +6938,7 @@
   "r4817": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/r4817.html",
    "key": {
-    "file": "r4817/key-decode.txt",
+    "file": "targets/r4817/key-decode.txt",
     "lang": "DE",
     "how": "Reconstructed from full-resolution manuscript, using Rous partial decipherment (Korn 2023 n. 41) as crib; neutral sign IDs illustrated in write-up"
    },
@@ -6954,11 +6954,11 @@
      "note": "Five-line alchemical annotation read: Prima materia ist die Galle vom Widder; vessel a half-round sphere; furnace the balance. Rous partial reading completed and corrected. All 79 signs assigned; literal GEFAE retained (likely Gefaess, conjectural); 78/79 coherent without emendation. Book date 1618 does not date this anonymous note; no identifiable sender/recipient. Public library source DOI 10.7891/e-manuscripta-23267, image 1033442.",
      "reading": [
       {
-       "file": "r4817/literal.txt"
+       "file": "targets/r4817/literal.txt"
       }
      ],
      "transcription": [
-      "r4817/transcription.txt"
+      "targets/r4817/transcription.txt"
      ],
      "sent": false
     }
@@ -6967,7 +6967,7 @@
   "potocka1714": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/potocka1714.html",
    "key": {
-    "file": "potocka1714/key-potocka.json",
+    "file": "targets/potocka1714/key-potocka.json",
     "lang": "PL/FR",
     "how": "Recovered here from R7526 by Polish monoalphabetic annealing and cross-letter inference."
    },
@@ -6985,7 +6985,7 @@
       "none": "No matching key recovered."
      },
      "transcription": [
-      "potocka1714/r7524-cipher.txt"
+      "targets/potocka1714/r7524-cipher.txt"
      ]
     },
     "R7525": {
@@ -7128,9 +7128,9 @@
   "r2276": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/r2276.html",
    "key": {
-    "file": "r2276/key_v7.json",
+    "file": "targets/r2276/key_v7.json",
     "lang": "FR",
-    "how": "S. Tomokiyo's partial Nevers-Piles table (from BnF fr. 3612), extended here with code signs found in the letter and a full alignment of the deciphered sibling BnF fr. 4715 f. 2 (r2276/fr4715_aligned.txt); labels in r2276/LABELS.md, transcription r2276/t1-t3.txt"
+    "how": "S. Tomokiyo's partial Nevers-Piles table (from BnF fr. 3612), extended here with code signs found in the letter and a full alignment of the deciphered sibling BnF fr. 4715 f. 2 (targets/r2276/fr4715_aligned.txt); labels in targets/r2276/LABELS.md, transcription targets/r2276/t1-t3.txt"
    },
    "cite": "Cipher identified by Norbert Biermann (2021, private communication), reported by S. Tomokiyo, Cryptiana, https://cryptiana.web.fc2.com/code/guise.htm; key table: https://cryptiana.web.fc2.com/code/nevers.htm",
    "fields": {
@@ -7151,15 +7151,15 @@
      "note": "Not 1556 and not to Guise: a letter from Reims, 19 June 1589, on the Reims chapter's postulation (Brulart, Frison) after the murder of Cardinal Louis de Guise; the 1556 date came from the Albany key pasted on p. 4. Nevers-Piles cipher; read in part, 3,598 of 3,920 signs (91.8%) as sense; torn edges and ~80 words open. Page 3 is bound upside down.",
      "reading": [
       {
-       "file": "r2276/reading.txt"
+       "file": "targets/r2276/reading.txt"
       }
      ],
      "sent": false,
      "transcription": [
-      "r2276/t1.txt",
-      "r2276/t2.txt",
-      "r2276/t3.txt",
-      "r2276/LABELS.md"
+      "targets/r2276/t1.txt",
+      "targets/r2276/t2.txt",
+      "targets/r2276/t3.txt",
+      "targets/r2276/LABELS.md"
      ]
     }
    }
@@ -7168,7 +7168,7 @@
    "skip": "Not on DECODE: no record for the Arxiu Capitular de Barcelona or these letters among the 10,106 DECODE records (list.json, checked 23 Sept 2026); the originals are not imaged anywhere, so there is nothing to correct and no record to propose."
   },
   "ungnad1576": {
-   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/ungnad1576/NOTES.md (notes only, no site page)",
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/ungnad1576/NOTES.md (notes only, no site page)",
    "key": {
     "none": "R392 is itself the key (Ungnad's cipher, Gévay copy); the ciphertext it should read, HHStA Türkei I 32-3 ff. 199-203 (12 March 1576), is not on DECODE"
    },
@@ -7190,17 +7190,17 @@
      "reading": null,
      "reading_not_needed": true,
      "transcription": [
-      "ungnad1576/key_r392.txt"
+      "targets/ungnad1576/key_r392.txt"
      ],
      "sent": false
     }
    }
   },
   "schiner1516": {
-   "skip": "Not on DECODE: no record for BL Cotton Vitellius B XIX or for Schiner among the 10,106 DECODE records (catalogue_harvest/decode/list.json, checked 23 Sept 2026); the leaf is not digitised, so there is nothing to correct and no images to propose a record from. The reading is Büchi 1925 no. 541."
+   "skip": "Not on DECODE: no record for BL Cotton Vitellius B XIX or for Schiner among the 10,106 DECODE records (research/catalogue_harvest/decode/list.json, checked 23 Sept 2026); the leaf is not digitised, so there is nothing to correct and no images to propose a record from. The reading is Büchi 1925 no. 541."
   },
   "sinzendorff1578": {
-   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/sinzendorff1578/NOTES.md (notes only, no site page)",
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/sinzendorff1578/NOTES.md (notes only, no site page)",
    "key": {
     "none": "The ciphertext, HHStA Türkei I 37-2 ff. 1-8 (Sinzendorff to Rudolf II, 3-7 Sept 1578), is not on DECODE; the entries below identify keys in the HHStA Chiffrenschlüssel series from their endorsements, read on the DECODE images"
    },
@@ -7222,7 +7222,7 @@
      "reading_not_needed": true,
      "sent": false,
      "transcription": [
-      "sinzendorff1578/key_r1384.txt"
+      "targets/sinzendorff1578/key_r1384.txt"
      ]
     },
     "R1382": {
@@ -7326,9 +7326,9 @@
   "siena1421": {
    "writeup": null,
    "key": {
-    "file": "siena1421/keys/no25_key.txt",
+    "file": "targets/siena1421/keys/no25_key.txt",
     "lang": "IT",
-    "how": "no. 14 (siena1421/key14.txt) and no. 25 recovered ciphertext-only; no. 4 (siena1421/keys/no04_key.txt) rebuilt from the alphabet fragment below its text and the recipient's glosses"
+    "how": "no. 14 (targets/siena1421/key14.txt) and no. 25 recovered ciphertext-only; no. 4 (targets/siena1421/keys/no04_key.txt) rebuilt from the alphabet fragment below its text and the recipient's glosses"
    },
    "cite": "Senatore 2009, 'Callisto III nelle corrispondenze diplomatiche italiane', Revista Borja 2 (Concistoro 2308 c. 4 = Borghesi to Benvoglienti, Naples 12 May [1456])",
    "fields": {},
@@ -7363,7 +7363,7 @@
      "note": "No. 4: Galgano Borghesi, J.U.D. and orator, to Leonardo Benvoglienti, Naples 12 May 1456 (not 1500-1599). Clear Italian with 15 cipher runs and Latin code words; recipient's interlinear glosses; key rebuilt from an alphabet fragment below the text: 114/144 cipher signs read.",
      "reading": [
       {
-       "file": "siena1421/transcripts/no04_reading.txt"
+       "file": "targets/siena1421/transcripts/no04_reading.txt"
       }
      ],
      "sent": false
@@ -7376,7 +7376,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/r4794.txt"
+      "targets/siena1421/transcripts/r4794.txt"
      ]
     },
     "R4795": {
@@ -7387,7 +7387,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/no06.txt"
+      "targets/siena1421/transcripts/no06.txt"
      ]
     },
     "R4796": {
@@ -7398,7 +7398,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/no07.txt"
+      "targets/siena1421/transcripts/no07.txt"
      ]
     },
     "R4797": {
@@ -7417,7 +7417,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/no09.txt"
+      "targets/siena1421/transcripts/no09.txt"
      ]
     },
     "R4799": {
@@ -7436,7 +7436,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/no11.txt"
+      "targets/siena1421/transcripts/no11.txt"
      ]
     },
     "R4801": {
@@ -7453,7 +7453,7 @@
      "note": "No. 14: Sienese envoys to the Priori and Capitano del Popolo, written at Rome(?) while Carlo Malatesta (d. 1429) was alive, not 1500-1599; Italian, point-divided simple substitution; key recovered ciphertext-only; read in part (~59% of signs).",
      "reading": [
       {
-       "file": "siena1421/transcripts/no14_reading2.txt"
+       "file": "targets/siena1421/transcripts/no14_reading2.txt"
       }
      ],
      "sent": false
@@ -7466,7 +7466,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/no15v.txt"
+      "targets/siena1421/transcripts/no15v.txt"
      ]
     },
     "R4804": {
@@ -7485,7 +7485,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/no17.txt"
+      "targets/siena1421/transcripts/no17.txt"
      ]
     },
     "R4807": {
@@ -7496,7 +7496,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/no19.txt"
+      "targets/siena1421/transcripts/no19.txt"
      ]
     },
     "R4808": {
@@ -7507,7 +7507,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/no20.txt"
+      "targets/siena1421/transcripts/no20.txt"
      ]
     },
     "R4809": {
@@ -7518,7 +7518,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/no21.txt"
+      "targets/siena1421/transcripts/no21.txt"
      ]
     },
     "R4811": {
@@ -7529,8 +7529,8 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/no23a.txt",
-      "siena1421/transcripts/no23b.txt"
+      "targets/siena1421/transcripts/no23a.txt",
+      "targets/siena1421/transcripts/no23b.txt"
      ]
     },
     "R4812": {
@@ -7541,9 +7541,9 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "siena1421/transcripts/no24_p2a.txt",
-      "siena1421/transcripts/no24_p2b.txt",
-      "siena1421/transcripts/no24.txt"
+      "targets/siena1421/transcripts/no24_p2a.txt",
+      "targets/siena1421/transcripts/no24_p2b.txt",
+      "targets/siena1421/transcripts/no24.txt"
      ]
     },
     "R4813": {
@@ -7552,7 +7552,7 @@
      "note": "No. 25: slip to the Signoria, Italian, point-divided simple substitution, key recovered ciphertext-only: an armed lord's route by Lajatico, Radicondoli and Casole, provisions asked; 96% of signs read.",
      "reading": [
       {
-       "file": "siena1421/transcripts/no25_reading.txt"
+       "file": "targets/siena1421/transcripts/no25_reading.txt"
       }
      ],
      "sent": false
@@ -7563,7 +7563,7 @@
      "note": "No. 18: Latin articles of a treaty between Siena and the King/Emperor (subscribed Niccolaus Ziegler, Regis Secretarius; Ponte a Valiano; war on the Florentines), 1510s-1520s, not 1500-1599 placeholder; cipher words inside the Latin; key recovered ciphertext-only; 87% of cipher signs read.",
      "reading": [
       {
-       "file": "siena1421/transcripts/no18_reading.txt"
+       "file": "targets/siena1421/transcripts/no18_reading.txt"
       }
      ],
      "sent": false
@@ -7576,7 +7576,7 @@
      "reading_not_needed": true,
      "sent": false,
      "transcription": [
-      "siena1421/transcripts/no22.txt"
+      "targets/siena1421/transcripts/no22.txt"
      ]
     },
     "R4814": {
@@ -7592,7 +7592,7 @@
   "sp106r927": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/sp106r927.html",
    "key": {
-    "file": "sp106r927/key.json",
+    "file": "targets/sp106r927/key.json",
     "lang": "FR",
     "how": "ciphertext-only: homophonic pigpen, key annealed (hc3.py) on a hand transcription of f. 243, fixed with anchors; the pencil key on the flap does not fit"
    },
@@ -7608,7 +7608,7 @@
      "note": "French letter to 'Monsieur'. f. 243 (last page) read almost in full, f. 241 in fragments, f. 242 not transcribed. Homophonic pigpen; the pencil key on the flap is not the key. Earlier decoded by Sheila Richards, Secret Writings (1973), per G. Lasry; this reading is independent.",
      "reading": [
       {
-       "file": "sp106r927/p3_plain.txt"
+       "file": "targets/sp106r927/p3_plain.txt"
       }
      ],
      "sent": false
@@ -7953,7 +7953,7 @@
     "decode_status": "Non-decrypted",
     "proposed": "Decrypted",
     "note": "f. 245, Edward Lee to Henry VIII, Seville 13 May 1526; both cipher blocks deciphered at the time by Tuke (image 4 of this record); L&P iv 2173. Re-read sign by sign with Tomokiyo's key, agrees with Tuke.",
-    "reading": "lee1526/r8473_reading.txt",
+    "reading": "targets/lee1526/r8473_reading.txt",
     "sent": false,
     "fields": {
      "receiver": "Henry VIII"
@@ -7963,7 +7963,7 @@
     "decode_status": "Partially decrypted",
     "proposed": "Partially decrypted",
     "note": "ff. 109-110, Edward Lee to Wolsey, Valladolid 20 April 1527, a duplicate of his 8 April letter (L&P iv 3028, 3055); Tuke's decipherment of the original is at TNA; only the f. 110 cipher is glossed on this record. Pages: image 1 = f.109r, 4 = f.109v, 2 = f.110r, 3 = address. 414/457 cipher words (90.6%) read here with Tomokiyo's key and the L&P crib.",
-    "reading": "lee1526/r8533_reading.txt",
+    "reading": "targets/lee1526/r8533_reading.txt",
     "sent": false,
     "fields": {
      "receiver": "Cardinal Thomas Wolsey"
@@ -8044,7 +8044,7 @@
     "note": "Not a cipher: clear English letter from C. Ben. Schaeblin, The Hague, 16 Jan 1753, TO Mr Jones (sender/receiver swapped). Proposes a new French cipher of 3000 numbers modelled on the English one, disguised by reversing/rotating figures or adding a dummy figure; the only numbers are worked examples on 1753.",
     "reading": null,
     "transcription": [
-     "jones1753/transcription.txt"
+     "targets/jones1753/transcription.txt"
     ],
     "sent": false,
     "reading_not_needed": true
@@ -8073,7 +8073,7 @@
   }
  },
  "renard1554": {
-  "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/renard1554/NOTES.md (notes only, no site page)",
+  "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/renard1554/NOTES.md (notes only, no site page)",
   "key": {
    "decode": "none on DECODE; Granvelle-Saint Mauris cipher 1547-48 (PP1), published by Pich-Ponce"
   },
@@ -8199,7 +8199,7 @@
     "reading": null,
     "reading_not_needed": true,
     "transcription": [
-     "r8870/transcription.txt"
+     "targets/r8870/transcription.txt"
     ],
     "sent": false
    }
@@ -8220,14 +8220,14 @@
     "decode_status": "Non-decrypted",
     "proposed": "Decrypted",
     "note": "AGS Estado leg. 853 doc. 91, 24 Oct 1531. Images 21-23 (scans 021-023, '91 bis / De Muxetula') are the contemporary decipherment, paragraphs A, b, C, d keyed to the letter's margin letters; blocks on scans 009 and 017 deciphered in the margin. Key: Luo 2021 Cifrario 22.",
-    "reading": "muxetula1531/NOTES.md",
+    "reading": "targets/muxetula1531/NOTES.md",
     "sent": false
    },
    "R9962": {
     "decode_status": "Non-decrypted",
     "proposed": "Decrypted",
     "note": "Duplicate of R9961 images 1-4 (scans 025-028 rescan 001-004). Decipherment in R9961 images 21-23.",
-    "reading": "muxetula1531/NOTES.md",
+    "reading": "targets/muxetula1531/NOTES.md",
     "sent": false
    }
   }
@@ -8249,11 +8249,11 @@
    "R8363": {
     "decode_status": "Non-decrypted",
     "proposed": "Non-decrypted",
-    "note": "Not read. Letter-book copy of Walsingham to Burghley, Paris, 20 Jan 1572/3 (after the tail of a 21 Jan letter, CSP For. x after no. 726). Clear English except one six-sign place name '2 1 ⌘ ε 9 4' (f. 398r, the port a gentleman went to to embark) and a copyist's [9] placeholder. Printed in Digges 1655 p. 313 with the cipher left as cipher. The same six-sign word recurs in R8364 (f. 419, '2 0 ‡ H 6 1') and in two more letters printed by Digges (pp. 301, 303); read VALERY (St Valery, grade M) in r8364/, https://dbourdeau.github.io/cyphersolver/r8364.html.",
+    "note": "Not read. Letter-book copy of Walsingham to Burghley, Paris, 20 Jan 1572/3 (after the tail of a 21 Jan letter, CSP For. x after no. 726). Clear English except one six-sign place name '2 1 ⌘ ε 9 4' (f. 398r, the port a gentleman went to to embark) and a copyist's [9] placeholder. Printed in Digges 1655 p. 313 with the cipher left as cipher. The same six-sign word recurs in R8364 (f. 419, '2 0 ‡ H 6 1') and in two more letters printed by Digges (pp. 301, 303); read VALERY (St Valery, grade M) in targets/r8364/, https://dbourdeau.github.io/cyphersolver/r8364.html.",
     "reading": null,
     "reading_not_needed": true,
     "transcription": [
-     "walsingham1572/cipher.txt"
+     "targets/walsingham1572/cipher.txt"
     ],
     "sent": false
    }
@@ -8283,15 +8283,15 @@
     "sent": false,
     "reading_not_needed": true,
     "transcription": [
-     "r8356/transcription.txt"
+     "targets/r8356/transcription.txt"
     ]
    }
   }
  },
  "r9658": {
-  "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/r9658/NOTES.md (notes only, no site page)",
+  "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/r9658/NOTES.md (notes only, no site page)",
   "key": {
-   "decode": "none on DECODE; Lope Hurtado 1522 key partly rebuilt in lopehurtado/key_codes.tsv"
+   "decode": "none on DECODE; Lope Hurtado 1522 key partly rebuilt in targets/lopehurtado/key_codes.tsv"
   },
   "cite": "G. A. Bergenroth (ed.), Calendar of State Papers, Spain, vol. 2 (1866), no. 510 (Salazar A. 26, ff. 371-377)",
   "fields": {
@@ -8333,7 +8333,7 @@
     "sent": false,
     "reading_not_needed": true,
     "transcription": [
-     "r8362/transcription.txt"
+     "targets/r8362/transcription.txt"
     ]
    }
   }
@@ -8360,7 +8360,7 @@
     "sent": false,
     "reading_not_needed": true,
     "transcription": [
-     "goertz1717/transcription.txt"
+     "targets/goertz1717/transcription.txt"
     ]
    }
   }
@@ -8381,7 +8381,7 @@
     "sent": false,
     "reading_not_needed": true,
     "transcription": [
-     "r1871/r1873_bonavoglia.txt"
+     "targets/r1871/r1873_bonavoglia.txt"
     ]
    },
    "R1871": {
@@ -8392,8 +8392,8 @@
     "sent": false,
     "reading_not_needed": true,
     "transcription": [
-     "r1871/r1871_digits.txt",
-     "r1871/groups.txt"
+     "targets/r1871/r1871_digits.txt",
+     "targets/r1871/groups.txt"
     ]
    }
   }
@@ -8413,7 +8413,7 @@
     "note": "No cipher in the record: both images (AGS scans 002-003) are the clear contemporary decipherment headed 'De micer may xij de set[iembr]e 1531', paragraph A. Sender Micer Mai (Galende 1994 p. 163). Symbol sets should be removed; the ciphered despatch itself is not on DECODE.",
     "reading": [
      {
-      "file": "mai1531/NOTES.md",
+      "file": "targets/mai1531/NOTES.md",
       "section": "## Transcription (diplomatic, abbreviations expanded in brackets)"
      }
     ],

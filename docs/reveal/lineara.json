@@ -2,7 +2,7 @@
  "slug": "lineara",
  "anchor": "accounts",
  "title": "HT 123+124a: an olive account, read as far as it goes",
- "caption": "Haghia Triada tablet HT 123+124a, run through this project&rsquo;s reading script (lineara/reading/build_reading.py). Numbers, fraction signs, the olive logogram and the terms KI-RO and KU-RO read as sense; sign groups read only as sound stay in small capitals; *308 and the fraction signs X and A stay unread.",
+ "caption": "Haghia Triada tablet HT 123+124a, run through this project&rsquo;s reading script (targets/lineara/reading/build_reading.py). Numbers, fraction signs, the olive logogram and the terms KI-RO and KU-RO read as sense; sign groups read only as sound stay in small capitals; *308 and the fraction signs X and A stay unread.",
  "unit": "sign groups",
  "key_note": "Sound values from Linear B, tested against a null; fractions after Corazza et al. 2021 except H and A; KU-RO = total, KI-RO = deficit.",
  "tokens": [

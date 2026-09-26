@@ -135,7 +135,7 @@ matina solamente &egrave; rimasto privo di vita&rdquo;. The legate, because a ca
 <h2 id="method"><span class="num">04</span> Method</h2>
 <p>DECODE&rsquo;s transcriptions give the figures one by one, marking a dotted figure <code>X Y^. Z</code>. Dotted groups were taken as
 nomenclator codes. The rest of each page is a single string of digits, and each position can open a code of one, two or three figures.
-The decoder (<code>morosini1588/decrypt.py</code>) keeps, at every position, the best-scoring decryption for each four-letter context. It scores
+The decoder (<code>targets/morosini1588/decrypt.py</code>) keeps, at every position, the best-scoring decryption for each four-letter context. It scores
 the letters it emits with the repository&rsquo;s shared Italian 5-gram model (<code>lang/</code>, <i>it-cinquecento</i>, built from
 Renaissance letters and nunciature reports, without spaces). It charges a fixed cost for a null (8 and any figure) and a larger one for a figure it cannot place.
 A page of 1,500 figures runs in about a second. The Spanish enclosure (R35, a copy of Philip II&rsquo;s letter to the Queen Mother)
@@ -162,7 +162,7 @@ the first figure of a code. For these the decoder uses Lasry&rsquo;s partial rec
 <li>No printed edition of Morosini&rsquo;s legation turned up (there is no Acta Nuntiaturae Gallicae volume for 1587&ndash;89); searched 19 September 2026.</li>
 </ul>
 
-<p class="muted">Decoder, notes, the decoded pages and the summaries: <a href="https://github.com/dbourdeau/cyphersolver/tree/main/morosini1588"><code>morosini1588/</code></a>. Page images are not reproduced beyond the crop above.</p>
+<p class="muted">Decoder, notes, the decoded pages and the summaries: <a href="https://github.com/dbourdeau/cyphersolver/tree/main/targets/morosini1588"><code>targets/morosini1588/</code></a>. Page images are not reproduced beyond the crop above.</p>
 </main>
 <footer><div class="in">
   <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Archivio Apostolico Vaticano, via DECODE R18&ndash;R58</span>

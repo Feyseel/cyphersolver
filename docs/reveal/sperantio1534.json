@@ -4,7 +4,7 @@
  "title": "Buda, 6 February 1534: the opening of King John's letter",
  "caption": "The first six cipher lines of R9411 (BayHStA Kurbayern Äußeres Archiv 4591 f.248r), decoded sign by sign with the key rebuilt from the letter's own interlinear decipherment. Signs where the decoder and the final reading disagree are marked uncertain.",
  "unit": "signs",
- "key_note": "Key rebuilt from the contemporary interlinear decipherment (sperantio1534/r9411/run7.txt); the same key as R9415 (System L).",
+ "key_note": "Key rebuilt from the contemporary interlinear decipherment (targets/sperantio1534/r9411/run7.txt); the same key as R9415 (System L).",
  "tokens": [
   {
    "g": "F",

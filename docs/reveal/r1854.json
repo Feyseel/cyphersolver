@@ -4,7 +4,7 @@
 "title": "Rome, 9 August 1428: the opening of the agent's letter",
 "caption": "The first three lines of the Rome letter of 9 August 1428 to Gianfrancesco Gonzaga (DECODE R1854, image 2), deciphered with the key rebuilt here; nulls shown empty. The s in “or(s)landis” and the missing t of “Vic(t)orius” are errors of the writer or of the transcription.",
 "unit": "signs",
-"key_note": "Homophonic substitution in graphic signs and digits (key rebuilt ciphertext-only, r1854/key7.txt): several signs for each vowel, a dozen nulls; the sign names are the project's ASCII transcription names.",
+"key_note": "Homophonic substitution in graphic signs and digits (key rebuilt ciphertext-only, targets/r1854/key7.txt): several signs for each vowel, a dozen nulls; the sign names are the project's ASCII transcription names.",
 "tokens": [
 {
 "g": "M",

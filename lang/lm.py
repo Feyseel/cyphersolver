@@ -3,7 +3,7 @@
 One normaliser and one character n-gram engine for every target, in place of the ~25 per-folder lm.py
 scripts. Models are declared in models.json, their corpora in sources.json; see lang/README.md.
 
-    import sys; sys.path.insert(0, '..')          # from a target folder
+    import sys; sys.path.insert(0, '../..')       # from a target folder, targets/<name>/
     from lang import lm
     m = lm.load('fr-1600-letters')                # builds on first use, then cached in lang/cache/
     m.per_char('le roy vous escrit')              # mean log-probability per character

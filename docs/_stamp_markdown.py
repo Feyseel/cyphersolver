@@ -11,6 +11,7 @@ import json, pathlib, re, subprocess, sys
 
 HERE = pathlib.Path(__file__).parent
 ROOT = HERE.parent
+TARGETS = ROOT / 'targets'          # one folder per cipher target
 sys.path.insert(0, str(HERE))
 import _build_site as B
 
@@ -21,7 +22,7 @@ _dir_cache = {}
 def dir_date(name):
     """First commit that touched a working directory, for findings with no write-up page."""
     if name not in _dir_cache:
-        out = subprocess.run(['git', 'log', '--reverse', '--format=%ad', '--date=short', '--', name],
+        out = subprocess.run(['git', 'log', '--reverse', '--format=%ad', '--date=short', '--', name, 'targets/' + name],
                              cwd=ROOT, capture_output=True, text=True).stdout.splitlines()
         _dir_cache[name] = out[0] if out else ''
     return _dir_cache[name]
@@ -32,9 +33,9 @@ def row_date(cells):
     text = ' | '.join(cells)
     m = re.search(r'cyphersolver/([a-z0-9]+)\.html', text)
     if m and m.group(1) in PAGES: return PAGES[m.group(1)]['first']
-    for d in re.findall(r'\]\(([a-z0-9_]+)/', text):
+    for d in re.findall(r'\]\((?:targets/)?([a-z0-9_]+)/', text):
         if d in PAGES: return PAGES[d]['first']
-        if (ROOT / d).is_dir():
+        if (TARGETS / d).is_dir():
             got = dir_date(d)
             if got: return got
     return ''

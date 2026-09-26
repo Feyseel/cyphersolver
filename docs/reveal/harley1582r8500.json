@@ -4,7 +4,7 @@
 "title": "Stafford to Walsingham, 20 August 1586: the ciphered postscript",
 "caption": "The five cipher runs of the postscript on BL Harley MS 1582 f. 65v (DECODE R8500), with the clear text between them paraphrased from the page's reading.",
 "unit": "signs",
-"key_note": "Stafford's letter key, rebuilt here from the f. 72r decipherment and the f. 73r glosses (harley1582r8500/key.tsv). Signs whose value rests on context alone are marked uncertain; two signs with no value in the key are left as ?.",
+"key_note": "Stafford's letter key, rebuilt here from the f. 72r decipherment and the f. 73r glosses (targets/harley1582r8500/key.tsv). Signs whose value rests on context alone are marked uncertain; two signs with no value in the key are left as ?.",
 "tokens": [
 {
 "g": "",

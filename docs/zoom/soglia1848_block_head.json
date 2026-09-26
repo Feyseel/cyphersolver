@@ -1,6 +1,6 @@
 {
  "image": "soglia1848_block_head.jpg",
- "source": "soglia1848/ct.txt (Joe's transcription, corrected), split at the printed line ends",
+ "source": "targets/soglia1848/ct.txt (Joe's transcription, corrected), split at the printed line ends",
  "lines": [
   {
    "x": 0.08,

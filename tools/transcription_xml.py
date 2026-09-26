@@ -4,8 +4,8 @@
 # Nothing here re-reads an image. The input is the transcription files the project already has; the output is
 # one XML file per document, one <g> element per cipher glyph, grouped in <page> and <line>.
 #
-#   python tools/transcription_xml.py sormano      -> sormano/xml/no63.xml, no65.xml, no66.xml
-#   python tools/transcription_xml.py mondoucet    -> gallica_sweep/mondoucet/xml/1573-09-09.xml, 1572-07-13.xml
+#   python tools/transcription_xml.py sormano      -> targets/sormano/xml/no63.xml, no65.xml, no66.xml
+#   python tools/transcription_xml.py mondoucet    -> research/gallica_sweep/mondoucet/xml/1573-09-09.xml, 1572-07-13.xml
 #   python tools/transcription_xml.py survey       -> papers/lasry/graphic_sign_transcriptions.csv (profiles whose
 #                                                     non-letter, non-digit signs the model transcribed from images)
 #   python tools/transcription_xml.py all
@@ -150,9 +150,9 @@ def sor_line(body, line, state):
 
 
 def sormano():
-    folder = os.path.join(ROOT, 'sormano')
+    folder = os.path.join(ROOT, 'targets', 'sormano')
     for no in ('63', '65', '66'):
-        src = 'sormano/n%s_transcription.md' % no
+        src = 'targets/sormano/n%s_transcription.md' % no
         lines = open(os.path.join(ROOT, src), encoding='utf-8').read().split('\n')
         t = header('sormano', 'no%s' % no, [src], SOR_PROV)
         conv = ET.SubElement(t, 'conventions')
@@ -178,7 +178,7 @@ def sormano():
 
 # ---------------------------------------------------------------- mondoucet (sign labels)
 
-MON = os.path.join(ROOT, 'gallica_sweep', 'mondoucet')
+MON = os.path.join(ROOT, 'research', 'gallica_sweep', 'mondoucet')
 MON_PROV = ('LLM transcription from the Gallica microfilm images of BnF fr. 16127, glyph by glyph on '
             'line strips, one ASCII label per sign (legend in <conventions>); a = round closed a, α/@ = open '
             'alpha, split on 21 Sept 2026. No glyph coordinates were kept.')
@@ -237,9 +237,9 @@ def mon_1573():
     assert len(paths) == 2
     codes = collections.Counter(m for p in paths for m in p if m[1].startswith('{'))
     t = header('mondoucet', '9 Sept 1573, Amsterdam (ff. 135r-137r)',
-               ['gallica_sweep/mondoucet/' + f for f in files] +
-               ['gallica_sweep/mondoucet/f1573/key1573_split2_align.txt',
-                'gallica_sweep/mondoucet/f1573/key1573_split2.json'],
+               ['research/gallica_sweep/mondoucet/' + f for f in files] +
+               ['research/gallica_sweep/mondoucet/f1573/key1573_split2_align.txt',
+                'research/gallica_sweep/mondoucet/f1573/key1573_split2.json'],
                MON_PROV + ' The reading of each glyph (r, basis="court") is the letter of the Court\'s '
                'contemporary decipherment (ff. 139-141) that the hard-EM aligner (f1573/align2.py) matched to it; '
                'key= gives the same sign\'s spread over the whole alignment. f. 137v was not transcribed.')
@@ -305,8 +305,8 @@ def mon_1572():
             dec[m.group(1)] = m.group(2)
     files = ['hand/ct_f60_split.txt', 'hand/ct_f60v_split.txt', 'hand/ct_f61_split.txt']
     t = header('mondoucet', '13 July 1572, Brussels (ff. 60r-61r)',
-               ['gallica_sweep/mondoucet/' + f for f in files] +
-               ['gallica_sweep/mondoucet/hand/key2.json', 'gallica_sweep/mondoucet/hand/decode_retry.txt'],
+               ['research/gallica_sweep/mondoucet/' + f for f in files] +
+               ['research/gallica_sweep/mondoucet/hand/key2.json', 'research/gallica_sweep/mondoucet/hand/decode_retry.txt'],
                MON_PROV + ' This letter has no contemporary decipherment and is not in print; it is NOT read '
                '(about 1-8 % of glyphs fall in stretches that make sense). key= is the 1572 key with alpha = r '
                '(the "ext" key of hand/decode_retry.py); r with basis="decoder" is the beam decoder\'s output '
@@ -353,7 +353,7 @@ def survey(out='papers/lasry/graphic_sign_transcriptions.csv'):
     import csv, pathlib
     rows = []
     root = pathlib.Path(ROOT)
-    for p in sorted(list(root.glob('*/profile.json')) + list(root.glob('*/*/profile.json'))):
+    for p in sorted(list(root.glob('targets/*/profile.json')) + list(root.glob('research/*/*/profile.json'))):
         d = json.loads(p.read_text(encoding='utf-8'))
         sk = d['system'].get('symbol_kind')
         if sk not in ('symbols', 'letters and symbols', 'digits and symbols'):

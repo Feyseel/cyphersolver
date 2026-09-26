@@ -5,7 +5,7 @@
   python decode_updates/queue.py skip <folder> "<why>"  record that the target needs no DECODE edit
 
 `add` takes the record numbers (R1234) from the profile's documents, fetches each record's current DECODE status
-when bordeaux/decode/cookie.txt still logs in, and writes TODO wherever a judgement is needed: the proposed
+when targets/bordeaux/decode/cookie.txt still logs in, and writes TODO wherever a judgement is needed: the proposed
 status, the note, the key source and the reading file. Fill those in by hand, then run build.py.
 """
 import json, os, re, sys, urllib.request
@@ -27,7 +27,7 @@ def save(data):
 
 
 def decode_ids(folder):
-    p = json.load(open(os.path.join(ROOT, folder, 'profile.json'), encoding='utf-8'))
+    p = json.load(open(os.path.join(ROOT, 'targets', folder, 'profile.json'), encoding='utf-8'))
     ids = []
     for d in p['documents']:
         for n in re.findall(r'\bR ?(\d{2,5})\b', d['id'] + ' ' + d['shelfmark']):
@@ -41,7 +41,7 @@ def current_status(ids):
     try:
         # the cookie is git-ignored, so a worktree reads the main checkout's copy
         common = os.path.dirname(os.path.abspath(os.popen(f'git -C "{ROOT}" rev-parse --git-common-dir').read().strip()))
-        path = next(p for p in (os.path.join(r, 'bordeaux', 'decode', 'cookie.txt') for r in (ROOT, common))
+        path = next(p for p in (os.path.join(r, 'targets', 'bordeaux', 'decode', 'cookie.txt') for r in (ROOT, common))
                     if os.path.exists(p))
         cookie = open(path, encoding='utf-8').read().strip()
         h = {'Cookie': cookie, 'User-Agent': 'Mozilla/5.0'}
@@ -63,7 +63,7 @@ def current_status(ids):
 
 def guess_reading(folder, n):
     for f in (f'read/R{n}.txt', f'read/R{n}.md', f'reading_R{n}.txt', f'read_r{n}.md', f'r{n}.read.txt'):
-        if os.path.exists(os.path.join(ROOT, folder, f)):
+        if os.path.exists(os.path.join(ROOT, 'targets', folder, f)):
             return [{'file': f'{folder}/{f}'}]
     return 'TODO'
 

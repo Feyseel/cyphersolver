@@ -1,4 +1,4 @@
-"""Flatten every <target>/profile.json into one analysis table for the LLM-performance paper.
+"""Flatten every targets/<target>/profile.json into one analysis table for the LLM-performance paper.
 
   python docs/_export_profiles.py [outdir]      default outdir: papers/lasry
 
@@ -12,6 +12,7 @@ import sys, csv, json, pathlib
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
+TARGETS = ROOT / 'targets'          # one folder per cipher target
 sys.path.insert(0, str(HERE))
 import _check_profile as cp
 
@@ -26,7 +27,7 @@ def flat(v, prefix, out):
 
 def rows():
     out, skipped = [], []
-    for p in sorted(ROOT.glob('*/profile.json')):
+    for p in sorted(TARGETS.glob('*/profile.json')):
         folder = p.parent.name
         if folder in cp.cw.FAMOUS: continue                  # famous targets stay out of the paper data
         if cp.check(folder, quiet=True)[0] != 'valid': skipped.append(folder); continue

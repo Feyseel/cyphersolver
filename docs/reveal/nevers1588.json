@@ -2,7 +2,7 @@
  "slug": "nevers1588",
  "anchor": "reading",
  "title": "The King's council and Villeroy's tears",
- "caption": "BnF fr. 3976 f. 62, the runs from 'chancellier et d'O' to 'Bellièvre', decoded with the key rebuilt from f. 131 (nevers1588/key.md). Clear text between the runs is as written.",
+ "caption": "BnF fr. 3976 f. 62, the runs from 'chancellier et d'O' to 'Bellièvre', decoded with the key rebuilt from f. 131 (targets/nevers1588/key.md). Clear text between the runs is as written.",
  "unit": "signs (one character, or 1 + character)",
  "key_note": "Homophonic, some signs polyphonic: 9 = a or h, the curly 8 = b, u or v, n and o = l.",
  "tokens": [

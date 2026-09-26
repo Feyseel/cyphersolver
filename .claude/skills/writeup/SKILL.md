@@ -10,7 +10,7 @@ A result is not finished until it is on every one of these surfaces. Concurrent 
 other's folders with `git add -A`, so the commit log never announces a solve; the only reliable signal is the
 checker. Work through the list, then run `python docs/_check_writeup.py <slug>` until it prints `complete`.
 
-Target: `$ARGUMENTS`. Read `<folder>/NOTES.md` and the reading files first; the write-up is written from the notes,
+Target: `$ARGUMENTS`. Read `targets/<folder>/NOTES.md` and the reading files first; the write-up is written from the notes,
 not from memory. The slug is the folder name unless a page already exists under another name (check
 `python docs/_check_writeup.py --audit` and the README row's link). Never invent a second page for the same target.
 
@@ -32,7 +32,7 @@ not from memory. The slug is the folder name unless a page already exists under 
   key", "key recovered from the clear passages", "transcribed the contemporary decipherment"); do not use "read" or
   "solved" alone as an outcome word, and do not call an item unsolved because a catalogue says "undeciphered".
 - Dates: "Date" is the document's date. The work date is the day the finding first landed in the repository
-  (`git log --diff-filter=A --format=%ad --date=short -- <folder>/ | tail -1` if it was not today).
+  (`git log --diff-filter=A --format=%ad --date=short -- targets/<folder>/ targets/<folder>/ | tail -1` if it was not today).
 
 ## 0a. Before writing up "read in part": push for the full reading
 
@@ -202,7 +202,7 @@ three are data files you edit by hand; each is a few lines, and skipping one lea
   Read after matching with key from external sources / Read with known key / Read from existing decipherment / Not
   solved / Not applicable). Six columns: Target (name, place, dates, shelfmark, catalogue item and class), Date (of
   the document), Landed (work date), Extent (complete / partial / &mdash;), Result (what was deciphered and what is
-  open), Where: `` [`<folder>/`](<folder>/) · [write-up](https://dbourdeau.github.io/cyphersolver/<slug>.html) ``.
+  open), Where: `` [`targets/<folder>/`](targets/<folder>/) · [write-up](https://dbourdeau.github.io/cyphersolver/<slug>.html) ``.
   The Where link is what marks the row as written up; without it the row lists as "notes only".
 - `SOLVED_CATALOGUE.md` (solved and partly read only): next number, same columns as the rows above it.
 - `SOLVED_RANKING.md` (solved and partly read only): a `pN` provisional row with the six axis scores and the
@@ -220,7 +220,7 @@ three are data files you edit by hand; each is a few lines, and skipping one lea
 - `docs/index.html`: a new `<li>` at the top of the first `<ul class="findings">` under Recent findings:
   `<li><b>Who to whom, date</b> &mdash; <span class="fnd">outcome in one line</span> … <a href="<slug>.html">write-up</a></li>`.
   The builder dates it and folds the list.
-- `<folder>/profile.json`: run the `/profile <folder>` skill. It records the cipher parameters, the challenge
+- `targets/<folder>/profile.json`: run the `/profile <folder>` skill. It records the cipher parameters, the challenge
   conditions, the solution steps and the outcome in fixed fields for the LLM-performance paper.
   `python docs/_check_profile.py <folder>` must print `result: valid`.
 - `decode_updates/queue.json` (targets read from DECODE records): queue the DECODE edits so they can be sent once

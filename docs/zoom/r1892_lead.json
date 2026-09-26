@@ -1,6 +1,6 @@
 {
  "image": "r1892_lead.jpg",
- "source": "r1892/transcription_p2.txt (pairs top-over-bottom), gloss from r1892/decrypt_p2.txt",
+ "source": "targets/r1892/transcription_p2.txt (pairs top-over-bottom), gloss from targets/r1892/decrypt_p2.txt",
  "lines": [
   {
    "x": 0.4818,

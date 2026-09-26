@@ -4,7 +4,7 @@
  "title": "Watch it decipher: the march on the Upper Palatinate",
  "caption": "Segment S3 of the letter (APUG 568 f. 239r), deciphered with the key rebuilt here.",
  "unit": "number",
- "key_note": "Homophonic key rebuilt from context cribs (baner1640/key.json); 442 is a code word, left open.",
+ "key_note": "Homophonic key rebuilt from context cribs (targets/baner1640/key.json); 442 is a code word, left open.",
  "tokens": [
   {
    "g": "",

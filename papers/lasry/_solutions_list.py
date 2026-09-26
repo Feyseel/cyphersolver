@@ -63,7 +63,7 @@ def prior_note(prof):
 
 
 def item(it):
-    prof = json.loads((ROOT / it['profile'] / 'profile.json').read_text(encoding='utf-8'))
+    prof = json.loads((ROOT / 'targets' / it['profile'] / 'profile.json').read_text(encoding='utf-8'))
     o = prof['outcome']
     method, ext = o.get('method', 'unknown'), M.extent(prof)
     if it.get('part'):

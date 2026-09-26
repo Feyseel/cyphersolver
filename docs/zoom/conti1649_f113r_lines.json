@@ -1,6 +1,6 @@
 {
  "image": "conti1649_f113r_lines.jpg",
- "source": "conti1649/transcription.txt, gloss from conti1649/decoded.txt",
+ "source": "targets/conti1649/transcription.txt, gloss from targets/conti1649/decoded.txt",
  "lines": [
   {
    "x": 0.0179,

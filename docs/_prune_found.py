@@ -26,8 +26,8 @@ def drop_lines(s, prefixes):
 NOTE = ('Six further list entries turned out to be solved by others with nothing to add here: Perwich 1670 (Brown; Lasry, '
         'Biermann and Tomokiyo, 2025), Ferdinand III and the Cardinal-Infante (Ernst, 2017), the Milroy telegrams (Bean, 2026), '
         'the Feynman ciphers 2 and 3 (2023), the Confederate Navy dictionary code (2026) and the Mazarin–Bordeaux letter of 1654 '
-        '(Lasry, 2025). They are not counted in the results above; the directories `perwich/`, `ferdinand3/`, `milroy/`, `feynman/` '
-        'and `barney/` hold only the pointer to the published solution.')
+        '(Lasry, 2025). They are not counted in the results above; the directories `targets/perwich/`, `targets/ferdinand3/`, `targets/milroy/`, `targets/feynman/` '
+        'and `targets/barney/` hold only the pointer to the published solution.')
 
 def readme(s):
     s = drop_lines(s, ['| Perwich → Arlington', '| Ferdinand III ↔', '| Milroy telegrams', '| Feynman ciphers', '| Confederate Navy dictionary code'])
@@ -40,7 +40,7 @@ def readme(s):
 
 def targets(s):
     s = drop_lines(s, ['| 16 | Ferdinand III ↔', '| 27 | Mazarin → Bordeaux', '| ~~William Perwich~~', '| A Dictionary Code Used by Confederate Navy'])
-    s = re.sub(r'\nThe source has caught up on one item since our ranking: \*\*Union Ciphers during the Civil War \(1862\)\*\* is now marked\nSolved \(Richard Bean with Claude Opus 5, 2026\), matching our `milroy/` finding\.\n', '\n', s)
+    s = re.sub(r'\nThe source has caught up on one item since our ranking: \*\*Union Ciphers during the Civil War \(1862\)\*\* is now marked\nSolved \(Richard Bean with Claude Opus 5, 2026\), matching our `targets/milroy/` finding\.\n', '\n', s)
     s = s.replace('Already closed from that list: Feynman ciphers 2 and 3 (Vierra 2023, verified here), Zodiac Z408/Z340,',
                   'Already closed from that list: Zodiac Z408/Z340,')
     return s
@@ -63,7 +63,7 @@ def index(s):
     out = []
     for line in s.split('\n'):
         if line.startswith('<tr class="done"><td><a href="https://www.nationalarchives.gov.uk/explore-the-collection/the-collection-blog/secret-diplomatic-message') \
-           or (line.startswith('<tr class="done"><td><a href="https://github.com/dbourdeau/cyphersolver/blob/main/bordeaux/NOTES.md">Mazarin')):
+           or (line.startswith('<tr class="done"><td><a href="https://github.com/dbourdeau/cyphersolver/blob/main/targets/bordeaux/NOTES.md">Mazarin')):
             print('   -', line[:110]); continue
         out.append(line)
     return '\n'.join(out)

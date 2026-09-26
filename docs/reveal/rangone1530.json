@@ -4,7 +4,7 @@
  "title": "Venice, 24 December 1529: the Fregoso passage",
  "caption": "The cipher of Rangone’s letter of 24 December 1529 (BnF Français 3082 f. 42r), decoded sign by sign with the key rebuilt here. Unread signs show ?, doubtful ones are marked, ϑ is a null.",
  "unit": "signs",
- "key_note": "Homophonic key rebuilt ciphertext-only (rangone1530/key.json); the glyphs are typographic stand-ins for the drawn signs.",
+ "key_note": "Homophonic key rebuilt ciphertext-only (targets/rangone1530/key.json); the glyphs are typographic stand-ins for the drawn signs.",
  "tokens": [
   {
    "g": "",

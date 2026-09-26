@@ -24,6 +24,11 @@ import sys, re, json, pathlib, subprocess, time
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 HERE = pathlib.Path(__file__).resolve().parent          # docs/
 ROOT = HERE.parent
+TARGETS = ROOT / 'targets'          # one folder per cipher target
+
+def tdir(folder):
+    """A target's folder: targets/<name>, or a nested research folder named from the root (research/gallica_sweep/x)."""
+    return TARGETS / folder if (TARGETS / folder).is_dir() or not (ROOT / folder).is_dir() else ROOT / folder
 SITE = 'https://dbourdeau.github.io/cyphersolver/'
 SURVEYS = {'famous', 'solved', 'highlights'}
 TOOL_PAGES = {'atlas', 'keys', 'secret', 'indus-bench', 'glossary'}   # interactive and reference pages, not write-ups
@@ -32,6 +37,7 @@ TOOL_PAGES = {'atlas', 'keys', 'secret', 'indus-bench', 'glossary'}   # interact
 FAMOUS = {'indus', 'voynich', 'beale', 'kryptos', 'dorabella', 'zodiac', 'z340', 'z13', 'linear_a', 'lineara',
           'phaistos', 'rongorongo', 'rohonc', 'goldbar', 'pigeon', 'shugborough', 'tamamshud'}
 NOT_TARGETS = {'docs', 'papers', 'mtc3', 'gallica_siblings', 'gallica_sweep', 'top50', 'oldest', 'source_headings.txt'}
+NOT_TARGETS |= {'research/' + n for n in NOT_TARGETS} | {'research', 'lang'}
 
 def read(p):
     try: return pathlib.Path(p).read_text(encoding='utf-8')
@@ -74,7 +80,7 @@ def readme_rows():
         where = cells[-1]
         rows.append(dict(section=sect, target=cells[0], where=where, line=line,
                          slugs=set(re.findall(r'cyphersolver/([a-z0-9]+)\.html', where)),
-                         dirs=set(re.findall(r'\]\(([A-Za-z0-9_/]+?)/\)', where))))
+                         dirs=set(re.findall(r'\]\((?:targets/)?([A-Za-z0-9_/]+?)/\)', where))))
     return rows
 
 def catalogue():
@@ -91,7 +97,7 @@ NOT_FINISHED = re.compile(r'status:\s*\**\s*(in progress|open|unsolved|attempted
 def target_dirs():
     """Root folders with a NOTES.md, and whether the head of the notes reads as finished."""
     out = {}
-    for d in sorted(ROOT.iterdir()):
+    for d in sorted(TARGETS.iterdir()):
         if not d.is_dir() or d.name in NOT_TARGETS or d.name.startswith('.'): continue
         notes = d / 'NOTES.md'
         if not notes.exists(): continue
@@ -130,7 +136,7 @@ READ_BAR = 0.95    # README Conventions, "The read bar"; no field standard exist
 
 def read_bar(folder):
     """(meets, reasons_not) for the read bar: coherent share >= 0.95, no gap not-attempted, every document read."""
-    try: prof = json.loads(read(ROOT / folder / 'profile.json') or '{}')
+    try: prof = json.loads(read(tdir(folder) / 'profile.json') or '{}')
     except ValueError: return None, ['profile.json unreadable']
     out = prof.get('outcome') or {}
     frac = out.get('fraction_coherent', out.get('fraction_read'))
@@ -150,8 +156,8 @@ def section(text, name):
 def partial_problems(folder):
     """(is_partial, problems, open_blockers) for a folder. Partial = profile outcome 'read in part', or no
     profile outcome and the NOTES head says read in part."""
-    notes = read(ROOT / folder / 'NOTES.md')
-    try: prof = json.loads(read(ROOT / folder / 'profile.json') or '{}')
+    notes = read(tdir(folder) / 'NOTES.md')
+    try: prof = json.loads(read(tdir(folder) / 'profile.json') or '{}')
     except ValueError: prof = {}
     out = prof.get('outcome') or {}
     cls = out.get('class')
@@ -266,9 +272,9 @@ def check_slug(slug):
     # the catalogue holds open targets only: a written-up target's entry is removed (or narrowed and marked attempted)
     folders = set(mine[0]['dirs']) if mine else set()
     if not any(f.lower().rstrip('/').split('/')[-1] == slug.lower() for f in folders) \
-            and (not folders or (ROOT / slug).is_dir()):
+            and (not folders or tdir(slug).is_dir()):
         folders.add(slug)
-    rids = {int(n) for f in folders for n in re.findall(r'\bR(\d{2,5})\b', read(ROOT / f / 'NOTES.md'))}
+    rids = {int(n) for f in folders for n in re.findall(r'\bR(\d{2,5})\b', read(tdir(f) / 'NOTES.md'))}
     cat = [e for e in catalogue() if not (e.get('outcome') or '').startswith('attempted')
            and ((e.get('writeup') or '') == f'{slug}.html' or rids & set(e.get('decode_ids') or [])
                 or any(f'{f}/' in str(e.get('status', '')) for f in folders))]
@@ -276,10 +282,10 @@ def check_slug(slug):
          + (': still there as #' + ', #'.join(str(e.get('id')) for e in cat) if cat else ''), warn=True)
     for folder in sorted(folders):
         if folder in FAMOUS:
-            item(not (ROOT / folder / 'profile.json').exists(),
+            item(not (tdir(folder) / 'profile.json').exists(),
                  f'{folder}: a famous target keeps no profile.json and stays out of the paper data')
             continue
-        prof = ROOT / folder / 'profile.json'
+        prof = tdir(folder) / 'profile.json'
         good = False
         if prof.exists():
             try:
@@ -291,7 +297,7 @@ def check_slug(slug):
         item(good, f'{folder}/profile.json exists and is valid (/profile skill; python docs/_check_profile.py {folder})')
     # a partial reading has to be justified before it is written up as one
     for folder in sorted(folders):
-        try: cls = (json.loads(read(ROOT / folder / 'profile.json') or '{}').get('outcome') or {}).get('class')
+        try: cls = (json.loads(read(tdir(folder) / 'profile.json') or '{}').get('outcome') or {}).get('class')
         except ValueError: cls = None
         if cls == 'read':
             meets, why = read_bar(folder)          # not `ok`: that is the result flag item() maintains
@@ -308,7 +314,7 @@ def check_slug(slug):
     except ValueError:
         dq = {}
     for folder in sorted(folders):
-        prof = ROOT / folder / 'profile.json'
+        prof = tdir(folder) / 'profile.json'
         if not prof.exists():
             continue
         try:
@@ -343,7 +349,7 @@ def check_slug(slug):
     try: at = json.loads(read(HERE / 'atlas.json') or '{}')
     except ValueError: at = {}
     for folder in sorted(folders):
-        try: p = json.loads(read(ROOT / folder / 'profile.json') or '{}')
+        try: p = json.loads(read(tdir(folder) / 'profile.json') or '{}')
         except ValueError: continue
         keyed = (p.get('conditions') or {}).get('attack') in ('sibling key', 'key from archive', 'published key') or any(
             s.get('kind') in ('sibling key', 'key from source') and s.get('result') in ('worked', 'partial') for s in p.get('solution') or [])
@@ -426,7 +432,7 @@ def audit(brief=False):
     # 6. the read bar, both ways (informational)
     ready, below = [], []
     for d in dirs:
-        try: cls = (json.loads(read(ROOT / d / 'profile.json') or '{}').get('outcome') or {}).get('class')
+        try: cls = (json.loads(read(tdir(d) / 'profile.json') or '{}').get('outcome') or {}).get('class')
         except ValueError: continue
         if cls not in ('read', 'read in part'): continue
         ok, why = read_bar(d)
@@ -505,19 +511,19 @@ def hook_stop():
     dirs = target_dirs()
     def touched(d):
         if transcript: return any(re.search(rf'"input":.*\b{re.escape(d)}[/\\]', l) for l in tool_lines)
-        return f' {d}/' in status or time.time() - dirs[d]['mtime'] < 6 * 3600
+        return re.search(rf'[ /]{re.escape(d)}/', status) or time.time() - dirs[d]['mtime'] < 6 * 3600
     mine = [(d, why) for d, why in gaps if touched(d)]
     if mine:
         names = ', '.join(d for d, _ in mine)
         reason = (f'Write-up check: {names} reads as finished in NOTES.md ("{mine[0][1]}") but has no README results row '
                   f'and no site page. Before stopping, either run the /writeup skill for it now (every surface, then '
                   f'`python docs/_check_writeup.py {mine[0][0]}` must print "complete"), or, if it is not finished, put '
-                  f'"Status: in progress" at the top of {mine[0][0]}/NOTES.md so the check stops asking.')
+                  f'"Status: in progress" at the top of targets/{mine[0][0]}/NOTES.md so the check stops asking.')
         print(json.dumps({'decision': 'block', 'reason': reason})); return
     # a partial reading this session worked on: push it further, or justify each gap
     part = []
     for d in dirs:
-        if not (touched(d) if transcript else f' {d}/' in status): continue   # no mtime fallback here
+        if not (touched(d) if transcript else re.search(rf'[ /]{re.escape(d)}/', status)): continue   # no mtime fallback here
         is_part, probs, open_b = partial_problems(d)
         if is_part and (probs or open_b): part.append((d, probs, open_b))
     if not part:

@@ -4,7 +4,7 @@
  "title": "Clairac, December 1560: two thousand rebels in arms",
  "caption": "BnF fr. 3157 f. 152v, lines 9-14, decoded sign by sign with the key rebuilt here. Each two-stroke unit (zo, pp, io, s3, lz) is one letter; Z, 4 and c+ are whole-word codes.",
  "unit": "signs",
- "key_note": "Homophonic key rebuilt ciphertext-only (memoire1560/key.txt); signs in words whose decrypt needs an emendation are marked uncertain.",
+ "key_note": "Homophonic key rebuilt ciphertext-only (targets/memoire1560/key.txt); signs in words whose decrypt needs an emendation are marked uncertain.",
  "tokens": [
   {
    "g": "pp",

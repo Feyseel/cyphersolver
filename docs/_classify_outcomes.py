@@ -17,6 +17,7 @@ import sys, csv, json, pathlib, collections
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
+TARGETS = ROOT / 'targets'          # one folder per cipher target
 sys.path.insert(0, str(HERE))
 import _check_writeup as cw
 
@@ -27,8 +28,8 @@ EXT_LOC = {'printed edition', 'separate collection', 'unrelated source'}
 
 def profiles():
     """(folder, profile) for every non-famous profile, nested sweep folders included."""
-    for p in sorted(ROOT.glob('*/profile.json')) + sorted(ROOT.glob('*/*/profile.json')):
-        folder = p.parent.relative_to(ROOT).as_posix()
+    for p in sorted(TARGETS.glob('*/profile.json')) + sorted((ROOT / 'research').glob('*/*/profile.json')):
+        folder = p.parent.relative_to(TARGETS if TARGETS in p.parents else ROOT).as_posix()
         if folder.split('/')[-1] in cw.FAMOUS or folder.split('/')[0] in cw.FAMOUS: continue
         try: yield folder, json.loads(p.read_text(encoding='utf-8'))
         except ValueError: print(f'  {folder}: profile.json does not parse')
@@ -96,7 +97,7 @@ def apply(path):
         if not line.strip(): continue
         d = json.loads(line)
         if d['method'] not in METHODS: print(f'  {d["folder"]}: bad method {d["method"]!r}'); continue
-        f = ROOT / d['folder'] / 'profile.json'
+        f = TARGETS / d['folder'] / 'profile.json'
         raw = f.read_bytes().decode('utf-8')
         nl = '\r\n' if '\r\n' in raw else '\n'
         text = raw.replace('\r\n', '\n')

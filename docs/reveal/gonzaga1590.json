@@ -2,7 +2,7 @@
  "slug": "gonzaga1590",
  "anchor": "the-reading",
  "title": "Mantua, 17 September 1590: the death of Sixtus V",
- "caption": "The first cipher passages of f. 92r of Vincenzo Gonzaga's letter to Nevers, BnF fr. 3979 (DECODE R4176): the rumour that the Spaniards poisoned the Pope. Figures as transcribed in gonzaga1590/ct_92r.txt, run through the repository's beam decoder and the key of fr. 3995 f. 64.",
+ "caption": "The first cipher passages of f. 92r of Vincenzo Gonzaga's letter to Nevers, BnF fr. 3979 (DECODE R4176): the rumour that the Spaniards poisoned the Pope. Figures as transcribed in targets/gonzaga1590/ct_92r.txt, run through the repository's beam decoder and the key of fr. 3995 f. 64.",
  "unit": "figures",
  "key_note": "Unseparated two-digit figures: 11–40 are letters (a, o, t, u and others with two or three figures), 41–99 code words (96 Spagnoli, 80 Francesi). Where the hand's 3/9, 0/8 or 7/8 look-alikes forced a re-reading, or the decode disagrees with the page, the value is marked uncertain; stray digits and code groups not on the key sheet are shown as ?. Word division is editorial.",
  "tokens": [

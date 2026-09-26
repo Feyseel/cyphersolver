@@ -1,6 +1,6 @@
 {
  "image": "raince_p30_lines.jpg",
- "source": "raince/trans/reading.txt (H lines: one letter per cipher token, read against the measured key), gloss from raince/trans/verified_lines.txt",
+ "source": "targets/raince/trans/reading.txt (H lines: one letter per cipher token, read against the measured key), gloss from targets/raince/trans/verified_lines.txt",
  "lines": [
   {
    "x": 0.0688,

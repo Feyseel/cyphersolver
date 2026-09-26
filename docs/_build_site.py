@@ -80,6 +80,7 @@ def normalise(s):
     s = re.sub(r'<time class="fdate"[^>]*>.*?</time>', '', s, flags=re.S)   # inserted flush, remove flush
     s = re.sub(r'<p class="meta">.*?</p>', ' ', s, count=1, flags=re.S)     # the hero dateline only: some pages
                                                                            # use .meta again in the body for notes
+    s = re.sub(r'(?<![\w-])(?:targets|research)/', '', s)   # repo paths gained these prefixes on 26 Sept 2026; a move is not an edit
     s = re.sub(r'\?v=\w+', '', s)      # version stamps vanish without a trace, so a newly stamped src hashes as before
     s = re.sub(r' ?<span class="credit">[^<]*</span>| data-credit="[^"]*"', '', s)   # figure credits, added flush
     for pat in GENERATED: s = re.sub(pat, ' ', s, flags=re.S)
@@ -1551,7 +1552,7 @@ def readme_notes():
         if not links: continue
         notes.append(dict(target=md_inline(target), date=html.escape(date, quote=False), y=year_of(date),
                           result=md_inline(result), url=repo_url(links[0]), st=st[0], stt=st[1], kind='active' if st[1] == 'in progress' else 'other', extent=''))
-        folder = links[0].lstrip('./').split('/')[0].lower()
+        folder = re.sub(r'^targets/', '', links[0].lstrip('./')).split('/')[0].lower()
         prof = M.load(PATHS[folder]) if folder in PATHS else None
         out = (prof or {}).get('outcome') or {}
         if out.get('method') not in M.METHODS and folder in M.PAGE_METHOD:      # famous targets keep no profile

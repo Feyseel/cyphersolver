@@ -1,0 +1,315 @@
+{
+ "schema_version": 1,
+ "target": "champagne1590",
+ "title": "Champagne news-letters to Nevers 1590-91 and Laurière to Nevers 1593, BnF fr. 3623 and fr. 3625 (catalogue item 30)",
+ "documents": [
+  {
+   "id": "n23",
+   "shelfmark": "BnF fr. 3623 no. 23, ff. 35-36 (Gallica btv1b525245007 canvases 79-81; DECODE R9453)",
+   "date": "28 Feb 1590",
+   "year": 1590,
+   "country": "France",
+   "route": "Bienvenut (Paris) -> 'Vostre Altesse'",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "separate folio"
+    ],
+    "source": "key slip f. 36r bound with the copy",
+    "partial": false
+   },
+   "length": {
+    "tokens": "unknown",
+    "unit": "code groups",
+    "measured": false
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF full resolution, 2-3x crops",
+    "image_quality": "fair",
+    "notes": "Copy in clear with code numbers for nine persons/places only; not tokenised."
+   },
+   "read": "read"
+  },
+  {
+   "id": "n24-25-60",
+   "shelfmark": "BnF fr. 3623 nos. 24 (f. 37), 25 (f. 38), 60 (f. 88) (DECODE R9454, R9455, R9459)",
+   "date": "5-15 Jun 1590",
+   "year": 1590,
+   "country": "France",
+   "route": "anonymous news-letters -> duc de Nevers",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "a few letters glossed over figures in nos. 25 and 60",
+    "partial": true
+   },
+   "length": {
+    "tokens": 104,
+    "distinct": 40,
+    "unit": "code groups",
+    "measured": true,
+    "file": "ct_3623_twodigit.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF full resolution, 2-3x crops",
+    "image_quality": "fair",
+    "notes": "Twelve short runs in one hand; interlinear glosses faint."
+   },
+   "read": "read in part"
+  },
+  {
+   "id": "n78",
+   "shelfmark": "BnF fr. 3623 no. 78, f. 111 (DECODE R9460)",
+   "date": "1591",
+   "year": 1591,
+   "country": "France",
+   "route": "unknown -> duc de Nevers",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 6,
+    "unit": "symbols",
+    "measured": false,
+    "file": "ct_3623_78.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF full resolution, 2-3x crops",
+    "image_quality": "fair",
+    "notes": "One group of mixed figures and signs."
+   },
+   "read": "not read"
+  },
+  {
+   "id": "n55",
+   "shelfmark": "BnF fr. 3625 no. 55, f. 66r (Gallica btv1b52511322v canvas 143)",
+   "date": "9 Jul 1593",
+   "year": 1593,
+   "country": "France",
+   "route": "Lauriere (Chalons) -> duc de Nevers",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "interlinear"
+    ],
+    "source": "one gloss on the leaf ('come'); sibling no. 10 (f. 10r) carries an interlinear decipherment of the same code",
+    "partial": true
+   },
+   "length": {
+    "tokens": 86,
+    "unit": "code groups",
+    "measured": false,
+    "file": "ct_3625_55.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF full resolution",
+    "image_quality": "fair",
+    "notes": "Groups mix figures with attached letters and signs; count made by hand."
+   },
+   "read": "read in part"
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "No. 23: a small name code with its key bound in; nos. 24/25/60: a two-digit homophonic alphabet in alphabetical order with a few code numbers.",
+  "symbol_kind": "digits",
+  "digit_groups": {
+   "width": "2",
+   "separation": "spaces"
+  },
+  "distinct_symbols": 40,
+  "diacritics": {
+   "used": false
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 5,
+   "max_per_consonant": 4
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": "unknown",
+   "kinds": [
+    "names",
+    "places"
+   ],
+   "unread_groups": 7
+  },
+  "nulls": {
+   "present": "unknown",
+   "count": "unknown"
+  },
+  "key_order": "alphabetical",
+  "word_division": "none",
+  "sibling_key": "none; Tomokiyo's Nevers key no. 46 checked and does not fit; siblings nos. 26/27 in another key",
+  "notes": "No. 55 (Lauriere, f. 66r) is a mixed syllabic figure-and-sign code; sibling no. 10 has an interlinear decipherment."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "no. 23 key slip bound with the letter (f. 36r); interlinear glosses in no. 25 and no. 60",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "cleartext context",
+   "key from archive"
+  ],
+  "attack": "key from archive",
+  "human_role": "Project-level: set up Claude Code and posed the catalogue task via a parent agent. No target-specific intervention recorded.",
+  "tools": [
+   "PIL crops"
+  ],
+  "models": [
+   "claude-opus-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-09-21",
+  "last_date": "2026-09-21"
+ },
+ "solution": [
+  {
+   "date": "2026-09-21",
+   "kind": "literature search",
+   "what": "Tomokiyo's nevers.htm and GL.htm, DECODE list for fr. 3623/3625; no prior reading; DECODE gives folios.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Gallica thumbnails of both volumes; contact sheets; full-resolution pages of ff. 35-41, 88, 111 (fr. 3623) and ff. 10, 16 (fr. 3625).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "No. 23: key slip on f. 36r transcribed; every code number in the letter resolves.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Tomokiyo's no. 46 (targets/nevers1593/key46.txt) tried on no. 24's figures: values do not fit.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "Twelve two-digit runs of nos. 24, 25, 60 transcribed with the faint interlinear letters.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "crib",
+   "what": "Interlinear glosses (Ludovic, union, a, n) give anchors; the values rise with the alphabet.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "Alphabetical slots fill the table: la ligue, de la defiance du [17], de Chazeron, service read; two no. 24 runs stay open.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "Search for fr. 3625 no. 55 across canvases 13-64 and 81-200: not found; no. 10 found at f. 10r with interlinear decipherment.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "access",
+   "what": "OAI item list of fr. 3625 matched to folios (no. 49 = f. 61, dated 3 not 9 July); no. 55 found at f. 66r, canvas 143; canvases 65-80 and 201-270 looked over.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "transcription",
+   "what": "No. 55 transcribed (8 runs, 86 groups); first three runs of no. 10 aligned with their interlinear decipherment.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "sibling key",
+   "what": "Groups shared with no. 10's glossed runs read in no. 55: que le Roy soit encores, la volonte du pape, aussitost; about 15 of 86 groups.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "key from source",
+   "what": "All seven glossed runs of no. 10 aligned with their interlinear decipherment; 12-entry table (key_lauriere.txt), syllable groups not separable.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "reading",
+   "what": "No. 55 read with the table: 19 of 86 groups; French LM not applicable to the syllabic remainder.",
+   "result": "partial"
+  }
+ ],
+ "outcome": {
+  "method": "key recovered based on adjacent plaintext",
+  "method_basis": "The two-digit alphabet of fr. 3623 nos. 24/25/60 was rebuilt from a few interlinear glosses on nos. 25 and 60 plus its alphabetical order, and the no. 55 groups from the interlinear decipherment of Lauriere's letter no. 10 in the same volume fr. 3625; no. 23 reads with its own key slip bound in at f. 36r.",
+  "contribution": ["transcription", "key recovered"],
+  "class": "read in part",
+  "fraction_read": 0.418,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "NOTES readings table for ct_3623_twodigit.txt (104 figures: 63 read; unkeyed codes 16/17/19/39/89/99, the open name in no. 60, the first half of the 'qu'on dict' run and both no. 24 runs unread) + ct_3625_55.txt (86 groups, 19 read per NOTES) + ct_3623_78.txt (1 group of 6 signs, unread, counted 6): 82 of 196. No. 23 (all names in its key) not counted: no transcription.",
+  "key": "partial",
+  "codes_open": {
+   "open": 6,
+   "total": 7,
+   "tokens_open": 14
+  },
+  "grades": "unknown",
+  "verification": [
+   "key confirms",
+   "contemporary decipherment",
+   "historical consistency"
+  ],
+  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 19 of 86 groups from no. 10's glosses; no. 78 open. fraction_read 0.45 is an estimate from the notes (cipher tokens: about 70 of 104 two-digit figures, 19 of 86 no. 55 groups, no. 23 codes all, no. 78 none), not a measurement. Measured 21 Sept 2026: 0.418 (was 0.45 estimated). codes_open = the word codes of the nos. 24/25/60 table (12 = de read; 16, 17, 19, 39, 89, 99 open); no. 55's syllabic groups (67 of 86 open) not counted there.",
+  "gaps": [
+   {
+    "item": "Fr. 3625 no. 55 (f. 66r), 67 of 86 groups",
+    "blocker": "open-codes",
+    "detail": "syllabic nomenclator; the seven glossed runs of no. 10 give only 12 table entries because the clerk did not mark group boundaries under his glosses; no other glossed Lauriere letter found"
+   },
+   {
+    "item": "Nos. 24/25/60 code numbers 12, 16, 17, 19, 39, 89, 99 and the plain numbers of no. 24 (22, 51, 84, 44)",
+    "blocker": "open-codes",
+    "detail": "no key bound with these letters; the alphabetical two-digit table covers letters only"
+   },
+   {
+    "item": "No. 24 two passages, first half of the no. 25 'qu'on dict' passage, the name in no. 60 ('de la V?an')",
+    "blocker": "open-codes",
+    "detail": "values fall outside the anchored slots of the alphabetical table (30-39, 48, 92-99 uncertain); no gloss over them"
+   },
+   {
+    "item": "No. 78 (f. 111r), one group of about six mixed signs",
+    "blocker": "too-short",
+    "detail": "a single group, probably a name, in a different mixed code"
+   }
+  ]
+ }
+}

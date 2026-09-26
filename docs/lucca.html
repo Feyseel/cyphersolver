@@ -170,12 +170,12 @@ Dominican who moved between Moldavia, the Cossack lands and Vienna is the sort o
 
 <h2 id="method"><span class="num">06</span> Method and files</h2>
 <ol>
-<li>Ciphertext from Tomokiyo&rsquo;s article; counts, doubles and index of coincidence checked (<code>lucca/ct.txt</code>). Corrected 22 September 2026
+<li>Ciphertext from Tomokiyo&rsquo;s article; counts, doubles and index of coincidence checked (<code>targets/lucca/ct.txt</code>). Corrected 22 September 2026
 against the DECODE images: ten groups 17&nbsp;&rarr;&nbsp;14.</li>
-<li>Italian 5-gram model with absolute discounting and interpolation, Roman-numeral page references stripped (<code>lucca/lm.py</code>).</li>
-<li>Homophonic annealer, unconstrained (<code>lucca/solve.py</code>), then with the eight consistent crib letters fixed (<code>lucca/crib_anneal.py</code>).</li>
-<li>Language-model decoding (Viterbi) over {i, n} for 17 and {t, s} for 19, as first transcribed (<code>lucca/decode.py</code>).</li>
-<li>Shuffled-ciphertext control of the crib-fixed procedure (<code>lucca/control.py</code>).</li>
+<li>Italian 5-gram model with absolute discounting and interpolation, Roman-numeral page references stripped (<code>targets/lucca/lm.py</code>).</li>
+<li>Homophonic annealer, unconstrained (<code>targets/lucca/solve.py</code>), then with the eight consistent crib letters fixed (<code>targets/lucca/crib_anneal.py</code>).</li>
+<li>Language-model decoding (Viterbi) over {i, n} for 17 and {t, s} for 19, as first transcribed (<code>targets/lucca/decode.py</code>).</li>
+<li>Shuffled-ciphertext control of the crib-fixed procedure (<code>targets/lucca/control.py</code>).</li>
 </ol>
 <p class="muted">Checked: transcription counts, crib consistency, convergence across seeds, five shuffled controls, word-level Italian, and (22 September 2026)
 every cipher group against the manuscript image. Summarised only: the clear frame that names Koniecpolski.</p>
@@ -191,7 +191,7 @@ every cipher group against the manuscript image. Summarised only: the clear fram
 <li>Fra Giovanni di Lucca, <em>Relatione &hellip; delli Tartari, Percopiti, Nogai, Circassi, Abazza, Mengrilli e Giorgiani</em> and <em>Itinerario</em> (manuscripts, catalogued at the National Library of Russia); Cristian Luca, &ldquo;Note sull&rsquo;attivit&agrave; missionaria del domenicano Giovanni Giuliani da Lucca&rdquo;, in <em>Prinos lui Petre Diaconu la 80 de ani</em> (Br&#259;ila, 2004), pp. 685&ndash;692.</li>
 <li>On the 1644 campaign: the Transylvanian invasion of Hungary, 1644&ndash;45, and Koniecpolski at Ochmat&oacute;w, January 1644 (standard accounts).</li>
 </ul>
-<p class="muted">Analysis scripts and the ciphertext are in the repository (<code>lucca/</code>).</p>
+<p class="muted">Analysis scripts and the ciphertext are in the repository (<code>targets/lucca/</code>).</p>
 
 </main>
 <footer><div class="in">

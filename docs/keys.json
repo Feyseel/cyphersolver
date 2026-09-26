@@ -614,7 +614,7 @@
    "kind": "rebuilt here",
    "by": "",
    "year": 1529,
-   "note": "Graphic letter cipher with word signs, rebuilt from the glossed letters R9322 and R9417 in BayHStA KAA 4591 (kaa4591/sysB)."
+   "note": "Graphic letter cipher with word signs, rebuilt from the glossed letters R9322 and R9417 in BayHStA KAA 4591 (targets/kaa4591/sysB)."
   },
   {
    "id": "k-windebank",
@@ -662,7 +662,7 @@
    "kind": "key rebuilt here",
    "by": "this project",
    "year": 1588,
-   "note": "Rebuilt from the interlinear glosses of f. 131 and the reading of f. 62 (nevers1588/key.md); extended from ff. 133-134 (y with cross = y, 4 with cross = z, bracket sign = n)."
+   "note": "Rebuilt from the interlinear glosses of f. 131 and the reading of f. 62 (targets/nevers1588/key.md); extended from ff. 133-134 (y with cross = y, 4 with cross = z, bracket sign = n)."
   },
   {
    "id": "k-tomokiyo-fr15564f33",
@@ -702,7 +702,7 @@
    "kind": "contemporary key",
    "by": "Nevers's chancery; listed by Satoshi Tomokiyo",
    "year": "1587",
-   "note": "homophonic alphabet of digits and letter-forms, plain code numbers 10-100, barred numbers 1-81 for provinces and persons; transcribed in vieuville1587/key16.txt"
+   "note": "homophonic alphabet of digits and letter-forms, plain code numbers 10-100, barred numbers 1-81 for provinces and persons; transcribed in targets/vieuville1587/key16.txt"
   },
   {
    "id": "k-silentiumdei",
@@ -726,7 +726,7 @@
    "kind": "printed",
    "by": "Galende Díaz",
    "year": 1994,
-   "note": "Printed by Galende Díaz 1994, app. doc. 1; transcribed in esp318/keys/cifra_general.txt."
+   "note": "Printed by Galende Díaz 1994, app. doc. 1; transcribed in targets/esp318/keys/cifra_general.txt."
   },
   {
    "id": "k-tomokiyo-selve",
@@ -1734,7 +1734,7 @@
   "r4349": "no key: a vowel shift (a→b e→f i→k o→p u→x) stated in the Uppsala catalogue and applied to a new transcription",
   "r7707": "not read; no key known (contemporary worksheets stop at frequency analysis)",
   "andreae1616": "Key rebuilt from the book's own glosses (pp. 96, 98); an invented alphabet with no named key.",
-  "toulon1803": "key identified (Croiset Correspondentiecijffer, NA 2.21.045/34313) but not digitised; three values from the same-key 1801 solutions R1944/R1946, no key record read it",
+  "toulon1803": "key identified (Croiset Correspondentiecijffer, NA 2.21.045/34313) but not digitised; three values from the same-key 1801 solutions targets/R1944/R1946, no key record read it",
   "mellon29": "not read; no key known (Alberti's published ring tested and rejected)",
   "r8364": "place name read from five copies across four letters and an archive catalogue entry; the Walsingham key of 1571 (SP 106/2 f. 141A) not consulted",
   "harley1582r8505": "homophonic alphabet rebuilt here from the ciphertext alone; no named key record exists",

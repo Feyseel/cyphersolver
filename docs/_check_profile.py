@@ -22,6 +22,7 @@ import sys, re, json, pathlib, collections
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
+TARGETS = ROOT / 'targets'          # one folder per cipher target
 sys.path.insert(0, str(HERE))
 import _check_writeup as cw                              # target_dirs(), readme_rows(): same notion of "finished"
 
@@ -85,7 +86,7 @@ def measure(path, digits=False, skip=None, width=0, letters=False, drop_first=Fa
 # ---------------------------------------------------------------------------
 
 def check(folder, quiet=False):
-    p = ROOT / folder / 'profile.json'
+    p = cw.tdir(folder) / 'profile.json'
     if not p.exists():
         if not quiet: print(f'{folder}: no profile.json (run the /profile skill)')
         return 'missing', [], []
@@ -103,7 +104,7 @@ def check(folder, quiet=False):
         if ln.get('measured') is True:
             if not ln.get('file'): errors.append(f'documents[{i}].length: measured is true but no file is named')
             elif ln['file'].startswith('withheld:'): pass    # file kept out of the public repo; count stands as measured
-            elif not (ROOT / folder / ln['file']).exists(): errors.append(f'documents[{i}].length.file: {ln["file"]} not found')
+            elif not (cw.tdir(folder) / ln['file']).exists(): errors.append(f'documents[{i}].length.file: {ln["file"]} not found')
     if not quiet:
         print(f'{folder}: profile.json')
         for e in errors: print(f'  [MISS] {e}')
@@ -115,8 +116,8 @@ def audit():
     dirs = cw.target_dirs()
     rows = cw.readme_rows()
     listed = set().union(*(r['dirs'] for r in rows)) if rows else set()
-    want = sorted(({d for d, i in dirs.items() if i['finished']} | {d for d in listed if (ROOT / d).is_dir()}) - cw.NOT_TARGETS - cw.FAMOUS)
-    have = sorted(p.parent.name for p in ROOT.glob('*/profile.json') if p.parent.name not in cw.FAMOUS)
+    want = sorted(({d for d, i in dirs.items() if i['finished']} | {d for d in listed if cw.tdir(d).is_dir()}) - cw.NOT_TARGETS - cw.FAMOUS)
+    have = sorted(p.parent.name for p in TARGETS.glob('*/profile.json') if p.parent.name not in cw.FAMOUS)
     res = {d: check(d, quiet=True) for d in sorted(set(want) | set(have))}
     missing = [d for d in want if res[d][0] == 'missing']
     invalid = [d for d, r in res.items() if r[0] == 'invalid']
@@ -137,7 +138,7 @@ if __name__ == '__main__':
         width = int(a[a.index('--width') + 1]) if '--width' in a else 0
         print(json.dumps(measure(a[1], digits='--digits' in a, skip=skip, width=width, letters='--letters' in a,
                                  drop_first='--drop-first' in a), ensure_ascii=False, indent=1))
-    elif len(a) == 1 and (ROOT / a[0]).is_dir():
+    elif len(a) == 1 and cw.tdir(a[0]).is_dir():
         sys.exit(0 if check(a[0])[0] == 'valid' else 1)
     else:
         print(__doc__); sys.exit(2)

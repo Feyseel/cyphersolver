@@ -2,7 +2,7 @@
 "slug": "harley286",
 "anchor": "the-reading",
 "title": "D'Ewes's log, 3 and 23 April 1635: 23 and 25 May 1635",
-"caption": "Lines 4 and 5 of Sir Simonds D'Ewes's cipher slip, BL Harley MS 286 f. 61 (DECODE R7759), decoded sign by sign from harley286/transcription.tsv with the alphabet in harley286/key.md.",
+"caption": "Lines 4 and 5 of Sir Simonds D'Ewes's cipher slip, BL Harley MS 286 f. 61 (DECODE R7759), decoded sign by sign from targets/harley286/transcription.tsv with the alphabet in targets/harley286/key.md.",
 "unit": "signs",
 "key_note": "D'Ewes's private alphabet: a simple substitution for Latin, word division kept; r is both i and the numeral i, ξ is x. Signs in words where the decoded letters differ from the reading (a sign dropped or a variant form) are marked uncertain.",
 "tokens": [

@@ -27,12 +27,12 @@ def load_py(path, name):
 
 keys = []
 # 1. Garcia de Toledo to Philip II, 1565: two-digit homophones 12-43 in alphabetical order
-tol = json.loads((ROOT / 'toledo1565' / 'key.json').read_text(encoding='utf-8'))['codes']
+tol = json.loads((ROOT / 'targets' / 'toledo1565' / 'key.json').read_text(encoding='utf-8'))['codes']
 keys.append(dict(id='toledo', seal='T', name='The viceroy of Sicily', who='García de Toledo to Philip II, Messina', year=1565, slug='toledo1565',
                  kind='letters', dec=tol, enc=inv(tol), fold={'j': 'i', 'v': 'u', 'w': 'u', 'k': 'c', 'ñ': 'n', 'ç': 'z'},
                  note='Two-digit figures from 12 to 43 in alphabetical order, with two or three figures for the common letters.'))
 # 2. Richelieu to Rance, 1629: homophonic figures, two frequent-word codes and the nomenclature confirmed against Avenel
-ri = load_py(ROOT / 'richelieu' / 'final.py', 'ri')
+ri = load_py(ROOT / 'targets' / 'richelieu' / 'final.py', 'ri')
 dec = {g: p for g, p in ri.KEY.items()}
 for g, p in ri.NOMEN.items():
     if re.fullmatch(r'[A-Za-zéèàç\' ]+', p): dec[g] = p.lower()
@@ -47,7 +47,7 @@ keys.append(dict(id='armstrong', seal='A', name='The American minister', who='Jo
                  kind='code', dec=dec, enc=inv(dec), fold={},
                  note='A numbered code of whole words, syllables and letters; 972 is the. Words the code lacks are spelt from syllables.'))
 # 4. Needham to Walsingham, 1587: the three-grid pigpen (Wilkes cipher)
-nd = load_py(ROOT / 'needham1587' / 'decode.py', 'nd')
+nd = load_py(ROOT / 'targets' / 'needham1587' / 'decode.py', 'nd')
 dec = {}
 for i, s in enumerate(nd.SHAPES):
     dec[f'{i}'] = 'abcdefghi'[i]; dec[f'{i}.'] = 'klmnopqrs'[i]
@@ -57,7 +57,7 @@ keys.append(dict(id='pigpen', seal='W', name='The spy in the Low Countries', who
                  note='Nine box shapes, plain for a to i, with a dot below for k to s and a dot inside for t to z. The shapes are drawn '
                       'here in textbook grid form; the letter values are those of the key rebuilt from f. 39v.'))
 # 5. Henri IV to Maurice of Hesse-Kassel, 1602-04: numbered letters, with a comma, two dots or an overbar marking word codes
-import sys; sys.path.insert(0, str(ROOT / 'hesse1603')); import key as hk
+import sys; sys.path.insert(0, str(ROOT / 'targets' / 'hesse1603')); import key as hk
 OVER = lambda n: ''.join(ch + '̅' for ch in str(n))
 dec = {str(n): p for n, p in hk.LET.items()}
 for table, mark in ((hk.VIRG, lambda n: f'{n},'), (hk.DOTS, lambda n: f'{n}:'), (hk.BAR, OVER)):
@@ -68,7 +68,7 @@ keys.append(dict(id='hesse', seal='H', name='The King of France', who='Henri IV 
                  note='Two-digit figures with two to seven choices a letter; the same numbers with a comma, two dots or a bar over them '
                       'stand for words: 17, = la, 39, = mon, 31 with a bar = Pape.'))
 # 6. Kauderbach to Friedrich August II, 1754-58: unseparated Saxon figures, letters and syllables (key rebuilt against the 1761 key)
-kd = json.loads((ROOT / 'kauderbach1754' / 'key.json').read_text(encoding='utf-8'))
+kd = json.loads((ROOT / 'targets' / 'kauderbach1754' / 'key.json').read_text(encoding='utf-8'))
 dec = {g: p for g, p in kd.items() if isinstance(p, str) and re.fullmatch(r'[a-z]+', p)}
 keys.append(dict(id='kauderbach', seal='K', name='The Saxon resident', who='Kauderbach to Friedrich August II, The Hague', year=1755, slug='kauderbach1754',
                  kind='letters', dec=dec, enc=inv(dec), fold={'j': 'i', 'v': 'u', 'w': 'u', 'q': 'k', 'k': 'c'},

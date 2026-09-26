@@ -2,7 +2,7 @@
  "slug": "r3708",
  "anchor": "reading",
  "title": "The Hôtel de Ville and Guise's council",
- "caption": "BnF fr. 3976 f. 133v, the runs from 'par ruses et faulx bruictz' to 'nommé Cotteblanche dist', checked sign by sign against the key of ff. 62 and 131 (r3708/decode.py). Clear text between the runs is as written.",
+ "caption": "BnF fr. 3976 f. 133v, the runs from 'par ruses et faulx bruictz' to 'nommé Cotteblanche dist', checked sign by sign against the key of ff. 62 and 131 (targets/r3708/decode.py). Clear text between the runs is as written.",
  "unit": "signs (one character, or 1 + character)",
  "key_note": "Homophonic, some signs polyphonic: 9 = a, h or r; the curly 8 = b, u or v; n and o = l. Underlined numbers inside a run are code numbers (9 = Guise).",
  "tokens": [

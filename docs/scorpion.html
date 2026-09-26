@@ -169,7 +169,7 @@ same 5-gram letter model used above:</p>
 </table>
 <p>They are nonsense, they are English, and they fit the ciphertext at least as well as the claim. The corpus bias (Moby Dick) is
 visible and does not matter: any English word list yields such fillings. The S5 run was still in progress when this page was
-built; its output goes to <code>scorpion/results_alternatives.txt</code>.</p>
+built; its output goes to <code>targets/scorpion/results_alternatives.txt</code>.</p>
 
 <h2 id="status"><span class="num">05</span> Status, and what would change it</h2>
 
@@ -188,11 +188,11 @@ built; its output goes to <code>scorpion/results_alternatives.txt</code>.</p>
 
 <table>
 <tr><th>file</th><th>contents</th></tr>
-<tr><td><code>scorpion/s1.txt</code></td><td>S1, 70 descriptive symbol names in 7 rows of 10, uncertain identifications marked in the notes</td></tr>
-<tr><td><code>scorpion/s5.txt</code></td><td>S5, the forum numeric sequence, symbols 1&ndash;145, wrapped at 16</td></tr>
-<tr><td><code>scorpion/unicity.py</code></td><td>the unicity table and the matched controls; needs the English model built by <code>copenhagen/solve.py</code></td></tr>
-<tr><td><code>scorpion/claimed.py</code></td><td>the consistency test and 5-gram scores of the 2018 reading; output in <code>results_claimed.txt</code></td></tr>
-<tr><td><code>scorpion/alternatives.py</code></td><td data-term-ok>beam search filling each cipher with dictionary words under the same-symbol-same-letter rule, scored with the same model</td></tr>
+<tr><td><code>targets/scorpion/s1.txt</code></td><td>S1, 70 descriptive symbol names in 7 rows of 10, uncertain identifications marked in the notes</td></tr>
+<tr><td><code>targets/scorpion/s5.txt</code></td><td>S5, the forum numeric sequence, symbols 1&ndash;145, wrapped at 16</td></tr>
+<tr><td><code>targets/scorpion/unicity.py</code></td><td>the unicity table and the matched controls; needs the English model built by <code>targets/copenhagen/solve.py</code></td></tr>
+<tr><td><code>targets/scorpion/claimed.py</code></td><td>the consistency test and 5-gram scores of the 2018 reading; output in <code>results_claimed.txt</code></td></tr>
+<tr><td><code>targets/scorpion/alternatives.py</code></td><td data-term-ok>beam search filling each cipher with dictionary words under the same-symbol-same-letter rule, scored with the same model</td></tr>
 </table>
 
 <!-- replay:start -->

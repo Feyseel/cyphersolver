@@ -6,19 +6,19 @@ argument-hint: <folder>
 
 # Profile a target
 
-Target: `$ARGUMENTS`. The file is `<folder>/profile.json`, shaped by `profile.schema.json` at the repository
+Target: `$ARGUMENTS`. The file is `targets/<folder>/profile.json`, shaped by `profile.schema.json` at the repository
 root. Read the schema's descriptions before filling a field you have not filled before. Worked examples:
-`toledo1565/profile.json` (read, crib attack), `bordeaux/profile.json` (read with an archive key after a failed
-solver), `orpo1942/profile.json` (not read, two documents).
+`targets/toledo1565/profile.json` (read, crib attack), `targets/bordeaux/profile.json` (read with an archive key after a failed
+solver), `targets/orpo1942/profile.json` (not read, two documents).
 
 The profile is data for a paper on how well LLMs attack historical ciphers. Every field must be something a
 reader could check against the folder. Rules:
 
 1. **Source every value from the folder.** Read `NOTES.md`, the key files, the ciphertext and transcription files,
-   and `git log --format='%ad %s %(trailers:key=Co-Authored-By,valueonly)' --date=short -- <folder>/` for dates,
+   and `git log --format='%ad %s %(trailers:key=Co-Authored-By,valueonly)' --date=short -- targets/<folder>/ targets/<folder>/` for dates (the second path covers history from before the targets/ move),
    sessions and model ids. Do not fill a field from general knowledge of the cipher.
 2. **Measure counts, do not copy them.** Run
-   `python docs/_check_profile.py --measure <folder>/<file>` with `--digits`, `--width N`, `--letters` or
+   `python docs/_check_profile.py --measure targets/<folder>/<file>` with `--digits`, `--width N`, `--letters` or
    `--drop-first` as the file needs, and put the result in `documents[].length` with `"measured": true` and
    `"file"`. If the measured count differs from the NOTES, keep the measured one and say why in
    `transcription.notes`. A count taken from NOTES or a source gets `"measured": false`.
@@ -60,5 +60,5 @@ python docs/_check_profile.py <folder>
 ```
 
 It must print `result: valid`. Unknown fields are listed as gaps and are allowed. Then
-`python docs/_export_profiles.py` should include the target without a skip line. Stage `<folder>/profile.json`
+`python docs/_export_profiles.py` should include the target without a skip line. Stage `targets/<folder>/profile.json`
 by explicit path.
