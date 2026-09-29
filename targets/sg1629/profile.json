@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "target": "sg1629",
+  "title": "States General, 1629: \"diverse briefjes in cijferschrift\" from the Spanish invasion of the Veluwe (Nationaal Archief 1.01.02 inv. 12579.26)",
+  "documents": [
+    {
+      "id": "NA-12579.26",
+      "shelfmark": "Nationaal Archief, 1.01.02 (Staten-Generaal) inv. 12579.26, Correspondentie met de gedeputeerden van de Staten-Generaal te Arnhem naar aanleiding van Spaanse inval in de Veluwe (1 pak)",
+      "date": "1629",
+      "year": 1629,
+      "country": "Netherlands",
+      "route": "unknown -> deputies of the States General at Arnhem / The Hague",
+      "language": "unknown",
+      "pages": "unknown",
+      "cleartext_in_document": "unknown",
+      "read": "not read",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "The inventory note says the packet 'contains various notes in cipher'; no translations are mentioned (compare inv. 12561.142, 'met vertalingen'). No decipherment found in the inventory, the printed resolutions or online.",
+        "partial": false
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "unknown",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "image_quality": "no images",
+        "notes": "Not digitised: the NA record has an empty scan_id and no scan links (the inventory EAD has 10,857 dao links, none on this unit), while its digitised sibling 12579.122 serves jpg scans. Not on DECODE. Scans only by an NA scan-on-request order (EUR 16.75 per inventory number) or a reading-room visit."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "Not seen. Probably short Dutch field or agent ciphers of 1629 (small nomenclator or substitution); unconfirmed.",
+    "symbol_kind": "unknown",
+    "distinct_symbols": "unknown",
+    "diacritics": {
+      "used": false
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "sibling_key": "none known; the nearest States General cipher on DECODE is Haga 1620 (Constantinople, key R2118), a diplomatic system unrelated to a field cipher",
+    "notes": "diacritics.used false is a default, not an observation: the ciphertext has not been seen."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "no",
+      "where": "No reading known: not in the NA inventory, the Huygens edition of the Resolutions 1626-1630, DECODE, the Gelders Archief catalogue or the web.",
+      "found": "not found",
+      "used": false
+    },
+    "inputs": [],
+    "attack": "none",
+    "human_role": "Set the goal (solve it). Obtaining the scans (a paid NA order needing an account) is left to Daniel.",
+    "tools": [
+      "Nationaal Archief inventory pages and EAD download",
+      "Huygens ING RSG 1626-1630 full-text search",
+      "DECODE metadata dump (list.json)",
+      "Gelders Archief search",
+      "web search"
+    ],
+    "models": [
+      "claude-opus-5-5"
+    ],
+    "sessions": 1,
+    "first_date": "2026-09-28",
+    "last_date": "2026-09-28"
+  },
+  "solution": [
+    {
+      "date": "2026-09-28",
+      "kind": "access",
+      "what": "NA inventory page for 1.01.02 inv. 12579.26: record has scan_id '' and no 'Bekijk scans' link; control 12579.122 in the same subseries has scan_id and jpg files. Detail pane: 1629, 1 pak, 'Bevat diverse briefjes in cijferschrift', to be moved to 'cassa lit. A no.27 locquette E' but still under the old number.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-28",
+      "kind": "access",
+      "what": "Downloaded the 1.01.02 EAD (22.7 MB): 10,857 dao scan links, none on 12579.26. Grepped every unit 1600-1660 for cijfer/chiffre/ontcijfer/dechiffr and every 1629 unit for Veluwe/Amersfoort/Montecuccoli: no copy or decipherment of the notes elsewhere in the archive.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-28",
+      "kind": "literature search",
+      "what": "Huygens ING Resolutiën der Staten-Generaal 1626-1630, full text for cijfer, cyffer, ciffer, chiffre, caracter, karakter, characters, ontcijfer, desciffr, dechiffr; web search for the Veluwe 1629 cipher notes.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-28",
+      "kind": "access",
+      "what": "DECODE record list: no record of inv. 12579.26 or any 1629 Low Countries cipher; the only pre-1649 States General records are Haga's 1620 Constantinople despatches (inv. 6894, key R2118). Gelders Archief site-wide search for 'cijferschrift': nothing relevant.",
+      "result": "failed"
+    }
+  ],
+  "outcome": {
+    "method": "not applicable",
+    "method_basis": "The packet is not digitised and no copy, key or decipherment exists online or in print, so no ciphertext was seen.",
+    "contribution": [
+      "none"
+    ],
+    "class": "offline only",
+    "key": "none",
+    "fraction_read": 0,
+    "verification": [
+      "none"
+    ],
+    "gaps": [
+      {
+        "item": "NA 1.01.02 inv. 12579.26, every cipher note",
+        "blocker": "needs-physical-access"
+      }
+    ],
+    "notes": "Blocked on images: NA scan-on-request (EUR 16.75 per inventory number, up to 250 scans) or a reading-room visit."
+  }
+}

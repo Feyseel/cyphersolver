@@ -2732,7 +2732,7 @@
    "folio_note": "",
    "seen": "catalogue",
    "scored": "sweep",
-   "prior_art": "open (checked 23 Sept 2026)",
+   "prior_art": "open (checked 28 Sept 2026)",
    "score_note": "Scored by hand from the archive scan of 23 Sept 2026 (outside DECODE: Meister 1902/1906, printed inventories and editions, HCPortal, Láng 2015, TNA/Kalliope catalogues); notes in research/oldest/scan_2026-09-23/. Kind: solve candidate (no key known).",
    "id": 347,
    "year": 1629,
@@ -2746,13 +2746,14 @@
    "shelfmark": "Nationaal Archief 1.01.02 (Staten-Generaal) inv. 12579.26",
    "cls": "C",
    "source": "Calendars and literature",
-   "status": "Inventory description \"diverse briefjes in cijferschrift\", 1629; scans not confirmed. No reading found.",
+   "status": "Inventory note: \"Bevat diverse briefjes in cijferschrift\" (1 pak, 1629; to have gone to the Secret Cash, loket E, but still under the old number). Session of 28 Sept 2026 (targets/sg1629/): not digitised (no scan link on the NA record or in the 1.01.02 EAD, while sibling 12579.122 is scanned); not on DECODE; no copy or decipherment elsewhere in 1.01.02, nothing in the Huygens edition of the Resolutions 1626-1630 or the Gelders Archief catalogue. Images only by an NA scan-on-request order (EUR 16.75 per inventory number) or a reading-room visit. No reading found.",
    "why": "The year of the siege of 's-Hertogenbosch and Montecuccoli's raid to Amersfoort.",
    "importance": 3,
    "solvability": 3,
    "difficulty": 3,
-   "verify": "Check the NA scan viewer for inv. 12579.26; count the notes and systems.",
-   "links": []
+   "verify": "Order the NA scans of inv. 12579.26 (scan on request) or view it in the reading room; count the notes and systems; use the deputies' clear covering letters and the July-Aug 1629 resolutions as cribs.",
+   "links": [],
+   "outcome": "attempted, open: blocked, not digitised (NA scan-on-request order or reading room only) (28 Sept 2026, targets/sg1629/)"
   },
   {
    "counted": true,
