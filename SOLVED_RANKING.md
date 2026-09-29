@@ -27,6 +27,8 @@ The **Siena Concistoro cipher letters** are provisionally p140 at **3.90**: thre
 
 The **Reims letter of 19 June 1589** (R2276) is provisionally p138 at **3.00**: a long letter wholly in cipher, read in part by extending Tomokiyo's partial Nevers-Piles table, with new content on the Reims succession of 1589; the identification of the cipher was already known (Biermann 2021, unpublished).
 
+The **Wallachian court postscript against Antide Dunod** (after Oct 1688; Biblioteka Kórnicka BK 1560) is provisionally p142 at **2.50**: read at the time by an interlinear decipherment, key rebuilt from the glosses and every run checked; a catalogue correction (not a Szembek letter) with new detail on Wallachia and the imperial envoy Dunod after Şerban's death.
+
 ## Axes and weights
 
 | Axis | Weight | 1 | 5 |
@@ -260,6 +262,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p129 | **Unknown author → unknown recipient, "L'Estat du Roy de Navarre et de son party en France"**, BL Harley MS 1582 ff. 263–264 (DECODE R8505) | after 1580 | 5 | 3 | 5 | 4 | 2 | 4 | **4.00** | D 5: unknown graphic-sign homophonic cipher broken ciphertext-only from images, with the letter m hidden as dot groups that every earlier pass dropped as punctuation. H 3: a survey of Navarre's party for a foreign reader; the cipher clauses carry the Spanish drift, Parma, malcontents, an engineer at Lisbon, reiters. N 5: unidentified and unread anywhere before this work. R 4: images fetched from DECODE, two transcription passes, a control experiment. F 2: a rule-scored DECODE catalogue entry, class C. V 4: reading measured at 95.1%; ten code numbers open. |
 | p131 | **Georges de Selve (Venice) → Francis I, 14 Sept 1535 and 5 July 1536**, BnF fr. 3091 f. 25 and fr. 3045 ff. 42–49 (DECODE R3697, R4232) | 1535–36 | 2 | 3 | 4 | 3 | 1 | 3 | **2.75** | D 2: Tomokiyo's published table extended on the letters (doubling nulls, homophones), glosses as cribs. H 3: Charles V's design on Marseille on the eve of the 1536 invasion; an Imperial informant at Venice. N 4: not in print. V 3: 90.6% of signs; the 1536 letter 99.1%, the 1535 letter's struck runs blocked by the film scan. |
 | p132 | **Henriette de Clèves; Renato Birago → the duke of Nevers**, BnF fr. 3315 ff. 15–16, 21 (catalogue 283) | 1574 | 1 | 3 | 2 | 3 | 1 | 2 | **2.00** | D 1: a contemporary interlinear decipherment and a full clear fair copy survive; no new cipher break. H 3: Lyon at Henri III's return, Birago on Nevers's hoped-for governorship and Piedmont. N 2: readings in the manuscript, not found in print. R 3: folios and folded flap mapped, native scans inspected, sibling key checked. V 2: Birago read complete, but most of the duchess's dense cipher pages are not continuously edited. |
+| p142 | **Wallachian court → a Reverend Father: postscript against Antide Dunod SJ**, PAN Biblioteka Kórnicka BK 1560 (WBC 343124; catalogue 348) | after 1688 | 1 | 3 | 3 | 3 | 1 | 5 | **2.50** | D 1: every run but one glossed at the time; the key (22 two-digit numbers) rebuilt from the glosses. H 3: a Wallachian voice on Dunod's mission and the promises of Vienna after Şerban Cantacuzino's death. N 3: read in the manuscript, not found in print; misfiled as an 18th-century Szembek letter. R 3: DjVu images decoded, 70 runs transcribed, persons identified. F 1. V 5: key and glosses agree run by run; one code group open |
 
 ## By single axis
 
@@ -652,3 +655,5 @@ London letters to J. G. von Ilten, 1743, provisional score: 0.25×2 + 0.25×3 + 
 Siena Concistoro cipher letters (catalogue 336) provisional score: 0.25×5 + 0.25×3 + 0.20×5 + 0.10×5 + 0.10×2 + 0.10×2 = **3.90** (p140).
 
 Snell invisible-ink message 1824 provisional score: 0.25×3 + 0.25×3 + 0.20×5 + 0.10×3 + 0.10×1 + 0.10×4 = **3.30** (p141).
+
+Wallachian court postscript against Dunod (after 1688; catalogue 348) provisional score: 0.25×1 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×1 + 0.10×5 = **2.50** (p142).

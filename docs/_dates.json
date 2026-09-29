@@ -8,6 +8,7 @@
   "a letter from rome to the abbé d’orbais, 23 august 1589": "2026-09-18",
   "a paris informant to the nevers household, 6 june 1588": "2026-09-22",
   "a venetian ambassador at rome to the doge, 29 april 1628": "2026-09-22",
+  "a wallachian postscript against antide dunod, after 1688": "2026-09-28",
   "adfgvx, 1918": "2026-09-15",
   "adrian of utrecht, the admiral and the constable to charles v, vitoria, 30 decem": "2026-09-18",
   "alchymey teuczsch, an alchemists’ notebook, east bavaria 1426": "2026-09-18",
@@ -444,7 +445,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "302d8147e5d5",
+   "hash": "92da7e63ab7f",
    "updated": "2026-09-28"
   },
   "catinat1691": {
@@ -579,7 +580,7 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "cf20b2b8595c",
+   "hash": "317708d0a7db",
    "updated": "2026-09-28"
   },
   "goldbar": {
@@ -729,7 +730,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "d86b5c19fcfd",
+   "hash": "3569d19fbbfd",
    "updated": "2026-09-28"
   },
   "indus": {
@@ -1407,6 +1408,11 @@
    "hash": "00947327842a",
    "updated": "2026-09-24"
   },
+  "szembek1689": {
+   "first": "2026-09-28",
+   "hash": "73dbb4777914",
+   "updated": "2026-09-28"
+  },
   "throck1569": {
    "first": "2026-09-21",
    "hash": "eb59978f880b",
@@ -1524,7 +1530,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "581ddd0a31c9",
+   "hash": "00b5c1849723",
    "updated": "2026-09-28"
   },
   "yard1699": {

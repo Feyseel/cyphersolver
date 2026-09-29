@@ -1,0 +1,23 @@
+# number	letter	occurrences in aligned runs	other letters seen
+12	u	22	
+13	o	31	
+14	e	21	
+15	e	3	
+17	a	29	ex1
+19	x	2	
+20	t	28	
+21	s	32	ux1
+23	r	31	
+24	q	1	
+25	p	20	
+29	b	6	
+40	f	5	
+41	g	5	
+42	c	28	
+43	d	16	
+44	h	5	
+46	i	54	
+48	k	1	
+49	l	11	
+50	m	16	
+51	n	25	

@@ -2721,34 +2721,6 @@
    "verify": "Order the NA scans of inv. 12579.26 (scan on request) or view it in the reading room; count the notes and systems; use the deputies' clear covering letters and the July-Aug 1629 resolutions as cribs.",
    "links": [],
    "outcome": "attempted, open: blocked, not digitised (NA scan-on-request order or reading room only) (28 Sept 2026, targets/sg1629/)"
-  },
-  {
-   "counted": true,
-   "ark": "",
-   "folio_note": "",
-   "seen": "catalogue",
-   "scored": "sweep",
-   "prior_art": "open (checked 23 Sept 2026)",
-   "score_note": "Scored by hand from the archive scan of 23 Sept 2026 (outside DECODE: Meister 1902/1906, printed inventories and editions, HCPortal, Láng 2015, TNA/Kalliope catalogues); notes in research/oldest/scan_2026-09-23/. Kind: solve candidate (no key known).",
-   "id": 348,
-   "year": 1705,
-   "date": "early 18th c.",
-   "title": "Szembek papers: Latin cipher letter",
-   "correspondents": "unknown → the Szembek family (Polish crown officials)",
-   "place": "Poland",
-   "language": "Latin",
-   "region": "Central Europe",
-   "period": "1701-1800",
-   "shelfmark": "Biblioteka Kórnicka, BK 1560 (Wielkopolska Digital Library)",
-   "cls": "C",
-   "source": "Calendars and literature",
-   "status": "Free images in the Wielkopolska Digital Library; length and system not yet checked. No reading found.",
-   "why": "Polish court politics of the Saxon era, in Latin cipher.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 3,
-   "verify": "View the images; measure length and sign inventory.",
-   "links": []
   }
  ]
 }
