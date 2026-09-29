@@ -843,6 +843,11 @@ PAGES = [
          blurb='Two letters from London to a Hanoverian general in the Low Countries, with French passages in a numeric code. One carries no decipherment. The code table, 863 numbered groups, was filed in a later volume of the same Ilten papers, and it reads both letters: orders to eat the forage so the French find none, and an extract of the instructions to Lord Stair.',
          quote='&ldquo;ils n&rsquo;y trouveroient point ni fourage ni rien&rdquo;',
          rights='Manuscript images: Gottfried Wilhelm Leibniz Bibliothek Hannover, via its digital library (public domain)'),
+    dict(slug='waldeck1744', label='Waldeck 1744', year='1744', y=1744.05, place='Unknown &rarr; Prince of Waldeck', st='stuck', stt='key not found',
+         title='Military news in code for the Prince of Waldeck, 1744',
+         blurb='Two pages of three-digit code sent to Prince Carl August Friedrich of Waldeck, an Imperial and Dutch general, and dated by his French draft reply on the back to 18 January 1744. The 717 groups belong to a two-part homophonic nomenclator with no surviving key. Tested on synthetic letters of the same size and design, the language model rates wrong keys above the true one, so the letter was not deciphered.',
+         quote='879 . 144 . <s>9</s> 7 . 126 &middot; the writer changes a homophone in mid-word',
+         rights='Manuscript images: Hessisches Staatsarchiv Marburg, HStAM 118 a Nr. 3954, via Arcinsys Hessen'),
     dict(slug='swieten1757', label='Van Swieten 1757', year='1757&ndash;59', y=1758.5, place='Bonn &rarr; Brussels', st='solved', stt='solved',
          title='Gottfried van Swieten to Count Cobenzl, 1757&ndash;59',
          blurb='Three despatches from Bonn in a numerical syllabary. The 1757 letter has a contemporary decipherment on the page; the key of the two 1759 letters was recovered from the ciphertext alone, by a solver that keeps the table in alphabetical order. 96% of the 1759 groups decrypt; about 21 groups, mostly names, stay open.',
@@ -1392,6 +1397,7 @@ IMAGES['r2234'] = ('r2234_lead.jpg', 'The head of the letter: section capital D,
 IMAGES['marburg1635'] = ('marburg1635_lead.jpg', 'The cipher lines with the contemporary gloss over the first four', 'Hessisches Staatsarchiv Marburg, via DECODE R4500')
 IMAGES['r2232'] = ('r2232_lead.jpg', 'The opening of the letter: clear text, then the numbers with superscript indices', 'Koninklijk Huisarchief, The Hague, via DECODE R2232')
 IMAGES['r1942'] = ('r1942_lead.jpg', 'Hogendorp&rsquo;s ciphered dispatch no. 12 of 5 July 1803: the clear address to Maarten van der Goes followed by the marked numerical groups', 'Nationaal Archief, The Hague, via DECODE R1942')
+IMAGES['waldeck1744'] = ('waldeck1744_lead.jpg', 'HStAM 118 a Nr. 3954 f. 3r: &ldquo;Durchlauchtigster F&uuml;rst&rdquo;, the date 1744 in a later hand, and the first lines of the code after Ew. H. Dl.', 'Hessisches Staatsarchiv Marburg, HStAM 118 a Nr. 3954 f. 3r, via Arcinsys Hessen')
 
 SURVEYS = ('famous', 'solved', 'highlights')
 # Outcome method (George Lasry's categories, _methods.py): a page whose target has a profile with outcome.method

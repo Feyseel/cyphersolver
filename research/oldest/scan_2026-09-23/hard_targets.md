@@ -78,6 +78,7 @@ catalogue.json, CATALOGUE.md, TARGETS.md, SOLVED_CATALOGUE.md, README.md and fol
 - **Why hard/breakable**: a large code on a single report is the hardest class. It is breakable only with more traffic in the same code: other
   Waldeck reports in HStAM 118 a should be searched. Otherwise it needs a known-plaintext anchor (a 1744 campaign event).
 - **Score**: 3/2/5. **Not in repo**.
+- **Outcome (28 Sept 2026)**: attempted, not deciphered (`targets/waldeck1744/`). 717 groups; the prince's French draft reply on f. 4v (not on HCPortal) dates it to 18 Jan 1744. A two-part homophonic nomenclator; synthetic controls show one letter cannot identify its key. No sibling traffic online; the 1744 campaign volumes 118 a Nr. 1973-1980 are undigitised.
 
 ### 6. Waldeck counts' ciphers, 1638 and 1646 (HStAM 115/01 Nr. 2602 and Nr. 1290)
 - **Content**: Nr. 2602 ff. 2-3 is "Übermittlung einer Chiffre durch Graf Christian an seinen Sohn Philipp VII." (1638), Count Christian of Waldeck-

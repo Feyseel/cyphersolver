@@ -1,0 +1,15 @@
+img/
+*.exe
+*.bin
+*.pkl
+words1740.tsv
+corpus_topwords.txt
+synth*_ct.txt
+synth*_key.tsv
+synth*_rm*.txt
+synth*_rmkey.tsv
+synth*_plain.txt
+synth_pt.txt
+synth_truekey.tsv
+fix_crib1.tsv
+__pycache__/

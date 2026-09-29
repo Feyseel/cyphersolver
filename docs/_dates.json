@@ -18,6 +18,7 @@
   "ambrogio bizozola to maximilian sforza, bologna, 4 november 1529": "2026-09-21",
   "an agenais gentleman to the connétable de montmorency, 12 december 1560": "2026-09-23",
   "an anonymous numerical cipher of october 1586 (clairambault 357)": "2026-09-18",
+  "an informant to the prince of waldeck, january 1744": "2026-09-28",
   "an orange prince to an officer of the émigré troops, c. 1795": "2026-09-21",
   "an orangist at basle to william v, 17 august 1796": "2026-09-21",
   "an unknown writer to “monsieur”, 17th century (tna sp 106/10)": "2026-09-19",
@@ -445,7 +446,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "92da7e63ab7f",
+   "hash": "2f04e38b6e55",
    "updated": "2026-09-28"
   },
   "catinat1691": {
@@ -580,7 +581,7 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "317708d0a7db",
+   "hash": "8d0b69352e56",
    "updated": "2026-09-28"
   },
   "goldbar": {
@@ -730,7 +731,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "3569d19fbbfd",
+   "hash": "599aeda9f216",
    "updated": "2026-09-28"
   },
   "indus": {
@@ -1488,6 +1489,11 @@
    "hash": "d36c58cef9f4",
    "updated": "2026-09-24"
   },
+  "waldeck1744": {
+   "first": "2026-09-28",
+   "hash": "703106bbbe95",
+   "updated": "2026-09-28"
+  },
   "walsingham1572": {
    "first": "2026-09-22",
    "hash": "1fc62a912688",
@@ -1530,7 +1536,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "00b5c1849723",
+   "hash": "7ba9aefebed6",
    "updated": "2026-09-28"
   },
   "yard1699": {

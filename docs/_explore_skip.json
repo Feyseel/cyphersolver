@@ -57,7 +57,8 @@
   "labbe1582": "No validated cipher plaintext or key; draft signs cannot be paired with recovered values.",
   "schiner1516": "No ciphertext in hand: Cotton Vitellius B XIX is not digitised and Büchi printed only the plaintext (italics), no key or facsimile, so no passage can be replayed sign by sign.",
   "indus": "Nothing is read: the script is undeciphered, so no passage can be decoded sign by sign.",
-  "burgo1527": "Not a cipher: the record is a clear Spanish minute, so there is nothing to decipher."
+  "burgo1527": "Not a cipher: the record is a clear Spanish minute, so there is nothing to decipher.",
+  "waldeck1744": "Not deciphered: no code group has a value, so no passage can be decoded sign by sign."
  },
  "snip": {
   "kaa4591": "Bayerisches Hauptstaatsarchiv notice on DECODE: not in the public domain, publishing only with the Archive’s permission; no crop until permission is obtained",
@@ -91,6 +92,7 @@
   "ilten1743": "Both letters are from London; Ilten was with the Hanoverian troops in the Low Countries and no city is established for him in Feb-Apr 1743.",
   "siena1421": "Of the pieces deciphered, no. 4 (Naples 1456) has no certain place for its recipient Benvoglienti, no. 14's place of writing (Rome?) is doubtful, and nos. 18 and 25 name neither origin nor destination; left out rather than guessed.",
   "burgo1527": "The minute gives no place or year; the Emperor's whereabouts cannot be fixed without guessing.",
-  "hesse1824": "Neither the sender's place (Basel or Wetzlar) nor the addressee's is established from the leaf."
+  "hesse1824": "Neither the sender's place (Basel or Wetzlar) nor the addressee's is established from the leaf.",
+  "waldeck1744": "Destination known (the Prince of Waldeck, who served with the Austrian army in 1744), but the writer's place is not named; left out rather than guessed."
  }
 }

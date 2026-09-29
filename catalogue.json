@@ -2504,17 +2504,17 @@
    "score_note": "Scored by hand from the archive scan of 23 Sept 2026 (outside DECODE: Meister 1902/1906, printed inventories and editions, HCPortal, Láng 2015, TNA/Kalliope catalogues); notes in research/oldest/scan_2026-09-23/. Kind: solve candidate (no key known).",
    "id": 339,
    "year": 1744,
-   "date": "1744",
+   "date": "18 Jan 1744 (from the reply on f. 4v)",
    "title": "Military news for Prince Carl August Friedrich of Waldeck, in a three-digit code",
    "correspondents": "unknown informant → Prince Carl August Friedrich of Waldeck",
    "place": "? → Arolsen",
-   "language": "German (probably)",
+   "language": "German",
    "region": "Germany",
    "period": "1701-1800",
    "shelfmark": "Hessisches Staatsarchiv Marburg, HStAM 118 a Nr. 3954, ff. 3-4 (HCPortal record 517)",
    "cls": "C",
    "source": "HCPortal",
-   "status": "Archive title \"Militärische Nachrichten für Fürst Carl August Friedrich (in Chiffre)\". HCPortal: not solved. About 600 three-digit groups (sweep estimate). No reading found.",
+   "status": "Attempted 28 Sept 2026 (targets/waldeck1744/): 717 groups, 303 distinct, transcribed. The prince's French draft reply on f. 4v answers a letter of 18 January (1744). Probably a two-part homophonic nomenclator (7/90/924 homophones; no alphabetical, column or multiplicative numbering fits); synthetic controls of that design show the key is not identifiable from one letter. No key on Arcinsys, HCPortal or DECODE; the undigitised 118 a Nr. 1973-1980 (Feldzug 1744) may hold the key or a deciphered copy.",
    "why": "War of the Austrian Succession; Waldeck commanded Dutch troops. A hard code with no known key.",
    "importance": 3,
    "solvability": 2,
@@ -2524,8 +2524,17 @@
     {
      "label": "HCPortal record 517",
      "href": "https://crypto.hcportal.eu/"
+    },
+    {
+     "label": "Arcinsys (8 images)",
+     "href": "https://arcinsys.hessen.de/arcinsys/detailAction?detailid=v4131421"
+    },
+    {
+     "label": "write-up",
+     "href": "https://dbourdeau.github.io/cyphersolver/waldeck1744.html"
     }
-   ]
+   ],
+   "outcome": "attempted, open"
   },
   {
    "counted": true,
