@@ -2738,7 +2738,7 @@
    "folio_note": "",
    "seen": "catalogue",
    "scored": "sweep",
-   "prior_art": "open (checked 23 Sept 2026)",
+   "prior_art": "open (checked 28 Sept 2026)",
    "score_note": "Scored by hand from the archive scan of 23 Sept 2026 (outside DECODE: Meister 1902/1906, printed inventories and editions, HCPortal, Láng 2015, TNA/Kalliope catalogues); notes in research/oldest/scan_2026-09-23/. Kind: solve candidate (no key known).",
    "id": 345,
    "year": 1750,
@@ -2752,13 +2752,14 @@
    "shelfmark": "TNA SP 95/136 (Sweden, \"Letters not deciphered\" 1748-55); SP 87/24/33 (del Puerto intercept, 1748)",
    "cls": "C",
    "source": "Calendars and literature",
-   "status": "TNA titles the Swedish volume \"Letters not deciphered\": the Deciphering Branch intercepts it failed on. Images only through State Papers Online (paid). No modern reading found.",
+   "status": "TNA titles the Swedish volume \"Letters not deciphered\"; SP 87/24/33 is calendared as an \"Undeciphered letter from the marquis del Puerto\". Session of 28 Sept 2026 (targets/sp95box136/): neither is digitised on TNA Discovery or held on DECODE; images only through Gale State Papers Online or a TNA copy order. The SP 95 series description records a Britain-Sweden diplomatic rupture 1748-63, so SP 95/136 holds intercepts or unofficial letters, not an envoy's despatches. The Deciphering Branch's keys for these correspondents are on DECODE: R7801 (Add MS 32301 f. 38, 'Grimaldi to Canis at Stockholm, 1752, & Marq. del Puerto at the Hague', Spanish 1-500 syllabic nomenclator), R7793 (Huescar-Wall 1747, 1-1100), R7721 ('Wynantz avec Scheffer 1749', French/Swedish code), R7723 (Scheffer 1752, past 1400 groups), R7724-R7725 (Wynantz 1753). No modern reading found.",
    "why": "Ciphers the Georgian Deciphering Branch itself could not break; a whole volume of them.",
    "importance": 4,
    "solvability": 2,
    "difficulty": 5,
-   "verify": "Obtain SPO images; list letters per system; check whether the keys were later found (BL Add MS 32253-32310).",
-   "links": []
+   "verify": "Obtain SPO images or TNA copies of SP 95/136 and SP 87/24/33 ff. 96-97; list letters per system; apply R7801/R7793-R7795 to del Puerto and R7721/R7723/R7724 to the Swedish letters; rebuild keys from those siblings where none fits.",
+   "links": [],
+   "outcome": "attempted, open: blocked, no image online (SPO or TNA copy order only); Branch keys located on DECODE (28 Sept 2026, targets/sp95box136/)"
   },
   {
    "counted": true,

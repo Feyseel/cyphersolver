@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "target": "sp95box136",
+  "title": "\"Letters not deciphered\": TNA SP 95/136 (Sweden, supplementary, 1748-55) and the marquis del Puerto intercept, TNA SP 87/24/33 ff. 96-97 (19 Mar 1748)",
+  "documents": [
+    {
+      "id": "SP95-136",
+      "shelfmark": "TNA SP 95/136, Supplementary: Letters not deciphered (Discovery C3189519)",
+      "date": "1748-1755",
+      "year": 1750,
+      "country": "Sweden",
+      "route": "unknown",
+      "language": "unknown",
+      "pages": "unknown",
+      "cleartext_in_document": "unknown",
+      "read": "not read",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "TNA title says the letters were not deciphered; no decipherment found in print or online.",
+        "partial": false
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "image_quality": "no images",
+        "notes": "Not digitised on TNA Discovery (digitised: false, no item-level entries), not on DECODE; images only through Gale State Papers Online or a TNA copy order. Britain and Sweden had no diplomatic relations 1748-63 (SP 95 series description), so the letters are intercepts or unofficial correspondents' letters, not an envoy's despatches."
+      }
+    },
+    {
+      "id": "SP87-24-33",
+      "shelfmark": "TNA SP 87/24/33, ff. 96-97 (Discovery C9072127)",
+      "date": "19 Mar 1748",
+      "year": 1748,
+      "country": "Spain",
+      "route": "The Hague -> unknown",
+      "language": "unknown",
+      "pages": 2,
+      "cleartext_in_document": "unknown",
+      "read": "not read",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "TNA calendars it as an 'Undeciphered letter from the marquis del Puerto, Spanish ambassador to The Hague'; no decipherment found.",
+        "partial": false
+      },
+      "length": {
+        "tokens": "unknown",
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "llm from images",
+        "image_quality": "no images",
+        "notes": "Not digitised on TNA Discovery; images only through Gale State Papers Online or a TNA copy order. Two folios per the catalogue."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "Not seen; the Deciphering Branch's keys for these correspondents are numeric syllabic nomenclators of 500 to over 1400 groups (BL Add MS 32287, 32301 on DECODE).",
+    "symbol_kind": "digits",
+    "distinct_symbols": "unknown",
+    "diacritics": {
+      "used": false
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "random",
+    "sibling_key": "Deciphering Branch keys on DECODE: R7801 (Add MS 32301 f.38, 'Grimaldi to Canis at Stockholm, 1752, & Marq. del Puerto at the Hague', Spanish 1-500), R7793 (f.28, Huescar-Wall 1747, Spanish 1-1100), R7721 (Add MS 32287 ff.97-98, 'Wynantz avec Scheffer 1749', French/Swedish), R7723 (ff.101-106, Scheffer 1752, past 1400 groups with nulls), R7724/R7725 (Wynantz 1753). Located, not applied: no ciphertext in hand.",
+    "notes": "symbol_kind 'digits' and key_order 'random' are inferred from the candidate keys, not observed in these letters; the ciphertexts have not been seen."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "no",
+      "where": "No reading known. The Deciphering Branch held keys for del Puerto (1752) and for Swedish correspondents (1749, 1752, 1753), but the TNA copies are titled undeciphered.",
+      "found": "not found",
+      "used": false
+    },
+    "inputs": [
+      "key from archive"
+    ],
+    "attack": "none",
+    "human_role": "Set the goal (solve it); chose to close the target as blocked rather than buy State Papers Online access or order TNA copies. The DECODE session cookie on disk from earlier sessions was used to fetch the key images.",
+    "tools": [
+      "TNA Discovery API",
+      "DECODE API metadata dump (list.json)"
+    ],
+    "models": [
+      "claude-opus-5-5"
+    ],
+    "sessions": 1,
+    "first_date": "2026-09-28",
+    "last_date": "2026-09-28"
+  },
+  "solution": [
+    {
+      "date": "2026-09-28",
+      "kind": "access",
+      "what": "TNA Discovery API for SP 95/136 (C3189519) and SP 87/24/33 (C9072127): both digitised: false, no item-level children, no scanned lists.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-28",
+      "kind": "literature search",
+      "what": "Read the SP 95 series description (C13634): Britain-Sweden diplomatic relations ruptured 1748-63, so SP 95/136 cannot be an envoy's despatches; it holds intercepts or unofficial letters. Web search found no edition or calendar of either item.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-28",
+      "kind": "access",
+      "what": "Searched the DECODE list (10,106 records) for SP 95, SP 87, del Puerto and 1744-60 Deciphering Branch records: no record holds these letters.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-09-28",
+      "kind": "key from source",
+      "what": "Opened the Branch's key sheets on DECODE: R7801 (Add MS 32301 f.38) docketed 'Grimaldi to Canis at Stockholm, 1752, & Marq. del Puerto at the Hague', a Spanish 1-500 syllabic nomenclator; R7793 Huescar-Wall 1747 (1-1100); R7721 'Wynantz avec Scheffer 1749' (French/Swedish code); R7723 Scheffer 1752 (past 1400 groups, nulls); R7724/R7725 Wynantz 1753.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-28",
+      "kind": "access",
+      "what": "Asked Daniel whether to obtain images (State Papers Online or TNA copies); he chose to close the target as blocked.",
+      "result": "failed"
+    }
+  ],
+  "outcome": {
+    "method": "not applicable",
+    "method_basis": "Neither SP 95/136 nor SP 87/24/33 is digitised free, so no ciphertext was seen; only the Deciphering Branch's candidate keys were found on DECODE.",
+    "contribution": [
+      "none"
+    ],
+    "class": "offline only",
+    "key": "none",
+    "fraction_read": 0,
+    "verification": [
+      "none"
+    ],
+    "gaps": [
+      {
+        "item": "SP 95/136, every letter",
+        "blocker": "needs-physical-access"
+      },
+      {
+        "item": "SP 87/24/33 ff. 96-97, del Puerto 19 Mar 1748",
+        "blocker": "needs-physical-access"
+      }
+    ],
+    "notes": "Blocked on images (Gale SPO or TNA copy order). key 'none' because no key is yet tied to these letters; candidates: R7801 (del Puerto 1752), R7793-R7795 (Spanish 1747), R7721/R7723/R7724 (Swedish 1749-53)."
+  }
+}

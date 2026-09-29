@@ -7614,6 +7614,52 @@
      "sent": false
     }
    }
+  },
+  "sp95box136": {
+   "writeup": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/sp95box136/NOTES.md (notes only, no site page)",
+   "key": {
+    "none": "The ciphertexts, TNA SP 95/136 (Swedish intercepts 1748-55) and SP 87/24/33 ff. 96-97 (del Puerto, The Hague, 19 Mar 1748), are not on DECODE; the entries below identify the Deciphering Branch keys for those correspondents from their dockets, read on the DECODE images"
+   },
+   "cite": "TNA Discovery C3189519 (SP 95/136), C9072127 (SP 87/24/33), C13634 (SP 95 series description: Britain-Sweden rupture 1748-63)",
+   "fields": {},
+   "records": {
+    "R7801": {
+     "decode_status": "N/A",
+     "proposed": "N/A",
+     "note": "Key identified from the docket on image 1: 'Grimaldi to Canis at Stockholm, 1752. & Marq. del Puerto at the Hague'. Image 2 is the Deciphering Branch's rebuilt Spanish syllabic nomenclator, numbered 1-500, with syllables, words and names (contra, correo, corte, interesse, Ingalaterra, Hanover, Viena, S.M.Xma, Su Magestad Brit.); many numbers carry a string of letter suffixes. Candidate key for the undeciphered del Puerto letter of 19 Mar 1748, TNA SP 87/24/33 ff. 96-97 (not on DECODE).",
+     "fields": {
+      "receiver": "Canis; Marqués del Puerto (at The Hague); docket: Grimaldi to Canis at Stockholm, 1752, & Marq. del Puerto at the Hague",
+      "plaintext_lang": "Spanish"
+     },
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    },
+    "R7721": {
+     "decode_status": "N/A",
+     "proposed": "N/A",
+     "note": "Key identified from the docket on image 1: 'Wynantz avec Scheffer 1749' (Carl Fredrik Scheffer, Swedish minister in Paris). Image 2 is a code of at least 500 groups mixing French and Swedish (45 penningar, 36 mycket, 211 Stockholm, 374 Riks-rad, 480 Carteret). Candidate key for the Swedish intercepts in TNA SP 95/136 (1748-55, not on DECODE).",
+     "fields": {
+      "receiver": "Scheffer",
+      "start_year": "1749",
+      "plaintext_lang": "French, Swedish"
+     },
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    },
+    "R7793": {
+     "decode_status": "N/A",
+     "proposed": "N/A",
+     "note": "Key headed 'Huescar with Wall 1747': a Spanish code of 1-1100 (603 Parma, 761 Newcastle, 768 plenipotenciario, 913 Toscana, 973 Suecia). Candidate key, with R7801, for the del Puerto letter of 1748 (TNA SP 87/24/33).",
+     "fields": {
+      "plaintext_lang": "Spanish"
+     },
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {
