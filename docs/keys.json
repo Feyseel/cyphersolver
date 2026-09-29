@@ -1758,6 +1758,7 @@
   "siena1421": "no filed key read any piece: the keys of nos. 14, 18 and 25 were recovered from their own ciphertext, that of no. 4 from an alphabet fragment and glosses on the letter itself; the 43 key sheets of fasc. 1 (DECODE R4746-R4789) were tried and none fits",
   "hesse1824": "Key rebuilt here from the decipherer's note on the same leaf (key letters bcdefg, first word) and the ciphertext; no named key sheet.",
   "szembek1689": "read from the contemporary interlinear decipherment; key rebuilt from the glosses of this letter only, no key sheet known",
-  "waldeck1744": "not deciphered: no key known; a two-part nomenclator not rebuildable from one letter"
+  "waldeck1744": "not deciphered: no key known; a two-part nomenclator not rebuildable from one letter",
+  "malsburg1637": "key rebuilt from its own ciphertext; no surviving key (the Sixtinus key of Dec 1635, HCPortal key 5, shares the layout but not the table)"
  }
 }

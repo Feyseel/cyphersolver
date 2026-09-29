@@ -343,6 +343,10 @@
   "Hanover": [
    52.3759,
    9.732
+  ],
+  "Wesel": [
+   51.6586,
+   6.6178
   ]
  },
  "letters": [
@@ -3745,6 +3749,16 @@
    "to": "Berlin",
    "st": "found",
    "label": "Elector Georg Ludwig to Ilten: head off the King in Prussia's personal suit for Sophia Dorothea"
+  },
+  {
+   "slug": "malsburg1637",
+   "doc": "HStAM 4 h Nr. 1411 f. 12",
+   "year": 1637.05,
+   "date": "7/17 Jan 1637",
+   "from": "Wesel",
+   "to": "Kassel",
+   "st": "partial",
+   "label": "Malsburg to Landgrave Wilhelm V: no safe-conducts for the envoys to the Cologne peace talks"
   }
  ]
 }

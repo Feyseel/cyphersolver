@@ -2571,5 +2571,15 @@
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Fürst Carl von Waldeck und Pyrmont.jpg"
   }
+ ],
+ "malsburg1637": [
+  {
+   "role": "recipient",
+   "name": "Landgrave Wilhelm V of Hesse-Kassel",
+   "img": "portrait_landgrave-wilhelm-v-of-hesse-kassel.jpg",
+   "what": "Portrait from an ancestral series, 17th century (Museumslandschaft Hessen Kassel)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Wilhelm 5 Hessen-Kassel.jpg"
+  }
  ]
 }

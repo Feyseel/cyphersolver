@@ -9,6 +9,8 @@ All scores are judgments on a 1–5 scale, not measurements. The composite is a 
 are stated; change them and the order changes. Entries marked * carry an inference that the notes do not
 verify (see the last section).
 
+The **Malsburg letters of 1637** (HStAM 4 h Nr. 1411) are provisionally p143 at **3.55**: an unknown homophonic system with digraph signs, recovered from the ciphertext alone over ten letters and deciphered at 95.9%, with new content on Hesse-Kassel's war in Westphalia; about forty codes and a second cipher on f. 12 stay open.
+
 The **Snell invisible-ink message of 1824** (HStAM 9 a Nr. 259 f. 249) is provisionally p141 at **3.30**: the key letters were given by the decipherer's note on the leaf, but the table's run-on into digits and the copy slips were found here; the text reads end to end, with new content from the demagogue investigations and no reading anywhere before.
 
 The **Mémoire en chiffre of 12 December 1560** (BnF fr. 3157 no. 67) is provisionally p134 at **3.90**: an unknown homophonic system with two-stroke units broken ciphertext-only from the images and read at 98.9%, new content on the Agenais rising, but regional weight and no outside control.
@@ -44,6 +46,7 @@ The **Wallachian court postscript against Antide Dunod** (after Oct 1688; Biblio
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here |
 |---|---|---|---|---|---|---|---|---|---|---|
+| p143 | **Otto von der Malsburg → Landgrave Wilhelm V of Hesse-Kassel**, ten cipher letters, HStAM 4 h Nr. 1411 ff. 3–33 (HCPortal 496–509; catalogue 338) | Jan–Mar 1637 | 4 | 3 | 5 | 4 | 1 | 3 | **3.55** | D 4: homophonic table of 89 two-digit groups plus digraph signs and codes, no key among 176 Hesse-Kassel key sheets, recovered ciphertext-only once three letters were pooled; H 3: Hesse-Kassel's war in Westphalia in the year of the landgrave's death, Ehrenbreitstein, the refused Cologne safe-conducts; N 5: HCPortal lists all ten unsolved, no reading anywhere; R 4: 18 scans transcribed, key volumes harvested, 236 doubtful groups re-checked; F 1: catalogue only; V 3: 95.9% measured with a shuffled-key control, ~40 codes and the f. 12 letter block open. [malsburg1637](https://dbourdeau.github.io/cyphersolver/malsburg1637.html) |
 | p141 | **Snell → an unidentified correspondent**, invisible-ink copy, HStAM 9 a Nr. 259 f. 249 (HCPortal 513; catalogue 340) | 20 Feb 1824 | 3 | 3 | 5 | 3 | 1 | 4 | **3.30** | D 3: key letters and first word given by the decipherer's note; the digit run-on past z and 12 copy faults found from the text; H 3: questions on Follen, America, Fries, Oken, de Wette and a plan found at Wetzlar; N 5: HCPortal lists it unsolved, no reading anywhere; V 4: every sign read, the five digits all fall where the table puts them. [hesse1824](https://dbourdeau.github.io/cyphersolver/hesse1824.html) |
 | p140 | **Sienese envoys and others → the government of Siena**, Concistoro 2308 fasc. 2 (DECODE R4790–R4814; catalogue 336) | before 1429–1547 | 5 | 3 | 5 | 5 | 2 | 2 | **3.90** | D 5: three unknown systems recovered ciphertext-only from images (no. 14 first with a hand crib, then unaided); H 3: a Siena–Empire treaty against Florence, envoys' reports, the 1456 Naples embassy; N 5: no reading anywhere; R 5: bundle found on DECODE, eleven pieces transcribed, 43 keys tested; F 2: catalogue only; V 2: partial, one letter above the read bar, the 1421 piece unphotographed |
 | p139 | **Unsigned (London) and Ernst von Steinberg → Johann Georg von Ilten**, GWLB Hannover Ms XXIII 1234:29,2 pp. 73–75, 119–121 | Feb–Apr 1743 | 2 | 3 | 4 | 4 | 1 | 4 | **2.95** | Key found in a later volume of the Ilten papers and matched by the worksheet of the second letter; the first letter had no decipherment at all. [ilten1743](https://dbourdeau.github.io/cyphersolver/ilten1743.html) |
@@ -657,3 +660,5 @@ Siena Concistoro cipher letters (catalogue 336) provisional score: 0.25×5 + 0.2
 Snell invisible-ink message 1824 provisional score: 0.25×3 + 0.25×3 + 0.20×5 + 0.10×3 + 0.10×1 + 0.10×4 = **3.30** (p141).
 
 Wallachian court postscript against Dunod (after 1688; catalogue 348) provisional score: 0.25×1 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×1 + 0.10×5 = **2.50** (p142).
+
+Malsburg cipher letters 1637 (catalogue 338) provisional score: 0.25×4 + 0.25×3 + 0.20×5 + 0.10×4 + 0.10×1 + 0.10×3 = **3.55** (p143).

@@ -340,6 +340,11 @@ PAGES = [
          blurb='DECODE R4500, a German report in the Hesse-Kassel cipher files at Marburg, ends in fourteen lines of digits and symbols. The key was recovered from the ciphertext alone and checked against a contemporary decipherment of the first four lines. About 97% of the symbols are deciphered: the writer has laid the matter before the Emperor and the Elector of Bavaria and asks to be held excused.',
          quote='&ldquo;damit ich aus allen fall entschuldigt sein&rdquo;',
          rights='Hessisches Staatsarchiv Marburg, HStAM 4 d Nr. 1218, via DECODE'),
+    dict(slug='malsburg1637', label='Malsburg to Wilhelm V 1637', year='1637', y=1637.1, place='Westphalia &rarr; Kassel', st='partial', stt='read in part',
+         title='Otto von der Malsburg&rsquo;s cipher letters to Landgrave Wilhelm V, 1637',
+         blurb='Ten letters of January to March 1637 from Hesse-Kassel&rsquo;s general war commissary in Westphalia, catalogued on HCPortal as unsolved. No key survives among the Hesse-Kassel key sheets; the homophonic two-digit table was recovered from the ciphertext alone, with digraph signs and a small code. 95.9% of 9,736 cipher groups decipher: unpaid garrisons, Ehrenbreitstein, the refused safe-conducts for the Cologne peace talks, the Dutch alliance. A second cipher in letters on f. 12 and about forty codes stay open.',
+         quote='&ldquo;das ich auch noch nit weiss, wo hervor unsere garnisonen hiernechst der unterhalt &hellip; genommen werden soll&rdquo;',
+         rights='Hessisches Staatsarchiv Marburg, HStAM 4 h Nr. 1411, via HCPortal'),
     dict(slug='heusner1637', label='Heusner 1637', year='1637', y=1637.4, place='Kassel &rarr; Oxenstierna', st='found', stt='read by others',
          title='Sigismund Heusner von Wandersleben to Axel Oxenstierna, 1637',
          blurb='A German letter in a numerical homophonic cipher with code numbers, catalogued twice on DECODE (R4332, R3816: the same scans). Michelle Waldispühl and Nils Kopal recovered the key and published the decipherment in 2024. Their key was applied here to a fresh transcription of one page and reproduces their plaintext; the date is 15 May 1637.',
@@ -1392,6 +1397,7 @@ IMAGES['r1944'] = ('r1944_lead.jpg', 'The clear copy of Bourdeaux&rsquo;s dispat
 IMAGES['hereditary1796'] = ('hereditary1796_lead.jpg', 'R2239, head of the letter: Berlin 12. Mars 1796, then number groups with superscript marks and clear words', 'Koninklijk Huisarchief, The Hague, via DECODE R2239')
 IMAGES['r1892'] = ('r1892_lead.jpg', 'Page 2, the head of the Dutch postscript: in het hollandsch met cijffer, then digit pairs written top over bottom', 'Koninklijk Huisarchief, The Hague, via DECODE R1892')
 IMAGES['r2242'] = ('r2242_lead.jpg', 'Page 1: four cipher lines, the clear Dutch written beneath', 'Koninklijk Huisarchief, The Hague, via DECODE R2242')
+IMAGES['malsburg1637'] = ('malsburg1637_lead.jpg', 'The first cipher lines of the letter of 5/15 January 1637: 27.39.13.95.N.F.D.44.89.N = das ich auch noch nit weiss', 'Hessisches Staatsarchiv Marburg, HStAM 4 h Nr. 1411 f. 3, via HCPortal record 496')
 IMAGES['hesse1824'] = ('hesse1824_lead.jpg', 'The heading &ldquo;Snell an A?ud&rdquo; and the six cipher lines; the digits 4, 1 and 3 are cipher signs', 'Hessisches Staatsarchiv Marburg, HStAM 9 a Nr. 259 f. 249, via HCPortal record 513')
 IMAGES['r2234'] = ('r2234_lead.jpg', 'The head of the letter: section capital D, the date in clear, then one line per alphabet', 'Koninklijk Huisarchief, The Hague, via DECODE R2234')
 IMAGES['marburg1635'] = ('marburg1635_lead.jpg', 'The cipher lines with the contemporary gloss over the first four', 'Hessisches Staatsarchiv Marburg, via DECODE R4500')
