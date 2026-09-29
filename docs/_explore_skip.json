@@ -58,7 +58,8 @@
   "schiner1516": "No ciphertext in hand: Cotton Vitellius B XIX is not digitised and Büchi printed only the plaintext (italics), no key or facsimile, so no passage can be replayed sign by sign.",
   "indus": "Nothing is read: the script is undeciphered, so no passage can be decoded sign by sign.",
   "burgo1527": "Not a cipher: the record is a clear Spanish minute, so there is nothing to decipher.",
-  "waldeck1744": "Not deciphered: no code group has a value, so no passage can be decoded sign by sign."
+  "waldeck1744": "Not deciphered: no code group has a value, so no passage can be decoded sign by sign.",
+  "champagne1590": "Mixed figure-and-sign code (no. 55) and short two-digit runs spread over five letters; no per-token crops of the signs exist, so a replay would show sign labels, not the letter."
  },
  "snip": {
   "kaa4591": "Bayerisches Hauptstaatsarchiv notice on DECODE: not in the public domain, publishing only with the Archive’s permission; no crop until permission is obtained",

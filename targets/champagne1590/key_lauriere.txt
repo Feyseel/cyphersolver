@@ -1,3 +1,8 @@
+# SUPERSEDED 29 Sept 2026 by key57.txt (Nevers key no. 57, fr. 3995 ff. 102-103, the writer's own key sheet).
+# This hand alignment is shifted by one group from '✗' onward: on the key sheet and against no. 10's gloss,
+# ✗ = le Roy, 335 = soit, 141 = catholique, 288 = nous, 101 54y+ = au-ro-i-t (auroit), 184y = est-e (esté).
+# Found by setsunaatto (dbourdeau/cyphersolver issue 13). Kept for the record of the first pass.
+#
 # Laurière's code (BnF fr. 3625 no. 10, f. 10r, 13 Jul 1593), rebuilt from the office's interlinear decipherment.
 # Method: each glossed run was set against the gloss written over it, and a group is listed only when the same
 # group falls under the same word in two places, or its position under a one-word gloss is unambiguous.

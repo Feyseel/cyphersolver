@@ -1,0 +1,28 @@
+# fr. 3625 no. 55, f. 66r (Gallica btv1b52511322v canvas 143), Lauriere (La Verriere) to Nevers, Chalons, 9 July 1593.
+# Read with Nevers key no. 57 (key57.txt). Transcription and reading contributed by setsunaatto in
+# dbourdeau/cyphersolver issue 13 (29 Sept 2026); lines 1-2 re-checked here against the full-resolution page and against
+# our own independent transcription (ct_3625_55.txt): the figures agree group for group; the sign names differ only in
+# naming (our "184Pn" = their "184 Ep pi"; our "ω32q" = "om 32 venus").
+# Sign names: om/lam = a, Ep/ye = e, yi = i, venus/onplus = n, ddag/mcross = r, hash/pi = s, tri/plus = t, perp/v = u,
+# f = o, Gs = g, Dh/Dgrid = d, eps = l, 15_ = overbarred 15.
+#
+# Run 1 (after "pour vous faire resouvenir", "come" written over 347)
+#   347 184 Ep pi 285 92 ye hash 59 ROY om 32 venus 25 248 23 26 14 ddag 17 59 venus Gs 49 perp mcross 334 107 16
+#   25 27 pi 181 hash 262 159 f onplus plus 344 6 venus 24 pi mu c ye 8 venus 39 eps eng 52 perp 54 venus tri 304 262
+#   197 92 om venus Dh 26 101 tri 26 167
+#   = vous estes necessaire pres du Roy afin qu'il ne retarde d'ung jour son assemblee, ce que ses ennemys luy
+#     donne[r]ont tout l'anpescheman[t] qu'ilz pourront pour luy faire prandre autre dessein
+# Run 2 (after "Revenant a mon voiage")
+#   LORRAINE 50 venus tri 26 160 17 tri 12 zig 28 ddag 8 yi pi 285 om 15_ venus plus 25 ROY 335 141
+#   = [le duc de Lorraine] montre desir de traiter, mais necessaire avant que [le Roy] soit catholique
+# Run 2b (before "ce moquans de cela")
+#   312 203 perp 23 Ep 20 mu 42 f venus = quoy fait une election
+# Run 3 (after "francoir")
+#   41 eps 345 lam 14 venus Dgrid 26 6 346 59 PAPE 286 103 56 pi tri 39 beta 27 12 141 39 6 plus 12 zig 28 ddag om
+#   = s'il veult atandre la volonte du [Pape], non aussitost qu'il sera catholique, qui la traitera
+# Run 3b (after "et en donne sa parolle", "n" over 304)
+#   GONDY 304 TOSCANE = [le Cardinal de Gondy] pour [le grand duc de Toscane]
+#
+# Two letters are missing in the cipher itself (r in donne[r]ont, t in empescheman[t]).
+# Differences from ct_3625_55.txt: (a) "304 91P" after "les oreilles": 304 = pour; 9P not on the key, a clear abbreviation;
+# (b) run 3b: three signs (Gondi sign, 304, Tuscany sign) against our "304 ✗".

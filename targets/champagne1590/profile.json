@@ -106,10 +106,10 @@
    "cleartext_in_document": "interspersed",
    "plaintext": {
     "location": [
-     "interlinear"
+     "separate folio"
     ],
-    "source": "one gloss on the leaf ('come'); sibling no. 10 (f. 10r) carries an interlinear decipherment of the same code",
-    "partial": true
+    "source": "the writer's key sheet, Nevers key no. 57 (BnF fr. 3995 ff. 102-103, endorsed 'Mons. de La Verriere', Feb 1593); identified by setsunaatto, issue 13",
+    "partial": false
    },
    "length": {
     "tokens": 86,
@@ -121,9 +121,9 @@
     "by": "llm from images",
     "source": "Gallica IIIF full resolution",
     "image_quality": "fair",
-    "notes": "Groups mix figures with attached letters and signs; count made by hand."
+    "notes": "Groups mix figures with attached letters and signs; count made by hand. Second transcription by setsunaatto (issue 13), lines 1-2 re-checked against the page: figures agree group for group."
    },
-   "read": "read in part"
+   "read": "read"
   }
  ],
  "system": {
@@ -162,12 +162,12 @@
   "key_order": "alphabetical",
   "word_division": "none",
   "sibling_key": "none; Tomokiyo's Nevers key no. 46 checked and does not fit; siblings nos. 26/27 in another key",
-  "notes": "No. 55 (Lauriere, f. 66r) is a mixed syllabic figure-and-sign code; sibling no. 10 has an interlinear decipherment."
+  "notes": "No. 55 (Lauriere, f. 66r) is Nevers key no. 57: two-sign alphabet, syllables 1-72 (row + 14 x vowel), doubles 73-98, words 99-353, overbarred places, name signs."
  },
  "conditions": {
   "prior_solution": {
    "exists": "partial",
-   "where": "no. 23 key slip bound with the letter (f. 36r); interlinear glosses in no. 25 and no. 60",
+   "where": "no. 23 key slip bound with the letter (f. 36r); interlinear glosses in no. 25 and no. 60; for no. 55 the key sheet itself (fr. 3995 ff. 102-103), catalogued by Tomokiyo as Nevers key no. 57",
    "found": "during attempt",
    "used": true
   },
@@ -177,16 +177,16 @@
    "key from archive"
   ],
   "attack": "key from archive",
-  "human_role": "Project-level: set up Claude Code and posed the catalogue task via a parent agent. No target-specific intervention recorded.",
+  "human_role": "Project-level: set up Claude Code and posed the catalogue task via a parent agent. No target-specific intervention recorded. 29 Sept 2026: the key identification for no. 55 came from an outside contributor (setsunaatto, GitHub issue 13); this session verified it against the key sheet and the page.",
   "tools": [
    "PIL crops"
   ],
   "models": [
    "claude-opus-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-21",
-  "last_date": "2026-09-21"
+  "last_date": "2026-09-29"
  },
  "solution": [
   {
@@ -266,16 +266,49 @@
    "kind": "reading",
    "what": "No. 55 read with the table: 19 of 86 groups; French LM not applicable to the syllabic remainder.",
    "result": "partial"
+  },
+  {
+   "date": "2026-09-29",
+   "kind": "literature search",
+   "what": "GitHub issue 13 (setsunaatto): Tomokiyo's Nevers key no. 57 (fr. 3995 ff. 102-103, 'Mons. de La Verriere', Chartres Feb 1593) is Lauriere's key; our 12-entry table is one group out of step. Tomokiyo's nevers.htm entry for no. 57 confirms the design and the writer.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-29",
+   "kind": "key from source",
+   "what": "Key sheet canvases 196-201 fetched; syllable rule (ba 1 be 15 bi 29 bo 43 bu 57), doubles 73-98 and every word code used in no. 55 checked on canvas 200; key57.txt written.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-29",
+   "kind": "control",
+   "what": "Issue's transcription of f. 66r lines 1-2 checked against the full-resolution page and our own ct_3625_55.txt: figures agree group for group. Issue's blind test on no. 10: 80% of glossed letters in runs >=4 vs shuffle max 30%.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-29",
+   "kind": "reading",
+   "what": "No. 55 read in full with key no. 57 (reading_3625_55.txt): Henri IV's assembly, Lorraine's terms, the Pope's consent, Gondi for Tuscany; two letters missing in the cipher itself. key_lauriere.txt marked superseded.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-29",
+   "kind": "sibling key",
+   "what": "Key no. 57 tried on no. 78's single group '96 □ 3 9̄ f 3': no sense.",
+   "result": "failed"
   }
  ],
  "outcome": {
   "method": "key recovered based on adjacent plaintext",
-  "method_basis": "The two-digit alphabet of fr. 3623 nos. 24/25/60 was rebuilt from a few interlinear glosses on nos. 25 and 60 plus its alphabetical order, and the no. 55 groups from the interlinear decipherment of Lauriere's letter no. 10 in the same volume fr. 3625; no. 23 reads with its own key slip bound in at f. 36r.",
-  "contribution": ["transcription", "key recovered"],
+  "method_basis": "The two-digit alphabet of fr. 3623 nos. 24/25/60 was rebuilt from a few interlinear glosses on nos. 25 and 60 plus its alphabetical order, and the no. 55 groups from the interlinear decipherment of Lauriere's letter no. 10 in the same volume fr. 3625; no. 23 reads with its own key slip bound in at f. 36r. Laurière's no. 55 was then read in full with his own key sheet (Tomokiyo's Nevers key no. 57, fr. 3995 ff. 102-103), identified by an outside contributor (issue 13) and checked here.",
+  "contribution": [
+   "transcription",
+   "key recovered"
+  ],
   "class": "read in part",
-  "fraction_read": 0.418,
+  "fraction_read": 0.755,
   "fraction_read_method": "measured",
-  "fraction_read_source": "NOTES readings table for ct_3623_twodigit.txt (104 figures: 63 read; unkeyed codes 16/17/19/39/89/99, the open name in no. 60, the first half of the 'qu'on dict' run and both no. 24 runs unread) + ct_3625_55.txt (86 groups, 19 read per NOTES) + ct_3623_78.txt (1 group of 6 signs, unread, counted 6): 82 of 196. No. 23 (all names in its key) not counted: no transcription.",
+  "fraction_read_source": "ct_3623_twodigit.txt 63 of 104 (NOTES readings table) + ct_3625_55.txt 85 of 86 (all cipher groups read with key no. 57; '9P' is a clear abbreviation) + ct_3623_78.txt 0 of 6: 148 of 196, 29 Sept 2026. No. 23 (all names in its key) not counted.",
   "key": "partial",
   "codes_open": {
    "open": 6,
@@ -288,13 +321,8 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 19 of 86 groups from no. 10's glosses; no. 78 open. fraction_read 0.45 is an estimate from the notes (cipher tokens: about 70 of 104 two-digit figures, 19 of 86 no. 55 groups, no. 23 codes all, no. 78 none), not a measurement. Measured 21 Sept 2026: 0.418 (was 0.45 estimated). codes_open = the word codes of the nos. 24/25/60 table (12 = de read; 16, 17, 19, 39, 89, 99 open); no. 55's syllabic groups (67 of 86 open) not counted there.",
+  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 19 of 86 groups from no. 10's glosses; no. 78 open. fraction_read 0.45 is an estimate from the notes (cipher tokens: about 70 of 104 two-digit figures, 19 of 86 no. 55 groups, no. 23 codes all, no. 78 none), not a measurement. Measured 21 Sept 2026: 0.418 (was 0.45 estimated). codes_open = the word codes of the nos. 24/25/60 table (12 = de read; 16, 17, 19, 39, 89, 99 open); no. 55's syllabic groups (67 of 86 open) not counted there. 29 Sept 2026: no. 55 read in full with key no. 57 (issue 13); fraction 0.755.",
   "gaps": [
-   {
-    "item": "Fr. 3625 no. 55 (f. 66r), 67 of 86 groups",
-    "blocker": "open-codes",
-    "detail": "syllabic nomenclator; the seven glossed runs of no. 10 give only 12 table entries because the clerk did not mark group boundaries under his glosses; no other glossed Lauriere letter found"
-   },
    {
     "item": "Nos. 24/25/60 code numbers 12, 16, 17, 19, 39, 89, 99 and the plain numbers of no. 24 (22, 51, 84, 44)",
     "blocker": "open-codes",

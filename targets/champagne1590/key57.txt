@@ -1,0 +1,25 @@
+# Nevers key no. 57 (Tomokiyo, cryptiana code/nevers.htm): BnF fr. 3995 ff. 102-103, Gallica ark btv1b525085665,
+# canvases 196-201. Endorsed on f. 102v "Mons^r de La Verriere", "Chartres 1593 fevrier" (Honore Mauroy La Verriere =
+# "Lauriere", the writer of fr. 3625 nos. 10 and 55). Identified as the key of no. 55 by setsunaatto,
+# dbourdeau/cyphersolver issue 13 (29 Sept 2026); every entry below checked on canvas 200 (f. 103r) on 29 Sept 2026.
+#
+# SYLLABLES 1-72: value = row + 14 * vowel (a=0 e=1 i=2 o=3 u=4); the sheet heads the column "ba 1, be 15, bi 29, bo 43, bu 57".
+#   rows: b1 c2 d3 f4 g5 l6 j7 m8 n9 p10 qu11 r12 s13 t14; v and z = 15 and 16 (va 15 ... zu 72, written with an overbar
+#   where they clash with the town/province numbers).
+#   e.g. 6 la, 14 ta, 16 ce, 17 de, 20 le, 23 ne, 24 pe, 25 que, 26 re, 27 se, 32 fi, 39 qui, 41 si, 42 ti, 49 jo,
+#   50 mo, 52 po, 54 ro, 56 to, 59 du
+# DOUBLE LETTERS 73-98:
+#   73 cc 74 dd 75 ff 76 mm 77 nn 78 pp 79 ll 80 rr 81 ss 82 tt 83 bl 84 uu 85 nt 86 ct 87 st 88 ns 89 ng 90 gl
+#   91 gr 92 pr 93 pl 94 ly 95 cr 96 ch 97 fr 98 fl
+# WORDS 99-353 (alphabetical; those used in no. 55 and no. 10):
+#   99 a  100 aux  101 au  103 aussy  107 assemblee  141 catholique  159 donne  160 desir ou desire  167 dessein
+#   181 ennemy  184 est  197 faire  203 faut ou fait  248 il(z)  262 luy  285 necessaire ou necessite  286 non
+#   288 nous  304 pour  312 quoy  334 son  335 soit  344 tout  345 veult  346 volonte ou vouloir  347 vous
+#   overbarred: 200 plus 201 point 202 prendre 203 permettre ou permis
+# PROVINCES 1-33 and TOWNS 34-68 with an overbar (12 Champagne, 30 Lorraine, 50 Chaalons, 54 Langres ...).
+# NAMES (f. 103, upper panel): XX le Pape ou Sa Saintete; crossed X le Roy; ... le Roy d'Espagne; ... le grand duc de
+#   Toscane; ... le Gr[and prieur?] de Gondi; Dames: la Royne douairiere, Madame soeur du Roy, Mme de Nevers, Mme de
+#   Guise, Mme de Montpensier.
+# ALPHABET: two (sometimes three) signs per letter (header rows of f. 103r); values used in no. 55 after setsunaatto:
+#   a = lambda, omega   e = V-form y   i = U-form y   n = o+, venus-sign   r = crossed m, double dagger
+#   s = #, pi   t = triangle, +   u = v-sign, perp   o = f-form   g = G-form   c = c   h = mu-form (as read in no. 55)
