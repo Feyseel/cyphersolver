@@ -1420,41 +1420,6 @@
    "outcome": "attempted, open"
   },
   {
-   "id": 198,
-   "counted": true,
-   "year": 1527,
-   "date": "26 Oct 1527",
-   "title": "Andrea del Burgo (Ferrara) to Chancellor Gattinara",
-   "correspondents": "Andrea del Burgo → Chancellor Gattinara",
-   "place": "Ferrara, Italy",
-   "language": "Spanish",
-   "region": "Spain",
-   "period": "1497-1559",
-   "shelfmark": "AGS, sec. Estado, leg. 1563, fol. 572",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R9970: Non-decrypted, 4 pp., unknown; alphabet, graphic signs, numerical; images login. Not viewed here. DECODE note: Letter dated October 26, 1527, from Andrea del Burgo to Chancellor Gattinara from Ferrara.",
-   "why": "Ciphered letter of Andrea del Burgo to Chancellor Gattinara, 26 Oct 1527; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 2,
-   "difficulty": 4,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R9970",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/9970"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    9970
-   ],
-   "scored": "rule"
-  },
-  {
    "id": 206,
    "counted": true,
    "year": 1717,

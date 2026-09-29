@@ -2543,5 +2543,23 @@
    "credit": "Wikimedia Commons, public domain",
    "file": "File:King George I by Sir Godfrey Kneller, Bt (3).jpg"
   }
+ ],
+ "burgo1527": [
+  {
+   "role": "sender",
+   "name": "Charles V",
+   "img": "portrait_charles-v.jpg",
+   "what": "Seated portrait formerly attributed to Titian, 1548",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Philip II",
+   "img": "portrait_philip-ii.jpg",
+   "what": "Portrait by Sofonisba Anguissola, 1565",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg"
+  }
  ]
 }

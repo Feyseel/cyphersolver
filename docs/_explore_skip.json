@@ -54,7 +54,8 @@
   "rohan1636": "No cipher sign has a verified value: the Savoy/Canisy manuscript ciphertext is unavailable and the 1635 key is unverified, so no passage can be replayed sign by sign.",
   "labbe1582": "No validated cipher plaintext or key; draft signs cannot be paired with recovered values.",
   "schiner1516": "No ciphertext in hand: Cotton Vitellius B XIX is not digitised and Büchi printed only the plaintext (italics), no key or facsimile, so no passage can be replayed sign by sign.",
-  "indus": "Nothing is read: the script is undeciphered, so no passage can be decoded sign by sign."
+  "indus": "Nothing is read: the script is undeciphered, so no passage can be decoded sign by sign.",
+  "burgo1527": "Not a cipher: the record is a clear Spanish minute, so there is nothing to decipher."
  },
  "snip": {
   "kaa4591": "Bayerisches Hauptstaatsarchiv notice on DECODE: not in the public domain, publishing only with the Archive’s permission; no crop until permission is obtained",
@@ -86,6 +87,7 @@
   "labbe1582": "Origins known, destination only France; no city established for Nevers at either date.",
   "indus": "Not letters: seals and tablets from some fifty sites, no sender or destination.",
   "ilten1743": "Both letters are from London; Ilten was with the Hanoverian troops in the Low Countries and no city is established for him in Feb-Apr 1743.",
-  "siena1421": "Of the pieces deciphered, no. 4 (Naples 1456) has no certain place for its recipient Benvoglienti, no. 14's place of writing (Rome?) is doubtful, and nos. 18 and 25 name neither origin nor destination; left out rather than guessed."
+  "siena1421": "Of the pieces deciphered, no. 4 (Naples 1456) has no certain place for its recipient Benvoglienti, no. 14's place of writing (Rome?) is doubtful, and nos. 18 and 25 name neither origin nor destination; left out rather than guessed.",
+  "burgo1527": "The minute gives no place or year; the Emperor's whereabouts cannot be fixed without guessing."
  }
 }

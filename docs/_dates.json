@@ -63,6 +63,7 @@
   "charles iii of lorraine to the comte de vaudémont, 18 june 1592": "2026-09-18",
   "charles ix to philibert du croc, undated (1565–67 or 1572)": "2026-09-20",
   "charles of egmond to the grand master of france, year unknown": "2026-09-20",
+  "charles v to prince philip, 1543–54 (catalogued as burgo to gattinara, 1527)": "2026-09-28",
   "charles vi to count windischgrätz, vienna, 1720–1722": "2026-09-19",
   "chinese gold bars, 1933": "2026-09-15",
   "claude de mondoucet to charles ix, antwerp, 4 january 1573": "2026-09-21",
@@ -415,6 +416,11 @@
    "hash": "4f2264e9d37b",
    "updated": "2026-09-24"
   },
+  "burgo1527": {
+   "first": "2026-09-28",
+   "hash": "a495dac7f2ae",
+   "updated": "2026-09-28"
+  },
   "caprile1519": {
    "first": "2026-09-21",
    "hash": "fbc5f79f4cde",
@@ -437,7 +443,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "3588248ec2d8",
+   "hash": "43c46917c532",
    "updated": "2026-09-28"
   },
   "catinat1691": {
@@ -572,8 +578,8 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "e5fa890a3557",
-   "updated": "2026-09-25"
+   "hash": "bc4221118d16",
+   "updated": "2026-09-28"
   },
   "goldbar": {
    "first": "2026-09-15",
@@ -717,8 +723,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "db4ea8f174b6",
-   "updated": "2026-09-26"
+   "hash": "1c94eda0c661",
+   "updated": "2026-09-28"
   },
   "indus": {
    "first": "2026-09-24",
@@ -1512,7 +1518,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "572085819994",
+   "hash": "a6e8df214ea9",
    "updated": "2026-09-28"
   },
   "yard1699": {

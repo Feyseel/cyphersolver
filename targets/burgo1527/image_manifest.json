@@ -1,0 +1,50 @@
+[
+ {
+  "file": "IMG_R9970_I46409_P1.jpg",
+  "decode_position": 1,
+  "archive_page": 3,
+  "archive_banner": "AGS_EST_LEG_1563_0572_0003",
+  "bytes": 851384,
+  "sha256": "b8a168c9aa6685ed432256b689f2eb3570c8fc5ce8763d20881978e418c6c42d",
+  "dimensions": [
+   1992,
+   2805
+  ]
+ },
+ {
+  "file": "IMG_R9970_I46409_P2.jpg",
+  "decode_position": 2,
+  "archive_page": 1,
+  "archive_banner": "AGS_EST_LEG_1563_0572_0001",
+  "bytes": 857912,
+  "sha256": "5a8834a63a7603152b6d32fbc94e98ea4fe3d60542302fe18c4d768b703b9581",
+  "dimensions": [
+   1953,
+   2812
+  ]
+ },
+ {
+  "file": "IMG_R9970_I46409_P3.jpg",
+  "decode_position": 3,
+  "archive_page": 2,
+  "archive_banner": "AGS_EST_LEG_1563_0572_0002",
+  "bytes": 891344,
+  "sha256": "986a5f8e494d75e0bd7482fb538562c93f08ff5ee3e4738a601f148dd65182b4",
+  "dimensions": [
+   1951,
+   2803
+  ]
+ },
+ {
+  "file": "IMG_R9970_I46409_P4.jpg",
+  "decode_position": 4,
+  "archive_page": 4,
+  "archive_banner": "AGS_EST_LEG_1563_0572_0004",
+  "bytes": 685123,
+  "sha256": "178f82f784c9950ee53a0b5cbf3bb86b77f65e58b5fc07868cfb30e8ddddeb31",
+  "dimensions": [
+   1951,
+   2812
+  ]
+ }
+]

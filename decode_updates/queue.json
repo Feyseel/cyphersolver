@@ -7660,6 +7660,31 @@
      "sent": false
     }
    }
+  },
+  "burgo1527": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/burgo1527.html",
+   "key": {
+    "none": "not a cipher; no key involved"
+   },
+   "cite": "Galende Díaz 1994, p. 163 (source of the Burgo-Gattinara attribution for AGS Estado leg. 1563 fol. 572)",
+   "fields": {
+    "date": "1543-1554 (undated minute; Philip addressed as prince)",
+    "sender": "Emperor Charles V (minute)",
+    "receiver": "Prince Philip (regent of Spain)",
+    "origin": "unknown (imperial court, Germany or Low Countries)",
+    "cipher type": "none: clear text; remove alphabet/graphic signs/numerical",
+    "cleartext language": "Spanish"
+   },
+   "records": {
+    "R9970": {
+     "decode_status": "Non-decrypted",
+     "proposed": "N/A",
+     "note": "No cipher in the record. The four AGS scans (0001-0004; DECODE shows them as 3,1,2,4) are two corrected drafts of a clear Spanish minute headed 'al príncipe': Charles V to Prince Philip, 1543-1554, on an exchange of 110,770 ducats ('CX U DCC LXX') with Anton Fugger ('Antonio Fucar'). The Roman numerals and U thousands sign explain the 'numerical, graphic signs' tags. The letter of Andrea del Burgo to Gattinara, Ferrara, 26 Oct 1527 (Galende 1994 p. 163) is not on these scans; its real location is unknown.",
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {
