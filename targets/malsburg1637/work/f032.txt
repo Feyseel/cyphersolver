@@ -1,0 +1,33 @@
+# scan 0032 (folio number "21" at top right): a DIFFERENT letter, in French, "Hault et Puissant Seigneur /
+# Monseigneur", dated at the foot "Zinca? 3e d'Avril 1637" (place name uncertain), subscribed "de V.re Alt.ze /
+# Treshumble, Tresobeissant et tres fidel serviteur" and signed only with the code number "232" (sender not named).
+# Opening: "Monseigneur, combien que la retraicte de Gallas de France, comme aussy l'accord porté par le Roy
+# Treschrestien au mariage de Monsieur ...". Below it a German "Extract" in another hand (same page), with cipher.
+# Groups separated by spaces; capital letters are letter signs; clear words in {braces}; ' = dot above the group;
+# ? = doubtful reading; # = crossed sign; _ = underlined. The ordinary H sign has a crossbar and is given as H.
+# French letter: cipher runs (same kind of numeric cipher)
+{... en mon opinion par la lettre} 46 79 31 97 16 39 42 {struck: 7?} 76 39 W 28 46 {struck: 30? 71} 97 48 20 60 65 87 35 30 67 11 63 C? 97 49 34 71 66 48 Z 39 99 {struck: 73?} 31 46 25 16 68
+67 79 15 62 17 88 84 {struck: 4} 76 79 58 93 38 80 14 99 70 19 93 81 36 79 {Il me faict l'honneur de tenir estroicte correspondence avec}
+{moy, aussy j'ay addressé toutes mes lettres} 39 42 73 31 68 77 84 83 29 49 99 55 15 73 22 32 30 84 13 {Laissant tousjours mes}
+{que je sers audict} 39 R 91 55 W 62 27 Y 30 {, a cachet volant afin que} 78 49 27 36 38 26 68 61 22 43 16 H {soit informé entie-}
+{rement de ce qui passe icy, Il est fort content que je l'ay bydomme addressé} S 27 36 38 94 {struck: 28} Z 76 70 {struck: D} 39 67 79 71 25
+{... (clear French to the date and signature)}
+# Extract (German, lower half of the page; heading and first line)
+{Extract} 70 56 10 28 D 39 27 91 79 24 16 30 {schreiben}
+{aus} 115 S 13 15 35 22 48 63 {vom 16/26 Mart. 1637.}
+{Ist Frankreich ... Hertzog von Parma ... Medina ... Landgraf ... (clear, 9 lines) ... zu bezeugen, als nichts}
+248 {solte billich das} 56 G 22 O 16 26 21 24 22 {weil} 129 27 79 30 12 50 70 15 90 32 16 65 22 48 N Z_ {Und also}
+{durch denselben directe etwas solte Ihm können, dahin das} OO {am meisten geneigt, ob}
+{ist aber vor erst das hier} 22 11 D 26 24 69 16 15 13 48 19 K 97 77 90 58 21 35 B 63 {als} 70 N? G 44 52 64 37 70 W 16
+65 47 22 26 79 30 57 10 16 15 Y? 94 24 35 42 155 13 48 15 10 Z_ {gleich solle helt} 148 13 16 22 54 48 78 63 24 B {bis}
+{sicherheit vom schluss mit Frankreich könte, Immittelst überlegt man wie jeg-} 188 {Und} AA {contentement zu geben}
+{Und wohin} 12 30 N' 22 26 90 30 73 91 48 25 60 {Ihr? feindes, ob Herr ...} XX {oder} [square] {nach} GG {scheinet}
+{abzuführen, doch ist gut zu apparent, das} 155 {mit hülffe} CC {soll ahnnehmen} 129 28 30 57 16 48 90 24
+64 22 26 16 30 21 70 15 {struck: 26} 16 44 {Und damit bringt ex parte nach} 12 70 15 90 {zu thun; das ...}
+{Liance geschlossen, wirdt} 133 16 22 26 15 11 D 10 30 48 D 79 63 {müssen,} 155 {soll dermög ... hanstat}
+69 42 28 12? 30 57 66 26 {Und:} X 69 B 90 126 O 93 D {Und das demselben seine Commission ...}
+# notes: the French letter's cipher uses the same group style; groups struck through by the writer are given as
+# {struck: ...}. In the Extract the signs "O O", "A A", "X X", "G G", "C C" are paired letter signs written large
+# (cf. XX in f. 3), and "[square]" is a drawn square sign. "N'" = N with two dots above; "Y?" = a dotted y-like sign;
+# "N? G" = an N-like sign followed by G. The French letter's lines are the scan lines; the Extract is in a second hand.
+# 28 Sept: paired large letter signs ("O O", "A A" ...) joined into one code token each (OO, AA ...), per the note above.

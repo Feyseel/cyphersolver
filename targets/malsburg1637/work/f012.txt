@@ -1,0 +1,30 @@
+# f. 12, Malsburg to the Landgrave, 7/17 January 1637 ("Datum Wesel den 7/17 Januarij Ao 1637"). One cipher line per scan line.
+# Groups separated by spaces; capital letters are letter signs; clear words in {braces}; ' = dot above the group;
+# ? = doubtful reading; # = crossed sign; _ = underlined sign.
+# j = a hooked i/j-shaped sign standing alone as a group (distinct from 1); Q = a Q-shaped capital sign.
+# block 1 (end of paragraph "... so lang als möglich mainteniren werden,")
+{werden,} 95 N 37 Y 74 31 71 22 83 11 D 26 18 36 79 95 D
+16 63 98 84 54 70 31 O 48 H 49 22 74 35 N {Und} 93 91 H# 83 89 N 69 44 148 35 27 61 25 76 Y 46 79? 97 55 97 42 16 84 68 G 83 37 48
+G 83 49 30 Y P 61 63 93 D 58 35 97 13 95 N 29 49 72 48 63 13 73 99 94 79 {Und} XX 42 G 63 16 55 76 50 84 65 94 95 43 58 83 5?
+259 73 27 49 97 258 j 95 80 51 48 31 92 35 22 41 61 83 93 67 61 25 98 93 15 60 16 63 18 58 97 46 49 24 66 H 84 40 Y 96 29 49 18
+84 83 {das was ich jhos das hier auf Cassel kommen könte ...}
+# block 2 (end of paragraph "... und H. Stadthalter annoch nicht wieder kommen,")
+{kommen,} 32 39 W 11 N 27 36 16 25 79 19 30 71 26 61
+{Und} 58 84 97 48 97 24 83 43 68 43 84 99 27 79 25 58 35 97 46 55 15 37 95 43 68 {Und} 49 76 48 30 O G 22 13 253 37 66 61 S D 27 9?
+Y 10 34 71 39 97 27 84 42 11 H? 22 84 57 61 44 51 55 83 {als will ich bey des Herrn ... abgeschickten botten} 71 83 27 94 70 42 7?
+35 27 16 30 91 Y 52 G 54 84 97 63 188 35 97 46 97 49 42 Y 63 79 77 37 L 94 16 97 83 58 84 97 82 39 15 94 48 83 13 35 76 66 D 6?
+87 H Y 22 49 52 24 129 90 88 92 93 Z 79 63 56 11 H 84 99 13 58 N 84 83 35 46 16 30 XX 39 15 21 66 97 29 48 15 70 W 48 83
+94 25 Q 63 42 95 L 91 97 95 31 54 16 22 74 73 H 84 30 Z 79 30 18 70 25 94 16 31 27 55 83 67 58 97 D 23 97 11 61 W 15 70 83 26
+42 95 L 98 55 29 49 63 {Und} 12 50 48 25 27 84 83 90 24 43 48 82 48 31 36 Z 88 83 57 89 43 15 11 N {Wolten auch EfGl. bei ...}
+# block 3 (below "Datum Wesel den 7/17 Januarij Ao 1637", before the signature flourish)
+79 W 66 Z 71 73 44 43 58 94 84 97 82 39 83 94 39 24 66 13 95 97 49 60 32 70 P 57 55 44 52 58
+25 84 29 16 83 74 53 58 30 43 29 61 X 78 73 W 84 22 H# 43 48 13 39 44 96 48 83 31 55 N 128?
+92 Y 83 84 22 68 70 15 58 47 42 38 35 31 67 71 38 94 88 42 52 64 49 97 60 G 99 48 63 82 16 25 66
+49 43 48 63 10 16 25 66 N 96 84 41 56 11 D 46 16 65 Z 62 L 82 55 99 60 61 97 44 84 P 49 15 97
+89 60 27 62 W 27 61 65 91 11 X 93 T 88 93 44 18 95? 97 40 10 88 97 43 28 22 66 82? 83? 36 56 S 43
+47 O 60 93 54 61 j 97 95 10 16 63 18 61 83 129 76 G 42 51 35 22 11 29 58 89 31 91 35 42 49 63
+63 58 22 56 84 65? 55 10 48 97 46 61 42 97 35 42 69 j 61 63 92 45 83 66 29 49 Y 63 92 49 42
+61 31 27 36 13 {above: 16} 99 91 61 22 44 89 N 98 45 H G 22 84 44 43 24 60 49 83 86 97 95 27 61 63 61 30
+21 28 99 41 61 63 13 35 99 60 84 83 42 66 H? 46 49 97 140 98 58 65 67 49 42 39 63 27 71 97
+D 137 39 81 70 30 26 52 58 130 45 46 48? 65 99 88 76 49 19 92 60 30 70 80 60 66 63 49 83
+99 55 W 79 63 {Es ist in den Spanischen guarnisonen ... Churf. in Beyern salvo geschehen werden;}

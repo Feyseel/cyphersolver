@@ -1,0 +1,7 @@
+# Three-digit codes: value<TAB>grade<TAB>evidence. Grade I = inferred from context (conjectural). Values prefixed '=' are
+# shown as names by measure.py and counted as read; codes not listed are open.
+128	=Cöln	I	'gesanten nach 128' (x2) for the peace congress; 'zu 128 friedentractiren'; Jan de Werth 'zu Cölln' in clear
+130	=Hamburg	I	'apart zu 130 oder Lübeck tractiren' (Swedish-Imperial talks, 1637)
+188	=die Staaten	I	'ob sie 188 mit in ihre alliance nemen', 'musterplatz im Clevischen', 'zu 188 gehen'
+273	=Compagnien	I	'6 273 ... und 1 273 tragoner'; 'die alten 273 schwach sein'
+253	=Regiment	I	'Ebersteins 253'; 'ihn oder sein 253'; '253 aus Lottringen'

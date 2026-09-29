@@ -774,3 +774,5 @@ targets/siena1421/r2023_*.txt
 targets/siena1421/reel58/
 # hesse1824: HCPortal scan of HStAM 9 a Nr. 259 f. 249 and crops
 targets/hesse1824/images/
+targets/malsburg1637/img/
+targets/malsburg1637/work/vocab.txt

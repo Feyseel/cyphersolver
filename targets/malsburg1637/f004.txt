@@ -1,0 +1,8 @@
+# f. 4 (scan hstam_4_h_1411_0004_Cryp.jpg): outer/address side of the f. 3 letter, with two seals.
+# Address (dark ink, bottom centre): "Denen Edlen gestrengen und Ehrenvesten auch Edlen Ehrnvesten und
+# hochgelahrten F. hess. geheimbten ... Cassell"; clear docket at left edge.
+# NO CIPHER written on this side. All the figures on the page are show-through of f. 3 seen through the paper
+# (the scan reads left-to-right, so the image appears to be taken in transmitted light / flipped). Checked:
+# the show-through lines "... 82 48 97 71 73 30 88 ..." = f003 line 1, and the lower block
+# "79 74 36 Z 22 73 N ... 57 55 83 77" / "95 D 10 G 42 92 35 44 ..." = f003 postscript lines 1-2.
+# 0 new groups. (The show-through is too faint to use as an independent check on f003's doubtful groups.)

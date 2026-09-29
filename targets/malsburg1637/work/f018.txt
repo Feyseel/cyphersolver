@@ -1,0 +1,30 @@
+# scan 0018 (folio number "13" at top right), letter to the Landgrave ("Durchleuchtiger Hochgeborner Gnädiger
+# Fürst und Herr"); marginal date "Febr. 1637"; dated at the foot "Datum ... den 14/24 Februarij Ao 1637";
+# subscribed only "E. F. G. Dr:" (no name written; the hand is Malsburg's).
+# Groups separated by spaces; capital letters are letter signs; clear words in {braces}; ' = dot above the group;
+# ? = doubtful reading; # = crossed sign. The ordinary H sign is written with a crossbar (as in f. 3) and is given as H.
+# block 1 (after "... nicht weit zu sehen /")
+{zu sehen /} 79 74 77 Y 31 60
+70 76 16 97 27 36 84 212? G 31 Z Y 78 68 74 73 79 97 23 25 93 97 84 83 46 39 13 S N 48 26 99 36 D 49 40 58 51 97 35 81?
+12 61 78 31 18 35 97 27 16 22 {Und} 61 94 99 66 N 79 29 15 95 32 27 84 25 21 39 76 48 83 57 58 W 16 22 55 10 99 35 13 16
+44 78 28 P 61 63 74 73 13 G_ 22 26 F N 58 11 61 15 {ffreundt?} 72 79 25 31 39 N 29 49 O 45 97 10 48 44 {Und} L?
+40 71 25 16#? 72 79 18 73 30 27 16 22 46 55 74 27 11 79 97 Y 60 16 25 G 83 35 N 18 93 15 13 35 76 70 15 26 92 Y 22 16 44
+46 36 22 O 37 11 30 26 41 72 71 22 92 73 M 16 31 74 73 71 61 25 O 16 30 38 92 84 22 77 11 N F D 27 11 16 273
+90 88 23 24 74 31 73 N J? 78 79 N 26 37 11 79 S N 27 36 79 22 79 37 79 31 18 84 30 76 79 30 74 37 11 16 F D 76 Y
+78 36 54 79 31 26 52 71 74 79 72 16 31 77 84 30 122 72 70 H {bis dato} 37 16 54 16 22 32 61 W 61 22 29? 28 77
+120 46 11 61 73 10 99 36 29 70 26 66 35 31 74 73 79 30 18 16 54 79 44 27 79 74 71 16 30 15 88 O 77 73 74 11 N 79 60
+18 55 S 50 46 48 97 25 Y 74 79 31 70 D 72 16 30 56 70 22 Z Y 31 90 71 26 30 55 54 79 22 42 73 N 60 84
+58 35 31 74 11 N 54 16 29 61 10 79 31 27 11 74 12 24 26 11 25 79 26 31 11 60 83 70 N 32 79 56 123 92 73 R 16 31
+51 73 C 16 31 {so hat er aber ... nunmehr etliche tage abreisen und bald wieder kommen werden, gestalt}
+{ich ihr das fleissig} 31 70 N 9#? 148? 52 71 54 16 72 84 31 70 22 30 16 54 61 44 37 36 H 37 36 37 35 H 79 30
+29 16 37 39 99 26 11 54 79 39 25 29 71 57 16 83 26 28 32 36 77 71 39 74 35 25 36 39 36 22 260 90 88 71
+16 30 72 16 25 97 16 22 71 73 30 10 25 11 22 29 16 26 {Und} 18 79 30 84 36 72 56 16 27 93 N 36 60 52 73
+27 71 30 N 40 88 92 73 E 44 24 22 42 73 29 99 11 N {weil der Gen: Zeugmeister ...}
+# block 2 (after "... Und Oberst Steins Regiment ... gegenwärtig geschickt /")
+27 70 77 71 78 79 97 69 43 61 37 30 15 11 N 39 44 29 73
+15 41 90 88 56 Y 22 16 30 {gottlob} 54 99 88 38 51 78 11 N 16 22 24 10 16 25 51 71 22 50 60 42
+11 L 76 25 11 44 54 79 31 95 N 74 73 30 29 16 H 72 55 10 16 22 74 36 D 27 61 77 V? 70 22 10
+16 37 88 Z 16 56 73 25 26 83 11 60 90 24 88 84? 97 74 11 N 61 30 44_? 46 70 22 16 25 77 36 N 1? 18 15
+30 99 66 Z? 37 11 30 60 Y 22 X 99 11 16 W 61 83 99 28 P 49 31 {Thue E. F. G. hiermit in gottes gn. ...}
+# note: "84? 97" = 84 apparently overwritten by 97; "V?" = a triangle-like sign (open V with a top bar);
+# "1?" = a lone single stroke after N.

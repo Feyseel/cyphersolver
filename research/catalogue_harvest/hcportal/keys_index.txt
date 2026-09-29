@@ -1,0 +1,176 @@
+1 | hstam_4d_Nr_1218_Teil1_0026-0027 | 1644 | Nr. 1218. | 1fnlds,2s,Vn,0ldn | Amelie Elisabeth Landgravine of Hessen-Kassel;Kaspar von Eberstein;Lennart Torstensson;Gün | 2 | 0
+2 | hstam_4d_Nr_1218_Teil1_0028-0029 | 1630-1640 | Nr. 1218. | 1l,Vs | Johann von Reuschenberg | 2 | 0
+3 | hstam_4d_Nr_1218_Teil1_0030-0034 | 1644-02-08T00:00:00.000000Z | Nr. 1218. | 1fnl,Vn,0dn | Amelie Elisabeth Landgravine of Hessen-Kassel;Lennart Torstensson | 5 | 0
+4 | hstam_4d_Nr_1218_Teil1_0035-0039 | 1640 | Nr. 1218. | 1fnlds,2s,Vn,0ldn | Amelie Elisabeth Landgravine of Hessen-Kassel;Kaspar von Eberstein;Joachim de Wicquefort;A | 4 | 0
+5 | hstam_4d_Nr_1218_Teil1_0040-0042 | December 1635 | Nr. 1218. | 1fn,2fn,Vpnl | Wilhelm Burchard Sixtinus;William V. Landgrave of Hesse-Kassel | 3 | 0
+6 | hstam_4d_Nr_1218_Teil1_0043-0044 | 1636 | Nr. 1218. | 1fn | Markgraf Wilhelm von Baden | 2 | 0
+7 | hstam_4d_Nr_1218_Teil1_0045 | 1640 or before | Nr. 1218. | 1pnls | Johann von Reuschenberg;Ferdinand II. (Holy Roman Emperor);Ottavio Piccolomini;Ferdinand S | 1 | 0
+8 | hstam_4d_Nr_1218_Teil1_0046-0048 | 1633 - 1640 | Nr. 1218. | 1fn,Vn | Amelie Elisabeth Landgravine of Hessen-Kassel;William V. Landgrave of Hesse-Kassel;Peter M | 3 | 0
+9 | hstam_4d_Nr_1218_Teil1_0049-0053,0127 | 1630-1640 | Nr. 1218. | 1fn,Vpdns,0n | Amelie Elisabeth Landgravine of Hessen-Kassel;Johann von Geyso;William V. Landgrave of Hes | 6 | 0
+10 | hstam_4d_Nr_1218_Teil1_0054-0055, 0105-0106 | 1640-08-27T00:00:00.000000Z | Nr. 1218. | Vn | Amelie Elisabeth Landgravine of Hessen-Kassel;Joachim de Wicquefort;Adolph Wilhelm von Kro | 4 | 0
+11 | hstam_4d_Nr_1218_Teil1_0056-0059 | before 1635 | Nr. 1218. | 1fn,Vfnds | Daniel Angelocrator | 4 | 0
+12 | hstam_4d_Nr_1218_Teil1_0060-0062 | 1640 or before | Nr. 1218. | 1nls | Johann von Reuschenberg;Melchior von Hatzfeldt | 3 | 0
+13 | hstam_4d_Nr_1218_Teil1_0063-0065 | 1640 or before | Nr. 1218. | 1fn,0nld | Gottfried Huyn von Geléen;Ferdinand von Bayern | 3 | 0
+14 | hstam_4d_Nr_1218_Teil1_0066-0067 | 1640 or before | Nr. 1218. | 1n | Johann von Reuschenberg;Anselm Casimir Wambold von Umstadt | 2 | 0
+15 | hstam_4d_Nr_1218_Teil1_0068-0072 | May 1639 | Nr. 1218. | 1fn,2pl,Vfnd,0n | Peter Melander von Holzappel | 5 | 0
+16 | hstam_4d_Nr_1218_Teil1_0073-74 | 1637-10-21T00:00:00.000000Z | Nr. 1218. | 1fn,2fn,Vfnl | Amelie Elisabeth Landgravine of Hessen-Kassel;Dr. Hermann Wolff | 2 | 0
+17 | hstam_4d_Nr_1218_Teil1_0075-76 | 1630-1640 | Nr. 1218. | 1fn,Vfn | Amelie Elisabeth Landgravine of Hessen-Kassel;William V. Landgrave of Hesse-Kassel | 2 | 0
+18 | hstam_4d_Nr_1218_Teil1_0077-79 | 1637 - 1641 | Nr. 1218. | 1pn,0s,Vn | Christoph Deichmann;Johannes Vujtejus | 3 | 0
+19 | hstam_4d_Nr_1218_Teil1_0080-83 | 22.02.1640 | Nr. 1218. | 1fn,2fn,0n,Vn | Johann Paul Ludwig | 4 | 0
+20 | hstam_4d_Nr_1218_Teil1_0084-86 | 1641 or before | Nr. 1218. | 1fnld,2s,0lds,Vn | Johann Georg Stauff | 3 | 0
+21 | hstam_4d_Nr_1218_Teil1_0087-88 | 1640-08-27T00:00:00.000000Z | Nr. 1218. | Vn | Amelie Elisabeth Landgravine of Hessen-Kassel;Joachim de Wicquefort;Adolph Wilhelm von Kro | 2 | 0
+22 | hstam_4d_Nr_1218_Teil1_0089-90 | 1641 or before | Nr. 1218. | 1l,0ns,Vlms | Johann von Reuschenberg | 2 | 0
+23 | hstam_4d_Nr_1218_Teil1_0091-94 | 1641 or before | Nr. 1218. | 1fn,Vn | Amelie Elisabeth Landgravine of Hessen-Kassel;Kaspar von Eberstein;William V. Landgrave of | 4 | 0
+24 | hstam_4d_Nr_1218_Teil1_0096-98 | None | Nr. 1218. | 1fnld,2n,Vn |  | 3 | 0
+25 | hstam_4d_Nr_1218_Teil1_0099-0102 | 1640-06-21T00:00:00.000000Z | Nr. 1218. | 1fn,0ld,Vn | Amelie Elisabeth Landgravine of Hessen-Kassel;Karel Rabenhaupt ze Suché | 4 | 0
+26 | hstam_4d_Nr_1218_Teil1_0103-104, 107-111 | 1640-08-27T00:00:00.000000Z | Nr. 1218. | 1fnld,2s,0lds,Vn | Amelie Elisabeth Landgravine of Hessen-Kassel;Johann Georg Stauff | 7 | 0
+27 | hstam_4d_Nr_1218_Teil1_0112-0114 | 1641 or before | Nr. 1218. | 1n,2n,Vn | Hans Adam von und zu Karpf | 3 | 0
+28 | hstam_4d_Nr_1218_Teil1_0115-0117 | 1630-1640 | Nr. 1218. | 1fn,0s,Vn | Amelie Elisabeth Landgravine of Hessen-Kassel;William V. Landgrave of Hesse-Kassel | 3 | 0
+29 | hstam_4d_Nr_1218_Teil1_0118-120 | 1641 or before | Nr. 1218. | 1fn,Vnd |  | 3 | 0
+30 | hstam_4d_Nr_1218_Teil1_0121-122 | 1637 or before | Nr. 1218. | 1fn,Vpnl |  | 2 | 0
+31 | hstam_4d_Nr_1218_Teil1_0123-126 | 1633-1640 | Nr. 1218. | 1l,Vsn |  | 4 | 0
+32 | hstam_4d_Nr_1218_Teil1_0128 | None | Nr. 1218. | 1fn,2fn |  | 1 | 0
+33 | hstam_4d_Nr_1218_Teil1_0129-0133 | 1641 | Nr. 1218. | 1fnlds,2s,0ldn,Vn |  | 5 | 0
+34 | hstam_4d_Nr_1218_Teil1_0134-0135 | August 1641 | Nr. 1218. | 1n |  | 2 | 0
+35 | hstam_4d_Nr_1218_Teil1_0136 | None | Nr. 1218. | 1sln |  | 1 | 0
+36 | hstam_4d_Nr_1218_Teil1_0137-0138 | None | Nr. 1218. | 1n |  | 2 | 0
+37 | hstam_4d_Nr_1218_Teil1_0139-140 | 1643-02-24T00:00:00.000000Z | Nr. 1218. | 1fn,Vn |  | 2 | 0
+38 | hstam_4d_Nr_1218_Teil1_0143 | 1634 - 1637 | Nr. 1218. | 1fnl |  | 1 | 0
+39 | hstam_4d_Nr_1218_Teil1_0144-0149 | None | Nr. 1218. | 1fndl,2s,0lds,Vn |  | 6 | 0
+40 | hstam_4d_Nr_1218_Teil1_0150-152 | 1640 -1644 | Nr. 1218. | 1fn,2n,0n,Vn | Amelie Elisabeth Landgravine of Hessen-Kassel;William V. Landgrave of Hesse-Kassel;Justinu | 3 | 0
+41 | hstam_4d_Nr_1218_Teil1_0154-155 | 1641-11-09T00:00:00.000000Z | Nr. 1218. | 1pn,2n,3n | Amelie Elisabeth Landgravine of Hessen-Kassel;William V. Landgrave of Hesse-Kassel;William | 2 | 0
+42 | hstam_4d_Nr_1218_Teil1_0157-158 | None | Nr. 1218. | 1fn,2fn,0n,Vn |  | 2 | 0
+43 | hstam_4d_Nr_1218_Teil1_0159-161 | None | Nr. 1218. | 1fn,2pl,Vfn |  | 3 | 0
+44 | hstam_4d_Nr_1218_Teil1_0162-164 | None | Nr. 1218. | 1fn,2fn,Vn,0n |  | 3 | 0
+45 | hstam_4d_Nr_1218_Teil1_0165-168 | 1642 | Nr. 1218. | 1fn,Vldns,0n |  | 4 | 0
+46 | hstam_4d_Nr_1218_Teil1_0169-172 | None | Nr. 1218. | 1fn,Vn |  | 4 | 0
+47 | hstam_4d_Nr_1218_Teil1_0173-176 | 1646-12-24T00:00:00.000000Z | Nr. 1218. | 1fn,2sld,3sld,Vdn | Amelie Elisabeth Landgravine of Hessen-Kassel;Karel Rabenhaupt ze Suché | 4 | 0
+48 | hstam_4d_Nr_1218_Teil1_0177-179 | None | Nr. 1218. | 1l |  | 3 | 0
+49 | hstam_4d_Nr_1218_Teil1_0180 | 1634-1637 | Nr. 1218. | 1fnl,Vn |  | 1 | 0
+50 | hstam_4d_Nr_1218_Teil1_0181-0182 | None | Nr. 1218. | 1fn,Vng |  | 2 | 0
+51 | hstam_4d_Nr_1218_Teil1_0183-184 | None | Nr. 1218. | 1fn,2fn,Vn,0n |  | 2 | 0
+52 | hstam_4d_Nr_1218_Teil1_0185-188 | None | Nr. 1218. | 1fn,0n,Vpn |  | 4 | 0
+53 | hstam_4d_Nr_1218_Teil1_0189-191 | None | Nr. 1218. | 1fn,2fn,0n |  | 3 | 0
+54 | hstam_4d_Nr_1218_Teil1_0192-0193 | 1640-1649 | Nr. 1218. | 1fns,0dn,Vn | Martini | 2 | 0
+55 | hstam_4d_Nr_1218_Teil1_0194-197 | 1647 | Nr. 1218. | 1fnld,2n,Vn | Martini | 4 | 0
+56 | hstam_4d_Nr_1218_Teil1_0198-200 | 1647 | Nr. 1218. | 1pn,2pn,0n,Vn |  | 3 | 0
+92 | hstam_4d_Nr_1218_Teil2_0114-0124 | None | Nr. 1218. | 1fn, Vpnlds |  | 11 | 0
+93 | hstam_4d_Nr_1218_Teil2_0125-0127 | None | Nr. 1218. | 1fn, Vn |  | 3 | 0
+94 | hstam_4d_Nr_1218_Teil2_0131-0132 | None | Nr. 1218. | 1l, Vn |  | 2 | 0
+95 | hstam_4d_Nr_1218_Teil2_0133-0136 | None | Nr. 1218. | 1fn, 2fn, Vpn |  | 4 | 0
+96 | hstam_4d_Nr_1218_Teil2_0139-0140 | None | Nr. 1218. | 1fn |  | 2 | 0
+97 | hstam_4d_Nr_1218_Teil2_0141-0143 | None | Nr. 1218. | 1fn |  | 3 | 0
+98 | hstam_4d_Nr_1218_Teil2_0144-0150 | None | Nr. 1218. | 1fnl, 2fns, 0nd, Vns |  | 7 | 0
+99 | hstam_4d_Nr_1218_Teil2_0151-173 | None | Nr. 1218. | Vns |  | 23 | 0
+100 | hstam_4d_Nr_1218_Teil2_0174-0175 | None | Nr. 1218. | 1fn |  | 2 | 0
+101 | hstam_4d_Nr_1218_Teil2_0176a | None | Nr. 1218. | 1fn |  | 1 | 0
+102 | hstam_4d_Nr_1218_Teil2_0176b | None | Nr. 1218. | 1fn |  | 1 | 0
+103 | hstam_4d_Nr_1218_Teil2_0177a | None | Nr. 1218. | 1fln |  | 1 | 0
+104 | hstam_4d_Nr_1218_Teil2_0177b | None | Nr. 1218. | 1l |  | 1 | 0
+105 | hstam_4d_Nr_1218_Teil2_0177c | None | Nr. 1218. | 1flns, Vfn |  | 1 | 0
+106 | hstam_4d_Nr_1218_Teil2_0178-0180 | None | Nr. 1218. | 1fn, 2pl, Vpnlsd, Nflns |  | 3 | 0
+107 | hstam_4d_Nr_1218_Teil2_0184-0188 | None | Nr. 1218. | 1fn, Vpnlsd |  | 5 | 0
+108 | hstam_4d_Nr_1218_Teil2_0189-0191 | None | Nr. 1218. | 1fns, 0n, Vn |  | 3 | 0
+109 | hstam_4d_Nr_1218_Teil2_0192 | None | Nr. 1218. | 1fn, Vld |  | 1 | 0
+110 | hstam_4d_Nr_1218_Teil2_0193-0214 | 1642-03-28T00:00:00.000000Z | Nr. 1218. | Vns, 1fn |  | 22 | 0
+111 | hstam_4d_Nr_1218_Teil2_0274-0302 | None | Nr. 1218. | Vndlg, 1fn |  | 28 | 0
+112 | hstam_4d_Nr_1218_Teil2_0303-0305 | None | Nr. 1218. | 1nls, 2sl, 0nls, Vn |  | 3 | 0
+113 | hstam_4d_Nr_1218_Teil2_0022-0023 | None | Nr. 1218. | Vg |  | 2 | 0
+114 | hstam_4d_Nr_1218_Teil2_0137-0138 | None | Nr. 1218. | 1fn, 2pl, Vpnds, Nflns |  | 2 | 0
+115 | hstam_4d_Nr_1218_Teil2_0215-0273 | None | Nr. 1218. | Vn, 1fn, 0n |  | 59 | 0
+116 | hstam_300_Nr_c_20_11_0003 | 1859 | Nr. C 20/11 | 0n,1n | Unknown | 2 | 0
+117 | hstam_4_f_schweden_nr_116_0004-0005 | 1633 | Nr. 116 | Vdgl | Unknown | 2 | 0
+118 | hstam_4_f_schweden_nr_116_0011 | 1633 | Nr. 116 | 1fn,2fn |  | 1 | 0
+119 | hstam_4_f_schweden_nr_116_0034-0037 | 1722 | Nr. 116 | 2dgl,3dgl,Vdgl |  | 4 | 0
+120 | hstam_5_nr_19784_0002-0023 | None | Nr. 19784 | 1fn,Vpn,2pn,3pn |  | 22 | 0
+121 | hstam_5_nr_19784_0223-0224 | None | Nr. 19784 | Vpn,0n |  | 2 | 0
+122 | hstam_4_f_schweden_nr_253_0001-0003 | 1722 | Nr. 253 | 1n,Vn |  | 3 | 0
+123 | hstam_4_f_schweden_nr_271_0003-0004 | 1719-01-01T00:00:00.000000Z | Nr. 271 | 1fn |  | 2 | 0
+124 | hstam_4_f_schweden_nr_271_0005-0006,0009-0010 | None | Nr. 271 | Vpn |  | 4 | 0
+125 | hstam_4_f_schweden_nr_271_0007-0008 | None | Nr. 271 | 1fn,2pn,Vn |  | 2 | 0
+126 | hstam_4_f_schweden_nr_271_0011,0013 | None | Nr. 271 | 1fn,2n,3n,Vn |  | 2 | 0
+127 | hstam_4_f_schweden_nr_271_0012,0014,0015 | None | Nr. 271 | 1fn, 2n, 3n, Vn |  | 3 | 0
+128 | hstam_4_f_schweden_nr_271_0017-0019 | None | Nr. 271 | 1fn,2n,3n,Vn |  | 3 | 0
+129 | hstam_5_nr_19784_0026-0027 | None | Nr. 19784 | Vn, 1pn, 2pn, 3pn, Nn |  | 2 | 0
+130 | hstam_5_nr_19784_0062-0068 | None | Nr. 19784 | Nn,Vn |  | 7 | 0
+131 | hstam_5_nr_19784_0151-0179 | None | Nr. 19784 | 1pn,2pn,Vpn,3pn |  | 29 | 0
+132 | hstam_5_nr_19784_0226-0240 | None | Nr. 19784 | 0n,Vn,1fn,2pn |  | 15 | 0
+133 | hstam_5_nr_19784_0184-0217 | 1799 | Nr. 19784 | 1pn,Vpn,2pn, 0n |  | 30 | 0
+134 | hstam_5_nr_19784_0072-0091 | None | Nr. 19784 | Vn, 1pn, 2pn, 3pn, Nn |  | 20 | 0
+135 | hstam_115_01_nr_1290_0011 | 27.04.1646 | Nr. 1290 | 1l |  | 1 | 0
+136 | hstam_261_prozess_von_manger_nr_176_0010 | 1822 | Nr. 176 | 1l |  | 1 | 0
+137 | hstam_340_von_doernberg_nr_274_0003-0031 | 1643 | None | Vldgn,1fn |  | 4 | 0
+138 | hstam_340_von_doernberg_nr_275_0003-0031 | 1649 | Nr. 275 | Vldgn,1fn | Otto vom Hamm | 29 | 0
+139 | hstam_4_f_schweden_nr_116_0006 | 1633 | Nr. 116 | Vdgl |  | 1 | 0
+140 | hstam_4_f_schweden_nr_271_0020-0031 | None | Nr. 271 | 1fn, 2pn, Vn |  | 12 | 0
+141 | hstam_3_Nr_276_0003 | None | Nr. 276 | 1l |  | 1 | 0
+142 | hstam_3_nr_2474_0038 | 1556 | Nr. 2474 | 0s, 1flsmn, 2sm, Vpgms |  | 1 | 0
+143 | hstam_3_nr_3123_0006-0007 | 1547-01-04T00:00:00.000000Z | Nr. 3123 | 1fnlsm, 0nsdg, Vpdsmn |  | 2 | 0
+144 | hstam_3_nr_3123_0011 | None | Nr. 3123 | 1plns, Vs |  | 1 | 0
+145 | hstam_3_nr_3123_0012 | None | Nr. 3123 | 1sl, 0ls, Vslm |  | 1 | 0
+146 | hstam_3_nr_3123_0014-0015 | None | Nr. 3123 | 1fsln, 2s, 0ls, Vs |  | 2 | 0
+147 | hstam_3_nr_3123_0016 | None | Nr. 3123 | 1flsn, 0gsd, Vpsn |  | 1 | 0
+148 | hstam_3_nr_3123_0018 | None | Nr. 3123 | 1lsn,Vs,0s |  | 1 | 0
+149 | hstam_3_nr_3123_0019 | None | Nr. 3123 | 1lsn,Vs,0s |  | 1 | 0
+150 | hstam_3_nr_3123_0020 | None | Nr. 3123 | 1sl,0sl,Vs |  | 1 | 0
+151 | hstam_3_nr_3123_0022 | None | Nr. 3123 | 1snl,0sml,Vs |  | 1 | 0
+206 | hstam_4 d Nr 1223_0002-0006 | 1715-01-01T00:00:00.000000Z | Nr. 1223. | 1fn, 2fn, 3fn, Vn |  | 5 | 0
+207 | hstam_4 d Nr 1220_0002 | None | Nr. 1220. | 1n, 2n, 3n, Vn |  | 1 | 0
+208 | hstam_4 d Nr 1220_0003-0004 | None | Nr. 1220. | 1n, 2n, Vn |  | 2 | 0
+209 | hstam_4 d Nr 1220_0005-0006 | None | Nr. 1220. | 1fn, 2pn, Vn, 0nm |  | 2 | 0
+210 | hstam_4 d Nr 1220_0007-0008 | None | Nr. 1220. | 1fn, 2n, 3n, Vn |  | 2 | 0
+211 | hstam_4 d Nr 1220_0009 | None | Nr. 1220. | 1l |  | 1 | 0
+212 | hstam_4 d Nr 1220_0010 | None | Nr. 1220. | 1pn |  | 1 | 0
+213 | hstam_4 d Nr 1220_0012 | 1723 | Nr. 1220. | 1n, 2n, 3n, Vn |  | 1 | 0
+214 | hstam_4 d Nr 1220_0016-0017 | None | Nr. 1220. | 1fsn, 2n, Vn, 0sn |  | 2 | 0
+215 | hstam_4 d Nr 1220_0018 | None | Nr. 1220. | 1l |  | 1 | 0
+216 | hstam_4 d Nr 1220_0019 | None | Nr. 1220. | 1fsn |  | 1 | 0
+217 | hstam_4 d Nr 1220_0020 | None | Nr. 1220. | 1pn, Vg, 0n |  | 1 | 0
+218 | hstam_4 d Nr 1220_0022,0024-0027 | None | Nr. 1220. | 1n, 2n, 3n, Vn, Nn |  | 5 | 0
+219 | hstam_4 d Nr 1220_0028-0040 | None | Nr. 1220. | 1pn, 2pn, 3n, Vn, Nn |  | 13 | 0
+220 | hstam_4 d Nr 1220_0042-0043 | None | Nr. 1220. | 1pn, 2n, 3n, Vn |  | 2 | 0
+221 | hstam_4 d Nr 1220_0044-0046 | None | Nr. 1220. | Vn |  | 3 | 0
+222 | hstam_4 d Nr 1220_0047-0051 | None | Nr. 1220. | 1fn, 2n, 3n, Vn |  | 5 | 0
+223 | hstam_4 d Nr 1220_0054-0055 | None | Nr. 1220. | 1fsn, 2n, Vn, 0sn |  | 2 | 0
+224 | hstam_4 d Nr 1220_0081 | None | Nr. 1220. | Vn |  | 1 | 0
+225 | hstam_4 d Nr 1220_0082 | None | Nr. 1220. | 1n, 2n, 3n, Vn, Nn |  | 1 | 0
+226 | hstam_4 d Nr 1220_0083 | None | Nr. 1220. | Vn |  | 1 | 0
+227 | hstam_4 d Nr 1220_0096 | None | Nr. 1220. | 1n, 2n, 3n, Vn, Nn |  | 1 | 0
+228 | hstam_bestand_4d_nr_1220_002 | None | Nr. 1220. | 1pn, 2pn, 3n, Vn, Nn |  | 1 | 0
+229 | hstam_bestand_4d_nr_1220_003-004 | None | Nr. 1220. | 1fn, 2pn, 3pn, Vn |  | 2 | 0
+230 | hstam_bestand_4d_nr_1220_005 | None | Nr. 1220. | 1n, 2n, 3n, Vn, Nn |  | 2 | 0
+231 | hstam_bestand_4d_nr_1220_006 | None | Nr. 1220. | 1pn, 2n, 3pn, Vpn, Npn |  | 1 | 0
+232 | hstam_bestand_4d_nr_1220_007 | None | Nr. 1220. | 1fn, 2n, 3n, Vn, Nn |  | 1 | 0
+233 | hstam_bestand_4d_nr_1220_008 | None | Nr. 1220. | 1pn, 2pn, 3pn, Vpn, Nn |  | 1 | 0
+234 | hstam_bestand_4d_nr_1220_009 | None | Nr. 1220. | 1fn, 2n, 3n, Vn, Nn |  | 1 | 0
+235 | hstam_bestand_4d_nr_1220_010 | None | Nr. 1220. | 1pn, 2pn, 3pn, Vpn, Nn |  | 1 | 0
+236 | hstam_bestand_4d_nr_1220_011 | None | Nr. 1220. | 1n, 2n, 3n, Vn |  | 1 | 0
+237 | hstam_bestand_4d_nr_1220_012 | None | Nr. 1220. | 1fn, 2n, 3n, Vn, Nn |  | 1 | 0
+238 | hstam_bestand_4d_nr_1220_013 | None | Nr. 1220. | 1fnm, 2pnm, 3pnm, Vpnm, Nn |  | 1 | 0
+239 | hstam_bestand_4d_nr_1220_014-015 | None | Nr. 1220. | 1pn, 2pn, 3n, Vn, Nn |  | 2 | 0
+240 | hstam_4 d Nr 1219_0009 | None | Nr. 1219. | 1n |  | 1 | 0
+241 | hstam_4 d Nr 1219_0032 | None | Nr. 1219. | 1l |  | 1 | 0
+242 | hstam_4 d Nr 1224_0002-0005 | 1715-12-11T00:00:00.000000Z | Nr. 1224. | 1fn, Vpn |  | 4 | 0
+243 | hstam_4 d Nr 1224_0007 | None | Nr. 1224. | Vn |  | 1 | 0
+244 | hstam_4 d Nr 1224_0011-0013 | None | Nr. 1224. | 1n |  | 3 | 0
+245 | hstam_4 d Nr 1226_0002-0003,0014-0017 | None | Nr. 1226. | Vfn |  | 6 | 0
+246 | hstam_4 d Nr 1226_0004-0013 | None | Nr. 1226. | Vlns |  | 10 | 0
+247 | hstam_4 d Nr 1227_0002-0004 | 1715-1719 | Nr. 1227. | Vfn |  | 3 | 0
+248 | hstam_4 d Nr 1227_0005-0006 | 1715-1719 | Nr. 1227. | 1fn, 2pn, 3n, Vn, Nn |  | 2 | 0
+249 | hstam_4 d Nr 1228_0002-0003 | 1719 | Nr. 1228. | 1fn, 2n, 3n, Vn |  | 2 | 0
+250 | hstam_4 d Nr 1231_0003,0005 | 1720-1730 | Nr. 1231. | 1fn,2pn,3pn,Vpn |  | 2 | 0
+251 | hstam_4 d Nr 1232_0003-0004 | None | Nr. 1232. | 1n,2n,3n,Vn |  | 2 | 0
+252 | hstam_4 d Nr 1234_0004 | None | Nr. 1234. | Vslm, 1fn |  | 1 | 0
+253 | hstam_4 d Nr 1234_0008-0010 | None | Nr. 1234. | 1flns, Vn, 0nd |  | 3 | 0
+254 | hstam_4 d Nr 1234_0012 | None | Nr. 1234. | 1fnd |  | 1 | 0
+255 | hstam_4 d Nr 1234_0013-0016 | 1666 | Nr. 1234. | 1fnd,2s,Vn,0n |  | 4 | 0
+256 | hstam_4 d Nr 1236_0002-0003 | 1715 | Nr. 1236. | Vpn |  | 2 | 0
+257 | hstam_4 d Nr 1236_0004-0005 | None | Nr. 1236. | Vfn |  | 2 | 0
+258 | hstam_4 d Nr 1236_0007 | None | Nr. 1236. | 1fn |  | 1 | 0
+259 | hstam_4 d Nr 1236_0008-0009 | None | Nr. 1236. | Vpn |  | 2 | 0
+260 | hstam_4 d Nr 1236_0010-0011 | None | Nr. 1236. | Vn |  | 2 | 0
+261 | hstam_4 d Nr 1236_0012-0013 | None | Nr. 1236. | Vn |  | 2 | 0
+262 | hstam_4 d Nr 1236_0015 | None | Nr. 1236. | Vn |  | 1 | 0
+263 | hstam_4 d Nr 1236_0016-0017 | None | Nr. 1236. | 1fn,2n,3n,Vn |  | 2 | 0
+264 | hstam_4 d Nr 1236_0021-0022 | None | Nr. 1236. | Vn |  | 2 | 0
+265 | hstam_4 d Nr 1236_0023 | None | Nr. 1236. | 1fn |  | 1 | 0

@@ -1,0 +1,24 @@
+# scan 0033 (upper half of a leaf, torn/cut; lower half blank with show-through): news extracts in German (with a
+# Dutch phrase: "Metter tijt compt Herman met wambas en de broeck, Staet te hopen dat metter tijt ock sal volgen"),
+# in the hand of the Extract on f. 32. Three short pieces, each closed by a line of cipher signs + a date, which stand
+# where a sender would be named:
+#   piece 1 ends "V F_? 13 123  5 April / 26 Mart. 1637"; piece 2 ends "21 73 B 24 35 156  17/27 Martij 1637";
+#   piece 3 ("Zu Paris hat man mit abfertigung Hertzog Bernhards ... la Valette ...") has no closing line.
+# Groups separated by spaces; capital letters are letter signs; clear words in {braces}; ' = dot above the group;
+# ? = doubtful reading; # = crossed sign; _ = underlined. The ordinary H sign has a crossbar and is given as H.
+# piece 1 (continues an extract begun on f. 32)
+{Da aber gleich die alliance nicht geschlossen wirdt, hat gleichwohl} 27 48 30 19 21 24 30 86 56 11 26 27
+16 63 Y T 48 63 40 64 32 69 13 12 93 22 11 30 83 13 11 N {mit} GG AA {oder} KK
+{In Engellandt gehet man damit umb eine Comp. nach Ost Indien zu schicken, ... (clear, 4 lines) ... wirdt balt heraus kommen;}
+V F_? 13 123 {5 April / 26 Mart. 1637}
+# piece 2
+{Sonsten stehen die handlungen mit Schweden, Frankreich Und Engellandt} 22 73 O 13 48 21 30 27
+24 63 51 79 15 {gehen} 77 61 15 90 70 57 48 46 11 83 29 16 24 42 10 {mit} LL {habe ich auch bewegten anhaltens}
+{sache gewust?} 11 O 28 H 16 13 24 57 77 89 31 Z
+{Hat der Pass durch Graubünden ... (clear, 7 lines, la Valette, 20000 man in Italien, St. Chaumond ...) ... als Königl. König;}
+21 73 B 24 35 156 {17/27 Martij 1637}
+# piece 3: clear only ("Zu Paris hat man mit abfertigung Hertzog Bernhards von Sachsen und la Valette ... 1200 man
+# erlegt und 2000 gefangen ... der Obrist Rosa hat vor wenig tagen ein Gallasisch Regiment geschlagen"); no cipher.
+# notes: "V" = the triangle-like sign (inverted triangle with a bar); "F_?" = an F-like sign with a bar;
+# the 24 at the start of the piece-2 second line has a long 4-crossbar (recheck: not a strike; reads "dunkel"); paired large signs "G G", "A A", "K K", "L L"
+# as on f. 32. The lower half of the leaf has only faint show-through from the verso (not transcribed).

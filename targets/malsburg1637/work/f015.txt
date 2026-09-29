@@ -1,0 +1,11 @@
+# f. 15 (scan hstam_4_h_1411_0015_Cryp.jpg), marked "Triplicat" in the left margin (docket "... 1637"); Malsburg to
+# the Landgrave. One cipher line per scan line. Groups separated by spaces; capital letters are letter signs;
+# clear words in {braces}; ' = dot above; ? = doubtful; # = crossed sign; _ = underlined sign; j = hooked i/j sign
+# standing alone as a group. In this hand 4 is written like a "t" (41, 44, 48, 49 look like "ti", "tt", "t8", "tg").
+# The only cipher on the page is this one block in the lower middle; the ink is faint (pale brown) throughout.
+{Kommen ..., mitbringen, ich habe ihm ...} 76 Y 57 122 58 4# 76 25 79 13
+73 15 60 11 93 44 S 86 129 j 30 G_ 10 16 83 62 22 29 84 21 55 99 41 49 63 48 77 36 O 39
+76 61 65 46 84 97 13 84 78 76 84 36 26 52 42 95 94 120 18 84 54 79 31 46 16 74 24 49 30
+99 58 Z 24 35 65 21 49 25 57 39 22 Z Y 83 36 63 27 16 30 37 70 10 61 97 71 44 48 72 55
+L 27 66 84 43 48 46 55 44 38 92 61 63 31 36 A# 39 H# 61 91 G_ Y 83 55 63 46 61 30 {seint ...}
+{Ich aber doch bald ... erklären, ... meinen fleis ... solle es nicht mangeln}

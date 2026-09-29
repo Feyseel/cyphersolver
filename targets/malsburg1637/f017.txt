@@ -1,0 +1,5 @@
+# f. 17 (scan hstam_4_h_1411_0017_Cryp.jpg): address wrapper of the f. 16 letter, one seal.
+# Address: "Dem durchleuchtigen hochgebornen Fürsten und Herrn, Herrn Wilhelmen Landgraffen zu Hessen,
+# Graffen zu Catzenelnbogen, Dietz, Ziegenhain und Nidda, meinem gnädigen Fürsten und Herrn" -- "Cassell".
+# NO CIPHER on this side; the faint writing elsewhere is show-through from the other side (clear text of the
+# enclosure list). 0 groups.

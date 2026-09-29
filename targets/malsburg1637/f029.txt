@@ -1,0 +1,41 @@
+# scan 0029 (verso), letter to the Landgrave; dated "... den 28. Martij vet. 1637" at the end of the text,
+# subscribed "E. F. G." and signed "Unterthäniger gehorsamer Diener Otto von der Malsburgk"; a clear postscript at
+# lower left (the 12000? Rthlr sent to Bremen for recruit money ... 3500 ducats ... bill of exchange on Ludwig ...).
+# The page continues the cipher of scan 0028 (begins mid-text).
+# Groups separated by spaces; capital letters are letter signs; clear words in {braces}; ' = dot above the group;
+# ? = doubtful reading; # = crossed sign; _ = underlined. The ordinary H sign has a crossbar and is given as H.
+# "oo" = a long looped ("ooo"/infinity-like) sign; lower-case o, s = small signs as written.
+58 48 N 41 49 37 11 15 60 90 72 S 13 61 22 88 44 96 67 16 81 82 73 78 60 X 99 16 N 41 76 48? 13 49 26 52 13 Y 22 86
+73 30 Z 16 22 S 98 55 16 61 30 36 O 42 36 A oo s 57 28 M 193 {Und} o 273 212 91 79 15 16 43 26 79 W 66 Z 55 10 16
+25 67 11 61 72 70 74 16 67 70 40 98 36 X 16 22 67 55 P 13 36 16 87 15 77 73 71 73 22 32 61 42 86 Y 44 60 67 16 30
+67 28 11 22 43 71 70 30 22 36 77 73 44 66 O 13 11 N 84 25 Z 86 216 98 73 21 78 43 61 72 84 22 {Und} 40 55 W
+30 Y 32 49 97 99 55 31 26 40 71 16 30 Z 37 11 16 32 61 30 42 70 22 P 23 16 15 94 84 65 43 16 26 39 72 44 G_ 44 43 16 22
+73 R 16 22 37 16 30 32 16 83 92 62 22 67 39 44 67 11 16 86 30 36 16 W 16 22 36 60 40 73 1? 273 193 71 73 44 o 60?
+92 73 53 B 61 83 98 16 30 10 84 63 S N Y 31 79 J? 70 22 60 90 16 40 37 11 X 16 44 O 88 38 51 82 S W 16 44 {Und} [line-filler]
+91 73 P 84 42 39 22 67 16 42 81 39 W 67 55 42 62 83 88 76 79 97 43 16 21 61 44 92 70 22 S 50 37 61 30 B 16 22
+68 79 30 T 16 22 68 73 H 16 63 S D 13 G_ 22 41 67 11 79 37 84 43 61 55 M 34 N 74 73 76 73 74 67 70 W 42 55
+44 42 11 L_ 98 62 43 48 31 {Und} 81 86 79 30 32 48 83 83 73 D 22 36 A 67 39 25 11 22 86 73 30 26 51 73 R 61 83
+92 39 22 {Habe darwartens? dieser verantwort} 27 37 P 36 N 37 16 54 84 44 67 79 W 86 Y 22 60 13 40 88 77 70 R 84
+M 43 16 72 61 22 {Und} 27 84 P 160 39 76 18 16 77 61 83 21 G_ 26 92 Y 44 193 212 {Und} Z 88 38 51 16 S W 67 61 31 43
+55 25 31 36 74 73 31 16 22 31 16 72 56 79 31 S N 27 70 P 38 73 E 16 83 27 73 58 16 30 79 22 27 16 30 44 92 70 22 X 99 Y
+63 95 43 {über gütliches? vollers,} 68 73 76 70 15 26 39 76 16 25 67 49 97 122 92 73 42 76 26 77 73 H 188 S T 39 H 61
+81 71 31 38 26 16 22 71 22 60 16 30 41 72 {Und} F W 23 88 25 78 11 N 91 61 55 22 60 18 73 25 60 84 26 {Und} 67 48 65
+V 13 66 D J? 99 Y 44 66 29 67 88 30 N G_ 22 16 44 {oder} 40 84 44 55 22 32 16 30 22 37 49 43 52 88 129 90 71 16
+30 72 16 10 16 22 81 71 W 11 30 48 26 37 61 30 32 61 44 73 76 11 D 55 10 79 25 42 99 Y N 14 73 72 78 {Und}
+31 73 N 71 73 25 77 122_ 18 11 32 49 30 51 71 31 50 26 42 36 A 188 26 30 Q 22 39 H Y 44 S 80? 147 43 16 72 16
+22 74 73 H 67 39 30 S 23 79 30 37 70 30 41 16 11 D 76 61 23 79 78 N {Und} 37 11 H 42 11 N S 23 77 73 78 N 79 31 86
+39 78 39 15 40 Y 60 43 16 23 70 Z 82 62 99 94 79 31 J? {Herr Junger Lappe? hat schön? trabitt, Kollert?, Und ist}
+{... Und die Calesche seint auch fertig, habe dan Und damit aufhalten ..., stehet bey demselben,}
+93 76 30 36 Z 16 25 82 73 72 26 22 27 89 30 23 36 O {Unterweges bey mich} 92 35 E 84 83 91 61 30 11 D 60 16 41
+67 70 W 84 25 32 48 44 65 40 Z 88 73 83 77 Y 22 16 42 191 61 26 98 70 M 4H? 42 62 22 18 11 32 16 30 72
+73 99 41 48 44 36 22 27 16 22 86 16 43 61 77 70 38 51 43 84 J? 36 38 51 16 26 72 79 L 84 37 16 15 N 61 25
+71 48 65 42 Y 22 60 49 42 36 A 13 G_ 44 61 22 71 73 15 38 51 79 30 22 83 88 22 57 16 21 30 67 70 W
+99 70 22 26 71 73 C 72 70 27 16 99 61 22 77 73 13 70 D 74 48 22 78 S 84 83 10 71 97 43 90 71 O 16 22
+46 11 29 36 O G_ 83 40 71 22 16 42 84 31 {Und} 46 70 13 16 15 76 Z 85 58 28 30 60 11 16 25 90 88 77 71 N
+16 22 66 Z S D 22 62 N 56 123 40 88 25 70 27 60 90 73 43 16 52 73 29 16 22 {; Ew. fürstl. Gn. Thun gar wohl, dass sie dabey ...}
+# clear to the end: "... Cassel den 28. Martii vet. 1637", "E. F. G.", signature "Unterthäniger gehorsamer Diener Otto
+# von der Malsburgk"; clear postscript at lower left ("Die 12000? Rthaler so nach Bremen ... 3500 ducaten ... Ludwig ...").
+# notes: line 1 "S 13": the 13 is written small above the S (the duplicate f. 30 has it inline);
+# "oo" = a long infinity/loop sign; "o" and "s" = small lower-case signs; 
+# "4H?" = a sign like 4 joined to H;
+# "E" = the E-like sign with a stroke; "[line-filler]" = a long flourish ending the line.

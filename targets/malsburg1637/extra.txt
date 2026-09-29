@@ -1,0 +1,16 @@
+# Word forms confirmed in context in the Malsburg letters but absent from the DTA vocabulary (lower case, i/j, u/v merged).
+# Place and person names
+hermanstein nesselrot dalwig wartenberg cloppenburg clopenburg quackenbrugge uffel uffeln carpf lottringen regenspurg wirtzburg
+casselische casselisch marpurg corbach hanau stettin lubeck minden wesel ungern bomen ruhr hatzfelt piccardi zigenhain adria carpen
+helwig melander rabenhaupt geleen gotz lamboi
+# spellings and loanwords
+alhir itzo uirtel commis guarde recrute recruten prouiandirung prouiandiret contentiren sollicitiren tractiren tractaten conductum saluum
+auisiret disputiret resoluiret effectiuement particulir intention alliance commendanten constabels musterplatz werber werbung werbungen
+dragoner tragoner tragons obriste obristen rittmeister quartir quartiren assignation reichsthaler treichst
+# added after reviewing work/unread_spots.tsv (each seen reading in context)
+zwolf zwolff sollicitire abfertigung dalwigs wirzburg augusto hermansteins hoffman carpens gedancken audientz audienz stilstant stilstants
+particulir wildeshausen wilteshausen diepholt uechte forstenau ranzion rantzion extraordinari ambassadeur ambassadeir londres coniunction
+pfaltz pfalz warendorff warendorf quartiren kruppel kroppel gefangene abnemen itzo iezo nesselrot pfundige
+# French words in the runs of the f. 32 letter (signed 232)
+ambassadeur extraordinaire extraordinaire londres monseigneur ledict copie amonseigneur lambassadeur ala printz robert
+sengel sengell
