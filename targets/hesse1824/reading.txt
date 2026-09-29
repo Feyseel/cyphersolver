@@ -1,0 +1,35 @@
+HStAM 9 a Nr. 259, f. 249 (HCPortal record 513), dated 20 Feb 1824 on HCPortal.
+Heading on the leaf: "Snell an A[?]ud" (addressee not read with confidence).
+Key: 'bcdefg' written continuously over the signs; b..g encipher by +2..+7 (see decrypt.py).
+Slips corrected are listed in decrypt.py (SLIPS); each is marked {} below.
+
+Line by line (cipher / reading):
+
+ufmoqmv.onxiplql.tkmt.huslu.cqh.kxu kmiwomt
+schiket  lisching oder e{i}nen andern  hierher
+
+zsskkw fkguvzswzm.fmixl ntldkt.
+wo{n}icht beantworte  diese fra{g}en.
+  (one sign omitted in zss_kkw: the only break in the key phase)
+
+4cv.mfz.wcxp.lusnhr.zlogz erlylfe.
+was hat paul follen {w}ege{n} america.
+
+1uw.hunky vmhr il4.gwxk.nm krvy?
+vo{n} fries oken de w ette ge hort?
+
+ohvwi ipm ixkl pufxrm kqqrix vscqu ot
+hatte die {a}uff indung die{s}{e}s plan{s} in
+
+4g3.pfx.tguoqpkkh.ktroqq?
+wez lar  merkliche folg{e}n?
+
+Normalised:
+Schicket Lisching oder einen andern hierher; wo nicht, beantworte diese Fragen.
+Was hat Paul Follen wegen America von Fries, Oken, de Wette gehört?
+Hatte die Auffindung dieses Plans in Wezlar merkliche Folgen?
+
+Translation:
+Send Lisching or someone else here; if not, answer these questions.
+What has Paul Follen heard from Fries, Oken and de Wette about America?
+Did the discovery of this plan in Wetzlar have noticeable consequences?

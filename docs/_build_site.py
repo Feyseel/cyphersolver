@@ -1222,6 +1222,11 @@ PAGES = [
          blurb='A letter and its annex in a plain numerical code reaching at least 1339, 303 groups (DECODE R1941). The archive inventory places them with the commissioners for the districts ceded around Zevenaar, writing from D&uuml;sseldorf. No key was found on DECODE or in print, and the text is too short for a ciphertext-only attack; not solved.',
          quote='&ldquo;602 441 373&rdquo;, three times: probably a name or title',
          rights='Nationaal Archief, via DECODE'),
+    dict(slug='hesse1824', label='Snell&rsquo;s invisible-ink cipher 1824', year='1824', y=1824.1, place='Snell &rarr; unidentified', st='solved', stt='read',
+         title='Snell&rsquo;s invisible-ink questions, 1824',
+         blurb='A six-line German cipher on a Hessian ministry leaf (HStAM 9 a Nr. 259 f. 249; HCPortal 513), listed as an unsolved polyalphabetic message. It is a copy of a message by Snell written in sympathetic ink between the lines of a letter. The decipherer&rsquo;s note on the leaf gives the key letters bcdefg; the table (a Vigen&egrave;re without j whose columns run on past z into the digits 1&ndash;4) and the whole text were recovered here.',
+         quote='&ldquo;Was hat Paul Follen wegen America von Fries, Oken, de Wette geh&ouml;rt?&rdquo;',
+         rights='Hessisches Staatsarchiv Marburg, via HCPortal'),
     dict(slug='castelcicala1816', label='Castelcicala 1816&ndash;23', year='1816&ndash;1823', y=1819.5, place='London, Paris &rarr; Naples', st='partial', stt='solved in part',
          title='Castelcicala to the Marchese di Circello and to Medici, 1816&ndash;1823',
          blurb='Twenty-four ciphered despatches of the Neapolitan ambassador Fabrizio Ruffo, principe di Castelcicala (DECODE R9553&ndash;R9589), all in one syllabic, homophonic code of about 2,450 groups; &ldquo;Marchese di Ciscello&rdquo; is the recipient, Circello, misread. Aligning the contemporary interlinear decipherments on four letters with their cipher gave a key of 162 values, which covers 45% of the groups. No letter is yet decrypted in full.',
@@ -1376,6 +1381,7 @@ IMAGES['r1944'] = ('r1944_lead.jpg', 'The clear copy of Bourdeaux&rsquo;s dispat
 IMAGES['hereditary1796'] = ('hereditary1796_lead.jpg', 'R2239, head of the letter: Berlin 12. Mars 1796, then number groups with superscript marks and clear words', 'Koninklijk Huisarchief, The Hague, via DECODE R2239')
 IMAGES['r1892'] = ('r1892_lead.jpg', 'Page 2, the head of the Dutch postscript: in het hollandsch met cijffer, then digit pairs written top over bottom', 'Koninklijk Huisarchief, The Hague, via DECODE R1892')
 IMAGES['r2242'] = ('r2242_lead.jpg', 'Page 1: four cipher lines, the clear Dutch written beneath', 'Koninklijk Huisarchief, The Hague, via DECODE R2242')
+IMAGES['hesse1824'] = ('hesse1824_lead.jpg', 'The heading &ldquo;Snell an A?ud&rdquo; and the six cipher lines; the digits 4, 1 and 3 are cipher signs', 'Hessisches Staatsarchiv Marburg, HStAM 9 a Nr. 259 f. 249, via HCPortal record 513')
 IMAGES['r2234'] = ('r2234_lead.jpg', 'The head of the letter: section capital D, the date in clear, then one line per alphabet', 'Koninklijk Huisarchief, The Hague, via DECODE R2234')
 IMAGES['marburg1635'] = ('marburg1635_lead.jpg', 'The cipher lines with the contemporary gloss over the first four', 'Hessisches Staatsarchiv Marburg, via DECODE R4500')
 IMAGES['r2232'] = ('r2232_lead.jpg', 'The opening of the letter: clear text, then the numbers with superscript indices', 'Koninklijk Huisarchief, The Hague, via DECODE R2232')

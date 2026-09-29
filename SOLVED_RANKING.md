@@ -9,6 +9,8 @@ All scores are judgments on a 1–5 scale, not measurements. The composite is a 
 are stated; change them and the order changes. Entries marked * carry an inference that the notes do not
 verify (see the last section).
 
+The **Snell invisible-ink message of 1824** (HStAM 9 a Nr. 259 f. 249) is provisionally p141 at **3.30**: the key letters were given by the decipherer's note on the leaf, but the table's run-on into digits and the copy slips were found here; the text reads end to end, with new content from the demagogue investigations and no reading anywhere before.
+
 The **Mémoire en chiffre of 12 December 1560** (BnF fr. 3157 no. 67) is provisionally p134 at **3.90**: an unknown homophonic system with two-stroke units broken ciphertext-only from the images and read at 98.9%, new content on the Agenais rising, but regional weight and no outside control.
 
 The **Speculum cipher flyleaf** is provisionally p133 at **2.30**: a short substitution completed from acknowledged prior partial work, with one emendation and no independent clear copy.
@@ -40,6 +42,7 @@ The **Reims letter of 19 June 1589** (R2276) is provisionally p138 at **3.00**: 
 
 | # | Target | Date | D | H | N | R | F | V | Score | Why it sits here |
 |---|---|---|---|---|---|---|---|---|---|---|
+| p141 | **Snell → an unidentified correspondent**, invisible-ink copy, HStAM 9 a Nr. 259 f. 249 (HCPortal 513; catalogue 340) | 20 Feb 1824 | 3 | 3 | 5 | 3 | 1 | 4 | **3.30** | D 3: key letters and first word given by the decipherer's note; the digit run-on past z and 12 copy faults found from the text; H 3: questions on Follen, America, Fries, Oken, de Wette and a plan found at Wetzlar; N 5: HCPortal lists it unsolved, no reading anywhere; V 4: every sign read, the five digits all fall where the table puts them. [hesse1824](https://dbourdeau.github.io/cyphersolver/hesse1824.html) |
 | p140 | **Sienese envoys and others → the government of Siena**, Concistoro 2308 fasc. 2 (DECODE R4790–R4814; catalogue 336) | before 1429–1547 | 5 | 3 | 5 | 5 | 2 | 2 | **3.90** | D 5: three unknown systems recovered ciphertext-only from images (no. 14 first with a hand crib, then unaided); H 3: a Siena–Empire treaty against Florence, envoys' reports, the 1456 Naples embassy; N 5: no reading anywhere; R 5: bundle found on DECODE, eleven pieces transcribed, 43 keys tested; F 2: catalogue only; V 2: partial, one letter above the read bar, the 1421 piece unphotographed |
 | p139 | **Unsigned (London) and Ernst von Steinberg → Johann Georg von Ilten**, GWLB Hannover Ms XXIII 1234:29,2 pp. 73–75, 119–121 | Feb–Apr 1743 | 2 | 3 | 4 | 4 | 1 | 4 | **2.95** | Key found in a later volume of the Ilten papers and matched by the worksheet of the second letter; the first letter had no decipherment at all. [ilten1743](https://dbourdeau.github.io/cyphersolver/ilten1743.html) |
 | p138 | **Unknown writer (probably Jean de Piles) → unnamed patron**, Reims, BnF fr. 20974 pp. 1–3 (DECODE R2276) | 19 June 1589 | 3 | 3 | 4 | 4 | 1 | 2 | **3.00** | Three pages wholly in cipher read to 91.8% by extending a partial published table; catalogue date and addressee corrected; torn edges and ~80 words open. [r2276](https://dbourdeau.github.io/cyphersolver/r2276.html)
@@ -647,3 +650,5 @@ London letters to J. G. von Ilten, 1743, provisional score: 0.25×2 + 0.25×3 + 
 **Hanover-Celle ministers → Jobst Hermann von Ilten (1697–1706; catalogue 346)**: read at the time. Every code run carries its interlinear decipherment; transcribed and checked, 7 of 492 groups unglossed. Ranked as a catalogue correction, not a break.
 
 Siena Concistoro cipher letters (catalogue 336) provisional score: 0.25×5 + 0.25×3 + 0.20×5 + 0.10×5 + 0.10×2 + 0.10×2 = **3.90** (p140).
+
+Snell invisible-ink message 1824 provisional score: 0.25×3 + 0.25×3 + 0.20×5 + 0.10×3 + 0.10×1 + 0.10×4 = **3.30** (p141).

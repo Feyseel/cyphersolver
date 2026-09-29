@@ -213,6 +213,7 @@
   "sir thomas smith to cecil and the queen, france, 1563–1566": "2026-09-21",
   "sir thomas smith, add ms 4136 f. 140 (decode r9236)": "2026-09-21",
   "sloane ms 3188 ff. 109–169, “unknown sender to unknown recipient”": "2026-09-21",
+  "snell to an unidentified correspondent, 1824": "2026-09-28",
   "solved or read": "2026-09-23",
   "sormano and de vaulx to françois i, ferrara, february 1529": "2026-09-17",
   "sormano and passano from ferrara, february 1529": "2026-09-18",
@@ -443,7 +444,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "f72ef1d6604e",
+   "hash": "302d8147e5d5",
    "updated": "2026-09-28"
   },
   "catinat1691": {
@@ -578,7 +579,7 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "bc4221118d16",
+   "hash": "cf20b2b8595c",
    "updated": "2026-09-28"
   },
   "goldbar": {
@@ -686,6 +687,11 @@
    "hash": "5e6d47c5ad0c",
    "updated": "2026-09-24"
   },
+  "hesse1824": {
+   "first": "2026-09-28",
+   "hash": "7699f5ffd10c",
+   "updated": "2026-09-28"
+  },
   "heusner1637": {
    "first": "2026-09-21",
    "hash": "a207164b1b1e",
@@ -723,7 +729,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "1c94eda0c661",
+   "hash": "d86b5c19fcfd",
    "updated": "2026-09-28"
   },
   "indus": {
@@ -1518,7 +1524,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "a6e8df214ea9",
+   "hash": "581ddd0a31c9",
    "updated": "2026-09-28"
   },
   "yard1699": {

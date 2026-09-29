@@ -7685,6 +7685,9 @@
      "sent": false
     }
    }
+  },
+  "hesse1824": {
+   "skip": "Not a DECODE record: the leaf is on HCPortal only (record 513, HStAM 9 a Nr. 259 f. 249); no DECODE record to correct. The HCPortal record (listed as not solved) should be told of the reading instead."
   }
  },
  "rechteren1785": {
