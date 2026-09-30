@@ -1,0 +1,425 @@
+[
+ {
+  "item": 1,
+  "slug": "r1854",
+  "to": "To Gianfrancesco Gonzaga, lord of Mantua",
+  "excerpt": "… dominus a[rchi]episcopus de Patras […] cum licencia domini nostri dare volebat temporale dominium dominio Venetorum, et illud defenderet ab infidelibus. Dominus noster fecit proponere cardinalibus. Responderunt melius est perdere quam Venetis tradere, quia una vice recuperabitur; set si Veneti haberent, recuperare nunquam esset possibile …",
+  "translation": "… the lord archbishop of Patras […] wanted, with the leave of our lord [the Pope], to give the temporal lordship to the dominion of the Venetians, which would defend it against the infidels. Our lord had it put to the cardinals. They answered that it is better to lose it than to hand it to the Venetians, because one day it will be recovered; but if the Venetians had it, it could never be recovered …",
+  "from": "Francesco de' Cattanei",
+  "place_date": "Rome, February 13, 1430"
+ },
+ {
+  "item": 2,
+  "slug": "siena1421",
+  "to": "To the Signoria of Siena",
+  "excerpt": "Noi aviamo chompr(e)so che questo signiore no chavalcharà per lo modo che chostoro di qui vorevero … e farano la via di Laiaticho, e poi di là si partirano, e l’altro dì sarano a Radichondoli … E però richordiamo a la signioria vostra che ne’ detti luoghi faciate provedere di pane, viada, vituagia …",
+  "translation": "We have understood that this lord will not ride in the way those here would like … and they will take the road by Lajatico, and then leave from there, and the next day they will be at Radicondoli … And so we remind your lordship to have bread, fodder and victuals provided in the said places …",
+  "from": "Sienese envoys (unnamed)",
+  "place_date": "undated"
+ },
+ {
+  "item": 3,
+  "slug": "soria1523",
+  "to": "To Emperor Charles V",
+  "excerpt": "… escriven de Milan como tenian nueva que era arrivado en Venecia un secretario del duque de Milan, el qual avia traido el mandado del Infante para concluir la liga con los venecianos, y que por esto el duque de Milan avia prometido al dicho Infante diez y ocho mil ducados, y que con esto tenian por cierto que se concluiria la dicha liga …",
+  "translation": "… they write from Milan that they had news that a secretary of the Duke of Milan had arrived in Venice, who had brought the Infante's mandate to conclude the league with the Venetians, and that for this the Duke of Milan had promised the said Infante eighteen thousand ducats, and that with this they held it certain that the said league would be concluded …",
+  "from": "Lope de Soria, Charles V's ambassador",
+  "place_date": "Genoa, June 1523"
+ },
+ {
+  "item": 4,
+  "slug": "rangone1530",
+  "to": "To Anne de Montmorency, Grand Master of France",
+  "excerpt": "… ’l fa instantia a […] de ven[i]re al servicio loro … malissimo satisfato di lui; ha mandato a dirlo al [s]ignore Cesare e farli grande oferte …",
+  "translation": "… he urges […] to come into their service … very ill satisfied with him; he has sent to tell Signor Cesare so, and to make him great offers …",
+  "from": "Count Guido Rangone, condottiere in French service",
+  "place_date": "Venice, January 10, 1530"
+ },
+ {
+  "item": 5,
+  "slug": "joachim1530",
+  "to": "To Francis I, King of France",
+  "excerpt": "… In denari contanti … In baghe circa … In vasele d'oro et d'argento … In supelectili de casa per el meno … Per l'intrate del vescoato de Vinchiestri et abadia de sancto Albano …",
+  "translation": "… In ready money … In jewels, about … In gold and silver plate … In household furnishings, at least … For the revenues of the bishopric of Winchester and the abbey of St Albans …",
+  "from": "Giovan Gioacchino da Passano (attributed), French agent",
+  "place_date": "London, March 15, 1530"
+ },
+ {
+  "item": 6,
+  "slug": "kaa4591",
+  "to": "To the Dukes of Bavaria",
+  "excerpt": "… von beden kunigen zu entlicher handlung gen Pressburg gesetzt … der tag zu Pressburg erfolgt ist … mit grossem pomp … dem turkischen kaiser … tribut … zu geben …",
+  "translation": "… set by both kings for a final negotiation at Pressburg … the diet at Pressburg has taken place … with great pomp … the Turkish emperor … tribute … to give …",
+  "from": "An unnamed Bavarian agent",
+  "place_date": "c. 1533–34"
+ },
+ {
+  "item": 7,
+  "slug": "guiche1551",
+  "to": "To Anne de Montmorency, Constable of France",
+  "excerpt": "… lequel est party pour s'en retorner a Sienes avec Dom Diego … Le conte [de] Sainte Fiore est mal satisfaict, et que facilement se reduiroit au service du roy …",
+  "translation": "… who has left to go back to Siena with Dom Diego … The Count [of] Santa Fiora is discontented, and would readily come over to the King's service …",
+  "from": "Claude de La Guiche, Bishop of Mirepoix, French ambassador",
+  "place_date": "Rome, November 22, 1551"
+ },
+ {
+  "item": 8,
+  "slug": "memoire1560",
+  "to": "To Anne de Montmorency, Constable of France",
+  "excerpt": "… puis peu de jours [il] s'est faict une assemblee en la ville de Clairac, en Agenois, d'environ deux mil rebelles, [ou] fust arresté et conclut que si le roy envoyoit forces de pardeça, qu'ils se mect[r]oient en deffence, disans qu'ils aiment mieulx mourir les armes en main que si le roy les faisoit executer par ung bourreau.",
+  "translation": "… a few days ago [there] was held in the town of Clairac, in the Agenais, an assembly of about two thousand rebels, [where] it was resolved and agreed that if the King sent forces to these parts, they would stand on their defence, saying that they would rather die with weapons in hand than be put to death by a hangman on the King's orders.",
+  "from": "An unnamed Catholic gentleman of the Agenais",
+  "place_date": "December 12, 1560"
+ },
+ {
+  "item": 9,
+  "slug": "harley1582r8505",
+  "to": null,
+  "excerpt": "… auec le prince de Parme pour lui rendre les places … contre luy un party de malcontens … sortir de la une armee de reistres pour la jeter et espandre sur le pais de celuy qui …",
+  "translation": "… with the Prince of Parma, to hand the places over to him … against him a party of malcontents … to bring an army of reiters out of there, to hurl it and spread it over the country of the one who …",
+  "from": "Anonymous memoir on the King of Navarre and his party in France",
+  "place_date": "after 1580"
+ },
+ {
+  "item": 10,
+  "slug": "segur",
+  "to": "To Jacques de Ségur-Pardaillan, his envoy to the German princes",
+  "excerpt": "… capituler et conclure promptement avec ceux que vous adviserez … avec le duc Casimir ou par son consentement, et faire la levée la plus grande et la faire marcher …",
+  "translation": "… to agree terms and conclude promptly with whomever you think fit … with Duke Casimir or with his consent, and to raise the largest levy and set it marching …",
+  "from": "Henry of Navarre, the future Henry IV of France",
+  "place_date": "October 1585"
+ },
+ {
+  "item": 11,
+  "slug": "stowe166",
+  "to": "To William Cecil, Lord Burghley, Lord Treasurer of England",
+  "excerpt": "I doe secretelie learne that Monsr Montmorancy hath made great instance, as a condition whereof he required the performance before he would come, to haue the yong prince of Condé deliuered into the handes of Madame d'Angolesme his sister in law to be vnder his custodie.",
+  "translation": null,
+  "from": "Thomas Edmondes, Queen Elizabeth's agent at the court of Henri IV",
+  "place_date": "Tours, March 3, 1592"
+ },
+ {
+  "item": 12,
+  "slug": "segura1596",
+  "to": "To the Constable of Castile",
+  "excerpt": "Un consejero muy grave me ha dicho que han hecho aquí junta sobre la cometa que ha avido estos días, y dizen que el mundo se acabará o morirá el rey por setiembre. Él bien cerca dello paresce que anda. Creo en Dios.",
+  "translation": "A most weighty councillor has told me that they have held a meeting here about the comet that has appeared these days, and they say that the world will end or the king will die by September. He does seem to be very close to it. I believe in God.",
+  "from": "Matheo de Segura",
+  "place_date": "Madrid, August 8, 1596"
+ },
+ {
+  "item": 13,
+  "slug": "ferdinand1619",
+  "to": "To Duke Maximilian I of Bavaria, his brother",
+  "excerpt": "… den Catolischen ins gemein und ohne underschied [wird] geringer Zeit übrig sein, sich [vor] des andern Theils Einfal, Gwalt und Betrangnus zu entweren … Conservation unser … catolischer Religion und Seelen Seligkeit …",
+  "translation": "… for the Catholics, in general and without distinction, little time [will] be left to defend themselves [against] the other side's invasion, violence and oppression … the preservation of our … Catholic religion and the salvation of souls …",
+  "from": "Ferdinand of Bavaria, Elector and Archbishop of Cologne",
+  "place_date": "Bonn, December 22, 1619"
+ },
+ {
+  "item": 14,
+  "slug": "warsaw",
+  "to": "To Cardinal Franz von Dietrichstein, Bishop of Olmütz (?)",
+  "excerpt": "Mi ricordo che, fra li altri honori che […] mi fece in Nicolspurg, mi confido d'hauer dato intentione a questa Serenissima […] de uoler conferire un canonicato d'Olmiz ad uno de li […] suoi figli … si degni darne subito a me benigna risposta.",
+  "translation": "I recall that, among the other honours [Your Lordship] did me at Nikolsburg, I am confident I gave this Most Serene [Queen] to understand that [you] would confer a canonry of Olmütz on one of [her] sons … deign to give me at once a kind answer about it.",
+  "from": "An unnamed agent at the Polish court",
+  "place_date": "Warsaw, December 24, 1627"
+ },
+ {
+  "item": 15,
+  "slug": "harley286",
+  "to": null,
+  "excerpt": "… cum inter meos fuit amplexus alia terribilis convulsio … Aug. xx. parum post lunae plenilunium (quae in diem xviii. istius mensis incidebat) tres difficillimas convulsiones, in quorum tertia os ipsius pene ad aurem dextram convulsum, quod ante numquam observavi.",
+  "translation": "… while he was in my arms, another terrible convulsion … August 20, a little after the full moon (which fell on the 18th of this month), three very severe convulsions, in the third of which his mouth was drawn almost to his right ear, which I had never observed before.",
+  "from": "Sir Simonds D'Ewes, cipher log of his infant son's convulsion fits",
+  "place_date": "August 3 and 20, 1635"
+ },
+ {
+  "item": 16,
+  "slug": "marburg1635",
+  "to": null,
+  "excerpt": "… das kann dieses orths halber observiren, dagegen den selben etwas tentiret werden solte … dahero ich nicht unterlassen sollen, die notturft … so wol allerhöchst ihrer Kays. Maiestet als auch ihrer Churf. Durchl. in Bayern ohnlängst nochmals … anzudeuten …",
+  "translation": "… this can be watched from here, and something should be attempted against them … I have therefore not failed to report the need … both to His Most High Imperial Majesty and to His Electoral Highness in Bavaria, lately once more …",
+  "from": "An unnamed agent on the imperial side",
+  "place_date": "undated (volume of 1635–52)"
+ },
+ {
+  "item": 17,
+  "slug": "wesselenyi1664",
+  "to": "To Leopold I, Holy Roman Emperor and King of Hungary",
+  "excerpt": "… presidium Maiestatis Vestre reciperent. Quod si vero illud sponte et benevole acceptare nollent, extunc de ulterioribus faciendis actionibus temporis occasioni nos accommodari debebimus … ista nux durissima tandem aliquando necessario frangi debet.",
+  "translation": "… would receive Your Majesty's garrison. But if they would not accept it freely and willingly, then, as to the further actions to be taken, we shall have to suit ourselves to the opportunity of the moment … this very hard nut must at last, of necessity, be cracked.",
+  "from": "Ferenc Wesselényi, Palatine of Hungary",
+  "place_date": "draft, c. 1663–64"
+ },
+ {
+  "item": 18,
+  "slug": "potocka1714",
+  "to": "To Jakub Dunin, her nephew",
+  "excerpt": "… Pytałam się ieżeli ma co postanowionego. Ni ma nic. … To tesz prawda że był u dominikanow wtenczas iak estancował z nią w polu …",
+  "translation": "… I asked whether he had anything arranged. He has nothing. … It is also true that he was at the Dominicans' at the time when he was staying with her in the field …",
+  "from": "Barbara Potocka, née Dunin",
+  "place_date": "undated (1714–16)"
+ },
+ {
+  "item": 19,
+  "slug": "kauderbach1754",
+  "to": "To Count Brühl, first minister of Saxony",
+  "excerpt": "[On] a aujourd’hui des avis certains et positifs que le [traité] dont on parle depuis si longtems a eté signé a Versailles le deux de ce mois … Cette nouvelle a causé une consternation extraordinaire ici parce qu’on craint qu’il n’y ait des articles secrets qui aillent encore plus loin.",
+  "translation": "[We] have today certain and positive reports that the [treaty] which has been talked of for so long was signed at Versailles on the second of this month … This news has caused an extraordinary consternation here, because it is feared that there may be secret articles which go further still.",
+  "from": "Johann Heinrich Kauderbach, Saxon resident",
+  "place_date": "The Hague, May 25, 1756"
+ },
+ {
+  "item": 20,
+  "slug": "swieten1757",
+  "to": "To Count Cobenzl, the Empress's minister at Brussels",
+  "excerpt": "… subsister l’armée du roi y sans qu’il en coûte un sou … il n’y a pas un officier général entendu à cette armée, excepté le duc de Broglio …",
+  "translation": "… to keep the King's army there without it costing a sou … there is not one capable general officer in this army, except the duc de Broglie …",
+  "from": "Gottfried van Swieten, Austrian diplomat",
+  "place_date": "Bonn, February 4, 1759"
+ },
+ {
+  "item": 21,
+  "slug": "r1892",
+  "to": "To an officer of the Dutch émigré troops in British pay",
+  "excerpt": "… comme il pourroit arriver entretemps que le général Dundas vous déclarât qu’il cesseroit le payement, ou bien que les troupes devroient se laisser embarquer, il faudroit y souscrire et vous borner uniquement à tâcher d’obtenir [de] pouvoir donner une gratification à ceux qui ne voudroient se soumettre …",
+  "translation": "… as it might happen in the meantime that General Dundas should declare to you that he would stop the pay, or else that the troops must let themselves be embarked, you would have to agree to it and confine yourself solely to trying to obtain leave to give a gratuity to those who would not submit …",
+  "from": "A son of William V, Prince of Orange",
+  "place_date": "c. 1795"
+ },
+ {
+  "item": 22,
+  "slug": "soglia1848",
+  "to": "To Mgr Michele Viale Prelà, papal nuncio at Innsbruck",
+  "excerpt": "… per nuove sopraggiunte circostanze Le partecipo […] del Padre che Ella rimanga in Inspruck presso l’Imperatore e ovunque egli fosse per recarsi; intendendosi sospesa la indicata delibera […] relativa alla domanda de’ passaporti … nuova istruzione, che Le viene indirizzata per tre diverse vie …",
+  "translation": "… because of new circumstances that have arisen, I inform you […] of the [Holy] Father that you are to remain at Innsbruck with the Emperor, and wherever he may go, the aforesaid decision […] concerning the request for the passports being understood as suspended … new instruction, which is being sent to you by three different routes …",
+  "from": "Cardinal Giovanni Soglia, Secretary of State to Pope Pius IX",
+  "place_date": "Rome, June 15, 1848"
+ },
+ {
+  "item": 23,
+  "slug": "sunyatsen",
+  "to": "To Sun Yat-sen's household in Tokyo (telegraphic address “Rosamonde”)",
+  "excerpt": "潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府。我軍力薄，暫由翼□支持。文慧返……",
+  "translation": "Chaozhou city has been declared independent by Mo Qingyu. Our force too has recovered Swatow. Then Mo came with a large body of troops and ordered us out of the garrison headquarters. Our force is weak; for now we are supported by Yi-□. Wenhui is returning ……",
+  "from": "“Tanaka”, a Japanese with Sun Yat-sen's men",
+  "place_date": "Swatow, April 3, 1916"
+ },
+ {
+  "item": 24,
+  "slug": "sunintercepts",
+  "to": "To Sun Yat-sen's office in Tokyo",
+  "excerpt": "英士昨下午在山田家被兇[轟?]斃，捕兇[一?]人，關係者數人。",
+  "translation": "Yingshi [Chen Qimei] was [shot?] dead by assassins yesterday afternoon in the Yamada house; [one?] assassin and several people involved arrested.",
+  "from": "Sun Yat-sen's party",
+  "place_date": "Shanghai, May 19, 1916"
+ },
+ {
+  "item": 25,
+  "slug": "caprile1519",
+  "to": "To Alfonso I d'Este, Duke of Ferrara",
+  "excerpt": "… il custode … è tenuto Agria … in castello … deli danari del suo … lui m'ha resposto dice de voler andar in Italia …",
+  "translation": "… the keeper … Eger is held … in the castle … of his money … he has answered me, saying he wants to go to Italy …",
+  "from": "Giuliano Caprile, canon of Eger",
+  "place_date": "April 6, 1521"
+ },
+ {
+  "item": 26,
+  "slug": "adrian1521",
+  "to": "To Emperor Charles V",
+  "excerpt": "… el fallecimiento del Rey de Portugal … y agora con este moço el Rey que sucede en aquel Reino, y con que diz que tiene cabe sí algunos que no le dexan las orejas ociosas, no sabemos la demostración que querrá hacer; porque … los Reyes de Portugal tienen alianza antigua con los de Francia …",
+  "translation": "… the death of the King of Portugal … and now, with this youth who succeeds as King in that realm, and who they say has some people about him who do not leave his ears idle, we do not know what stance he will take; for … the Kings of Portugal have an ancient alliance with those of France …",
+  "from": "Adrian of Utrecht, regent of Castile and future Pope Adrian VI, with the Admiral and the Constable of Castile",
+  "place_date": "Vitoria, December 30, 1521"
+ },
+ {
+  "item": 27,
+  "slug": "moncada1524",
+  "to": "To Emperor Charles V",
+  "excerpt": "… duque de Borbon … me rogaua que le lleuase a España, […] diziendome muchas razones para ello. Yo le he respondido que vna vez ponga el exercito de V. Md. en seguro, y que estas galeras no tienen pan …",
+  "translation": "… the Duke of Bourbon … asked me to take him to Spain, […] giving me many reasons for it. I have answered him that once he has put Your Majesty's army in safety, and that these galleys have no bread …",
+  "from": "Hugo de Moncada, captain-general of the imperial galleys",
+  "place_date": "Monaco, October 6, 1524"
+ },
+ {
+  "item": 28,
+  "slug": "r8364",
+  "to": "To Francis Walsingham, English ambassador in France",
+  "excerpt": "… I see there was a great mistaking of our doings, for by Davison's writing of a ship sent to [St Valery], […] imagined that Hall had a meaning to provoke Glasgow to come hither … This you must think must needs appear very strange.",
+  "translation": null,
+  "from": "William Cecil, Lord Burghley, Lord Treasurer",
+  "place_date": "early 1573"
+ },
+ {
+  "item": 29,
+  "slug": "walsingham1585",
+  "to": "To Edward Wotton, English ambassador in Scotland",
+  "excerpt": "Sir, 39 [Master of Gray] doth complain in a late letter written to his friend here, whom you know, of the alteration of your countenance towards him … he offereth to make a most manifest proof, if 28 and 29 [the banished lords?] would come down to the Borders to join with 20 [Morton] and some other friends as he can procure, without the which he feareth that 10 [the King] will be carried away from 36 [England] …",
+  "translation": null,
+  "from": "Sir Francis Walsingham, Principal Secretary to Elizabeth I",
+  "place_date": "at the Court, August 21, 1585"
+ },
+ {
+  "item": 30,
+  "slug": "r4817",
+  "to": null,
+  "excerpt": "Prima materia ist die Galle vom Widder. Das Gefä[ß] ist eine halbrunde Kugel. Der Ofen ist die Waage.",
+  "translation": "The prime matter is the gall of the ram. The vessel is a half-round sphere. The furnace is the balance.",
+  "from": "Anonymous alchemical note on the flyleaf of the Rosicrucian Speculum sophicum rhodo-stauroticum",
+  "place_date": "undated (volume of 1618)"
+ },
+ {
+  "item": 31,
+  "slug": "r1862",
+  "to": "To the Doge and Senate of Venice",
+  "excerpt": "… col Cardinal Barberino di parlargli di quel negotio che lei mi si è commesso con cotesto Eccelso Conseglio, et di cavar anche qualche intimo particolare desiderato da lei … avendomi ricercato … se Palma sarà ben fortificata, quanto presidio aveva, se il passo della Pontebba si era ben assicurato …",
+  "translation": "… with Cardinal Barberino, to speak to him of that business which you entrusted to me with that Most Excellent Council, and also to draw out some secret particular that you desired … having asked me … whether Palma will be well fortified, how large a garrison it had, whether the pass of the Pontebba had been well secured …",
+  "from": "The Venetian ambassador",
+  "place_date": "Rome, April 29, 1628"
+ },
+ {
+  "item": 32,
+  "slug": "lucca",
+  "to": "To Emperor Ferdinand III",
+  "excerpt": "Al principe di Transil[u]ania lo impedirò con ogn[i] modo che il Turco non li dia aiuto, e farò rivoltare contra di lui, se sarà bisogno, il principe di Bog[o]dania, et li darò dumilia Cosachi, et manderò a voi con una sua lettera all’Imperatore che non faccia pace fin che non l’habbi humiliato o vinto.",
+  "translation": "As to the Prince of Transylvania: I shall by every means prevent the Turk from giving him help, and if need be I shall make the Prince of Moldavia rise against him and give him two thousand Cossacks, and I shall send [him] to you with a letter of his to the Emperor, that he make no peace until I have humbled or defeated him.",
+  "from": "Fra Giovanni di Lucca, reporting the words of Grand Hetman Stanisław Koniecpolski",
+  "place_date": "Brody, May 30, 1644"
+ },
+ {
+  "item": 33,
+  "slug": "feuquieres",
+  "to": "To Nicolas de Catinat, commanding the French army in Piedmont",
+  "excerpt": "… le peu de monde qu'il y a et les moyens d'y entrer, tout doi[ven]t faire croire qu'ils ne viendront pas à le défendre sérieusement. Je ne sçais du tout par où faire passer à Saint-Ambroise les quatre-vingts maistres que vous [vous] demandez …",
+  "translation": "… the few men there are and the ways of getting in, all must make one believe that they will not come to defend it seriously. I have no idea at all by what road to get to Saint-Ambroise the eighty troopers you ask [of us] …",
+  "from": "Antoine de Pas, marquis de Feuquières, governor of Pignerol",
+  "place_date": "January 25, 1691"
+ },
+ {
+  "item": 34,
+  "slug": "armstrong",
+  "to": "To James Madison, Secretary of State",
+  "excerpt": "Russel ought to be the consul: he is an American by birth, and is much better qualified than any other candidate. In a word, he is above men in general. Next to him in fitness is O'Mealy, but he is, like Warden, an Irish[man].",
+  "translation": null,
+  "from": "John Armstrong, United States Minister to France",
+  "place_date": "Bourbon-l'Archambault, August 30, 1808"
+ },
+ {
+  "item": 35,
+  "slug": "harley1582r8499",
+  "to": "To Queen Mary I",
+  "excerpt": "… the Constable comenid with him how the ysle of Wight might be taken … and how it might be kept … He the French king hath encreasidde the pensions of dyvers of the rebels …",
+  "translation": null,
+  "from": "Dr Nicholas Wotton, English ambassador in France",
+  "place_date": "Soissons, June 13, 1554"
+ },
+ {
+  "item": 36,
+  "slug": "nevers1587",
+  "to": "To Louis de Gonzague, duc de Nevers",
+  "excerpt": "45 [le duc d'Espernon] a esté en tres grande alarme, passant pres Lyon et ce pais, et sans aucun subject, car je vous puis asseurer qu'on n'a jamais songé de luy faire desplaisir …",
+  "translation": "45 [the duc d'Épernon] was in very great alarm, passing near Lyon and this country, and without any cause, for I can assure you that no one ever thought of doing him harm …",
+  "from": "An unnamed correspondent of the duc de Nevers",
+  "place_date": "[Randan], April 4, 1587"
+ },
+ {
+  "item": 37,
+  "slug": "harley7001",
+  "to": "To his cousin [Thomas Windebank?]",
+  "excerpt": "… I am of opinion they have not enough against him to confiscate his fortune, and they would be [willing] to take the advantage of his refusall to return …",
+  "translation": null,
+  "from": "Robert Reade, nephew and secretary of Sir Francis Windebank, Charles I's fugitive Secretary of State",
+  "place_date": "Paris, April 19, 1641"
+ },
+ {
+  "item": 38,
+  "slug": "rupert1645",
+  "to": "To Prince Rupert, his nephew",
+  "excerpt": "… I desire you to [march] speedily for my assistance, that in case I can not bring my train of artillery to you …",
+  "translation": null,
+  "from": "Charles I, King of England",
+  "place_date": "Oxford, April 29, 1645"
+ },
+ {
+  "item": 39,
+  "slug": "bordeaux1653",
+  "to": "To the Comte de Brienne, Secretary of State for Foreign Affairs",
+  "excerpt": "Ce n’est pas que si nos affaires estoyent plus florissantes nous n’eussions sujet de tesmoi[g]ner quelque mescontentement de la reception qui a esté faite aux deputez de Bordeaux. Ils ont esté entendus par deux commissaires du Conseil, et l’audiance que j’avois demandée au General ne me fut donnée qu’après la leur …",
+  "translation": "Not that, were our affairs more flourishing, we would lack cause to show some displeasure at the reception given to the deputies of Bordeaux. They were heard by two commissioners of the Council, and the audience I had asked of the General [Cromwell] was not granted me until after theirs …",
+  "from": "Antoine de Bordeaux-Neufville, French envoy in England",
+  "place_date": "London, May 30, 1653"
+ },
+ {
+  "item": 40,
+  "slug": "deswart1782",
+  "to": "To Pieter van Bleiswijk, Grand Pensionary of Holland",
+  "excerpt": "… of nu den Keizer in dezen met haar oprecht handelt … om haar te amuseeren …",
+  "translation": "… whether the Emperor is now dealing honestly with her [Catherine II] in this … to string her along …",
+  "from": "Johan Isaac de Swart, Dutch resident in Russia",
+  "place_date": "St Petersburg, March 8, 1782"
+ },
+ {
+  "item": 41,
+  "slug": "r2242",
+  "to": "To the Hereditary Prince of Orange, his brother",
+  "excerpt": "… men heeft de ratificatie … gepubliceert, of schoon de ratificatie zelver nog niet gekoomen was … maar blijft persisteeren […] het tegenwoordig gouvernement niet te erkennen, dan zoo zij geen Robespierismus durven te introduceeren …",
+  "translation": "… they have published the ratification … although the ratification itself had not yet arrived … but persists […] in not recognising the present government, unless they dare not bring in Robespierrism …",
+  "from": "Prince Frederick of Orange, younger son of the exiled Stadtholder William V",
+  "place_date": "London, May 7, 1795"
+ },
+ {
+  "item": 42,
+  "slug": "soria1523",
+  "to": "To Emperor Charles V",
+  "excerpt": "Andrea Doria y el principe de Salerno esta[n] muy descontentos del rey … si V. Mag. [quisiere] aceptar en su servicio al dicho Andrea Doria con sus [qua]tro galeras, que el lo servira de muy buena voluntad …",
+  "translation": "Andrea Doria and the Prince of Salerno are very discontented with the King [of France] … if Your Majesty [should wish] to take the said Andrea Doria into his service with his [four] galleys, he will serve him very willingly …",
+  "from": "Lope de Soria, Charles V's ambassador",
+  "place_date": "Genoa, August 13, 1523"
+ },
+ {
+  "item": 43,
+  "slug": "sessa1523",
+  "to": "To Emperor Charles V",
+  "excerpt": "… Su Santidad por esta bula es declarado contra Francia …",
+  "translation": "… His Holiness, by this bull, stands declared against France …",
+  "from": "Luis Fernández de Córdoba, Duke of Sessa, Charles V's ambassador",
+  "place_date": "Rome, April 26, 1523"
+ },
+ {
+  "item": 44,
+  "slug": "bay1706",
+  "to": "To Ferenc Rákóczi II, Prince of Transylvania",
+  "excerpt": "… tudván az barát az Portának szemének és fülének lenni, még nem mondotta … lelkemre kötötte, hogy ki ne adjam őtet. A svéd Vilnához szállott …",
+  "translation": "… knowing the friar to be the eyes and ears of the Porte, he has not yet told it … he charged me on my soul not to give him away. The Swede has taken up quarters at Vilna …",
+  "from": "András Bay, Rákóczi's envoy at the court of Moldavia",
+  "place_date": "Iaşi, March 8, 1706"
+ },
+ {
+  "item": 45,
+  "slug": "rakoczi1707",
+  "to": "To Ferenc Rákóczi II (addressed as “Monsieur Pompeio Cesoni”)",
+  "excerpt": "… prendre les intérêts de la Pologne autant à cœur … se sacrifier … pour affranchir la liberté … opprimée par les Suédois en faveur du roi Stanislas …",
+  "translation": "… to take the interests of Poland as much to heart … to sacrifice himself … to set free the liberty … oppressed by the Swedes in favour of King Stanislas …",
+  "from": "Philippe Groffey (?), Rákóczi's agent",
+  "place_date": "October 15, 1707"
+ },
+ {
+  "item": 46,
+  "slug": "rakoczi1704",
+  "to": "To Ferenc Rákóczi II",
+  "excerpt": "… fait à Madame la Palatine de Belz … une copie authentique de cette vente au sieur Kray … autant qu’il a esté possible par mon credit et par mes avances …",
+  "translation": "… made to Madame the Palatine of Belz … an authentic copy of this sale to the sieur Kray … as far as has been possible through my credit and my advances …",
+  "from": "An unsigned correspondent",
+  "place_date": "Danzig, October 28, 1707"
+ },
+ {
+  "item": 47,
+  "slug": "ilten1743",
+  "to": "To Johann Georg von Ilten, Hanoverian lieutenant-general in the Low Countries",
+  "excerpt": "Cependant on souhaite que les trouppes consument … ce qu’il y a de fourage dans ces quartiers, afin qu’il n’en reste rien si l’envie prenoit aux François de vouloir prendre quartier après vous dans ce pays là, de sorte qu’ils n’y trouveroient point ni fourage ni rien de ce qui seroit necessaire pour la subsistance des trouppes.",
+  "translation": "Nevertheless it is wished that the troops should consume … whatever forage there is in these quarters, so that none is left should the French take a fancy to quarter in that country after you, so that they would find there neither forage nor anything needed for the subsistence of the troops.",
+  "from": "An unsigned writer, on George II's orders",
+  "place_date": "London, February 15/26, 1743"
+ }
+]
