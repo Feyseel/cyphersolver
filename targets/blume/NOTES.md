@@ -7,7 +7,10 @@ the Emser Werke (*Nylon und Napalm*, 2022), and Klaus Schmeh posted them on Face
 they concerned "wool business" in Spain; Bochsler doubts that, given his ties to Franco's side. Salamanca was
 Franco's headquarters in January 1937.
 
-**Status: not solved, and set aside.** No plaintext has been recovered. The cipher is a transposition of what
+**Status: in progress (30 Sept 2026).** The second telegram (160 letters) is now in hand and transcribed (below), and
+a joint attack on both telegrams is under way; the rest of this section is the state after the September sessions.
+
+**Before 30 Sept: not solved, and set aside.** No plaintext has been recovered. The cipher is a transposition of what
 looks like telegraphic Spanish. Every transposition family that a single 615-letter message can be tested for
 with methods proven on planted controls has been excluded. What remains is the family the evidence points to
 anyway, a double columnar transposition with two keys of eleven letters or more, and a single message of this
@@ -15,8 +18,8 @@ length is below what any method known to us can break without a crib or a second
 
 ## Transcription
 
-Only the first telegram is reachable. The photograph was retrieved from Schmeh's Facebook post at
-1,134 × 1,012 px (`telegram1.jpg`); the second telegram is not in the public preview. `tg.py` holds
+The first telegram's photograph was retrieved from Schmeh's Facebook post at 1,134 × 1,012 px (`telegram1.jpg`);
+the second telegram is not in the post's public preview (it was found on 30 Sept 2026, below). `tg.py` holds
 **123 groups, 615 letters** (`ct1.txt`). The transcription checks against the form: 123 groups + BLUME +
 SALAMANCA = **125 words**, the figure written in the *Wörter* box, with the pencilled (50) and (100) at the
 right groups. Group 113 (`RBEEP`, word 115) has a red stroke through it but is counted. (Earlier versions of these
@@ -29,7 +32,23 @@ at twice the size found no other difference. With the correction, the SHA-256 of
 spaces) is `e266615d92019276513c1b7656f10c4f1a3d1e8eb739d28fd481ae337a434c55`, the value Bean gives, so his
 transcription and ours now agree letter for letter. His issue also gives the SHA-256 of a 160-letter text,
 `8fd5cfb82fc3c39fe0ee007b19ada7e74b4ae7747cd9b794d36dce101e17a644`, which matches no 160-letter stretch of this
-telegram, with or without BLUME SALAMANCA; it may be the second telegram.
+telegram, with or without BLUME SALAMANCA; it is the second telegram (next paragraph).
+
+**The second telegram (30 Sept 2026).** Bean then pointed to the full image of Schmeh's post, which the public
+preview crops, at a Facebook image-server address that needs no login (saved as `telegram2.jpg`, 2,048 × 1,376 px;
+the address expires on 5 Oct 2026). He adds that the top comment on the post, by William Higinbotham, carries a
+transcription matching his hash (not seen here: the comments need a login). Form: stamp "I A* 14.00z – 1486 –
+8 JAN 37", office 910 Zurich, *via angleterre Eastern* in pencil, fee 14 fr, "Cde" stamp, handed in 17 34, passed
+to London Mcl. at 17 40; sender "Dr ing. W. E. Oswald, Bureau Bahnhofstr 12, Zürich". So it went the same afternoon
+(no. 1, serial 1381, fee 49.90, went at 11 31 / 11 42). BLUME SALAMANCA and **32 groups, 160 letters** (`tg.py`
+T2, `ct2.txt`), read from the image; the SHA-256 of the 160 letters is Bean's value exactly, so the transcription
+agrees with his letter for letter. Index of coincidence 0.071 (no. 1: 0.0695), top letters a 23, e 19, r 15, n 14,
+o 11, i 11, no q, k, w or x: another transposition of Spanish-like text.
+
+```
+NOCUO APMOE PMFZC EEOVO ONRTI  PEFIC ACFCL GRNLN DNSDA RTGUL  ANAIA EAROA ITISI TNUNS LRSNA
+AAOUD EASRG SJTRS PIRED BUSNR  ROEMI FRNVE AUMIA GREEE AAATI  LFARA EAETT NOAIS EERNA FHEEN  SATOB REFUD
+```
 
 The statistics and searches below were run on the uncorrected text. The errors are substitutions, so no letter moved
 and every transposition test stands. Re-run on the corrected text, the lag scan's maximum is z = 3.4 (was 3.3), at
@@ -188,11 +207,11 @@ length). It is not a matter of another evening's compute.
 
 What would break it:
 
-1. **The second telegram**, sent the same day by the same firm, almost certainly in the same keys. Two
-   messages in depth under the same double transposition can be anagrammed jointly (the classical solution),
-   and the key lengths fall out of the two lengths. Bochsler holds the photographs; Schmeh's post ("Can anyone
-   decipher these two telegrams…") shows both, but only the first is in its public preview. Richard Bean's
-   160-letter hash in issue 14 (see Transcription) may mean he has the second one.
+1. **The second telegram**, sent the same day by the same firm, probably in the same keys. **In hand since
+   30 Sept 2026** (see Transcription): Schmeh's post ("Can anyone decipher these two telegrams…") shows both,
+   but only the first is in its public preview, and Richard Bean (issue 14) pointed to the full image. It has
+   160 letters against 615, so the two are not the equal-length depth that the classical joint anagramming of a
+   double transposition needs. Under the same keys, though, any candidate key pair must make both read at once.
 2. **A crib.** The letter counts promise *pesetas*, *kilos*, *punto*, spelled numbers, and the firm's own
    names (*HOVAG*, the Holzverzuckerungs-AG at Ems, fits the letters; *Oswald* does not: there is no w).
    With a known 8–10-letter word and known widths the two keys can be pinned by hand.
@@ -201,6 +220,7 @@ What would break it:
 ## Files
 
 * `ct1.txt`, `tg.py` — the transcription (three letters corrected 30 Sept 2026, issue 14). `telegram1.jpg` — the photograph.
+* `ct2.txt`, `tg.py` (T2, CT2) — the second telegram, 160 letters (30 Sept 2026). `telegram2.jpg` — its photograph.
 * `families.py`, `trans.py`, `double.py` — first-session Python searches.
 * `dt/Dt.cs`, `dt/Dt2.cs`, `dt/St.cs` — C# annealers: double (forward), double (reversed), single columnar.
 * `dt/Idp2.cs` — divide-and-conquer solver: `sa` / `hc` local search, `exhaust` enumeration, `IDP_INV=0|1|2`

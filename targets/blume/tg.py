@@ -1,5 +1,7 @@
-"""BLUME SALAMANCA telegram no. 1, Zurich to London, 8 Jan 1937 (Schmeh's Facebook post, photo from Regula Bochsler).
-123 five-letter groups; with BLUME SALAMANCA = 125 words, matching the '125' in the word-count box."""
+"""BLUME SALAMANCA telegrams nos. 1 and 2, Zurich to London, 8 Jan 1937 (Schmeh's Facebook post, photos from Regula Bochsler).
+No. 1 (T1, CT): 123 five-letter groups; with BLUME SALAMANCA = 125 words, matching the '125' in the word-count box.
+No. 2 (T2, CT2): 32 groups, 160 letters, from the full image of the post (telegram2.jpg, 30 Sept 2026); its SHA-256
+matches the one Richard Bean gave in GitHub issue 14."""
 T1 = """SSVCC NTEMS AEPZE UQNOC URNRM RSIUO BSBHD ONSBB
 OAOEP MINGA CTPOO PANPO APIEI EATTH IUDEE ENGIO
 MAREO LGMAL EEMNE IAPSI HLTOS NTONI AIACA UOSSU
@@ -18,3 +20,13 @@ RBEEP DRODL NDNOI EONRP PNPIL APCOA CPICE AXLNK
 IPLAN FTULX REFLX"""
 GROUPS = T1.split()
 CT = ''.join(GROUPS).lower()
+
+T2 = """NOCUO APMOE PMFZC EEOVO ONRTI
+PEFIC ACFCL GRNLN DNSDA RTGUL
+ANAIA EAROA ITISI TNUNS LRSNA
+AAOUD EASRG SJTRS PIRED BUSNR
+ROEMI FRNVE AUMIA GREEE AAATI
+LFARA EAETT NOAIS EERNA FHEEN
+SATOB REFUD"""
+GROUPS2 = T2.split()
+CT2 = ''.join(GROUPS2).lower()

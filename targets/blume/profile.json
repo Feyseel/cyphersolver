@@ -28,8 +28,39 @@
     "by": "llm from images",
     "source": "telegram1.jpg, 1,134 x 1,012 px, from Schmeh's Facebook post",
     "image_quality": "fair",
-    "notes": "123 groups; checked against the word count (125) written on the form. The second telegram is not accessible. Language is the NOTES' inference (telegraphic Spanish), not established. Corrected 30 Sept 2026: groups 38, 48 and 122 are SOLRS, ACCEL, FTULX (L read as I three times), reported by Richard Bean (GitHub issue 14), confirmed on the photograph and by his SHA-256 of the 615 letters."
-   }
+    "notes": "123 groups; checked against the word count (125) written on the form. The second telegram was out of reach until 30 Sept 2026 (document telegram2). Language is the NOTES' inference (telegraphic Spanish), not established. Corrected 30 Sept 2026: groups 38, 48 and 122 are SOLRS, ACCEL, FTULX (L read as I three times), reported by Richard Bean (GitHub issue 14), confirmed on the photograph and by his SHA-256 of the 615 letters.",
+    "corrections": 3
+   },
+   "read": "not read"
+  },
+  {
+   "id": "telegram2",
+   "shelfmark": "Swiss Federal Police files on Werner Oswald (found by R. Bochsler); full image of Schmeh's Facebook post, reached through the image-server link given in GitHub issue 14",
+   "date": "8 Jan 1937",
+   "year": 1937,
+   "country": "unknown",
+   "route": "Zurich -> Salamanca (via London)",
+   "language": "Spanish",
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ]
+   },
+   "length": {
+    "tokens": 160,
+    "distinct": 21,
+    "unit": "letters",
+    "measured": true,
+    "file": "ct2.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "telegram2.jpg, 2,048 x 1,376 px, full image of Schmeh's Facebook post",
+    "image_quality": "good",
+    "notes": "32 groups; the SHA-256 of the 160 letters equals the one Richard Bean gave (issue 14), which he says matches W. Higinbotham's transcription in the post's comments. Handed in 17:34 the same day as telegram 1 (serial 1486, fee 14 fr). Language is inferred, as for telegram 1."
+   },
+   "read": "not read"
   }
  ],
  "system": {
@@ -68,7 +99,7 @@
    "images"
   ],
   "attack": "ciphertext-only",
-  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded. 30 Sept 2026: an outside reader (Richard Bean, GitHub issue 14) supplied three transcription corrections; this session checked them against the photograph and applied them.",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded. 30 Sept 2026: an outside reader (Richard Bean, GitHub issue 14) supplied three transcription corrections; this session checked them against the photograph and applied them. Bean then pointed to the full image of the second telegram, which Daniel relayed.",
   "tools": [
    "exhaustive fixed-pattern transposition search (families.py)",
    "columnar annealing (trans.py, dt/st.exe)",
@@ -141,6 +172,18 @@
    "kind": "statistics",
    "what": "Lag scan re-run on the corrected text: maximum z = 3.4 (was 3.3) at the same lags; index of coincidence 0.0695 (was 0.0699). The errors were substitutions, so no letter moved and the earlier exclusions stand.",
    "result": "ruled out"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "access",
+   "what": "Second telegram: the full image of Schmeh's post, which the public preview crops, reached without a login through the Facebook image-server link Richard Bean gave in issue 14 (telegram2.jpg, 2048 x 1376).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "transcription",
+   "what": "Second telegram transcribed: 32 groups, 160 letters (ct2.txt); its SHA-256 equals the one Bean gave, so the reading agrees with his letter for letter. IC 0.071 and a Spanish-like letter mix: another transposition.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -153,6 +196,6 @@
   "verification": [
    "none"
   ],
-  "notes": "Open: double columnar with two long keys; needs the second telegram or a crib."
+  "notes": "Open: double columnar with two long keys. The second telegram (160 letters) is in hand since 30 Sept 2026; a joint attack on both is in progress."
  }
 }
