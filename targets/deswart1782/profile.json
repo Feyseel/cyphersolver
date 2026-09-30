@@ -192,12 +192,20 @@
    "kind": "reading",
    "what": "Normalised Dutch reading of the Emperor/Greek-project passage (tokens 239-466, 686-775) with English, graded M/I: Constantine in the hands of a Greek woman and taught Greek, orders to Field Marshal Ru[man]zow (probably Rumyantsev, unverified) for twelve Greek boys; the Empress silent even to her confidants but the project not dropped. Open: 231o, 77o, 738, 299, 553's role, [dan] (601 with a bar, komen: probably an encoding slip), the lost line.",
    "result": "partial"
+  },
+  {
+   "kind": "reading",
+   "what": "Greek-project passage: open groups read from their place in the R1038 codebook scans: 738 = grond (M), 299 = favoriet (I), 231^o = verder (I); 77^o ('Stans' in the book) and the line cut off on image 5417 still open.",
+   "result": "partial",
+   "date": "2026-09-30"
   }
  ],
  "outcome": {
   "method": "read after matching with key from external sources",
   "method_basis": "DECODE said the codebook could not be identified; the 1765 Croiset codebook of the Russia legation (DECODE R1038, a separate key record) was found here to fit and read 84% of R1036 as transcribed on DECODE; 34 values from context and 41 entries read directly from the R1038 scans raised it to 96.7%.",
-  "contribution": ["key extended or corrected"],
+  "contribution": [
+   "key extended or corrected"
+  ],
   "class": "read",
   "fraction_read": 0.967,
   "grades": "unknown",

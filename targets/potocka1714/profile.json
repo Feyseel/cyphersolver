@@ -442,12 +442,21 @@
       "kind": "reading",
       "what": "R7526 postscript word division corrected after a report made while quotations were pulled for Lasry's list, checked on image IMG_R7526_I33996_P and r7526-trial.txt: the writer groups 21 27 20 25 36 (iakes) as one group at a line end and opens the next line with 19 27 34 29 35 17 27 32 (tancowal), so 'wtenczas iakes tancowal z nia w polu' (jakes tancowal, 'when you danced with her in the field', second person, the dancer being Dunin) replaces 'iak estancowal' (read as his staying with a woman). Letters and counts unchanged. The same image check found the name group's first figure written as 36 (s), not the transcribed 39 (p), giving Stabrowski (M alternative; transcription not yet changed).",
       "result": "worked"
+    },
+    {
+      "date": "2026-09-30",
+      "kind": "reading",
+      "what": "R7526 postscript gaps re-checked on the full-resolution image for Lasry's request for a gap-free quotation: the last group's first figure is 36 (s), not 39 (p), so r7526-trial.txt token 154 corrected and the name reads Stabrowski (no 'p.'); serecki is clearly written (36 25 37 25 29 20 21), letters firm, office unidentified; the doubled dzie (21 25 30 16 21 25 30 16 21 25 30 35, evenly spaced, no cancellation) is taken as the writer's dittography, printed Iedzie <dzie> do Lublina (M). Postscript now reads continuously; counts unchanged.",
+      "result": "worked"
     }
   ],
   "outcome": {
     "method": "key recovered from ciphertext-only",
     "method_basis": "The Potocka alphabet was broken by Polish monoalphabetic annealing on the R7526 postscript (lang pl-modern) and transferred to the French passages of eight other letters; no outside key or reading existed. R7524 (Mniszech) is a different system and unread.",
-    "contribution": ["transcription", "key recovered"],
+    "contribution": [
+      "transcription",
+      "key recovered"
+    ],
     "class": "read in part",
     "key": "partial",
     "fraction_read": 0.7712243074173369,
@@ -484,7 +493,7 @@
         "detail": "one occurrence, no independent key, proposed zajazd does not justify assigning a value."
       },
       {
-        "item": "M-grade names and anomalous sequences in reading.md, especially serecki/Tabrowski, Krodyznski, connedere/morcowide, Keinisberk a Kinnik, tegn and tombap",
+        "item": "M-grade names and anomalous sequences in reading.md, especially the unidentified starosta serecki and Stabrowski, the dittography dzie, Krodyznski, connedere/morcowide, Keinisberk a Kinnik, tegn and tombap",
         "blocker": "illegible",
         "detail": "image ambiguities or possible original enciphering/spelling errors, no parallel witness. Literal readings and editorial suggestions remain separate."
       }

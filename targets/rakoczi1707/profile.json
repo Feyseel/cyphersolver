@@ -63,7 +63,8 @@
     {"date": "2026-09-20", "kind": "sibling key", "what": "Located and applied DECODE R639, Fasc. 44/08, headed De Monsieur de Bonac et Graffei.", "result": "worked"},
     {"date": "2026-09-20", "kind": "control", "what": "Validated the key on same-series known-plaintext documents R852 and R912.", "result": "worked"},
     {"date": "2026-09-20", "kind": "reading", "what": "Recovered 1,020 of 1,108 transcribed groups and read the report in substance.", "result": "partial"},
-    {"date": "2026-09-20", "kind": "hypothesis", "what": "Attributed the unsigned report to Philippe Groffey from the key heading, subject, and diplomatic role.", "result": "partial"}
+    {"date": "2026-09-20", "kind": "hypothesis", "what": "Attributed the unsigned report to Philippe Groffey from the key heading, subject, and diplomatic role.", "result": "partial"},
+    {"date": "2026-09-30", "kind": "transcription", "what": "Transcribed p. 278 lines 10-18 (DECODE image 4844) afresh from the image, 196 groups (tr/R902_p278_l10-18.txt), and decoded them with the corrected R639 table (decode_tr.py): every non-filler group has a value and the passage reads continuously (R902_p278_reading.md): the Swedes complain of Rakoczi's remark that he would sacrifice himself to free Polish liberty 'opprimee par les Suedois en faveur du Roy Stanislas'. DECODE's 3^ is this hand's 5; its real slips are 1 read as 2 and a few figures (527 Tekeli for 517 Hongrie). Added 212 = Fa, 93 = st and the rule that an underlined number keeps its first syllable (grade C).", "result": "worked"}
   ],
   "outcome": {
     "method": "read after matching with key from external sources",

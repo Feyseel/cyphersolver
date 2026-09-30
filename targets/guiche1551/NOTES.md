@@ -69,7 +69,7 @@ multi-session job. It is left open and should be split off as its own catalogue 
 
 ## Remaining gaps
 
-- La Guiche f. 60v: the name 'sieur +arna+e', signs c and 5 - blocker: open-codes; sign t there may be a plain + distinct from barred r; c and 5 occur only once or twice
+- La Guiche f. 60v: the four-dot code sign (::) after 'mal satisfaict de' and sign 5 - blocker: open-codes; :: occurs once (conjecture 'l'Empereur', grade I), 5 only in the struck lines; the name is read 'Barnabe Adorne' (30 Sept 2026)
 - La Guiche f. 60v: the two struck-through first lines - blocker: illegible; struck through by the writer; read only in part
 - Noailles fr. 3151 no. 33 (f. 60r), start of each marginal gloss line - blocker: needs-physical-access; swallowed by the binding; needs the page opened flat
 - Noailles fr. 3151 no. 33, the cipher itself (about 150 signs) - blocker: not-attempted; not attacked; the visible gloss words could serve as cribs
@@ -107,3 +107,25 @@ multi-session job. It is left open and should be split off as its own catalogue 
   "l'ambassadeur" and "du sieur Barnabe Adorne" (L9 "... a dorne"), perhaps Barnaba Adorno. (3) `F c` stands for "ss"
   in both places it occurs: "l'am[bass]adeur" (L3) and L12 `r e F c #` "au?i", i.e. "aussi" where the page has "aux [?]".
   These need a re-transcription pass.
+
+- **30 Sept 2026, second entry (filling the gaps in the quotation for Lasry's list; image `gallica_sweep/hi/g65full.jpg`,
+  line crops at full resolution).** The three leads above were checked and applied.
+  (1) The 24-sign run after the clear "qu'il advisera" is now `L2x` in `guiche_ct.txt`
+  (`r W r 8 t r Q # F e 3 F e r e 3 B 3 d Q 3 d f e`); with the key unchanged it reads "a la pratique qu'aves
+  entendu" (grade H key / C reading: every sign has its established value).
+  (2) The plain cross (no bar), new code `+`, is b: L3 "l'ambassadeur" (`W r D + r F c r f 3 e t`), L9 and L11
+  "Barnabe" (`+ r t d r + 3`, the barred cross in the middle is r, as in "sieur" just before and "Adorne" just after).
+  The name is "le sieur Barnabe Adorne", presumably a Genoese of the Adorno family, not identified (grade M).
+  (3) `F c` = ss in both places (L3 ambassadeur, L12 "aussi"); c is no longer unassigned.
+  (4) L10: the image has the barred p (s) where the transcription had X, so "du service" (the v of service is written
+  with the sign read f elsewhere, and "informer" has the c-sign for f: look-alike slips, read by context, grade M).
+  (5) The four-dot sign after "mal satisfaict de" is in the transcription as `:`. It occurs once, so it cannot be
+  deciphered; it is a code for a person or power. Context gives a conjecture: "et que facilement se reduiroit au
+  service du roy" means the count was then in someone else's service, and Sforza Sforza, count of Santa Fiora, had
+  gone back into Charles V's service after Paul III's death (Treccani, Dizionario Biografico, "Sforza, Sforza").
+  The page reads "mal satisfaict de [l'Empereur?]" (grade I); the Pope is the alternative.
+  (6) The clear lines between the runs were read from the image: "... qu'il advisera [cipher] Et aussi pour dire aud.
+  Sr cardinal les propos que Mignet[?] a tenus a [cipher: l'ambassadeur ... Dom Diego] Et pour ce que ledict Sr
+  cardinal a commancé a vous escripre de ceste affaire, je m'en remettray a ce qu'il vous en escripra. J'entendz que
+  [cipher: le conte Sainte Fiore ...]". The reading on the page now runs continuously from the Sienese envoy to
+  Santa Fiora.

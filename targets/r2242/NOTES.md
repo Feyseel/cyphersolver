@@ -74,8 +74,39 @@ Decrypts: `decrypt_p1.txt`, `decrypt_p3.txt`, `decrypt_p4.txt`; transcriptions `
 DECODE: Non-decrypted, no transcription or decipherment on the record. The only decipherment is the clear text on
 page 1 itself. This is the first reading of pages 3–4; the key came from R1892 (this project, 21 Sept 2026).
 
+## Word signs read from context (30 Sept 2026, for the Lasry quotation)
+
+Re-read on the photographs (p3 lines 1, 13-17, p4 lines 1-2). Grades: H key/page-1 clear text, M probable, I context.
+
+| sign | value | grade | occurrences |
+|---|---|---|---|
+| script L | uit | I | "[zoo] wel [uit] malkander gelegen" (p3 l3); "[uit] Parys" (p3 l16); P.S. "is ook [uit]landig" |
+| flagged D-shape (a D with a hook at the top; distinct from the plain Δ of p3 l11, p4 l1, p4 l5) | van | I | "wat zeid men [van] onse alliansie" (p3 l1); "de ratificatie [van] ons met" (p3 l13); "[uit] Parys [van] onse ministers" (p3 l16) |
+| φ | Frankrijk | I | "onse alliansie met [Frankrijk]" (p3 l1-2); "ratificatie van ons met [Frankrijk]" (p3 l14); "zijn nog < [Frankrijk] > ambassadeurs" (p3 l17) |
+| ⊥ | om | M | "blijft persisteeren [om] het tegenwoordig gouvernement niet te erkennen" (p4 l2); R1892 p2 "<perp> op antwoord te wagten" = "[om] op antwoord te wachten" |
+| > | als | H | fixed on p1; "[als] ambassadeurs" (p3 l17); "[als] | maar blijft" (p4 l1) |
+| H-bar | zoo | H | fixed on p1; "de trouppes [zoo] wel [uit] malkander" |
+| parallelogram | brief (here plural, brieven) | H/I | fixed on p1; "op | echte [brieven] [uit] Parys" (p3 l15) |
+
+Line 15 re-read: 34 65 11 12 43 44 22 45 = "het was op", a small x (sign or correction mark, open), then
+65 51 [3]4 11 65 = "echte" (the 34 is half under an ink blot), then the parallelogram. Line 16 opens with the script L,
+45 43 52 13 44 "parys", then the flagged D-shape, "onse ministers meier en blaauw en nu".
+
+Still open in the passage: "<" (p3 l17, "naar"? I, not adopted), "&" (p4 l1, the subject of "maar blijft
+persisteeren"; England is a guess only), the plain Δ in "van onse Δ 't oover te brengen", and the x on l15.
+The p4 interlinear insertion reads 44 55 11 11 65 52 65 32 [flagged D] 41 52 43 44 33 65 15 31 "sitteren [van]
+grasveld", probably two names (a Batavian envoy "Grasveld"?); not identified here.
+
+Consequence for the date: if φ is France, "the ratification of ours with France" is the Batavian alliance with
+France (Treaty of The Hague, 16 May 1795), which puts pages 3-4 after 16 May, later than the clear p2 letter of
+7 May. The page and summary now say so; the Basel reading is withdrawn.
+
+Quotation for the Lasry list (30 Sept 2026): "… men heeft de ratificatie [van] ons met [Frankrijk] gepubliceert,
+of schoon de ratificatie zelver nog niet gekoomen was … maar blijft persisteeren [om] het tegenwoordig gouvernement
+niet te erkennen, dan zoo zij geen Robespierismus durven te introduceeren …"
+
 ## Remaining gaps
-- about twenty word signs on p3-p4 (Λ, ∞, Δ, φ, script L, ⊥ ...) - blocker: open-codes; only the p1 signs are fixed by the clear text under it
+- about sixteen word signs on p3-p4 (Λ, ∞, Δ, &, < ...) - blocker: open-codes; the p1 signs are fixed by the clear text under it, and script L, the flagged D-shape, φ and ⊥ were read from context on 30 Sept 2026 (grades I/M)
 - p3 line 1 and p4 line 8, doubtful pairs across p3-p4 - blocker: not-attempted; LLM transcription only; a careful full-resolution second pass not done
 
 ## Escalation
@@ -83,5 +114,5 @@ page 1 itself. This is the first reading of pages 3–4; the key came from R1892
 - [x] clear-pages: p1 clear text under the cipher used as crib; p2 clear letter read
 - [x] known-keys: R1892 key applied unchanged
 - [ ] print: not done — Orange family correspondence editions (Colenbrander, Gedenkstukken) not searched
-- [ ] key-rebuild: not done — pool R1892 and R2242 sign occurrences and fix values by Dutch LM context
+- [x] key-rebuild: word signs extended from context, 30 Sept 2026 (script L uit, flagged D van, φ Frankrijk, ⊥ om, pooled with R1892 p2); the rest of the pool still to do
 - [ ] retry: not done — re-transcribe p3-p4 at full resolution and rerun apply.py

@@ -92,9 +92,30 @@ sudetto aviso ... di Genova".
 This is the opening of the War of the Mantuan Succession (April 1628), with Francesco Barberini directing papal
 foreign policy and Venice backing Nevers, so the content sits exactly where it should.
 
+## Two cuts in the Palma passage filled (30 Sept 2026, for the Lasry quotation)
+
+P1 L06-L09 read "perche due volte nelle capele [5349] e avendomi ricercato con bi instanza se Palma sara ben
+fortificata". Both points re-checked on the image (IMG_R1862_I8905_P1, lines 7-8): the digits are 5349 and 6202 as
+transcribed.
+
+- **5349 = papali (I).** The word band is alphabetical within row 53: 5347 papa, 5373 part, 5374 per, 5377 piu.
+  5349 sits right after papa: "nelle capele papali", the papal chapels (cappelle papali) where the ambassadors met
+  the Cardinal. It may be the stem "papal" with the next group 6280 "e" as its ending ("papale", the clerk's
+  agreement slip); the sense is the same. The old bracket "a par- word" in Remaining gaps is superseded.
+- **6202 "bi" = slip for 6222 "pi" (I).** 6202 is bi (P2 L14 du-bi-ta-n-do), which gives no word before
+  "instanza". The clerk's slips are all one digit (see below); 6222 = pi gives "con pi[ù] instanza", "with more
+  insistence", after "due volte". Alternative one-digit slip: 6242, an unknown word code between 6240 ave and 6247
+  Cesare (a b-/ca- word, e.g. "calda"); not excluded. Neither is written into key_over.json, so plain.txt and the
+  measured fractions are unchanged.
+
+Quotation for the Lasry list (30 Sept 2026): "… col Cardinal Barberino di parlargli di quel negotio che lei mi si è
+commesso con cotesto Eccelso Conseglio, et di cavar anche qualche intimo particolare desiderato da lei, perché due
+volte nelle capele [papali] e avendomi ricercato con [più] instanza se Palma sarà ben fortificata, quanto presidio
+aveva, se il passo della Pontebba si era ben assicurato …"
+
 ## Remaining gaps
 
-- 12 code-group tokens (0.9%) of the word/name band: 6443 x2, 6279 x2, 6478 x2, 5349, 5370, 51708, 5378, 5379, 6241 - blocker: no-key-material; R1874's decipherment does not cover that band, no other letter in this cipher survives on DECODE, and the ASVe key registers that do (Codice Amadi reg. 1269, Busta 4 regs. 8/16/18) are a century older. Alphabetical brackets: 5370 and 5349 are "par-" words; 5378/5379 fall between "piu" and "qual"; 6279 between "molto" and "non"; 6443 after "suo"; 6478 between "poc" and "tio".
+- 12 code-group tokens (0.9%) of the word/name band: 6443 x2, 6279 x2, 6478 x2, 5349, 5370, 51708, 5378, 5379, 6241 - blocker: no-key-material; R1874's decipherment does not cover that band, no other letter in this cipher survives on DECODE, and the ASVe key registers that do (Codice Amadi reg. 1269, Busta 4 regs. 8/16/18) are a century older. Alphabetical brackets: 5370 is a "par-" word, 5349 "papal(i)" (I, 30 Sept 2026); 5378/5379 fall between "piu" and "qual"; 6279 between "molto" and "non"; 6443 after "suo"; 6478 between "poc" and "tio".
 - one line, P2 L22 (14 groups), image-true after four independent readings - blocker: open-codes; every group in it is a structural grid value, so the fault is a clerk's slip or a word outside the corpus; exhaustive single- and double-substitution searches over the key's own value set returned nothing.
 - the ambassador's name - blocker: no-key-material; he does not name himself, and CSP Venice vol. 21 calendars no Rome despatch of 29 Apr 1628.
 

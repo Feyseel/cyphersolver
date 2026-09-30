@@ -1,5 +1,5 @@
 Received : Twelve baxuxupeja qicijinati bemigasiqi jakebiqoye kufohemige tuxaboboba gedoeijiga poyevayoxa leyoleveke biromapesa vorobenife xikebiqoye qekufiyaqa tijaqixiqo xitohatula xopavajejo ropezpo ngobunibai tanaka
-Emended  : baxuxepeja qicijinati bemigasiqi jakebiqoye kufonemige tuxaboboba gedocijiga poyevayoxa leyoleveke biromapesa vorobenife xikebiqoye qekufiyaqa tijaqixiqo xitonatula xopavajejo rope | garbled tail: zpo ngobunibai
+Emended  : baxuxepeja qicijinati bemigasiqi jakebiqoye kufonemige tuxaboboba gedocijiga poyevayoxa leyoleveke biromapesa vorobenife xikebiqoye qekufiyaqa tijaqixiqo xitonatula xopavajejo ropezano | garbled tail: ngobunibai
 
   #  syll   code  char
   1  ba xu  3390  潮   
@@ -12,17 +12,17 @@ Emended  : baxuxepeja qicijinati bemigasiqi jakebiqoye kufonemige tuxaboboba ged
   8  qi ja  4539  立   
   9  ke bi  2053  我   
  10  qo ye  6511  軍   
- 11  ku fo  0076  亦   received he mi = 1842 怩; ne mi = 0342 光 (光復 "recovered")
- 12  ne mi  0342  光   
+ 11  ku fo  0076  亦   
+ 12  ne mi  0342  光   received he mi = 1842 怩; ne mi = 0342 光 (光復 "recovered")
  13  ge tu  1788  復   
  14  xa bo  3073  汕   
  15  bo ba  7333  頭   
  16  ge do  1775  後   
- 17  ci ji  5459  莫   
+ 17  ci ji  5459  莫   ei in gedoEIjiga: e is a misread c; ci ji = 5459 莫
  18  ga po  3764  率   
- 19  ye va  1129  大   ei in gedoEIjiga: e is a misread c; ci ji = 5459 莫
- 20  yo xa  7130  隊   5068 as received; 翼X unresolved (to = 68 unconfirmed elsewhere)
- 21  le yo  0171  來   received ha tu = 3888 璸; na tu = 2388 支 (支持)
+ 19  ye va  1129  大   
+ 20  yo xa  7130  隊   
+ 21  le yo  0171  來   
  22  le ve  0109  令   
  23  ke bi  2053  我   
  24  ro ma  6622  退   
@@ -37,17 +37,18 @@ Emended  : baxuxepeja qicijinati bemigasiqi jakebiqoye kufonemige tuxaboboba ged
  33  qa ti  2548  暫   
  34  ja qi  3945  由   
  35  xi qo  5065  翼   
- 36  xi to  5068  翿   
- 37  na tu  2388  支   
+ 36  xi to  5068  翿   5068 as received; 翼X unresolved (to = 68 unconfirmed elsewhere)
+ 37  na tu  2388  支   received ha tu = 3888 璸; na tu = 2388 支 (支持)
  38  la xo  2170  持   
  39  pa va  2429  文   
  40  je jo  1979  慧   
  41  ro pe  6604  返   
+ 42  za no  3263  港   received zpo; Morse p (.--.) = a (.-) + n (-.) with the letter space lost: za no = 3263 港 (返港, M)
 
-Plain text (41 characters):
-潮城由莫擎宇獨立我軍亦光復汕頭後莫率大隊來令我退出鎮守府我軍力薄暫由翼翿支持文慧返
+Plain text (42 characters):
+潮城由莫擎宇獨立我軍亦光復汕頭後莫率大隊來令我退出鎮守府我軍力薄暫由翼翿支持文慧返港
 
-Punctuated: 潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府。我軍力薄，暫由翼□支持。文慧返……[3 codes garbled]
+Punctuated: 潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府。我軍力薄，暫由翼□支持。文慧返[港]……[last word, about 2 codes, garbled]
 
 Recovered condenser table (row = consonant, column = vowel):
      e   a   i   o   u

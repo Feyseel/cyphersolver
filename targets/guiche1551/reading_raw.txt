@@ -1,13 +1,16 @@
 L0 dtmdielttitctnstituerprisonnierencestuile
 L1 vnlsenoismoiei?croyqfeauresesteaduertyle
 L2 procesduqueliaytrouvemoiendeueoir
-L3 lamraq?adeurdesenesqviestoiticylequelest
+L2x alapratiquequauesentendu
+L3 lambassadeurdesenesqviestoiticylequelest
 L4 partypoursenretornerasenesauecqomdielo
-L5 lecontesainctefiorestmalsatisfaictdeet
+L5 lecontesainctefiorestmalsatisfaictde[::]et
 L6 quefacigementsereduiroioauservicedurop
 L7 leserui
 L8 auecmoylafaire
-L9 dusieurrarnareadorne
-L10 vousincormerdugerficequele
-L11 roypourroitauoirdudidictsieurrarnareet
-L12 auq?idesconditionsqvildemanderoit
+L9 dusieurbarnabeadorne
+L10 vousincormerduserficequele
+L11 roypourroitauoirdudidictsieurbarnabeet
+L12 aussidesconditionsqvildemanderoit
+# 30 Sept 2026: + = b (L3, L9, L11); F c = ss (L3, L12); ':' (the four-dot sign, L5) left as [::]; L10 'incormer'/'serfice'
+# are look-alike slips of the f and v signs in the first pass: read 'informer du service'.

@@ -544,6 +544,12 @@
    "kind": "control",
    "result": "worked",
    "what": "Lasry (25 Sept 2026): split mixed cases. Primary method stays key from adjacent plaintext; R9416 f. 263, broken ciphertext-only, is a second part with its own Results row."
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "reading",
+   "what": "R9416 f.263 recto lines 11-16 re-keyed by hand from the v2 transcription and checked word by word on the image: v2 sign z split into e (one-bar zig-zag) and s (two-bar dagger), b into d and l; lines 11-12 agree with the faint contemporary gloss ('das aus den tag zu bresburg erfolgt ist dahin auch / des Ferd tail ... mit grossem bumbb kummen sint auch'). Normalised passage (Pressburg diet, 'mit grossem Pomp', full powers, the Turkish embassy on Shrove Tuesday) in r9416/reading_p3_11-16.txt; rest of f.263 not yet re-keyed.",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -583,7 +589,7 @@
    {
     "item": "R9416 f.263 clean reading",
     "blocker": "open-codes",
-    "detail": "re-key the v2 transcription"
+    "detail": "re-key the v2 transcription; recto lines 11-16 done by hand 30 Sept 2026 (r9416/reading_p3_11-16.txt)"
    },
    {
     "item": "R9323 lines 4, 8-10",

@@ -230,8 +230,10 @@ def main(src, dst):
     exe = next((b for b in BROWSERS if pathlib.Path(b).exists()), None)
     if not exe:
         sys.exit('no Chrome or Edge found; open ' + str(tmp) + ' and print it to PDF')
-    subprocess.run([exe, '--headless', '--disable-gpu', '--no-pdf-header-footer', f'--print-to-pdf={out}',
-                    tmp.as_uri()], check=True, capture_output=True)
+    # a throwaway profile, so a browser already open on this machine cannot hold the print job
+    profile = tempfile.mkdtemp()
+    subprocess.run([exe, '--headless', '--disable-gpu', '--no-pdf-header-footer', f'--user-data-dir={profile}',
+                    f'--print-to-pdf={out}', tmp.as_uri()], check=True, capture_output=True, timeout=180)
     print(f'{out} ({out.stat().st_size // 1024} KB), from {tmp}')
 
 

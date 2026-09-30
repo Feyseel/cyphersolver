@@ -113,3 +113,14 @@ decipherment. PTR 1/96 and 1/105 hold the Admiral's and Constable's corresponden
 - `danvila/` — MHE 38 OCR text and page scans n708-n710 (pp. 703-705).
 - `transcription.txt`, `chunks.py`, `gredilla_1880s.txt`, `plaintext_corrected.txt`, `key_working.md` (first draft).
 - `strips/`, `ln/`, `crops/` — upscaled line crops used for transcription.
+
+## 2026-09-30 (quotation list for George Lasry)
+
+- `[suf]` re-examined on the line crop (`ln/p1_07.png`): the cipher is `Log fun per suf =δ roc t= pex`. Gredilla's
+  "que no" stands for the single group `per` (m–n block), and two spelled signs, `=` (s) and a δ-like sign, follow
+  `suf` (o–r block). "en coyuntura **muy peligro-sa** a los negocios" fits the blocks and the sense if that sign is
+  *a*; but the same shape is *y* in "pierde y sentirá" (f. 1r l. 5). Grade I, a guess; recorded on the page under
+  "What remains uncertain", not put in the text. Page §06 now gives the read sentence that the "…" skipped
+  ("porque la amistad y deudo … buen amigo y deudo de V. M.").
+- Quotation for the list: the continuous passage "y agora con este moço … con los de Francia" (all read; *agora*
+  and *alianza* probable), so no editorial cut is needed.

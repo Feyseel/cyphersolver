@@ -153,7 +153,7 @@ Key: key4_v2.txt. Reading: `PYTHONUTF8=1 python show.py p4v2.txt key4_v2.txt`.
 - `C` = "et" sign (et nichil).
 - `A n 4 b S` -> `D n 4 I S`: the first sign is Δ (dominus).
 
-**L14** — mhi(?) episcopus de Patras io(?) cum licencia domini nostri dare uolebat te-
+**L14** — mhi(?) episcopus de Patrasio cum licencia domini nostri dare uolebat te-
 - `OO` -> `O` (three circles). "a mhi episcopus": the archbishop of Patras would be expected (arch-); the signs read a-m-h-i, left as seen.
 - `b` -> `I` (episcopus, licencia); `c` -> `g` (patras).
 - `S bo` -> `g I` (nostri); `S` -> `g` (dare).
@@ -271,7 +271,7 @@ Key: key4_v2.txt. Reading: `PYTHONUTF8=1 python show.py p4v2.txt key4_v2.txt`.
 11. -enter premit regem Aeragono(=Aragonum). credit uniei(?) facciet statum perdere cille(?)
 12. berardelus(?) qui huc uenerat pro illis dominis de Arimino ad offeren-
 13. -um, et cetera. reccessit male(c)ontentus et nichil obtinere potuit. dominus a-
-14. -mhi(?) episcopus de Patras io(?) cum licencia domini nostri dare uolebat te-
+14. -mhi(?) episcopus de Patrasio cum licencia domini nostri dare uolebat te-
 15. -mporale dominium dominio uenetorum(?) et illud defenderet ab infidelib-
 16. -us. dominus noster feccit proponere cardinalibus. responderunt meli-
 17. -us est perdere quam Uenetis tradere, quia una uice recuperabit-

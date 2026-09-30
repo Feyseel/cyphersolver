@@ -90,3 +90,16 @@ Different transcribers named the same shapes differently; this is the reconciled
 | z | Ƶ (7 with bar), f? |
 Code additions: yoc yeb = el dicho; DEtX7(y) = Beaurren (Monsieur de Beaurain); yef also = syllable 'es';
 yic = syllable '-do'; seb = qual?; sa = para?; pep = un?; xod = ha; pup = V. (V. Magestad / V. Señoria).
+
+## Additions 30 Sept 2026 (R9497 collated with R9498)
+| sign/group | value | evidence |
+|---|---|---|
+| ꝑ° (p with superscript o and long curled tail) | q | quitado (R9497 l. 2; R9498 writes it ꝛ°); replaces 'pro' |
+| Ŀ (tall capital L) | q | quatro, both copies; distinct from the small angular L = t |
+| pep | un (pep r. / pep ꝑ̄ = uno) | R9498 pep ꝑ̄ where R9497 spells ▽yꝑ̄; replaces 'pariente' |
+| xap | le (xap ƀ = les) | R9498 where R9497 spells V7ƀ |
+| tun | parte | R9498 where R9497 spells ɑ+∞cL7; twice |
+| sob | quier (sob 7 = quiere, sob∞ = quiera) | R9497/R9498 'si V. Mag. sob 7 aceptar'; R9491 'seb sob∞ cosa' = qualquiera cosa, twice (M) |
+| xuf | habla- (xuf yic = hablado) | I: the x-block covers F-L, and dicho is yeb |
+Code order: each initial consonant covers a stretch of the alphabet (z A-De, y Di-Es, x F-L, t M-Pa, s Pa-R,
+p Se-Y), which bounds a group's value; order inside a block is not strict.

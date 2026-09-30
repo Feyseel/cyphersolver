@@ -50,6 +50,17 @@ node targets/joachim1530/recheck/search.cjs dotted 100 100000 2351
 
 The search deliberately uses the pre-breakthrough 397-token transcription without manual corrections. The final decoder uses the 402-token inventory. The model binary is regenerated, not committed. Full images are in the shared `gallica_331/` cache; the site includes credited crops of both cipher pages.
 
+## 30 Sept 2026: context readings for the quotation list
+
+George Lasry found the quotation (entries joined by "..." over the margin sums and the rare signs) too gappy. On
+the Gallica native (gallica_331/f149_cipher_native.jpg, f150_cipher_native.jpg) the margin sums read CL, L, LX, XX,
+CCL, CC and XX, each with a raised 9-like sign taken as m (thousands; the foot total is DCCL under M). [D] is taken
+as [Cardinale] (four masculine-person places; "al deto [D]" echoes the clear "el predetto Cardinale" above the
+cipher; Winchester, St Albans and York are Wolsey's benefices) and [Q] as [il Re] (the receiver: the XX that "havera
+[Q] per ano" is part of the DCCL that came to "questo [S2]"). [S2] stays open between a royal title and "Signor".
+All grade I, in square brackets, not key values; coverage figures unchanged. Details in READING.md; the page now
+prints the introduction and the six entries as one continuous passage.
+
 ## Remaining gaps
 
 - `[D]` (four occurrences), `[Q]` (two), `[S2]` (one): blocker: no-key-material. Wolsey and a royal title are plausible for D and S2; Q may be a pronoun or title. None has a verified expansion. Do not substitute whole words as if recovered from a key.

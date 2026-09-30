@@ -505,6 +505,12 @@
    "kind": "control",
    "result": "worked",
    "what": "Lasry (25 Sept 2026): classify by the primary achievement and split mixed cases. Entry split: key A letters = key recovered from ciphertext-only (primary), key B letters = key from external plaintext; one Results row each."
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "verification",
+   "result": "worked",
+   "what": "Collated R9497 block 1 sign by sign with the duplicate R9498 from the images to close the gaps in the quotation for Lasry's list. R9498 spells in code (pep un, tun parte, xap le) what R9497 spells in letters, which corrected 'prometido' to 'quitado' (p-hook with o = q), 'pariente' to 'uno', '[qua]tro' to 'quatro' (tall L = q) and 'sob 7.' to 'quiere' (sob = quier, cf. R9491 'qualquiera cosa'); 'xuf yic' = [hablado] from the code's alphabetical blocks (I). Block 1 now reads continuously (read_r9497_full.md)."
   }
  ],
  "outcome": {

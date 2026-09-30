@@ -89,6 +89,18 @@ military governor of Verona at 2,500 ducats a year (DBI, "Fregoso, Cesare"). A's
 Cesare" and Rangone's "vida V. Ex. che tratti sono questi" are that episode seen by the brother-in-law left out. In
 October 1530 the French dismissed Rangone over his complaints that his pension had been cut.
 
+## 30 Sept 2026: A1 gap (quotation list)
+
+For George Lasry's quotation list the A1-A2 gap was reopened. The cipher reads "l fa instantia" and then the two
+signs `y S`; the "a" printed before "[? ?]" on the page and in `reading.md` is not in the cipher. `y S` is now
+printed "[a m]e" (grade I): "me" from context (the clear lead-in "uno certo caso acaduto mi" makes the writer the
+one urged to enter Venetian service; the page already noted that "me" fits), the "a" supplied as elided into the
+last letter of "instantia". `S` occurs only here, so "e" is contextual as well. In A2 "o[?] le mie" q = o is sure
+and `y` alone is open: m, b, n, e, a, i, v, g, d and s were each tried by hand and none gives Italian, so the
+sign is left unread. The encipherer's slips stay bracketed on the page as in `reading.md`: ven[i]re (the h sign
+for i), al [s]ignore (t sign for s). The quotation therefore keeps one cut, over "o[?] le mie". Counts unchanged
+(the A1 signs remain counted unread; the conjecture is not a key value).
+
 ## Remaining gaps
 - A1 "a [y S] de venire" and A2 "[q y] le mie" (sign y, 2 places, plus the phrase around it: 9 signs) - blocker: too-short; y occurs twice, "me" fits A1 and fails A2, "b" fails A1, no third occurrence
 - A6 "la [xo]icon[✳]uorano" (12 signs) - blocker: too-short; xo occurs once, the run has no parallel in either letter

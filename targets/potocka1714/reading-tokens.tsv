@@ -440,7 +440,7 @@ record	segment	position	cipher	plain	grade	coherent
 7526	96	151	32	l	I	True
 7526	96	152	33	m	I	True
 7526	96	153	21	i	I	True
-7526	96	154	39	p	I	True
+7526	96	154	36	s	I	True
 7526	96	155	19	t	M	False
 7526	96	156	27	a	M	False
 7526	96	157	28	b	M	False

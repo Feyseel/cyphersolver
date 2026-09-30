@@ -85,12 +85,12 @@ Reading, normalised to modern spelling like the opening; [ ] supplied or open, g
 infinitive (stellen, zenden, observeeren):
 
 > Of nu de Keizer in dezen met haar oprecht handelt, [dan] (M) of hij daardoor maar zoekt om haar te amuseren en
-> aan zijn lijn te houden, gelijk velen (I) met [738] veronderstel[len], is niet wel zeker te ontdekken; maar het is
+> aan zijn lijn te houden, gelijk velen (I) met [grond] (M) veronderstel[len], is niet wel zeker te ontdekken; maar het is
 > zeker dat zij tot nog toe van de Keizer zeer [gunst]ig (I) ingenomen is, en dat zij omtrent de bevordering van
-> dit haar [299] project op Zijne Majesteit veel rekent en staat maakt. En tot bewijs dat zij het project geheel
+> dit haar [favoriet] (I) project op Zijne Majesteit veel rekent en staat maakt. En tot bewijs dat zij het project geheel
 > niet geabandonneerd heeft, zo dient dat, behalve dat zij de jonge grootvorst Constantijn, gelijk [ik] reeds de
 > eer heb gehad in een mijner voorgaande aan U HoogEdelGestrenge te melden, in hand[en] van [een] Griekse vrouw al
-> sedert een geruime tijd gesteld heeft, en hem de Griekse taal laat leren (I), en [231^o] een Griekse educatie (I)
+> sedert een geruime tijd gesteld heeft, en hem de Griekse taal laat leren (I), en [verder] (I) een Griekse educatie (I)
 > [hooggedachte] (M), zij heeft ook onlangs aan de veld[maarschalk] (M) Ru[man]zow (M) ordre gezonden om twaalf
 > Griekse jongens te bezorgen, en het [line lost] te maken.
 >
@@ -100,11 +100,11 @@ infinitive (stellen, zenden, observeeren):
 > de ontijdige [geruchten] (M), die daarover hier gelijk elders [...]
 
 ("Whether the Emperor is dealing honestly with her in this, [or] whether he only seeks to amuse her and keep her on
-his line, as many suppose [...], cannot well be discovered for certain; but it is certain that she is so far very
-favourably disposed towards the Emperor, and that for the furtherance of this [...] project of hers she counts and
+his line, as many suppose [with reason], cannot well be discovered for certain; but it is certain that she is so far very
+favourably disposed towards the Emperor, and that for the furtherance of this [favourite] project of hers she counts and
 relies much on His Majesty. And as proof that she has by no means abandoned the project: besides having for a
 considerable time placed the young Grand Duke Constantine in the hands of a Greek woman, as I have already had the
-honour to report to Your Honour in one of my previous letters, and having him taught the Greek language, and [...] a
+honour to report to Your Honour in one of my previous letters, and having him taught the Greek language, and [further] a
 Greek education [...], she has also lately sent orders to Field [Marshal] Ru[man]zow to procure twelve Greek boys, and
 [...] Although it has been entirely quiet about the known Greek project for some time, and the Empress has kept [a]
 deep silence about it towards her confidants, one cannot conclude from this that she has wholly dropped it; rather,
@@ -112,11 +112,34 @@ her reserve on this subject seems to have been caused by the untimely [rumours] 
 
 Other details: geabandonneerd has one superfluous group (389 eere) inside it; confidenten is 528^" (faint "confi…")
 + 601 d + 264 ent + 86 en; 553 is "hoog gedachte" in the book (left of 553; "hoogst gedachte" is 626), but its place
-in the clause does not resolve. Still open in the passage: 231^o (in the gutter, "verd…"), 77^o (DECODE and the scan
-"Stana"), 738, 299 (faint "f..ri.."), 792 (faint "gerucht?"), 592 (faint; [gunst] from the entry above it, 591 Gun…, and the sense). Not applied, to
+in the clause does not resolve. Still open in the passage (738, 299 and 231^o read on 30 Sept 2026, below): 77^o (DECODE and the scan
+"Stana"), 792 (faint "gerucht?"), 592 (faint; [gunst] from the entry above it, 591 Gun…, and the sense). Not applied, to
 check: on p9 the words left of 412 and 488 are both "Zyn Majesteit" and "Zyn Keiz. Maj." stands right of 488, so
 488^_ may be Zijne Majesteit rather than Zijne Keizerlijke Majesteit; its three uses (tokens 1050, 1305, 1678)
 concern the King of Prussia.
+
+### Open groups of the Greek passage re-read (30 Sept 2026, for the Lasry quotation)
+
+Read from the codebook scans (`R1038_codebook_p7.png` = 5436, `p6` = 5435, `p13` = 5442, `p14` = 5443, main checkout):
+
+- **738 = grond (M).** p7, fourth column: 734 goed, 736 graaf, 737 gr…, 738 "gro…" (the o and a descender visible),
+  739 Gu…, 740 ha, 741 haar; the parallel column's 810 reads "gro[n]d/t". "gelijk velen met grond veronderstellen"
+  ("as many suppose with reason") is the idiom.
+- **299 = favoriet (I).** p6, third column: 296 fait, 297 familie, 298 fau…, 299 capital F + faint "…ri…", 300 femm…,
+  301 fem…. "dit haar favoriet project": Catherine's "projet favori". "Februari" also fits the letters and the place
+  but gives no sense.
+- **231^o = verder (I).** p14: the word is in the gutter, "verd…" legible, between 230 verdedig… and 232 vereenigen
+  (`R1038_scan_readings.tsv`); "en verder een Griekse educatie" continues the list of things done for Constantine.
+  "verdient" (the parallel 306) gives no sense here.
+- **77^o still open.** p13: the codes 72°-84° stand right of the words Speculatie, Spreek, Men Spreekt, Staat, [long
+  entry], "Stans/Stanz" (77°), Ster…, …, de Staaten van het Rijk (80°), Stil (81°). The word before "diep stilzwijgen"
+  is not a known Dutch word as read; "steeds" would fit the sense and the place but not the letters. Left open.
+- **The line lost at the top of image 5417** stays open (needs a better photograph).
+
+Quotation for the Lasry list (30 Sept 2026): "Of nu de Keizer in dezen met haar oprecht handelt, [dan] of hij daardoor
+maar zoekt om haar te amuseren en aan zijn lijn te houden, gelijk velen met [grond] veronderstel[len], is niet wel zeker
+te ontdekken; maar het is zeker dat zij tot nog toe van de Keizer zeer [gunst]ig ingenomen is, en dat zij omtrent de
+bevordering van dit haar [favoriet] project op Zijne Majesteit veel rekent en staat maakt."
 
 ## R1040 (1787)
 

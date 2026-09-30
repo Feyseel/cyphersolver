@@ -85,15 +85,15 @@ Cipher: `39 27 34 36 19 27 37 35 36 19 27 36 25 37 25 29 20 21 21 25 36 19
 19 25 36 16 39 37 27 17 30 27 16 25 28 15 32 18 30 35 33 21 34 21
 20 27 34 35 17 17 19 25 34 29 16 27 36 21 27 20 25 36
 19 27 34 29 35 17 27 32 16 34 21 27 17 39 35 31 18 39 35 17 21
-25 30 27 32 33 21 39 19 27 28 37 35 17 36 20 21`
+25 30 27 32 33 21 36 19 27 28 37 35 17 36 20 21`
 
-Literal (M): **panstarostasereckiiesttupytalamsieiezelimacopostanowionegonimaniciedziedziedolublinatoteszprawdazebyludominikanowwtenczasiakestancowalzniawpolupowiedalmiptabrowski**
+Literal (M): **panstarostasereckiiesttupytalamsieiezelimacopostanowionegonimaniciedziedziedolublinatoteszprawdazebyludominikanowwtenczasiakestancowalzniawpolupowiedalmistabrowski**
 
-Interpretation: Pan starosta serecki? iest tu. Pytalam sie iezeli ma co postanowionego. Ni ma nic. Iedzie dzie? do Lublina. To tesz prawda ze byl u dominikanow wtenczas iakes tancowal z nia w polu. Powiedal mi p. Tabrowski?
+Interpretation: Pan starosta serecki iest tu. Pytalam sie iezeli ma co postanowionego. Ni ma nic. Iedzie ⟨dzie⟩ do Lublina. To tesz prawda ze byl u dominikanow wtenczas iakes tancowal z nia w polu. Powiedal mi Stabrowski.
 
-English: The starosta [serecki?] is here. I asked whether he has anything settled; he has nothing. He is going to Lublin. It is also true that he was with the Dominicans at the time when you danced with her in the field. Mr Tabrowski? told me.
+English: The starosta serecki is here. I asked whether he has anything settled. He has nothing. He is going to Lublin. It is also true that he was with the Dominicans at the time when you danced with her in the field. Stabrowski told me.
 
-Note: Word division corrected 30 Sept 2026 (NOTES item 7): iakes tancowal (jakes tancowal, 'when you danced', second person, so the dancer is Dunin) replaces iak estancowal ('his staying with a woman'). On the image 21 27 20 25 36 closes a line as one group and 19 27 34 29 35 17 27 32 opens the next. The first figure of the last group looks like 36 (s) on the image, not the transcribed 39 (p): Stabrowski? (M).
+Note: Word division corrected 30 Sept 2026 (NOTES item 7): iakes tancowal (jakes tancowal, 'when you danced', second person, so the dancer is Dunin) replaces iak estancowal ('his staying with a woman'). On the image 21 27 20 25 36 closes a line as one group and 19 27 34 29 35 17 27 32 opens the next. Re-checked 30 Sept 2026 (NOTES item 8): the first figure of the last group is 36 (s), its 6 closed at the foot, not 39 (p); transcription corrected, so the name is Stabrowski (no 'p.'). serecki: the seven figures 36 25 37 25 29 20 21 are clear on the image (the 20 retouched in darker ink); the reading of the letters is firm, the starostwo is not identified (not emended to serejski or sieradzki). ⟨dzie⟩: the syllable dzie is written twice (21 25 30 16 21 25 30 16 21 25 30 35, evenly spaced, no cancellation), taken as the writer's dittography (M); dialect dzie for gdzie ('somewhere') is the alternative.
 
 ## R7527
 

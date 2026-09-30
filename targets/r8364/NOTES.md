@@ -137,3 +137,17 @@ ship at the port, "Marcellis le Davison").
    R341-R354 were viewed: not the 1571 key. BL catalogue: Vespasian F VI not digitised. Its item 111 (St Valery ship)
    found.
 6. The port group aligned across five copies and read VALERY. The nine-sign run was retried: unread.
+
+## 2026-09-30 (quotation list for George Lasry)
+
+- Gaps around the port re-examined on the image (`img/z1.jpg`, f. 419r ll. 6-10) and against R8363. `tt` stands
+  after the six port signs and before "ymagined", written as two small t-like signs (Digges ℵ); it is the subject
+  of "imagined". No key or other occurrence, so only a sense supply: "[they]", the side that sent the gentleman
+  (grade I). The lone `3` in "yf 3 shoulde soe doe" is the person who would "come hither", i.e. Glasgow (James Beaton,
+  Archbishop of Glasgow) (grade I; `3` also follows "Glascoe" on l. 5). "This last gentleman" = the gentleman sent
+  from Glasgow's side, the one R8363 sends to St Valery. Hall stays a cover-name of unknown bearer. The nine-sign run
+  stays unread (no key material). Recorded on the page under the passage.
+- Quotation for the list: "… for by Davison's writing of a ship sent to [St] Valery, [they] imagined that Hall had a
+  meaning to provoke Glasgow to come hither; whereupon this last gentleman came to enquire of Hall some assurance,
+  if [Glasgow] should so do …", stopping before the unread nine-sign run.
+

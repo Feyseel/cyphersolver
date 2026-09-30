@@ -79,6 +79,31 @@ A final edition requires retranscribing the 2 cipher leaves directly, group by g
 The result above is enough to identify the system, reverse the catalogue's sender/recipient direction, attribute the
 writer with high probability, and establish the subject of the hidden text.
 
+## 30 Sept 2026: closing lines of p. 278 transcribed afresh and read continuously
+
+For Lasry's list of quotations (the old quotation was four M fragments), lines 10-18 of p. 278 (DECODE image 4844,
+`R902_p2.png` in the main checkout) were transcribed group by group from the image (`tr/R902_p278_l10-18.txt`,
+196 groups) and decoded with the corrected R639 table of targets/rakoczi1704 (`decode_tr.py`). Every group that is
+not a filler has a value. Reading and translation: `R902_p278_reading.md`. The passage:
+
+> On se borne présentement à se plaindre de la conduite de Vostre Altesse à l'égard des affaires de la Pologne, et
+> de certains discours qu'elle doit avoir tenus en présence de gens qui en ont rendu compte, asseurant qu'elle
+> avoit dit que, prenant les intérêts de la Pologne autant à cœur que ceux de la Hongrie, elle estoit résolue de se
+> sacrifier elle-mesme s'il le falloit pour affranchir la liberté polonoise opprimée par les Suédois en faveur du
+> Roy Stanislas. Je suis avec un très profond respect …
+
+So the 'someone taking Poland's interests to heart' above is Rákóczi himself, as reported to the Swedes; the
+'Hongrie' is 517 (DECODE's 527 would be Tekeli). Findings:
+
+- DECODE's '3^' is this hand's 5 and its '1^.' the raised 1. Read that way its digits are mostly right; the old
+  `decode.py` took 3^ as 3. Its real slips here are the curled 1 before 7/0 read as 2 (273 for 173 de, 276 for
+  176 di, 278 for 178 du, 204 for 104 U), a few single figures (325/315, 404/407, 200/100, 527/517) and groups run
+  together without the point.
+- 212 = Fa (C: the F row is the syllable series; faveur, falloit); 93 = st (C: Stanislas; 'obstacle' in R912).
+- An underlined number keeps only its first syllable (C, eight cases): 342_ pren-ant, 123_ af-franchir,
+  507_ Polo-noise, 343_ pres-ence, 124_ Al-tesse, 160_ Com-pte, 424_ tre, 344_ pro-fond.
+- Line-opening 125, 127 and 670 are fillers here, like the 5xx groups at line ends.
+
 ## Sources checked
 
 - DECODE R902 (ciphertext and address leaf), R639 (key), R852 and R912 (same-key comparators).
@@ -89,7 +114,7 @@ writer with high probability, and establish the subject of the hidden text.
   especially at the Swedish and Polish courts.
 
 ## Remaining gaps
-- R902 (pp. 277-279), ~88 unparsed or impossible groups and the continuous diplomatic text - blocker: not-attempted; residue is DECODE transcription slips (one-digit errors, joined groups); no fresh group-by-group transcription from the two cipher leaves has been made, though the images were viewable through the project account
+- R902 p. 277 and p. 278 lines 1-9, ~88 unparsed or impossible groups and the continuous diplomatic text - blocker: not-attempted; residue is DECODE transcription slips (one-digit errors, joined groups, 3^ = 5); p. 278 lines 10-18 were retranscribed from the image on 30 Sept 2026 and read in full, the rest not yet
 
 ## Escalation
 - [x] siblings: same-key comparators R852 and R912 read; DOC files R633-R646 fetched
@@ -97,4 +122,4 @@ writer with high probability, and establish the subject of the hidden text.
 - [x] known-keys: score_keys.py tested NAH G15 keys; R639 (Bonac et Graffei) fits 92.1% of groups
 - [x] print: Thaly, Rákóczi leveleskönyvei II (1873), Benda 1960, Études sur François II Rákóczi: letter not printed
 - [n/a] key-rebuild: key table R639 is complete and certain; the residue is transcription error, not missing key values
-- [ ] retry: not done — retranscribe the two cipher leaves group by group from the DECODE images and rerun decode.py
+- [ ] retry: in part — p. 278 lines 10-18 retranscribed from the image and read (30 Sept 2026, decode_tr.py); p. 277 and p. 278 lines 1-9 still to do the same way

@@ -89,10 +89,23 @@ year's respite is asked, where troops are already levied and a contribution and 
 
 The second half is the argument. If the other side is *reprimirt* and the adversary strengthened with so
 considerable a reinforcement while Catholic power is diminished, then "den Catolischen ins gemein … in kurzer
-Zeit" nothing will be left to secure them against "Einfal, Gwalt und Betrangnus". He hopes for the common
-union (*gemeine Zusammensetzung*) for the conservation of the Catholic religion and "der Seelen Seligkeit" for
-posterity; his agent's relation shows that a resolution is needed, and levies are to be feared "für dem
+Zeit" nothing will be left to secure them against "Einfal, Gwalt und Betrangnus". Against it he sets the common
+union: "Ich vermeine, das die gemeine Zusammensetzung zu Conservation unser und in kurzer Zeit unser catolischer
+Religion und Seelen Seligkeit … bei der Posteritet" (the conservation of us and soon of the Catholic religion and
+the salvation of souls, for posterity); his agent's relation shows that a resolution is needed, and levies are to be feared "für dem
 Frühling". A closing passage names **Alexandro**, the King, and "die Austilgung der ca[t]olischen Religion".
+
+## Corrections
+
+- **30 Sept 2026 (while filling the gaps in the quotation for Lasry's list).** P8.15-P8.20 re-checked on the image
+  (`kaa4591/img/IMG_R9426_I44572_P8.jpg`, rotated 180). The clear words before the cipher on P8.15 are "Ich
+  vermeine, das die" (one descender, not the three of "hoffe"); "Ich hoffe" was a slip of the first transcription,
+  corrected in `transcription.txt`, `reading.txt`, the reveal file and the page. The words the quotation cut between
+  "Conservation unser" and "catolischer" are P8.17-18 `54 40 50 18 48 | 248 | [in kurzer zeit] | 54 40 50 18 48`
+  = "unser und in kurzer Zeit unser" (the clear words are written "in kurtzer zeit" run together; 248 = und as
+  established). The sentence reads without a cut: "Ich vermeine, das die gemeine Zusammensetzung zu Conservation
+  unser und in kurzer Zeit unser catolischer Religion und Seelen Seligkeit darab bei der Posteritet bis dahin hier
+  nötig erachtet werden" (*unser* is the genitive "of us"). No key value changed.
 
 ## Remaining gaps
 

@@ -32,7 +32,7 @@ the [?] to ruin [?], and I have a negotiation about her [or: Your Excellency] wh
 Clear: "Io vi scrissi ultimamente Ill.mo S.re uno certo caso acaduto mi et non li dissi piu oltra per alhora;
 adesso lo diro piu brevemente che io potro. Mons.r"
 
-A1-A5a **'l fa instantia a [? ?] de ven[i]re al servicio loro, [? ?] le mie ... malissimo satisfato di lui; ha
+A1-A5a **'l fa instantia [a m]e de ven[i]re al servicio loro, o[?] le mie ... malissimo satisfato di lui; ha
 mandato a dirlo al [s]ignore Cesare e farli grande oferte.**
 
 Clear: "Vida V. Ex. che tratti sono questi"
@@ -42,6 +42,12 @@ A5b-A6 **essendo seguito la [? ·] icon [?] uorano a tenderui.**
 Clear: "Hora lassamo andare questi mei particulari; a qualche tempo faro cognoscer a V. Ex. che non mancaro al
 debito mio ..."
 
+- 30 Sept 2026: the cipher has no separate "a" after "instantia" (hex pi I | l k p phi J ob Th L J = "l fa instantia",
+  then `y S`). "[a m]e" is now printed as a conjecture, grade I: `y S` = "me" (S, a blotted star, occurs only here,
+  so "e" is contextual too), with the preposition taken as written once with the last "a" of "instantia"; the
+  clear sentence before the cipher ("uno certo caso acaduto mi") says the case concerns the writer. A2 "o[?] le
+  mie": q = o is sure; no single letter for `y` gives Italian there (m, b, n, e, a, i, v, g, d, s all tried by
+  hand), so the A2 place stays open.
 - "a [? ?] de venire": `y S` = "me" or "mi" reads naturally ("fa instantia a me de venire al servicio loro"), but
   `y` then gives "o m le mie" in A2, which is not Italian; the annealer prefers `y` = b ("o b le mie"), which does
   not read either. Both `y` places are counted unread.

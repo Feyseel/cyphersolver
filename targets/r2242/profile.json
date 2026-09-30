@@ -179,12 +179,21 @@
    "what": "p3-p4 decrypted with the R1892 key: alliance, scattered troops, Basel ratification, ambassadors to Paris, Robespierrism.",
    "result": "worked",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "reading",
+   "what": "Word signs in p3-p4 read from context and re-checked on the photographs: script L = uit, flagged D-shape = van, phi = Frankrijk (I); perp = om (M, also fits R1892 p2); the ratification passage and the Robespierismus sentence now read without gaps except the sign '&'. Dating consequence: the treaty 'with France' puts p3-p4 after 16 May 1795.",
+   "result": "partial",
+   "date": "2026-09-30"
   }
  ],
  "outcome": {
   "method": "read after matching with key from external sources",
   "method_basis": "The 6x6 digit-square key the project had recovered ciphertext-only for R1892 (KHA Prins Willem V inv. 339) read this letter (KHA Koning Willem I XVIII-3) unchanged, as DECODE's own note on R2242 suggested; the clear Dutch written under page 1 confirmed it and fixed about a dozen word signs.",
-  "contribution": ["transcription", "key extended or corrected"],
+  "contribution": [
+   "transcription",
+   "key extended or corrected"
+  ],
   "class": "read in part",
   "fraction_read": 0.93,
   "fraction_read_method": "measured",
@@ -200,9 +209,9 @@
   "notes": "All digit pairs map with the R1892 key; about twenty word signs on p3-p4 unread; several doubtful pairs in the LLM transcription.",
   "gaps": [
    {
-    "item": "about twenty word signs on p3-p4 (\u039b, \u221e, \u0394, \u03c6, script L, \u22a5 ...)",
+    "item": "about sixteen word signs on p3-p4 (Λ, ∞, Δ, &, < ...)",
     "blocker": "open-codes",
-    "detail": "only the p1 signs are fixed by the clear text under it"
+    "detail": "the p1 signs are fixed by the clear text under it, and script L, the flagged D-shape, φ and ⊥ were read from context on 30 Sept 2026 (grades I/M)"
    },
    {
     "item": "p3 line 1 and p4 line 8, doubtful pairs across p3-p4",

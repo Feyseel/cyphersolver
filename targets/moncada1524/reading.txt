@@ -17,7 +17,7 @@ hallaua, aporto en Tolon pensando que estaua por V. Md., de manera que amos a do
 y asi me ha sido referido.
 
 Mossior de la Mota me es venido esta noche, que es tres oras de noche, con vna letra de crehenna, la qual sera con
-esta, del <=D.> {duque de Borbon}; la crehenna es que <P#D> {me rogaua que le lleuase a España [here], <99>
+esta, del <=D.> {duque de Borbon}; la crehenna es que <P#D> {me rogaua que le lleuase a España [here], <99 = line-end nulls, 30 Sept 2026>
 diziendome [here] muchas razones para ello. Yo le he respondido que vna vez ponga el exercito de V. Md. en seguro,
 y que estas galeras no tienen pan} para dos dias, como lo tengo escrito a V. Md., y es forçado yr a Genoua a
 vituallarlas, y que despues de vitualladas se ha de veer {si el duque de Genoua querra dexar yr las galeras, y el

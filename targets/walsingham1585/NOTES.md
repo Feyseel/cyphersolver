@@ -104,3 +104,21 @@ with numbers glossed. R4838 and R4839 are left to CSP nos. 40 and 65, checked ag
 - [x] print: CSP Scotland viii checked page by page (nos. 40, 65, 106)
 - [ ] key-rebuild: not done — no anneal of the sign alphabet; would mean an English LM homophonic anneal on the ~120 signs and SP 52/38 copies for a crib
 - [ ] retry: not done — re-transcribe the [..] clear gaps and regrade the name codes
+
+## 2026-09-30 (quotation list for George Lasry)
+
+- R4840 f. 163 ll. 4-9 re-read on the DECODE image (IMG_R4840_I28147_P1, fetched again with the cookie, 3-4x crops).
+  The cut after "towards him" now reads: "with the [courage] to procure the practice of 27 and 40, which as he
+  professeth doth greatly [abuse] you, being altogether bent to [ruin] 11 course; and for himself he voweth to be
+  altogether at 3 devotion". Bracketed words are grade M (secretary hand: "couradge" with a crossed stroke; "abuse"
+  runs into the gutter; "ruine" four or five minims). The old transcription's "overthrow 11" was wrong: the
+  manuscript has a short word and "course" after 11. Wotton's reply of 30 Aug (R4842 f. 173) supports it: "I could
+  never perceive cause to suspect them [27 and 40] in the 11 course". "at the devotion [..]" was "at 3 devotion":
+  3 here is Gray's object of devotion, the Queen or England (M); Wotton's R4841 has both "divert him from 3" and
+  "convey him towards 3 ... into Fr.", so the NOTES table's "France" for 3 is not settled either way.
+- 28, 29, 36: CSP Scotland viii could not be rechecked (HathiTrust ssd view now behind a Cloudflare bot check;
+  archive.org `calendarofstatep0008vari` lending-only, full-text search refused; the Google Books API is over quota).
+  Wotton's R4842 pp. 1-2 were read for them: no use of 28, 29 or 36. They stay grade M.
+- Quotation for the list: the continuous opening of R4840 ("Sir, 39 doth complain … bent to [ruin] 11 course"), with
+  the numbers glossed.
+

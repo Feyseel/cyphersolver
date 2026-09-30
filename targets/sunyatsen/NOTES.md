@@ -10,12 +10,12 @@ unknown) — not attempted here (JACAR's archive host returns 403 to the browser
 through a *systematic* code condenser of the same family as Yamada Junzaburō's two known
 tables: 20 consonants in alphabetical order rotated to start at **l**, five vowel columns in
 the order **e a i o u**, numbered column-major 01–99, 00 (so l‑e = 01 … k‑e = 20, l‑a = 21 …
-k‑u = 00). No additive. 41 of ~44 characters read; the last three codes are garbled in the
-received copy.
+k‑u = 00). No additive. 42 of ~44 characters read (港 restored 30 Sept 2026 from a Morse slip, M); the last
+word, about two codes, is garbled in the received copy.
 
 ```
 潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府。
-我軍力薄，暫由翼□支持。文慧返……［3 codes garbled］                （田中）
+我軍力薄，暫由翼□支持。文慧返［港］……［last word garbled］         （田中）
 ```
 
 "Chao[zhou] city has been declared independent by Mo Qingyu. Our army too has recovered
@@ -101,7 +101,7 @@ four misread/uncertain ones. ku = 00 (亦 0076, 力 0500) fixes the u-column.
   Probably a name or unit that "supported" the revolutionaries after Mo displaced them.
 * **文慧 (2429 1979)**: read as sent; perhaps a person ("文慧 returns [to Tokyo?]"). 2429 is
   also Sun Wen's own signature character.
-* **Tail** after 返: `zpo ngobunibai` — ~3 codes, unrecoverable from this copy.
+* **Tail** after 返: `zpo` = 港 (Morse slip, 30 Sept 2026, below); `ngobunibai` — ~2 codes, unrecoverable from this copy.
 * The Huang Xing telegram (B03050731500) is kana-based; with its filed plaintext it should
   yield to the same known-plaintext approach, but JACAR must be read by hand.
 
@@ -130,3 +130,27 @@ the point.
 The Ministry of Communications' intercept files (JACAR B03050088300 … B03050090200) hold dozens more telegrams
 in the same condenser family, each correspondent with its own key. See `y1916/NOTES.md` and `y1917/NOTES.md`. The Swatow
 operator original is not in B03050088300 or B03050088400.
+
+## Gaps revisited for Lasry's quotation (30 Sept 2026)
+
+Lasry asked for fewer gaps in the quoted text (翼□, the tail). Findings:
+
+* **Tail: `zpo` = 港 (M).** The sheet is clean copperplate (15 Sept), so the garble is in transmission, and a telegram
+  garbles in Morse, not in cursive. `p` is `.--.`; `a` + `n` sent without their letter space is `.-` `-.` = `.--.`.
+  So `ropezpo` = `ro pe za no` = 6604 3263 返港, "returns to Hong Kong". `morse_tail.py zpo 2` re-divides the Morse of
+  `zpo` with up to two space changes: exactly four strings decode to valid codes, all at one change (港 3263,
+  砉 4264, 彼 1764, 嫗 1277); only 港 makes sense after 返, and Hong Kong was the revolutionaries' base for the
+  Swatow rising. Grade M. It also accounts for the seven-letter "word": `ropezano` was eight letters.
+* **Tail: `ngobunibai` stays open.** The same re-division with up to four space changes gives no sensible
+  decoding (`morse_tail_out.txt`); the earlier letter-edit search (`tail.py`, and a three-edit unrestricted search
+  run today) gives none either. `ng` (`-. --.`) could be `y` (`-.--`) plus a dot, which would start `yo bu` = 電
+  ("telegraph", as in 電示 "wire instructions", 電知), but no continuation within a few element errors reads; this is a
+  possibility (I), not printed. About two characters are lost.
+* **翼□ (5068) stays open.** All one-letter substitutions of `xi to` that give valid codes (翼耗, 翼群, 翼老, 翼考, 翼耀,
+  翼翹, 翼江, 翼記, …) and all one-element Morse slips were listed: none is a word or a known name or unit in the
+  1916 Swatow events, and no Morse re-division of `xiqoxito` other than the received one gives valid codes. The
+  second character is left as □.
+
+Files: `decode.py` (emended string ends `ropezano`, note 42), `decode_out.txt` regenerated (42 characters; the old
+file's notes were one row off and are now on the right rows), `morse_tail.py` and `morse_tail_out.txt` added,
+`docs/sunyatsen.html` and `docs/reveal/sunyatsen.json` updated.

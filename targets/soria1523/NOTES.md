@@ -70,15 +70,24 @@ Soria changed ciphers in late July 1523: R9492's body is key A and its closing a
 - 13 Aug (R9497): Andrea Doria and the Prince of Salerno discontented with the King of France; Jeronimo Doria's
   approach; Antoniotto Adorno; the republic's capitulation.
 
+30 Sept 2026 (Lasry asked for gap-free quotations): R9497 block 1 collated sign by sign with the duplicate R9498
+(image P2, f. 583v). Corrections: 'pro...(prometido)' is 'quitado' (ꝑ° = q, -uitado in both copies: the King had
+taken the enterprise of Genoa from Doria and Salerno); 'pari[ente]' is 'uno' (R9498 writes the code pep ꝑ̄ where
+R9497 spells ▽yꝑ̄ 'uno', so Jeronimo Doria is 'uno de los principales de esta ciudad', not a kinsman); '[qua]tro'
+is 'quatro' (a tall capital L = q in both copies, distinct from the angular L = t); 'sob 7.' is 'quiere' (sob = quier,
+also R9491 'seb sob∞ cosa' = qualquiera cosa, M); 'xuf yic' = [hablado] (I, x-block runs F-L). New code values
+tun = parte, xap = le, pep = un. The code's initial consonants run in alphabetical stretches (keyB.md). Continuous
+text of block 1 in read_r9497_full.md.
+
 ## Open
 
 - Key-A codes rip (Venetians?), pur, qed (Swiss?), mul; key-B groups listed in docs/soria1523.html section 09.
-- R9496, R9498 not collated sign by sign. R9492 reading final: read_r9492_v2.md.
+- R9496 not collated sign by sign; R9498 collated for block 1 (30 Sept 2026). R9492 reading final: read_r9492_v2.md.
 
 ## Remaining gaps
 - key-A code words rip, pur, qed, mul, dus, cop and the opener TZ - blocker: open-codes; 1-3 occurrences each, rip/pur/qed guessed from context only
 - key-B groups yac, fob, taf, tu, pel, pug, zib, sib, xif, sab, 7 pes, per (and guessed paf, tin, sud, xa) - blocker: open-codes; not attested in the R9844 crib
-- R9493, R9496, R9498 sign-by-sign collation - blocker: not-attempted; duplicates, only spot-checked
+- R9493, R9496 sign-by-sign collation, and R9498 beyond block 1 - blocker: not-attempted; duplicates, only spot-checked
 - R9491 lines 1-7 and the personal names in R9494 (grade M) - blocker: open-codes; key-B values not confirmed
 
 ## Escalation

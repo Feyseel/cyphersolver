@@ -170,6 +170,13 @@ Nos. 1, 2, 26, 27, 28 are not among the 25 pieces photographed. The fascicle cov
   Undated. Verification pass (agent E, `transcripts/no25_reading.txt`, transcription rev. 2): Y and X are two glyphs
   (Y = m, X = r), XB = z, G was S; **477 of 496 cipher signs (96.2%) in words read as Italian**, 18 signs in two
   unclear words ('s'hadra', 'o chon grediamo'), 1 code sign TH unread. Meets the read bar.
+- 30 Sept 2026 (quotation list for George Lasry): L03 w1 'presa' re-checked on the DECODE image (4000 px). The
+  second sign is the hooked X (r), which rules out 'spesa'; the blotted first sign is a loop crossing a stem, the
+  shape of Q (p, as in 'prosimo' L04 and 'pensiamo' L10), not the plain circle-and-stem PHI (u/v/b), which would give
+  no word. So 'senza altra presa fare' stands: letters r-e-s-a H from the key, p M (blotted). Sense: 'without
+  making any further halt' (or 'taking', presa = seizure); the page's 'without further delay' is kept. The
+  opening, 'Noi aviamo chompr(e)so ... e l'altro dì sarano a Radichondoli', now reads as one continuous passage
+  with no gap and is used for the quotation. No count changes (presa was already counted as read).
 
 ## No. 24 (R4812): same system as no. 6 (probable)
 

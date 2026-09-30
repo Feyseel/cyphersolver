@@ -264,7 +264,8 @@
    "kind": "solver",
    "what": "Language-model anneal over the 1519 columns with 9 fixed values; R1128 (21% code words) not read.",
    "result": "failed"
-  }
+  },
+  {"date": "2026-09-30", "kind": "reading", "what": "R1139 second pass for the quotation list (30 Sept): signs re-checked on the image, three transcription errors corrected, key21 counts + it-cinquecento beam search proposals checked sign by sign; L05-L07 now continuous ('li go fato moto deli danari del suo de[b]ito, come mi dise messere [Alfonso]. Lui m'ha resposto, dice de voler andar in Italia'), L08-L09 in phrases; L01-L03 still phrases (r1139_pass2.txt).", "result": "partial"}
  ],
  "outcome": {
   "method": "key recovered based on plaintext from external sources",

@@ -209,12 +209,23 @@
    "kind": "verification",
    "what": "Read bar checked three ways: 0.95 line-level with neighbour context, 0.92 by a 25-character window, 0.96 by hand audit; 12 tokens (0.9%) still have no value.",
    "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "what": "P1 L07-08 re-checked on the image: 5349 read as papali from its alphabetical place after 5347 papa (I); 6202 'bi' before 'instanza' read as a one-digit slip for 6222 'pi' = più (I). Key file unchanged.",
+   "result": "partial",
+   "date": "2026-09-30"
   }
  ],
  "outcome": {
   "method": "key recovered based on plaintext from external sources",
   "method_basis": "The key was rebuilt here by EM alignment of a different letter, DECODE R1874 (Mocenigo, Madrid, ASVe Busta 30), with its contemporary decipherment, and then applied to R1862 (Busta 27, Rome), where about 30 word codes were added from context and alphabetical order and three values corrected.",
-  "contribution": ["transcription", "key recovered", "key extended or corrected", "sender or date identified"],
+  "contribution": [
+   "transcription",
+   "key recovered",
+   "key extended or corrected",
+   "sender or date identified"
+  ],
   "class": "read",
   "fraction_read": 0.991,
   "grades": {

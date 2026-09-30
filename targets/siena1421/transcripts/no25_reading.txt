@@ -95,3 +95,8 @@ OPEN POINTS
   - L10 "S + H S J PH2 X PI 3 I F Y S" = o chon grediamo: signs clear.  "chon" + "grediamo" (crediamo with
     g?) or a slip.  Not settled.
   - TH: single code sign, unread.
+
+30 SEPT 2026 CHECK (quotation list)
+  L03 w1 re-examined on the 4000-px DECODE image: X (r) certain, so 'spesa' is excluded; the blotted first sign is
+  a loop crossing a stem, as Q (p) in 'prosimo' L04 and 'pensiamo' L10, not PHI.  'presa' is kept: p graded M
+  (blotted), r-e-s-a H.  'senza altra presa fare' = without making any further halt (or seizure) before leaving.

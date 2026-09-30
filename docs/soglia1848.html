@@ -7,7 +7,7 @@
 <meta name="description" content="The ciphered dispatch of Cardinal Soglia, Secretary of State, to the nuncio Viale Prelà at Innsbruck, Rome 15 June 1848, intercepted and printed as a block of 955 digits by Mazzini's L'Italia del Popolo with a prize for its reader, posted on Cipherbrain in 2014, where no decipherment was found. The key was recovered from the ciphertext alone: 5 is the word break, pairs of the other digits are letters and syllables from a 64-cell table, 8XXX is a one-part code in alphabetical order. A counter-order: the nuncio is to stay with the Emperor and not ask for his passports. By the day it was written he had already left Innsbruck for Frankfurt and Cologne. Eleven code groups stay open.">
 <link rel="stylesheet" href="style.css?v=20260924b">
 <meta name="date" content="2026-09-18">
-<meta name="last-modified" content="2026-09-24">
+<meta name="last-modified" content="2026-09-30">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -45,7 +45,7 @@
 <div class="parties"><figure class="party sender"><img src="portrait_cardinal-soglia.jpg" alt="Cardinal Soglia" title="Cardinal Soglia: Portrait, unknown artist, 19th century. Wikimedia Commons, public domain." loading="lazy"><figcaption><span class="role">from</span>Cardinal Soglia</figcaption></figure><span class="arrow" aria-hidden="true">&rarr;</span><figure class="party recipient"><img src="portrait_viale-prela.jpg" alt="Viale Prelà" title="Viale Prelà: Lithograph by Josef Kriehuber, 1853. Wikimedia Commons, public domain." loading="lazy"><figcaption><span class="role">to</span>Viale Prelà</figcaption></figure></div><!-- /parties -->
   <p class="sub">Intercepted in the post at Turin and printed by Mazzini&rsquo;s <em>L&rsquo;Italia del Popolo</em>, Milan, 30 June 1848, as 955 digits with &ldquo;a prize of some size for the best interpreter of these figures&rdquo; · posted on Cipherbrain in 2014 as an open challenge; no decipherment was posted there, and none was found elsewhere</p>
   <p class="sub">The key was recovered from the ciphertext alone: 5 is the word break, pairs of the other digits are letters and syllables, 8XXX is a code in alphabetical order. Everything decrypts except eleven code groups. The dispatch is a counter-order telling the nuncio to stay with the Emperor, written the day after he had left.</p>
-  <p class="meta">Daniel Bourdeau &middot; posted <time datetime="2026-09-18">18 September 2026</time> &middot; updated <time datetime="2026-09-24">24 September 2026</time></p>
+  <p class="meta">Daniel Bourdeau &middot; posted <time datetime="2026-09-18">18 September 2026</time> &middot; updated <time datetime="2026-09-30">30 September 2026</time></p>
 <p class="outcome">Method: <a href="glossary.html#ct">key recovered from ciphertext-only</a> &middot; Extent: complete</p><!-- /outcome -->
 <div class="seal solved" aria-hidden="true"><span>ciphertext-only</span></div>
 </section>
@@ -244,6 +244,18 @@ converted to a stretch of the sorted word list (<code>windows2.py</code>, piecew
 8904 lies above every word in the list, which in a code of this kind may be <em>z</em>-words or an appendix of numbers or names. Filling these needs the 1848 papal
 codebook or other messages in the same code: the Secretariat of State and the Vienna nunciature archive in the Vatican, or Austrian intercepts in the
 Haus-, Hof- und Staatsarchiv, which Ramliden pointed to in 2015.</p>
+<p>Tried again on 30 September 2026, when Lasry asked for fewer gaps in the quoted passage. The code evidently starts at 8000: a line through
+<em>Colonia</em> (8116) and <em>Imperatore</em> (8319) in the sorted word list puts the first <em>a</em>-word at 7996&ndash;8005. Interpolating from 8000 through
+<em>Colonia</em> and the firm anchors predicts <em>col</em> at 8113&ndash;8114 and <em>come</em> at 8120&ndash;8122, both where the context readings sit, and narrows
+the first pair: 8093 falls at <em>ce</em>- (<em>cenno</em> is predicted at 8093&ndash;8097) and 8102 at <em>ch</em>&ndash;<em>ci</em>. The words the sense asks for
+after <em>Le partecipo</em> and before <em>del Padre</em> are all excluded by position: <em>volont&agrave;</em>, <em>mente</em>, <em>desiderio</em>, <em>ordine</em>
+(8424 is <em>ordin-</em>), <em>comando</em> and <em>commissione</em> fall after <em>Colonia</em>, <em>beneplacito</em> well before. <em>Cenno</em> (&lsquo;per cenno del
+Santo Padre&rsquo;, at the Holy Father&rsquo;s behest) fits 8093, but no <em>ch</em>&ndash;<em>ci</em> word then makes a phrase with it, so the pair stays open. For
+[8136], <em>presa</em> (&lsquo;delibera presa&rsquo;) is a <em>p</em>-word and cannot sit at 8136; the window is early <em>d</em> (<em>da</em>&ndash;<em>dar</em>), and
+the clause reads complete without it. [8131] is also early <em>d</em>; an adverb such as <em>d&rsquo;assai</em> (&lsquo;interessa d&rsquo;assai al Padre cotesta nuova istruzione&rsquo;,
+this new instruction matters greatly to the Holy Father) would make the sentence grammatical, but that is a conjecture of sense (I), not a reading.
+A 1,000-word Italian list with the same interpolation also predicts <em>cotesta</em> near 8145&ndash;8159, 23 to 37 above its place at 8122: that context reading
+is the least supported of the <em>c</em>-group.</p>
 
 <h2 id="residuals"><span class="num">08</span> What remains uncertain</h2>
 <ul>

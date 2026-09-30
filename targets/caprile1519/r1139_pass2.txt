@@ -1,0 +1,36 @@
+# R1139, slip of 6 April 1521 (ASMo Ungheria b. 4, 1520-21 no. 13): second reading pass, 30 Sept 2026
+# Method: key21.json values, the image (img/IMG_R1139_I5752_P2.png; crops seg21/R1139_Lnn_k.png) re-checked sign by
+# sign where the mechanical decrypt (decrypt21_raw.txt) does not read, and a beam search over the key's sign
+# distributions with the it-cinquecento character model (scratch script, not kept) to propose letters; every
+# proposal below was checked against the signs. Spelling as enciphered; word division and punctuation mine.
+# Grades: C = key values throughout; M = one or two signs read against the key majority, or a transcription
+# correction; I = sense only. [x] = supplied or doubtful letters; [..] = still unread.
+#
+# Transcription corrections found on the image:
+#   L03 "custo p ss" -> the sign after custo is the tall-stem r (= d), so "custode"; L05 "q CE" in "teneua | per"
+#   -> the looped sign with a long tail below the line is EL (= p); L05 "UT PHI" in "andata" -> the sign is the
+#   crossed p (= n); L05 end "n" in "ss n B y" is a pointed caret (LAM-like), not the arch.
+
+L01  il custode [..]a[n]de a [B]uda(?), come i[o] scrisi, [è] tornato governator de [..]            M / I
+L02  [..] ogni cosa, per[ché] io [..] si è tenuto Agria in [o]fic[i]o(?)                             M
+L03  [..] credo [..] ogni [..]; qualche cosa a le ma[n] di[l] custode; per ancora si n'è in-          M
+L04  trato [..] in castelo, et cosi la venuta sua in Italia [..] ve i scriti, qua[l]                 C (venuta sua in Italia) / M
+L05  li teneva per ferm[a] e andata in [v]ero; il che vedendo io, [..]                               M
+L05- li go fato moto deli danari del suo de[b]ito, come mi dise messere [Alfonso].                    C / M
+L07  Lui m'ha resposto, dice [de] voler andar in Italia quando al dare [..]                          C
+L08  [..] Milan [..] andiate; parlaremo a longo sopra ciò; [..]                                      C
+L09  [..] danari in [p]resto(?) per andar[vene] [..] vedrò quel mi dirà, e il tuto reportarò a V. Ex.  M / I
+
+Notes on single words:
+- "go" (L05, w = g, nine times g elsewhere: governator, ogni, longo) = Venetian-Ferrarese "gh'ò", I have.
+- "fato": f = f (the key's f is t 14 times, f 3 times); "moto" = motto ("far motto" = to mention).
+- "de[b]ito": r y o o L h = d e _ _ i t o; the lone o is b twice in the EM counts. "debito" C/M.
+- "[Alfonso]" (L06): the enciphered letters are a l p o n s o; the & sign is p in resposto, sopra, per (five times),
+  so either an encipherer's slip for f or another name. Alfonso Cistarelli, the cardinal's agent at Eger in 1520
+  (catalogue 158, R1137), fits. M.
+- "dice [de] voler": the sign is f (t); "dice te voler" as enciphered.
+- "reportarò a V. Ex." (L09-L10): r e p o | t a r o a u o x, with the last sign x; grade I for "V. Ex.".
+
+Quotation for the list (continuous from L05 to L07, one skip to L08):
+"… li go fato moto deli danari del suo de[b]ito, come mi dise messere [Alfonso]. Lui m'ha resposto, dice [de] voler
+andar in Italia … parlaremo a longo sopra ciò …"

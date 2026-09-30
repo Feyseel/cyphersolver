@@ -178,6 +178,12 @@
    "what": "Seen on the image while checking, not yet applied: a 24-sign cipher run after 'qu'il advisera' is missing from guiche_ct.txt and gives 'a la pratique qu'aves entendu' with the key; the sign transcribed t in L3 and in '+arna+e' is a plain cross distinct from the barred r, and read as b gives 'l'ambassadeur' and 'sieur Barnabe Adorne'; F c gives ss in 'ambassadeur' and 'aussi' (L12). Needs a re-transcription pass.",
    "result": "partial",
    "date": "2026-09-30"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "reading",
+   "what": "La Guiche f. 60v re-read on the Gallica image to fill the quotation gaps for Lasry's list: the missing 24-sign run after 'qu'il advisera' transcribed (L2x) and read 'a la pratique qu'aves entendu' with the key unchanged; the plain cross split from the barred cross as b ('l'ambassadeur', 'Barnabe Adorne' x2); ff+c = ss ('aussi'); 'du service' in L10; the four-dot sign after 'mal satisfaict de' transcribed, one occurrence, conjectured 'l'Empereur' (grade I) from the count's imperial service; clear bridge lines read so the reading runs from the Sienese envoy to Santa Fiora.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -192,9 +198,9 @@
   "notes": "La Guiche read in part; Noailles read at the time; Seure open. fraction_read 0.17 is an estimate by cipher signs from the notes (La Guiche about 350 of 406, Noailles about 150 signs read at the time only in part, Seure about 2,000 signs none), not a measurement.",
   "gaps": [
    {
-    "item": "La Guiche f. 60v: the name 'sieur +arna+e', signs c and 5",
+    "item": "La Guiche f. 60v: the four-dot code sign (::) after 'mal satisfaict de' and sign 5",
     "blocker": "open-codes",
-    "detail": "sign t there may be a plain + distinct from barred r; c and 5 occur only once or twice"
+    "detail": ":: occurs once (conjecture 'l'Empereur', grade I), 5 only in the struck lines; the name is read 'Barnabe Adorne' (30 Sept 2026)"
    },
    {
     "item": "La Guiche f. 60v: the two struck-through first lines",

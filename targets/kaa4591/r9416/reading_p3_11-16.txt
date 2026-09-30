@@ -1,0 +1,75 @@
+# R9416 f.263 recto (image _P3, rotated 180), lines 11-16: normalised reading, 30 Sept 2026
+#
+# Made to fill the gaps in the quotation for Lasry's list. Source: p34_v2.txt (the v2 transcription), re-keyed by
+# hand with the provisional key below, every word checked against the image at full resolution
+# (kaa4591/img/IMG_R9416_I44531_P3.jpg), and lines 11-12 against the faint contemporary interlinear gloss
+# (g11/g12 in p34_v2.txt, re-read on the image). Grades: H = value from the recovered key; C = agrees with the
+# contemporary gloss; M = a look-alike sign re-assigned from the image or the word; I = inferred.
+#
+# Key used (v2 codes): z e | f o | j z | H u/v | K k | s a | q a | O t | Q n | b d | B l | > m | A g | D f/v |
+# y r | m i | io e | ng ch | g h | a b/p | p b/w/u | 4 s | c t
+#
+# The look-alike split the NOTES asked for, as far as these lines go: the v2 code z covers two shapes, the
+# zig-zag with one crossbar (e) and a dagger with two crossbars (s). The two-bar form is s in "daraus", "Bresburg",
+# "ist", "grossem", "sich", "das", "Fasnacht" (M, each fixed by the word; lines 11-12 also by the gloss). In the same
+# way b covers d and l ("tail", "tailn", "treffliche", "erfolgt"), and a few f/z/j/A signs of the first pass are
+# re-assigned by the image ("anzaigt", "erfolgt").
+
+## Normalised text (cipher throughout; [ ] = supplied)
+
+... daraus der Tag zu Pressburg erfolgt ist, dahin auch des [Ferd.] Tail mit grossem Pomp kummen sint, auch
+volmechtigen Gwalt anzaigt, und sich zu beden Tailn entliche Vertrage versehen. Es hat sich aber zutragen, das am
+Ertag in der Fasnacht von dem turkischen Kaiser ain treffliche Botschaft ankummen ...
+
+English: ... from which the diet at Pressburg followed, whither also [Ferdinand's] party came with great pomp and
+showed full powers, and on both sides a final treaty was expected. But it came about that on Shrove Tuesday a
+distinguished embassy arrived from the Turkish emperor ...
+
+## Word by word
+
+11  bqy spz        daraus          H/C  gloss "das aus"; p = u (the w/u sign), z = the two-bar s
+    bzyOqA         der Tag         H/C
+    jH             zu              H/C
+    ayiozaHyA      Bresburg        H/C  gloss "bresburg"; z = two-bar s (the old decrypt's "breeburg")
+    zyDzbAO        erfolgt         M/C  gloss "erfolgt"; the 4th sign is the o-dagger, b = l
+    mzO            ist             M/C  z = two-bar s
+    bs gmQ qHng    dahin auch      H/C
+12  bzz            des             M/C  gloss "des"
+    g              [Ferd.]         C    code sign; the gloss over it reads "Ferd" (faint; "Fed" possible). Elsewhere
+                                        "der g" is a person; the identification rests on this one gloss.
+    Osmb           Tail            M/C  gloss "tail"; b = l
+    cI)            (not rendered)       three signs (circle with dot, I, a closing curve), passed over by the
+                                        contemporary gloss, which runs "des Ferd tail ... mit grossem bumbb kummen
+                                        sint"; a null group or abbreviation mark. Not counted as read.
+    >mO            mit             H/C
+    Ayfzio>        grossem         M/C  f = o, z = two-bar s
+    aH>aa          Pomp            H/C  cipher and gloss both spell it "bumbb"; normalised
+    KH>>zQ 4mQO    kummen sint     H/C
+    qHng           auch            H/C
+13  Kzb>iongOmAzQ  volmechtigen    M    first sign is the plain double post (H, u/v), not K; b = l
+    ApqbO          Gwalt           M    b = l
+    sQfqmf?O       anzaigt         M    on the image the 3rd sign is the looped z (j) and the 6th is g (A)
+    HQbzmng        und sich        M    b = d, z = two-bar s
+    jH aiobzQ OsbQ zu beden Tailn  H/M  b = l in "Tailn"
+14  ioQOBmngz      entliche        H
+    DzyOysAz       Vertrage        H
+    DioyjzgioQ     versehen        M    written "verzehen" (looped z); normalised
+    zz gsO zmng.   es hat sich     M    z z = e + two-bar s; z = two-bar s in "sich"
+    qpioy jH Oys=  aber zu tra-    H
+15  AioQ           -gen            H    "zutragen" (hat sich zugetragen)
+    bsz            das             M    z = two-bar s
+    q> zyOsA       am Ertag        H    Ertag = Tuesday
+    mQ bioy        in der          H
+    DqzQqngO       Fasnacht        M    z = two-bar s; "am Ertag in der Fasnacht" = Shrove Tuesday
+    {struck}                            one struck sign
+    HfQ bz> OHyK.  von dem Turk-   H
+16  mfngioQ        -ischen         M    f = two-bar s
+    KsmzioyS       Kaiser          H/M
+    qmQ            ain             H
+    OyioDbmngz     treffliche      M    b = l
+    azOfzngsDc     Botschaft       M    signs mixed in the first pass; the word is certain
+    qQ KH>>zQ      ankummen        H
+
+Line 17 begins "ist" (read "mfqO", doubtful) and continues "mit vy fngioDDio" (perhaps "mit ir Scheffe[n]",
+"with their ships", not settled), "welcher dem [T] ain Brief vom Kaiser bracht hat, welcher in Latein transferirt
+ist, desselben Copei ich E. F. G. hiemit schick" (lines 17-19, not yet checked sign by sign).

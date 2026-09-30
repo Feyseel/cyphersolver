@@ -18,15 +18,17 @@ RECEIVED = ("baxuxupeja qicijinati bemigasiqi jakebiqoye kufohemige tuxaboboba "
             "tijaqixiqo xitohatula xopavajejo ropezpo ngobunibai")
 # Emended reading of the letters (cursive misreadings by the receiving clerk):
 #   xu -> xe (潮城)      e  -> c  (莫)        he -> ne (光復)      ha -> na (支持)
+# Morse slip in transmission (30 Sept 2026): zpo = za no, p (.--.) being a (.-) + n (-.) run together -> 港
 EMENDED  = ("baxuxepeja qicijinati bemigasiqi jakebiqoye kufonemige tuxaboboba "
             "gedocijiga poyevayoxa leyoleveke biromapesa vorobenife xikebiqoye qekufiyaqa "
-            "tijaqixiqo xitonatula xopavajejo rope")
-GARBLED_TAIL = "zpo ngobunibai"
+            "tijaqixiqo xitonatula xopavajejo ropezano")
+GARBLED_TAIL = "ngobunibai"
 NOTES = {2: 'received xu pe = 9004 (no such code); xe pe = 1004 城 — 潮城 is the term used in Mo\'s own telegram of 27 March',
          12: 'received he mi = 1842 怩; ne mi = 0342 光 (光復 "recovered")',
          17: 'ei in gedoEIjiga: e is a misread c; ci ji = 5459 莫',
          36: '5068 as received; 翼X unresolved (to = 68 unconfirmed elsewhere)',
          37: 'received ha tu = 3888 璸; na tu = 2388 支 (支持)',
+         42: 'received zpo; Morse p (.--.) = a (.-) + n (-.) with the letter space lost: za no = 3263 港 (返港, M)',
          }
 
 def decode(letters):
@@ -50,7 +52,7 @@ print()
 print('Plain text (%d characters):' % len(text))
 print(text)
 print()
-print('Punctuated: 潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府。我軍力薄，暫由翼□支持。文慧返……[3 codes garbled]')
+print('Punctuated: 潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府。我軍力薄，暫由翼□支持。文慧返[港]……[last word, about 2 codes, garbled]')
 print()
 # table
 print('Recovered condenser table (row = consonant, column = vowel):')

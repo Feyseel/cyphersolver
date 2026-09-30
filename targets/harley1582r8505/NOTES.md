@@ -112,6 +112,23 @@ Ten numbers occur, written between dots, and none is fixed by the text; but thre
 6, 26, 36, 51, 57, 99 and 721 (the last in "le sul mariage d[e] **721**") occur once or twice with nothing to fix
 them. They are recorded as open codes.
 
+## Corrections
+
+- **30 Sept 2026 (filling the gaps in the quotation for Lasry's list).** f. 263v lines 3.18-3.24 re-read on the image
+  (`img/p3.jpg`) and re-decoded sign by sign with `key.json`, so that one run reads continuously with its clear
+  context (normalised text at the end of `reading.txt`): "... Et je scay que des l'an passé le Roy d'Espagne faisoit
+  traicter a la soubz main avec luy par un certain italien qui sert d'ingenieur a Lisbone, dont les letres me sont
+  venues es mains. Maintenant aussi la Roine sa mere va traicter avec luy le mariage de sa fille [de] Lorraine, pour
+  le rejoindre avec [c]este maison ennemie de la chrestienté e[t] particulierement de l'estat d'Angleterre, a quoi,
+  veu les pratiques ordinaires de ceu[s] de Guise en Escosse, [6] doit remedier." Changes: 3.21 re-segmented ("les
+  letres me sont venues es mains", no sign changed); 3.22 "[c]este" (one c for "avec ceste") and "e[t]" (the sign
+  after e reads u, a slip); 3.23 the sign after "ce" is T (u), the shape of the u in "Guise" on the same line and the
+  second transcription's reading, so `final/f3.txt` changes b -> T there; the next sign is the o-sign where s is
+  wanted: "ceu[s] de Guise en Escosse" replaces "C en o deguisee nes C o". Clear words re-read: "des l'an passé"
+  (was "des lan- / part"), "faisoit traicter" (was "faisons traictes"), "sa fille [de]" (was "&"). The key is
+  unchanged. `evalct.py` in this checkout gives 0.911 over all four sides both before and after the change (f. 263v
+  0.905 -> 0.906); the 95.1% above was measured in the main checkout with its vocabulary build.
+
 ## Remaining gaps
 
 - open-codes: the ten nomenclator numbers (6, 21, 26, 36, 51, 57, 72, 81, 99, 721), 14 tokens in all, have no

@@ -382,6 +382,12 @@
    "kind": "solver",
    "what": "P1 syllable-aware anneal (each sign a letter, one of 27 common Latin/Italian syllables or word signs, or null; frequency prior): no reading.",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "reading",
+   "what": "P4 L14: the two signs after 'Patras' (I = i, bo = o, both well attested) are the word's ending: 'archiepiscopus de Patrasio' (Latin form of Italian Patrasso); the doubtful separate word 'io(?)' withdrawn. Letters from the rebuilt key, word division inferred.",
+   "result": "worked"
   }
  ],
  "outcome": {

@@ -4636,7 +4636,7 @@
     "R2242": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Read with the R1892 digit-pair key unchanged; p.1 clear Dutch under the cipher confirms it; ~20 word signs on pp.3-4 unread.",
+     "note": "Read with the R1892 digit-pair key unchanged; p.1 clear Dutch under the cipher confirms it; about sixteen word signs on pp.3-4 unread (30 Sept 2026: uit, van, Frankrijk and om read from context).",
      "reading": [
       {
        "file": "decode_updates/decryptions/R2242.txt"
@@ -6799,7 +6799,7 @@
     "R1191": {
      "decode_status": "Decrypted",
      "proposed": "Decrypted",
-     "note": "Letter of Hugo de Moncada to Charles V, Monaco, 6 Oct 1524 (sender, receiver, date and place missing on the record). The pencil note on f. 1r ('Descifrada en t. 24 Col. Doc. ined.') points to CODOIN XXIV (1854) pp. 417-419, which prints the secretariat's decipherment with one gap; the key was rebuilt against it and the gap read ('que le lleuase a Espana, diziendome muchas razones'). Three code groups and two signs open.",
+     "note": "Letter of Hugo de Moncada to Charles V, Monaco, 6 Oct 1524 (sender, receiver, date and place missing on the record). The pencil note on f. 1r ('Descifrada en t. 24 Col. Doc. ined.') points to CODOIN XXIV (1854) pp. 417-419, which prints the secretariat's decipherment with one gap; the key was rebuilt against it and the gap read ('que le lleuase a Espana, diziendome muchas razones'). Three code groups open; the two signs 99 are line-end nulls (30 Sept 2026).",
      "reading": "targets/moncada1524/reading.txt",
      "sent": false,
      "transcription": [

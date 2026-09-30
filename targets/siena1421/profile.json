@@ -580,6 +580,12 @@
       "kind": "sibling key",
       "what": "No. 15 (Bandini 1546-47, 229 tokens): key R4764 (Buoninsegni, orator to His Majesty) transcribed (keys/R4764.txt); partial shape mapping + solver: inconclusive (too short to fill the unmapped signs).",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-30",
+      "kind": "verification",
+      "what": "No. 25 L03 'presa' re-checked on the DECODE image for the quotation list: second sign X (r) certain, excluding 'spesa'; blotted first sign has the looped-cross shape of Q (p), not PHI. 'senza altra presa fare' kept (p M, rest H); the opening through 'sarano a Radichondoli' reads continuously.",
+      "result": "worked"
     }
   ],
   "outcome": {

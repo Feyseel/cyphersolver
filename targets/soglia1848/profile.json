@@ -145,12 +145,20 @@
    "kind": "verification",
    "what": "Content fits Lützow's departure, the nuncio at Innsbruck and Morichini (Chigi diary, DBI).",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "hypothesis",
+   "what": "Open code groups 8093 8102 8131 8136 revisited for Lasry's quotation: interpolation anchored at the code start 8000 (fitted start 7996-8005) plus Colonia and the firm anchors narrows 8093 to ce- (cenno 8093-8097) and 8102 to ch-ci, 8131/8136 to early d; the sense words (volonta, mente, desiderio, ordine, comando, commissione, beneplacito; presa for 8136) are all excluded by position; corpus search found no phrase fitting both windows. Groups left open; d'assai for 8131 noted as a sense conjecture only.",
+   "result": "failed"
   }
  ],
  "outcome": {
   "method": "key recovered from ciphertext-only",
   "method_basis": "The letters-and-syllables nomenclator was broken by annealing on the printed 1848 cryptogram, with words pinned and the alphabetical 8XXX code read by hand; no earlier solution existed (Cipherbrain 2014 unsolved, Spada and Il Labaro give none).",
-  "contribution": ["key recovered"],
+  "contribution": [
+   "key recovered"
+  ],
   "class": "read",
   "fraction_read": "unknown",
   "grades": "unknown",

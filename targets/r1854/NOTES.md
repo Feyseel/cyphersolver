@@ -56,6 +56,16 @@ about 4,337 (P2 1,740 + P3 880 + P4 1,515 + P5 202) = 0.916; P1's 262 signs all 
 - P5 (Rome, 21 Feb 1430): the Rimini envoys Astorgio and Bartolomeo appeared before the commissaries with a mandate
   and authenticated copies of bulls; "credo parum iuvabit"; in clear "denarios non habeo pro expensis".
 
+## 30 Sept 2026: "Patras io(?)" is "Patrasio"
+
+For the quotation list (George Lasry), the "[…]" after "Patras" in P4 L14 was re-examined. The two signs are `I bo`
+(slanted b = i, rounded b = o; each attested dozens of times in P4 with those values), so the key gives
+"...depatrasiocumlicencia". Read as one word: "archiepiscopus de Patrasio", a Latin form of the Italian name
+Patrasso (grade: letters H from the rebuilt key, word division I). The earlier split "Patras io(?)" left two signs
+as a doubtful word; the phrase now reads without a gap: "dominus a[rchi]episcopus de Patrasio cum licencia domini
+nostri dare volebat temporale dominium dominio Venetorum". Corrected in `reading_p4.md`, `p4v2_notes.md` and
+docs/r1854.html. No count changes (the two signs were already counted as read).
+
 ## Remaining gaps
 - P1 (Pandolfo Malatesta, Rome 22 Apr 1428), 262 signs in 3 runs - blocker: no-key-material; not a monoalphabetic or homophonic substitution in Latin or Italian (solver controls pass on synthetic text with 12% noise); none of the register's Malatesta keys fits; the likely key material is Pandolfo's own ciphered letter of 1 Mar 1438 with its contemporary translation (ASMn AG b. 1081 c. 159-160 and b. 840 c. 95, Falcioni 2015), whose ciphertext is not online and not printed
 - P2 code ARO (1×, "in filium [ARO]") and ~60 signs in doubtful spans - blocker: too-short; single occurrence, no sibling letter in this cipher

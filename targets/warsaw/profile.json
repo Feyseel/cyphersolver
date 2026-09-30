@@ -146,12 +146,21 @@
    "kind": "reading",
    "what": "Alternative translation added after a report made while quotations were pulled for Lasry's list: 'confido' (40 23 29 19 16 in ct.txt) carries no accent, so 'mi confido' ('I am confident I gave this Most Serene [Queen] to understand') may be 'mi confidò' ('[you] confided to me that [you] had given ... to understand'), which gives the 'honours' clause its object and makes the one able to confer the canonry, the Bishop, the one who gave the Queen to understand. The figures do not decide it; the existing translation stays, the alternative is on the page, in NOTES and in plaintext.txt.",
    "result": "partial"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "hypothesis",
+   "what": "Code groups revisited for Lasry's quotation: continuous conjectural reading with every group glossed (I), new glosses {03} = poi and {04} = pero, [223][159] = sua promessa; one-part alphabetical order of the three-figure code tested: it would exclude Regina (100), Serenissimi (123), ancora (151) and questa (160) and give 160 cotesta, 159 concessione/cortesia, 120 Cardinale; not decidable (the two-figure syllables are not alphabetical, no value confirmed). Leads: DECODE R1409 (f.178) possible sibling, R1392-R1406 keys, behind login.",
+   "result": "partial"
   }
  ],
  "outcome": {
   "method": "key recovered from ciphertext-only",
   "method_basis": "An Italian 5-gram plus dictionary annealer converged on a key that turned out to be in plain alphabetical order on odd and even figures, confirmed against shuffled-ciphertext controls; letter pairs and syllables were then read from context in Tomokiyo's transcription.",
-  "contribution": ["key recovered", "sender or date identified"],
+  "contribution": [
+   "key recovered",
+   "sender or date identified"
+  ],
   "class": "read",
   "fraction_read": "unknown",
   "verification": [

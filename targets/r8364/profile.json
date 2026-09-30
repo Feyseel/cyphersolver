@@ -166,7 +166,8 @@
    "what": "Retried the nine-sign run with the partial alphabet (H = E) and cribs (passport, safe conduct, the Queene, Lord Seton, the Regent).",
    "result": "failed",
    "date": "2026-09-22"
-  }
+  },
+  {"date": "2026-09-30", "kind": "hypothesis", "what": "Person codes around the port re-examined for the quotation list (30 Sept): tt (subject of 'imagined') supplied as [they] and the lone 3 in 'if 3 should so do' as [Glasgow], both by sense only (grade I); no key, no second occurrence; nine-sign run still unread.", "result": "partial"}
  ],
  "outcome": {
   "method": "key recovered based on plaintext from external sources",

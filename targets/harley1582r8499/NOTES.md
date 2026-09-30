@@ -258,6 +258,27 @@ Image: `img/R354.png` (git-ignored).
   - CSP Scotland i (Brunstane not in France in 1554)
   - DECODE (no other copy of the R354 key; `sibling_keys.md`, `print_check.md`)
 
+## Isle of Wight sentence re-read (30 Sept 2026, for the Lasry quotation)
+
+f. 8r p1.13-p1.16 re-read on `img/p1.jpg` (lines at y ~5100-5700) against the R354 key image.
+
+- p1.16 "concludid": E > mu d -8 b s : Z= HOOK_LOOP OMEGA = c o n [d] c l u d i d. Every sign but the looped d
+  (i on the key) is a key value; the extra sign is a slip or a null. Now firm (H); the italics are dropped.
+- p1.14 end + p1.15 start, 13 signs between "taken" and "most": c-with-dot-below (c,), ℓ (P, s), underlined x
+  (XUND; i on the key, s in "ysle"), barred b (l in key v6; the key's o-cell has a barred b too), ⁝, c-with-dot-below,
+  crossed Δ (p) | + (r), hooked d (CURL_D; null in v6, i if it is the key's ᵭ), a sign under the rust stain (two dots
+  visible), ʋ (a), g+ (t), x̄ (e), —Ω (null), ℓ (s). The c-with-dot resembles the key's c with a tail at the foot of the
+  u column (M); shape_pass.md judged them different, and key v6 reads c, as s. Candidates: "us i/o u pr[i][?]ates" or
+  "ss i l s pr...". A brute force over the key's alternatives with lang en-1640s (no spaces, context "how the isle of
+  wight might be taken ... most and how it might be kept") puts "...privates" / "...priates" at the top, but no
+  prefix reads; not adopted. Still unread: blocker is the contemporary decipherment ff. 5r-7v (needs-physical-access).
+  The same pair "c, P" follows "the Low Countries" on p1.20 and is unread there too.
+- p1.16 "Carew [Ie] advertisith me": the page had silently omitted the Ie sign. Now shown as "[also]" (I): the
+  connective that fits five of its seven p1-2 places (key_v6.md); not on the key sheet.
+
+Quotation for the Lasry list (30 Sept 2026): "… the Constable comenid with him how the ysle of Wight might be taken
+[…] most, and how it might be kept. The rebels finallye, Carew [also] advertisith me, they have concludid that …"
+
 ## Remaining gaps
 
 - Unread and tentative stretches, about 25% of non-null signs (names p2.25 and p6.27, the code Ie, runs p1.13-15, 1.18, 1.24) - blocker: needs-physical-access; the contemporary decipherment Harley MS 1582 ff. 5r-7v is not digitised by the BL or DECODE and needs a BL imaging order

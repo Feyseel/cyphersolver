@@ -52,10 +52,10 @@
 3.17   <(line start)>  contre luit un part a de malcontens  <dont le subiect estant beau, veu que le >
 3.18   <soubz lestat present: Luy a il de plus p>  quelque | [#] | E S seing en angle  <(line end)  [y=821]>
 3.19   <(line start)>  terre et escosse  <en delivrant par mesmes moiens e le Roy >
-3.20   <part le Roy d'Espagne faisons traictes a>  italien qui sert | [#] | ingenieur a lisbone dont  <(line end)  [y=853]>
-3.21   <(line start)>  les le tresmes ont uenue ses mains  <Maintenant aussi la Roine sa mere va tra>
-3.22   <Lorraine>  pour le reioindre auec este maison ennemie dela chrestiente E U particuliere  <(line end)  [y=884]>
-3.23   <(line start)>  ment | [#] | E lestat | [#] | angleterre a quoi ueu les pratiques ordinaires | [#] | E C en o deguisee nes C o  <(line end)  [y=900]>
+3.20   <passé le Roy d'Espagne faisoit traicter a>  italien qui sert | [#] | ingenieur a lisbone dont  <(line end)  [y=853]>
+3.21   <(line start)>  les letres me sont uenues es mains  <Maintenant aussi la Roine sa mere va tra>
+3.22   <Lorraine>  pour le reioindre auec [c]este maison ennemie dela chrestiente e[t] particuliere  <(line end)  [y=884]>
+3.23   <(line start)>  ment | [#] | E lestat | [#] | angleterre a quoi ueu les pratiques ordinaires | [#] | E ceu[s] de guise en esco  <(line end)  [y=900]>
 3.24   <(line start)>  se | [#6] | doit remedier  <(line ends short, rest of the line blank>
 3.25   <Car quant a fu(?)>  [#21] | C gee dela guere contre ceus dela religion en | [#72] | le | [#81] | son frere a  <ses pratiques  [y=928]>
 3.26   <e Pour avenir se suspecte quil ne le lai>  de efi etant | [#] | U roi son frere  <(line-fill dash, line end)  [y=938]>
@@ -90,3 +90,27 @@
 4.9    <(line start)>  R S U un les iso tal S | [#] | E uotion du roi | [#] | en sa arre mais  <une seule circonstance e ...>
 4.10   <... tenu les villes de Nismes e d'Arles >  et couuer rem  <(line end)>
 4.11   <(line start)>  ent plus ieu ars autres la P prin uin pau te dor en sei est uoisine  <qui les a tousiours>
+
+## f. 263v 3.18-3.24 normalised (30 Sept 2026)
+
+Re-read on the image (img/p3.jpg) and re-decoded sign by sign with key.json; cipher in plain type, clear words in
+<angle brackets>. Grades: every cipher word H (key values) unless marked.
+
+<Luy a il de plus plausible que de luy mettre en main, pour le moins en l'esprit,> quelque dessein en Angleterre
+et Escosse, <en delivrant par mesmes moiens e le Roy de France de s'embrouiller e le Roy d'Espagne de peine? Et je
+scay que des l'an passé le Roy d'Espagne faisoit traicter a la soubz main avec luy par un certain> italien qui sert
+d'ingenieur a Lisbone, dont les letres me sont venues es mains. <Maintenant aussi la Roine sa mere va traicter avec
+luy le mariage de sa fille [de] Lorraine,> pour le rejoindre avec [c]este maison ennemie de la chrestienté e[t]
+particulierement de l'estat d'Angleterre, a quoi, veu les pratiques ordinaires de ceu[s] de Guise en Escosse,
+[6] doit remedier.
+
+- "letres me sont venues es mains": `X Gm Eb wT L R :4 7 n sh b wf q L o T 7 E3 Gm R :3 E G b R`; the dot group :4 is m.
+- "[c]este": `J Gm n B L` after "auec" (`psi T 7 J`); one c serves both words (M).
+- "e[t]": after "chrestiente" the signs are `L q` (e, then the sign read u); the clear text writes "e" for "et", so
+  `L` is "e[t]" and `q` a slip (M).
+- "ceu[s] de Guise en Escosse": `J Gm T Pi ne L Br T y E3 Gm L o 7 E3 J Pi | R 7`; the third sign has the same
+  shape as the u of "Guise" (T, as the second transcription had it; final/f3.txt corrected from b), the fourth is
+  the o-sign where s is wanted (M). [6] is a nomenclator number, open.
+- Clear words: "des l'an passé" (end of 3.19 and start of 3.20, first transcribed "des lan- / part") and "faisoit
+  traicter" (first "faisons traictes") were re-read on the image; "sa fille [de] Lorraine": the line ends with a
+  sign read "&" or "de".

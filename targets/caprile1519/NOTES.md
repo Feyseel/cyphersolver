@@ -118,9 +118,18 @@ codebook, then R1128.
   inventory (1882 decipherments), Somogyi 2025 (R1138 read). Key from Somogyi cribs by EM; R1139 and R1136 read in part;
   R1137 ciphertext-only anneal gives fragments.
 
+- 2026-09-30 (quotation list for George Lasry): R1139 second reading pass, `r1139_pass2.txt`. Signs re-checked on
+  the image where the decrypt did not read; letters proposed by a beam search over `key21_counts.json` with the
+  `it-cinquecento` model and checked sign by sign. Transcription corrections: L03 "custo p ss" is "custo r ss"
+  (custode); L05 "q CE" in "teneva | per" is EL (p); L05 "UT PHI" in "andata" is the crossed p (n). Now continuous
+  from L05 to L07: "li go fato moto deli danari del suo de[b]ito, come mi dise messere [Alfonso]. Lui m'ha
+  resposto, dice [de] voler andar in Italia quando al dare …" (C/M; "Alfonso" is enciphered a-l-p-o-n-s-o, M), and
+  L08-L09 "parlaremo a longo sopra ciò … vedrò quel mi dirà, e il tuto reportarò a V. Ex." (M/I). L01-L03 still
+  read only in phrases. Page §03 updated.
+
 ## Remaining gaps
 
-- R1139 and R1136 (1520-21 sign cipher), unread stretches - blocker: illegible; notes: transcription errors leave many letters wrong; single-reader transcription not re-checked
+- R1139 and R1136 (1520-21 sign cipher), unread stretches - blocker: illegible; notes: transcription errors leave many letters wrong; R1139 re-checked on the image 30 Sept 2026 (L04-L09 mostly continuous, L01-L03 phrases only, r1139_pass2.txt); R1136 not re-checked
 - R1137 Cistarelli, 584 numeric groups - blocker: not-attempted; only a ciphertext-only anneal on one unchecked transcription; no crib or clear copy searched beyond the Vestigia file
 - R1128 (9 Mar 1519, two-tier cipher) - blocker: not-attempted; letter table and codebook incomplete; notes name the next step (careful transcription of R1133/R1131/R1132 against the 1882 decipherments) as not done
 

@@ -177,6 +177,12 @@
    "kind": "reading",
    "what": "sender, recipient, place and date established from the clear last page ('meiner Statt Bonn den 22. Decembris Anno 1619', signed Ferdinand) and from the ciphered 'mein Thumbcapitel', 'meine Landtstendt', Paderborn",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "verification",
+   "what": "P8.15-P8.20 re-read on the image to fill the quotation cut for Lasry's list: the clear words are 'Ich vermeine, das die' (not 'Ich hoffe'), and the cut words are 'unser [248=und] in kurzer Zeit unser'; the passage reads continuously. Transcription, reading, reveal and page corrected; key unchanged.",
+   "result": "worked"
   }
  ],
  "outcome": {

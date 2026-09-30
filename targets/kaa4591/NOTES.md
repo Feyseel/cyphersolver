@@ -92,6 +92,20 @@ cipher (sign codes f/z/j, H/K split in v2) is a homophonic simple substitution; 
 persons (probably Ferdinand, Gritti's party, the Hungarian king). State: read in part — running German with local
 errors; a clean reading needs the v2 transcription re-keyed and the 'y' sign split.
 
+**30 Sept 2026 — recto lines 11-16 read clean** (to fill the gaps in the quotation for Lasry's list;
+`r9416/reading_p3_11-16.txt`, word by word with grades). The v2 transcription was re-keyed by hand and every word
+checked on the image; lines 11-12 agree with the faint contemporary gloss, which runs further down the page than
+"its first lines" (g11: "das aus den tag zu bresburg erfolgt ist dahin auch"; g12: "des Ferd tail ... mit grossem
+bumbb kummen sint auch"). The split the notes asked for, on these lines: v2 `z` is two shapes, the one-bar zig-zag
+(e) and a two-bar dagger (s: "daraus", "Bresburg", "ist", "grossem", "sich", "das", "Fasnacht"); `b` covers d and l.
+Normalised: "... daraus der Tag zu Pressburg erfolgt ist, dahin auch des [Ferd.] Tail mit grossem Pomp kummen
+sint, auch volmechtigen Gwalt anzaigt, und sich zu beden Tailn entliche Vertrage versehen. Es hat sich aber
+zutragen, das am Ertag in der Fasnacht von dem turkischen Kaiser ain treffliche Botschaft ankummen ..." [Ferd.] is
+the code sign g read from the gloss (faint; "Fed" possible). Three signs after "Tail" (circle with dot, I, closing
+curve) are passed over by the gloss and are not rendered. Lines 17-19 read in outline "... welcher dem [T] ain
+Brief vom Kaiser bracht hat, welcher in Latein transferirt ist, desselben Copei ich E. F. G. hiemit schick";
+"mit vy fngioDDio" on line 17 (perhaps "mit ir Scheffe[n]") is not settled. The rest of f. 263 is not re-keyed.
+
 ## System A′ (R9409, R9410, R9427; R9408 and R9413 being transcribed) — key from the R9427 gloss, read in part
 
 A full-zoom alignment of R9427's gloss (lines 1–5, 7–10; `r9427/aligned_full.tsv`, `r9427/key_full.tsv`) gives a
@@ -110,7 +124,7 @@ bruederlich halten…". State: broken; clean readings need the E/a+ signs settle
 - R9408 clean reading - blocker: open-codes; paused 21 Sept 2026 (workable): decrypt working, E/X/a+ signs to settle.
 - R9413 clean reading - blocker: open-codes; paused 21 Sept 2026 (workable): all pages transcribed and decoded (`r9413/decrypt.txt`); sign Z and A unassigned.
 - R9409/R9410/R9427 clean readings - blocker: open-codes; paused 21 Sept 2026 (workable): R9410 look-alikes split on the image (`sysA/r9410_split.md`: d = l vs K word sign; # = g vs U = u/v; n = b/w one sign) and re-decoded (`sysA/r9410_v2_decrypt.txt`: "…vertragen … behandlung … kunig von Frankreich also gehandelt nit so vil als vor…"); same split still to apply to R9408/R9409/R9413/R9427; K's meaning (Kaiser/Kunig?) open.
-- R9416 f.263 clean reading - blocker: open-codes; paused 21 Sept 2026 (workable): v2 re-keyed (Pressburg talks read throughout); one sign serves ch but the annealer gives it s ("auss"=auch) — needs a digraph value set by hand.
+- R9416 f.263 clean reading - blocker: open-codes; paused 21 Sept 2026 (workable): v2 re-keyed (Pressburg talks read throughout); one sign serves ch but the annealer gives it s ("auss"=auch) — needs a digraph value set by hand. 30 Sept 2026: recto lines 11-16 read clean by hand (`r9416/reading_p3_11-16.txt`; z split into e and a two-bar s, b into d and l); the rest still to do the same way.
 - R9323 lines 4, 8-10 - blocker: illegible; faint signs, several '?' in transcription.
 - R9424 - blocker: no-key-material; R9422 alphabet cut at a/b and does not read as transcribed; R9420 (1531 keys, shift alphabet) and R9421 (tabula recta) checked; IoC 0.068 flat over periods 1–8 = monoalphabetic, yet annealing fails in German (de-1500s, with/without '/' and nulls), Latin and Italian — likely code groups (gloss names sit over single groups) plus transcription noise; gloss cribs too few.
 - R9367 clean reading - blocker: open-codes; paused 21 Sept 2026 (workable): key block 2_4 read at zoom (`keys9423/2_4_zoom.txt`), reading in `r9367/reading.txt`: ⊡ ≈ ♀ are nulls/dividers; # (13×) and O open; L01–02, 07, 09–10, 13 mostly unread.

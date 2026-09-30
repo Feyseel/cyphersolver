@@ -17,7 +17,7 @@ Homophonic substitution in graphic signs, Latin. Key rebuilt ciphertext-only (`k
 11. -enter premit regem Aeragono(=Aragonum). credit uniei(?) facciet statum perdere cille(?)
 12. berardelus(?) qui huc uenerat pro illis dominis de Arimino ad offeren-
 13. -um, et cetera. reccessit male(c)ontentus et nichil obtinere potuit. dominus a-
-14. -mhi(?) episcopus de Patras io(?) cum licencia domini nostri dare uolebat te-
+14. -mhi(?) episcopus de Patrasio cum licencia domini nostri dare uolebat te-
 15. -mporale dominium dominio uenetorum(?) et illud defenderet ab infidelib-
 16. -us. dominus noster feccit proponere cardinalibus. responderunt meli-
 17. -us est perdere quam Uenetis tradere, quia una uice recuperabit-

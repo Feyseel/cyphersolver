@@ -78,3 +78,24 @@ Windows from `windows2.py` (piecewise interpolation on all anchors, roughly ±15
 The char-LM choice inside these windows (`codefill2.py`) only picks function words (ciò, da, esse). Reading
 these needs the 1848 papal codebook or other traffic in the same code (Vatican archives, Arch. Nunz. Vienna;
 HHStA intercepts). `{8}` after "si" (line 1) is an unexplained stray digit.
+
+## Open groups tried again (30 Sept 2026)
+
+Lasry asked for fewer gaps in the quoted passage (*Le partecipo [8093][8102] del Padre*, *delibera [8136] relativa*).
+Nothing could be read; the windows are narrower.
+
+- The code starts at 8000: fitting *Colonia* 8116 and *Imperatore* 8319 against ranks in the it19 word list (1,000 /
+  2,500 / 5,000 words) puts the first *a*-word at 7996–8005. Interpolating from 8000 through *Colonia* and the firm
+  anchors predicts *col* 8113–8114 and *come* 8120–8122 (both where the context readings sit), *foglio* 8266–8271,
+  *guerra* 8309–8312, and *cotesta* 8145–8159, 23–37 above its place at 8122 (the weakest context reading of the
+  *c*-group).
+- 8093 falls at *ce*- (*cenno* predicted 8093–8097), 8102 at *ch*–*ci*. Every word the sense wants (*volontà*,
+  *mente*, *desiderio*, *ordine* = 8424 *ordin-*, *comando*, *commissione*, *beneplacito*) is excluded by position.
+  *Cenno* ("per cenno del Santo Padre") fits 8093, but no *ch*–*ci* word then makes a phrase; corpus search (it19,
+  it-gutenberg, it-nunziature) for "X Y del Santo Padre/Pontefice/Sovrano" with X, Y in these windows found nothing.
+  Open.
+- 8131 and 8136 fall in early *d* (after *cotesta* 8122, before *è* 8211). *presa* ("delibera presa") is excluded.
+  *d'assai* for 8131 would make "interessa d'assai al Padre cotesta nuova istruzione" grammatical (I, not printed as a
+  reading); 8136 has no candidate with sense, and the clause is complete without it.
+- Quotation for Lasry's list: the Cologne clause joined to the counter-order, which leaves one open pair
+  (8093 8102) and drops 8136. Changed: `docs/soglia1848.html` (§07 paragraph), this file, `profile.json`.

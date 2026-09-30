@@ -199,6 +199,12 @@
    "what": "reading.md: 232/264 cipher signs read as sense (87.9%).",
    "result": "partial",
    "date": "2026-09-22"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "hypothesis",
+   "what": "A1 'instantia [y S] de ven[i]re': the cipher has no separate 'a' after instantia; y S conjectured 'me' (grade I, from the clear lead-in 'caso acaduto mi'), printed '[a m]e'. A2 'o[y] le mie': every single-letter value for y tried by hand, none gives Italian; left open. Counts unchanged.",
+   "result": "partial"
   }
  ],
  "outcome": {

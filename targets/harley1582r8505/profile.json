@@ -181,6 +181,12 @@
    "kind": "verification",
    "what": "Constrained emendation of the two sides not re-read from the images, between the proven confusable shape pairs only; reading rises to 95.1% measured.",
    "result": "partial"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "reading",
+   "what": "f. 263v lines 3.18-3.24 re-read on the image and re-decoded sign by sign with key.json to give one continuous run with its clear context (Italian engineer at Lisbon, whose letters came into the writer's hands; the Lorraine marriage 'pour le rejoindre avec [c]este maison ennemie de la chrestienté e[t] particulierement de l'estat d'Angleterre', 'ceu[s] de Guise en Escosse'); one transcription sign corrected (3.23 b -> T), clear words re-read; key unchanged.",
+   "result": "worked"
   }
  ],
  "outcome": {

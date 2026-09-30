@@ -173,6 +173,11 @@
   {
    "g": "rope",
    "p": "返"
+  },
+  {
+   "g": "zano",
+   "p": "港",
+   "cls": "unc"
   }
  ],
  "key_note": "Each pair of letter-syllables gives a four-digit Chinese telegraph code number (consonant row, vowel column, no additive); uncertain groups are emended cursive misreadings or unconfirmed cells."

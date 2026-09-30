@@ -50,6 +50,34 @@ Your Majesty will learn that, according to what people say, goods of `[D, probab
 
 The final passage concerns the revenues of Winchester and the abbey of St Albans, a deduction whose numerical wording remains uncertain, and income assigned or ordered together with the archbishopric of York. It ends with what `[Q]` will have annually. The rare signs are left visible because substituting “king,” “cardinal,” or “he” at every occurrence would give an unwarrantedly definite account of the transfers.
 
+## Context readings of [D], [Q], [S2] and the margin sums (30 September 2026)
+
+Added for George Lasry's quotation list. These are context readings (grade **I**), printed in square brackets;
+they are not key values and do not change the coverage figures above.
+
+- **Margin sums.** Each amount is a Roman numeral, a raised sign like a small 9, and "Scuti". The raised sign is
+  taken as *m* (thousands): the foot total is DCCL with M written over it, the introduction's round figure DCCC
+  with m over it, and the seven components add to exactly DCCL. Written below as CL[m] scuti etc.
+- **[D] = [Cardinale].** Four places, all a masculine person: "beni del [D]", "crediti de so [D]", "intrate de so
+  [D]", "al deto [D] insieme con lo arcivescoato de Diorch". The clear text just above the cipher on f. 157r says
+  "el predetto Cardinale"; "al deto [D]" echoes it. The benefices named (Winchester, St Albans, York) are Wolsey's;
+  in February 1530 he kept York and gave up the other two, which is what the final passage describes.
+- **[Q] = [il Re].** Two places: "per [Q] interditi et poi levati" and "havera [Q] per ano circa XX[m] scuti".
+  That XX is one of the seven sums making the DCCL that came in to "questo [S2]", so [Q] is the receiver of the
+  goods, Henry VIII.
+- **[S2]** (once, "questo [S2]"): the cipher sign S (a) with a raised stroke. "questo [Re]" or "questo [Signor]"
+  (the copyist writes a raised r the same way in "S.ria") both fit; left open.
+- **so** before [D] is kept literally (possibly the northern "so", his).
+
+Continuous reading of the introduction and the six entries with these readings (the page quotes it):
+
+> ... de gli beni del [Cardinale], per quanto si dice, son pervenuti circa DCCC[m] scuti in l'infrascrite
+> partite, cioe: in denari contanti CL[m] scuti; in crediti de so [Cardinale] per [il Re] interditi et poi levati
+> L[m] scuti; per gli fruti de un anno de lo intrate de so [Cardinale] LX[m] scuti; in baghe circa XX[m] scuti; in
+> vasele d'oro et d'argento CCL[m] scuti; in supelectili de casa per el meno CC[m] scuti.
+
+("partite" = the copy's "parutite" without its extra stroke.)
+
 ## The continuation that is not present
 
 Immediately afterwards the copyist says: “En apres suivent une page 3 lignes en chiffre. Et puis est escript ce qui suit.” A page and three lines of the original cipher have been omitted, not photographed elsewhere in this copy. The next text is the clear valediction, beginning “Sire, doppo l'haver…”, followed by the accompanying letter. The missing original passage has no available token count, is outside the 402-token denominator, and is **unread**. Recovering it requires the original or an independent complete copy.

@@ -47,7 +47,7 @@ Reading: `reading.txt`.
 
 ## Remaining gaps
 - code groups =D. , P#D , =P#D.f (12 signs) - blocker: too-short; each occurs once, no key, and the print gives no counterpart except "duque" for the first
-- 99 at the end of cipher line 2 (2 signs) - blocker: too-short; two signs set apart at the margin, either "a a" or line-end nulls; nothing else in the letter settles it
+- 99 at the end of cipher line 2 (2 signs) - blocker: too-short; now read as line-end nulls (30 Sept 2026, grade M): the sentence is complete without them and "a a" makes no Spanish; not a content gap
 
 ## Escalation
 - [x] siblings: DECODE BNE MSS/2021x records listed (R1170-R1191); none is by Moncada or in this cipher. CODOIN XXIV prints other Moncada ciphered letters of 1524 from the Salazar collection, deciphered at the time; their originals are not on DECODE
@@ -56,3 +56,15 @@ Reading: `reading.txt`.
 - [x] print: CODOIN XXIV (1854) pp. 417-419 found and used; CSP Spain II does not calendar it
 - [x] key-rebuild: key rebuilt from the whole letter against the print by EM alignment (em_align.py) and by hand (KEY.md)
 - [x] retry: gap re-read with the rebuilt key at 6-8x (a España, diziendome); code groups and 99 tried against the letter's context, no value fits better than another
+
+## 2026-09-30 (quotation list for George Lasry)
+
+- Re-examined the three code groups and `99` on the DECODE image (IMG_R1191_I5941, 3-4x crops). `99` stands at the
+  right edge after the last letter of *España*; the next line opens with *diziendome*; the sentence "que le lleuase
+  a España, diziendome muchas razones para ello" is complete, and *a a* makes no Spanish there. Read as line-end
+  nulls (M); dropped from the text on the page. `=D·`, `P‡D`, `=P‡D·f`: all contain D and two share P‡D; `P‡D`
+  stands where the subject of *me rogaua* (Bourbon) would be (I only). None is in the key or recurs; they stay open.
+- Quotation for the list: "me rogaua que le lleuase a España, diziendome muchas razones para ello. Yo le he
+  respondido que vna vez ponga el exercito de V. Md. en seguro, y que estas galeras no tienen pan", one continuous
+  cipher run, no open group.
+

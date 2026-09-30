@@ -94,6 +94,28 @@ decide it, so the page keeps "I am confident" and gives *mi confidò* as an alte
 Context); the same alternative is added to `plaintext.txt` and to §4 below. Not changed here (outside this folder): `papers/lasry/excerpts.json` and `decode_updates/decryptions/R1408.txt`
 carry only the *confido* translation or text.
 
+## 3a. The code groups, tried again (30 Sept 2026)
+
+Lasry asked for fewer gaps in the quoted text. Nothing new can be *read*: there is no image, key or sibling here, so
+every code value stays a gloss (I). What was done:
+
+- **A continuous conjectural reading** (added to `plaintext.txt` and the page): the glosses of §3 plus two new ones,
+  {03} = *poi* ("hauendo io poi saputo", having since learned) and {04} = *però* ("prima però si degni", but first
+  deign), and [223] [159] = *sua promessa* after [160] (*far effetuare questa sua promessa*). [157] stays open (an
+  adverb: *sommamente*, *concordemente*). [100] [113] are two groups; the gloss *Regina* covers the first only.
+- **The alphabetical-order hypothesis tested.** If the three-figure code were one-part alphabetical, *come* (154,
+  the firmest gloss, three contexts) would put the *c*-words near 150, and *Regina* 100, *Serenissimi* 123, *ancora*
+  151 and *questa* 160 would all be out of place. An alphabetical set exists: 160 *cotesta* (both contexts: *in
+  cotesta corte*, *effetuare cotesta …*), 159 a *co*-word between *come* and *cotesta* (*concessione*, *cortesia*),
+  157 a *con*-word (*concordemente*), 151 a *c*-word before *come*, 120/123 late *b*–early *c* (120 *Cardinale* fits
+  "tal uolontà di [120]" if the addressee is not Dietrichstein himself; the letter is in the Imperial chancery's
+  files, and "a uoler far effetuare" asks the addressee to make someone else carry the promise out, which would
+  suit a letter to the Emperor, the Queen's brother), 100/113 *a*–*b* words. Against it: the two-figure syllables
+  01–09 and 40–50 are not in alphabetical order, and no code value is confirmed. Undecided; both sets are on the page.
+- **Leads for a real reading**, from the DECODE harvest (`catalogue_harvest/decode/list.json` in the main checkout):
+  R1409 (Kt. 14 Fasc. 20 f. 178, four pages, cipher types 1,2 as R1408) may be a sibling letter in the same key;
+  R1392–R1406 (ff. 142–169) and R1410 (f. 181) are key records. All behind DECODE's login.
+
 ## 4. What it says\*
 
 Nikolsburg (Mikulov) was the seat of Cardinal Franz von Dietrichstein, Bishop of Olmütz 1599–1636, in whose gift
