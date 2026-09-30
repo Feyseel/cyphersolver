@@ -53,9 +53,22 @@ abbreviations inside the runs (`E.M.`, `C./.`, `Q./.`, `M./.`, `S./.`, `J./.`, `
    First readings: R2078 (24 Dec 1754) "il n'y a pas eu depuis longtems une assemblée des etats de Hollande dont
    les objets de deliberation soient eté plus importans ... les ouvertures faites par le comte d'Affry ... le
    colonel Yorck ne s'endort pas dans ces circonstances"; R2080 (22 Jul 1755) the debate in the Estates on the
-   30,000-man augmentation ("le lord Holderness l'a fait connaitre ici"); R1959 (5 Aug 1758) "le bruit que [E.M.]
+   13,000-man augmentation ("le lord Holderness l'a fait connaitre ici"; first written 30,000, see 9); R1959 (5 Aug 1758) "le bruit que [E.M.]
    est en negociation avec [P.] ne parait pas etre entierement sans fondement".
 8. Lengths (measured, `cipher/R*.txt`, pairs after null removal): R1043 1054, R1044 628, R1954 1621, R1958 542,
    R1959 391, R2078 1231, R2079 558, R2080 1260, R2081 802, R2082 425; all 8,512 groups, 62 distinct, IC 0.036.
    The capital-letter names (E.M., P., J./C., Q., S., Y., M.) are clear sigla whose 1754 meanings are not those
    of the 1761 table; read from context only.
+9. **Corrections (30 Sept 2026).** Four phrases in `read/R1043.txt`, `read/R2080.txt` and the write-up had been
+   normalised away from the figures; each re-checked group by group in `cipher/R*.txt` with `key.json`, and against
+   `read/machine_R*.txt`. R1043: "parce qu'on croit qu'il y a des articles secrets qui vont encore plus loin" is
+   "parce qu'on craint qu'il n'y ait des articles secrets qui aillent encore plus loin" (43 92 12 32 29 c-r-ai-n-t;
+   33 93 32 13 12 29 qu-il-n-y-ai-t; 46 12 69 07 32 29 qui-ai-l-le-n-t; "croit ... y a ... vont" was probably a
+   paraphrase of the pre-swap machine text, where 12 gave "croint ... nyoit ... quioillent"); "l'on a dit aussi beaucoup de reflexions" is "l'on a
+   fait aussi ..." (69 44 19 23 29 l-on-a-fai-t). R2080: "une augmentation de trente mille hommes" is "treize mille"
+   (29 03 14 77 16 t-re-i-z-e, seen on image IMG_R2080_I14904_P2, line 8 of figures: 0229031477 16; 77 = z in
+   `key.json` as in declarez, assez, Zelande, not the "77 = nt" of item 7), so the debate is over a 13,000-man
+   augmentation; the "30,000" in the profile's verification step came from the misreading. "sacrifier jusqu'au
+   dernier sol et combattre" is "... pour combatre" (66 96 94 31 19 29 03 pour-co-m-b-a-t-re; no 26 = et). Corrected
+   in both reading files and in the write-up (summary, R2080 and R1043 extracts). Still to correct in the shared
+   files: `decode_updates/decryptions/R1043.txt` and `R2080.txt` repeat the old wording.

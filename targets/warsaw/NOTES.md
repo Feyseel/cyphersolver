@@ -82,11 +82,24 @@ Glosses (inference, not reading): [154] ×3 = *come* (fits *sì come desiderano*
 [100] [113] = the Queen's title; [123] = *Serenissimi*; {12} = an honorific subject (*V.S.*); {03}, {04}, [157],
 [223] [159] open.
 
+**Alternative translation (30 Sept 2026).** Raised while quotations were pulled for Lasry's list. *confido* is
+40 23 29 19 16 (con-f-i-d-o) in line 3 of `ct.txt`, followed by a null *m*; the system has no sign for an accent, so
+the word may be *confidò* (passato remoto, 3rd person, like *fece* in the same sentence) as well as *confido*. With
+*mi confidò*: "among the other honours [Your Lordship] did me at Nikolsburg, [you] confided to me that [you] had
+given this Most Serene [Queen] to understand that [you] would confer a canonry of Olmütz on one of [her] sons". It
+arguably fits better: whoever gave the Queen to understand that he would confer the canonry (*d'hauer dato
+intentione ... de uoler conferire*, one subject for both infinitives) must be able to confer it, the Bishop; and the
+confidence becomes one of the *honori*, which with *mi confido* have no object in the sentence. The figures do not
+decide it, so the page keeps "I am confident" and gives *mi confidò* as an alternative (reading list, and a clause in
+Context); the same alternative is added to `plaintext.txt` and to §4 below. Not changed here (outside this folder): `papers/lasry/excerpts.json` and `decode_updates/decryptions/R1408.txt`
+carry only the *confido* translation or text.
+
 ## 4. What it says\*
 
 Nikolsburg (Mikulov) was the seat of Cardinal Franz von Dietrichstein, Bishop of Olmütz 1599–1636, in whose gift
 a canonry of Olmütz lay; the writer had been received there and had then told "this Most Serene [Queen]" in Warsaw
-that the Cardinal meant to give one of her sons an Olmütz canonry. The Queen of Poland in December 1627 was
+that the Cardinal meant to give one of her sons an Olmütz canonry (reading *mi confido*; with *mi confidò*, §3, the
+Cardinal had given the Queen that hope himself and told the writer so at Nikolsburg). The Queen of Poland in December 1627 was
 Constance of Austria, Ferdinand II's sister, whose younger sons (John Albert, Charles Ferdinand) were being placed
 in church benefices in exactly these years. The letter, written from Warsaw to the Cardinal on 24 December 1627,
 says the promise has not yet been carried out, that "these Majesties" (Sigismund III and Constance) want it, and

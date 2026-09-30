@@ -59,7 +59,7 @@ for rid,d in t['records'].items():
         d.update(proposed='Non-decrypted',note='Separate numerical cipher, 232 tokens transcribed; no coherent decipherment. Search failure is inconclusive because the synthetic control also failed.',reading=None,reading_not_needed=True,key={'none':'No matching key recovered.'},transcription=['targets/potocka1714/r7524-cipher.txt']);continue
     content=[]
     if rid=='R7526':
-        content=['[spread, right page]','Pan starosta serecki? iest tu. Pytalam sie iezeli ma co postanowionego.','Ni ma nic. Iedzie dzie? do Lublina. To tesz prawda ze byl u dominikanow','wtenczas iak estancowal z nia w polu. Powiedal mi p. Tabrowski?','[...]']
+        content=['[spread, right page]','Pan starosta serecki? iest tu. Pytalam sie iezeli ma co postanowionego.','Ni ma nic. Iedzie dzie? do Lublina. To tesz prawda ze byl u dominikanow','wtenczas iakes tancowal z nia w polu. Powiedal mi p. Tabrowski?','[...]']
     else:
         last=None
         for r in sorted([x for x in rows if x['record']==rid[1:]],key=lambda x:x['page']):

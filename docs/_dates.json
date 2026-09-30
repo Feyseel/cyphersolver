@@ -279,6 +279,7 @@
   "“frederic, re di prussia”, blenheim papers add ms 61575 f. 95": "2026-09-21",
   "“johann arndt”, das zweyte silentium dei, 1798 (beinecke mellon ms 136, decode r": "2026-09-22",
   "“lord threr?”, stowe ms 166, 1592–94": "2026-09-21",
+  "“lord threr?”, stowe ms 166, 1593–94": "2026-09-30",
   "“l’estat du roy de navarre et de son party en france”, after 1580": "2026-09-22",
   "“mr. conleys hand”, paris 1652–53": "2026-09-21",
   "“mr” to the duke of mercœur, 26 june [1586]": "2026-09-21",
@@ -357,8 +358,8 @@
   },
   "bay1706": {
    "first": "2026-09-21",
-   "hash": "ffee02987c64",
-   "updated": "2026-09-24"
+   "hash": "c6f09d289b92",
+   "updated": "2026-09-30"
   },
   "bayard1526": {
    "first": "2026-09-22",
@@ -397,8 +398,8 @@
   },
   "bordeaux1653": {
    "first": "2026-09-18",
-   "hash": "1c81c1eb9747",
-   "updated": "2026-09-24"
+   "hash": "c561dad364c3",
+   "updated": "2026-09-30"
   },
   "boswell": {
    "first": "2026-09-15",
@@ -522,8 +523,8 @@
   },
   "deswart1782": {
    "first": "2026-09-21",
-   "hash": "2ab9703503fd",
-   "updated": "2026-09-24"
+   "hash": "7107acd48c5c",
+   "updated": "2026-09-30"
   },
   "dinteville1592": {
    "first": "2026-09-21",
@@ -602,8 +603,8 @@
   },
   "guiche1551": {
    "first": "2026-09-21",
-   "hash": "3c28795a5d2b",
-   "updated": "2026-09-24"
+   "hash": "770b3da44985",
+   "updated": "2026-09-30"
   },
   "guise1587": {
    "first": "2026-09-22",
@@ -652,8 +653,8 @@
   },
   "harley7001": {
    "first": "2026-09-22",
-   "hash": "3837fe47ea3b",
-   "updated": "2026-09-24"
+   "hash": "2738506f36f8",
+   "updated": "2026-09-30"
   },
   "heidelberg597": {
    "first": "2026-09-18",
@@ -732,7 +733,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "1f59edcdc64d",
+   "hash": "fb49244a52a3",
    "updated": "2026-09-30"
   },
   "indus": {
@@ -772,8 +773,8 @@
   },
   "kauderbach1754": {
    "first": "2026-09-19",
-   "hash": "a1ebde50bd09",
-   "updated": "2026-09-24"
+   "hash": "469d0507ddc4",
+   "updated": "2026-09-30"
   },
   "keys": {
    "first": "2026-09-21",
@@ -857,8 +858,8 @@
   },
   "marburg1635": {
    "first": "2026-09-22",
-   "hash": "8206ee4ed6f0",
-   "updated": "2026-09-24"
+   "hash": "3d87e31b5404",
+   "updated": "2026-09-30"
   },
   "marechaux1520": {
    "first": "2026-09-21",
@@ -1037,8 +1038,8 @@
   },
   "potocka1714": {
    "first": "2026-09-23",
-   "hash": "13209ac6e2d0",
-   "updated": "2026-09-24"
+   "hash": "5b79d7ce293f",
+   "updated": "2026-09-30"
   },
   "poupet1522": {
    "first": "2026-09-21",
@@ -1177,8 +1178,8 @@
   },
   "rakoczi1704": {
    "first": "2026-09-21",
-   "hash": "eafa93eaa08c",
-   "updated": "2026-09-24"
+   "hash": "2da8dc4acfb1",
+   "updated": "2026-09-30"
   },
   "rakoczi1707": {
    "first": "2026-09-20",
@@ -1247,8 +1248,8 @@
   },
   "rupert1645": {
    "first": "2026-09-21",
-   "hash": "3ade5b0020a7",
-   "updated": "2026-09-24"
+   "hash": "965cc76fe1f6",
+   "updated": "2026-09-30"
   },
   "sadoleto1482": {
    "first": "2026-09-19",
@@ -1397,8 +1398,8 @@
   },
   "stowe166": {
    "first": "2026-09-21",
-   "hash": "2b448ad7ef68",
-   "updated": "2026-09-24"
+   "hash": "ff69ab0da004",
+   "updated": "2026-09-30"
   },
   "sunintercepts": {
    "first": "2026-09-18",
@@ -1412,8 +1413,8 @@
   },
   "swieten1757": {
    "first": "2026-09-22",
-   "hash": "00947327842a",
-   "updated": "2026-09-24"
+   "hash": "afb54f26ca75",
+   "updated": "2026-09-30"
   },
   "szembek1689": {
    "first": "2026-09-28",
@@ -1512,8 +1513,8 @@
   },
   "warsaw": {
    "first": "2026-09-16",
-   "hash": "f6b12938cc1c",
-   "updated": "2026-09-24"
+   "hash": "21aa7f45a251",
+   "updated": "2026-09-30"
   },
   "wesselenyi1664": {
    "first": "2026-09-22",
@@ -1542,7 +1543,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "101dd6b4068e",
+   "hash": "9dce35e8d7f8",
    "updated": "2026-09-30"
   },
   "yard1699": {

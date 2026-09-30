@@ -44,6 +44,23 @@ Four DECODE runs had dropped or doubled digits and were re-read from the images 
 
 Counted: 553 groups in R956+R957, about 21 unread → 96%. R955: 89 groups, read from the decipherment.
 
+Correction (30 Sept 2026). R956 run 11, "le major (?) général des Liégeois de Vaut", is "le m[aréchal] général
+des logis de Vaut". The groups, re-read on the image (IMG_R956_I4980_P2, seventh line of figures), are
+291 300 241 315 375 289 181 294 238 281 180 428 420 399. The old reading needed 238 = ge before 239 = g (Broglio)
+and 240 = ga (magazins), i.e. a ge homophone ahead of its section head, which the 1757 table never shows (its
+second numbers sit beside or after the first), and "li-ge-is" is not a word. By position 238 is a second g, 294 (after 293 li, before 298 m) is lo, and with 281 is (four uses)
+they give "logis"; 300 lies between 299 ma and 303 me, so mar... or a word entry "maréchal" (as comte, roi,
+pour) rather than the "m" of the override. All three numbers occur once, so the new values are graded I (position and
+sense). The order argument is not absolute: the rebuilt key still has seven breaks (147 bl in a name group,
+283 s, 330 of after 327 om, 366 q before 367 pour, 395 ss after 392 su, 406 te after 405 ti, 440 vous after x),
+but "maréchal général des logis" (the army's quartermaster-general) is a standard title and "logis" is the only
+word the three groups make. key.json and overrides.json: 238 g (was ge), 294 lo (was li), 300 maréchal? (was m).
+The officer is probably François-Eugène de Vault (1717-1790): a "mémoire de M. de Vault sur la situation des
+armées en Allemagne en août 1758" is filed with Soubise's 1757-58 campaign papers (Service historique de la
+Défense, ark 1016202); his post in 1759 is not verified. Lead, not applied: 232 lies between 231 fr and 238/239 g,
+so by the same order it is filed under F, not G; "la France" fits both R957 contexts ("laisse les revenus à la
+[232] en réservant la souveraineté à l'Impératrice"; "de la part de la [232]").
+
 ## Remaining gaps
 - code 232 (twice, R957), a name filed under G - blocker: open-codes; one name, sense of both sentences clear
 - codes 147 100 126 148 (R956), the prince's name - blocker: open-codes; a name group, single occurrence

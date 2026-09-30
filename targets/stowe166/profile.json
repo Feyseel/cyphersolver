@@ -6,8 +6,8 @@
   {
    "id": "R7770",
    "shelfmark": "BL Stowe MS 166 ff. 50-51 (DECODE R7770)",
-   "date": "early 1592",
-   "year": 1592,
+   "date": "[Chartres, 19 Jan 1592/3] (Butler's date; English year, 1593 in modern reckoning)",
+   "year": 1593,
    "country": "France",
    "route": "Henri IV's court -> London",
    "language": "English",
@@ -15,9 +15,9 @@
    "cleartext_in_document": "interspersed",
    "plaintext": {
     "location": [
-     "none"
+     "printed edition"
     ],
-    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+    "source": "Butler, The Edmondes Papers (1913), no. XVIII, pp. 46-48, printed from Stowe 166 f. 50 with the cipher deciphered (HathiTrust page word data, 10 of 12 passage words on pp. 46-47; page text not seen); Love 2001 quotes 'great hope, that he [i.e., Montpensier] will render himself of the Religion' from the letter as received (PRO). None on the leaves; not in Birch 1749."
    },
    "length": {
     "tokens": "unknown",
@@ -35,8 +35,8 @@
   {
    "id": "R7771",
    "shelfmark": "BL Stowe MS 166 ff. 56-57 (DECODE R7771)",
-   "date": "1592",
-   "year": 1592,
+   "date": "Tours, 16 Feb 1592/3 (English year, 1593 in modern reckoning)",
+   "year": 1593,
    "country": "France",
    "route": "Henri IV's court -> London",
    "language": "English",
@@ -44,9 +44,9 @@
    "cleartext_in_document": "interspersed",
    "plaintext": {
     "location": [
-     "none"
+     "printed edition"
     ],
-    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+    "source": "Butler, The Edmondes Papers (1913), no. XXI, pp. 51-54, printed from Stowe 166 ff. 56, 57b with the cipher deciphered (HathiTrust page word data, 7 of 7 passage words on p. 53; page text not seen). None on the leaves; not in Birch 1749."
    },
    "length": {
     "tokens": "unknown",
@@ -64,8 +64,8 @@
   {
    "id": "R7772",
    "shelfmark": "BL Stowe MS 166 ff. 58-59 (DECODE R7772)",
-   "date": "3 Mar 1592",
-   "year": 1592,
+   "date": "Tours, 3 Mar 1592/3 (English year, 1593 in modern reckoning)",
+   "year": 1593,
    "country": "France",
    "route": "Henri IV's court -> London",
    "language": "English",
@@ -73,9 +73,9 @@
    "cleartext_in_document": "interspersed",
    "plaintext": {
     "location": [
-     "none"
+     "printed edition"
     ],
-    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+    "source": "Butler, The Edmondes Papers (1913), no. XXII, pp. 54-57, printed from Stowe 166 ff. 58, 59 with the cipher deciphered (HathiTrust page word data: 17 of 17 f. 58v passage words on p. 56, which also carries candidate words for the four unread f. 59 lines; page text not seen). None on the leaves; not in Birch 1749."
    },
    "length": {
     "tokens": "unknown",
@@ -93,8 +93,8 @@
   {
    "id": "R7773",
    "shelfmark": "BL Stowe MS 166 ff. 60-61 (DECODE R7773)",
-   "date": "16 Mar 1592",
-   "year": 1592,
+   "date": "Blois, 16 Mar 1592/3 (English year, 1593 in modern reckoning)",
+   "year": 1593,
    "country": "France",
    "route": "Henri IV's court -> London",
    "language": "English",
@@ -102,9 +102,9 @@
    "cleartext_in_document": "interspersed",
    "plaintext": {
     "location": [
-     "none"
+     "printed edition"
     ],
-    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+    "source": "Butler, The Edmondes Papers (1913), no. XXIII, pp. 57-59, printed from Stowe 166 f. 60 with the cipher deciphered (HathiTrust page word data: 'vendible' split by the OCR of italics on p. 58; page text not seen); Love 2001 quotes 'faith is not vendible' from the letters as received (PRO). None on the leaves; not in Birch 1749."
    },
    "length": {
     "tokens": "unknown",
@@ -133,7 +133,7 @@
     "location": [
      "none"
     ],
-    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+    "source": "No decipherment on the leaves; not in Birch 1749; not printed in Butler 1913 (ff. 109-110 in none of his source notes, and no page holds more than 3 of the 11 passage words; HathiTrust page word data, 2026-09-30); not in HMC Salisbury IV."
    },
    "length": {
     "tokens": "unknown",
@@ -151,7 +151,7 @@
   {
    "id": "R7775",
    "shelfmark": "BL Stowe MS 166 ff. 111-112 (DECODE R7775)",
-   "date": "Jul 1594",
+   "date": "[camp before Laon, 23 Jul 1594] (Butler's date)",
    "year": 1594,
    "country": "France",
    "route": "Henri IV's court -> London",
@@ -160,9 +160,9 @@
    "cleartext_in_document": "interspersed",
    "plaintext": {
     "location": [
-     "none"
+     "printed edition"
     ],
-    "source": "No decipherment on the leaves; not in Birch 1749 (searched 2026-09-21); Butler 1913 not checked."
+    "source": "Butler, The Edmondes Papers (1913), no. LXVI, pp. 148-151, printed from Stowe 166 ff. 111, 112 with the cipher deciphered (HathiTrust page word data, 5 of 5 passage words on p. 150; page text not seen). None on the leaves; not in Birch 1749."
    },
    "length": {
     "tokens": "unknown",
@@ -202,13 +202,13 @@
   "word_division": "kept",
   "doubled_letters": "unknown",
   "sibling_key": "none",
-  "notes": "Same key in all six letters, 1592 and 1594, in two hands."
+  "notes": "Same key in all six letters, 1593 (dated 1592, English year) and 1594, in two hands."
  },
  "conditions": {
   "prior_solution": {
-   "exists": "unknown",
-   "where": "DECODE Non-decrypted; no decipherment on leaves; Birch 1749 does not print the passages; Butler, Edmondes Papers (1913) located (HathiTrust mdp.39015083993017) but blocked, unchecked; List and Analysis SP Foreign 1591-94 not accessible",
-   "found": "not found",
+   "exists": "in print",
+   "where": "G. G. Butler, The Edmondes Papers (Roxburghe Club, 1913), nos. XVIII, XXI, XXII, XXIII and LXVI (pp. 46-59, 148-151), prints five of the six letters (R7770-R7773, R7775) from Stowe 166 with the cipher passages deciphered, apparently in italics with a 'cypher' note. Shown on 2026-09-30 from HathiTrust Research Center page-level word data for mdp.39015083993017 (e.g. all 17 words of the f. 58v passage on p. 56); Butler's wording not seen, because HathiTrust and Google Books block this machine. R7774 (ff. 109-110) is not printed. R. S. Love, Blood and Religion (2001) also quotes the f. 50 and f. 60v passages from the letters as received (PRO uncalendared State Papers). DECODE: Non-decrypted; no decipherment on the leaves; not in Birch 1749 or HMC Salisbury IV; List and Analysis SP Foreign vols 3-5 not seen.",
+   "found": "after reading",
    "used": false
   },
   "inputs": [
@@ -221,11 +221,12 @@
    "PIL crops"
   ],
   "models": [
-   "claude-opus-5"
+   "claude-opus-5",
+   "claude-opus-5-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-21",
-  "last_date": "2026-09-21"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {
@@ -275,23 +276,51 @@
    "kind": "literature search",
    "what": "Print check: Butler, Edmondes Papers (1913) located as HathiTrust full view mdp.39015083993017 (record 002098089), but ssd/pt/full-text search blocked by Cloudflare 403 after one page (curl, PowerShell, WebFetch); Google Books 4sJCAQAAMAAJ captcha, Books API over quota; not on archive.org. List and Analysis of State Papers Foreign 1591-94 in copyright, BHO premium only; not searched.",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "literature search",
+   "what": "Butler 1913 retried directly. HathiTrust still blocks this machine: imgsrv answers 'Blocked from HathiTrust' on IP reputation (IPv4 and IPv6), and pt, pt/search, ssd and ls give a Cloudflare challenge. Google Books redirects to its captcha page (not followed); the Books API quota is 0; there is no archive.org copy. Birch 1749 re-grepped in three archive.org texts: his Edmondes narrative jumps from Chartres, 25 Nov 1592 to Sept 1594 and prints none of the six letters.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "literature search",
+   "what": "Butler 1913 checked through the HathiTrust Research Center Extracted Features 2.0 file for mdp.39015083993017 (open per-page OCR word counts, 532 pages; targets/stowe166/butler1913_check.py). Butler's 'Stowe MS. 166, f. ...' source notes and running heads identify R7770 = no. XVIII (Chartres, 19 Jan 1593, pp. 46-48), R7771 = XXI (Tours, 16 Feb 1593, pp. 51-54), R7772 = XXII (Tours, 3 Mar 1593, pp. 54-57), R7773 = XXIII (Blois, 16 Mar 1593, pp. 57-59) and R7775 = LXVI (Laon, 23 Jul 1594, pp. 148-151); R7774 (ff. 109-110) is not printed. The words of each passage read here stand on its Butler page: f. 58v 17/17 on p. 56 (no other page above 5/17), f. 50 10/12, f. 57 7/7, f. 112 5/5, and f. 60v 'vendible' split by the italic OCR. Each page has a 'cypher' note. So Butler printed the cipher passages deciphered, including f. 59 (candidate words on p. 56). The data has no word order, so his wording is unseen.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "literature search",
+   "what": "archive.org full-text search. R. S. Love, Blood and Religion (2001), quotes the f. 50 passage ('great hope, that he [i.e., Montpensier] will render himself of the Religion', cited as Edmondes to Burghley, 19 Jan and 3 Mar 1593, PRO uncalendared State Papers) and 'faith is not vendible' (f. 60v), from the letters as received; his bibliography does not list Butler. HMC Salisbury IV (1892), pp. 559-560, prints a different Edmondes letter from the camp before Laon (9 Jul 1594) with its cipher undeciphered, and none of ours. Stevenson's Unton Correspondence (1847) prints Unton's 1591 cypher, a different key.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "verification",
+   "what": "Dating checked. Edmondes wrote the English year, which began on 25 March. Butler's running heads put ff. 50-61 in Jan-Mar 1593, and the 1895 BL Stowe catalogue starts the volume on 18 June 1592, with f. 27 (26 Sept 1592) promising the Unton cypher. So 'Tours, 3 Mar 1592' and 'Blois, 16 Mar 1592' are 1593 in modern reckoning, and the document years were corrected from 1592 to 1593.",
+   "result": "worked"
   }
  ],
  "outcome": {
   "method": "key recovered from ciphertext-only",
-  "method_basis": "The simple substitution was broken from frequent cipher words guessed as 'the', 'of', 'to' and then 'difficulties', 'empeachement' on f. 109v, with no printed or glossed plaintext (Butler 1913 not reached).",
-  "contribution": ["transcription", "key recovered", "sender or date identified"],
+  "method_basis": "The simple substitution was broken from frequent cipher words guessed as 'the', 'of', 'to' and then 'difficulties', 'empeachement' on f. 109v, with no printed or glossed plaintext in hand. Butler 1913, which prints five of the six letters deciphered, was found on 2026-09-30, after the reading, so this is an independent re-solution of a published decipherment (see conditions.prior_solution).",
+  "contribution": [
+   "transcription",
+   "key recovered",
+   "sender or date identified"
+  ],
   "class": "read in part",
   "gaps": [
    {
     "item": "R7772 f. 59, four cipher lines",
     "blocker": "not-attempted",
-    "detail": "NOTES record only fragments and give no cause (no damage or illegibility noted); no documented second pass with the full key"
+    "detail": "NOTES record only fragments and give no cause (no damage or illegibility noted); no documented second pass with the full key. Butler 1913 p. 56 prints these lines (2026-09-30): read that page, or use its words (Constable, crown, heir, popishly, nourished, sole, daughter) as cribs"
    },
    {
     "item": "code signs 9, n, £/£2, 4̇",
     "blocker": "open-codes",
-    "detail": "person signs; 9 = Soissons? and £ = Guise? by context only, n and 4̇ unidentified"
+    "detail": "person signs; 9 = Soissons? and £ = Guise? by context, with 'Soissons' on Butler p. 46 and 'Guise' on p. 150; n = Montpensier in Love 2001's gloss; 4̇ unidentified"
    }
   ],
   "fraction_read": 0.89,
@@ -299,13 +328,14 @@
   "verification": [
    "historical consistency"
   ],
-  "notes": "All passages read except four lines on f. 59; person signs 9 (Soissons?), n, pound (Guise?) unconfirmed. fraction_read estimated from NOTES: 4 of about 35 cipher lines (f. 59) unread, plus 3-4 unconfirmed person signs; no token count file.",
+  "notes": "All passages read except four lines on f. 59; person signs 9 (Soissons?), n, pound (Guise?) unconfirmed. fraction_read estimated from NOTES: 4 of about 35 cipher lines (f. 59) unread, plus 3-4 unconfirmed person signs; no token count file. 2026-09-30: Butler 1913 prints the decipherment of R7770-R7773 and R7775, found after the reading; his wording has not been compared with the readings here.",
   "fraction_read_method": "estimated",
   "fraction_read_source": "no reading or transcription file; NOTES give readings in prose, so tokens cannot be counted (estimate: 4 of ~35 cipher lines unread)",
   "key": "partial",
   "codes_open": {
    "open": 4,
    "total": "unknown"
-  }
+  },
+  "first_break": false
  }
 }

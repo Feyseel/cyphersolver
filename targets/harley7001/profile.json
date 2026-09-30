@@ -74,11 +74,12 @@
   "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up the coding agent with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
   "tools": [],
   "models": [
-   "claude-opus-5"
+   "claude-opus-5",
+   "claude-opus-5-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-22",
-  "last_date": "2026-09-22"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {"kind": "access", "what": "Fetched R7766 record and 4 full-resolution images with the session cookie.", "result": "worked", "date": "2026-09-22"},
@@ -95,19 +96,20 @@
   {"kind": "literature search", "what": "Calendar of the Clarendon State Papers vol. 1 (1872) full text: Windebank papers end at his flight; no Reade letter or 1641 key.", "result": "failed", "date": "2026-09-22"},
   {"kind": "solver", "what": "Constrained search (beamfill.py): all corpus words in each blank's alphabetical bracket scored in context by the en-1640s LM; brackets empty for 5 open code values (key order not monotone), top candidates elsewhere are function words or noise; nothing upgraded.", "result": "failed", "date": "2026-09-22"},
   {"kind": "solver", "what": "Seeded coordinate-ascent anneal (annealfill.py) over the blank code groups, 2000-word vocabulary, LM objective on the full passages: converges to function words (was, he, and, that); no sense reading, nothing upgraded.", "result": "failed", "date": "2026-09-22"},
-  {"kind": "literature search", "what": "CSP Domestic 1640-41 full text: Reade's Paris letters to Thomas Windebank (SP 16) calendared with cipher sentences unread; confirms recipient; the originals (same code) are the only further source, not online.", "result": "partial", "date": "2026-09-22"}
+  {"kind": "literature search", "what": "CSP Domestic 1640-41 full text: Reade's Paris letters to Thomas Windebank (SP 16) calendared with cipher sentences unread; confirms recipient; the originals (same code) are the only further source, not online.", "result": "partial", "date": "2026-09-22"},
+  {"kind": "key from source", "what": "Correction after an outside check of the write-up against the key images: R9115's continuation page plainly reads '562 strong', which a later line of key.py had overwritten with a rebuilt 'secure'; the key value is restored ('how his person can be strong', i.e. safe; H). 660 'willing' regraded from rebuilt to conjecture: on the key's first page 660 is blank among the y-words (652 you, 662 you, 664 your, 666 yet), a w-word would stand near 636 will, and no y-word gives the sense. The partly legible key entry '573. u. th...' (end under a ruled line) fits the rebuilt they/the but does not confirm it. Re-measured: 193 key, 8 rebuilt (573 occurs three times, not four), 14 conjectured of 215; 93.5% (was 94.0%).", "result": "worked", "date": "2026-09-30"}
  ],
  "outcome": {
   "method": "read after matching with key from external sources",
-  "method_basis": "The Deciphering Branch reconstruction of the Windebank family cipher on DECODE R9115 (BL Add MS 32256, headed 'Windebank to his Son ... 1642'), filed in another volume and not tied to this letter, was found to read it; 11 values were rebuilt here.",
+  "method_basis": "The Deciphering Branch reconstruction of the Windebank family cipher on DECODE R9115 (BL Add MS 32256, headed 'Windebank to his Son ... 1642'), filed in another volume and not tied to this letter, was found to read it; 5 values (8 groups) were rebuilt here.",
   "contribution": ["transcription", "key extended or corrected", "sender or date identified"],
   "class": "read in part",
-  "fraction_read": 0.94,
+  "fraction_read": 0.93,
   "key": "partial",
   "codes_open": {
-   "open": 12,
+   "open": 13,
    "total": 137,
-   "tokens_open": 13
+   "tokens_open": 14
   },
   "verification": [
    "historical consistency",
@@ -115,11 +117,11 @@
   ],
   "gaps": [
    {
-    "item": "code groups 90, 160, 319, 359, 444, 452, 455, 487, 539, 650, 673, 718 (x2)",
+    "item": "code groups 90, 160, 319, 359, 444, 452, 455, 487, 539, 650, 660, 673, 718 (x2)",
     "blocker": "no-key-material",
     "detail": "blank in the only surviving key reconstruction (R9115); conjectured from context and alphabetical slot"
    }
   ],
-  "notes": "191/215 significant tokens from key values, 11 from values rebuilt here, 13 conjectured."
+  "notes": "193/215 significant tokens from key values, 8 from values rebuilt here, 14 conjectured (re-measured 30 Sept 2026 with key.py)."
  }
 }

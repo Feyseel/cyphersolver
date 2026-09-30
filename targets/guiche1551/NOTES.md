@@ -27,8 +27,8 @@ the writer. No decipherment on the leaf, the next leaf or in the margin.
 
   > [struck: Dom Diego (a faict) constituer prisonnier en ce(ste ville) … un Siennois … croy que … est au dit …]
   > le procès duquel j'ay trouvé moien de veoir, *affin de informer led. Sr cardinal du contenu en icelluy pour
-  > selon cela mettre tel fondement qu'il advisera* : la m… de ceux de Sienes qui estoit icy, lequel est party
-  > pour s'en retorner a Sienes avec Dom Diego. … Le conte [de] Sainte Fiore est mal satisfaict de […], et que
+  > selon cela mettre tel fondement qu'il advisera* : … l'am[bass]adeur de Senes qui estoit icy, lequel est party
+  > pour s'en retorner a Senes avec Dom Diego. … Le conte [de] Sainte Fiore est mal satisfaict de […], et que
   > facilement se reduiroit au service du roy … *[clear: de la Seance]* … le service … *Car ledict personnage qui
   > estoit icy tractant* avec moy la faire du sieur +arna+e a dorne[?] *la responce qu'a…* … vous informer du …
   > que le roy pourroit avoir du dict sieur +arna+e et aux [?] … des conditions qu'il demanderoit.
@@ -83,3 +83,27 @@ multi-session job. It is left open and should be split off as its own catalogue 
 - [ ] print: not done — only a web search; Ribier, Lettres et memoires d'estat (1666), and the Noailles ambassade edition (Vertot 1763) not grepped for these letters
 - [x] key-rebuild: permutation anneal (solve1.py) plus refine.py with fixed signs; qu, p, y, v fixed by context
 - [ ] retry: not done — rerun reading_raw.txt after settling the + / barred-r question; solve Noailles's cipher with the visible gloss words as cribs; transcribe and anneal the Seure corpus
+
+## Corrections
+
+- **30 Sept 2026 (reported while quotations were pulled for Lasry's list; checked on `guiche_ct.txt`,
+  `reading_raw.txt`, the key above and the view 65 image, main checkout `gallica_sweep/hi/g65full.jpg`).**
+  (a) The site's portrait strip named the recipient as Henry II. The letter is to Montmorency: the close on f. 61r is
+  "Monseigneur, je prie Dieu vous donner ...", and the king is in the third person ("au service du roy"). The
+  guiche1551 recipient in `docs/_portraits.json` is now Anne de Montmorency (`portrait_anne-de-montmorency.jpg`, the
+  file already used for gramont1529, raince, rome1536), and the strip on `docs/guiche1551.html` was regenerated to match.
+  (b) The reading had "la m… de ceux de Sienes qui estoit icy". L3 `W r D t r F c r f 3 e t f 3 B 3 d 3 B` gives
+  "lamraq?adeur de senes", with no "ceux": the text is "l'am[bass]adeur de Senes qui estoit icy", the Sienese envoy
+  that "lequel" then refers to. The bracketed signs `t r F c` give r a q and an unassigned sign with the key; "bass"
+  is inferred from context (grade I). The clear line just above this run ends "... les propos que Mignet[?] a tenus a",
+  which fits. Both "Sienes" of the sentence are now "Senes", as deciphered.
+  (c) The page had "mal satisfaict, et que"; L5 ends `f 3 3 Q` "de et", so it now reads "mal satisfaict de …, et que",
+  as here. On the image a four-dot sign (::), not in `guiche_ct.txt`, stands between "de" and "et"; not deciphered,
+  perhaps a code for a name.
+  Leads seen while checking, not acted on (the key, counts and grades are unchanged): (1) after "qu'il advisera" the
+  image has a cipher run of 24 signs that is not in `guiche_ct.txt`; in the file's codes `r W r 8 t r Q # F e 3 F e r e
+  3 B 3 d Q 3 d f e`, it gives "a la pratique qu'aves entendu". (2) The sign transcribed `t` at the fourth place of L3
+  and in "+arna+e" (L9, L11) is a plain cross, distinct from the barred cross that is r: read as b it gives
+  "l'ambassadeur" and "du sieur Barnabe Adorne" (L9 "... a dorne"), perhaps Barnaba Adorno. (3) `F c` stands for "ss"
+  in both places it occurs: "l'am[bass]adeur" (L3) and L12 `r e F c #` "au?i", i.e. "aussi" where the page has "aux [?]".
+  These need a re-transcription pass.

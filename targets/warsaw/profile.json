@@ -91,11 +91,12 @@
    "decode.py"
   ],
   "models": [
-   "claude-fable-5-1"
+   "claude-fable-5-1",
+   "claude-opus-5-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-16",
-  "last_date": "2026-09-16"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {
@@ -139,6 +140,12 @@
    "kind": "reading",
    "what": "Letter pairs and rare syllable groups read from all occurrences; word codes glossed from context.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "reading",
+   "what": "Alternative translation added after a report made while quotations were pulled for Lasry's list: 'confido' (40 23 29 19 16 in ct.txt) carries no accent, so 'mi confido' ('I am confident I gave this Most Serene [Queen] to understand') may be 'mi confidò' ('[you] confided to me that [you] had given ... to understand'), which gives the 'honours' clause its object and makes the one able to confer the canonry, the Bishop, the one who gave the Queen to understand. The figures do not decide it; the existing translation stays, the alternative is on the page, in NOTES and in plaintext.txt.",
+   "result": "partial"
   }
  ],
  "outcome": {

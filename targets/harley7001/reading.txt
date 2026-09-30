@@ -6,8 +6,8 @@ Spelling modernised lightly; nulls (odd numbers 1-49) dropped.
 Passage A (f. 148v foot - f. 149r top), after the clear "It is to be seriously considered what is to be done":
   in case a proclamation shall goe out against my {patron? 455} as against the last {673: Lord Keeper?}.
   For as to the one side, I am of opinion they have not enough against him to confiscate his fortune,
-  and they would be willing to take the advantage of his refusall to return upon the(ir) summons.
-  So on the other side, I do not find how his person can be secure if he shall return. The only {way} i[s]
+  and they would be {willing? 660} to take the advantage of his refusall to return upon the(ir) summons.
+  So on the other side, I do not find how his person can be strong (i.e. safe) if he shall return. The only {way} i[s]
   {conceived} to be that {His Majesty} will please to prevent that cause if they purpose to take it,
   bu[t {pres}]sing that {Mr Forster} {should} give in his [90 account/answer?]; but God knows why that will suit.
 
@@ -16,5 +16,6 @@ Passage B (f. 149r), after the clear "Sir William St Ravy (as I hear) parts this
   Court; they have an eye {over} him.
   (The clear text goes on: "It may be that Mr Forster may have ill offices done him in England ...")
 
-Measured (key.py): 254 tokens, 215 after nulls. 191 (88.8%) read from values on the key; 11 (5.1%) from values rebuilt here by alphabetical slot and firm context (100 advantage, 275 find, 437 one, 524 return x2, 562 secure, 573 they/their x4, 660 willing); 13 (6.0%) conjectured. 203 done and 729 'ct.' (Court) are side notes on the key sheet.
-Conjectured groups: 90, 160, 319, 359, 444, 452, 455, 487, 539, 650, 673, 718 (x2).
+Measured (key.py, re-measured 30 Sept 2026): 254 tokens, 215 after nulls. 193 (89.8%) read from values on the key; 8 (3.7%) from values rebuilt here by alphabetical slot and firm context (100 advantage, 275 find, 437 one, 524 return x2, 573 they/the x3); 14 (6.5%) conjectured. 203 done and 729 'ct.' (Court) are side notes on the key sheet; 562 is 'strong' on the key (period sense: safe, secure).
+Conjectured groups: 90, 160, 319, 359, 444, 452, 455, 487, 539, 650, 660, 673, 718 (x2). 660 is blank on the key among the y-words (652 you, 662 you, 664 your, 666 yet); 'willing' (or glad, ready) is from context only.
+(Until 30 Sept 2026 this read 562 'secure' as a rebuilt value, although the key has 'strong', and counted 660 'willing' as rebuilt and 573 four times; it has three occurrences.)

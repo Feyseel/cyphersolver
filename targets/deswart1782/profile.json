@@ -113,11 +113,12 @@
    "align_known_pair*.py (R1040 crib alignment)"
   ],
   "models": [
-   "claude-opus-5"
+   "claude-opus-5",
+   "claude-opus-5-5"
   ],
-  "sessions": 2,
+  "sessions": 3,
   "first_date": "2026-09-20",
-  "last_date": "2026-09-21"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {
@@ -173,6 +174,24 @@
    "kind": "key from source",
    "what": "Read 50 key entries that DECODE's R1038 transcription left illegible or mislabelled directly from the codebook scans (the word stands to the left of its code; parallel homophone columns confirm faint words). 41 were kept after checking them against the R1036 contexts (e.g. 781=geheel, 748''=commercie, 488_=Zijne Keizerlijke Majesteit, 515o=twaalf, 640 barred circle=Russisch). R1036 now at 1,663/1,719 (96.7%). The rest are low-confidence, shadowed or blank in the scans.",
    "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "key from source",
+   "what": "Greek-project passage checked group by group against the codebook scans: three earlier scan readings had taken the word to the right of the code (54'' is alhoewel, not alle; 314'' behalven; 941_ observeeren, not obtineeren); 47_ is k, not DECODE's l (gives Griekse and Denemarken); 327=el, 92_=houden, 121=die, 862^^=het, 448''=con fixed by alphabetical place; 644_ reads 'Veld Ma..' (rest in the binding shadow), 339_ faint ('man'?). Not yet applied to decode_1765.py.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "transcription",
+   "what": "Letter images 5416-5417 checked: the '^_' DECODE writes before some groups is a dash after the previous group, so 380 there is plain 380 = van (four DECODE 'krijgen?') and 303 = die (not koop); 21 tokens take their only mark from that dash. The group after 362_ (jong) is an interlinear 191 = ens (DECODE: 19). The first line of image 5417 is cut off in the photograph, losing the end of the Greek sentence.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "reading",
+   "what": "Normalised Dutch reading of the Emperor/Greek-project passage (tokens 239-466, 686-775) with English, graded M/I: Constantine in the hands of a Greek woman and taught Greek, orders to Field Marshal Ru[man]zow (probably Rumyantsev, unverified) for twelve Greek boys; the Empress silent even to her confidants but the project not dropped. Open: 231o, 77o, 738, 299, 553's role, [dan] (601 with a bar, komen: probably an encoding slip), the lost line.",
+   "result": "partial"
   }
  ],
  "outcome": {

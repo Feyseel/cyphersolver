@@ -2173,7 +2173,7 @@
     "R912": {
      "decode_status": "Partially decrypted",
      "proposed": "Decrypted",
-     "note": "Letter TO Rakoczi (5 Nov [1707]); 97.3% of groups read with key R639 (corrected) from a new image transcription.",
+     "note": "Letter TO Rakoczi (5 Nov [1707]); 97.2% of groups read with key R639 (corrected) from a new image transcription. A contemporary interlinear decipherment covers nearly all of p. 1 and the first lines of pp. 2-3 (about 780 of 1,630 groups); the rest was read here.",
      "reading": [
       {
        "file": "targets/rakoczi1704/R912_image_read.txt"
@@ -3530,7 +3530,7 @@
     "lang": "English",
     "how": "graphic-sign simple substitution rebuilt from the clear context; table in NOTES"
    },
-   "cite": null,
+   "cite": "G. G. Butler, The Edmondes Papers (Roxburghe Club, 1913), which prints R7770-R7773 and R7775 with the cipher deciphered",
    "fields": {
     "author": "[Thomas Edmondes?]",
     "recipient": "William Cecil, Lord Burghley (Lord Treasurer)",
@@ -3541,28 +3541,28 @@
     "R7770": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "f. 50 cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee.",
+     "note": "f. 50 cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XVIII, pp. 46-48; the year is 1593 new style where the letter says 1592.",
      "reading": "decode_updates/decryptions/R7770.txt",
      "sent": false
     },
     "R7771": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "f. 57 cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee.",
+     "note": "f. 57 cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XXI, pp. 51-54; the year is 1593 new style where the letter says 1592.",
      "reading": "decode_updates/decryptions/R7771.txt",
      "sent": false
     },
     "R7772": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "f. 58v read; four lines on f. 59 not read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee.",
+     "note": "f. 58v read; four lines on f. 59 not read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XXII, pp. 54-57; the year is 1593 new style where the letter says 1592.",
      "reading": "decode_updates/decryptions/R7772.txt",
      "sent": false
     },
     "R7773": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "f. 60v cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee.",
+     "note": "f. 60v cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XXIII, pp. 57-59; the year is 1593 new style where the letter says 1592.",
      "reading": "decode_updates/decryptions/R7773.txt",
      "sent": false
     },
@@ -3576,7 +3576,7 @@
     "R7775": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "f. 112 cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee.",
+     "note": "f. 112 cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. LXVI, pp. 148-151.",
      "reading": "decode_updates/decryptions/R7775.txt",
      "sent": false
     }
@@ -5824,7 +5824,7 @@
     "R7766": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Signed R. Reade, endorsed \"my Cousin Reade from Paris\": Robert Reade, Secretary Windebank's nephew and secretary. Both cipher passages read with the Windebank key reconstruction R9115; 94% read, 13 code groups blank on the key conjectured in {braces}.",
+     "note": "Signed R. Reade, endorsed \"my Cousin Reade from Paris\": Robert Reade, Secretary Windebank's nephew and secretary. Both cipher passages read with the Windebank key reconstruction R9115; 93% read, 14 code groups blank on the key conjectured in {braces}; 562 is \"strong\" as on the key sheet (corrected 30 Sept 2026).",
      "reading": "decode_updates/decryptions/R7766.txt",
      "sent": false
     }

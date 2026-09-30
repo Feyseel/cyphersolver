@@ -2,7 +2,7 @@
  "slug": "marburg1635",
  "anchor": "the-reading",
  "title": "Marburg 1635: the last four cipher lines",
- "caption": "Cipher lines 11 to 14 of the letter in HStAM 4 d Nr. 1218 no. 49 (DECODE R4500), read sign by sign with the key rebuilt here: “nochmals … underthenigst und underthenigst anzudeuten, damit ich aus allen fall entschuldigt sein und dessen meinem gebührenden bericht an gehörigen ort nicht ermangeln möchte”.",
+ "caption": "Cipher lines 11 to 14 of the letter in HStAM 4 d Nr. 1218 no. 49 (DECODE R4500), read sign by sign with the key rebuilt here: “nochmals allerunderthenigst und underthenigst anzudeuten, damit ich aus allen fall entschuldigt sein und dessen meinem gebührenden bericht an gehörigen ort nicht ermangeln möchte”.",
  "unit": "signs",
  "key_note": "A letter-for-letter substitution written mostly in digits, with a few homophones (a = 5, 8, A; s = 2, F); the joined pair 12 is r. Word gaps are the writer's.",
  "tokens": [
@@ -54,7 +54,7 @@
   },
   {
    "g": "D",
-   "p": "l"
+   "p": "ll"
   },
   {
    "g": "6",

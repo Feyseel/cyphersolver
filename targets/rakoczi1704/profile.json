@@ -16,7 +16,7 @@
         "location": [
           "interlinear"
         ],
-        "source": "Decoded here with preserved key DECODE R639 (Fasc. 44/08). Partial contemporary interlinear."
+        "source": "Decoded here with preserved key DECODE R639 (Fasc. 44/08). A contemporary interlinear covers the first two lines only (37 of 722 groups; checked 30 Sept 2026)."
       },
       "length": {
         "tokens": 722,
@@ -74,7 +74,7 @@
         "location": [
           "interlinear"
         ],
-        "source": "Decoded here with preserved key DECODE R639 (Fasc. 44/08). Partial contemporary interlinear."
+        "source": "Decoded here with preserved key DECODE R639 (Fasc. 44/08). A contemporary interlinear covers page 1 except three lines (659 of 713 groups), the first four lines and part of the fifth on p. 2 and the first line and part of the second on p. 3: about 780 of 1,630 groups (checked 30 Sept 2026)."
       },
       "length": {
         "tokens": 1630,
@@ -156,7 +156,7 @@
   "conditions": {
     "prior_solution": {
       "exists": "partial",
-      "where": "contemporary interlinear decipherments on the leaves (DECODE status Partially decrypted / Non-decrypted)",
+      "where": "contemporary interlinear decipherments on the leaves (DECODE status Partially decrypted / Non-decrypted): R483 complete; R912 about 780 of 1,630 groups (page 1 except three lines, the first lines of pp. 2-3); R922 its first two lines (37 of 722); R852 a clear copy. About 820 of the 2,352 R912+R922 groups were deciphered at the time (extent recorded 30 Sept 2026).",
       "found": "before attempt",
       "used": false
     },
@@ -174,11 +174,12 @@
       "hard-EM line aligner (interlinear to cipher)"
     ],
     "models": [
-      "claude-opus-5"
+      "claude-opus-5",
+      "claude-opus-5-5"
     ],
-    "sessions": 1,
+    "sessions": 2,
     "first_date": "2026-09-21",
-    "last_date": "2026-09-21"
+    "last_date": "2026-09-30"
   },
   "solution": [
     {
@@ -246,6 +247,18 @@
       "kind": "solver",
       "what": "Rebuilt the R483 syllabic key by hard-EM alignment of 168 cipher lines with the interlinear: 224 codes; key reproduces 70% of the clerk letters.",
       "result": "partial"
+    },
+    {
+      "date": "2026-09-30",
+      "kind": "verification",
+      "what": "Extent of the contemporary interlinear decipherment established from DECODE's transcriptions (PLAINTEXT lines: 29 on R912 p. 1, 5 on p. 2, 2 on p. 3; 2 on R922 p. 1) and the images: R912 about 780 of 1,630 groups (page 1 all but 54 groups), R922 37 of 722. About 820 of the 2,352 groups keyed with R639 were therefore deciphered at the time; the rest of R912 pp. 2-3, three lines of p. 1 and R922 after line 2 were read only here. The earlier write-up had mentioned an interlinear only for R483.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-09-30",
+      "kind": "reading",
+      "what": "The three uninterlined lines of R912 p. 1 read with R639 after checking every group on the image and the key sheet: 'ni perdre de veue les affaires generales de l'Europe. Aussy publie-t-on comme une chose presque certaine qu'il n'entrera en Moschovie que la campagne qui vient'. Transcription corrected from the image (327? for 329 = pu, 87? for 57 = U, 589 for 509); M readings: veue (426 as ue), presque (343 as pres-), campagne (58 ns for 88 M), vient (534 Vienne + T). R912 keyed 1,585/1,630 (was 1,586).",
+      "result": "worked"
     }
   ],
   "outcome": {
@@ -255,10 +268,10 @@
     "class": "read",
     "fraction_read": 0.95,
     "grades": {
-      "H": 2291,
+      "H": 2290,
       "C": 0,
       "M": 0,
-      "I": 61
+      "I": 62
     },
     "verification": [
       "key confirms",

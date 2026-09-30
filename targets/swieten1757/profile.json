@@ -144,11 +144,12 @@
    "python"
   ],
   "models": [
-   "claude-opus-5"
+   "claude-opus-5",
+   "claude-opus-5-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-22",
-  "last_date": "2026-09-22"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {
@@ -199,6 +200,12 @@
   {
    "kind": "crib",
    "what": "Key corrected by hand run by run against the surrounding clear French (magazins, Contades, Broglio, comte de Pergen); x 438/439, y 441, z 442 close the table.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "reading",
+   "what": "R956 run 11 re-read against the alphabetical order of the table, after a slip was reported while quotations were pulled for Lasry's list: 'le major (?) general des Liegeois de Vaut' needed 238 = ge ahead of 239 g and 240 ga; by position 238 = g, 294 = lo (after 293 li), 300 between 299 ma and 303 me, giving 'le m[arechal] general des logis de Vaut' (graded I; digits confirmed on the image). key.json/overrides.json: 238 g, 294 lo, 300 marechal?. Officer probably Francois-Eugene de Vault, not verified.",
    "result": "worked"
   }
  ],

@@ -323,8 +323,8 @@ PAGES = [
          rights='Pontificia Universit&agrave; Gregoriana, APUG 568, via the Museo Galileo'),
     dict(slug='harley7001', label='Reade 1641', year='1641', y=1641.3, place='Paris &rarr; his cousin in England', st='partial', stt='read in part',
          title='Robert Reade to his cousin, Paris, 19 April 1641',
-         blurb='A clear letter with two cipher passages, catalogued on DECODE with writer and recipient unknown; the signature and endorsement identify Robert Reade, Secretary Windebank&rsquo;s nephew, writing from the exiled household. The Deciphering Branch&rsquo;s reconstruction of the Windebank cipher (DECODE R9115), filed in another volume, was found to fit; with 11 values rebuilt here, 94% of the significant groups are deciphered. The passages weigh whether Windebank can safely return under a summons.',
-         quote='&ldquo;they have not enough against him to confiscate his fortune, and they would be willing to take the advantage of his refusall to return&rdquo;',
+         blurb='A clear letter with two cipher passages, catalogued on DECODE with writer and recipient unknown; the signature and endorsement identify Robert Reade, Secretary Windebank&rsquo;s nephew, writing from the exiled household. The Deciphering Branch&rsquo;s reconstruction of the Windebank cipher (DECODE R9115), filed in another volume, was found to fit; with 8 values rebuilt here, 93% of the significant groups are deciphered. The passages weigh whether Windebank can safely return under a summons.',
+         quote='&ldquo;they have not enough against him to confiscate his fortune, and they would be [willing] to take the advantage of his refusall to return&rdquo;',
          rights='British Library, via DECODE'),
     dict(slug='boswell', label='Boswell', year='1643', y=1643, place='Oxford &rarr; The Hague', st='solved', stt='read in substance',
          title='Charles I and Nicholas to Boswell, 2 November 1643',
@@ -351,7 +351,7 @@ PAGES = [
          quote='&ldquo;am ganzen Hofe ausser der 503 nicht einer mehr uffrecht schwedisch&rdquo;',
          rights='Riksarkivet, Stockholm, via DECODE R4332'),
     dict(slug='rupert1645', label='Charles I to Rupert 1645', year='1645', y=1645.33, place='Oxford &rarr; Prince Rupert', st='solved', stt='read',
-         title='Charles I to Prince Rupert, Oxford, 29 April 1645', blurb='A holograph letter of Charles I, listed on DECODE with no decryption. George Lasry&rsquo;s reconstruction of the King&rsquo;s cipher with the Queen (DECODE R929), made for other letters, was found to fit and applied unchanged; about twenty code groups stay open. The King cannot move his artillery train without horses and asks Rupert to march and fetch it, the march that ended at Naseby.', quote='that in case I can not bring my train of artillery to you, you may come and fetch it', rights='British Library, via DECODE'),
+         title='Charles I to Prince Rupert, Oxford, 29 April 1645', blurb='A holograph letter of Charles I, listed on DECODE with no decryption. George Lasry&rsquo;s reconstruction of the King&rsquo;s cipher with the Queen (DECODE R929), made for other letters, was found to fit and applied unchanged; about twenty code groups stay open. The King cannot move his artillery train without horses and asks Rupert to march and fetch it, the march that ended at Naseby.', quote='that in case I can not bring my train of artillery to you, you [may] come and fetch it', rights='British Library, via DECODE'),
     dict(slug='hm1645', label='Henrietta Maria 1645', year='1645&ndash;46', y=1645.7, place='St Germain &rarr; Charles I', st='found', stt='read by others',
          title='Henrietta Maria&rsquo;s household to Charles I, 1645&ndash;46',
          blurb='Six cipher letters from the queen&rsquo;s circle at St Germain and Paris (TNA SP 106/10, DECODE R785&ndash;R929), in homophonic numerical ciphers with a nomenclator. George Lasry reconstructed the keys and deciphered the whole run on DECODE in 2020. His key was applied here to one raw transcription as a check; nothing about the text is new.',
@@ -1029,9 +1029,9 @@ PAGES = [
          blurb='Six letters with cipher in BnF fr. 3623 and 3625. No. 23 is decoded with the name key bound with it; the two-digit homophonic alphabet of nos. 24, 25 and 60 was recovered from a few interlinear glosses and the alphabetical order of its values. Ten of those twelve passages are deciphered in whole or in part. Lauri&egrave;re&rsquo;s letter of 9 July 1593 is deciphered in full with his own key sheet, Nevers key no. 57, which also reproduces the office&rsquo;s decipherment of his 13 July letter in a blind test.',
          quote='la rupture de l&rsquo;edict [de] l&rsquo;union &middot; contre la ligue',
          rights='Biblioth&egrave;que nationale de France'),
-    dict(slug='stowe166', label='Edmondes to Burghley 1592&ndash;94', year='1592&ndash;94', y=1592.2, place='Henri IV&rsquo;s court &rarr; Burghley', st='partial', stt='solved in part',
-         title='Thomas Edmondes to Lord Treasurer Burghley, 1592&ndash;94',
-         blurb='Six despatches from Henri IV&rsquo;s court in BL Stowe MS 166, which DECODE attributes to &ldquo;Lord Threr?&rdquo;, the addressee. The ciphered lines are a simple substitution of English in invented symbols; the key was recovered from the ciphertext alone, starting from the words the, of and to. All passages are deciphered except four lines on f. 59; three code symbols for persons are not identified with certainty.',
+    dict(slug='stowe166', label='Edmondes to Burghley 1593&ndash;94', year='1593&ndash;94', y=1593.05, place='Henri IV&rsquo;s court &rarr; Burghley', st='partial', stt='solved in part',
+         title='Thomas Edmondes to Lord Treasurer Burghley, 1593&ndash;94',
+         blurb='Six despatches from Henri IV&rsquo;s court in BL Stowe MS 166, which DECODE attributes to &ldquo;Lord Threr?&rdquo;, the addressee. The ciphered lines are a simple substitution of English in invented symbols; the key was recovered from the ciphertext alone, starting from the words the, of and to. All passages are deciphered except four lines on f. 59; three code symbols for persons are not identified with certainty. Butler&rsquo;s <i>Edmondes Papers</i> (1913) had already printed five of the six deciphered, which came to light only afterwards.',
          quote='&ldquo;the K. thereuppon saide vnto me that his faith is not vendible&rdquo;',
          rights='Manuscript images: British Library, via DECODE'),
     dict(slug='lorraine1592', label='Lorraine 1592', year='1592', y=1592, place='Nancy &rarr; Vaud&eacute;mont', st='partial', stt='solved in part',
@@ -1812,7 +1812,10 @@ def parties_html(people):
         return (f'<figure class="party {p["role"]}"><img src="{p["img"]}" alt="{html.escape(p["name"], quote=True)}" title="{tip}" loading="lazy">'
                 f'<figcaption><span class="role">{"from" if p["role"] == "sender" else "to"}</span>{p["name"]}</figcaption></figure>')
     sep = '<span class="arrow" aria-hidden="true">&rarr;</span>'
-    return '\n<div class="parties">' + sep.join(one(p) for p in order) + '</div><!-- /parties -->'
+    # a page covering letters to two people lists both recipients side by side, the arrow only after the sender
+    senders = ''.join(one(p) for p in order if p['role'] == 'sender')
+    recipients = ''.join(one(p) for p in order if p['role'] != 'sender')
+    return '\n<div class="parties">' + senders + (sep if senders and recipients else '') + recipients + '</div><!-- /parties -->'
 
 RECENT_VISIBLE = 5      # "Recent findings" on index.html shows this many entries; the rest fold behind the button
 

@@ -89,7 +89,11 @@ Cipher: `39 27 34 36 19 27 37 35 36 19 27 36 25 37 25 29 20 21 21 25 36 19
 
 Literal (M): **panstarostasereckiiesttupytalamsieiezelimacopostanowionegonimaniciedziedziedolublinatoteszprawdazebyludominikanowwtenczasiakestancowalzniawpolupowiedalmiptabrowski**
 
-Interpretation: Pan starosta serecki? iest tu. Pytalam sie iezeli ma co postanowionego. Ni ma nic. Iedzie dzie? do Lublina. To tesz prawda ze byl u dominikanow wtenczas iak estancowal z nia w polu. Powiedal mi p. Tabrowski?
+Interpretation: Pan starosta serecki? iest tu. Pytalam sie iezeli ma co postanowionego. Ni ma nic. Iedzie dzie? do Lublina. To tesz prawda ze byl u dominikanow wtenczas iakes tancowal z nia w polu. Powiedal mi p. Tabrowski?
+
+English: The starosta [serecki?] is here. I asked whether he has anything settled; he has nothing. He is going to Lublin. It is also true that he was with the Dominicans at the time when you danced with her in the field. Mr Tabrowski? told me.
+
+Note: Word division corrected 30 Sept 2026 (NOTES item 7): iakes tancowal (jakes tancowal, 'when you danced', second person, so the dancer is Dunin) replaces iak estancowal ('his staying with a woman'). On the image 21 27 20 25 36 closes a line as one group and 19 27 34 29 35 17 27 32 opens the next. The first figure of the last group looks like 36 (s) on the image, not the transcribed 39 (p): Stabrowski? (M).
 
 ## R7527
 

@@ -40,12 +40,13 @@ So the table is a letter-for-letter substitution with a few homophones (a: 5, 8,
 > ... noch nicht zu vernehmen, [die Landtschaft ...] ... [unleserlich] ..., das kann dieses orths halber observiren,
 > dagegen den selben etwas tentiret werden solte, zumahl nicht unbewandt [was und ob] gebührend zur manutenirung dero
 > Kays. Maj(estät) und des Reichs wie auch [bey diesen] ... [ungelegen]; dahero ich nicht unterlassen sollen, die
-> notturft dieser [sachen] so wol allerhöchst ihrer Kays. Maiestet als auch ihrer Churf. Durchl. in Bayern ohnlängst
-> nochmals ... underthenigst und underthenigst anzudeuten, damit ich aus allen fall entschuldigt sein und dessen,
+> notturft dieser Vestung so wol allerhöchst ihrer Kays. Maiestet als auch ihrer Churf. Durchl. in Bayern ohnlängst
+> nochmals allerunderthenigst und underthenigst anzudeuten, damit ich aus allen fall entschuldigt sein und dessen,
 > meinem gebührenden bericht an gehörigen ort, nicht ermangeln möchte.
 
-The writer reports to Kassel that he has passed the matter on to the Emperor and the Elector of Bavaria, and asks to be held
-excused ("damit ich aus allen fall entschuldigt sein"), so he writes as an officer or agent on the imperial side.
+The writer reports to Kassel that he has set out the needs of "this fortress" (dieser Vestung) to the Emperor and the
+Elector of Bavaria, and asks to be held excused ("damit ich aus allen fall entschuldigt sein"), so he writes as an officer
+or agent on the imperial side, from a fortress.
 
 ## Measurement
 
@@ -53,12 +54,14 @@ Second pass on lines 1–2 (22 Sept): line 2 `12 7 12 / 6 0 0 8 T 4 / 0 9 / 12 F
 = "(w)ir (d)ennoch nur seit ihr endes halber ... ursach" (an initial sign dropped in transcription on two words);
 line 1 `1 7 6 / A 5 0 1 W F` = "die landts..." (first sign is 1 = d, not 7; A = l here). Unread: the last ~9 signs of
 line 1 and ~6 blotted signs in lines 7 and 9, about 15 of 590 signs. 96.8% measured in `reading_tokens.txt` (538 signs, 17 unread). Class:
-read; key recovered.
+read; key recovered. After the line 9 correction of 30 Sept (below): 97.4% (538 signs, 14 unread: nine in line 1, one in
+line 2, three in line 7, one in line 10).
 
 ## Remaining gaps
 
 - End of line 1 (~9 signs, `W 5 ? 1 7 0 4 5 6`) - blocker: illegible; cramped under the faded gloss on the only scan.
-- Line 7 "ueidiesen boni", line 9 "serue st" - blocker: illegible; single signs blotted on the same scan.
+- Line 7 "ueidiesen boni" - blocker: illegible; single signs blotted on the same scan. (Line 9 "serue st" was listed
+  here until 30 Sept; its signs are clear and read "dieser Vestung", see the correction below.)
 
 ## Escalation
 - [x] siblings: all 126 records R4452-R4577 of the volume downloaded; no clear copy of this letter
@@ -67,3 +70,18 @@ read; key recovered.
 - [x] print: no edition of HStAM 4 d Nr. 1218 found; DECODE has no transcription
 - [x] key-rebuild: homophonic anneal on de-1500s plus hand fixes; key recovered
 - [x] retry: lines 1-2 and the doubtful signs re-viewed at 3-4x zoom; still open
+
+## Corrections
+
+- **30 Sept 2026 (reported while quotations were pulled for Lasry's list; checked on the scan).** Line 9: its first
+  three signs `F 6 12`, marked unread as blotted, are clear on `IMG_R4500_I26572_P.jpg` (main checkout
+  `marburg1635/img/R4500.jpg`, zoomed 3x) and give `s e r` with the key unchanged. With the end of line 8 (`1 7 6` die)
+  and the rest of the run (`9 6 / F W / 9 0 3`) the text is "die|ser ue st ung" = "dieser Vestung" (9 = u/v), so the
+  conjecture "dieser [sachen]" is withdrawn: "die notturft dieser Vestung", the needs of this fortress. Line 11: the
+  "..." after "nochmals" hid `F 5 / D 6 12` = "s a / l er", and on the scan the triangle carries a doubling bar (ll), so
+  the text is "nochmals allerunderthenigst und underthenigst" (allerunterthänigst for the Emperor, unterthänigst for
+  the Elector); nothing is supplied. `reading_tokens.txt` updated (L09 signs read, L11 D = ll): 14 of 538 signs unread,
+  97.4%. Changed: `docs/marburg1635.html` (reading, English, summary, uncertainty list), `docs/reveal/marburg1635.json`
+  (caption, D = ll), this file, `profile.json`. Not changed (outside this folder): `papers/lasry/excerpts.json` still
+  quotes both places with "...". Not re-checked: line 7, where the scan shows a clear-text insertion after "auch"
+  (abbreviated "K. Chur...", then a struck-through group) that `cipher_tokens.txt` does not record.

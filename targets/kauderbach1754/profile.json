@@ -340,11 +340,12 @@
    "python"
   ],
   "models": [
-   "claude-opus-5"
+   "claude-opus-5",
+   "claude-opus-5-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-19",
-  "last_date": "2026-09-19"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {
@@ -405,6 +406,12 @@
   {
    "kind": "verification",
    "what": "Content checked against history: Holderness's warning and the 30,000-man augmentation (Jul 1755), Kniphausen at Compiegne, the Treaty of Versailles of 1 May 1756 with its neutrality clause.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "reading",
+   "what": "Four slips of normalisation in the reading files and write-up, reported while quotations were pulled for Lasry's list, re-checked group by group in cipher/R*.txt with key.json and the machine decryptions, and corrected: R1043 'parce qu'on craint qu'il n'y ait des articles secrets qui aillent encore plus loin' (was 'croit qu'il y a ... qui vont') and 'l'on a fait aussi' (was 'dit'); R2080 'treize mille hommes' (29 03 14 77 16, confirmed on the image; was 'trente', so the augmentation of the verification step above is 13,000, not 30,000) and 'pour combatre' (66 = pour; was 'et combattre').",
    "result": "worked"
   }
  ],

@@ -50,10 +50,10 @@
   "attack": "key from archive",
   "human_role": "Supplied the DECODE login (session cookie) for the key sheet and page images.",
   "tools": ["6-gram French language model (lm.py)", "simulated annealing with monotone syllabary alignment (solver.py)", "matched controls (make_control.py)", "apply_key.py"],
-  "models": ["claude-fable-5-1", "claude-opus-5"],
-  "sessions": 2,
+  "models": ["claude-fable-5-1", "claude-opus-5", "claude-opus-5-5"],
+  "sessions": 3,
   "first_date": "2026-09-16",
-  "last_date": "2026-09-18"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {"date": "2026-09-16", "kind": "statistics", "what": "Symbol classes, token counts and IC (0.019) on the provisional transcription.", "result": "worked"},
@@ -64,7 +64,8 @@
   {"date": "2026-09-18", "kind": "key from source", "what": "Transcribed key sheet R7537; it confirms design A exactly.", "result": "worked"},
   {"date": "2026-09-18", "kind": "transcription", "what": "Checked the page images: 21 corrections, two merged glyphs split, lost marks restored.", "result": "worked"},
   {"date": "2026-09-18", "kind": "reading", "what": "Applied the key plus context-derived additions; letter read except name codes and rare tokens.", "result": "worked"},
-  {"date": "2026-09-18", "kind": "verification", "what": "Duplicate of the ending (R8391) agrees token for token; content fits the Ormée negotiations of May 1653.", "result": "worked"}
+  {"date": "2026-09-18", "kind": "verification", "what": "Duplicate of the ending (R8391) agrees token for token; content fits the Ormée negotiations of May 1653.", "result": "worked"},
+  {"date": "2026-09-30", "kind": "verification", "what": "Correction after an outside check of the write-up: the page's English for the first cipher sentence ('Ce n'est pas que si nos affaires estoyent plus florissantes nous n'eussions sujet de tesmoigner quelque mescontentement...') read 'Even if our affairs were more flourishing, we would still have reason to show some displeasure', which blurs the logic; after 'ce n'est pas que' the lone 'ne' is a full negation, so it is 'Not that, were our affairs more flourishing, we would lack cause to show some displeasure' (France has the grievance but cannot afford to show it). Page paraphrase and context paragraph corrected; the French decipherment is unchanged.", "result": "worked"}
  ],
  "outcome": {
   "method": "read after matching with key from external sources",

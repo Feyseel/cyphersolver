@@ -8,7 +8,9 @@ K.update({'2':'c','4':'f','6':'n','8':'h','10':'r','12':'t','14':'a','16':'g','1
 K.update({'26':'l','36':'i','X':'a','D':'d','c':'p','3':'r','e':'o','W':'m','P':'c','u':'e','U':'i',
 '260':'fortune','263':'force','272':'for','285':'fortitude','289':'foreign','292':'government','299':'good','306':'grow','314':'here','316':'humble','317':'healthy','330':'hands','332':'hope','335':'his','336':'heard','352':'judge','361':'know','362':'King','366':'last','367':'little','382':'least','387':'myself','389':'more','399':'me','404':'Minister','406':'might','417':'now','426':'nothing','439':'own','441':'only','449':'offered','450':'order',
 '451':'out','456':'our','457':'Parliament','467':'person','475':'purpose','483':'as far as','491':'Papist','492':'Protestant','510':'receive','531':'suit','535':'solicitude','548':'still','549':'stay','550':'say','554':'take','555':'state','562':'strong','577':'this','580':'this','586':'they'})
-K.update({'D':'n','S':'s','T':'t','O':'d','64':'i','73':'and','97':'an','98':'acquaint','600':'take','153':'case','524':'return','573':'they','437':'one','562':'secure','275':'find','100':'advantage','660':'willing'})
+K.update({'D':'n','S':'s','T':'t','O':'d','64':'i','73':'and','97':'an','98':'acquaint','600':'take','153':'case','524':'return','573':'they','437':'one','275':'find','100':'advantage'})
 K.update({'G':'g','142':'best'})
+# 30 Sept 2026: 562 keeps the key's 'strong' (above); a rebuilt 'secure' had overwritten it. 660 is blank on the key
+# among the y-words (652 you, 662 you, 664 your, 666 yet), so 'willing' is a conjecture (C below), not a rebuilt value.
 # conjectures from context and code position (alphabetical slot), not in the reconstruction:
-C={'650':'way','160':'conceived','319':'His Majesty','444':'offices','452':'over','718':'[Mr Forster]','539':'should','359':'informed'}
+C={'650':'way','160':'conceived','319':'His Majesty','444':'offices','452':'over','718':'[Mr Forster]','539':'should','359':'informed','660':'willing'}

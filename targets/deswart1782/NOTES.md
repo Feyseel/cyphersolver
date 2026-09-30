@@ -39,6 +39,85 @@ The token-level reading is `R1036_machine_decipherment.txt`, with the audit trai
 unread groups are all rare codes, and 51 distinct codes remain (`R1036_unknowns.txt`). A normalised opening and
 the method are in `METHOD_AND_STATUS.md`.
 
+## The Emperor and the Greek project: normalised reading (30 Sept 2026)
+
+Asked to normalise the Greek-project passage (machine lines 9-15 and 24-26, tokens 239-466 and 686-775) group
+by group; the page had only a paraphrase. Checked against `R1036_tokens.tsv`, the parsed key, the key scans
+(`R1038_codebook_p*.png` in the main checkout) and the letter scans (`R1036_p2.png` = image 5416, `R1036_p3.png` =
+5417). Findings, each of which changes the machine text (not yet applied to `decode_1765.py`, so the machine file,
+the parsed key and the 1,663/1,719 count are unchanged):
+
+- **Key layout.** On every codebook page checked (p4, p7, p8, p9, p11, p13 = images 5433, 5436-5438, 5440,
+  5442) the word stands to the left of its code, as the third pass said and as DECODE's own transcription has it
+  (51^" agter, 330^_ maaken, 405^_ ma, 642^_ mal, 647^_ mediator, 867^_ obtein, 940^_ oblig, 943^_ occasion). Three
+  third-pass readings took the word to the right, which belongs to the next column: **54^" = alhoewel** (the "alle"
+  is 130^"), **314^" = behalven** (row bed 312, beg 313, behalven 314, beide 315; the "Behe" to its right is the next
+  column's), **941^_ = observeeren** (row oblig 940, observeeren 941, obtineeren 942, occasien 943).
+- **47^_ = k, not l.** First underlined column of p8: a 44, der 45, es 46, k 47, om 48, tt 49; the l of DECODE's
+  "47^_|53^_|123^_ - l" is right only for 53^_ and 123^_. This gives Griekse here and Denemarken for all eight "den e
+  mar l en" of the machine text (47^_ occurs nine times).
+- **Other DECODE key misreadings, fixed by the entry's alphabetical place and its contexts:** 327 = el (between 326
+  eid and 328 elf; tael, elders), 92^_ = houden (between 88^_ hoor and 94^_ hun; also "aan de hand te houden", token
+  1632), 121 = die (diep), 862^^ = het, 448^" = con (Constantijn; between 446^" comp and 449^" conclu), 223^o = veele,
+  743 = dat, 853^_ = niet, 559 = gehad, 80 = eeren, 135 barred circle = zoek.
+- **Ciphertext transcription.** The "^_" that DECODE puts before a group after a comma (",^_ 3 8 0") is a dash
+  written after the previous group (checked on the images at tokens 389 and 776), not a mark on the group. So the
+  four "krÿgen?" (380^_) are plain 380 = van (tokens 389, 549, 1397, 1547: in hand[en] van, de ministers van
+  Zweden, de hoven van Denemarken, de depeche van) and token 776 is plain 303 = die, not 303^_ = koop. After 362^_
+  (jong) on image 5416 an interlinear group inserted with a caret reads **191 = ens** (jongens); DECODE read it as
+  19 (daar zal). The decoder attaches that dash to the next group whenever the group has no mark of its own: 53
+  tokens in `R1036_tokens.tsv` start with it and 21 take their only mark from it (8, 29, 46, 123, 389, 486, 549,
+  599, 671, 776, 858, 904, 1067, 1122, 1160, 1397, 1446, 1468, 1547, 1584, 1683). The plain values read better
+  elsewhere too (token 8: 451 = van de, "de antwoorden van de hoven"; tokens 29, 123, 858: 375 = aan, "aan dezelve", "aan haare mediatie",
+  "aan te wenden", not konde; tokens 671, 904: 550 = ge, "geaccepteerd", "genomen", not liv?). Next step: drop
+  the leading dash in `decode_1765.py` and regenerate.
+- **Token 251** is 601 with the bar through the 6 that marks ^_ in this hand (as in 362^_), i.e. komen; the sense
+  needs dan, which the writer spells 601 368^" (d + an) at token 686. Read [dan], graded M, as an encoding slip.
+- **Names.** 644^_: the word left of 644 on p9 reads "Veld Ma…", the rest under the binding shadow (row: 568
+  Marechal, 644 Veld Mar…). 339^_ is faint ("Man"?). With 358^_ r, 533 u, 505^_ z, 585^_ o, 359^_ w: aan den
+  Veld[maarschalk] Ru[man]zow, probably Field Marshal P. A. Rumyantsev (not verified; man and the title graded M).
+- **Lost line.** The first line of image 5417 is cut off in the photograph (DECODE did not transcribe it). It falls
+  between "en het" (end of 5416) and "te maken. Met dit antwoord…", so the end of the Greek sentence is lost; the
+  lower halves of its figures are visible but not their marks. Blocker: needs a better image of 5417.
+
+Reading, normalised to modern spelling like the opening; [ ] supplied or open, grades in brackets after the word
+(M uncertain, I from context or the entry's place in the book); participles are given where the book has only the
+infinitive (stellen, zenden, observeeren):
+
+> Of nu de Keizer in dezen met haar oprecht handelt, [dan] (M) of hij daardoor maar zoekt om haar te amuseren en
+> aan zijn lijn te houden, gelijk velen (I) met [738] veronderstel[len], is niet wel zeker te ontdekken; maar het is
+> zeker dat zij tot nog toe van de Keizer zeer [gunst]ig (I) ingenomen is, en dat zij omtrent de bevordering van
+> dit haar [299] project op Zijne Majesteit veel rekent en staat maakt. En tot bewijs dat zij het project geheel
+> niet geabandonneerd heeft, zo dient dat, behalve dat zij de jonge grootvorst Constantijn, gelijk [ik] reeds de
+> eer heb gehad in een mijner voorgaande aan U HoogEdelGestrenge te melden, in hand[en] van [een] Griekse vrouw al
+> sedert een geruime tijd gesteld heeft, en hem de Griekse taal laat leren (I), en [231^o] een Griekse educatie (I)
+> [hooggedachte] (M), zij heeft ook onlangs aan de veld[maarschalk] (M) Ru[man]zow (M) ordre gezonden om twaalf
+> Griekse jongens te bezorgen, en het [line lost] te maken.
+>
+> Alhoewel het sedert enige [tijd] van het bewuste Griekse project geheel stil is, en de Keizerin daaromtrent voor
+> haar confidenten (I) [77^o] diep (I) stilzwijgen heeft geobserveerd, zo kan men doch daaruit niet besluiten (I)
+> dat het bij haar geheel vervallen zou zijn; veelmeer schijnt haar retenue op dit subject veroorzaakt te zijn door
+> de ontijdige [geruchten] (M), die daarover hier gelijk elders [...]
+
+("Whether the Emperor is dealing honestly with her in this, [or] whether he only seeks to amuse her and keep her on
+his line, as many suppose [...], cannot well be discovered for certain; but it is certain that she is so far very
+favourably disposed towards the Emperor, and that for the furtherance of this [...] project of hers she counts and
+relies much on His Majesty. And as proof that she has by no means abandoned the project: besides having for a
+considerable time placed the young Grand Duke Constantine in the hands of a Greek woman, as I have already had the
+honour to report to Your Honour in one of my previous letters, and having him taught the Greek language, and [...] a
+Greek education [...], she has also lately sent orders to Field [Marshal] Ru[man]zow to procure twelve Greek boys, and
+[...] Although it has been entirely quiet about the known Greek project for some time, and the Empress has kept [a]
+deep silence about it towards her confidants, one cannot conclude from this that she has wholly dropped it; rather,
+her reserve on this subject seems to have been caused by the untimely [rumours] about it, here as elsewhere [...]")
+
+Other details: geabandonneerd has one superfluous group (389 eere) inside it; confidenten is 528^" (faint "confi…")
++ 601 d + 264 ent + 86 en; 553 is "hoog gedachte" in the book (left of 553; "hoogst gedachte" is 626), but its place
+in the clause does not resolve. Still open in the passage: 231^o (in the gutter, "verd…"), 77^o (DECODE and the scan
+"Stana"), 738, 299 (faint "f..ri.."), 792 (faint "gerucht?"), 592 (faint; [gunst] from the entry above it, 591 Gun…, and the sense). Not applied, to
+check: on p9 the words left of 412 and 488 are both "Zyn Majesteit" and "Zyn Keiz. Maj." stands right of 488, so
+488^_ may be Zijne Majesteit rather than Zijne Keizerlijke Majesteit; its three uses (tokens 1050, 1305, 1678)
+concern the King of Prussia.
+
 ## R1040 (1787)
 
 Leeuw (2000) says this letter was coded "presumably by accident" with two codebooks. The switch point is at

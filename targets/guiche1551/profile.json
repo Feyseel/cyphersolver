@@ -105,11 +105,12 @@
    "refine.py"
   ],
   "models": [
-   "claude-opus-5"
+   "claude-opus-5",
+   "claude-opus-5-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-21",
-  "last_date": "2026-09-21"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {
@@ -165,6 +166,18 @@
    "what": "Seure letters (nos. 39-44): ~2,000 signs, homophonic plus nomenclator, no decipherment; left open as too large for this pass.",
    "result": "partial",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "reading",
+   "what": "Corrections reported while quotations were pulled for Lasry's list, checked on guiche_ct.txt, reading_raw.txt, the key and the view 65 image: L3 gives 'lamraq?adeur de senes', so the write-up's 'de ceux de Sienes' becomes 'l'am[bass]adeur de Senes' ('bass' inferred from context, grade I); 'mal satisfaict de ..., et' restores the 'de' of L5 (a four-dot sign, not transcribed, follows it); the site's portrait strip named Henry II as recipient, corrected to Montmorency (the letter closes 'Monseigneur').",
+   "result": "worked",
+   "date": "2026-09-30"
+  },
+  {
+   "kind": "hypothesis",
+   "what": "Seen on the image while checking, not yet applied: a 24-sign cipher run after 'qu'il advisera' is missing from guiche_ct.txt and gives 'a la pratique qu'aves entendu' with the key; the sign transcribed t in L3 and in '+arna+e' is a plain cross distinct from the barred r, and read as b gives 'l'ambassadeur' and 'sieur Barnabe Adorne'; F c gives ss in 'ambassadeur' and 'aussi' (L12). Needs a re-transcription pass.",
+   "result": "partial",
+   "date": "2026-09-30"
   }
  ],
  "outcome": {

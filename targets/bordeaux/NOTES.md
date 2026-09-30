@@ -135,3 +135,16 @@ not this one (Tomokiyo).
 `ciphertext.txt` (normalised tokens) · `lm.py`, `lm6.pkl`, `corpus_fr.txt`, `guizot_docs_raw.txt` ·
 `solver.py` (`--order`, `--primeletters`, `--nowords`, `--truth/--truthscore`) · `make_control.py <seed> [A|B]
 [noise]` · `control*.txt`, `control*_key.txt`, `control*_plain.txt` · `run_*.txt` (all runs above).
+
+## Corrections
+
+- 30 Sept 2026: the English paraphrase of the first cipher sentence on docs/bordeaux1653.html is corrected; the
+  French reading (`plaintext_1653.txt`) is unchanged. The sentence is "Ce n'est pas que si nos affaires estoyent
+  plus florissantes nous n'eussions sujet de tesmoigner quelque mescontentement de la reception qui a esté faite aux
+  deputez de Bordeaux". After "ce n'est pas que", the lone "ne" of "n'eussions" is a full negation (classical use,
+  as in "ce n'est pas que je ne l'estime"). So it means "not that, were our affairs more flourishing, we would lack
+  cause to show some displeasure": France has the grievance but, weakened by the Fronde, cannot afford to show it,
+  which is why the rumour of his recall is false. The page had "Even if our affairs were more flourishing, we would
+  still have reason to show some displeasure", which makes the grievance independent of France's position. The
+  paraphrase now reads "Not that, were our affairs more flourishing, we would lack cause to show some displeasure
+  at the reception given to the deputies of Bordeaux". Section 05 ("What it says") gains one sentence on the point.

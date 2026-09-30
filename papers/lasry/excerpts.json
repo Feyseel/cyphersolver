@@ -57,8 +57,8 @@
   "item": 7,
   "slug": "guiche1551",
   "to": "To Anne de Montmorency, Constable of France",
-  "excerpt": "… lequel est party pour s'en retorner a Sienes avec Dom Diego … Le conte [de] Sainte Fiore est mal satisfaict, et que facilement se reduiroit au service du roy …",
-  "translation": "… who has left to go back to Siena with Dom Diego … The Count [of] Santa Fiora is discontented, and would readily come over to the King's service …",
+  "excerpt": "… l’am[bass]adeur de Senes qui estoit icy, lequel est party pour s’en retorner a Senes avec Dom Diego … Le conte [de] Sainte Fiore est mal satisfaict de …, et que facilement se reduiroit au service du roy …",
+  "translation": "… the [ambassador] of Siena who was here, who has left to go back to Siena with Dom Diego … The Count [of] Santa Fiora is discontented with …, and would readily come over to the King's service …",
   "from": "Claude de La Guiche, Bishop of Mirepoix, French ambassador",
   "place_date": "Rome, November 22, 1551"
  },
@@ -96,7 +96,7 @@
   "excerpt": "I doe secretelie learne that Monsr Montmorancy hath made great instance, as a condition whereof he required the performance before he would come, to haue the yong prince of Condé deliuered into the handes of Madame d'Angolesme his sister in law to be vnder his custodie.",
   "translation": null,
   "from": "Thomas Edmondes, Queen Elizabeth's agent at the court of Henri IV",
-  "place_date": "Tours, March 3, 1592"
+  "place_date": "Tours, March 3, 1593"
  },
  {
   "item": 12,
@@ -138,8 +138,8 @@
   "item": 16,
   "slug": "marburg1635",
   "to": null,
-  "excerpt": "… das kann dieses orths halber observiren, dagegen den selben etwas tentiret werden solte … dahero ich nicht unterlassen sollen, die notturft … so wol allerhöchst ihrer Kays. Maiestet als auch ihrer Churf. Durchl. in Bayern ohnlängst nochmals … anzudeuten …",
-  "translation": "… this can be watched from here, and something should be attempted against them … I have therefore not failed to report the need … both to His Most High Imperial Majesty and to His Electoral Highness in Bavaria, lately once more …",
+  "excerpt": "… das kann dieses orths halber observiren, dagegen den selben etwas tentiret werden solte … dahero ich nicht unterlassen sollen, die notturft dieser Vestung so wol allerhöchst ihrer Kays. Maiestet als auch ihrer Churf. Durchl. in Bayern ohnlängst nochmals allerunderthenigst und underthenigst anzudeuten …",
+  "translation": "… this can be watched from here, and something should be attempted against them … I therefore could not fail, lately and once more, to set out the needs of this fortress most humbly to His Most High Imperial Majesty and humbly to His Electoral Highness in Bavaria …",
   "from": "An unnamed agent on the imperial side",
   "place_date": "undated (volume of 1635–52)"
  },
@@ -156,8 +156,8 @@
   "item": 18,
   "slug": "potocka1714",
   "to": "To Jakub Dunin, her nephew",
-  "excerpt": "… Pytałam się ieżeli ma co postanowionego. Ni ma nic. … To tesz prawda że był u dominikanow wtenczas iak estancował z nią w polu …",
-  "translation": "… I asked whether he had anything arranged. He has nothing. … It is also true that he was at the Dominicans' at the time when he was staying with her in the field …",
+  "excerpt": "… Pytałam się ieżeli ma co postanowionego. Ni ma nic. … To tesz prawda że był u dominikanow wtenczas iakeś tańcował z nią w polu …",
+  "translation": "… I asked whether he has anything settled; he has nothing. … It is also true that he was with the Dominicans at the time when you danced with her in the field …",
   "from": "Barbara Potocka, née Dunin",
   "place_date": "undated (1714–16)"
  },
@@ -336,7 +336,7 @@
   "item": 38,
   "slug": "rupert1645",
   "to": "To Prince Rupert, his nephew",
-  "excerpt": "… I desire you to [march] speedily for my assistance, that in case I can not bring my train of artillery to you …",
+  "excerpt": "… I desire you to [march] speedily for my assistance, that in case I can not bring my train of artillery to you, you [may] come and fetch it …",
   "translation": null,
   "from": "Charles I, King of England",
   "place_date": "Oxford, April 29, 1645"
@@ -408,10 +408,10 @@
   "item": 46,
   "slug": "rakoczi1704",
   "to": "To Ferenc Rákóczi II",
-  "excerpt": "… fait à Madame la Palatine de Belz … une copie authentique de cette vente au sieur Kray … autant qu’il a esté possible par mon credit et par mes avances …",
-  "translation": "… made to Madame the Palatine of Belz … an authentic copy of this sale to the sieur Kray … as far as has been possible through my credit and my advances …",
-  "from": "An unsigned correspondent",
-  "place_date": "Danzig, October 28, 1707"
+  "excerpt": "… ni perdre de veue les affaires generales de l’Europe. Aussy publie-t-on comme une chose presque certaine qu’il n’entrera en Moschovie que la campagne qui vient.",
+  "translation": "… nor lose sight of the general affairs of Europe. So it is given out as an almost certain thing that he [Charles XII] will not enter Muscovy until the coming campaign.",
+  "from": "An unsigned correspondent at the King of Sweden's headquarters",
+  "place_date": "November 5, 1707"
  },
  {
   "item": 47,

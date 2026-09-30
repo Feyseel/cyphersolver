@@ -77,11 +77,12 @@
    "EM alignment"
   ],
   "models": [
-   "claude-opus-5"
+   "claude-opus-5",
+   "claude-opus-5-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-22",
-  "last_date": "2026-09-22"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {
@@ -149,6 +150,12 @@
    "what": "Second pass on lines 1-2: restored dropped initial signs; line 2 reads, line 1 opens 'die landts...'.",
    "result": "worked",
    "date": "2026-09-22"
+  },
+  {
+   "kind": "reading",
+   "what": "Correction reported while quotations were pulled for Lasry's list, checked on the scan at 3x: the first three signs of line 9 (F 6 12), marked unread as blotted, are clear and give 'ser' with the key unchanged, so 'die|ser ue st ung' = 'dieser Vestung' (9 = u/v) replaces the conjecture 'dieser [sachen]'; in line 11 the signs hidden by '...' after 'nochmals' give 's a l er' with a doubling bar on the triangle, so 'nochmals allerunderthenigst und underthenigst'. 14 of 538 signs unread (was 17).",
+   "result": "worked",
+   "date": "2026-09-30"
   }
  ],
  "outcome": {
@@ -157,9 +164,9 @@
   "contribution": ["transcription", "key recovered"],
   "class": "read",
   "key": "recovered",
-  "fraction_read": 0.968,
+  "fraction_read": 0.974,
   "fraction_read_method": "measured",
-  "fraction_read_source": "reading_tokens.txt: 538 cipher signs (12 joined = one), 17 marked ? unread",
+  "fraction_read_source": "reading_tokens.txt: 538 cipher signs (12 joined = one), 14 marked ? unread",
   "verification": [
    "contemporary decipherment",
    "historical consistency"
@@ -171,11 +178,11 @@
     "detail": "cramped under a faded gloss on the only scan"
    },
    {
-    "item": "single signs in lines 7 and 9",
+    "item": "single signs in line 7",
     "blocker": "illegible",
     "detail": "blotted"
    }
   ],
-  "notes": "Report to Hesse-Kassel: matter passed to the Emperor and the Elector of Bavaria; writer asks to be held excused."
+  "notes": "Report to Hesse-Kassel from a fortress: its needs ('die notturft dieser Vestung') set out to the Emperor and the Elector of Bavaria; writer asks to be held excused."
  }
 }

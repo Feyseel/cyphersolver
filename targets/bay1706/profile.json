@@ -85,11 +85,12 @@
    "table decoder"
   ],
   "models": [
-   "claude-opus-5"
+   "claude-opus-5",
+   "claude-opus-5-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-21",
-  "last_date": "2026-09-21"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {
@@ -127,6 +128,12 @@
    "kind": "literature search",
    "what": "Web search (Hungarian) for Bay's 1706 Moldavian despatches: no edition or decipherment found.",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "reading",
+   "what": "Correction reported while quotations were pulled for Lasry's list: the normalised Hungarian had drifted from R478_read.txt in five places, each checked against the R609 group values and the images and corrected: 'vissza is ment' (was 'viszaismét [elment]'; group 81 = n), 'a moszkva békességre kéri a svédet' with no 13 = hogy (was 'hogy ... békességet kéri a svédtől'), 'minden elvött várakat', all the fortresses taken (was 'mindenekelőtt várakat'), 'Pekri uram általa' (was 'által'), 'minden szándéka' (was 'mindenben szándéka'). English corrected to match; decrypt, counts and key unchanged.",
+   "result": "worked"
   }
  ],
  "outcome": {

@@ -7,8 +7,15 @@ Groups 81–98 are not in the key. Most sit at phrase ends (nulls or stops). Two
 > convoy, and draught [horses, 214] enough to transport my artillery to you; to which [end, c1] I have sent for
 > Goring, who I hope (yet will not warrant) to be able to do both. But what [d4] can not [be done] if you do not
 > [376] all our [148]s be in order: therefore I desire you to [march, 327] speedily for my assistance, that in case I
-> can not bring my train of artillery to you, you may come and fetch it; assuring you that no time shall be lost,
+> can not bring my train of artillery to you, you [may] come and fetch it; assuring you that no time shall be lost,
 > nor pains spared for doing of this, if it be possible, upon the word of your loving uncle.
+
+"You [may] come and fetch it" (corrected 30 Sept 2026; it read "you may come and fetch it"):
+- "you" is 68 4 | 75, y-e-u as it stands. The 4 is at the torn right edge of the line and is probably 45 (o), the 5 lost.
+- 86 and 93 follow. They are outside the key and stand at phrase ends elsewhere (after "to you", after "I hope"). So
+  "may" has no group of its own and is supplied from the sense; the key's "may" is g3.
+- "and" is not a cipher group. The King wrote a clear "&" there, the same sign as in "friday & sonday" and
+  "Oncle & most". It was first transcribed as e5, which is "in" on the key.
 
 Sense: the King, at Oxford and hemmed in by Cromwell's raids, cannot move his train (artillery) to Rupert without
 horses and a convoy. He has sent for Goring and asks Rupert to march quickly to fetch it. This agrees with Digby's
