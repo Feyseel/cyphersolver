@@ -19,7 +19,23 @@ Only the first telegram is reachable. The photograph was retrieved from Schmeh's
 1,134 × 1,012 px (`telegram1.jpg`); the second telegram is not in the public preview. `tg.py` holds
 **123 groups, 615 letters** (`ct1.txt`). The transcription checks against the form: 123 groups + BLUME +
 SALAMANCA = **125 words**, the figure written in the *Wörter* box, with the pencilled (50) and (100) at the
-right groups. Group 121 (`RBEEP`) has a red stroke through it but is counted.
+right groups. Group 113 (`RBEEP`, word 115) has a red stroke through it but is counted. (Earlier versions of these
+notes said group 121: the form's own count, with (50) at ACCEL and (100) at TNCEN, puts RBEEP at 113.)
+
+**Corrected 30 Sept 2026 (GitHub issue 14, Richard Bean).** Three letters were misread as I where the typewriter
+has L (its L carries a serif only at the foot, its I at both ends): groups 38, 48 and 122 are **SOLRS**, **ACCEL**
+and **FTULX**, not SOIRS, ACCEI and FTUIX. All three are clear on the photograph, and a re-reading of all 123 groups
+at twice the size found no other difference. With the correction, the SHA-256 of the 615 letters (upper case, no
+spaces) is `e266615d92019276513c1b7656f10c4f1a3d1e8eb739d28fd481ae337a434c55`, the value Bean gives, so his
+transcription and ours now agree letter for letter. His issue also gives the SHA-256 of a 160-letter text,
+`8fd5cfb82fc3c39fe0ee007b19ada7e74b4ae7747cd9b794d36dce101e17a644`, which matches no 160-letter stretch of this
+telegram, with or without BLUME SALAMANCA; it may be the second telegram.
+
+The statistics and searches below were run on the uncorrected text. The errors are substitutions, so no letter moved
+and every transposition test stands. Re-run on the corrected text, the lag scan's maximum is z = 3.4 (was 3.3), at
+the same lags (129 and 50); the index of coincidence is 0.0695 (was 0.0699); i falls from 46 to 43 and l rises from
+17 to 20. The other letter counts quoted below and the 45 doubled letters are unchanged; the chi-squared, bigram and
+log-likelihood figures move by amounts too small to matter (three letters in 615).
 
 ## What the letters say
 
@@ -174,7 +190,9 @@ What would break it:
 
 1. **The second telegram**, sent the same day by the same firm, almost certainly in the same keys. Two
    messages in depth under the same double transposition can be anagrammed jointly (the classical solution),
-   and the key lengths fall out of the two lengths. Bochsler holds the photographs; Schmeh posted only one.
+   and the key lengths fall out of the two lengths. Bochsler holds the photographs; Schmeh's post ("Can anyone
+   decipher these two telegrams…") shows both, but only the first is in its public preview. Richard Bean's
+   160-letter hash in issue 14 (see Transcription) may mean he has the second one.
 2. **A crib.** The letter counts promise *pesetas*, *kilos*, *punto*, spelled numbers, and the firm's own
    names (*HOVAG*, the Holzverzuckerungs-AG at Ems, fits the letters; *Oswald* does not: there is no w).
    With a known 8–10-letter word and known widths the two keys can be pinned by hand.
@@ -182,7 +200,7 @@ What would break it:
 
 ## Files
 
-* `ct1.txt`, `tg.py` — the transcription. `telegram1.jpg` — the photograph.
+* `ct1.txt`, `tg.py` — the transcription (three letters corrected 30 Sept 2026, issue 14). `telegram1.jpg` — the photograph.
 * `families.py`, `trans.py`, `double.py` — first-session Python searches.
 * `dt/Dt.cs`, `dt/Dt2.cs`, `dt/St.cs` — C# annealers: double (forward), double (reversed), single columnar.
 * `dt/Idp2.cs` — divide-and-conquer solver: `sa` / `hc` local search, `exhaust` enumeration, `IDP_INV=0|1|2`

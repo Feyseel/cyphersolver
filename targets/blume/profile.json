@@ -28,7 +28,7 @@
     "by": "llm from images",
     "source": "telegram1.jpg, 1,134 x 1,012 px, from Schmeh's Facebook post",
     "image_quality": "fair",
-    "notes": "123 groups; checked against the word count (125) written on the form. The second telegram is not accessible. Language is the NOTES' inference (telegraphic Spanish), not established."
+    "notes": "123 groups; checked against the word count (125) written on the form. The second telegram is not accessible. Language is the NOTES' inference (telegraphic Spanish), not established. Corrected 30 Sept 2026: groups 38, 48 and 122 are SOLRS, ACCEL, FTULX (L read as I three times), reported by Richard Bean (GitHub issue 14), confirmed on the photograph and by his SHA-256 of the 615 letters."
    }
   }
  ],
@@ -68,7 +68,7 @@
    "images"
   ],
   "attack": "ciphertext-only",
-  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded. 30 Sept 2026: an outside reader (Richard Bean, GitHub issue 14) supplied three transcription corrections; this session checked them against the photograph and applied them.",
   "tools": [
    "exhaustive fixed-pattern transposition search (families.py)",
    "columnar annealing (trans.py, dt/st.exe)",
@@ -80,11 +80,12 @@
   ],
   "models": [
    "claude-opus-5",
-   "claude-fable-5-1"
+   "claude-fable-5-1",
+   "claude-opus-5-5"
   ],
-  "sessions": 3,
+  "sessions": 4,
   "first_date": "2026-09-15",
-  "last_date": "2026-09-16"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {
@@ -127,6 +128,18 @@
    "date": "2026-09-16",
    "kind": "solver",
    "what": "Exhaustive second-key enumeration, w2 <= 10, forward and both mixed conventions; proven on plants to 41 x 8 and 30 x 10.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "transcription",
+   "what": "Richard Bean (GitHub issue 14) reported three I-for-L misreadings: groups 38, 48 and 122 are SOLRS, ACCEL and FTULX (the typewriter's L has a serif only at the foot). Confirmed on telegram1.jpg, all 123 groups re-read at twice the size with no other difference; the corrected 615 letters match the SHA-256 he gives.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "statistics",
+   "what": "Lag scan re-run on the corrected text: maximum z = 3.4 (was 3.3) at the same lags; index of coincidence 0.0695 (was 0.0699). The errors were substitutions, so no letter moved and the earlier exclusions stand.",
    "result": "ruled out"
   }
  ],
