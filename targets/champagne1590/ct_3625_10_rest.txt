@@ -48,3 +48,10 @@ R7	om beta 107 f Vs Ep eps 20 27 12 tri ddag ye hash 285
 G7	alassembleeouelleseratresnecessaire
 R8	39 eps 37 om X ye 17 pi 224 lam 26 pi 59 ROY 39 23 55 zig Ep venus plus 122 lam 27 hash
 G8	quilnyayedesgens
+#
+# The run the office left unglossed (after the clear "que nous avions despesché"), transcribed from the full-resolution
+# page when PR 15 was merged (30 Sept 2026). It has no G line: the checker prints its decipherment and does not score it.
+# 3_ is a 3 under a bar: not a syllable (the bar marks only the v and z rows), and province 3 (Bretaigne) gives no sense;
+# "sa" fits the context (grade I). bailla is written with one l.
+# Reading: [le grand duc de Toscane] quant [le Roy] nous bailla par escrit (sa?) volonté
+U1	TOSCANE 307 ROY 288 xi om zig eps lam 305 175 3_ 346

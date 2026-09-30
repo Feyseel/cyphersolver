@@ -22,6 +22,10 @@ setsunaatto in issue 13: "vous estes necessaire pres du Roy afin qu'il ne retard
 ses ennemys luy donne[r]ont tout l'empeschemen[t] qu'ilz pourront …", "[le duc de Lorraine] montre desir de traiter,
 mais necessaire avant que [le Roy] soit catholique", "s'il veult atandre la volonté du [Pape] …". See the section
 at the end. The earlier fragments came from a hand table that was one group out of step (`key_lauriere.txt`).
+The same key reproduces the office's interlinear decipherment of **no. 10** (13 July 1593) in a blind test
+contributed by setsunaatto (PR 15, 30 Sept 2026): 80% of the gloss falls in matching runs of four or more letters,
+against shuffled controls of at most 30%. The one run the office left unglossed reads "[le grand duc de Toscane]
+quant [le Roy] nous bailla par escrit (sa?) volonté".
 
 ## Prior work checked
 
@@ -173,9 +177,11 @@ Laurière letter.
 * `key_lauriere.txt` — first-pass table from no. 10's glosses; superseded (one group out of step).
 * `key57.txt` — Nevers key no. 57 (fr. 3995 ff. 102–103), Laurière's key.
 * `reading_3625_55.txt` — no. 55 transcribed and read with key no. 57.
-* `ct_3625_10_glossed.txt` — no. 10's first three runs aligned with the interlinear decipherment.
+* `ct_3625_10_glossed.txt` — no. 10's first three runs aligned with the interlinear decipherment (first pass, 21 Sept,
+  before key no. 57 was known; superseded by the two files below, and agrees with them on every figure group but one).
 * `ct_3625_10_blind.txt`, `ct_3625_10_rest.txt` — all thirteen glossed runs of no. 10 in sign names, with the glosses
-  (the first five transcribed blind); `check_3625_10.py` scores key no. 57 against them (exit 0 = pass).
+  (the first five transcribed blind), and the unglossed run as U1; `check_3625_10.py` scores key no. 57 against the
+  glossed runs (exit 0 = pass) and prints the decipherment of U1.
 * Images in `img/` (git-ignored, not committed).
 
 ## Fr. 3625 no. 55 read with key no. 57 (29 Sept 2026, issue 13)
@@ -217,8 +223,10 @@ election. He also asks whether the Pope's consent is to be awaited.
 ## No. 10 deciphered with key no. 57: the blind test and the other eight runs (setsunaatto, 30 Sept 2026)
 
 `check_3625_10.py` scores key no. 57 against the office's interlinear decipherment of no. 10 (f. 10r). The letter
-played no part in fitting the key. Score: gloss letters falling in runs of four or more that match the
-decipherment. Control: the same signs of each run in shuffled order, 2000 times.
+played no part in fitting the key, with one small exception: issue 13 checked which y-shaped sign is e and which is i
+on run L2. With the two swapped the blind score is 152 instead of 157 (117 instead of 121 without L1), still far above
+every control. Score: gloss letters falling in runs of four or more that match the decipherment. Control: the same
+signs of each run in shuffled order, 2000 times.
 
 | Set | Transcribed | Letters in runs of >= 4 | Shuffled control | Z |
 |---|---|---|---|---|
@@ -231,15 +239,34 @@ Grades of the new values: the word numbers and 29 = *L'Espagne* are **H** (read 
 sign is **M** (the shape is close to the key's sign, not identical). The deciphered runs below are **H** except where
 marked.
 
-No shuffled control reaches the real score in any set. What does not match is the office's paraphrase, not the key:
-"344 234" is *tout hault* on the sheet where the office wrote *pour son*, and "25 29" with a bracket-shaped bar is
-*que [l'Espagne]* where the office wrote *qui ne se*. Among the other runs: *ne pouvoir recongnoistre le
+No shuffled control reaches the real score in any set. Apart from spelling and the gaps in the gloss, the two places
+where key and office disagree are both in R3.
+"25 29", with a bracket-shaped bar over the 29, is *que [l'Espagne]* (province 29, "L'Espaigne ou Espagnols" on the
+sheet), where the office wrote *qui ne se*. Over "344 234" the office wrote *pour son*. Those figures were re-checked
+on the page when the PR was merged: they are 344 234 as transcribed (the middle 4 is an open 4, not a 0), which the
+sheet makes *tout hault*. But the idiom is *faire tout son effort*, so the writer most likely meant 334 (*son*) and
+wrote 234: the office's *son* would then be right, and its *pour* is not in the figures. Reading: *fera tout hault
+[son?] effort* (figures H, the intended word C). Among the other runs: *ne pouvoir recongnoistre le
 Roy que premieremen ilz n'eusse eu la volonté du Pape, qui ne viendront jamais a c'est ... que par force*; *l'Espagne
 fera tout hault effort maintenant pour anpescher que le Pape ne le resoive, qui seroit tousjours une extreme longueur
 pour sortir du mal*; *que nous tenons que [le marquis de Pont] suivra le duc de Lorraine* (the sign **M**); *a l'assemblée ou elle sera tres necessaire*.
 
 One run of no. 10 carries no gloss (after "... que nous avions despesché"): *[le grand duc de Toscane] quant [le Roy]
-nous bailla par escrit (sa?) volonté* (the last sign but one, an overbarred 3, is not on the sheet).
+nous bailla par escrit (sa?) volonté* (the last sign but one, an overbarred 3, is not on the sheet). Its signs were
+transcribed from the page when the PR was merged, as U1 in `ct_3625_10_rest.txt`: `TOSCANE 307 ROY 288 xi om zig eps
+lam 305 175 3_ 346`. *bailla* is written with one l (b-a-i-l-a). The barred 3 is not a syllable (the overbar marks
+only the v and z rows), and province 3 is Bretaigne, which gives no sense, so *sa* is a guess from context (grade I).
+The Tuscany sign is taken as the contributor read it from the key's name panel (f. 103v, not re-checked here).
+
+**Checked here before merging (30 Sept 2026).** The script reproduces the table exactly (seed 0, standard library only,
+and it also runs on the cp1252 console). Our own transcription of runs L1-L3, made on 21 Sept before key no. 57 was
+known (`ct_3625_10_glossed.txt`), agrees with the blind file on every figure group but one: L1 opens with 10 in ours
+and 20 in theirs, and the gloss *le* supports 20. On the key sheet (f. 103r, canvas 200), 18 of the 21 word numbers
+added from no. 10 stand as given (100, 122, 150, 154, 175, 185, 186, 187, 190, 211, 224, 234, 246, 279, 303, 305,
+307, 320); 191, 196 and 255 were not viewed. Both duplicates are as described (202/203 in the F column and in the
+overbarred block; 320 religion in R, 320 sans added in S), and province 29 is "L'Espaigne ou Espagnols". The two
+header rows match the alphabet in `check_3625_10.py` letter for letter, which showed that the old alphabet line in
+`key57.txt` had c and h the wrong way round (now corrected; the contributor had flagged it). Details in `key57.txt`.
 
 ## Remaining gaps
 
@@ -254,4 +281,4 @@ nous bailla par escrit (sa?) volonté* (the last sign but one, an overbarred 3, 
 - [x] known-keys: Nevers keys of fr. 3995 (Tomokiyo nevers.htm) reviewed; no. 46 tested against the two-digit table and does not fit; no. 57 (La Verrière, Feb 1593) reads no. 55 in full (29 Sept 2026, issue 13); no. 57 tried on no. 78's group '96 □ 3 9̄ f 3' (ch ? da [Dauphiné] o da): no sense, a different code
 - [x] print: Tomokiyo nevers.htm and GL.htm, Memoires de Nevers index: no printed decipherment
 - [x] key-rebuild: no. 55 superseded by key no. 57 (the writer's own sheet); nos. 24/25/60 table bracketed by alphabetical order, the anchored slots filled; the unanchored code numbers have no gloss to fit
-- [x] retry: the no. 10 table (12 entries) was applied to all 86 groups of no. 55 in the third pass (19 read)
+- [x] retry: the no. 10 table (12 entries) was applied to all 86 groups of no. 55 in the third pass (19 read); key no. 57 then read all 86 (29 Sept) and every run of no. 10, the unglossed one included (PR 15, 30 Sept)

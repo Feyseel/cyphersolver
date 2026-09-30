@@ -177,16 +177,17 @@
    "key from archive"
   ],
   "attack": "key from archive",
-  "human_role": "Project-level: set up Claude Code and posed the catalogue task via a parent agent. No target-specific intervention recorded. 29 Sept 2026: the key identification for no. 55 came from an outside contributor (setsunaatto, GitHub issue 13); this session verified it against the key sheet and the page.",
+  "human_role": "Project-level: set up Claude Code and posed the catalogue task via a parent agent. No target-specific intervention recorded. 29 Sept 2026: the key identification for no. 55 came from an outside contributor (setsunaatto, GitHub issue 13); this session verified it against the key sheet and the page. 30 Sept 2026: the same contributor (working with Claude, by their account) added a blind test of the key on no. 10 (PR 15); this session reviewed it against the key sheet and the page and merged it.",
   "tools": [
    "PIL crops"
   ],
   "models": [
-   "claude-opus-5"
+   "claude-opus-5",
+   "claude-opus-5-5"
   ],
-  "sessions": 2,
+  "sessions": 3,
   "first_date": "2026-09-21",
-  "last_date": "2026-09-29"
+  "last_date": "2026-09-30"
  },
  "solution": [
   {
@@ -296,6 +297,30 @@
    "kind": "sibling key",
    "what": "Key no. 57 tried on no. 78's single group '96 □ 3 9̄ f 3': no sense.",
    "result": "failed"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "control",
+   "what": "Blind test of key no. 57 on no. 10 (f. 10r), contributed by setsunaatto in PR 15: five runs transcribed from crops that hide the office's interlinear decipherment, then scored against it (check_3625_10.py): 157 of 196 gloss letters fall in matching runs of 4 or more, against shuffled controls of at most 58 in 2000 (121/160 against at most 42 without L1, the run seen when the key was first applied).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "reading",
+   "what": "No. 10's other eight glossed runs read with key no. 57 (transcribed with the glosses in view; 311/354 in matching runs of 4 or more) and 21 word numbers added to key57.txt from the sheet. Apart from spelling and gaps in the gloss, key and office disagree only in run R3: 'que [l'Espagne]' where the office wrote 'qui ne se', and 344 234 'tout hault' where it wrote 'pour son' (probably a slip for 334 'son').",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "verification",
+   "what": "PR 15 checked before merging: the script reproduces its table; our 21 Sept transcription of runs L1-L3 agrees with the blind one on every figure group but one; 18 of the 21 new word numbers, both duplicates (202, 320) and province 29 found on f. 103r; both header rows match the script's alphabet, which showed key57.txt had c and h reversed (corrected); swapping the e/i y-forms moves the blind score only from 157 to 152; the R3 figures 344 234 confirmed on f. 10r.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "reading",
+   "what": "No. 10's one unglossed run transcribed from the page (U1 in ct_3625_10_rest.txt) and read: '[le grand duc de Toscane] quant [le Roy] nous bailla par escrit (sa?) volonté'; the barred 3 before 'volonté' is not on the sheet, 'sa' is a guess from context.",
+   "result": "partial"
   }
  ],
  "outcome": {

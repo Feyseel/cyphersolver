@@ -1026,7 +1026,7 @@ PAGES = [
          rights='Biblioth&egrave;que nationale de France'),
     dict(slug='champagne1590', label='Champagne 1590', year='1590&ndash;93', y=1590.5, place='Paris, Champagne &rarr; Nevers', st='partial', stt='read in part',
          title='Champagne news letters to the duc de Nevers, 1590&ndash;91',
-         blurb='Six letters with cipher in BnF fr. 3623 and 3625. No. 23 is decoded with the name key bound with it; the two-digit homophonic alphabet of nos. 24, 25 and 60 was recovered from a few interlinear glosses and the alphabetical order of its values. Ten of those twelve passages are deciphered in whole or in part; Lauri&egrave;re&rsquo;s syllabic code is decoded only in fragments.',
+         blurb='Six letters with cipher in BnF fr. 3623 and 3625. No. 23 is decoded with the name key bound with it; the two-digit homophonic alphabet of nos. 24, 25 and 60 was recovered from a few interlinear glosses and the alphabetical order of its values. Ten of those twelve passages are deciphered in whole or in part. Lauri&egrave;re&rsquo;s letter of 9 July 1593 is deciphered in full with his own key sheet, Nevers key no. 57, which also reproduces the office&rsquo;s decipherment of his 13 July letter in a blind test.',
          quote='la rupture de l&rsquo;edict [de] l&rsquo;union &middot; contre la ligue',
          rights='Biblioth&egrave;que nationale de France'),
     dict(slug='stowe166', label='Edmondes to Burghley 1592&ndash;94', year='1592&ndash;94', y=1592.2, place='Henri IV&rsquo;s court &rarr; Burghley', st='partial', stt='solved in part',

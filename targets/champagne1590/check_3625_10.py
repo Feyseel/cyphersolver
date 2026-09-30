@@ -15,6 +15,8 @@ signs, the key and the glosses stay the same; only the order is destroyed. The k
 sheet; nothing is fitted.
 
 Exit 0 when every set scores above every one of its shuffled controls and at least half the gloss letters.
+The run the office left unglossed (U1 in ct_3625_10_rest.txt, added when PR 15 was merged) is deciphered and printed,
+not scored.
 Contributed by setsunaatto (dbourdeau/cyphersolver issue 13).
 """
 import random
@@ -81,6 +83,15 @@ def load(name, sig_tag):
     return [(k, sig[k], gloss[k]) for k in sorted(sig, key=int)]
 
 
+def load_unglossed(name, tag="U"):
+    rows = []
+    for line in (HERE / name).read_text(encoding="utf-8").splitlines():
+        if line.startswith(tag) and "\t" in line:
+            k, v = line.split("\t")
+            rows.append((k[1:], v.split()))
+    return rows
+
+
 def runs(lines, minlen=4):
     n = 0
     for toks, plain in lines:
@@ -109,6 +120,8 @@ def main():
     for tag, rows in (("L", blind), ("R", rest)):
         for k, t, p in rows:
             print(f"{tag}{k:<2} key   {text(t)}\n    gloss {p}", flush=True)
+    for k, t in load_unglossed("ct_3625_10_rest.txt"):
+        print(f"U{k:<2} key   {text(t)}\n    (no gloss; not scored)", flush=True)
     print(flush=True)
     rng = random.Random(0)
     ok = score("blind, 5 runs", blind, rng)

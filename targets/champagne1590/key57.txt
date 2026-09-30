@@ -23,7 +23,12 @@
 #   duplicates on the sheet: 202 and 203 stand both in the F column (font, fait) and in the 200-203 block (prendre,
 #   permettre); 320 stands in the R column (religion) and in the S column (sans). In no. 10 the office reads
 #   202 = prendre and 320 = sans (grade C).
-# PROVINCES 1-33 and TOWNS 34-68 with an overbar (12 Champagne, 30 Lorraine, 50 Chaalons, 54 Langres ...).
+#   Checked on f. 103r when PR 15 was merged (30 Sept 2026): every value above except 191, 196 and 255 (not viewed)
+#   stands on the sheet as given (150 reads "congnoystre ou congnoyssance", 187 "eut ou eu"). The F column has 202 font,
+#   203 faict ou fait; in the P column a struck-through 307 is followed by the overbarred 200-203, and 307 quant heads
+#   the Q column; 320 religion is in the R column, and 320 sans was added at the foot of the S column after 337.
+# PROVINCES 1-33 and TOWNS 34-68 with an overbar (12 Champagne, 29 L'Espaigne ou Espagnols, 30 Lorraine, 31 Nivernois,
+#   50 Chaalons, 54 Langres ...).
 #   The bar over these is bracket-shaped (ends turned down), unlike the flat overbar of the v/z syllables; no. 10 has
 #   29 = L'Espagne ou Espagnols under such a bar ("et que [l'Espagne] fera tout hault effort ...").
 # NAMES (f. 103, upper panel): XX le Pape ou Sa Saintete; crossed X le Roy; ... le Roy d'Espagne; ... le grand duc de
@@ -31,6 +36,12 @@
 #   Guise, Mme de Montpensier.
 #   Le Marquis de Pont: a looped Q-like sign (f. 103v, left column); an R-like variant of it in no. 10 run R6
 #   ("que nous tenons que [le marquis de Pont] suivra le duc de Lorraine"), grade M - see ct_3625_10_rest.txt.
-# ALPHABET: two (sometimes three) signs per letter (header rows of f. 103r); values used in no. 55 after setsunaatto:
-#   a = lambda, omega   e = V-form y   i = U-form y   n = o+, venus-sign   r = crossed m, double dagger
-#   s = #, pi   t = triangle, +   u = v-sign, perp   o = f-form   g = G-form   c = c   h = mu-form (as read in no. 55)
+# ALPHABET: two signs per letter, the two header rows of f. 103r (both rows checked on the sheet, A-M and N-Z,
+#   30 Sept 2026). Sign names as in check_3625_10.py and the ct_3625_10 files:
+#   a lam, om   b del, xi   c mu, rhoC   d Dh, Dgrid   e ye (V-form y), Ep   f Fb, piF   g varpi, Gs   h Hq, c (c-form)
+#   i zig, yi (U-form y)   l beta, eps   m xm, Mh   n onplus (o+), venus   o f (f-form), sigma   p caret, four
+#   q chi, tbar   r mcross (crossed m), ddag   s hash (#), pi   t tri (triangle), plus (+)   u Vs, perp
+#   x theta, inf   y X, o   z a, eng
+#   Correction (30 Sept 2026): this line used to read "c = c, h = mu-form". The sheet has mu under C and the c-form
+#   under H, which is also what no. 55 needs ("24 pi mu c ye" = pe-s-c-h-e in empescher). Pointed out by setsunaatto
+#   in PR 15.
