@@ -1,0 +1,26 @@
+# fr. 3625 no. 10, f. 10r (Gallica btv1b52511322v canvas 31), Laurière (La Verrière) to Nevers, Courgenay, 13 July 1593.
+# BLIND transcription of five cipher runs, used to test key no. 57 (key57.txt) on a letter that played no part in
+# fitting it. Contributed by setsunaatto (issue 13).
+#
+# How it was made: only the cipher lines were cropped, at a height that leaves the interlinear decipherment off the
+# image, and transcribed from the sign shapes alone. The L lines were committed (setsunaatto's private repository,
+# 29 Sept 2026 16:58 JST) before the glosses were read; the G lines were added in a later commit (17:01 JST). The
+# L lines have not changed since. "?" marks a sign whose shape could not be decided; the checker treats it as unknown.
+#
+# Sign names as in reading_3625_55.txt: om/lam = a, Ep/ye = e, yi/zig = i, venus/onplus = n, ddag/mcross = r,
+# hash/pi = s, tri/plus = t, perp/Vs = u, f/sigma = o, Gs/varpi = g, Dh/Dgrid = d, eps/beta = l, mu = c,
+# 15_ = overbarred 15 (va); ROY = crossed X (le Roy), PAPE = XX (le Pape).
+#
+# Run L1 is the phrase used as the positive example when the key was first applied (its gloss had been read), so the
+# checker also reports the result without it.
+L1	20 197 tri 12 yi 28 ddag 99 15_ venus plus 25 ROY 335 141 288
+L2	? 57 venus pi 92 ? hash 10 54 20 17 262 25 103 56 pi tri 25 13 ? 101 54 yi plus 184 ye om 6 22 pi 27 39 eps tri ddag om zig 28 mcross ? yi plus
+L3	26 beta om 346 59 PAPE
+L4	69 6 26 pi 52 venus 16 25 16 perp ? 17 6 34 61 ye om 57 zig
+L5	venus tri ? 203 100 51 hash tri 26 pi ? eps om 44 venus 18 12 venus 16 17
+# Interlinear decipherment written over each run, in the office's spelling, spaces removed, illegible letters left out.
+G1	lefairetraiteravantqueleroysoitcatho
+G2	nousavonsprinsparoledeluyquaussitostquesamatauroitfraalamessequiltraiteroit
+G3	atendrelavolontedupape
+G4	sularesponcequeceuxdelaliguea
+G5	aucunfaultavecnostresalaconferance

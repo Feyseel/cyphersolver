@@ -1,0 +1,50 @@
+# fr. 3625 no. 10, f. 10r (canvas 31): the other eight glossed cipher runs, transcribed 30 Sept 2026 by setsunaatto.
+# NOT BLIND: these were transcribed from crops that show the interlinear decipherment, so they are weaker evidence
+# than ct_3625_10_blind.txt. They are here to check that the key's values (especially the word numbers, which were
+# read from the key sheet f. 103r and not from the glosses) never contradict the office's reading.
+# Sign names as in ct_3625_10_blind.txt; P29 = 29 under a bracket-shaped bar (see below); MPONT = the Marquis de Pont
+# sign. R lines are the cipher, G lines the gloss as written over it (spaces mark a gap where the gloss is illegible).
+#
+# Readings (key57.txt, no fitting). Grades as in README Conventions: all H except where marked
+# (202 prendre, 320 sans: C; the MPONT sign: M).
+#  R1  ne pouvoir recongnoistre le Roy que premieremen ilz n'eusse eu la
+#  R2  volonté du Pape qui ne viendront jamais a c'est e re mo que par force
+#  R3  et que [l'Espagne] fera tout hault effort maintenant pour anpescher que [le Pape] ne le resoive qui seroit tous-
+#  R4  -jours une extreme longueur pour sortir du mal. [le Roy] c'est an fait
+#  R5  catholique sans atandre autre chose le recognoitront des ti les
+#  R6  y pourront prendre exanple et les emeu aussi que nous tenons que [le marquis de Pont] suivra le duc de Lorraine
+#  R7  a l'assemblée ou elle sera tres necessaire
+#  R8  qu'il n'i aye des gens a res du Roy qui ne soient bien a ses
+#
+# Where the key and the office disagree:
+#  - R3 "25 P29": 29 carries a bar whose ends turn down like a bracket, not the flat overbar of the v/z syllables, and
+#    reads as province/country 29 = "L'Espagne ou Espagnols" (f. 103r, right-hand table). The office wrote
+#    "qui ne se" here.
+#  - R3 "344 234": clear figures at 3.5x; 344 = tout, 234 = hault on the key sheet (H column). The office wrote
+#    "pour son". We take both as the office's paraphrase.
+#  - R2 "184 Ep 26 50": the image-processed crop shows 26 (not 20); the gloss is "a c·e·s·t·e re mo", which agrees.
+# Judgement calls:
+#  - R6 MPONT (grade M): an R-like sign, not identical to any name sign on the key. It has the same three strokes as the key's
+#    "Le Marquis de Pont" sign (rising diagonal, loop at top right, tail to lower right; the key's form is rounder).
+#    Du Plessis-Mornay's sign has a top bar and a separate upright, which this lacks. Context: "... suivra le duc de
+#    Lorraine" (the marquis is the duke's son). The gloss above has "Mr le ..." with the name illegible.
+#  - R4 "255": the figures are over-inked (rewritten); image processing at 6x shows 2, 5 and a thin 5. 255 = longueur.
+#  - Key-sheet duplicates: 202 and 203 appear both in the F column (font, fait) and in a P block renumbered from 200
+#    (prendre, permettre); 320 appears in the R column (religion) and the S column (sans). For 202 and 320 we follow
+#    the office's choice (prendre, sans). This is the only place where the glosses decided a value.
+R1	23 303 26 150 ROY 25 92 ye 36 Ep 26 8 venus 248 23 perp pi 27 187 6
+G1	nepouvoirrecognoistreleroypremieremeussenla
+R2	346 59 PAPE 39 23 43_ ye venus Dgrid 54 onplus tri 246 om mu 184 Ep 26 50 25 305 196
+G2	volontedupapequineviendroitjamaisacesteremoquiparforce
+R3	185 25 P29 18 12 344 234 Ep 211 8 zig venus 28 9 venus plus 304 om venus 24 pi mu Hq ye ddag 25 PAPE venus ye eps Ep 26 55 zig 29_ 39 27 54 zig tri 56 perp pi
+G3	etquinesefera poursoneffortmaintenantpouranpescherlepapenelere quiseroittous
+R4	49 Vs ddag hash perp venus ye Ep theta plus mcross ye 22 255 304 55 ddag 42 mcross 59 279 ROY mu ye pi plus om venus 203
+G4	jours une poursortirdumal leroycestanfait
+R5	141 320 om plus lam venus Dh ddag ye 101 tri 26 154 eps ye 26 44 venus varpi venus sigma zig tri 54 venus plus 17 pi 43 20 hash
+G5	catoliquesansatendreautrechosederecongnoistre
+R6	o 52 perp 54 onplus tri 202 ye inf om venus 93 Ep 185 beta ye hash 190 103 25 288 28 51 venus pi 25 MPONT 69 zig perp 12 LORRAINE
+G6	deypourront exempleetles aussi suivraleducdelorraine
+R7	om beta 107 f Vs Ep eps 20 27 12 tri ddag ye hash 285
+G7	alassembleeouelleseratresnecessaire
+R8	39 eps 37 om X ye 17 pi 224 lam 26 pi 59 ROY 39 23 55 zig Ep venus plus 122 lam 27 hash
+G8	quilnyayedesgens

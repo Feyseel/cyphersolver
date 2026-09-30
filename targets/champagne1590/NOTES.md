@@ -174,6 +174,8 @@ Laurière letter.
 * `key57.txt` — Nevers key no. 57 (fr. 3995 ff. 102–103), Laurière's key.
 * `reading_3625_55.txt` — no. 55 transcribed and read with key no. 57.
 * `ct_3625_10_glossed.txt` — no. 10's first three runs aligned with the interlinear decipherment.
+* `ct_3625_10_blind.txt`, `ct_3625_10_rest.txt` — all thirteen glossed runs of no. 10 in sign names, with the glosses
+  (the first five transcribed blind); `check_3625_10.py` scores key no. 57 against them (exit 0 = pass).
 * Images in `img/` (git-ignored, not committed).
 
 ## Fr. 3625 no. 55 read with key no. 57 (29 Sept 2026, issue 13)
@@ -211,6 +213,33 @@ Context: the letter is from the weeks before Henri IV's abjuration (25 July 1593
 the King so that he does not put off his assembly by a day, since his enemies will do all they can to turn him
 from it. He reports that Lorraine will treat only once the King is Catholic, and that the Leaguers joke about an
 election. He also asks whether the Pope's consent is to be awaited.
+
+## No. 10 deciphered with key no. 57: the blind test and the other eight runs (setsunaatto, 30 Sept 2026)
+
+`check_3625_10.py` scores key no. 57 against the office's interlinear decipherment of no. 10 (f. 10r). The letter
+played no part in fitting the key. Score: gloss letters falling in runs of four or more that match the
+decipherment. Control: the same signs of each run in shuffled order, 2000 times.
+
+| Set | Transcribed | Letters in runs of >= 4 | Shuffled control | Z |
+|---|---|---|---|---|
+| `ct_3625_10_blind.txt`, 5 runs | from crops that hide the glosses; fixed before the glosses were read | 157 / 196 (80%) | 33.8 ± 6.3 (max 58) | +19.4 |
+| same, without L1 (seen when the key was first applied) | | 121 / 160 (76%) | 21.8 ± 5.0 (max 42) | +19.8 |
+| `ct_3625_10_rest.txt`, the other 8 runs | with the glosses in view (weaker) | 311 / 354 (88%) | 97.7 ± 10.6 (max 129) | +20.1 |
+
+Grades of the new values: the word numbers and 29 = *L'Espagne* are **H** (read on the key sheet); 202 = *prendre* and
+320 = *sans* are **C** (the sheet lists both values of each number; the office's gloss chose); the Marquis de Pont
+sign is **M** (the shape is close to the key's sign, not identical). The deciphered runs below are **H** except where
+marked.
+
+No shuffled control reaches the real score in any set. What does not match is the office's paraphrase, not the key:
+"344 234" is *tout hault* on the sheet where the office wrote *pour son*, and "25 29" with a bracket-shaped bar is
+*que [l'Espagne]* where the office wrote *qui ne se*. Among the other runs: *ne pouvoir recongnoistre le
+Roy que premieremen ilz n'eusse eu la volonté du Pape, qui ne viendront jamais a c'est ... que par force*; *l'Espagne
+fera tout hault effort maintenant pour anpescher que le Pape ne le resoive, qui seroit tousjours une extreme longueur
+pour sortir du mal*; *que nous tenons que [le marquis de Pont] suivra le duc de Lorraine* (the sign **M**); *a l'assemblée ou elle sera tres necessaire*.
+
+One run of no. 10 carries no gloss (after "... que nous avions despesché"): *[le grand duc de Toscane] quant [le Roy]
+nous bailla par escrit (sa?) volonté* (the last sign but one, an overbarred 3, is not on the sheet).
 
 ## Remaining gaps
 

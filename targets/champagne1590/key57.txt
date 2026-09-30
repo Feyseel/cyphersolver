@@ -16,10 +16,21 @@
 #   181 ennemy  184 est  197 faire  203 faut ou fait  248 il(z)  262 luy  285 necessaire ou necessite  286 non
 #   288 nous  304 pour  312 quoy  334 son  335 soit  344 tout  345 veult  346 volonte ou vouloir  347 vous
 #   overbarred: 200 plus 201 point 202 prendre 203 permettre ou permis
+#   added from no. 10 (setsunaatto, 30 Sept 2026; each read on the sheet, not taken from the glosses):
+#   100 aux  122 bien  150 congnoistre  154 chose  175 escrire ou escrit  185 et  186 en  187 eu  190 emeu
+#   191 entendre  196 force  211 fort  224 gens  234 hault  246 jamais  255 longueur  279 mal  303 pouvoir
+#   305 par  307 quant  320 sans
+#   duplicates on the sheet: 202 and 203 stand both in the F column (font, fait) and in the 200-203 block (prendre,
+#   permettre); 320 stands in the R column (religion) and in the S column (sans). In no. 10 the office reads
+#   202 = prendre and 320 = sans (grade C).
 # PROVINCES 1-33 and TOWNS 34-68 with an overbar (12 Champagne, 30 Lorraine, 50 Chaalons, 54 Langres ...).
+#   The bar over these is bracket-shaped (ends turned down), unlike the flat overbar of the v/z syllables; no. 10 has
+#   29 = L'Espagne ou Espagnols under such a bar ("et que [l'Espagne] fera tout hault effort ...").
 # NAMES (f. 103, upper panel): XX le Pape ou Sa Saintete; crossed X le Roy; ... le Roy d'Espagne; ... le grand duc de
 #   Toscane; ... le Gr[and prieur?] de Gondi; Dames: la Royne douairiere, Madame soeur du Roy, Mme de Nevers, Mme de
 #   Guise, Mme de Montpensier.
+#   Le Marquis de Pont: a looped Q-like sign (f. 103v, left column); an R-like variant of it in no. 10 run R6
+#   ("que nous tenons que [le marquis de Pont] suivra le duc de Lorraine"), grade M - see ct_3625_10_rest.txt.
 # ALPHABET: two (sometimes three) signs per letter (header rows of f. 103r); values used in no. 55 after setsunaatto:
 #   a = lambda, omega   e = V-form y   i = U-form y   n = o+, venus-sign   r = crossed m, double dagger
 #   s = #, pi   t = triangle, +   u = v-sign, perp   o = f-form   g = G-form   c = c   h = mu-form (as read in no. 55)
