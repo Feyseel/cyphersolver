@@ -776,3 +776,6 @@ targets/siena1421/reel58/
 targets/hesse1824/images/
 targets/malsburg1637/img/
 targets/malsburg1637/work/vocab.txt
+
+# harley1582r8505: word-model vocabulary cache written by word.py
+targets/harley1582r8505/vocab.json
