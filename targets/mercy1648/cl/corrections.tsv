@@ -1,0 +1,13 @@
+step	code	old	new	grade	occurrences_that_justify_it	occurrences_that_do_not_read
+1	34	o	a	S	r06 duquesa; r19 creencia; r04 estas, armas; r04 hallandose (alandose); r04 campagna	r14 'a el' (reads 'a Cleues' after step 7); v02 amaremas
+2	20	o	f	S	r23 infanteria; v12 fruto; r10 in-f-?-me	r17 (unread stretch)
+3	22	i	g	S	r16 brandenburg; v08 lugar; v06 gente; v13 gente; r05 campagna; r24 (r)egimientos; v02 encarga	v07 tgdolas
+4	24	l	h	S	r22 mil hombres; r06 Cheureuse (with exception r06:14)	-
+5	26	e	i	S	r20 propondreis; r22 pais; r21 permitira; r20 si se; r18 y embian	r24 regimient-i-s
+6	33	a	e	S	r09 que el; r14 Cleues; r21 permitira	-
+7	19->14 (transcription)	19	14 at r06:14, r14:7, r16:3, r16:6, r17:5	M	image: open-4 glyph identical to the 4 of 24/34 on the same lines; reads Cheureuse, Cleues, 'y con co...'	both blind passes read 19; needs a transcription re-pass before S
+8	13	s	y	S	v02 ma-y-or (image checked); r08 y que; v11 y se con(siguiese); r19 con esta y les; r07 Cheureuse y del; v03 della y que; v11 otra y se	r10 oulay; v04 nonysiiuna; v08 dolay
+9	25	i	u	M	r19 que uan con estas; r09 que el _ uenga con uos	r10 infume (informe wanted); r16 copura; r17 sucmare
+10	[MARK:frac]	c (anneal: i)	c	M	v01 condiciones	single occurrence
+11	v07:15 (token split)	one token '7'	two tokens '3','17' (renumbers old v07:16 '22' to v07:17)	M	MREV (LANE R7, 25 Sept 2026): images/f22v_canvas59.jpg at 4x shows two distinct strokes (a closed-loop '3', a separate '1'+'7') where ciphertext.tsv carried a single '7'; matches R7-MEYE's independent blind pass (meye/compare.tsv COUNT MISMATCH, meye/README.md); both original passes (passA.tsv, passB.tsv) flagged this same spot 'm' as an ambiguous mark/digit read as 7 by convention	-
+-	13 was s under Y8; the anneal re-run with steps 1-7 fixed (m2/cipher_codes_eyefix.tsv, 3 seeds, all -1199.1) kept 13=s and gave 25=a, 15=n, 48=d, 52=y, 65=s, 72=z, box=o: the reading overrides 13 and 25 only; 15, 48, 52, 65, 72 stay M at the anneal value; box is a word code (M, value _)					

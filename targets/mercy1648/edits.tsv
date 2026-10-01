@@ -1,0 +1,6 @@
+line	position	op	value	grade	note
+r10	8	letters	or	M	the tight 25 is read as 2 5 (o r): "informe" (read as 25 = u it gives "infume")
+r10	13	merge	l	M	the 2 and the 8 stand apart on the image, but "della y" needs one 28 (l): "de ella"; as 2 8 (o u) it gives "oulay"
+r10	14	skip		M	(second half of the merged 28)
+v04	9	letter	?	-	code 15: no value found
+v04	19	letter	?	-	code 15 cut by the page edge: no value found

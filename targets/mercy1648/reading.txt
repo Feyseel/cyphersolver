@@ -1,0 +1,43 @@
+# BnF Espagnol 144 f. 22r-22v, instruction to the abbe (baron) de Mercy, Barneton 6 June 1648, read from ct_f22.tsv + key.tsv.
+# Clear words as written; cipher runs lower case, as read. [..] = letters lost at the trimmed edge, restored by sense;
+# ? = no value; a word ending in - continues on the next line. Word breaks are a convenience (see build_reading.py).
+r01  Baron de Mercy mi Sumiller de Cortina deseo tener Resolucion de la nego-
+r02  ciacion que fuisteis por lo que conviene saver lo que se puede esperar della Respeto de las 1648.
+r03  operaciones que se deven saver: 24
+r04  alandose estas armas en cam-
+r05  pagna y asi Holgare me digais lo que en esta razon saueis entendido.
+r06  de la duquesa de cheureuse
+r07  y del <Santibal> y porque qualquiera ora de tardanca en la coyuntura presente
+r08  es de summo per juicio procuraveis sacar Respuesta Cathegorica en la materia. y
+r09  que el <Santibal> uenga con uos para qu-
+r10  e nos informe della y se-
+r11  pamos Con fundamento lo que nos podemos prometer y Caso de no estar
+r12  en estado y que es necesario esperar algun tiempo para poder dezir determinada
+r13  mente el que tiene esta negociacion y lo que se puede confiar della. pas-
+r14  areis a cleues a ueros con e-
+r15  l elector de brandenbur-
+r16  g y con copurad lon burgsto-
+r17  rf su cmarero mayor para qui-
+r18  en se os embian cartas de cr-
+r19  eencia que uan con esta y
+r20  les propondreis que si se p-
+r21  ermitir a se leuanten en
+r22  aquel pais tres mil hombr-
+r23  es de infanteria en dos o
+r24  tres regimientos y con que
+v01  condiciones y al camare[ro]
+v02  mayor si querra encarga[r] [s]-
+v03  e della y que corra por su [ma]-
+v04  no la dire ?t non y si iu ?[?]
+v05  a sera mas conuenient [?]
+v06  ar otra tanta gente de [?]
+v07  que a a leuantada pag[an]-
+v08  dola y en su lugar leua[nt]-
+v09  ar otra y Caso que le paresca que esta materia no convenga
+v10  Corra por su mano le preguntareis a que persona se podria encargar
+v11  se pudiese caminar en ello sin perder tiempo. y se cons[ig]-
+v12  uiese el fruto detener [tan]-
+v13  ta gente En todo os encargo la brevedad porque
+v14  qualquiera dilacion que aya es summamente danosa y de nuestro zelo fio aten...
+v15  ...a ello con el Cuydado que Conviene vos encargo Barneton a seis
+v16  Junio de 1648

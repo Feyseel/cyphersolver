@@ -25,6 +25,7 @@
   "andreae, chymische hochzeit, strassburg 1616": "2026-09-22",
   "andrás bay to rákóczi, jászvásár, 8 march 1706": "2026-09-21",
   "archbishop of bremen to johan adler salvius, november–december 1631": "2026-09-21",
+  "archduke leopold wilhelm to the abbé de mercy, 6 june 1648": "2026-10-01",
   "arend willem van reede to van de spiegel, berlin, december 1787 and march 1788": "2026-09-21",
   "armstrong to madison, 20 february 1808": "2026-09-16",
   "attempted, not solved": "2026-09-23",
@@ -584,7 +585,7 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "2916ba9d690c",
+   "hash": "f299600bd599",
    "updated": "2026-10-01"
   },
   "goldbar": {
@@ -734,7 +735,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "5668715bd7a4",
+   "hash": "ff63a9a6f95a",
    "updated": "2026-10-01"
   },
   "indus": {
@@ -906,6 +907,11 @@
    "first": "2026-09-22",
    "hash": "6376dbf28858",
    "updated": "2026-09-24"
+  },
+  "mercy1648": {
+   "first": "2026-10-01",
+   "hash": "c11ab7afd21c",
+   "updated": "2026-10-01"
   },
   "michell1751": {
    "first": "2026-09-19",
@@ -1544,7 +1550,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "71889658ed13",
+   "hash": "4a5210cd0c10",
    "updated": "2026-10-01"
   },
   "yard1699": {

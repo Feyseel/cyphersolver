@@ -1,0 +1,3 @@
+line	from	to	note
+v04	9	13	"no la dire?t non": code 15 has no value and "t non" does not read (a Latin or French non? "direction" with a 14 and a 31 for the 15 and the 32 gives Spanish but moves two glyphs)
+v04	17	19	"si i u?": an extra i before "una", then code 15 cut by the page edge (probably n: "una sera")

@@ -1,0 +1,39 @@
+code	letter	grade	source	note
+2	o	S	Y8 anneal	con, por, dos, corra, propondre
+3	p	S	Y8 anneal	pasareis, para, propondreis, pais, campagna
+4	q	S	Y8 anneal	que (7x), aquel
+5	r	S	Y8 anneal	pasareis, cartas, creencia, tres, hombres
+6	s	S	Y8 anneal	estas, armas, cartas, tres, pais, otras
+7	t	S	Y8 anneal	elector, cartas, tres, otras, fruto, tener
+8	u	S	Y8 anneal	que, aquel, duquesa, su, fruto
+9	q	M	Y8 anneal	1 occurrence (duquesa); homophone of 4 or a slip
+10	a	S	Y8 anneal	para, cartas, pais, leuanten, otras
+12	b	S	Y8 anneal	brandenburg (2x), embian, hombres
+13	y	S	M2 correction	Y8 s; image v02 'ma-y-or', y que (r08), y se con(siguiese) (v11), con esta y les (r19), Cheureuse y del (r07), della y que (v03), otra y se (v11)
+14	c	S	Y8 anneal	con, cartas, creencia, condiciones, corra, elector, Cleues, Cheureuse
+15	n	M	Y8 anneal	2 occurrences, both in an unread stretch (v04)
+16	d	S	Y8 anneal	de (many), brandenburg, condiciones, duquesa
+17	a	S	Y8 anneal	cartas, para, brandenburg, campagna, mas, tanta
+18	e	S	Y8 anneal	de, que, elector, creencia, leuanten (commonest code)
+19	e	S	Y8 anneal	el elector, creencia, que, leuanten, gente; five glyphs transcribed 19 are 14 on the image (exceptions.tsv)
+20	f	S	M2 correction	Y8 o; infanteria (r23), fruto (v12), in-f-?-me (r10)
+21	i	S	Y8 anneal	pasareis, infanteria, regimientos, condiciones, si
+22	g	S	M2 correction	Y8 i; brandenburg (r16), lugar (v08), gente (v06, v13), campagna (r05), regimientos (r24), encarga (v02)
+23	o	S	Y8 anneal	elector, dos o tres, mayor, uos
+24	h	S	M2 correction	Y8 l; hombres (r22), Cheureuse (r06, with exceptions.tsv r06:14)
+25	u	M	M2 correction	Y8/anneal-with-fixes i/a; que uan con estas (r19), que el [box] uenga con uos (r09); but in-f-u-me (r10) does not read
+26	i	S	M2 correction	Y8 e; propondreis (r20), pais (r22), permitira (r21), si se (r20), y embian (r18); regimient-i-s (r24) does not read
+27	u	S	Y8 anneal	duquesa, Cheureuse, brandenburg, Cleues
+28	l	S	Y8 anneal	el, la, dellas, mil, leuanten, lugar
+29	o	S	Y8 anneal	propondre, otras, fruto, con que
+30	m	S	Y8 anneal	campagna, mil, embian, regimientos, mayor
+31	i	S	Y8 anneal	mil, creencia, infanteria, regimientos, condiciones
+32	n	S	Y8 anneal	con, en, brandenburg, creencia, leuanten
+33	e	S	M2 correction	Y8 a; que el (r09), Cleues (r14), permitira (r21)
+34	a	S	M2 correction	Y8 o; duquesa (r06), creencia (r19), estas armas (r04, 2x), campagna (r04), hallandose (r04)
+48	d	M	anneal with fixes	2 occurrences (r17, r20), neither reads; may be a word code or null
+52	y	M	anneal with fixes	1 occurrence (r17), unread stretch
+65	s	M	anneal with fixes	1 occurrence (r24) between 'tre' and 'egimientos'; a homophone of s or r, or a slip
+72	z	M	anneal with fixes	1 occurrence (r16), unread stretch; may be a word code or null
+[MARK:box]	_	M	M2 reading	2 occurrences, both where a name or title fits ('y del [box]' r07, 'que el [box] uenga con uos' r09): a word code, not a letter
+[MARK:frac]	c	M	M2 reading	1 occurrence (v01), cond-?-ciones reads condiciones with c (anneal with fixes gave i); transcription confidence M (pass B read a different mark)

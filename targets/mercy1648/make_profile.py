@@ -1,0 +1,80 @@
+"""Writes profile.json for this target (kept so the record can be regenerated and diffed)."""
+import json, pathlib
+HERE = pathlib.Path(__file__).resolve().parent
+prof = {
+ "schema_version": 1,
+ "target": "mercy1648",
+ "title": "Instruction to the abbe (baron) de Mercy, Barneton 6 June 1648, BnF Espagnol 144 f. 22r-22v",
+ "documents": [{
+  "id": "f22",
+  "read": "read in part",
+  "shelfmark": "BnF Espagnol 144 (Supplement francais 1257C, tome III) f. 22r-22v (Gallica btv1b10035717h canvases 58-59); finding-aid item 11",
+  "date": "6 Jun 1648", "year": 1648, "country": "Spanish Netherlands",
+  "route": "Archduke Leopold Wilhelm (Barneton, unsigned copy) -> abbe (baron) de Mercy",
+  "language": "Spanish", "pages": 2,
+  "cleartext_in_document": "interspersed",
+  "plaintext": {"location": ["none"]},
+  "length": {"tokens": 529, "distinct": 33, "unit": "code groups", "measured": True, "file": "ct_f22.txt"},
+  "transcription": {"by": "mixed",
+   "source": "NoAutopilot (cipher-lab, issue 16), checked line by line against the Gallica full-resolution images and corrected in eight places",
+   "corrections": 8, "image_quality": "good",
+   "notes": "The contributor's 522 tokens became 529: 48, 52, 65, 72 and two 26 are pairs of single digits; one 19 is a 14. The right edge of f. 22v is trimmed (about 4-5 digits per line); 18 lost letters are restored by sense and not counted."}
+ }],
+ "system": {
+  "types": ["homophonic", "nomenclator"],
+  "summary": "A homophonic substitution of the numbers 2-34 (one to three per letter, no word division) in runs inside clear Spanish, with one name sign.",
+  "symbol_kind": "digits",
+  "digit_groups": {"width": "1-2", "separation": "spaces"},
+  "distinct_symbols": 33,
+  "diacritics": {"used": False},
+  "homophones": {"used": True, "max_per_vowel": 3, "max_per_consonant": 2},
+  "nomenclator": {"present": True, "entries": 1, "kinds": ["names"], "unread_groups": 0},
+  "nulls": {"present": "unknown", "count": "unknown"},
+  "key_order": "random",
+  "word_division": "none",
+  "doubled_letters": "written twice",
+  "sibling_key": "none known; the DECODE Brussels Secretaria series R958-R965 was checked by the contributor and does not fit",
+  "notes": "u stands for v; 20 letters used (no j k n-tilde v w x z); a square with a dot is the Conde de Saint-Ibal. Single digits 2-9 are letters, so a token above 34 is two digits written together."
+ },
+ "conditions": {
+  "prior_solution": {"exists": "no", "where": "No decipherment of f. 22 located by the contributor (three logged searches) or here; the substance of the mission is calendared in Lonchay, Cuvelier and Lefevre, Correspondance de la Cour d'Espagne IV no. 183", "found": "before attempt", "used": False},
+  "inputs": ["images", "transcription", "cleartext context"],
+  "attack": "ciphertext-only",
+  "human_role": "Project-level: set up Claude Code and posed the task. This target arrived as GitHub issue 16 from an outside contributor (NoAutopilot, cipher-lab), who recovered the key ciphertext-only; the session verified their transcription, made the corrections and identified the names, and Daniel asked for it to be added as a target.",
+  "tools": ["PIL crops", "Spanish word-frequency segmenter (build_reading.py)"],
+  "models": ["claude-sonnet-5-5"],
+  "sessions": 1, "first_date": "2026-10-01", "last_date": "2026-10-01"
+ },
+ "solution": [
+  {"date": "2026-10-01", "kind": "literature search", "what": "Issue 16 (NoAutopilot): item not in our catalogue or DECODE harvest; the BnF finding aid (Espagnol 144 items 6-11) and web searches give the cast and the sibling instructions of 8 Feb and 13 Apr 1648; no print of the plaintext.", "result": "worked"},
+  {"date": "2026-10-01", "kind": "access", "what": "Gallica full-resolution images of ff. 22r-22v (canvases 58-59), and of ff. 20r-21v (54-57) for the clear sibling instructions; contact sheet of ff. 10-21.", "result": "worked"},
+  {"date": "2026-10-01", "kind": "transcription", "what": "Contributor's 522-token transcription compared with the images line by line: all tokens agree except eight; 48, 52, 65, 72 and two 26 are digit pairs (the key has values 2-34 only), one 19 is a 14. 529 tokens; the trimmed right edge of f. 22v noted.", "result": "worked"},
+  {"date": "2026-10-01", "kind": "key from source", "what": "The contributor's key (anneal on Spanish n-grams) adopted for the letters; the four 'codes above 34' removed; 14 = c settled for eight glyphs read as 19.", "result": "worked"},
+  {"date": "2026-10-01", "kind": "crib", "what": "The clear instruction of 13 April 1648 (f. 21r) asks that Santibal come with Mercy: the name sign (a boxed dot, twice) is the Conde de Saint-Ibal.", "result": "worked"},
+  {"date": "2026-10-01", "kind": "hypothesis", "what": "'rfsucmarero mayor' with 5 2 = r o is 'su camarero mayor'; the run before it is the chief chamberlain's name, Conrad von Burgstorf (Burgsdorff), Oberkammerherr of Brandenburg (copurad lon burgstorf).", "result": "worked"},
+  {"date": "2026-10-01", "kind": "reading", "what": "All runs read: Mercy is to see the Elector of Brandenburg and Burgsdorff at Cleves and ask whether 3,000 infantry in two or three regiments can be raised, on what terms, and whether the chamberlain will take charge; two re-segmented tokens in r10 (informe della y) graded M.", "result": "worked"},
+  {"date": "2026-10-01", "kind": "solver", "what": "Word-frequency search over v04 ('no la dire?t non y si i u?'): code 15 any letter, one re-segmented, substituted or deleted token; best 'no la direct- y si una sera mas conveniente' moves two glyphs; not accepted.", "result": "failed"},
+  {"date": "2026-10-01", "kind": "verification", "what": "Substance matches the print calendar (3,000 infantry from Brandenburg for a corps in Flanders); the siblings give the cast and the clerk's spellings; every cipher run reads in Spanish.", "result": "worked"}
+ ],
+ "outcome": {
+  "method": "key recovered from ciphertext-only",
+  "method_basis": "NoAutopilot recovered the key by annealing on Spanish n-grams and reading the runs, with no plaintext and no existing key (issue 16); this session verified the transcription against the images, removed four non-codes, and identified the name sign and the chamberlain from the clear sibling instructions.",
+  "contribution": ["transcription", "key recovered"],
+  "class": "read in part",
+  "key": "recovered",
+  "fraction_read": 0.985,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "build_reading.py 1 Oct 2026: 529 cipher tokens, 8 open (v04 pos. 9-13 and 17-19), 521 read as sense; 18 letters lost at the trimmed edge, restored by sense, not counted",
+  "codes_open": {"open": 1, "total": 33, "tokens_open": 2},
+  "grades": {"C": 2, "M": 27, "I": 498},
+  "verification": ["historical consistency", "independent clear copy"],
+  "notes": "First break: the contributor's (NoAutopilot); the corrections and the identifications are ours. Not read in full: eight tokens of v04 and the letters lost at the trimmed edge of f. 22v. independent clear copy = the sibling instructions of 8 Feb and 13 Apr 1648, which give the same cast and the sentence for the name sign, not a copy of this text.",
+  "gaps": [
+   {"item": "v04 pos. 9-13 and 17-19: 'no la dire?t non y si i u?'", "blocker": "open-codes", "detail": "code 15 occurs twice and has no value; 't non' does not read; no word-model edit that moves fewer than two glyphs gives sense"},
+   {"item": "v05/v06 and v06/v07 junctions: two to three letters each lost at the trimmed right edge", "blocker": "illegible", "detail": "the leaf is cut; no other copy of the instruction is known"},
+   {"item": "letters lost at the edge of v01, v02, v03, v07, v08, v11, v12 (restored by sense, not counted as read)", "blocker": "illegible", "detail": "same trimmed edge"}
+  ]
+ }
+}
+(HERE / 'profile.json').write_text(json.dumps(prof, indent=1, ensure_ascii=False), encoding='utf8', newline='\n')
+print('profile.json written')

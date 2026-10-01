@@ -779,3 +779,5 @@ targets/malsburg1637/work/vocab.txt
 
 # harley1582r8505: word-model vocabulary cache written by word.py
 targets/harley1582r8505/vocab.json
+# mercy1648: Gallica page images (never committed)
+targets/mercy1648/img/
