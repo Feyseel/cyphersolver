@@ -1,0 +1,268 @@
+{
+ "slug": "ormanetto1573",
+ "anchor": "the-reading",
+ "title": "Madrid, spring 1573: the opening of passage B",
+ "caption": "Passage B of Philip II's letter copied for the Cardinal of Como, f. 304r, Archivio Apostolico Vaticano (DECODE R116), decoded from our transcription with the Spain nunciature's ordinary cipher. Spelling is as enciphered: no h, no double letters, et written as a single sign.",
+ "unit": "signs",
+ "key_note": "Two signs per letter (a: 40, 4̇; b: 4, 0̇2 ...), undotted 0 closes the digit before it, dotted 0 opens the next; 2, 4 or 5 with a cross-stroke ends a word; a few code groups for common words. Key reconstructed by A. Devadas (Oct 2026) and checked here.",
+ "tokens": [
+  {
+   "g": "0̇3",
+   "p": "o"
+  },
+  {
+   "g": "2+",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "10",
+   "p": "u"
+  },
+  {
+   "g": "3",
+   "p": "i"
+  },
+  {
+   "g": "20",
+   "p": "s"
+  },
+  {
+   "g": "9",
+   "p": "t"
+  },
+  {
+   "g": "6",
+   "p": "o"
+  },
+  {
+   "g": "4+",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "0̇8",
+   "p": "i"
+  },
+  {
+   "g": "2̇",
+   "p": "l"
+  },
+  {
+   "g": "5+",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "5",
+   "p": "f"
+  },
+  {
+   "g": "6",
+   "p": "o"
+  },
+  {
+   "g": "3̇",
+   "p": "g"
+  },
+  {
+   "g": "80",
+   "p": "l"
+  },
+  {
+   "g": "3",
+   "p": "i"
+  },
+  {
+   "g": "0̇3",
+   "p": "o"
+  },
+  {
+   "g": "2+",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "2",
+   "p": "m"
+  },
+  {
+   "g": "40",
+   "p": "a"
+  },
+  {
+   "g": "6̇",
+   "p": "n"
+  },
+  {
+   "g": "7",
+   "p": "d"
+  },
+  {
+   "g": "4̇",
+   "p": "a"
+  },
+  {
+   "g": "0̇7",
+   "p": "t"
+  },
+  {
+   "g": "6",
+   "p": "o"
+  },
+  {
+   "g": "0̇1",
+   "p": "m"
+  },
+  {
+   "g": "3",
+   "p": "i"
+  },
+  {
+   "g": "4+",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "40",
+   "p": "a"
+  },
+  {
+   "g": "5+",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "30",
+   "p": "p"
+  },
+  {
+   "g": "4̇",
+   "p": "a"
+  },
+  {
+   "g": "8",
+   "p": "r"
+  },
+  {
+   "g": "9",
+   "p": "t"
+  },
+  {
+   "g": "5̇",
+   "p": "e"
+  },
+  {
+   "g": "2+",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "9̇",
+   "p": "s"
+  },
+  {
+   "g": "0̇3",
+   "p": "o"
+  },
+  {
+   "g": "8̇",
+   "p": "p"
+  },
+  {
+   "g": "0̇5",
+   "p": "r"
+  },
+  {
+   "g": "40",
+   "p": "a"
+  },
+  {
+   "g": "80",
+   "p": "l"
+  },
+  {
+   "g": "60",
+   "p": "e"
+  },
+  {
+   "g": "2+",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "7̇",
+   "p": "c"
+  },
+  {
+   "g": "0̇3",
+   "p": "o"
+  },
+  {
+   "g": "20",
+   "p": "s"
+  },
+  {
+   "g": "5̇",
+   "p": "e"
+  },
+  {
+   "g": "4+",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "0̇4",
+   "p": "d"
+  },
+  {
+   "g": "0̇8",
+   "p": "i"
+  },
+  {
+   "g": "5+",
+   "p": "·",
+   "cls": "null"
+  },
+  {
+   "g": "30",
+   "p": "p"
+  },
+  {
+   "g": "3",
+   "p": "i"
+  },
+  {
+   "g": "9",
+   "p": "t"
+  },
+  {
+   "g": "0̇8",
+   "p": "i"
+  },
+  {
+   "g": "3̇",
+   "p": "g"
+  },
+  {
+   "g": "2̇",
+   "p": "l"
+  },
+  {
+   "g": "3",
+   "p": "i"
+  },
+  {
+   "g": "4̇",
+   "p": "a"
+  },
+  {
+   "g": "90",
+   "p": "n"
+  },
+  {
+   "g": "6",
+   "p": "o"
+  }
+ ]
+}

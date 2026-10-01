@@ -244,6 +244,8 @@ Powers, and the two compute challenges). Those are listed in `research/top50/NOT
 
 ## Done elsewhere in this repo
 
+- **Ormanetto / Clementino, Spain nunciature to the Secretariat, 15 Oct 1576 or 1577** (catalogue 239, ASV Spagna 10, DECODE R118): read 1 Oct 2026 with the Spain cifra ordinaria, a key reconstructed by Ajaydas Devadas and verified here; the note on the leaf is the decipherment, minus the dateline. See [targets/ormanetto1576/](targets/ormanetto1576/).
+- **Philip II to the nuncio Ormanetto, copy sent to the Cardinal of Como, 1573** (catalogue 259, ASV Spagna 7, DECODE R116): read in part 1 Oct 2026 (about 90%) with the same key; about 15 code groups open. See [targets/ormanetto1573/](targets/ormanetto1573/).
 - **Sienese envoys and others → the government of Siena**, ASSi Concistoro 2308 fasc. 2 (catalogue 336): read in part 24 Sept 2026; keys recovered from the ciphertext for nos. 14, 18, 25, no. 4 from its own fragment; the 1421 letter (no. 1) not photographed. [`targets/siena1421/`](targets/siena1421/) · [write-up](https://dbourdeau.github.io/cyphersolver/siena1421.html)
 - **Wallachian court → a Reverend Father, after Oct 1688** ("Szembek papers: Latin cipher letter"), catalogue 348, Biblioteka Kórnicka BK 1560: read at the time (interlinear decipherment), key rebuilt and checked 28 Sept 2026; a postscript against Antide Dunod SJ. See [targets/szembek1689/](targets/szembek1689/).
 - **Hanover-Celle ministers → Jobst Hermann von Ilten, 1697–1706**, catalogue 346, GWLB Ms XXIII 1245: read at the time (Kalliope's "Dechiffrierter Brief"; interlinear decipherments), transcribed and checked 24 Sept 2026. See [targets/ilten1697/](targets/ilten1697/).

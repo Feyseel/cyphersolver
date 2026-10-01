@@ -759,6 +759,14 @@
    "by": "",
    "year": 1743,
    "note": "Two-part syllabic nomenclator in GWLB Ms XXIII 1234:31,1 pp. 386-391 (volume of 1745/46): alphabetical encoding side and numbered decoding side; blanks and 864-1000 are nulls."
+  },
+  {
+   "id": "k-spain-cifra-ordinaria",
+   "label": "Spain nunciature cifra ordinaria (Ormanetto, 1573-77)",
+   "kind": "scholar's key",
+   "by": "Ajaydas Devadas",
+   "year": 1573,
+   "note": "Rules in Meister 1906 p. 265; table reconstructed 1 Oct 2026 from R116 and R118 (two signs per letter, stroke word-ends, zero rule)."
   }
  ],
  "links": [
@@ -1475,6 +1483,18 @@
    "target": "ilten1743",
    "how": "read unchanged",
    "note": "reads the unsigned London letter of 15/26 Feb 1743 and Steinberg's of 29 Mar 1743"
+  },
+  {
+   "key": "k-spain-cifra-ordinaria",
+   "target": "ormanetto1573",
+   "how": "read unchanged",
+   "note": "verified on our own transcription"
+  },
+  {
+   "key": "k-spain-cifra-ordinaria",
+   "target": "ormanetto1576",
+   "how": "read unchanged",
+   "note": "R118; the leaf's note is the decipherment"
   }
  ],
  "sources": [

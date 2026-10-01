@@ -1,0 +1,9 @@
+Spain nunciature 'cifra ordinaria' (rules: Meister 1906 p. 265), table reconstructed by Ajaydas Devadas, 1 Oct 2026; checked in dec_aj.py.
+Two signs per letter. Notation: d. = digit with a dot over it; 0.d = dotted zero followed by d; d0 = d closed by an undotted zero; 7: = two dots over 7.
+Zero rule: an undotted 0 closes the digit before it, a dotted 0 opens the next digit; every other digit stands alone.
+Word end: 2, 4 or 5 with a cross-stroke (DECODE writes the stroke as a digit 1 after those digits).
+a 40 4.   b 4 0.2   c 50 7.   d 0.4 7   e 60 5.   f 0.6 5   g 7: 3.   i 3 0.8   l 80 2.   m 2 0.1   n 90 6.   o 0.3 6   p 30 8.   r 0.5 8   s 20 9.   t 0.7 9   u/v 10 1.   z 0.9
+Code groups (certain): 66 che; 2.44 quello; 6.11 tutto; 9.11 V.S. Ill.ma; 3.44 Re; lone 3 = et; 5.2.2 = qua; 7.2.2 = qui; numbers 15, 19 in plain figures under an overline.
+Code groups (probable): 8.22 quanto; 4.88 Sua Santita; 63 Imperatore; 97 officii; 87 non; 5.11 tanto; 1.44 questo; 77 negotio; 35 lega; 2.22 pace; 76 come.
+Guesses / open (R116): 4.22 perche; 62 canto; 48 essere; 84 bene; 422 ancora; 47 or 93 tutta; 3.22 Italia; 32, 2.88, 53 open.
+Final nulls: five or six consonant signs.

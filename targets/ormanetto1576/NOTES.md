@@ -1,8 +1,41 @@
-# Ormanetto / Clementino, Spain nunciature 1576-77 (ASV Segr. Stato Spagna 10; DECODE R117, R118)
+# Ormanetto / Clementino, Spain nunciature 1576-77 (ASV Segr. Stato Spagna 10; DECODE R117, R118). R118 READ (key from outside)
 
 Catalogue no. 239 (DECODE refill, rule-scored class A, "noted"). Worked 21 Sept 2026.
 
-Outcome: **attempted and closed.** R117 contains no cipher. R118 is a short numeric cipher with no key and no
+Outcome (1 Oct 2026): **R118 read, R117 not a cipher.** R118 reads with the Spain nunciature's "cifra ordinaria" (key by Ajaydas Devadas, email of
+1 Oct 2026; described in `../ormanetto1573/NOTES.md`, which it also reads). The 21 Sept result (attempted and closed) is the history below.
+
+## R118 as read
+
+Italian: *scrita ali 15 di otobre. Il nuntio a comunicato col secretario Perez tutto quello che V.S. Ill.ma scrive con la cifra di 19 di setembre; il quale segretario
+a promeso di darne conto al Re, et di procurarne risposta, de la quale V.S. Ill.ma sara poi subito avisata* + six null signs (s t c z p l). "Written 15 October. The Nuncio
+has communicated to Secretary Perez everything Your Lordship writes in the cipher of 19 September; the Secretary has promised to report it to the King and to procure
+an answer, of which Your Lordship will shortly be advised." The clear Italian note on the leaf is the contemporary decifrato of this text, **minus the dateline**. Our 21 Sept
+readings of the note ("trattato", "Sig.r", "buoni uffici", "sabbato") were abbreviations misread, which is why the crib test failed.
+
+- `dec118.py`: AJ's token list for the six lines, decoded with the key and compared with his plaintext (12 lines consistent, 0 differ). **Compared with the scan here: lines 1-3 and 5**
+  (`decode/L0.jpg`, `l1a/b`, `l3a`, `l5a`, git-ignored); lines 4 and 6 not compared by eye. The dateline "15" (overlined) and "19" are on the page. `--reveal` writes `docs/reveal/ormanetto1576.json`.
+- Our `r118_cipher.txt` cannot carry the key: it has no dots, and writes the cross-stroke as 4 or X ("24" = 2+, "44" = 4+).
+- Year open: Ormanetto died 18 June 1577 and Sega reached Madrid on 11 October 1577, so 15 October is Ormanetto in 1576 or Sega four days after arriving in 1577. The third person suggests
+  nunciature staff wrote it; DECODE's "Clementino" is unidentified.
+- Contamination: the reading came from outside on 1 Oct 2026. The leaf's note is the contemporary decipherment, which we took on 21 Sept for a plain message.
+
+## Remaining gaps
+
+- the year of the letter and the writer "Clementino" - blocker: needs-physical-access; the register of Como's ciphers to Spain or the Spagna 10 index would date it
+
+## Escalation
+
+- [x] siblings: R116 (ormanetto1573) reads with the same key
+- [x] clear-pages: the note on the leaf is the decifrato, minus the dateline
+- [x] known-keys: the cifra ordinaria key fits
+- [x] print: Olarra-Larramendi not online
+- [n/a] key-rebuild: key complete for the letters in R118
+- [n/a] retry: nothing unread
+
+## History: 21 Sept 2026 (before the key)
+
+Outcome then: **attempted and closed.** R117 contains no cipher. R118 is a short numeric cipher with no key and no
 decipherment; not read.
 
 ## What the two records are

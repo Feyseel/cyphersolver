@@ -1,10 +1,68 @@
-# Ormanetto 1573: copy of Philip II's letter to the nuncio, with two cipher passages. ATTEMPTED, OPEN
+# Ormanetto 1573: copy of Philip II's letter to the nuncio, with two cipher passages. READ IN PART (key from outside, 1 Oct 2026)
 
 Catalogue item 259 (class C). ASV (AAV), Segreteria di Stato, Spagna 7 (DECODE "i. 1025, doss. 7"), ff. 303r–304r,
 address leaf f. 320v. DECODE R116 (Non-decrypted, 2 images + address leaf, transcription by KL, 18 Aug 2020).
 
-**Result (21 Sept 2026): not read.** The document and the cipher are identified. The key was not found, and no
-ciphertext-only attack produced text that a matched control could not also produce.
+**Result (1 Oct 2026): read in part, about 90% (AJ's count of words, not re-measured here).** The two passages are Italian, in the Spain
+nunciature's "cifra ordinaria", a key reconstructed by Ajaydas Devadas (AJ) with Claude and sent by email on 1 Oct 2026. The 21 Sept result
+(not read, no key, five keys ruled out) is kept below as the history; the reason it failed is in the next section.
+
+## The key (AJ, 1 Oct 2026) and why 21 Sept failed
+
+Homophonic, two signs per letter, no doubled letters, no h, u = v. Zero rule: an undotted 0 closes the digit before it (x0); a dotted 0 opens the
+digit after it (0x); every other digit stands alone, dotted or not. **The cross-stroke on 2, 4, 5 (DECODE's "1", the 4/X of the old R118 file) is a
+word-end mark.** Everything tried on 21 Sept treated it as a letter or digit, so the polyphonic, pair-parity and homophonic models all read the wrong units.
+Nomenclator: a dotted digit + doubled digit (6̇11 tutto, 2̇44 quello), doubled digits (66 che), some two-plain-digit groups (97 officii, 63 Imperatore, 87 non),
+lone 3 = et, dotted 5̇2̇2 / 7̇2̇2 = qua / qui. Final nulls: five or six consonant signs. Numbers in plain figures with an overline (15, 19).
+
+| letter | signs | letter | signs | letter | signs |
+|---|---|---|---|---|---|
+| a | 40, 4̇ | i | 3, 0̇8 | r | 0̇5, 8 |
+| b | 4, 0̇2 | l | 80, 2̇ | s | 20, 9̇ |
+| c | 50, 7̇ | m | 2, 0̇1 | t | 0̇7, 9 |
+| d | 0̇4, 7 | n | 90, 6̇ | u/v | 10, 1̇ |
+| e | 60, 5̇ | o | 0̇3, 6 | z | 0̇9 |
+| f | 0̇6, 5 | p | 30, 8̇ | g | 7̈ (two dots), 3̇ |
+
+(0̇x = a dotted zero followed by x; x0 = x closed by an undotted zero; a dot over a lone digit is part of the sign.)
+
+## What was checked here (1 Oct 2026)
+
+- `dec_aj.py` rebuilds the decoder from AJ's description and applies it to **our own** `r116_cipher.txt` (DECODE's transcription), without his code.
+  Both passages read as Italian: "ho visto il foglio mandatomi a parte sopra le cose di pitigliano ... procuraro quanto sara in me come ho fatto sempre
+  che si levi affatto ogni occasione".
+- `test_aj.py`: with only the 16 well-supported code groups substituted, 597 letters score −3.02 per letter (`it-modern`, with spaces); the best of 200
+  letter-shuffled keys of the same structure scores −6.69 (mean −8.50).
+- The same key reads R118 (`../ormanetto1576/`), and the leaf's own decifrato there agrees (lines 1-3 and 5 of the scan compared here).
+- Code values are AJ's alone, graded by him: groups 32, 2̇88, 53, 4̇22, 62, 48, 84, 422, 47/93, 3̇22 are guesses or open. Several collide with a letter pair
+  or a stroke (35 "lega", 62 "canto"), so they are not adopted here beyond the 16 well-supported ones.
+- `make_reveal.py` writes `docs/reveal/ormanetto1573.json` from the same decoder.
+- Contamination: the reading came from outside on 1 Oct 2026. No earlier decipherment is known.
+
+## The reading (AJ; passage A = f. 303r, point 4; passage B = f. 304r)
+
+A: "As to making representations to the Emperor my brother to join the new league proposed by His Holiness: I am sending a special envoy to treat of this business,
+and I have ordered that the representations I thought fitting be made on this point ... It will be well for His Holiness to do the same on his side, as you say he offers."
+B: "I have seen the sheet sent to me separately on the affairs of Pitigliano, and understood in detail everything that has happened, and what His Holiness [decides] should
+be done on my part. I so desire the peace and quiet of all Italy and the service of God that I will do all in my power ... to remove every occasion that might disturb it. But nothing has been
+learned so far, nor has the Emperor informed me of the state of ..." (the passage ends). Context: Gregory XIII's league against the Turks, which collapsed when Venice made peace in 1573.
+Pitigliano (the Orsini county) has not been checked against 1573 sources.
+
+## Remaining gaps
+
+- about fifteen code groups in A and B (32, 2̇88, 53, 4̇22, 62, 48, 84, 422, 47/93, 3̇22 and a few more) - blocker: open-codes; each occurs once or twice, with one context
+- five suspect signs (ofrti, pbrticular, desi?bera, dol, a stray 1 near the end of A) - blocker: open-codes; local slips by the encipherer or the transcriber, to check on ff. 303r-304r
+
+## Escalation
+
+- [x] siblings: R118 (same series) reads with the same key; no other 1573 record on DECODE
+- [x] clear-pages: the clear Spanish frame is the King's letter and does not carry the decipherment; no decifrato on the leaves
+- [x] known-keys: Lasry 1568, Meister V.8 and VI.1-3 all fail (21 Sept); the "cifra ordinaria" key now fits
+- [x] print: Olarra-Larramendi and Carini 1894 are not online; nothing found
+- [x] key-rebuild: AJ's key reproduced here; the open codes have no second context
+- [n/a] retry: no new key material; groups graded p/g stay as AJ graded them
+
+## History: 21 Sept 2026 (before the key)
 
 ## What the document is
 

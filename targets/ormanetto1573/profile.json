@@ -10,13 +10,13 @@
    "year": 1573,
    "country": "Spain",
    "route": "Madrid (nunciature) -> Rome (Cardinal of Como, Secretariat of State)",
-   "language": "unknown",
+   "language": "Italian",
    "cleartext_in_document": "separate passages",
    "plaintext": {
     "location": [
      "none"
     ],
-    "source": "No decifrato found on the record, in Meister 1906 or in PARES; the clear Spanish frame is not a crib for the cipher passages."
+    "source": "No decifrato found; the clear Spanish frame is not a crib. Reading first made by A. Devadas, 1 Oct 2026."
    },
    "length": {
     "tokens": 1324,
@@ -29,60 +29,69 @@
     "by": "DECODE",
     "source": "DECODE DOC_R116_D2580 (KL, 2020), spot-checked against images IMG_R116_I863/I864",
     "image_quality": "good",
-    "notes": "Digits with dots and underlines; the cross-stroke 't' after 2/4/5 is transcribed as a digit 1."
-   }
+    "notes": "Digits with dots and underlines; the cross-stroke 't' after 2/4/5 is transcribed as a digit 1. The cross-stroke after 2/4/5 (written 1) is the word-end mark; undotted 0 closes the digit before it, dotted 0 opens the next."
+   },
+   "read": "read in part"
   }
  ],
  "system": {
   "types": [
-   "unknown"
+   "homophonic",
+   "nomenclator"
   ],
-  "summary": "Contiguous numeric cipher: digits with dots above, a cross-stroke mark after some digits, later underlining; system not established. Same system as R118 (1576-77).",
+  "summary": "Homophonic substitution on digit signs (two per letter, dotted and undotted, zero rule), a stroke on 2/4/5 as word end, a small nomenclator, no doubled letters, final nulls: the Spain nunciature's 'cifra ordinaria'.",
   "symbol_kind": "digits",
-  "distinct_symbols": "unknown",
+  "distinct_symbols": 33,
   "diacritics": {
    "used": true
   },
   "homophones": {
-   "used": "unknown"
+   "used": true,
+   "max_per_vowel": 2,
+   "max_per_consonant": 2
   },
   "nomenclator": {
-   "present": "unknown"
+   "present": true
   },
   "nulls": {
-   "present": "unknown"
+   "present": true,
+   "count": 6
   },
-  "key_order": "unknown",
-  "word_division": "none",
-  "doubled_letters": "unknown",
-  "sibling_key": "none",
+  "key_order": "random",
+  "word_division": "separator symbol",
+  "doubled_letters": "written once",
+  "sibling_key": "none (key reconstructed by A. Devadas from R116 and R118 together; Meister p. 265 prints only the rules)",
   "notes": "Tested and ruled out: Lasry's 1568 Spain key, Meister's Crivelli 1561 key and his Ottoboniana keys VI.1-VI.3 (Como-era, incl. Spain nomenclator). Meister p. 265 prints the rules of the 'cifra ordinaria di mons. nuntio di Spagna' but not its table."
  },
  "conditions": {
   "prior_solution": {
-   "exists": "unknown",
-   "where": "A Rome decifrato may survive in ASV Segr. Stato Spagna 7 or the nunciature registers; Carini 1894 (not online) prints nunciature documents.",
-   "found": "unknown",
+   "exists": "no",
+   "where": "No earlier reading known; the reading is A. Devadas's of 1 Oct 2026, made from this project's published files after the 21 Sept attempt.",
+   "found": "after reading",
    "used": false
   },
   "inputs": [
    "images",
    "transcription"
   ],
-  "attack": "ciphertext-only",
-  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded. On 1 Oct 2026 an outside solver (A. Devadas) emailed a key; the owner asked the model to verify it against the project's own transcription and to write it up.",
   "tools": [
    "decrypt.py / poly.py (known-key beam decoders)",
    "polyanneal.py (polyphonic pair annealer with Viterbi scoring)",
    "fa.py (homophonic annealer with unigram-KL penalty)",
-   "lang/ n-gram models (it-cinquecento, es-golden-age)"
+   "lang/ n-gram models (it-cinquecento, es-golden-age)",
+   "dec_aj.py (decoder rebuilt from the emailed key description)",
+   "test_aj.py (shuffled-key control)",
+   "make_reveal.py / dec118.py"
   ],
   "models": [
-   "claude-opus-5"
+   "claude-opus-5",
+   "claude-sonnet-5-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-21",
-  "last_date": "2026-09-21"
+  "last_date": "2026-10-01"
  },
  "solution": [
   {
@@ -174,17 +183,68 @@
    "what": "Spanish royal-cipher syllabic structure (base digit + dot/mark vowel indicator), annealed in Spanish and Italian.",
    "result": "failed",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "key from source",
+   "what": "Outside key: A. Devadas (with Claude) emailed his reconstruction of the Spain nunciature's cifra ordinaria, built from this project's published images and ciphertext files, with a report of the reading of R116 and R118.",
+   "result": "worked",
+   "date": "2026-10-01"
+  },
+  {
+   "kind": "reading",
+   "what": "Rebuilt the decoder from the key description (dec_aj.py) and applied it to our own r116_cipher.txt: both passages read as Italian (ho visto il foglio mandatomi a parte sopra le cose di Pitigliano ...).",
+   "result": "worked",
+   "date": "2026-10-01"
+  },
+  {
+   "kind": "control",
+   "what": "Italian per-letter score of the decode with the 16 well-supported code groups: -3.02 against a best of -6.69 over 200 letter-shuffled keys (mean -8.50).",
+   "result": "worked",
+   "date": "2026-10-01"
+  },
+  {
+   "kind": "verification",
+   "what": "The same key reads R118 (ormanetto1576), whose leaf carries the contemporary decipherment; the dateline and the 'qua' syllable group agree.",
+   "result": "worked",
+   "date": "2026-10-01"
+  },
+  {
+   "kind": "verification",
+   "what": "Code values graded by AJ kept as he graded them; the guessed and open groups (about a dozen) were not adopted without a second context.",
+   "result": "partial",
+   "date": "2026-10-01"
   }
  ],
  "outcome": {
-  "method": "not solved",
-  "method_basis": "The two cipher passages in the copy of Philip II's letter to the nuncio (DECODE R116) resisted the Spain nunciature keys of 1561 and 1568, the Meister Como keys, and substitution and polyphonic annealing checked against controls.",
-  "contribution": ["sender or date identified", "catalogue correction"],
-  "class": "not read",
-  "fraction_read": 0,
-  "verification": [
-   "matched control"
+  "method": "read after matching with key from external sources",
+  "method_basis": "The Spain nunciature's cifra ordinaria, reconstructed by A. Devadas from R116 and R118 and emailed on 1 Oct 2026, was applied to this project's transcription of R116 and reads both passages as Italian; checked by a shuffled-key control and by the same key reading R118.",
+  "contribution": [
+   "catalogue correction"
   ],
-  "notes": "Document identified (Philip II's letter copied for Como); cipher system not established; needs the Rome decifrato or the Spain nunciature key of 1572-77."
+  "class": "read in part",
+  "key": "partial",
+  "codes_open": {
+   "open": 3,
+   "total": 27
+  },
+  "fraction_read": 0.9,
+  "gaps": [
+   {
+    "item": "about fifteen code groups in A and B (32, 288, 53, 422 ... )",
+    "blocker": "open-codes",
+    "detail": "one or two contexts each; AJ's guesses not adopted without a second source"
+   },
+   {
+    "item": "five suspect signs (ofrti, pbrticular, desi?bera, dol, a stray 1)",
+    "blocker": "open-codes",
+    "detail": "local slips by the encipherer or the transcriber, to check on ff. 303r-304r"
+   }
+  ],
+  "verification": [
+   "matched control",
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "Estimate from AJ's count (112 of 139 non-code words ordinary Italian), not re-measured here. Italian, not Spanish: passage A is Philip II on the league and the Emperor, B on Pitigliano. Pitigliano not checked against 1573 sources."
  }
 }

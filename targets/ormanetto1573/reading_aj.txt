@@ -1,0 +1,12 @@
+Source: Ajaydas Devadas (AJ), report 'Ormanetto ciphers 1573 & 1576: decipherment report', 1 Oct 2026, with his key. Copied here with his grades;
+the decoder rebuilt in dec_aj.py reproduces the letter-level text from our own r116_cipher.txt.
+Grades on code groups: (c) certain, (p) probable, (g) guess; <?> = still unread. Spelling as enciphered (no h, no doubled letters).
+
+R116 passage A (f. 303r, the King's point 4)
+[Quanto](8.22,p) al far [officii](97,p) et lo [Imperatore](63,p) mio fratello [perche](4.22,g) <ofrti: entri?> nella nuova [lega](35,p) proposta da [S.S.ta](4.88,p), mandando io persona espressa [perche](4.22,g) tratti [questo](1.44,p) [negotio](77,p), io ho ordinato che si facino sopra [questo] particular [quelli](2.44,c) buoni [officii] che mi sono parsi convenienti; et se ben dal [canto](62,g) mio l'ho <?>(32) de la buona <?>(2.88) havuta, [non](87,p)dimeno dalla parte mia s'andaranno facendo dol [col?] [Imperatore] [tutti](6.11,c) li buoni [officii] [che](66,c) se intenderanno [essere](48,g) piu a proposito, [come](76,p) in [negotio] che e di [tanto](5.11,p) servitio di Dio et [tanto] desiderato da [tutta](47,g) [Italia](3.22,g). Sara [bene](84,g) che [S.S.ta] [ancora](422,g) dalla parte sua facia il medesimo, [come] voi dite che <?> si offerisce. (final nulls r s d b t)
+
+R116 passage B (f. 304r)
+Ho visto il foglio mandatomi a parte sopra le cose di Pitigliano, et inteso particolarmente [tutto] [quello] che e passato, et [che] [S.S.ta] desi<?>bera [delibera?] che si facia dalla parte mia. Et io desidero [tanto] la [pace](2.22,p) et [qui]ete (7.2.2) di [tutta](93,g) [Italia], il servitio di Dio, che procurero [quanto] sara in me, [come] ho fatto sempre, che si levi affatto ogni occasione che sia [<?>] alterarla; ma non <?>(53) finora inteso, ne avendomene avisato lo [Imperatore], del stato in... (the passage ends)
+
+R118 (f. 365)
+scrita ali 15 di otobre. Il nuntio a comunicato col secretario Perez [tutto] [quello] [che] [V.S. Ill.ma] scrive con la cifra di 19 di setembre; il [qua]le segretario a promeso di darne conto al [Re], [et] di procurarne risposta, de la [qua]le [V.S. Ill.ma] sara poi subito avisata. (final nulls s t c z p l)

@@ -1174,10 +1174,10 @@
    "slug": "ormanetto1576",
    "doc": "R118",
    "year": 1576.5,
-   "date": "unknown",
+   "date": "15 October 1576 or 1577",
    "from": "Madrid",
    "to": "Rome",
-   "st": "stuck",
+   "st": "solved",
    "label": "Ormanetto 1576"
   },
   {
@@ -3759,6 +3759,16 @@
    "to": "Kassel",
    "st": "partial",
    "label": "Malsburg to Landgrave Wilhelm V: no safe-conducts for the envoys to the Cologne peace talks"
+  },
+  {
+   "slug": "ormanetto1573",
+   "doc": "R116",
+   "year": 1573.45,
+   "date": "spring 1573 (docket 17 June 1573)",
+   "from": "Madrid",
+   "to": "Rome",
+   "st": "partial",
+   "label": "Ormanetto 1573"
   }
  ]
 }

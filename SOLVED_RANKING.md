@@ -31,6 +31,10 @@ The **Reims letter of 19 June 1589** (R2276) is provisionally p138 at **3.00**: 
 
 The **Wallachian court postscript against Antide Dunod** (after Oct 1688; Biblioteka Kórnicka BK 1560) is provisionally p142 at **2.50**: read at the time by an interlinear decipherment, key rebuilt from the glosses and every run checked; a catalogue correction (not a Szembek letter) with new detail on Wallachia and the imperial envoy Dunod after Şerban's death.
 
+The **Ormanetto R118 report of 15 October** (1576 or 1577) is provisionally p144 at **1.95**: a short numerical cipher read with a key reconstructed from outside (Ajaydas Devadas), the leaf's own note being its decipherment; little left for the project beyond verification.
+
+The **Ormanetto R116 letter of 1573** is provisionally p145 at **2.95**: Philip II's answer to the Pope on the league and Pitigliano, read in part with the same outside key and never read before; about fifteen code groups open.
+
 ## Axes and weights
 
 | Axis | Weight | 1 | 5 |
@@ -266,6 +270,8 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p131 | **Georges de Selve (Venice) → Francis I, 14 Sept 1535 and 5 July 1536**, BnF fr. 3091 f. 25 and fr. 3045 ff. 42–49 (DECODE R3697, R4232) | 1535–36 | 2 | 3 | 4 | 3 | 1 | 3 | **2.75** | D 2: Tomokiyo's published table extended on the letters (doubling nulls, homophones), glosses as cribs. H 3: Charles V's design on Marseille on the eve of the 1536 invasion; an Imperial informant at Venice. N 4: not in print. V 3: 90.6% of signs; the 1536 letter 99.1%, the 1535 letter's struck runs blocked by the film scan. |
 | p132 | **Henriette de Clèves; Renato Birago → the duke of Nevers**, BnF fr. 3315 ff. 15–16, 21 (catalogue 283) | 1574 | 1 | 3 | 2 | 3 | 1 | 2 | **2.00** | D 1: a contemporary interlinear decipherment and a full clear fair copy survive; no new cipher break. H 3: Lyon at Henri III's return, Birago on Nevers's hoped-for governorship and Piedmont. N 2: readings in the manuscript, not found in print. R 3: folios and folded flap mapped, native scans inspected, sibling key checked. V 2: Birago read complete, but most of the duchess's dense cipher pages are not continuously edited. |
 | p142 | **Wallachian court → a Reverend Father: postscript against Antide Dunod SJ**, PAN Biblioteka Kórnicka BK 1560 (WBC 343124; catalogue 348) | after 1688 | 1 | 3 | 3 | 3 | 1 | 5 | **2.50** | D 1: every run but one glossed at the time; the key (22 two-digit numbers) rebuilt from the glosses. H 3: a Wallachian voice on Dunod's mission and the promises of Vienna after Şerban Cantacuzino's death. N 3: read in the manuscript, not found in print; misfiled as an 18th-century Szembek letter. R 3: DjVu images decoded, 70 runs transcribed, persons identified. F 1. V 5: key and glosses agree run by run; one code group open |
+| p144 | **Ormanetto / Clementino, Spain nunciature to the Secretariat**, ASV Segr. Stato Spagna 10 f. 365 (DECODE R118; catalogue 239) | 15 Oct 1576/77 | 1 | 2 | 2 | 3 | 1 | 4 | **1.95** | D 1: the key was supplied from outside; decoding and checking only. H 2: a routine nunciature report on Antonio Pérez and a cipher of 19 September. N 2: the leaf carries the decipherment, misread here on 21 Sept. R 3: scan lines compared, decoder rebuilt, sibling R116 tested. F 1. V 4: every sign read, note agrees; lines 4 and 6 not compared by eye |
+| p145 | **Philip II to the nuncio Ormanetto, copy sent to the Cardinal of Como**, ASV Segr. Stato Spagna 7 ff. 303–304 (DECODE R116; catalogue 259) | spring 1573 | 2 | 3 | 5 | 3 | 1 | 3 | **2.95** | D 2: key supplied from outside; the decoder rebuilt and a shuffled-key control run here. H 3: Philip II on the Pope's league against the Turks and on Pitigliano. N 5: no reading before 1 Oct 2026. R 3: images, transcription, key grading. F 1. V 3: about 90%, about fifteen code groups open, no independent plaintext |
 
 ## By single axis
 
@@ -662,3 +668,7 @@ Snell invisible-ink message 1824 provisional score: 0.25×3 + 0.25×3 + 0.20×5 
 Wallachian court postscript against Dunod (after 1688; catalogue 348) provisional score: 0.25×1 + 0.25×3 + 0.20×3 + 0.10×3 + 0.10×1 + 0.10×5 = **2.50** (p142).
 
 Malsburg cipher letters 1637 (catalogue 338) provisional score: 0.25×4 + 0.25×3 + 0.20×5 + 0.10×4 + 0.10×1 + 0.10×3 = **3.55** (p143).
+
+Ormanetto R118 (1576/77; catalogue 239) provisional score: 0.25×1 + 0.25×2 + 0.20×2 + 0.10×3 + 0.10×1 + 0.10×4 = **1.95** (p144).
+
+Ormanetto R116 (1573; catalogue 259) provisional score: 0.25×2 + 0.25×3 + 0.20×5 + 0.10×3 + 0.10×1 + 0.10×3 = **2.95** (p145).

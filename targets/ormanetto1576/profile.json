@@ -6,17 +6,17 @@
   {
    "id": "R118",
    "shelfmark": "ASV Segr. Stato Spagna 10, f. 365 (DECODE R118)",
-   "date": "unknown",
+   "date": "15 October (year 1576 or 1577)",
    "year": 1576,
    "country": "Spain",
    "route": "Madrid (nunciature) -> Rome (Secretariat of State)",
-   "language": "unknown",
+   "language": "Italian",
    "cleartext_in_document": "separate passages",
    "plaintext": {
     "location": [
-     "none"
+     "separate paragraph"
     ],
-    "source": "The Italian note on the leaf was tested as a crib and does not fit; no decifrato found."
+    "source": "The clear Italian note under the figures is the contemporary decifrato, without the dateline (scritta alli 15 di ottobre); taken on 21 Sept 2026 for a non-decipherment because its abbreviations were misread."
    },
    "length": {
     "tokens": 389,
@@ -29,56 +29,65 @@
     "by": "llm from images",
     "source": "DECODE image IMG_R118_I869_P1",
     "image_quality": "good",
-    "notes": "Digits only; the barred-4 sign and dots over digits are not counted. Lines 3-6 less secure."
-   }
+    "notes": "Our r118_cipher.txt has digits only: dots are not recorded and the cross-stroke on 2/4/5 is written 4 or X (24 = 2+, 44 = 4+), so it cannot carry the key. A. Devadas's token list (dec118.py) was compared with the scan for lines 1-3 and 5."
+   },
+   "read": "read"
   }
  ],
  "system": {
   "types": [
-   "unknown"
+   "homophonic",
+   "nomenclator"
   ],
-  "summary": "Contiguous numeric cipher with dotted digits and a barred-4 sign; system not established.",
+  "summary": "Homophonic substitution on digit signs (two per letter, dotted and undotted, zero rule), a stroke on 2/4/5 as word end, a small nomenclator, no doubled letters, final nulls: the Spain nunciature's 'cifra ordinaria'.",
   "symbol_kind": "digits",
-  "distinct_symbols": "unknown",
+  "distinct_symbols": 33,
   "diacritics": {
    "used": true
   },
   "homophones": {
-   "used": "unknown"
+   "used": true,
+   "max_per_vowel": 2,
+   "max_per_consonant": 2
   },
   "nomenclator": {
-   "present": "unknown"
+   "present": true
   },
   "nulls": {
-   "present": "unknown"
+   "present": true,
+   "count": 6
   },
-  "key_order": "unknown",
-  "word_division": "none",
-  "doubled_letters": "unknown",
-  "sibling_key": "none",
+  "key_order": "random",
+  "word_division": "separator symbol",
+  "doubled_letters": "written once",
+  "sibling_key": "none (key reconstructed by A. Devadas from R116 and R118 together; Meister p. 265 prints only the rules)",
   "notes": "R117 (the other record) is a clear Spanish memorial with Roman-numeral ducat sums, not a cipher. Lasry's 1580 Como key (R72) structure does not fit: odd second digits occur."
  },
  "conditions": {
   "prior_solution": {
-   "exists": "unknown",
-   "where": "Possibly calendared in Olarra-Larramendi, Correspondencia ... Felipe II (not checked, not online)",
-   "found": "unknown",
-   "used": false
+   "exists": "in archive",
+   "where": "The Italian note on the leaf is the contemporary decipherment (minus the dateline).",
+   "found": "during attempt",
+   "used": true
   },
   "inputs": [
    "images"
   ],
-  "attack": "ciphertext-only",
-  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "attack": "published key",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded. On 1 Oct 2026 an outside solver (A. Devadas) emailed a key; the owner asked the model to verify it against the project's own transcription and to write it up.",
   "tools": [
-   "crib_align.py (beam-search crib aligner with shuffled-crib control)"
+   "crib_align.py (beam-search crib aligner with shuffled-crib control)",
+   "dec_aj.py (decoder rebuilt from the emailed key description)",
+   "test_aj.py (shuffled-key control)",
+   "make_reveal.py / dec118.py"
   ],
   "models": [
-   "claude-opus-5"
+   "claude-opus-5",
+   "claude-sonnet-5-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-21",
-  "last_date": "2026-09-21"
+  "last_date": "2026-10-01"
  },
  "solution": [
   {
@@ -122,17 +131,53 @@
    "what": "Searched DECODE metadata for a Spain nunciature key 1570-80: none.",
    "result": "failed",
    "date": "2026-09-21"
+  },
+  {
+   "kind": "key from source",
+   "what": "Outside key: A. Devadas (with Claude) emailed his reconstruction of the Spain nunciature's cifra ordinaria, built from this project's published images and ciphertext files, with a report of the reading of R116 and R118.",
+   "result": "worked",
+   "date": "2026-10-01"
+  },
+  {
+   "kind": "verification",
+   "what": "Compared A. Devadas's tokens with the scan, lines 1-3 and 5: 'scrita ali 15 di otobre / il nuntio a comunicato col secretario Perez ...' reads off the page, the overlined 15 and 19 are there.",
+   "result": "worked",
+   "date": "2026-10-01"
+  },
+  {
+   "kind": "reading",
+   "what": "dec118.py decodes the six lines with the key and compares each with his plaintext: 12 lines consistent, 0 differ.",
+   "result": "worked",
+   "date": "2026-10-01"
+  },
+  {
+   "kind": "verification",
+   "what": "The leaf's note agrees with the decipherment word for word, minus the dateline; the 21 Sept crib failed because the note was read wrongly (trattato, buoni uffici, sabbato).",
+   "result": "worked",
+   "date": "2026-10-01"
+  },
+  {
+   "kind": "verification",
+   "what": "The same key reads R116 (ormanetto1573), an independent ciphertext, as Italian.",
+   "result": "worked",
+   "date": "2026-10-01"
   }
  ],
  "outcome": {
-  "method": "not solved",
-  "method_basis": "R118's six lines of figures were transcribed but not read: the clear note below them does not fit as a crib, and no Spain nunciature key of 1570-80 was found; R117 is not a cipher.",
-  "contribution": ["transcription", "catalogue correction"],
-  "class": "not read",
-  "fraction_read": 0,
-  "verification": [
-   "matched control"
+  "method": "read after matching with key from external sources",
+  "method_basis": "The Spain nunciature's cifra ordinaria, reconstructed by A. Devadas and emailed on 1 Oct 2026, reads all six lines of R118 (Italian, with dateline and six final nulls); lines 1-3 and 5 compared with the scan; the leaf's own note is the decifrato.",
+  "contribution": [
+   "catalogue correction"
   ],
-  "notes": "R117 not a cipher; R118 needs the key or the Rome decifrato."
+  "class": "read",
+  "key": "recovered",
+  "fraction_read": 1.0,
+  "verification": [
+   "matched control",
+   "contemporary decipherment",
+   "key confirms",
+   "historical consistency"
+  ],
+  "notes": "R117 is not a cipher. The year of R118 (1576 Ormanetto, or 1577 Sega four days after reaching Madrid) and the writer 'Clementino' stay open."
  }
 }
