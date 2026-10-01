@@ -25,7 +25,7 @@ These are the same boxed-9 markers that R8361 has after "Florence" and "Rome", a
 The inventory in `targets/r8361/digges_codes.txt` shows that a box *after* a word marks that word as a cover-name (a
 person or party written as a place name), and the digit inside the box varies. The letter is in plain words, so
 all of it reads. Who "Lyons" and "Roome" stand for is a question of historical identification, not a cipher.
-Glasgow is plausibly the Archbishop of Glasgow, Mary Queen of Scots' ambassador in Paris. The Rome/Florence party
+Glasgow is a cover-name for the Duke of Alençon, not the Archbishop of Glasgow (corrected 1 Oct 2026, see targets/r8364/NOTES.md: Folger summary of the 29 Jan letter; the ship that waited 23 days is Alençon's). The Rome/Florence party
 comes from the same 1572-73 ship-plot correspondence as R8361/R8364.
 
 Cipher tokens (measured): 2 markers, both explained. Every word of the letter reads.

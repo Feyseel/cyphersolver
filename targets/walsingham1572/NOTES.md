@@ -72,3 +72,5 @@ key for it and too little text to break it.
 5. Tomokiyo elizabeth.htm and DECODE key records searched: no 1572-73 Walsingham key.
 6. Cecil–Norris 1568 table applied: nonsense.
 7. Siblings R8356-R8364 fetched, R8362 and R8364 viewed: R8364 gives the one other same-system group.
+
+- 1 Oct 2026: `[9]` in "a Gentleman of [9]" probably stands for Alençon (the gentleman = La Mole), by the Folger summary of R8364; sense only, no key.

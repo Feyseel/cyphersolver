@@ -1,9 +1,26 @@
-# R8364: Burghley to Walsingham, February 1572/3 (BL Harley MS 260 f. 419; DECODE R8364; catalogue 122)
+# R8364: Burghley to Walsingham, 29 January 1573 (BL Harley MS 260 f. 419; DECODE R8364; catalogue 122)
 
 Status: read in part (22 Sept 2026). The six-sign place name is read as **(St) Valery** (Saint-Valery-sur-Somme):
 five copies of the same word turn up in four letters of the 1572-73 correspondence, and a French letter of Dec 1572
 among Walsingham's papers asks for a ship to be kept waiting at St Valery. The nine-sign run and the name codes stay
 unread. The key is SP 106/2 f. 141A (TNA), and the sent original is in Cotton MS Vespasian F VI. Neither is digitised.
+
+## Update 1 Oct 2026: the people (Adam Wright; Folger chronology)
+
+Adam Wright (email, 1 Oct 2026) pointed to the Folger *Elizabethan Court Day by Day, 1573* (PDF, folgerpedia ECDbD_1573.pdf), which summarises this letter under
+**29 Jan 1573, "partly in cipher"** and cites Conyers Read, *Lord Burghley and Queen Elizabeth* (1960), pp. 94-95. Aligned clause by clause with our transcription:
+- "the partie ... sent from <[9]>" = the party sent from Alençon: **[9] = Alençon**; "Glascoe <[9]>" (to provoke Glascoe to come hither) = Alençon.
+- "Davison" = **Maisonfleur** (Alençon's agent); "the laste gentleman" = **La Mole** (secretly at Whitehall 23 Jan).
+- "Hall <3>" = the **Queen** ("the Queen had a meaning to provoke him to come hither"; "enquire of the Queen some assurance").
+- "<tt> ymagined" = Alençon imagining; "yf <3> shoulde soe doe" = if Alençon should do so (she would marry him).
+- "he spake with Glascoe <3>" = "he spoke with the Queen": so the digit 3 follows Glascoe/Hall where the summary has the Queen, but stands alone for Alençon;
+  **3 is left unread** (Adam's 3 = Alençon fits the lone 3 only). The nine-sign run may carry the marriage ("she would marry him"); no phrase tried fits the shape.
+- The ship = the one Maisonfleur had sent for Alençon; the Folger entry for 22 Jan says it waited 23 days off the French coast = the "23 daies" of R8362 (24 Jan).
+  The 11 Dec 1572 BL item (Cotton Vespasian F VI f. 197, St Valery) Adam also cites is the item already used for VALERY above.
+So **"Glasgow" is a cover-name for the Duke, not James Beaton**: the earlier readings below (and on r8362) took it for the Archbishop on the name alone and are superseded.
+Grade I (sense, from a summary; we do not know where Read had the plaintext). The boxed [9] now reads as a code for Alençon ("concerning [9]", "sent from [9]", "ruin of [9]",
+R8363 "a Gentleman of [9]"), not only a marker: inference from five contexts. Letter date: 29 Jan 1573 (Folger/Read).
+DECODE metadata to correct: date 29 Jan 1573; the people as above (queued in decode_updates/queue.json).
 
 ## What the record is
 
@@ -46,7 +63,7 @@ DECODE R8364 ("Unknown sender to ...", Feb 1572, 2 pp.) is two pages of **Walsin
 The earlier pass counted about 25 cipher signs in three runs and closed the letter as too short. This time the whole
 of Digges 1655 was searched. Two page-by-page scans of all 457 page images found cipher on about 45 passages in the
 1570-73 letters (`digges_corpus.tsv`). Among them the same six-sign word turns up in four letters, all about the ship
-for the Archbishop of Glasgow's party:
+for the Duke of Alençon's party (first read as the Archbishop of Glasgow's, corrected 1 Oct 2026):
 
 | letter | context | Digges | Harley 260 |
 |---|---|---|---|

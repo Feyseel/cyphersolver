@@ -5,12 +5,12 @@
 To the right honorable Mr Fraunces Walsingham Esq, the Queenes Maiesties Amba[ssador] in Fraunce
 Sir I have receaved your letters of the xxth of this month with the tickett after your accustomed
 manner contayning <[9]> and was on Frydaie laste with the partie one whome you made mention to be
-sent from <[9]> hee spake with Glascoe <3> and Davison with him, I see there was a greate mistakinge
-of our doinges for by Davisons writinge of a Shipp sent to <2 0 ‡ H 6 1 = {Valery}> <tt = [they]? sense only, I, 30 Sept 2026> ymagined
+sent from <[9] = Alencon, Folger/Read, grade I> hee spake with Glascoe <3> and Davison with him, I see there was a greate mistakinge
+of our doinges for by Davisons writinge of a Shipp sent to <2 0 ‡ H 6 1 = {Valery}> <tt = Alencon, Folger/Read, I> ymagined
 that Hall <3> had a meaninge to provoake Glascoe <[9]> to come hither whereuppon the
 laste gentleman came to enquier of Hall <3>
 [f. 419v]
-some assurance yf <3 = [Glasgow]? sense only, I> shoulde soe doe to enquier <^ 4 d H m 11 11 I J> This you must
+some assurance yf <3 = [Alencon]? lone 3 only, I> shoulde soe doe to enquier <^ 4 d H m 11 11 I J> This you must
 thinke muste neede appeare verie strange whereuppon before Davison I did declare
 that all that was donne came of him with earnest and lamentable requests to have Glascoe
 <[9]> preserved because hee said that <II> had gotten such knowledge as the same would
@@ -23,3 +23,5 @@ you are disposed by the occasion of the fond handlinge that you see I am much pe
 with the dishonor donne to my lord of Worcester her Maiesties Amba[ssador] on the seas before Bullen
 whereof by his owne report I knowe you shall knowe the truth more then I yet
 doe knowe
+
+# 1 Oct 2026 (Adam Wright): Davison = Maisonfleur; Hall = the Queen; Glascoe [9] = Alencon (cover-name, not the Archbishop of Glasgow); the laste gentleman = La Mole; letter of 29 Jan 1573 (Folger Elizabethan Court Day by Day 1573, after Read 1960 pp. 94-95). Grade I.

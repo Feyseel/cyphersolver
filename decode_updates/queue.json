@@ -6462,12 +6462,12 @@
    "key": {
     "none": "Walsingham's cipher of 1571 (TNA SP 106/2 f. 141A, cited by Tu 2012) is not on DECODE; the place name was read from its repetitions, not from a key"
    },
-   "cite": "D. Digges, The Compleat Ambassador (London 1655), pp. 301, 303, 313, 327; BL Cotton MS Vespasian F VI f. 197 (catalogue: French letter asking that a ship be kept waiting at St Valery, 11 Dec 1572); H.-Y. Tu, PhD thesis, York 2012",
+   "cite": "D. Digges, The Compleat Ambassador (London 1655), pp. 301, 303, 313, 327; BL Cotton MS Vespasian F VI f. 197 (catalogue: French letter asking that a ship be kept waiting at St Valery, 11 Dec 1572); H.-Y. Tu, PhD thesis, York 2012; Folger Shakespeare Library, Elizabethan Court Day by Day 1573 (entry for 29 Jan, after C. Read, Lord Burghley and Queen Elizabeth, 1960, pp. 94-95)",
    "fields": {
     "author": "William Cecil, Lord Burghley (letter-book copy)",
     "receiver": "Sir Francis Walsingham, ambassador in France",
     "origin_city": "London (Westminster)",
-    "start_year": "1573 (dated Feb 1572 old style in the letter-book; answers Walsingham's letter of 20 Jan 1573, R8363)",
+    "start_year": "1573 (29 Jan 1573 per Folger/Read; dated Feb 1572 old style in the letter-book)",
     "cleartext_lang": "English",
     "plaintext_lang": "English",
     "cipher_types": "homophonic substitution with nomenclator (name codes, cover-names with boxed markers)"
@@ -6476,7 +6476,7 @@
     "R8364": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Walsingham's embassy letter-book (Harley MS 260), not an original: end of Walsingham's letter of 6 Feb 1572/3, then Burghley to Walsingham, early 1573, printed in Digges 1655 p. 327 with the cipher undeciphered. The six-sign place name '2 0 ‡ H 6 1' reads VALERY (St Valery): the same word appears in four letters of Nov 1572-Feb 1573 printed by Digges (pp. 301, 303, 313, 327; also R8363 f. 398), and Cotton Vespasian F VI f. 197 is a letter asking for a ship to be kept waiting at St Valery. Unread: a nine-sign run on f. 419v and person codes 3, II, tt; the boxed 9s mark cover-names. Key: TNA SP 106/2 f. 141A (not on DECODE). Original: Cotton Vespasian F VI (f. 245?).",
+     "note": "Walsingham's embassy letter-book (Harley MS 260), not an original: end of Walsingham's letter of 6 Feb 1572/3, then Burghley to Walsingham, early 1573, printed in Digges 1655 p. 327 with the cipher undeciphered. The six-sign place name '2 0 ‡ H 6 1' reads VALERY (St Valery): the same word appears in four letters of Nov 1572-Feb 1573 printed by Digges (pp. 301, 303, 313, 327; also R8363 f. 398), and Cotton Vespasian F VI f. 197 is a letter asking for a ship to be kept waiting at St Valery. Unread: a nine-sign run on f. 419v and person codes 3, II, tt; the boxed 9s mark cover-names. Key: TNA SP 106/2 f. 141A (not on DECODE). Original: Cotton Vespasian F VI (f. 245?). Added 1 Oct 2026: a Folger chronology (after Read 1960, pp. 94-95), pointed out by Adam Wright, summarises this letter under 29 Jan 1573 and gives the date and the people: Davison = Maisonfleur, Hall = the Queen, Glasgow = the Duke of Alencon (not the Archbishop of Glasgow), [9] and tt read as Alencon, 'this last gentleman' = La Mole; the ship is the one sent to bring Alencon to England. By sense, not from a key.",
      "reading": "decode_updates/decryptions/R8364.txt",
      "sent": false,
      "transcription": [

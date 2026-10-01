@@ -42,6 +42,7 @@
   "bordeaux to brienne, london, 30 may 1653": "2026-09-18",
   "brussels to the cologne nunciature, 9 oct 1721": "2026-09-21",
   "burghley to walsingham, 24 january 1573": "2026-09-22",
+  "burghley to walsingham, 29 january 1573": "2026-10-01",
   "burghley to walsingham, 5 july 1572": "2026-09-22",
   "burghley to walsingham, early 1573": "2026-09-22",
   "cardinal alessandrino to the nuncio in spain, 1567": "2026-09-21",
@@ -736,7 +737,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "d890b7a69c20",
+   "hash": "fdda57a12710",
    "updated": "2026-10-01"
   },
   "indus": {
@@ -1171,13 +1172,13 @@
   },
   "r8362": {
    "first": "2026-09-22",
-   "hash": "f40a033b99cc",
-   "updated": "2026-09-24"
+   "hash": "15d3ddaf38a7",
+   "updated": "2026-10-01"
   },
   "r8364": {
    "first": "2026-09-22",
-   "hash": "0174cbdf9167",
-   "updated": "2026-09-30"
+   "hash": "104f5b61df52",
+   "updated": "2026-10-01"
   },
   "raince": {
    "first": "2026-09-17",
@@ -1516,8 +1517,8 @@
   },
   "walsingham1572": {
    "first": "2026-09-22",
-   "hash": "1fc62a912688",
-   "updated": "2026-09-24"
+   "hash": "f2f294ee4801",
+   "updated": "2026-10-01"
   },
   "walsingham1585": {
    "first": "2026-09-21",
@@ -1556,7 +1557,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "f81cd40b4e01",
+   "hash": "5e266d10a368",
    "updated": "2026-10-01"
   },
   "yard1699": {

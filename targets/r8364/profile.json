@@ -84,9 +84,9 @@
    "claude-opus-5",
    "claude-opus-5-5"
   ],
-  "sessions": 2,
+  "sessions": 3,
   "first_date": "2026-09-22",
-  "last_date": "2026-09-22"
+  "last_date": "2026-10-01"
  },
  "solution": [
   {
@@ -167,12 +167,27 @@
    "result": "failed",
    "date": "2026-09-22"
   },
-  {"date": "2026-09-30", "kind": "hypothesis", "what": "Person codes around the port re-examined for the quotation list (30 Sept): tt (subject of 'imagined') supplied as [they] and the lone 3 in 'if 3 should so do' as [Glasgow], both by sense only (grade I); no key, no second occurrence; nine-sign run still unread.", "result": "partial"}
+  {
+   "date": "2026-09-30",
+   "kind": "hypothesis",
+   "what": "Person codes around the port re-examined for the quotation list (30 Sept): tt (subject of 'imagined') supplied as [they] and the lone 3 in 'if 3 should so do' as [Glasgow], both by sense only (grade I); no key, no second occurrence; nine-sign run still unread.",
+   "result": "partial"
+  },
+  {
+   "kind": "literature search",
+   "what": "Adam Wright (email, 1 Oct 2026) pointed to the Folger Elizabethan Court Day by Day 1573, which summarises this letter under 29 Jan 1573 (after Read 1960, pp. 94-95). Aligned with our transcription: Davison = Maisonfleur, Hall = the Queen, Glasgow = Alencon (not James Beaton), [9] and tt = Alencon, the last gentleman = La Mole; 3 unresolved.",
+   "result": "worked",
+   "date": "2026-10-01"
+  }
  ],
  "outcome": {
   "method": "key recovered based on plaintext from external sources",
   "method_basis": "The six-sign place name was read as (St) Valery by aligning five copies of the same homophonic group in four letters (Digges 1655 and Harley 260) with the BL catalogue entry for Cotton Vespasian F VI item 111, a French letter asking for a ship to wait at St Valery.",
-  "contribution": ["transcription", "sender or date identified"],
+  "contribution": [
+   "transcription",
+   "sender or date identified",
+   "catalogue correction"
+  ],
   "class": "read in part",
   "fraction_read": 0.23,
   "fraction_read_method": "measured",
@@ -189,7 +204,7 @@
    "total": 4,
    "tokens_open": 6
   },
-  "notes": "Port read as (St) Valery, grade M. Nine-sign run, name codes 3, II, tt and the cover-name markers unread; key SP 106/2 f. 141A and the Cotton Vespasian F VI original not reachable. Verified by the same word in five copies across four letters and by the St Valery ship in the Vespasian F VI catalogue.",
+  "notes": "Port read as (St) Valery, grade M. Nine-sign run, name codes 3, II, tt and the cover-name markers unread; key SP 106/2 f. 141A and the Cotton Vespasian F VI original not reachable. Verified by the same word in five copies across four letters and by the St Valery ship in the Vespasian F VI catalogue. 1 Oct 2026: names identified by sense from a Folger summary (Davison = Maisonfleur, Hall = the Queen, Glasgow = Alencon, [9] = Alencon, last gentleman = La Mole), grade I, not counted in fraction_read; Glasgow is not the Archbishop.",
   "gaps": [
    {
     "item": "nine-sign run '^ 4 d H m 11 11 I J'",
@@ -202,9 +217,9 @@
     "detail": "single occurrences, no key or gloss"
    },
    {
-    "item": "[9] markers x5 and 3 after names x3",
+    "item": "[9] x5 (read as Alencon, grade I) and 3 after names x3 (unread)",
     "blocker": "no-key-material",
-    "detail": "cover-name markers; the names they stand for were not copied"
+    "detail": "sense identification only; no key"
    }
   ]
  }
