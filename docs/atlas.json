@@ -347,6 +347,10 @@
   "Wesel": [
    51.6586,
    6.6178
+  ],
+  "Prinkipo": [
+   40.874,
+   29.129
   ]
  },
  "letters": [
@@ -3769,6 +3773,16 @@
    "to": "Rome",
    "st": "partial",
    "label": "Ormanetto 1573"
+  },
+  {
+   "slug": "vizani1637",
+   "doc": "f.292",
+   "year": 1637.77,
+   "date": "8 October 1637",
+   "from": "Prinkipo",
+   "to": "Constantinople",
+   "st": "solved",
+   "label": "Vizani 1637"
   }
  ]
 }

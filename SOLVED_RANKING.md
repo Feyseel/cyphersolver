@@ -37,6 +37,8 @@ The **Ormanetto R118 report of 15 October** (1576 or 1577) is provisionally p144
 
 The **Ormanetto R116 letter of 1573** is provisionally p145 at **2.95**: Philip II's answer to the Pope on the league and Pitigliano, read in part with the same outside key and never read before; about fifteen code groups open.
 
+The **Vizani letter of 8 October 1637** is provisionally p147 at **2.70**: eight cipher lines read by satorunet ciphertext-only, verified here by re-decoding and a shuffled-key control; Patriarchate intrigue at Constantinople; six name codes open.
+
 ## Axes and weights
 
 | Axis | Weight | 1 | 5 |
@@ -275,6 +277,7 @@ Groffey to Rákóczi (p44, 3.05) sits alongside Adams no. 88: a preserved key, b
 | p142 | **Wallachian court → a Reverend Father: postscript against Antide Dunod SJ**, PAN Biblioteka Kórnicka BK 1560 (WBC 343124; catalogue 348) | after 1688 | 1 | 3 | 3 | 3 | 1 | 5 | **2.50** | D 1: every run but one glossed at the time; the key (22 two-digit numbers) rebuilt from the glosses. H 3: a Wallachian voice on Dunod's mission and the promises of Vienna after Şerban Cantacuzino's death. N 3: read in the manuscript, not found in print; misfiled as an 18th-century Szembek letter. R 3: DjVu images decoded, 70 runs transcribed, persons identified. F 1. V 5: key and glosses agree run by run; one code group open |
 | p144 | **Ormanetto / Clementino, Spain nunciature to the Secretariat**, ASV Segr. Stato Spagna 10 f. 365 (DECODE R118; catalogue 239) | 15 Oct 1576/77 | 1 | 2 | 2 | 3 | 1 | 4 | **1.95** | D 1: the key was supplied from outside; decoding and checking only. H 2: a routine nunciature report on Antonio Pérez and a cipher of 19 September. N 2: the leaf carries the decipherment, misread here on 21 Sept. R 3: scan lines compared, decoder rebuilt, sibling R116 tested. F 1. V 4: every sign read, note agrees; lines 4 and 6 not compared by eye |
 | p145 | **Philip II to the nuncio Ormanetto, copy sent to the Cardinal of Como**, ASV Segr. Stato Spagna 7 ff. 303–304 (DECODE R116; catalogue 259) | spring 1573 | 2 | 3 | 5 | 3 | 1 | 3 | **2.95** | D 2: key supplied from outside; the decoder rebuilt and a shuffled-key control run here. H 3: Philip II on the Pope's league against the Turks and on Pitigliano. N 5: no reading before 1 Oct 2026. R 3: images, transcription, key grading. F 1. V 3: about 90%, about fifteen code groups open, no independent plaintext |
+| p147 | **Fra Guglielmo Vizani → the Comte de Césy**, Prinkipo, BnF Français 16158 ff. 292–294 | 8 Oct 1637 | 1 | 3 | 4 | 2 | 3 | 4 | **2.70** | D 1: the key was recovered by satorunet; here only re-decoded and controlled. H 3: a Roman agent on the Patriarchate of Constantinople, Kontaris and Lucaris, 1637. N 4: no reading before 1 Oct 2026. R 2: his transcription used, first words compared with the image. F 3: on Cryptiana's unsolved list. V 4: controls agree, 46 of 48 words reproduce; six name codes open |
 
 ## By single axis
 
@@ -677,3 +680,5 @@ Ormanetto R118 (1576/77; catalogue 239) provisional score: 0.25×1 + 0.25×2 + 0
 Ormanetto R116 (1573; catalogue 259) provisional score: 0.25×2 + 0.25×3 + 0.20×5 + 0.10×3 + 0.10×1 + 0.10×3 = **2.95** (p145).
 
 Mercy instruction 1648 provisional score: 0.25×2 + 0.25×3 + 0.20×4 + 0.10×4 + 0.10×1 + 0.10×4 = **2.95** (p146).
+
+Vizani to Césy 1637 provisional score: 0.25×1 + 0.25×3 + 0.20×4 + 0.10×2 + 0.10×3 + 0.10×4 = **2.70** (p147).

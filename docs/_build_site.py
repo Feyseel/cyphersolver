@@ -1312,6 +1312,11 @@ PAGES = [
          blurb='R118 is six lines of figures from the Spain nunciature, dated 15 October of 1576 or 1577. Ajaydas Devadas&rsquo;s reconstruction of the nunciature&rsquo;s ordinary cipher reads every sign in Italian: the nuncio has told Secretary P&eacute;rez what Rome wrote in the cipher of 19 September. The clear note on the leaf is the contemporary decipherment, minus the dateline; we had misread it as a plain message. R117 is a clear memorial and has no cipher.',
          quote='&ldquo;scrita ali 15 di otobre &hellip; il nuntio a comunicato col secretario Perez&rdquo;',
          rights='Images: Archivio Apostolico Vaticano, via DECODE'),
+    dict(slug='vizani1637', label='Vizani 1637', year='1637', y=1637.77, place='Prinkipo &rarr; Constantinople', st='solved', stt='key matched',
+         title='Fra Guglielmo Vizani to the Comte de C&eacute;sy, 1637',
+         blurb='A letter of 8 October 1637 from Prinkipo to the French ambassador at Constantinople, with eight lines in a homophonic symbol cipher. The project listed it as untranscribed. satorunet transcribed it, recovered the key ciphertext-only with Claude and read it: 4,000 scudi promised for Monsignor Beria, who is close to the Patriarchate and hopes the Patriarch will be replaced in two months. Checked here against the image and shuffled keys; six name codes are open.',
+         quote='&ldquo;vicino all&rsquo;ottenere il patiarchato per s&eacute;&rdquo; &middot; &minus;1.8 per letter against &minus;4.3 for shuffled keys',
+         rights='Images: Biblioth&egrave;que nationale de France, via Gallica'),
     dict(slug='labbe1582', label='L&rsquo;Abb&eacute; to Nevers 1577', year='1577', y=1577.2, place='Prague, Breslau &rarr; France', st='stuck', stt='cipher unread',
          title='Desiderio l&rsquo;Abb&eacute; to the Duke of Nevers, 1577',
          blurb='Letters from Prague and Breslau in clear French with numerical insertions. The insertions were transcribed in draft and tested with substitution solvers under several hypotheses about units and nulls; no key was recovered. The March letter mentions a copy of the cipher sent on 24 February, the best lead to the key.',
@@ -1408,6 +1413,7 @@ IMAGES['r2234'] = ('r2234_lead.jpg', 'The head of the letter: section capital D,
 IMAGES['marburg1635'] = ('marburg1635_lead.jpg', 'The cipher lines with the contemporary gloss over the first four', 'Hessisches Staatsarchiv Marburg, via DECODE R4500')
 IMAGES['r2232'] = ('r2232_lead.jpg', 'The opening of the letter: clear text, then the numbers with superscript indices', 'Koninklijk Huisarchief, The Hague, via DECODE R2232')
 IMAGES['r1942'] = ('r1942_lead.jpg', 'Hogendorp&rsquo;s ciphered dispatch no. 12 of 5 July 1803: the clear address to Maarten van der Goes followed by the marked numerical groups', 'Nationaal Archief, The Hague, via DECODE R1942')
+IMAGES['vizani1637'] = ('vizani1637_lead.jpg', 'The first two cipher lines of the letter, f. 292r: a row of look-alike symbols divided by strokes, beginning with the word sign for <em>il</em>', 'Biblioth&egrave;que nationale de France, Fran&ccedil;ais 16158 f. 292r, via Gallica')
 IMAGES['waldeck1744'] = ('waldeck1744_lead.jpg', 'HStAM 118 a Nr. 3954 f. 3r: &ldquo;Durchlauchtigster F&uuml;rst&rdquo;, the date 1744 in a later hand, and the first lines of the code after Ew. H. Dl.', 'Hessisches Staatsarchiv Marburg, HStAM 118 a Nr. 3954 f. 3r, via Arcinsys Hessen')
 
 SURVEYS = ('famous', 'solved', 'highlights')

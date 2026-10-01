@@ -127,7 +127,7 @@ partly read (section headings recovered) · ~~1381,143~~ **Tomokiyo now reads it
 plaintext: solved, not open** (unverified here).
 French to 1610: Catherine de Medicis to du Croc (1567) - printed in Destray 1924 on Gallica, length not yet measured · Blancmesnil to
 Nevers · Marie de Medici (1610) - "short passages", no transcription.
-French/Italian/Spanish: Venetian letter in Spanish archives (ca.1589) - digitised, images blocked to scripts, see `targets/ottobon/` · Cocquet (1616) · Fra Guglielmo Vizani (1637) - no transcriptions.
+French/Italian/Spanish: Venetian letter in Spanish archives (ca.1589) - digitised, images blocked to scripts, see `targets/ottobon/` · Cocquet (1616).
 **2026-09-24: "DECODE-only" no longer means blocked.** The session cookie (see `targets/bordeaux/NOTES.md`) has fetched DECODE images, BL-held records included, since 18 Sept; the items below were closed before that and are reopenable: R1579, R1887, R2179, R8395, R8447, R4886 (and rows 6, 13, 21 above). R1889 and R1890 are now read by A. Aymeloglu (source, 19 Sept 2026); R1887 is the one left.
 German (all DECODE-only): King of Hungary and Bohemia (1634, Pilsen) · "More ciphers of Ferdinand III?" (R1579) · Ferdinand III and the
 Cardinal-Infante (R1887-1890) · variable-length figure codes, Austrian archives (~~R2159~~ row 28, ~~R1408~~ row 29, R2179) · Starhemberg (1758).
@@ -244,6 +244,7 @@ Powers, and the two compute challenges). Those are listed in `research/top50/NOT
 
 ## Done elsewhere in this repo
 
+- **Fra Guglielmo Vizani → the Comte de Césy, Prinkipo 8 Oct 1637** (BnF Français 16158 ff. 292–294): read 1 Oct 2026 by satorunet (with Claude, ciphertext-only; email and satoru.net/crypt/vizani/), verified here; six name codes open. See [targets/vizani1637/](targets/vizani1637/).
 - **Ormanetto / Clementino, Spain nunciature to the Secretariat, 15 Oct 1576 or 1577** (catalogue 239, ASV Spagna 10, DECODE R118): read 1 Oct 2026 with the Spain cifra ordinaria, a key reconstructed by Ajaydas Devadas and verified here; the note on the leaf is the decipherment, minus the dateline. See [targets/ormanetto1576/](targets/ormanetto1576/).
 - **Philip II to the nuncio Ormanetto, copy sent to the Cardinal of Como, 1573** (catalogue 259, ASV Spagna 7, DECODE R116): read in part 1 Oct 2026 (about 90%) with the same key; about 15 code groups open. See [targets/ormanetto1573/](targets/ormanetto1573/).
 - **Archduke Leopold Wilhelm → the abbé de Mercy, instruction of 6 June 1648** (BnF Espagnol 144 f. 22r–v, not a catalogue item; GitHub issue 16): key recovered ciphertext-only by an outside contributor (NoAutopilot), transcription corrected and names identified here, read in part (98.5%) 1 Oct 2026. See [targets/mercy1648/](targets/mercy1648/).

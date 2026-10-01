@@ -767,6 +767,14 @@
    "by": "Ajaydas Devadas",
    "year": 1573,
    "note": "Rules in Meister 1906 p. 265; table reconstructed 1 Oct 2026 from R116 and R118 (two signs per letter, stroke word-ends, zero rule)."
+  },
+  {
+   "id": "k-vizani1637",
+   "label": "Vizani cipher (1637)",
+   "kind": "scholar's key",
+   "by": "satorunet",
+   "year": 1637,
+   "note": "Homophonic symbol cipher, key recovered ciphertext-only by satorunet with Claude (1 Oct 2026); name codes unread."
   }
  ],
  "links": [
@@ -1495,6 +1503,12 @@
    "target": "ormanetto1576",
    "how": "read unchanged",
    "note": "R118; the leaf's note is the decipherment"
+  },
+  {
+   "key": "k-vizani1637",
+   "target": "vizani1637",
+   "how": "read unchanged",
+   "note": "applied to his transcription, verified here"
   }
  ],
  "sources": [
