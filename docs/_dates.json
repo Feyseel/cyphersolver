@@ -91,6 +91,7 @@
   "feuquières to catinat, 1691": "2026-09-15",
   "four cipher letters to gianfrancesco gonzaga, rome and forlì, 1428–30": "2026-09-22",
   "fra giovanni di lucca to the emperor, 1644": "2026-09-16",
+  "fra guglielmo vizani to the comte de césy, prinkipo, 8 october 1637 (bnf françai": "2026-10-01",
   "francis needham to walsingham, before sluys, 28 july 1587": "2026-09-21",
   "frater elias’s lumen luminum, c. 1525 (beinecke mellon ms 29, decode r2877)": "2026-09-22",
   "frederick the great to louis michell, berlin, 28 december 1751": "2026-09-19",
@@ -585,7 +586,7 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "f299600bd599",
+   "hash": "4faf8a554b08",
    "updated": "2026-10-01"
   },
   "goldbar": {
@@ -735,7 +736,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "ff63a9a6f95a",
+   "hash": "91315ea6c9c6",
    "updated": "2026-10-01"
   },
   "indus": {
@@ -1498,6 +1499,11 @@
    "hash": "62940bf3406b",
    "updated": "2026-09-24"
   },
+  "vizani1637": {
+   "first": "2026-10-01",
+   "hash": "e339b923f466",
+   "updated": "2026-10-01"
+  },
   "voynich": {
    "first": "2026-09-15",
    "hash": "d36c58cef9f4",
@@ -1550,7 +1556,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "4a5210cd0c10",
+   "hash": "a6ac561e1d63",
    "updated": "2026-10-01"
   },
   "yard1699": {
