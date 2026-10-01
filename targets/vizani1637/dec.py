@@ -1,4 +1,4 @@
-"""Vizani 1637 (BnF fr. 16158 f. 292): re-apply satorunet's key to his sign-by-sign transcription and test it.
+"""Vizani 1637 (BnF fr. 16158 f. 292): re-apply Satoru's key to his sign-by-sign transcription and test it.
 
 Input: cipher_words.tsv (his transcription of the 53/54 cipher words), key.json (his sign -> letter table).
 1. decode every word with the key and compare it with the plain he gives (letters only);

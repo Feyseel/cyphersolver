@@ -17,7 +17,7 @@
     "location": [
      "none"
     ],
-    "source": "No contemporary decipherment on the leaf; first reading by satorunet, 1 Oct 2026."
+    "source": "No contemporary decipherment on the leaf; first reading by Satoru, 1 Oct 2026."
    },
    "length": {
     "tokens": 190,
@@ -28,7 +28,7 @@
    },
    "transcription": {
     "by": "llm from images",
-    "source": "satorunet with Claude Opus 5.5, from the Gallica image (8674x6462 px), published at satoru.net/crypt/vizani/",
+    "source": "Satoru with Claude Opus 5.5, from the Gallica image (8674x6462 px), published at satoru.net/crypt/vizani/",
     "image_quality": "good",
     "notes": "Eight cipher lines, 54 words; glyph shapes approximated with look-alike characters; first nine words of line 1 compared with the image here."
    }
@@ -60,7 +60,7 @@
   "word_division": "separator symbol",
   "doubled_letters": "special sign",
   "sibling_key": "none",
-  "notes": "Key recovered ciphertext-only by satorunet (annealing against Italian 4-grams with word boundaries); name codes 31, 36, 64?, 198, 227, 231 unread."
+  "notes": "Key recovered ciphertext-only by Satoru (annealing against Italian 4-grams with word boundaries); name codes 31, 36, 64?, 198, 227, 231 unread."
  },
  "conditions": {
   "prior_solution": {
@@ -91,7 +91,7 @@
  "solution": [
   {
    "kind": "access",
-   "what": "Email from satorunet (1 Oct 2026): transcription, key and reading of the cipher, with a page at satoru.net/crypt/vizani/.",
+   "what": "Email from Satoru (1 Oct 2026): transcription, key and reading of the cipher, with a page at satoru.net/crypt/vizani/.",
    "result": "worked",
    "date": "2026-10-01"
   },
@@ -128,7 +128,7 @@
  ],
  "outcome": {
   "method": "read after matching with key from external sources",
-  "method_basis": "satorunet's key (recovered ciphertext-only with Claude) was applied to his transcription here: 46 of 48 plain words agree, the decode scores -1.78 per letter against -4.30 for the best of 200 shuffled keys, and the first words check against the Gallica image.",
+  "method_basis": "Satoru's key (recovered ciphertext-only with Claude) was applied to his transcription here: 46 of 48 plain words agree, the decode scores -1.78 per letter against -4.30 for the best of 200 shuffled keys, and the first words check against the Gallica image.",
   "contribution": [
    "none"
   ],
@@ -144,6 +144,6 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Name codes 31, 36, 64?, 198, 227, 231 unread (no code list known); two unread signs and one queried word. Identification of Beria with Kontaris is satorunet's."
+  "notes": "Name codes 31, 36, 64?, 198, 227, 231 unread (no code list known); two unread signs and one queried word. Identification of Beria with Kontaris is Satoru's."
  }
 }

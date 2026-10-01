@@ -2,9 +2,9 @@
  "slug": "vizani1637",
  "anchor": "the-reading",
  "title": "Prinkipo, 8 October 1637: the cipher lines of the letter on f. 292",
- "caption": "The 54 cipher words of Vizani's letter to the Comte de Césy, BnF Français 16158 f. 292r (Gallica), as transcribed by satorunet and decoded here with his key. Name codes and two unread signs show as unknown; the word divider is the stroke. Two words (monsignor) lose a letter in his glyph strings.",
+ "caption": "The 54 cipher words of Vizani's letter to the Comte de Césy, BnF Français 16158 f. 292r (Gallica), as transcribed by Satoru and decoded here with his key. Name codes and two unread signs show as unknown; the word divider is the stroke. Two words (monsignor) lose a letter in his glyph strings.",
  "unit": "signs",
- "key_note": "Homophonic symbol cipher: several signs for the vowels, one for most consonants, signs for tt and ss, word signs for il and che, numeric name codes (31, 36, 64?, 198, 227, 231) unread. Key by satorunet, 1 Oct 2026.",
+ "key_note": "Homophonic symbol cipher: several signs for the vowels, one for most consonants, signs for tt and ss, word signs for il and che, numeric name codes (31, 36, 64?, 198, 227, 231) unread. Key by Satoru, 1 Oct 2026.",
  "tokens": [
   {
    "g": "Φ",

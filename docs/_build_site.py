@@ -1314,7 +1314,7 @@ PAGES = [
          rights='Images: Archivio Apostolico Vaticano, via DECODE'),
     dict(slug='vizani1637', label='Vizani 1637', year='1637', y=1637.77, place='Prinkipo &rarr; Constantinople', st='solved', stt='key matched',
          title='Fra Guglielmo Vizani to the Comte de C&eacute;sy, 1637',
-         blurb='A letter of 8 October 1637 from Prinkipo to the French ambassador at Constantinople, with eight lines in a homophonic symbol cipher. The project listed it as untranscribed. satorunet transcribed it, recovered the key ciphertext-only with Claude and read it: 4,000 scudi promised for Monsignor Beria, who is close to the Patriarchate and hopes the Patriarch will be replaced in two months. Checked here against the image and shuffled keys; six name codes are open.',
+         blurb='A letter of 8 October 1637 from Prinkipo to the French ambassador at Constantinople, with eight lines in a homophonic symbol cipher. The project listed it as untranscribed. Satoru transcribed it, recovered the key ciphertext-only with Claude and read it: 4,000 scudi promised for Monsignor Beria, who is close to the Patriarchate and hopes the Patriarch will be replaced in two months. Checked here against the image and shuffled keys; six name codes are open.',
          quote='&ldquo;vicino all&rsquo;ottenere il patiarchato per s&eacute;&rdquo; &middot; &minus;1.8 per letter against &minus;4.3 for shuffled keys',
          rights='Images: Biblioth&egrave;que nationale de France, via Gallica'),
     dict(slug='labbe1582', label='L&rsquo;Abb&eacute; to Nevers 1577', year='1577', y=1577.2, place='Prague, Breslau &rarr; France', st='stuck', stt='cipher unread',

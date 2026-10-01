@@ -1,6 +1,6 @@
 # Fra Guglielmo Vizani to the Comte de Césy, Prinkipo 8 Oct 1637 (BnF Français 16158 ff. 292-294). READ (outside key, 1 Oct 2026)
 
-TARGETS.md listed "Fra Guglielmo Vizani (1637) - no transcriptions" (from Cryptiana's unsolved list). On 1 Oct 2026 satorunet (satoru.net, with Claude Opus 5.5
+TARGETS.md listed "Fra Guglielmo Vizani (1637) - no transcriptions" (from Cryptiana's unsolved list). On 1 Oct 2026 Satoru (satoru.net, with Claude Opus 5.5
 under his direction) emailed a transcription, key and reading and published them at https://satoru.net/crypt/vizani/. Nothing here predates it: the first
 work on this target is the verification below.
 
@@ -10,7 +10,7 @@ A letter of 8 October 1637 from Fra Guglielmo Vizani, Prinkipo (Isola di S. Prin
 Césy (the address leaf f. 293v reads "All'Ill.mo ... Sig. Conte di Cesy in Constantinopoli"). BnF Français 16158, ff. 292-294; Gallica ark btv1b9061541x,
 view 295 for f. 292r. Clear Italian with eight cipher lines (54 cipher words, 190 signs). A second letter of the same date, f. 294, has one cipher line.
 
-## The reading (satorunet; checked here)
+## The reading (Satoru; checked here)
 
 "Il signor [231] m'ha mandato a domandare se li quattro mila scuti [?] a [31] di monsignor Beria d'ordine di V.E. furono promessi a d(ett)o Sig.r, il quale ... e
 vicino all'ottenere il patiarchato per se. ... [64?] Monsignor Beria spera che tra due mesi sia per esser mutato; il [36] e dattone? un suo partiale, e per su(a) [198]
