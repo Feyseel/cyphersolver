@@ -781,3 +781,8 @@ targets/malsburg1637/work/vocab.txt
 targets/harley1582r8505/vocab.json
 # mercy1648: Gallica page images (never committed)
 targets/mercy1648/img/
+# r1871, r7707: DECODE page images (archive permission needed to publish; never committed)
+targets/r1871/img/
+targets/r1871/v/
+targets/r1871/*.htm
+targets/r7707/img/
