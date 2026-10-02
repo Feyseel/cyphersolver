@@ -1793,7 +1793,7 @@
   "hesse1824": "Key rebuilt here from the decipherer's note on the same leaf (key letters bcdefg, first word) and the ciphertext; no named key sheet.",
   "szembek1689": "read from the contemporary interlinear decipherment; key rebuilt from the glosses of this letter only, no key sheet known",
   "waldeck1744": "not deciphered: no key known; a two-part nomenclator not rebuildable from one letter",
-  "malsburg1637": "key rebuilt from its own ciphertext; no surviving key (the Sixtinus key of Dec 1635, HCPortal key 5, shares the layout but not the table)",
+  "malsburg1637": "Numerical key rebuilt from its own ciphertext by Daniel Bourdeau; alphabetic period-five shifts 4,5,3,6,2 recovered from the alphabetic ciphertext by Larry Beck with ChatGPT. No surviving key sheet identified for either mechanism; matching numbers in other codebooks do not establish shared nomenclature.",
   "mercy1648": "key rebuilt from the ciphertext alone by an outside contributor (NoAutopilot, issue 16); no key for the Brussels Secretaria of 1648 is known"
  }
 }

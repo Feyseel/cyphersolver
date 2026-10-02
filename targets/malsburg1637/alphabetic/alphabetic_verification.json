@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "alphabet": "abcdefghiklmnopqrstuwxyz",
+  "encryption_shifts": [
+    4,
+    5,
+    3,
+    6,
+    2
+  ],
+  "repository_original_source_matches": true,
+  "inherited_raw_isalpha_count": 531,
+  "raw_count_explanation": "531 includes four letters in the two LL labels and four letters in [blot]; excluding those gives 523 ordinary positions.",
+  "original_alphabetic_positions": 523,
+  "selected_alphabetic_positions": 510,
+  "original_line_counts": [
+    53,
+    59,
+    64,
+    57,
+    51,
+    54,
+    53,
+    52,
+    53,
+    27
+  ],
+  "selected_line_counts": [
+    53,
+    59,
+    63,
+    53,
+    50,
+    52,
+    51,
+    50,
+    52,
+    27
+  ],
+  "selected_line_start_phases": [
+    0,
+    3,
+    2,
+    0,
+    3,
+    3,
+    0,
+    1,
+    1,
+    3
+  ],
+  "original_literal_exact": true,
+  "selected_literal_exact": true,
+  "edition_csv_matches_json": true,
+  "original_and_selected_alignments_exact": true,
+  "re_encryption_consistent": true,
+  "deterministic_edit_runs": 33,
+  "net_count_change": -13,
+  "defined_source_branches": 64,
+  "branch_position_distribution": {
+    "510": 16,
+    "511": 32,
+    "512": 16
+  },
+  "reused_anchor_survival": {
+    "schwedischengeneralen": 64,
+    "descommendohalber": 64,
+    "solcheabsolutege": 32,
+    "waltwieerbegerte": 64,
+    "oglichkeitcontentirenlassen": 16
+  },
+  "alternative_global_key_changes": 204,
+  "changes_beyond_two_conjectural_targets": 202,
+  "scope": "Mechanical consistency only. No human paleographic review, identity proof, new key search, exhaustive source-space enumeration, or independent linguistic confirmation.",
+  "input_sha256": {
+    "alphabetic_edition.json": "f7fd16de6bcfe1a304a14000c052704cb18d0e0dce3cbb560df1e408dc2d5051",
+    "alphabetic_edition.csv": "bf1fd2ff2d2a856ae3fd5082ad7627b82e09bea722cb3ec98f49ef2fd6cc87e4",
+    "alphabetic_original_alignment.csv": "1fb2bc2592b86d9016f8fc16e41bebf299ff7cc7efa84c45f368f9e3cbb18f6c",
+    "alphabetic_selected_alignment.csv": "34f412092082a81cb262ec4b534f7d1d360fa48aa034933c9213f4cf91c45d42",
+    "alphabetic_edit_ledger.csv": "597b7fc7ba8142882eace55dab8eba665d6cda849b43849fb39fbfe8a3fa4d81",
+    "alphabetic_alternatives.json": "f1d6e713297d0d00a21d76ac7cc4255a92256ac1c1e63019a51cf292d3546072",
+    "alphabetic_selected_letters.txt": "c45c681c48001aad9d14042cdbc3608d5a2102f92113ccc1665966ae06e11fc5",
+    "alphabetic_verify.py": "39a6805aa772a4349843a3ede481590fd60961dfd478840de27f80361f8b4d34"
+  }
+}

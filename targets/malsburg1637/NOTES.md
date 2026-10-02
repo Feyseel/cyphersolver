@@ -1,6 +1,12 @@
 # Malsburg 1637: Otto von der Malsburg's cipher letters to Landgrave Wilhelm V (HStAM 4 h Nr. 1411)
 
-Status: read in part (the ten letters 95.9% of 9,736 cipher tokens, key recovered from the ciphertext alone; codes and the f. 12 letter block open)
+Status: read in part (Daniel Bourdeau's numerical cipher: 95.9% of 9,736 cipher tokens; Larry Beck with ChatGPT: separate alphabetic key recovered, substantial German recovered with source and editorial uncertainties; code referents open)
+
+The numerical-cipher result below is Bourdeau's work. The contribution integrated on 2 October 2026 concerns
+the separate ten-line alphabetic block of 7/17 January 1637. Its repeating shifts are **4, 5, 3, 6, 2** over
+**abcdefghiklmnopqrstuwxyz**. The literal output, proposed German reading and translation are kept separate in
+`alphabetic/`. No percentage of coherent alphabetic plaintext has been measured; 95.9% remains a numerical-cipher
+measure, not a combined result. The referents of 43, 45 and the angular pair labelled LL remain unidentified.
 
 - **Record.** Hessisches Staatsarchiv Marburg, HStAM 4 h Nr. 1411, "Korrespondenz in Chiffren mit dem
   Generalkommissar Otto v.d. Malsburg betr. Kriegführung in Münster und Westfalen", ff. 3-33. HCPortal cryptograms
@@ -25,7 +31,7 @@ Status: read in part (the ten letters 95.9% of 9,736 cipher tokens, key recovere
 | 30-31 | 508 | the same | "Duplicat" of ff. 28-29; used as a check copy, not counted |
 | 32-33 | 509 | 3 Apr 1637 and Mar 1637 | a French letter signed "232", and German news extracts in a second hand, both with cipher runs in the same key |
 
-## The system
+## The numerical system (Bourdeau)
 
 A German homophonic substitution written in two-digit groups (10-99, dots between), with letter signs for
 common digraphs and a small code of three-digit groups for names and military nouns.
@@ -47,7 +53,7 @@ common digraphs and a small code of three-digit groups for names and military no
   letter signs and codes from 111. Key 5's addenda share several code numbers with Malsburg's (193, 201, 210, 212),
   but its table does not decode f. 3. Keys 38 and 49 do not fit either.
 
-## Method
+## Numerical-cipher method (Bourdeau)
 
 1. Transcription: f. 3 by hand from 2x line crops (`lines.py`, `crop.py`); the other pages by two transcription
    agents in the same format (`f0NN.txt`). The duplicate (ff. 30-31) was used to correct ff. 28-29.
@@ -63,11 +69,123 @@ common digraphs and a small code of three-digit groups for names and military no
 
 ## The letter-cipher block on f. 12
 
-At the foot of f. 12, after "... Churf. in Beyern salvo geschehen werden;", ten lines (about 530 letters, with the
-numbers 43, 45 and the sign LL) are written in lower-case letters, marked in the margin "E: Sixt: cla:" (perhaps
-"ex Sixtini clave"). It is not the Malsburg key. Tried: monoalphabetic and homophonic annealing in German, Latin,
-French, Italian and Dutch; homophonic with nulls; periodic IC for periods 1-15 (flat, 0.050-0.060); all Caesar
-shifts; the MORITZ reciprocal alphabet (key 105); the Reuschenberg alphabet (key 2). Nothing reads. IC 0.052.
+At the foot of digital image 0012, after "... Churf. in Beyern salvo geschehen werden;", ten lines are written
+in lower-case letters with 43, 45 and two angular signs labelled LL. The repository's `f012`/"f. 12" identifies
+the digital image, not a verified manuscript foliation. The annotation is tentatively read **[E?]: Sixt: / cla:**;
+its exact reading, expansion and attribution are unresolved. It is not evidence by itself for "ex Sixtini clave",
+a particular Sixtinus, or the author of the appended intelligence.
+
+Bourdeau's earlier attempts included monoalphabetic and homophonic annealing in German, Latin, French, Italian
+and Dutch; homophonic models with nulls; periodic IC for periods 1-15 (0.050-0.060); Caesar shifts; the MORITZ
+reciprocal alphabet (key 105); and the Reuschenberg alphabet (key 2). Those attempts did not produce the current
+reading. The subsequent repeating-shift result supersedes the earlier suggestion that the passage was not periodic.
+
+### Contribution and provenance
+
+Larry Beck directed the subsequent alphabetic investigation with ChatGPT, using Bourdeau's provisional
+transcription and the authentic HCPortal image. ChatGPT performed the computational work, separate image-reading
+passes and drafting. "Independent" image readings here mean separate model passes, including passes without
+the proposed plaintext; they are **not** review by an independent human paleographer. The exact discovery date,
+complete model-ID history and number of contributor sessions are not established by the supplied record and are
+not reconstructed here. The dated steps in `profile.json` record this contribution's integration and reproduction
+on 2 October 2026, not an invented discovery chronology. It must not be treated as a continuation of Bourdeau's
+original Claude session for model-performance analysis.
+
+Source: HStAM 4 h Nr. 1411, digital image 0012, HCPortal cryptogram 497,
+[authentic 2834 x 4284 image](https://api.hcportal.eu/media/1395/79511677516420.jpg).
+No generated detail was used. The numerical decipherment and source presentation remain credited to Bourdeau.
+
+### Alphabetic mechanism and counting
+
+Use `a=0` through `z=23` in `abcdefghiklmnopqrstuwxyz`; encrypt by adding and decrypt by subtracting
+`[4,5,3,6,2]` modulo 24. The first ordinary letter uses shift 4 (phase 0). Phase continues across all ten
+manuscript lines. Normalize `ü` to `u`, `ÿ` to `y` and provisional `j` to `i`. Isolated 43, 45 and LL labels,
+punctuation and the blot label are outside the alphabetic stream and advance it by zero in the selected model.
+This is a constraint modulo five, not a recovered expansion length or code meaning.
+
+The legacy command `python docs/_check_profile.py --measure targets/malsburg1637/ct/hcp497_letters.txt --letters`
+counts 531 alphabetic characters, including the four `L` characters of the two editorial `LL` labels and the
+four letters of the editorial `[blot]` label. Excluding those labels leaves **523** normalized cipher positions.
+The selected image-reading branch has **510**. The legacy file is preserved unchanged. The 33-run alignment
+accounts for 15 one-letter deletions, one insertion, one length-increasing `u` to `ii` replacement and 16
+substitutions, a net reduction of 13. This is an alignment of transcripts, not a unique history of scribal errors.
+
+The inherited reports record a search of all 7,962,624 five-position keys on the unchanged opening 112 letters,
+with a frozen four-letter language model, yielding the same best key and top ten on replay. They also record
+25 original and 99 addendum verifier checks and 125 consistent special-group advancement tests. Those historical
+search claims must be distinguished from the lightweight public verifier's actual scope: it reproduces the
+preserved original and selected inputs, phases, literal outputs and defined source alternatives. Re-encryption
+checks consistency only; it cannot authenticate a manuscript reading.
+
+### Reading and its limits
+
+The complete ten-line edition is `alphabetic/alphabetic_edition.csv`; `alphabetic/alphabetic_reading.md` explains
+the editorial layers. The selected literal begins:
+
+> der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn
+> entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm
+
+The paragraph discusses a possible departure, disagreement with Swedish generals over command, reciprocal
+joining of forces, actions associated with LL that no longer please the central figure, and the authority he
+seeks. The opening `wollen ... so` is read conditionally. It does not establish that anyone actually wanted him
+dismissed. The material after `das [LL] schreiben` may state proposed letter contents, so later clauses must not
+be turned into completed decisions. French service, payment, arrears, resignation and formal discharge are not
+established by this January paragraph. `contentiren lassen` is translated as having him given satisfaction.
+
+The source branch retains `wurden` after singular `er`, malformed `tqouppen` and `itzigdn`, and the blot. Editorial
+`[Trouppen?]` and `[itzigen?]` are conjectures. At L4:37 (global 212), source `w`, phase 1, shift 5 yields `q`;
+`trouppen` would require source `x` or an isolated shift 4. At L9:42 (global 473), source `g`, phase 2, shift 3
+yields `d`; `itzigen` would require `h` or an isolated shift 2. Changing the whole key to `[4,4,2,6,2]` alters 202
+other positions and damages secure words. The local-error proposals do not justify changing the cipher inputs.
+
+Six binary source choices define a bounded 64-branch test: L3 h/u, L6 g/q, L7 overlap count 0/1, L8 y/iy, L8 n/r
+and L9 m/n. Sixteen branches have 510 letters, 32 have 511 and 16 have 512. `schwedischengeneralen` and
+`descommendohalber` survive all 64; `oglichkeitcontentirenlassen` survives 16. These anchors had already been
+consulted, so this is sensitivity analysis, not independent prediction. L7 h/? and L10 t/? remain provisional;
+the blot's unknown extent is not exhausted by these branches. No numerical confidence follows from the counts.
+
+### Code referents and specific documentary leads
+
+There are three unresolved labels in five occurrences: 43 once, 45 twice, LL twice. Graphic comparison favors
+43, but no identity follows. LL names two angular signs without establishing Latin letters, initials, 11 or 44.
+The labels need not be personal names or three different people; 45 and LL could encode different expressions
+for the same party. Malsburg need not be the author or speaker of copied intelligence.
+
+The strongest historical lead is Franz von Geyso, *Beiträge zur Politik und Kriegführung Hessens*, Dritter Teil,
+ZHG 55 (1926), [p. 99 n. 2](https://www.vhghessen.de/inhalt/zhg/zhg_55/Geyso_Beitraege.pdf). Geyso says Melander,
+through Malsburg, sought absolute authority from the Landgrave, citing **Malsburg, Wesel, 16 November 1636,
+Kr. A. 1636, III**. This is a secondary paraphrase, not a quotation from the uninspected original. Internal
+disciplinary authority need not be the same issue as command alongside Swedish generals. Melander is a candidate
+for documentary investigation, not the decipherment of 43.
+
+Geyso pp. 115-117 and Wilhelm Hofmann, *Peter Melander, Reichsgraf zu Holzappel* (1882),
+[pp. 68-69](https://archive.org/details/petermelanderre00schagoog/page/n74/mode/2up), report or print offers to retain
+Melander with command and office. Geyso dates the associated letters to 16 and 18 January 1637 and warns that
+Hofmann's text differs from the originals. This weighs against a completed-dismissal account; it neither proves
+nor disproves the conditional reading. The original January letters have not been inspected.
+
+The specific missing comparisons are:
+
+- [LHA Koblenz, Bestand 47, Nr. 4400](https://apertus.rlp.de/index.php?PLINK=1&ID=d5c14d42-f356-4ff4-8509-b39dc6dbbcbe):
+  catalogue entry for cipher codes, 1635-1641, among Melander's papers. Sheets uninspected. A match needs dated users
+  and several independent code correspondences, not merely matching 43 or 45.
+- Malsburg's 16 November 1636 letter cited by Geyso: current shelfmark/folio unresolved.
+  [HStAM 4 h 2208, Bd. 5/2](https://arcinsys.hessen.de/arcinsys/detailAction.action?detailid=v2343475), July-December
+  1636, is a catalogue lead for Malsburg/Melander correspondence, not a proved concordance to Kr. A. 1636, III.
+- [HStAM 4 h 2209, Bd. 6/1](https://arcinsys.hessen.de/arcinsys/detailAction.action?detailid=v1018318), January-March
+  1637, fits Geyso's volume/date reference T. VI, P. 1, but the individual letters are not located. LHA Koblenz
+  47/15947 is another catalogue lead for 1637 Wilhelm and Malsburg letters.
+- [HStAM 4 f Staaten F, Frankreich 1297](https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=2045812)
+  holds Hoff reports, 1636-1637. The March extract with the second LL-like sign ends with literal `hoffuo[156]`.
+  A Hoff report of 17/27 March 1637, if present, could test attribution. The attribution, suffix and transfer of
+  the sign's meaning to January remain unproved.
+
+Keys 5, 30 and 31 in HStAM 4 d 1218 Teil 1 were compared. Key 30 has alphabetic 43=P and 45=W, with separate
+three-digit codes for Melander and Wilhelm; this does not license Peter/Wilhelm identifications. Key 31 includes
+Melander 200/500, Sixtinus 521 and Malsburg 523, without a demonstrated match to this paragraph. Key 5 names both
+Wilhelm Burckhard and Nicolaus Sixtinus, so `Sixt:` cannot select one. The February French-service passage and
+March Wartenberg/discharge passage have later dates and unresolved antecedents; they do not identify January's
+figures. The March duplicate is a transcription control, not an independent report.
 
 ## Reading (summary; the measured text is `reading_segmented.txt`)
 
@@ -110,11 +228,18 @@ words, each checked in context); for f. 32 the French `fr-henri4` vocabulary is 
 letter it gives lies in a word. Result (duplicate ff. 30-31 left out): **9,338 of 9,736 cipher tokens (95.9%)**;
 193 tokens are open codes or name signs, so 97.9% of the non-code text reads. Per record: 496 96.5%, 497 96.9%,
 502 92.8%, 503 95.0%, 504 96.9%, 505 97.6%, 506 97.5%, 507 96.0%, 509 88.1% (second hands). Shuffled-key control:
-50-58%. The f. 12 letter block (531 letters) is not counted: it is another system.
+50-58%. The f. 12 letter block is not counted: it is another system. Its legacy raw count of 531 includes
+editorial labels; the normalized inherited input has 523 positions and the selected source branch 510.
+The alphabetic contribution does not change Bourdeau's numerical-cipher numerator or denominator. No combined
+fraction or measured coherent fraction is claimed.
 
 ## Remaining gaps
-- letter-cipher block at the foot of f. 12 (531 letters) - blocker: no-key-material; a different system, not the Malsburg key, not simple, homophonic, Caesar or periodic; no fitting key among the 176 HCPortal key records
 - about 40 three-digit codes and name signs (193 tokens: 120, 122, 129, 140, 148, 176, 193, 212 ... V, K, f, 4#, +, AA, GG ...) - blocker: open-codes; mostly single occurrences, five valued from context (128, 130, 188, 253, 273, grade I)
+- alphabetic 43, 45 and LL (three labels, five tokens) - blocker: open-codes; no primary key equation or named parallel, and no demonstrated shared nomenclature with the numerical system; LHA Koblenz 47/4400 remains uninspected
+- alphabetic source alternatives in lines 3, 6, 7, 8, 9 and 10, plus the blot - blocker: illegible; selected 510-position branch and bounded alternatives retained; a human comparison with the original or better authentic imaging is needed to decide ambiguous strokes and the blot's extent
+- alphabetic residual forms tqouppen, itzigdn and er ... wurden - blocker: no-key-material; the alphabetic mechanism is recovered, but no independent primary parallel or fair copy has been located to establish the intended forms; literal output and conjectures remain separate, and physical access has not been shown necessary
+- exact reading of the annotation - blocker: illegible; [E?]: Sixt: / cla: remains tentative; a clearer authentic image or comparison with the same hand is needed before expanding it
+- provenance of the appended intelligence - blocker: no-key-material; no contemporary source attribution or matching named parallel established; a possible Hoff comparison and original correspondence remain uninspected, without a claim that they require physical access
 
 ## Escalation
 - [x] siblings: all ten records of HStAM 4 h 1411 transcribed; ff. 30-31 duplicate ff. 28-29 and served as a check copy
@@ -123,3 +248,18 @@ letter it gives lies in a word. Result (duplicate ff. 30-31 left out): **9,338 o
 - [x] print: web and LAGIS search for an edition of the letters; none found
 - [x] key-rebuild: digit table annealed from the ciphertext and polished over all pages; signs and five codes valued from context
 - [x] retry: 236 unread groups re-checked against the scans (24 misreads, 2 doubled groups corrected, 210 confirmed)
+
+Alphabetic contribution, integrated 2 October 2026:
+
+- [x] siblings: 18 related leaf transcriptions compared, including the February letter, March duplicate and
+  second LL-like occurrence; ordinary numerical 43/45 are letter values and cannot be transferred as name codes
+- [x] clear-pages: address image 0013 and appended-intelligence context considered; no matching deciphered copy
+  of the alphabetic paragraph established, and the annotation does not by itself assign authorship
+- [x] known-keys: Sixtinus-family sheets 0040-0042, 0121-0122 and 0123-0126 compared; no matching nomenclature
+  established; the newly located Koblenz 47/4400 catalogue entry has no inspected sheets
+- [x] print: the contributor's prior Grotius/Anhalt searches and the Geyso/Hofmann and Oxenstierna comparisons
+  produced contextual parallels and specific missing documents, but no named version of this paragraph
+- [x] key-rebuild: the five shifts reproduce the inherited and selected literals; separate source and editorial
+  layers prevent fitting the ciphertext to a candidate identity
+- [x] retry: source alternatives combined in the bounded 64-branch audit; local residuals tested against phase
+  changes and a global replacement key, without accepting conjectural plaintext as a source reading

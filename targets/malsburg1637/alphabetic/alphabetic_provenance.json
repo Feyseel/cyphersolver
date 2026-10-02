@@ -1,0 +1,27 @@
+{
+  "description": "Public export from preserved investigation checkpoints; original input files were not modified.",
+  "export_date": "2026-10-02",
+  "checkpoint_hashes": {
+    "continuation2/output/Malsburg_1637_Ten_Line_Edition_v2.csv": "635e22cd79003be542d90766647c9ed69c4d2697bb2f81a6f5aa96eb21bf6654",
+    "work/cipher/final_source_replay.py": "5a2e96a47b9242c650e69be79c8afae0e5125009a36dfc564834dcfa73531c91",
+    "work/cipher/final_source_replay.json": "e009662c0fd6ed1cfad1d85e6e3ae8790ff54bbde8429009c08d317119de5b32",
+    "work/cipher/final_alignment.csv": "34f412092082a81cb262ec4b534f7d1d360fa48aa034933c9213f4cf91c45d42",
+    "work/cipher/final_difference_ledger.csv": "44506e5f29071b3ea91782293449590e4bea7b7cea92563d8636a63f279ce345",
+    "continuation2/audit/joint_source_branches.json": "fcb8903e43172dbf852a2a996ab1e7a80246f35b5abaa0642cb6e600ed603972",
+    "continuation2/audit/edit_ledger_with_phase.csv": "9ae426119294bd46f208337c1929a6a0a0311bda728972e1fb98fbdf62a871bc",
+    "continuation2/mechanics/MECHANICS_FINDINGS.md": "f19d6a5c603865cd70141a3bb396f75a6eb11d3492c178dff123c5e1f47b333c",
+    "identity3/root/RESEARCH_LOG.txt": "7ac91af1452fc0c0632a8aef79df4982b6cf7b8adbf6ea2d028187881b46f36f"
+  },
+  "source_image": {
+    "shelfmark": "HStAM 4 h 1411",
+    "digital_image": "0012 (earlier reports use f.12 as a digital-image label)",
+    "url": "https://api.hcportal.eu/media/1395/79511677516420.jpg",
+    "dimensions_px": [
+      2834,
+      4284
+    ],
+    "sha256": "52811d32eaa8ca7192c8dd985b90a9806a700b4d0b5a337edee4c60f4d0c7535"
+  },
+  "attribution": "Larry Beck directed the investigation with ChatGPT. Separate computational and image-reading passes are AI analyses, not review by a human paleographer. Daniel Bourdeau supplied the inherited provisional transcription, source presentation and prior numerical decipherment.",
+  "scope": "The compact verifier reproduces literal decoding, phase/counts, alignment, edit ledger and 64 recorded source branches. It does not rerun earlier exhaustive key searches or authenticate the handwriting. See reading note for inherited findings and source limits."
+}

@@ -1,0 +1,142 @@
+{
+  "title": "Malsburg letter of 7/17 January 1637: ten-line alphabetic block",
+  "credit": "Larry Beck, with ChatGPT; inherited transcription and numerical-cipher work by Daniel Bourdeau",
+  "edition_date": "2026-10-02",
+  "status": "Working edition with unresolved source signs, two malformed literal words and unidentified code groups",
+  "alphabet": "abcdefghiklmnopqrstuwxyz",
+  "encryption_shifts": [
+    4,
+    5,
+    3,
+    6,
+    2
+  ],
+  "phase_origin": "First ordinary alphabetic sign uses phase 0 and shift 4; phase continues across lines",
+  "normalizations": {
+    "ü": "u",
+    "ÿ": "y",
+    "j": "i",
+    "[blot]": "[BLOT]"
+  },
+  "nonadvancing_tokens": [
+    "43",
+    "45",
+    "LL",
+    "[BLOT]"
+  ],
+  "question_mark_rule": "The original L5 question mark is punctuation and does not consume phase. An explicit ? in a variant branch stands for one unknown alphabetic sign and does consume phase.",
+  "original_alphabetic_positions": 523,
+  "selected_alphabetic_positions": 510,
+  "lines": [
+    {
+      "line": 1,
+      "original_source": "hkü.43.zwinhalÿergxkrwwtzsklÿsgolp.45.xkmtgwmhÿpptwzgnsÿtfnng",
+      "original_normalized_source": "hku.43.zwinhalyergxkrwwtzsklysgolp.45.xkmtgwmhypptwzgnsytfnng",
+      "original_literal": "der.[43].stehetitzoaufmsprungewoblen.[45].seinergernlosseinundihd",
+      "selected_normalized_source": "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+      "selected_literal": "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+      "German_editorial": "Der [43] stehet itzo aufm Sprunge. Wollen [45] seiner gern los sein und ihn",
+      "English_proposed_letter_scope": "[43] is now on the point of making a move [perhaps departing]. If [45] wish to be rid of him and",
+      "apparatus": "A second image-only comparison now strongly favors 43 against the two clear 45 groups and the 3 in the year 1637. This improves the graphic reading only; no code value is identified."
+    },
+    {
+      "line": 2,
+      "original_source": "lpÿghotisnüprkgzgnÿxlüragfgnzggü.LL.xhlÿgnghtÿioozliÿhogridzgwr",
+      "original_normalized_source": "lpyghotisnuprkgzgnyxluragfgnzggu.LL.xhlygnghtyioozliyhogridzgwr",
+      "original_literal": "entbehrenkonnedseistesnudzeitdas.[LL].schreibenweilsiesehendaserm",
+      "selected_normalized_source": "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+      "selected_literal": "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+      "German_editorial": "entbehren konnen, so ist es nun Zeit, das [LL] schreiben: weil sie sehen, das er m-",
+      "English_proposed_letter_scope": "can do without him, now is the time for [LL] to write [perhaps to the following effect]: since they see that he ...",
+      "apparatus": "L2:27 source q→g has direct image support and gives Zeit. The colon after schreiben is editorial and expresses one scope interpretation, not decoded punctuation."
+    },
+    {
+      "line": 3,
+      "original_source": "mafiswikalkgplügnhtüshÿclpkgkgxhrsoisgükegeltxofopnhlaxixkrgnhll",
+      "original_normalized_source": "mafiswikalkgplugnhtushyclpkgkgxhrsoisgukegeltxofopnhlaxixkrgnhll",
+      "original_literal": "itdenschwfgangpdgfpppbwyfmdefbtbpoifmeqebacgothdkkkbiwrfqhnbkbig",
+      "selected_normalized_source": "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+      "selected_literal": "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+      "German_editorial": "it den Schwedischen Generalen des Commendo halber sich nicht uergleichen",
+      "English_proposed_letter_scope": "... would not reach agreement with the Swedish generals over command ...",
+      "apparatus": "GENERALEN and the command phrase survive all 64 combined source alternatives. L3 h/u still changes nicht/nipht. uergleichen is literal; v is not in the cipher alphabet."
+    },
+    {
+      "line": 4,
+      "original_source": "aaükgr.45.kwacÿfeltixiütlhklüaghfxzliolÿgÿwrbrtlkghgcimlügnzl",
+      "original_normalized_source": "aaukgr.45.kwacyfeltixiutlhkluaghfxzliolygywrbrtlkghgcimlugnzl",
+      "original_literal": "uxohcm.[45].gpyyscyipdtcspfediqudbdsthcmgsdrtnwonifbeaaeghoeith",
+      "selected_normalized_source": "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+      "selected_literal": "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+      "German_editorial": "†wurden†, [45] Estat aber erforderte, dat sie ihre †tqouppen† [Trouppen?] bey die Schw-",
+      "English_proposed_letter_scope": "... [German has plural wurden], while the situation of [45] required a junction of their [troops?] with the Swedes ...",
+      "apparatus": "wurden is retained with its singular er / plural verb difficulty. Source L4:37 w gives q in tqouppen; x would give r but is not the image reading. dat remains literal, without a dialect claim."
+    },
+    {
+      "line": 5,
+      "original_source": "lfisÿtfhohzembhkgrbmkgwgheünkwagxÿht?ozÿxlpleafo.LL.cgzm",
+      "original_normalized_source": "lfisytfhohzembhkgrbmkgwgheunkwagxyht?ozyxlpleafo.LL.cgzm",
+      "original_literal": "edenunddieschwedenwiderbeysiestessen?mustengzxzm.[LL].ybwf",
+      "selected_normalized_source": "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+      "selected_literal": "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+      "German_editorial": "eden und die Schweden wider bey sie stossen musten, auch [LL] acti-",
+      "English_proposed_letter_scope": "... and reciprocally of the Swedes with them; and [LL]’s actions ...",
+      "apparatus": "This is a requirement for reciprocal joining, not evidence that movement occurred. LL is an alias for two angular signs, not a proven pair of Latin letters or a personal name."
+    },
+    {
+      "line": 6,
+      "original_source": "üpiÿmooismaoixklhnkollpzsgbdixggünnplusgfoglegwünzzhng",
+      "original_normalized_source": "upiymooismaoixklhnkollpzsgbdixggunnplusgfoglegwunzzhng",
+      "original_literal": "sldufmkdpfykdtdidhghigkwmexyfqecpkgngppadkbhyerpksxdhd",
+      "selected_normalized_source": "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+      "selected_literal": "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+      "German_editorial": "ones ihme nit mer gefielen, und uber das ihme solche absolute Ge-",
+      "English_proposed_letter_scope": "... no longer pleased him, and moreover such absolute authority ...",
+      "apparatus": "Source g/q gives solche/solcho. Source word divisions and modern umlauts are not supplied in the literal layer. Actions associated with LL is a grammatical reading."
+    },
+    {
+      "line": 7,
+      "original_source": "alfoaÿnkhÿdimhÿwismaiilghzmssxlpxtwagpqhagrÿmlgxidolr",
+      "original_normalized_source": "alfoaynkhydimhywismaiilghzmssxlpxtwagpqhagrymlgxidolr",
+      "original_literal": "tibixrlfcuxghcupgogxcggbeskontensostelletensieesdahin",
+      "selected_normalized_source": "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+      "selected_literal": "waltwieerbegertenitgebenkontensostelletensieesdahin",
+      "German_editorial": "walt, wie er begerte, nit geben konten, so stelleten sie es dahin,",
+      "English_proposed_letter_scope": "... as he demanded, [they] could not give him, they would leave the matter to ...",
+      "apparatus": "L7 overlap counted zero is selected; a one-sign alternative is supplied. The h/? reading also remains provisional. English [they] before could not give is syntactically supplied."
+    },
+    {
+      "line": 8,
+      "original_source": "bd[blot]zlmrhfxÿnÿtiilhrnnmzünÿkqpkrfÿiklaoglltxkmtglkolii",
+      "original_normalized_source": "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyiklaoglltxkmtglkolii",
+      "original_literal": "wa[BLOT]sihmezuthungefelligwoltenihnauchgulaigotdkpbhdmgdf",
+      "selected_normalized_source": "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+      "selected_literal": "wa[BLOT]sihmezuthungefelligwoltenihnauchwiderseinegelege",
+      "German_editorial": "wa[BLOT]s ihme zu thun [gefellig/gefellng]; wolten ihn auch wider seine Gelege-",
+      "English_proposed_letter_scope": "... what he found [pleasing?] to do. They would also not detain him against his convenience ...",
+      "apparatus": "The blot remains visible as a gap marker; its deleted extent is unknown. Zero advancement constrains no expansion length. Source ÿ/iÿ is a count uncertainty; n/r gives gefellig/gefellng."
+    },
+    {
+      "line": 9,
+      "original_source": "slllÿsmaczllgnÿkgzgrihÿpnngtlcgnmotirmabnmgtgxzdaxrip",
+      "original_normalized_source": "slllysmaczllgnykgzgrihypnngtlcgnmotirmabnmgtgxzdaxrip",
+      "original_literal": "migfumkwxweichudeubocftkkgepfzalhiqcphuygkcodqxzutlgl",
+      "selected_normalized_source": "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+      "selected_literal": "nheitnitaufhaltensondernihnnachihremitzigdnestatundm",
+      "German_editorial": "nheit nit aufhalten, sondern ihn nach [ihrem/khrem] †itzigdn† [itzigen?] Estat und M-",
+      "English_proposed_letter_scope": "... but would have him given satisfaction according to [their?] [present?] circumstances and ...",
+      "apparatus": "Source m/n gives ihrem/khrem. L9:38 a is image-supported. Source L9:42 g gives d in itzigdn; h would give e but is not the image reading. itzigen is editorial conjecture."
+    },
+    {
+      "line": 10,
+      "original_source": "üipofomioxigrzhtwnxhtnejwlp",
+      "original_normalized_source": "uipofomioxigrzhtwnxhtneiwlp",
+      "original_literal": "pfimbiicmsddlxdosgudokygrfm",
+      "selected_normalized_source": "uipofomioxiqrzhtwnxhtneywlp",
+      "selected_literal": "oglichkeitcontentirenlassen",
+      "German_editorial": "oglichkeit contentire[n?] lassen.",
+      "English_proposed_letter_scope": "... ability [contentiren: final n source-uncertain].",
+      "apparatus": "Source q at 12 and ÿ at 24 have independent visual support. Source t at 21 remains uncertain, hence final n in contentiren is marked. No payment, arrears or sum is stated."
+    }
+  ]
+}

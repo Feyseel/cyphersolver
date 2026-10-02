@@ -2382,44 +2382,6 @@
    "counted": true,
    "ark": "",
    "folio_note": "",
-   "seen": "image",
-   "scored": "sweep",
-   "prior_art": "open (checked 28 Sept 2026)",
-   "score_note": "Scored by hand from the archive scan of 23 Sept 2026 (outside DECODE: Meister 1902/1906, printed inventories and editions, HCPortal, Láng 2015, TNA/Kalliope catalogues); notes in research/oldest/scan_2026-09-23/. Kind: solve candidate (no key known).",
-   "id": 338,
-   "year": 1637,
-   "date": "7/17 Jan 1637",
-   "title": "Cipher in lower-case letters at the foot of Otto von der Malsburg's letter of 7/17 January 1637 (the letters themselves deciphered here)",
-   "correspondents": "Otto von der Malsburg → the councillors of Landgrave Wilhelm V at Kassel",
-   "place": "Westphalia / Münster → Kassel",
-   "language": "German",
-   "region": "Germany",
-   "period": "1611-1650",
-   "shelfmark": "Hessisches Staatsarchiv Marburg, HStAM 4 h Nr. 1411, f. 12, foot (HCPortal record 497)",
-   "cls": "C",
-   "source": "HCPortal",
-   "status": "The ten Malsburg letters of HStAM 4 h 1411 (HCPortal 496-509) were deciphered here on 28 Sept 2026 (key recovered from the ciphertext alone, 95.9% of 9,736 groups; targets/malsburg1637/, write-up malsburg1637.html). Left open: ten lines (531 letters, with 43, 45 and an LL sign) in lower-case letters at the foot of f. 12, margin note \"E: Sixt: cla:\" (perhaps 'from Sixtinus's key'). IC 0.052, flat at periods 1-15; not simple, homophonic, Caesar, or any letter key among the 176 HCPortal Marburg key records.",
-   "why": "A second cipher enclosed in a Hessian commissary's report of January 1637, perhaps in Sixtinus's key; the only unread piece of the file.",
-   "importance": 3,
-   "solvability": 4,
-   "difficulty": 3,
-   "verify": "Look for a letter key used by or with Wilhelm Burchard Sixtinus (Hamburg, Bremen, Hildesheim, 1635-37) among the Marburg key volumes not on HCPortal (Arcinsys).",
-   "links": [
-    {
-     "label": "HCPortal image, f. 12",
-     "href": "https://api.hcportal.eu/media/1395/79511677516420.jpg"
-    },
-    {
-     "label": "Write-up of the letters",
-     "href": "https://dbourdeau.github.io/cyphersolver/malsburg1637.html"
-    }
-   ],
-   "outcome": "attempted, open"
-  },
-  {
-   "counted": true,
-   "ark": "",
-   "folio_note": "",
    "seen": "catalogue",
    "scored": "sweep",
    "prior_art": "open (checked 23 Sept 2026)",

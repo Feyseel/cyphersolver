@@ -1,0 +1,2540 @@
+{
+  "summary": {
+    "branches": 64,
+    "positions_distribution": {
+      "510": 16,
+      "511": 32,
+      "512": 16
+    },
+    "anchor_survival_reused_not_independent": {
+      "schwedischengeneralen": 64,
+      "descommendohalber": 64,
+      "solcheabsolutege": 32,
+      "waltwieerbegerte": 64,
+      "oglichkeitcontentirenlassen": 16
+    },
+    "all_reencrypt": true,
+    "unknowns_not_exhaustively_enumerated": [
+      "L7 h/? is provisionally h",
+      "L10 t/? is provisionally t",
+      "L8 blot unknown deleted extent, advance fixed0",
+      "43/45 first label held43; both have identical treatment",
+      "LL graphic identity and expansion unknown"
+    ],
+    "scope": "Cartesian product of six expressly recorded binary source alternatives. No likelihood, posterior, or exhaustive paleographic alternative space is claimed."
+  },
+  "branches": [
+    {
+      "branch": 0,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefelligwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachihremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 1,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefelligwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachkhremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 2,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefellngwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachihremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 3,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefellngwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachkhremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 4,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefelligwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachihremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 5,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefelligwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachkhremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 6,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefellngwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachihremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 7,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefellngwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachkhremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 8,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefelligwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachihremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 9,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefelligwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachkhremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 10,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefellngwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachihremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 11,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefellngwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachkhremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 12,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefelligwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachihremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 13,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefelligwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachkhremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 14,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefellngwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachihremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 15,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 510,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezuthungefellngwoltenihnauchwiderseinegelege",
+        "nheitnitaufhaltensondernihnnachkhremitzigdnestatundm",
+        "oglichkeitcontentirenlassen"
+      ]
+    },
+    {
+      "branch": 16,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 17,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 18,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 19,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 20,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 21,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 22,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 23,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 24,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 25,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 26,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 27,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 28,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 29,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 30,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 31,
+      "choices": {
+        "L7_unknown_count": 0,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqhagrymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostelletensieesdahin",
+        "wa[BLOT]sihmezueskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 32,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 33,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 34,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 35,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 36,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 37,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 38,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 39,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 40,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 41,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 42,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 43,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 44,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 45,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpihissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 46,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkfmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 47,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "y",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 511,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsskrredhbpimissisgknfmcrgfulaiprgfrcfghied",
+        "peigspfyytheeisgkxmmfbwlhkkrybkgmpdofyxhiarcrwxysmfi",
+        "seklzmhdlqgmmwbrrhtbrizupil"
+      ]
+    },
+    {
+      "branch": 48,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhkfxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdgkkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 49,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhkfxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdglkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 50,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhofxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdgkkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 51,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhofxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdglkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 52,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhkfxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdgkkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 53,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhkfxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdglkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 54,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhofxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdgkkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 55,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "h",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnhlaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichnichtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhofxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdglkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 56,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhkfxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdgkkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 57,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhkfxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdglkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 58,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhofxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdgkkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 59,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "g",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfogegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolcheabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhofxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdglkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 60,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "m"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhkfxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdgkkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 61,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "n",
+        "L9_m_n": "n"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnnmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhkfxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdglkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 62,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "m"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnmotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhofxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdgkkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    },
+    {
+      "branch": 63,
+      "choices": {
+        "L7_unknown_count": 1,
+        "L8_y_vs_iy": "iy",
+        "L3_h_u": "u",
+        "L6_g_q": "q",
+        "L7_h_question": "h provisionally as reader first choice",
+        "L10_t_question": "t favored, not certain",
+        "L8_n_r": "r",
+        "L9_m_n": "n"
+      },
+      "positions": 512,
+      "sources": [
+        "hku.43.zwinhalyergxkrwwtzsklysqolp.45.xkmtgwmhypptwzgnsytfnnq",
+        "lpyghotisnuprkqzqnyxluraqfgnzggu.LLxhlygnghtyioozliyhogridzgwr",
+        "mafiswikakgpugnhtiishycpkqkgxhrsoisgukeqeltxofopnulaxixkrgnhllp",
+        "aaukgr.45.kwacyfeltixiuthkuaghfxzliolygywrbrtkqhgcimlugnz",
+        "lfisytfhohzembhkgrbmkgwgheunkwaqxyht,ozyxlpeafo.LLcgzm",
+        "upiymooismaoixklhnkolpzsgbdixggunnplusqfoqegwunzzhng",
+        "afoaynkhydimhywismaiightmssxlpxtwagpqha?grymlgxidolr",
+        "bd[BLOT]zlmrhfxiynytiilhrnrmzunykqpkrfyikaogltxkmtglkolii",
+        "slllysmaczllgnykqzqrihypnnqtcgnnotirmabnmgtgxzdaxrip",
+        "uipofomioxiqrzhtwnxhtneywlp"
+      ],
+      "expected_literals": [
+        "der.[43].stehetitzoaufmsprungewollen.[45].seinergernlosseinundihn",
+        "entbehrenkonnensoistesnunzeitdas.[LL]schreibenweilsiesehendaserm",
+        "itdenschwedischengeneralendescommendohalbersichniphtuergleichen",
+        "wurden.[45].estatabererfordertedatsieihretqouppenbeydieschw",
+        "edenunddieschwedenwiderbeysiestossen,mustenauch.[LL]acti",
+        "onesihmenitmergefielenunduberdasihmesolchoabsolutege",
+        "waltwieerbegertenitgebenkontensostellet?cmuficrfxmgm",
+        "yx[BLOT]xggobdsdugwpdfefnhofxqhudoleozweexhegotdkpbhdmgdf",
+        "migfumkwxweichudoulocftkkgopxdglkoflkwwkfepbtsbwrocn",
+        "qdmhdkgfhuelosfpqkqfphbrtgk"
+      ]
+    }
+  ],
+  "source_choices": [
+    {
+      "choice": "L7_unknown_count",
+      "selected_value": 0,
+      "alternative_value": 1,
+      "source_edits": [
+        {
+          "line": 7,
+          "normalized_offset_zero_based": 39,
+          "original": "",
+          "alternative": "?"
+        }
+      ]
+    },
+    {
+      "choice": "L8_y_vs_iy",
+      "selected_value": "y",
+      "alternative_value": "iy",
+      "source_edits": [
+        {
+          "line": 8,
+          "normalized_offset_zero_based": 15,
+          "original": "",
+          "alternative": "i"
+        }
+      ]
+    },
+    {
+      "choice": "L3_h_u",
+      "selected_value": "h",
+      "alternative_value": "u",
+      "source_edits": [
+        {
+          "line": 3,
+          "normalized_offset_zero_based": 49,
+          "original": "h",
+          "alternative": "u"
+        }
+      ]
+    },
+    {
+      "choice": "L6_g_q",
+      "selected_value": "g",
+      "alternative_value": "q",
+      "source_edits": [
+        {
+          "line": 6,
+          "normalized_offset_zero_based": 41,
+          "original": "g",
+          "alternative": "q"
+        }
+      ]
+    },
+    {
+      "choice": "L8_n_r",
+      "selected_value": "n",
+      "alternative_value": "r",
+      "source_edits": [
+        {
+          "line": 8,
+          "normalized_offset_zero_based": 25,
+          "original": "n",
+          "alternative": "r"
+        }
+      ]
+    },
+    {
+      "choice": "L9_m_n",
+      "selected_value": "m",
+      "alternative_value": "n",
+      "source_edits": [
+        {
+          "line": 9,
+          "normalized_offset_zero_based": 31,
+          "original": "m",
+          "alternative": "n"
+        }
+      ]
+    }
+  ]
+}

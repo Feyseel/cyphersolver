@@ -149,6 +149,7 @@
   "louis xiv to chaulnes, 1690": "2026-09-15",
   "l’abbé to nevers, prague and breslau, 1577": "2026-09-23",
   "maffeo da treviglio to ludovico sforza, buda, 22 november 1489 and 12 january 14": "2026-09-19",
+  "malsburg, 7/17 january 1637: the alphabetic block": "2026-10-02",
   "maltravers to ormonde, 1634–35": "2026-09-15",
   "mary queen of scots to archbishop hamilton, 18 january 1569": "2026-09-21",
   "mary queen of scots to the duke of norfolk, “the 20th”, 1570": "2026-09-18",
@@ -452,8 +453,8 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "40a9c88e3228",
-   "updated": "2026-09-28"
+   "hash": "4907cb3b8c1c",
+   "updated": "2026-10-02"
   },
   "catinat1691": {
    "first": "2026-09-16",
@@ -737,8 +738,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "fdda57a12710",
-   "updated": "2026-10-01"
+   "hash": "e45dfa84865a",
+   "updated": "2026-10-02"
   },
   "indus": {
    "first": "2026-09-24",
@@ -852,8 +853,8 @@
   },
   "malsburg1637": {
    "first": "2026-09-28",
-   "hash": "1ebef533bfb4",
-   "updated": "2026-09-28"
+   "hash": "3f2501922ef1",
+   "updated": "2026-10-02"
   },
   "malvezzi1548": {
    "first": "2026-09-21",
@@ -1557,7 +1558,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "9f2fc24469b7",
+   "hash": "52246dafb5e0",
    "updated": "2026-10-02"
   },
   "yard1699": {

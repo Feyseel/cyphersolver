@@ -244,6 +244,8 @@ Powers, and the two compute challenges). Those are listed in `research/top50/NOT
 
 ## Done elsewhere in this repo
 
+- **Otto von der Malsburg, 7/17 January 1637, alphabetic block** (HStAM 4 h Nr. 1411, image f. 12; HCPortal 497; catalogue 338): period-five key recovered by Larry Beck with ChatGPT; partial critical reading, 510 alphabetic positions in the selected transcription, with 43, 45 and the angular sign labelled LL unidentified. The two-digit cipher work remains separately credited to Daniel Bourdeau. See [targets/malsburg1637/alphabetic/](targets/malsburg1637/alphabetic/) and the [write-up](https://dbourdeau.github.io/cyphersolver/malsburg1637.html#letter-block).
+
 - **Fra Guglielmo Vizani → the Comte de Césy, Prinkipo 8 Oct 1637** (BnF Français 16158 ff. 292–294): read 1 Oct 2026 by Satoru (with Claude, ciphertext-only; email and satoru.net/crypt/vizani/), verified here; six name codes open. See [targets/vizani1637/](targets/vizani1637/).
 - **Ormanetto / Clementino, Spain nunciature to the Secretariat, 15 Oct 1576 or 1577** (catalogue 239, ASV Spagna 10, DECODE R118): read 1 Oct 2026 with the Spain cifra ordinaria, a key reconstructed by Ajaydas Devadas and verified here; the note on the leaf is the decipherment, minus the dateline. See [targets/ormanetto1576/](targets/ormanetto1576/).
 - **Philip II to the nuncio Ormanetto, copy sent to the Cardinal of Como, 1573** (catalogue 259, ASV Spagna 7, DECODE R116): read in part 1 Oct 2026 (about 90%) with the same key; about 15 code groups open. See [targets/ormanetto1573/](targets/ormanetto1573/).

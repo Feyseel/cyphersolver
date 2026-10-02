@@ -1,5 +1,17 @@
-"""Write ../profile.json from the measured numbers (run from the target folder)."""
+"""Historical numerical-profile generator (run from the target folder).
+
+The 2 October 2026 alphabetic contribution is maintained in profile.json and
+alphabetic/. This older generator cannot represent it and must not overwrite it.
+"""
 import json, re, sys
+from pathlib import Path
+
+if (Path(__file__).resolve().parents[1] / 'alphabetic').exists():
+    raise SystemExit(
+        'Stopped: this historical generator would discard the alphabetic contribution. '
+        'Maintain profile.json with the /profile instructions; reproduce alphabetic '
+        'results with alphabetic/alphabetic_verify.py.'
+    )
 sys.argv = ['x']
 sys.path.insert(0, '.')
 import measure as M
