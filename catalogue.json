@@ -412,7 +412,7 @@
     8871
    ],
    "scored": "rule",
-   "outcome": "skipped: impossible without the key or the rest of the series"
+   "outcome": "attempted, skipped: impossible without the key or the rest of the series"
   },
   {
    "id": 76,
@@ -968,7 +968,7 @@
     1182
    ],
    "scored": "rule",
-   "outcome": "skipped: key in print (Kolosova's Cifra 15) but not reachable; blind attack infeasible on this scan"
+   "outcome": "attempted, skipped: key in print (Kolosova's Cifra 15) but not reachable; blind attack infeasible on this scan"
   },
   {
    "id": 152,
@@ -1896,47 +1896,6 @@
    ],
    "scored": "rule",
    "outcome": "attempted, open"
-  },
-  {
-   "id": 264,
-   "counted": true,
-   "year": 1555,
-   "date": "1 Jan 1555 – 25 Apr 1558",
-   "title": "Alvise Mocenigo (Rome 1558) and Sebastiano Foscarini (Paris 1680) to the Doge, 2 ciphertexts",
-   "correspondents": "... → unknown recipient",
-   "place": "England?",
-   "language": "Italian",
-   "region": "Italy",
-   "period": "1497-1559",
-   "shelfmark": "ASVe, IT ASVe 0045 010 (Serie) Busta 30 (2 items)",
-   "folio_note": "",
-   "cls": "C",
-   "status": "DECODE R1871–R1873 (2 records): Non-decrypted, 6 pp., homophonic; alphabet, numerical; images login. Not viewed here. DECODE note: The image is not in the public domain. Publishing it is only possible with the permission of the archive.",
-   "why": "Ciphered despatches of ... to unknown recipient, 1 Jan 1555 – 25 Apr 1558; what the cipher hides is not known.",
-   "importance": 2,
-   "solvability": 3,
-   "difficulty": 3,
-   "score_note": "Scored by rule from DECODE metadata (class from key signals, solvability from key, length and language, importance from the correspondents); not yet reviewed by hand.",
-   "verify": "Search the printed correspondence and Tomokiyo for a decipherment; then view the images (DECODE login) and transcribe.",
-   "ark": "",
-   "links": [
-    {
-     "label": "DECODE R1871",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1871"
-    },
-    {
-     "label": "DECODE R1873",
-     "href": "https://de-crypt.org/decrypt-web/RecordsView/1873"
-    }
-   ],
-   "seen": "catalogue",
-   "source": "DECODE",
-   "decode_ids": [
-    1871,
-    1873
-   ],
-   "scored": "rule",
-   "outcome": "closed: R1873 = Mocenigo, Rome 25 Apr 1558, read by Bonavoglia (crittologia.eu); R1871 = Foscarini, Paris 11 Sep 1680, deciphered by Bonavoglia but offline; attempted here, 3-digit nomenclator, not read (key needed)"
   },
   {
    "id": 277,
