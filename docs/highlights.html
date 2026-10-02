@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Highlights — thirty favourites from the cipher archive</title>
-<meta name="description" content="Thirty favourite findings from two hundred cipher write-ups: ten that are funny (a drunk envoy, a king and a nun, John Dee's spirits catalogued as secret letters), ten that matter to history (the relief of Malta, the murder of the Duke of Guise, Louis XIV giving up Piedmont) and ten that are simply ingenious (a despatch in lemon juice, nulls that are whole Latin words, a father's coded log of his baby's fits).">
+<meta name="description" content="Thirty favourite findings from two hundred cipher write-ups: ten that are funny (a drunk envoy, a king and a nun, John Dee's spirits catalogued as secret letters), ten that matter to history (the relief of Malta, the murder of the Duke of Guise, Louis XIV giving up Piedmont) and ten that are simply ingenious (a despatch in lemon juice, nulls that are whole Latin words, a father's coded log of his baby's fits), plus six of the hardest ciphertext-only breaks.">
 <link rel="stylesheet" href="style.css?v=20260924b">
 <style>
 /* highlights page: categories, timeline, cards, the decipher effect */
-main{--c-funny:var(--amber);--c-funny-bg:var(--amber-bg);--c-hist:var(--red);--c-hist-bg:var(--red-bg);--c-ing:var(--blue);--c-ing-bg:var(--blue-bg)}
+main{--c-hard:var(--violet);--c-hard-bg:var(--violet-bg);--c-funny:var(--amber);--c-funny-bg:var(--amber-bg);--c-hist:var(--red);--c-hist-bg:var(--red-bg);--c-ing:var(--blue);--c-ing-bg:var(--blue-bg)}
 .hl-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.8rem;margin:1.6rem 0 1.2rem}
 .hl-stat{background:var(--panel);border:1px solid var(--rule);border-radius:var(--radius);padding:.9rem 1rem}
 .hl-stat b{display:block;font-family:var(--display);font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.05;color:var(--head);font-weight:600}
@@ -24,7 +24,7 @@ main{--c-funny:var(--amber);--c-funny-bg:var(--amber-bg);--c-hist:var(--red);--c
   background:var(--c);box-shadow:0 0 0 3px var(--bg),0 0 12px color-mix(in srgb,var(--c) 60%,transparent);transition:transform .18s}
 .hl-dot:hover,.hl-dot:focus-visible{transform:scale(1.45);outline:none;z-index:2}
 .hl-dot.up{top:calc(50% - 1.05rem)} .hl-dot.dn{top:calc(50% + 1.05rem)}
-.hl-dot[data-cat=funny]{--c:var(--c-funny)} .hl-dot[data-cat=hist]{--c:var(--c-hist)} .hl-dot[data-cat=ing]{--c:var(--c-ing)}
+.hl-dot[data-cat=funny]{--c:var(--c-funny)} .hl-dot[data-cat=hist]{--c:var(--c-hist)} .hl-dot[data-cat=ing]{--c:var(--c-ing)} .hl-dot[data-cat=hard]{--c:var(--c-hard)}
 .hl-dot.dim{opacity:.15}
 .hl-tip{position:absolute;bottom:calc(100% - 1.2rem);transform:translateX(-50%);background:var(--bg2);border:1px solid var(--rule);border-radius:10px;
   padding:.4rem .65rem;font-size:.84rem;white-space:nowrap;box-shadow:var(--shadow);pointer-events:none;opacity:0;transition:opacity .15s;z-index:5;color:var(--ink)}
@@ -36,7 +36,7 @@ main{--c-funny:var(--amber);--c-funny-bg:var(--amber-bg);--c-hist:var(--red);--c
   background:linear-gradient(var(--bg) 70%,transparent)}
 .hl-chip{font:.8rem var(--mono);letter-spacing:.04em;padding:.42rem .85rem;border-radius:999px;border:1px solid var(--rule);background:var(--panel);color:var(--ink2);cursor:pointer;display:inline-flex;align-items:center;gap:.45rem;transition:border-color .2s,background .2s}
 .hl-chip i{width:.6rem;height:.6rem;border-radius:50%;background:var(--c,var(--gold));display:inline-block}
-.hl-chip[data-f=funny]{--c:var(--c-funny)} .hl-chip[data-f=hist]{--c:var(--c-hist)} .hl-chip[data-f=ing]{--c:var(--c-ing)}
+.hl-chip[data-f=funny]{--c:var(--c-funny)} .hl-chip[data-f=hist]{--c:var(--c-hist)} .hl-chip[data-f=ing]{--c:var(--c-ing)} .hl-chip[data-f=hard]{--c:var(--c-hard)}
 .hl-chip:hover{border-color:var(--c,var(--gold))}
 .hl-chip[aria-pressed=true]{border-color:var(--c,var(--gold));background:color-mix(in srgb,var(--c,var(--gold)) 16%,var(--panel));color:var(--head)}
 .hl-chip.lucky{margin-left:auto;--c:var(--gold)}
@@ -51,7 +51,7 @@ main{--c-funny:var(--amber);--c-funny-bg:var(--amber-bg);--c-hist:var(--red);--c
 .hl-sec{scroll-margin-top:7rem}
 .hl-lede{font-size:1.08rem;color:var(--ink2);max-width:46rem;margin:-.2rem 0 1.4rem}
 .hl-sec h2 .dotc{display:inline-block;width:.55em;height:.55em;border-radius:50%;background:var(--c);margin-right:.45em;vertical-align:.12em;box-shadow:0 0 14px var(--c)}
-.hl-sec.funny{--c:var(--c-funny);--cb:var(--c-funny-bg)} .hl-sec.hist{--c:var(--c-hist);--cb:var(--c-hist-bg)} .hl-sec.ing{--c:var(--c-ing);--cb:var(--c-ing-bg)}
+.hl-sec.funny{--c:var(--c-funny);--cb:var(--c-funny-bg)} .hl-sec.hist{--c:var(--c-hist);--cb:var(--c-hist-bg)} .hl-sec.ing{--c:var(--c-ing);--cb:var(--c-ing-bg)} .hl-sec.hard{--c:var(--c-hard);--cb:var(--c-hard-bg)}
 
 /* cards */
 .hl{position:relative;display:grid;grid-template-columns:4.2rem minmax(0,1fr) minmax(0,15rem);gap:0 1.3rem;padding:1.4rem 1.4rem 1.3rem 1rem;margin:0 0 1.1rem;
@@ -92,7 +92,7 @@ main{--c-funny:var(--amber);--c-funny-bg:var(--amber-bg);--c-hist:var(--red);--c
 @media (prefers-reduced-motion:reduce){.hl,.hl-dot,.hl-go::after{transition:none}.hl.flash{animation:none;outline:2px solid var(--c)}}
 </style>
 <meta name="date" content="2026-09-22">
-<meta name="last-modified" content="2026-09-24">
+<meta name="last-modified" content="2026-10-02">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -128,36 +128,37 @@ main{--c-funny:var(--amber);--c-funny-bg:var(--amber-bg);--c-hist:var(--red);--c
   <p class="kicker">A survey &middot; September 2026</p>
   <h1>Thirty favourites from the archive</h1>
   <p class="sub">Ten that made us laugh, ten that matter to history, and ten that are simply ingenious, picked from two hundred
-  cipher write-ups that run from 1425 to 1933</p>
-  <p class="meta">Daniel Bourdeau &middot; posted <time datetime="2026-09-22">22 September 2026</time> &middot; updated <time datetime="2026-09-24">24 September 2026</time></p>
+  cipher write-ups that run from 1425 to 1933, and six of the hardest breaks</p>
+  <p class="meta">Daniel Bourdeau &middot; posted <time datetime="2026-09-22">22 September 2026</time> &middot; updated <time datetime="2026-10-02">2 October 2026</time></p>
 </section>
 
 <main>
-<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#funny">Ten that made us laugh</a><a href="#historic">Ten that matter to history</a><a href="#ingenious">Ten that are simply ingenious</a><a href="#method">How these were chosen</a><a href="#sources">Sources</a></nav>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#funny">Ten that made us laugh</a><a href="#historic">Ten that matter to history</a><a href="#ingenious">Ten that are simply ingenious</a><a href="#hardest">Six of the hardest breaks</a><a href="#method">How these were chosen</a><a href="#sources">Sources</a></nav>
 <div class="callout">
 <strong>Why this page exists.</strong> Most of the work on this site is slow: a key rebuilt symbol by symbol, a catalogue record
 corrected, a letter found to be in print since 1877. Five centuries of other people&rsquo;s secret mail also hold royal scandals,
-clerical blunders and some clever tricks. Here are thirty of them. Each card names how the text was obtained and links to the full
+clerical blunders and some clever tricks. Here are thirty of them, and after them six of the hardest breaks, chosen for difficulty alone. Each card names how the text was obtained and links to the full
 write-up, with the images, the key and the measured extent of the decipherment. Each quotation animates from cipher to plaintext as it scrolls into view.
 </div>
 
-<div class="hl-stats" aria-label="The thirty in numbers">
-  <div class="hl-stat"><b>30</b><span>findings</span></div>
+<div class="hl-stats" aria-label="The thirty-six in numbers">
+  <div class="hl-stat"><b>36</b><span>findings</span></div>
   <div class="hl-stat"><b>1425&ndash;1933</b><span>five centuries</span></div>
   <div class="hl-stat"><b>8</b><span>languages</span></div>
   <div class="hl-stat"><b>6</b><span>never ciphers, or no message</span></div>
 </div>
 
-<div class="hl-time" id="hl-time" aria-label="The thirty on a timeline; select a dot to jump to its card">
+<div class="hl-time" id="hl-time" aria-label="The thirty-six on a timeline; select a dot to jump to its card">
   <div class="axis"></div>
   <div class="hl-tip" id="hl-tip" role="status"></div>
 </div>
 
 <div class="hl-bar" role="toolbar" aria-label="Filter the highlights">
-  <button class="hl-chip" type="button" data-f="all" aria-pressed="true">All thirty</button>
+  <button class="hl-chip" type="button" data-f="all" aria-pressed="true">All thirty-six</button>
   <button class="hl-chip" type="button" data-f="funny" aria-pressed="false"><i></i>Funny</button>
   <button class="hl-chip" type="button" data-f="hist" aria-pressed="false"><i></i>Historic</button>
   <button class="hl-chip" type="button" data-f="ing" aria-pressed="false"><i></i>Ingenious</button>
+  <button class="hl-chip" type="button" data-f="hard" aria-pressed="false"><i></i>Hardest</button>
   <button class="hl-chip lucky" type="button" id="hl-lucky">&#9860; Surprise me</button>
 </div>
 
@@ -719,7 +720,132 @@ plaintext beside the cipher; the other seven were deciphered with keys that alre
 </article>
 </section>
 
-<h2 id="method"><span class="num">04</span> How these were chosen</h2>
+<!-- ============================================================ HARDEST -->
+<section class="hl-sec hard" data-sec="hard">
+<h2 id="hardest"><span class="num">04</span> <span class="dotc" aria-hidden="true"></span>Six of the hardest breaks</h2>
+<p class="hl-lede">No key, no crib and no earlier decipherment: each of these keys was recovered from the ciphertext alone. They were chosen
+for difficulty, not for the story; how they were picked is <a href="#method">below</a>. Two more breaks of this kind are already among the thirty:
+<a href="#soglia1848">Soglia 1848</a> and <a href="#harley286">D&rsquo;Ewes 1635</a>.</p>
+
+<article class="hl" id="malsburg1637" data-cat="hard" data-year="1637" data-label="Ten letters nobody could read, from a dying landgrave's war">
+  <div class="hl-n">01</div>
+  <div>
+    <p class="hl-meta"><span class="yr">1637</span><span>Wesel &rarr; Landgrave Wilhelm V of Hesse-Kassel</span><span class="st partial">ciphertext-only break &middot; partial</span></p>
+    <h3>Ten letters from a war in Westphalia, with no key among 176 key sheets</h3>
+    <p>Otto von der Malsburg, Hesse-Kassel&rsquo;s general war commissary, reported to his landgrave in 1637, the year the landgrave died in exile.
+    The archive&rsquo;s portal lists all ten letters as not solved. None of the 176 Hesse-Kassel key sheets fits them. The cipher is German in
+    two-digit groups, with two to seven groups for each letter, capital signs for pairs such as <em>ch</em>, <em>st</em> and <em>sch</em>, and no word
+    division. Annealing one page alone failed. Three letters pooled, 1,575 groups, gave the same key from every start. About 9,700 groups were
+    transcribed from 18 scans, and 236 doubtful ones were checked again on the images. The letters cover garrisons without pay, the siege of
+    Ehrenbreitstein and the refusal of safe-conducts to the Cologne peace talks. No reading was found anywhere before this one.</p>
+    <blockquote class="hl-q" lang="de"><span class="lang">German</span>
+      <p class="dec">das ich auch noch nit weiss, wo hervor unsere garnisonen hiernechst der unterhalt genommen werden soll</p>
+      <p class="tr" lang="en">that I still do not know where the upkeep of our garrisons is to come from now on</p>
+    </blockquote>
+    <a class="hl-go" href="malsburg1637.html">Malsburg 1637, 95.9% of 9,736 groups</a>
+  </div>
+  <figure class="hl-fig" data-credit="Hessisches Staatsarchiv Marburg, HStAM 4 h Nr. 1411 f. 3, via HCPortal record 496"><img src="malsburg1637_lead.jpg" alt="Six lines of two-digit groups with capital signs, beginning after the clear word gemachet" loading="lazy"><figcaption>f. 3, 5/15 January 1637: after the clear &ldquo;gemachet&rdquo; the groups read &ldquo;das ich auch noch nit weiss&rdquo;. <span class="credit">Image: Hessisches Staatsarchiv Marburg, HStAM 4 h Nr. 1411 f. 3, via HCPortal record 496.</span></figcaption></figure>
+</article>
+
+<article class="hl" id="memoire1560" data-cat="hard" data-year="1560" data-label="Ten pages of invented script, read from the images">
+  <div class="hl-n">02</div>
+  <div>
+    <p class="hl-meta"><span class="yr">1560</span><span>the Agenais &rarr; the conn&eacute;table de Montmorency</span><span class="st solved">ciphertext-only break</span></p>
+    <h3>Ten pages of an invented cursive script, and the clue in a pair of strokes</h3>
+    <p>The only clear words on these ten pages are the date, 12 December 1560. Everything else is a cursive pseudo-script, 1,715 words with no
+    gloss, no key and no edition. The first solver, one sign to one letter, produced gibberish. The way in was a statistic: one sign was followed by
+    the same second sign in 262 of 283 cases, so the pair had to be a single unit. Fitting the commonest word to <em>que</em> broke it open. A
+    re-check against the images then found that about 300 signs first read as one letter were a smaller look-alike for another. The m&eacute;moire
+    describes the Protestant rising in Guyenne in the first days of Catherine de&rsquo; Medici&rsquo;s regency. George Lasry wrote that he had
+    broken it independently in 2023; his solution has not been published.</p>
+    <blockquote class="hl-q" lang="fr"><span class="lang">French</span>
+      <p class="dec">Despuis les derniers advertissemens que envoiay a vostre grandeur, les affaires de pardeça ont couru de mal en pis</p>
+      <p class="tr" lang="en">Since the last reports I sent to your greatness, affairs here have gone from bad to worse</p>
+    </blockquote>
+    <a class="hl-go" href="memoire1560.html">M&eacute;moire 1560, 98.9% of the words</a>
+  </div>
+  <figure class="hl-fig" data-credit="Biblioth&egrave;que nationale de France, fr. 3157 f. 152r, via Gallica btv1b90598645 view 153"><img src="memoire1560_lead.jpg" alt="The heading 'Du xiie decembre 1560' and the first six lines of cipher on f. 152r" loading="lazy"><figcaption>f. 152r: the date, the only clear words, and the first lines of cipher. <span class="credit">Image: Biblioth&egrave;que nationale de France, fr. 3157 f. 152r, via Gallica btv1b90598645 view 153.</span></figcaption></figure>
+</article>
+
+<article class="hl" id="segur" data-cat="hard" data-year="1585" data-label="Henry of Navarre's figures, found to be a syllable table">
+  <div class="hl-n">03</div>
+  <div>
+    <p class="hl-meta"><span class="yr">1585&ndash;86</span><span>Henry of Navarre &rarr; S&eacute;gur</span><span class="st solved">ciphertext-only break</span></p>
+    <h3>Henry of Navarre raises a German army, in a table found by counting in fives</h3>
+    <p>Three letters in figures to S&eacute;gur, the envoy raising a German army, were listed as letters of Henry III. Their 461 figures were
+    transcribed from the Gallica images. Taken modulo 5, the higher numbers all fall in one slot of every five. That is the trace of an
+    alphabetical syllable table, <em>ba be bi bo bu, ca ce ci co cu</em>. A solver built on that structure, with the letters&rsquo; clear French as
+    context, converged on a key whose letter part came out in alphabetical order by itself. It scored 97% on a matched control. The letters are signed
+    Henry at Montauban and are Henry of Navarre&rsquo;s. Lasry wrote that he broke them independently in 2024; his solution is unpublished.</p>
+    <blockquote class="hl-q" lang="fr"><span class="lang">French</span>
+      <p class="dec">capituler et conclure promptement avec ceux que vous adviserez, s&rsquo;il est possible avec le duc Casimir</p>
+      <p class="tr" lang="en">come to terms and conclude promptly with whomever you think best, with Duke Casimir if possible</p>
+    </blockquote>
+    <a class="hl-go" href="segur.html">Navarre to S&eacute;gur 1585&ndash;86</a>
+  </div>
+  <figure class="hl-fig" data-credit="Biblioth&egrave;que nationale de France, Cinq cents de Colbert 401 f. 233, via Gallica"><img src="segur_f233_lines.jpg" alt="Two lines of French clear text, then lines of dotted figures with a few clear words among them" loading="lazy"><figcaption>f. 233, October 1585: clear French running into the figures. <span class="credit">Image: Biblioth&egrave;que nationale de France, Cinq cents de Colbert 401 f. 233, via Gallica.</span></figcaption></figure>
+</article>
+
+<article class="hl" id="kauderbach1754" data-cat="hard" data-year="1755" data-label="Intercepts the Dutch could not read">
+  <div class="hl-n">04</div>
+  <div>
+    <p class="hl-meta"><span class="yr">1754&ndash;56</span><span>The Hague &rarr; Dresden</span><span class="st solved">ciphertext-only break</span></p>
+    <h3>The intercepts the Dutch cabinet could not read, because the figures never stop</h3>
+    <p>The Dutch post office opened the Saxon resident&rsquo;s letters and copied them for the Stadtholder. The cabinet gave up on the figures because
+    the groups &ldquo;are not separated, by blanks or dots as is usually the case.&rdquo; The first problem was where one group ends and the next begins.
+    The digits 5 and 8 never occur inside a group, so they are nulls. Without them the stream falls into about sixty two-figure codes. A homophonic
+    solver found nothing. The way in was Kauderbach&rsquo;s own key of 1761, kept in Dresden. Its numbers are different, yet its list of letters and syllables
+    fits, and an assignment search onto that list converged twice to the same key. In each of the ten letters, 65 to 97% of the cipher decrypts to
+    sense, including the news of the Treaty of Versailles of May 1756.</p>
+    <blockquote class="hl-q" lang="fr"><span class="lang">French</span>
+      <p class="dec">une consternation extraordinaire ici</p>
+      <p class="tr" lang="en">an extraordinary consternation here</p>
+    </blockquote>
+    <a class="hl-go" href="kauderbach1754.html">Kauderbach 1754&ndash;56</a>
+  </div>
+  <figure class="hl-fig" data-credit="Koninklijk Huisarchief, The Hague, Archief Prins Willem V inv. 201, via DECODE R2078"><img src="kauderbach1754_lead.jpg" alt="Head of the intercept copy of Kauderbach's letter of 23 December 1754: clear French, then unseparated figures" loading="lazy"><figcaption>The copy of 23 December 1754: clear French, then the unbroken figures. <span class="credit">Image: Koninklijk Huisarchief, The Hague, Archief Prins Willem V inv. 201, via DECODE R2078.</span></figcaption></figure>
+</article>
+
+<article class="hl" id="ferdinand1619" data-cat="hard" data-year="1619" data-label="Ten pages with no sender, no recipient, no language">
+  <div class="hl-n">05</div>
+  <div>
+    <p class="hl-meta"><span class="yr">1619</span><span>Bonn &rarr; Munich</span><span class="st solved">ciphertext-only break</span></p>
+    <h3>Ten pages of figures with no sender, no recipient and no language, and the letter names itself</h3>
+    <p>DECODE knew only the year of this record: no author, no recipient, no place, no language. The cipher is a homophonic substitution on the even
+    numbers 10 to 78, with two word-end signs and a three-digit nomenclator. Its key was recovered by annealing 2,482 letters against a
+    16th-century German model, with about sixty single-digit transcription slips repaired. The same key reads the sibling letter in the file unchanged.
+    The decipherment then names the writer: Ferdinand of Bavaria, Elector of Cologne, to his brother Duke Maximilian, six weeks after the Winter
+    King&rsquo;s coronation, on quartering and paying the Catholic League&rsquo;s troops. Neither letter was found in print.</p>
+    <blockquote class="hl-q" lang="de"><span class="lang">German</span>
+      <p class="dec">sich vor des andern Theils Einfal, Gwalt und Betrangnus zu entweren</p>
+      <p class="tr" lang="en">to defend themselves against the other side&rsquo;s incursion, violence and oppression</p>
+    </blockquote>
+    <a class="hl-go" href="ferdinand1619.html">Ferdinand of Bavaria 1619, 95.8% of the tokens</a>
+  </div>
+  <div class="hl-glyph" aria-hidden="true">even figures 10&ndash;78<br>&ldquo;in meiner Statt Bonn&rdquo;<br>&middot; signed Ferdinand &middot;</div>
+</article>
+
+<article class="hl" id="harley1582r8505" data-cat="hard" data-year="1582" data-label="The letter m was a cluster of dots">
+  <div class="hl-n">06</div>
+  <div>
+    <p class="hl-meta"><span class="yr">after 1580</span><span>&ldquo;L&rsquo;Estat du Roy de Navarre&rdquo;</span><span class="st solved">ciphertext-only break</span></p>
+    <h3>The letter <em>m</em> was a cluster of dots, and the fault was in the solver</h3>
+    <p>DECODE catalogued this memoir as &ldquo;unknown sender&rdquo;, perhaps in English. It is French, about fifty graphic signs with three to six
+    homophones for the common letters. Every earlier pass took one sign for punctuation: the letter <em>m</em> is written as a group of two, three
+    or four dots. Even after that the key would not come. A control experiment, real French enciphered under a key of the same shape, located the
+    fault: the solver, not the manuscript. With one wrong constraint removed and its temperature fixed, the control solved completely, and the real
+    text broke at once. It reads at 95.1%, on Navarre&rsquo;s party, Parma and the reiters.</p>
+    <blockquote class="hl-q" lang="fr"><span class="lang">French</span>
+      <p class="dec">un party de malcontens</p>
+      <p class="tr" lang="en">a party of malcontents</p>
+    </blockquote>
+    <a class="hl-go" href="harley1582r8505.html">Harley 1582, R8505</a>
+  </div>
+  <figure class="hl-fig" data-credit="British Library, Harley MS 1582 f. 263r, via DECODE R8505"><img src="harley1582r8505_lead.jpg" alt="Top of f. 263r: the heading in a secretary hand, and the first lines, where cipher signs run into the French text" loading="lazy"><figcaption>f. 263r: the heading and the first cipher run. <span class="credit">Image: British Library, Harley MS 1582 f. 263r, via DECODE R8505.</span></figcaption></figure>
+</article>
+</section>
+
+<h2 id="method"><span class="num">05</span> How these were chosen</h2>
 <p>The thirty come from the two hundred or so write-ups on this site and the notes behind them. They were chosen for the story, and
 difficulty played no part; <a href="writeups.html">the full list</a> sorts by outcome, and the hardest breaks are ranked in the repository&rsquo;s
 <a href="https://github.com/dbourdeau/cyphersolver/blob/main/SOLVED_RANKING.md" rel="noopener">solved ranking</a>. Each badge names how
@@ -729,9 +855,10 @@ D&rsquo;Ewes 1635) and <em>key from adjacent plaintext</em> (six) mean the key w
 <em>Partial</em> means some of the text is still open. Quotations keep the original spelling, and the translations follow the
 write-ups. Six of the thirty are not ciphers at all, or hold no message; one was deciphered in print long ago, and one is too short to
 decipher without a key.</p>
+<p>The six hardest breaks were chosen the other way round, by difficulty alone, from the targets whose key was recovered from the ciphertext alone. The tests: no key, crib or decipherment used; no sibling key; an unknown system; the cipher transcribed from the images here; the reading measured (95% or more of the cipher, except Kauderbach, at 65&ndash;97% per letter); and a control, a sibling letter or a re-check on the scans behind the key. Breaks first made by someone else and checked here, such as the Mercy instruction of 1648 (NoAutopilot), are left out, as are four that turned out to be independent re-solutions of a cipher someone had already broken. Two of the six, the M&eacute;moire of 1560 and the S&eacute;gur letters, had been solved privately by George Lasry, who never published them; the cards say so.</p>
 <p>Every image is credited on its card to the archive or edition that holds it. Select an image to open it full size.</p>
 
-<h2 id="sources"><span class="num">05</span> Sources</h2>
+<h2 id="sources"><span class="num">06</span> Sources</h2>
 <ul>
 <li>The write-ups linked from each card, with their working notes in the <a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">repository</a>, one folder per target.</li>
 <li>The <a href="https://de-crypt.org/decrypt-web" rel="noopener">DECODE database</a> (Megyesi et al.), where most of the records live, and the published keys of George Lasry, Satoshi Tomokiyo, Judit W. Somogyi and Aloys Meister.</li>
@@ -776,7 +903,7 @@ decipher without a key.</p>
     try{ history.replaceState(null,'',f==='all'?location.pathname:'#only='+f); }catch(e){}
   }
   chips.forEach(b=>b.addEventListener('click',()=>filter(b.dataset.f)));
-  const m=location.hash.match(/^#only=(funny|hist|ing)$/); if(m) filter(m[1]);
+  const m=location.hash.match(/^#only=(funny|hist|ing|hard)$/); if(m) filter(m[1]);
 
   function go(c){
     const sec=c.closest('.hl-sec'); if(sec.hidden) filter('all');

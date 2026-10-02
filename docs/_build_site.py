@@ -1350,7 +1350,7 @@ PAGES = [
          quote='Fame is a poor guide to tractability.'),
     dict(slug='highlights', label='Highlights', year='survey', y=9998, place='Survey', st='partial', stt='thirty favourites',
          title='Thirty favourites from the archive',
-         blurb='Ten findings that are funny, ten that matter to history and ten that are simply ingenious, from two hundred cipher write-ups: a drunk envoy to be seen when sober, a king and a nun, the relief of Malta, the murder of the Duke of Guise, a despatch in lemon juice and a father&rsquo;s coded log of his baby son&rsquo;s fits.',
+         blurb='Ten findings that are funny, ten that matter to history and ten that are simply ingenious, from two hundred cipher write-ups: a drunk envoy to be seen when sober, a king and a nun, the relief of Malta, the murder of the Duke of Guise, a despatch in lemon juice and a father&rsquo;s coded log of his baby son&rsquo;s fits. Then six of the hardest breaks, keys recovered from the ciphertext alone.',
          quote='the funny, the historic, the ingenious'),
     # Unpublished 18 Sept 2026; the page is kept in unpublished/solved.html. To republish, move it back to
     # docs/ and uncomment this entry.
