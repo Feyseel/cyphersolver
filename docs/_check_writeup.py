@@ -363,10 +363,9 @@ def check_slug(slug):
                  f'docs/atlas.json maps the letters of {folder} ({len(routed)} documents have a route)', warn=True)
     if mine:
         name = key_words(mine[0]['target'])
-        ledgers = ('SOLVED_CATALOGUE.md', 'SOLVED_RANKING.md', 'TARGETS.md') if st != 'stuck' else ('TARGETS.md',)
+        ledgers = ('SOLVED_CATALOGUE.md', 'SOLVED_RANKING.md') if st != 'stuck' else ()
         for f in ledgers:
-            item(name.lower() in read(ROOT / f).lower(), f'{f} mentions "{name}" (checked by name, confirm the row by eye)',
-                 warn=(f == 'TARGETS.md'))
+            item(name.lower() in read(ROOT / f).lower(), f'{f} mentions "{name}" (checked by name, confirm the row by eye)')
     print('  result:', 'complete' if ok else 'INCOMPLETE - see MISS lines')
     return ok
 

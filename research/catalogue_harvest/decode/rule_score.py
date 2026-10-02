@@ -260,7 +260,7 @@ def corpus():
     if _CORPUS is None:
         parts = {}
         for p in glob.glob(os.path.join(ROOT, "targets", "*", "NOTES.md")) + glob.glob(os.path.join(ROOT, "research", "*", "NOTES.md")) + glob.glob(os.path.join(ROOT, "research", "*", "CANDIDATES.md")) + [
-                os.path.join(ROOT, f) for f in ("TARGETS.md", "CATALOGUE.md", "catalogue.json", "SOLVED_CATALOGUE.md")]:
+                os.path.join(ROOT, f) for f in ("CATALOGUE.md", "catalogue.json", "SOLVED_CATALOGUE.md")]:
             if os.path.exists(p):
                 parts[os.path.relpath(p, ROOT)] = open(p, encoding="utf-8", errors="ignore").read()
         tom = os.path.join(ROOT, "unsolved.htm")

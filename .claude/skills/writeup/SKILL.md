@@ -216,7 +216,6 @@ three are data files you edit by hand; each is a few lines, and skipping one lea
 - `SOLVED_CATALOGUE.md` (solved and partly read only): next number, same columns as the rows above it.
 - `SOLVED_RANKING.md` (solved and partly read only): a `pN` provisional row with the six axis scores and the
   weighted score, and the sentence in the preamble that places it; add the score line at the foot.
-- `TARGETS.md`: if the target was in the open list, move it to "Done elsewhere in this repo" with the status text.
 - `catalogue.json` (catalogue items only): the catalogue holds open targets only, so **take the entry out**.
   If the target was read, partly read, resolved or found already in print, delete its entry (ids are never
   reused) and add its id to the list in `CATALOGUE.md` under "Read or resolved here, and removed". If the entry

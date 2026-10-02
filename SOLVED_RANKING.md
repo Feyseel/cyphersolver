@@ -1,6 +1,6 @@
 # Solved targets, ranked
 
-Compiled 2026-09-16 from the Solved and Read rows of [README.md](README.md) and [TARGETS.md](TARGETS.md).
+Compiled 2026-09-16 from the Solved and Read rows of [README.md](README.md) and the former target tracker (TARGETS.md, retired 2 Oct 2026; in git history).
 Where the tracker ranks open targets by *feasibility*, this list ranks the finished ones by what they were
 worth: how hard the cipher was, how much research it took, what the text says, whether anyone had read it
 before, how prominent the item was on the source lists, and how solid the reading is.

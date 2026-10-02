@@ -22,7 +22,6 @@ solvability, but a key from the same series is not necessarily the key of this l
 Useful references in the repo (read only what you need):
 - `C:\Users\dbour\cypher\catalogue.json` — the existing 33 entries: the schema and the tone to match.
 - `C:\Users\dbour\cypher\CATALOGUE.md` — the scoring text.
-- `C:\Users\dbour\cypher\TARGETS.md` — targets already tracked; don't duplicate.
 - `C:\Users\dbour\cypher\unsolved.htm` — a local copy of Tomokiyo's Unsolved Historical Ciphers list. If an item is
   on it, keep it but say so in `status` and set `"on_list": "Tomokiyo"`.
 - A DECODE record's public page, `https://de-crypt.org/decrypt-web/RecordsView/<id>`, can be fetched without login
