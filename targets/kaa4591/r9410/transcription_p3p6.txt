@@ -1,0 +1,79 @@
+# R9410 ff.246-247 (DECODE images P3 = f.246r, P4 = f.246v/247r?, P6 = f.247 end; P5 = P4 imaged twice), the second letter, Anno XXXIIII.
+# Transcribed 2 Oct 2026 from the images (crops in crops/, git-ignored), one char per sign. Codes as ../sysA/signs_r9410.md where the
+# shape is the same (w ω, v ↓, q □, y ÿ, x x, # ‡‡, d δ, n π, E ∋, p ϙ/ρ long-descender, A ∝, a α, D Δ, X ⧗, @ ⊕, O ⊙, b lollipop,
+# t ϯ/↑, L, g γ, c ɔ/⊏, j ʒ, 6 б), plus new codes for this hand: k = x with dots/tilde above (ẍ); F = Ϝ (stem with two right bars);
+# e = Ǝ (э, open to the left; E = ɛ open to the right); N = small n (not π); T = single stem with two crossbars (ǂ); I = tall stroke with a hook at the top (ꞁ); l = looped ℓ; Z = z/2 zig-zag; W = o-o (two
+# rings on a bar); z = o- (ring with a trailing bar); ? = doubtful sign; [..] = clear text; g: = interlinear gloss (later hand).
+# The 4-with-o sign is written Ro as in r9410_v2.txt (there 'und'; here its value is open).
+# The letter is in LATIN: the gloss over l.1 reads "accepimus literas vestras ..."; the clear phrases are Latin.
+== P3 (f.246r) ==
+g: accepimus literas vestras ... um ... queno
+01 bOa#pEnwAmmg3xd4ywvpLk4xygpv#7XW3zqm
+g: fl.seoer tam mamene ... rate ... b ... e ... qun ... quod ... ene
+02 omkw94Fp578T7mqwtv5@wa+3wv3qyZ39owAlw4L
+03 48ywI4Alm7#x4I3xyvmxL47#mgav4qcpaw769
+04 7mq37d5q6y#g5xp#7d5xLmwjwx@vmxXqmy#7D4
+05 EmxLwW3wqgnmxE37ew84#mn4T4I3xyv4xLm
+06 7pe97m8p63Emxnmvywqo4v#wqxmlNg7mg3qp
+07 E53wv5ya#ewAlW39D5Emd4a9y3473xN6q4wEy3
+08 g5ETqxwWkm3wxyv4xX4ewEm57mp57Emqxy5
+09 gwW3peq6xzed4ywv5xmAxm3xa+vwz9q6w
+10 vmmg#xe:W396yz7wqZ3m5nnAwvmE3d54yp
+11 qwv37dmy4vwqnxyvw4q@wvEmaxmA9@3wv3qy84x
+12 wEp57d4ywvmxqnxyvmxjwxyvmxX75qpDwxy5q
+13 e3763Almmg3xSa#x37mg54#4y3vq9xyvmgwzo
+14 9qLmD34yW39eq9x7mxL4v9xLEvmAxwv573x
+15 q9xyv#7AvwAgm#756x357Xmv5y9vw7Row43x
+16 mgw6m9n7qw739d3qy5@47Ro7wqyw7q9xyv5744
+17 6w7L4#8pDmE5y3v9x$W396Z3m647nvw3pDzE
+18 y3vmx#7xLRoAwvd3p3xm9emmnv5ymv47qTxyv37
+19 #wxyg4xwEm57Xmgwqy47qTxyv576w$4xW34
+20 56q9xLEvmn38yzawvnmgLmg5qpDwxy5o473x
+21 w#mmg3x5#y47ew947mg9vy5dmtv5Em5xZ3p6w
+22 ewg4@z+y574qxmtq477RoAvwEd5vp7#mEy9vp
+23 57W357Evw6mmg3xwxL4y99@pE$vmxyp5qpy5
+24 @4av9DmE3577Rox5d3y5v47a#e3wxyv4x3wv9
+25 X#v5y4xmg5Alm75x5t473xW39eqTLy579Da+p
+26 Em9x4ewgo9EDwE4gpqyEwvnp9v4xmg5qpDwxy
+27 5q69qno4xRoewE@pv5q69y57Av9awqx574q89x
+28 Rovwx89xyv5xD539v475uxy3e437a#O [In quantu]
+29 [autem] S3wxyvwXEwvNp9v4xDmwvpE3Am38y6wxy
+30 5y#vwg3789xyv5g37xEp5qyq9xE3756kwvx5vp9
+== P4 (f.246v; P5 is the same page imaged again) ==
+01 q9xyv9dA5E4789q$5n4vwxw6gz5o34xL474q63Ep5x
+02 W35xE37q9xL5qEy4Ro4q34965opdp@4vxwv35v473x
+03 Rox4v35v4A5v5ymwxL473xA5vy4wAl5d45y57pA
+04 xwW35756w37awvym84q@4x89qEwxLpv3qy84
+05 W34EwxL5qy4q63Em5x$34#x79emmg3dymx7n
+06 6mx4qDv4qt4vw [Quoda] #E37qTxRoqnxyvmx3nep
+07 ymawv49xy9Em4x3wAl5ym5EAv93nE5ypD4vg4
+08 qn8A9xL373xqT8x37#xvwo3xq9xyv4xRo89x@g
+09 9v377Ro4Ax4ewD3y#vmzowv573xW34Roq6wn
+10 W39e5634vx5vm#789xyv37q98xwv35ypDw64v4
+11 xAwqmyRomy$O:W346wn365z3@47Ro6wv4#
+12 q9F5e34vx5v49qnx@gTAg9e9v9q4E9qN46wqe9
+13 Awv5e34vx5v4nLq9xyv9xzo5v#m34xyv4X
+14 xEvmo3yew$4x4576wxmqp73x7mv5gmE37qn8
+15 4#q9v473xw9v37Enqx3wy3e4q47y57mmga3648
+16 @4vAvnd4nmy95qn7px3m97qp5W345ev47wn
+17 v37Awvym84vw5vopyv5q@3vEnqD4qtRoEp37Ro
+18 $5EAv9a479e37pz7x9d5v4D539v4x$n7m837vw
+19 y484g4qpy4qEp37 [Certo autem sciant] a#S34xyv4X
+20 e9vn84734qmxL4RoqA9y4xy5@47y3vE5v#mg
+21 Ewx5vmxAv43xW357nv5y9v4xy4q934xLm
+22 mg3x^Rof5eEwx5v47Awv#wqmxL4@da#ee97p
+23 q37dbW3474Axm#ywAl6my4v4x34xyv5g37X
+24 Roqywtm#473xzo5v#3qywAlTv3gx#LE9qxy5q@
+25 489And47v43wvx37xEm5qyX3wxyv4qwz3448
+26 $#qt5v45D34xLwa9xy4I36y47A3xW395qn4x
+27 $4qE5q89457Av9a4xwLW345dy4v9e4xEwxLpy
+28 [Nunc tamen ab ipso] a#ed4y4v5xgo9E4Axne4w5EN4p
+29 73xE9qL@5qymq9And4e5yPx4qW34n3xL4Av9a4
+30 e447vwn3xq9xyv4xRoqnAy479Rona@5y9xy5@3
+== P6 (f.247, end of the letter) ==
+01 vwdnEyypx5A36q9xD3y#v37 [Aliud nunc significatu dignum]
+02 W3O:89qez5o373x34xyv4x$n7q4757mEpEm57Ro
+03 Dv5y4vqy5@47q9xyv57nDqtwv473xRox473dwEp
+04 57qt*W35xRoDwd4Emxlmmg43564vwnAy573x
+g: Datum ... mal ... lun ... i (later hand, faint, over l.05)
+05 e5y37n36w3dymmg5p#q4mg4mg@qa#e-q [Anno (15)xxxiiii]

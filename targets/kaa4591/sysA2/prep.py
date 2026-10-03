@@ -15,14 +15,15 @@ SRC = {
     'r9410': '../sysA/r9410_v2.txt',
     'r9413': '../r9413/transcription_v2.txt',
     'r9427': '../r9427/transcription_v2.txt',
+    'r9410b': '../r9410/transcription_p3p6.txt',   # ff.246-247, the Latin letter (X and K kept as plain signs)
     'r9407': '../../augurelio1535/pass2/transcription.txt',
 }
 # R9409 code -> R9410 code (same shape); unique R9409 shapes get their own character
 MAP9409 = {'V': 'v', 'Y': 'y', 'P': 'n', 'b': 'd', 'd': 'ð', 'c': 'ç', 'C': 'c', 'S': 'X', 'T': 'Ŧ',
            'z': 'j', 'g': 'ɣ', 'Q': 'Θ', 'O': 'ô', 'f': 'ʃ', 'u': 'ü', 'e': 'ę', 'l': 'ł', 'n': 'ň', 'k': 'ķ',
            'I': 'ı', 'R': 'ŗ', 'a': 'ą', 'y': 'ÿ', 's': 'ś', 'F': 'ƒ', 'K': 'K'}
-CODE_FG = {'r9408': 'X', 'r9409': 'X', 'r9410': 'X', 'r9413': 'X', 'r9427': 'X', 'r9407': 'Z'}
-CODE_K = {'r9408': 'K', 'r9409': 'K', 'r9410': 'K', 'r9413': '$', 'r9427': 'K', 'r9407': 'V'}
+CODE_FG = {'r9410b': '␀', 'r9408': 'X', 'r9409': 'X', 'r9410': 'X', 'r9413': 'X', 'r9427': 'X', 'r9407': 'Z'}
+CODE_K = {'r9410b': '␁', 'r9408': 'K', 'r9409': 'K', 'r9410': 'K', 'r9413': '$', 'r9427': 'K', 'r9407': 'V'}
 
 def lines_of(rec):
     page = 'P?'

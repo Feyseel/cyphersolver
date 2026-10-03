@@ -25,8 +25,10 @@ SEEDF = opt('--seed', os.path.join(HERE, 'seeds.json'))
 POOL = [p for p in opt('--pool', '').split(',') if p]
 IT = int(opt('--it', '30')); BEAM = int(opt('--beam', '1200')); LAM = float(opt('--lam', '0.6'))
 OUT = opt('--out', REC)
-FIXED = {'ʀ': 'und', 'ꝁ': 'ck', 'ẽ': 'eur'}
-BREAK = {'ʀ'}                                      # word signs: run boundaries
+LANG = opt('--lang', 'de')                          # 'la' for the Latin letter on R9410 ff.246-247
+MODEL = 'de-1500s' if LANG == 'de' else 'la'
+FIXED = {'ʀ': 'und', 'ꝁ': 'ck', 'ẽ': 'eur'} if LANG == 'de' else {}
+BREAK = {'ʀ'} if LANG == 'de' else set()                                     # word signs: run boundaries
 
 def read_tok(rec):
     rows = []
@@ -58,10 +60,10 @@ def runs_of(rows):
     if cur: yield cur
 
 # ---------------- EM ----------------
-M3 = lm.load('de-1500s', order=3, spaces=False)
+M3 = lm.load(MODEL, order=3, spaces=False)
 L = list(M3.alpha); A = len(L)
 T3 = np.exp(M3.lp.reshape(A, A, A))
-prior = np.exp(lm.load('de-1500s', order=1, spaces=False).lp)[:A]; prior /= prior.sum()
+prior = np.exp(lm.load(MODEL, order=1, spaces=False).lp)[:A]; prior /= prior.sum()
 seeds = json.load(open(SEEDF, encoding='utf8')); seeds.pop('_note', None)
 rows = read_tok(REC)
 seqs = [[c for *_, c in r] for r in runs_of(rows)]
@@ -130,19 +132,25 @@ json.dump(key, open(os.path.join(HERE, OUT + '_em.json'), 'w', encoding='utf8'),
 if EMONLY: sys.exit()
 
 # ---------------- word beam ----------------
-M = lm.load('de-1500s', spaces=True)
+M = lm.load(MODEL, spaces=True)
 k = M.order; AA = M.A; idx = M.index; SPC = idx[' ']
-W = json.load(open(os.path.join(HERE, '..', 'r9407', 'de1500_words.json'), encoding='utf8'))
-for f in ['../../augurelio1535/pass2/reading.txt']:
-    for l in open(os.path.join(HERE, f), encoding='utf8'):
-        if l.startswith('#'): continue
-        for w in re.sub(r'\{[^}]*\}|\[[^\]]*\]|\|[^|]*\|', ' ', l.lower()).split()[1:]:
-            w = re.sub(r'[^a-z]', '', w.replace('j', 'i').replace('v', 'u'))
-            if len(w) > 2: W[w] = W.get(w, 0) + 20
-for w in open(os.path.join(HERE, 'vocab.txt'), encoding='utf8').read().splitlines():
-    if w.startswith('#'): continue
-    for x in w.split():
-        x, _, c = x.partition(':'); W[x] = W.get(x, 0) + int(c or 50)
+if LANG == 'de':
+    W = json.load(open(os.path.join(HERE, '..', 'r9407', 'de1500_words.json'), encoding='utf8'))
+    for f in ['../../augurelio1535/pass2/reading.txt']:
+        for l in open(os.path.join(HERE, f), encoding='utf8'):
+            if l.startswith('#'): continue
+            for w in re.sub(r'\{[^}]*\}|\[[^\]]*\]|\|[^|]*\|', ' ', l.lower()).split()[1:]:
+                w = re.sub(r'[^a-z]', '', w.replace('j', 'i').replace('v', 'u'))
+                if len(w) > 2: W[w] = W.get(w, 0) + 20
+    for w in open(os.path.join(HERE, 'vocab.txt'), encoding='utf8').read().splitlines():
+        if w.startswith('#'): continue
+        for x in w.split():
+            x, _, c = x.partition(':'); W[x] = W.get(x, 0) + int(c or 50)
+else:
+    from collections import Counter as _C
+    W = _C(lm.norm(open(os.path.join(HERE, '..', '..', '..', 'lang', 'corpora', 'la-gutenberg.txt'), encoding='utf8').read(), 'latin').split())
+    W = {w: c for w, c in W.items() if c >= 2}
+def _n(v): return v if LANG == 'de' else lm.norm(v, 'latin')
 NW = sum(W.values()); UNK = math.log(0.05 / NW)
 def wlp(w):
     c = W.get(w)
@@ -155,9 +163,9 @@ def pref(p):
     return math.log(c / NW) if c else UNK - 1.5 * len(p)
 CAND = {}
 for g, d in key.items():
-    mx = max(d.values()); CAND[g] = [(c, -math.log(p / mx)) for c, p in d.items()]
+    mx = max(d.values()); CAND[g] = [(_n(c), -math.log(p / mx)) for c, p in d.items() if _n(c) or not c]
 for g, v in FIXED.items(): CAND[g] = [(v, 0.0)]
-ALLC = [(c, 3.0) for c in 'abcdefghiklmnoprstuwz']
+ALLC = [(c, 3.0) for c in ('abcdefghiklmnoprstuwz' if LANG == 'de' else 'abcdefghilmnopqrstux')]
 LPM = M.lp
 def lp(ctx, ch):
     if len(ctx) < k - 1: return 0.0

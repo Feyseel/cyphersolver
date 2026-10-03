@@ -234,7 +234,7 @@
    "year": 1535,
    "country": "Germany",
    "route": "unknown",
-   "language": "German",
+   "language": "German (f.244r); Latin (ff.246-247)",
    "pages": 4,
    "cleartext_in_document": "interspersed",
    "plaintext": {
@@ -604,6 +604,36 @@
    "kind": "reading",
    "what": "R9410 ff.246-247 (P3-P6, a second letter dated Anno XXXIIII) found never transcribed; left open.",
    "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "transcription",
+   "what": "R9410 ff.246-247 (images P3, P4, P6; P5 = P4) transcribed by hand from crops: 65 lines, 2,342 signs (r9410/transcription_p3p6.txt). Gloss over P3 l.1 and the clear phrases show the letter is Latin.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "sibling key",
+   "what": "R9410 German key (re-learned) carried to the Latin letter and re-learned on the la model (sysA2/run.py --lang la): running Latin at once; 4o sign = et (in before q), hourglass X = the Dominationes code after Vestre.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "reading",
+   "what": "R9410 ff.246-247 read: 350/422 words = 82.9% (r9410/reading_p3p6.txt). King John (Zápolya) to the Dukes of Bavaria, Buda, last day of June 1534: thanks for letters and news of the Landgrave and the Duke of Württemberg; only a truce with the adversary, which his side breaks; an envoy back at Constantinople; the Turks; amicitia and fraternitas.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "verification",
+   "what": "Look-alike merges checked at the images (sysA2/lookalike_check.md): R9408 y = dotted ÿ (t) vs undotted γ (r) plus an m+γ ligature; R9408 4 = closed 4 (e) vs open ч (i); R9409 c+ one shape for da/ch/f, sch a separate open-hook sign. All match the values the readings already gave.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "solver",
+   "what": "Splits applied from the readings (sysA2/applysplit.py: R9408 380 signs, R9409 9) and regraded: strict measure R9408 0.814 -> 0.812, R9409 0.721 -> 0.724; machine decrypts 0.875 -> 0.870, 0.840 -> 0.842. No unread words opened.",
+   "result": "failed"
   }
  ],
  "outcome": {
@@ -617,7 +647,7 @@
   ],
   "class": "read in part",
   "fraction_read": "unknown",
-  "notes": "Read: R9325, R9322, R9417; mostly R9323; R9416 f.262 at the time; R9416 f.263 broken (working decrypt). System A′ letters read in part with the R9407 key re-learned per letter (2 Oct 2026): R9408 88.9%, R9409 80.9%, R9410 f.244r 83.9%, R9413 86.0%, R9427 77.3% of words. Open: R9424, R9367, R9410 ff.246-247 (not transcribed); R9319 blocked (cover letters not imaged); R9291 is a key fragment.",
+  "notes": "Read: R9325, R9322, R9417; mostly R9323; R9416 f.262 at the time; R9416 f.263 broken (working decrypt). System A′ letters read in part with the R9407 key re-learned per letter (2 Oct 2026): R9408 88.9%, R9409 80.9%, R9410 f.244r 83.9% and ff.246-247 (Latin, King John, Buda 30 June 1534) 82.9%, R9413 86.0%, R9427 77.3% of words. Open: R9424, R9367; R9319 blocked (cover letters not imaged); R9291 is a key fragment.",
   "verification": [
    "contemporary decipherment",
    "key confirms",
@@ -641,9 +671,9 @@
     "detail": "P1.03-05, the a# group"
    },
    {
-    "item": "R9410 ff.246-247",
-    "blocker": "not-attempted",
-    "detail": "second letter, not transcribed"
+    "item": "R9410 ff.246-247 unread words (72 of 422)",
+    "blocker": "open-codes",
+    "detail": "Latin letter of King John, transcribed and read 2 Oct 2026; opening, name groups, a# group"
    },
    {
     "item": "R9413 unread words (232 of 1,663)",
