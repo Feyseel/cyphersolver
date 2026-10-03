@@ -1,8 +1,8 @@
 {
  "slug": "sp106r927",
  "anchor": "the-reading-of-the-last-page-f-243",
- "title": "The last page, f. 243: the close of the letter",
- "caption": "The last six written lines of f. 243 of the pigpen letter in TNA SP 106/10 (DECODE R927), deciphered sign by sign from the hand transcription.",
+ "title": "f. 243, the first page: its last six lines",
+ "caption": "The last six written lines of f. 243 of the pigpen letter in TNA SP 106/10 (DECODE R927), the first page of the letter, deciphered sign by sign from the hand transcription re-read on 3 October 2026 with the key of key.json. Grey: the writer's or the transcription's letter differs from the regular word (alloet, fairc, hunblem); ? is a name sign.",
  "unit": "signs",
  "tokens": [
   {
@@ -96,7 +96,7 @@
   },
   {
    "g": "F2",
-   "p": "l"
+   "p": "h"
   },
   {
    "g": "D1",
@@ -132,7 +132,8 @@
   },
   {
    "g": "E1",
-   "p": "e"
+   "p": "e",
+   "cls": "unc"
   },
   {
    "g": "D2",
@@ -156,7 +157,8 @@
   },
   {
    "g": "F1",
-   "p": "c"
+   "p": "c",
+   "cls": "unc"
   },
   {
    "g": "E3",
@@ -264,7 +266,8 @@
   },
   {
    "g": "A1",
-   "p": "n"
+   "p": "n",
+   "cls": "unc"
   },
   {
    "g": "H1",
@@ -295,11 +298,11 @@
    "p": "n"
   },
   {
-   "g": "H2",
+   "g": "H*2",
    "p": "s"
   },
   {
-   "g": "E*2",
+   "g": "E2",
    "p": "i"
   },
   {
@@ -364,15 +367,19 @@
   },
   {
    "g": "F2",
-   "p": "l"
+   "p": "h"
   },
   {
    "g": "D1",
    "p": "o"
   },
   {
-   "g": "X2",
-   "p": "s"
+   "g": "A1",
+   "p": "n"
+  },
+  {
+   "g": "A1",
+   "p": "n"
   },
   {
    "g": "E1",
@@ -447,12 +454,12 @@
    "p": "u"
   },
   {
-   "g": "K2",
-   "p": "h"
+   "g": "F2",
+   "p": "l"
   },
   {
-   "g": "K3",
-   "p": "e"
+   "g": "F3",
+   "p": "l"
   },
   {
    "g": "B1",
@@ -504,7 +511,7 @@
   },
   {
    "g": "C1",
-   "p": "f"
+   "p": "q"
   },
   {
    "g": "A2",

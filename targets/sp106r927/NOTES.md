@@ -2,7 +2,9 @@
 
 Lasry review (25 Sept 2026): the letter was decoded by Sheila Richards in *Secret Writings* (1973). The book was not seen here and a web search found no record of it; it was not used. This reading is an independent re-solution (outcome.first_break = false), left out of the ciphertext-only list for Klaus Schmeh.
 
-Outcome: read in part (key recovered from ciphertext-only; 2026-09-19; all pages transcribed 2026-10-02; pass 2 2026-10-03).
+Outcome: read (key recovered from ciphertext-only; 2026-09-19; all pages transcribed 2026-10-02; pass 2 2026-10-03; reclassed
+read at the write-up update of 2026-10-03: the letter, f. 243 + f. 241, is 95.6% and every open piece is blocked from outside:
+blots and a stain on f. 241 with no second copy and no better image, name signs with no key, f. 242 a copy of f. 243).
 French, homophonic pigpen. The letter runs f. 243 -> f. 241; f. 242 is a second copy of f. 243.
 Measured (pass 2, `measure.py`): **95.6%** of the letter's signs read as sense (843/882; 97.1% leaving out 14 code and name
 signs); f. 243 98.3%, f. 241 92.5%. Before pass 2: 84.0%. Written at Nancy, in December, signed "Nicle"(?).

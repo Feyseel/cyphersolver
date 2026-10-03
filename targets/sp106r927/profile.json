@@ -32,7 +32,7 @@
     "image_quality": "good",
     "notes": "first page of the letter; hand-transcribed 19 Sept 2026. Token count from _check_profile --measure includes the column labels and line-end marks. Re-read sign by sign from 3x glyph tiles 3 Oct 2026 (15 columns corrected)."
    },
-   "read": "read in part"
+   "read": "read"
   },
   {
    "id": "R927 f. 241",
@@ -63,7 +63,7 @@
     "image_quality": "good",
     "notes": "closing page of the letter (follows f. 243); hand-transcribed 2 Oct 2026. Token count from _check_profile --measure includes the column labels and line-end marks. Re-read 3 Oct 2026 (6 columns corrected; two writer-cancelled signs marked [struck])."
    },
-   "read": "read in part"
+   "read": "read"
   },
   {
    "id": "R927 f. 242",
@@ -94,7 +94,7 @@
     "image_quality": "good",
     "notes": "second copy of f. 243, line for line; top of six columns under the paper flap; cq-cv collated against f. 243. Token count from _check_profile --measure includes the column labels and line-end marks."
    },
-   "read": "read in part"
+   "read": "read"
   }
  ],
  "system": {
@@ -280,12 +280,12 @@
    "key recovered",
    "key extended or corrected"
   ],
-  "class": "read in part",
+  "class": "read",
   "fraction_read": 0.956,
   "verification": [
    "historical consistency"
   ],
-  "notes": "All three pages transcribed. The letter runs f. 243 -> f. 241; f. 242 is a second copy of f. 243. Written at Nancy in December by a client ('vostre tres humble et fidel serviteur', signature read 'Nicle') to a 'Monsieur'; it concerns the marriage of 'ce gentilhomme', an envoy to congratulate 'Sa Majesté' on recovering from a long illness, and assurances of zeal for the King's service.",
+  "notes": "All three pages transcribed. The letter runs f. 243 -> f. 241; f. 242 is a second copy of f. 243. Written at Nancy in December by a client ('vostre tres humble et fidel serviteur', signature read 'Nicle') to a 'Monsieur'; it concerns the marriage of 'ce gentilhomme', an envoy to congratulate 'Sa Majesté' on recovering from a long illness, and assurances of zeal for the King's service. Classed read on 3 Oct 2026 (write-up update): the letter is 95.6% read as sense and every open piece is blocked from outside (blots and a stain on f. 241, no second copy or better image; name signs with no key; f. 242 a copy of f. 243, whose text f. 243 gives at 98.3%).",
   "gaps": [
    {
     "item": "f. 241 c12 and c17 ('b_ruiledu ... et du uoii', 'bienr') and single signs (c13 end, c15 end, c19 day)",

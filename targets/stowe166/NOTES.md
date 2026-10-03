@@ -1,7 +1,8 @@
 # Stowe MS 166: Edmondes to Burghley, 1592–1594 (DECODE R7770–R7775)
 
-Status: in progress
-Reading so far: read in part (every cipher line read; only the person signs open). Measured 3 Oct 2026 (`measure.py` on
+Status: read (reclassed at the write-up update of 3 Oct 2026: 98.8% measured, the read bar met; only person code signs
+with no key material and one unexplained sign open)
+Reading: every cipher line read; only the person signs open. Measured 3 Oct 2026 (`measure.py` on
 `reading.txt`): 1023 of 1035 cipher signs read = 98.8%; the 11 person code signs and one unexplained sign are the rest.
 Prior decipherment in print (found 30 Sept 2026, after the key was recovered here): G. G. Butler, *The Edmondes
 Papers* (1913), prints five of the six letters with the cipher passages deciphered. See "Print check" below.

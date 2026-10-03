@@ -1695,7 +1695,7 @@
     "R1892": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Prince Frederick of Orange (in England) to the officer commanding the Dutch emigre troops (the rassemblement) in Germany, late November or early December 1795, not 1 Jan 1795: Colenbrander, Gedenkstukken II nos. 724, 733, 734 (pp. 886-894) place Frederick's command at Nienburg (named in the postscript), his arrival in England by 26 Nov 1795, and Henry Dundas's orders of 8 Dec 1795, which the letter still anticipates; the letter itself is not printed there. 6x6 digit-pair square recovered ciphertext-only; 1,816 of 1,829 digit pairs read; word signs extended 2 Oct 2026 with the values of the sibling letter R2242 (same key): 1,757 of 1,951 tokens read as sense (90.1%); about twenty rare word signs open.",
+     "note": "Prince Frederick of Orange (in England) to the officer commanding the Dutch emigre troops (the rassemblement) in Germany, late November or early December 1795, not 1 Jan 1795: Colenbrander, Gedenkstukken II nos. 724, 733, 734 (pp. 886-894) place Frederick's command at Nienburg (named in the postscript), his arrival in England by 26 Nov 1795, and Henry Dundas's orders of 8 Dec 1795, which the letter still anticipates; the letter itself is not printed there. 6x6 digit-pair square recovered ciphertext-only; 1,816 of 1,829 digit pairs read; word signs extended 2 Oct 2026 with the values of the sibling letter R2242 (same key); 3 Oct 2026 six lines re-transcribed on the images and eleven one-digit writer's slips emended: 1,860 of 1,954 tokens read as sense (95.2%; the French page 99.1%, the Dutch postscript 90.7%); about twenty word signs open, several recurring.",
      "reading": [
       {
        "file": "decode_updates/decryptions/R1892.txt"
@@ -3670,43 +3670,43 @@
    "records": {
     "R7770": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "f. 50 cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XVIII, pp. 46-48; the year is 1593 new style where the letter says 1592.",
+     "proposed": "Decrypted",
+     "note": "f. 50 cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XVIII, pp. 46-48; the year is 1593 new style where the letter says 1592. Every cipher passage of R7770-R7775 deciphered with one key; measured 3 Oct 2026, 1,023 of 1,035 signs (98.8%), only person code signs open.",
      "reading": "decode_updates/decryptions/R7770.txt",
      "sent": false
     },
     "R7771": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "f. 57 cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XXI, pp. 51-54; the year is 1593 new style where the letter says 1592.",
+     "proposed": "Decrypted",
+     "note": "f. 57 cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XXI, pp. 51-54; the year is 1593 new style where the letter says 1592. Every cipher passage of R7770-R7775 deciphered with one key; measured 3 Oct 2026, 1,023 of 1,035 signs (98.8%), only person code signs open.",
      "reading": "decode_updates/decryptions/R7771.txt",
      "sent": false
     },
     "R7772": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "f. 58v read; the four cipher lines on f. 59 read 2 Oct 2026 with the same key (126 signs, one new sign: a vertical stroke = q). Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XXII, pp. 54-57; the year is 1593 new style where the letter says 1592.",
+     "note": "f. 58v read; the four cipher lines on f. 59 read 2 Oct 2026 with the same key (126 signs, one new sign: a vertical stroke = q). Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XXII, pp. 54-57; the year is 1593 new style where the letter says 1592. Every cipher passage of R7770-R7775 deciphered with one key; measured 3 Oct 2026, 1,023 of 1,035 signs (98.8%), only person code signs open.",
      "reading": "decode_updates/decryptions/R7772.txt",
      "sent": false
     },
     "R7773": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "f. 60v cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XXIII, pp. 57-59; the year is 1593 new style where the letter says 1592.",
+     "proposed": "Decrypted",
+     "note": "f. 60v cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XXIII, pp. 57-59; the year is 1593 new style where the letter says 1592. Every cipher passage of R7770-R7775 deciphered with one key; measured 3 Oct 2026, 1,023 of 1,035 signs (98.8%), only person code signs open.",
      "reading": "decode_updates/decryptions/R7773.txt",
      "sent": false
     },
     "R7774": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "f. 109v cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee.",
+     "proposed": "Decrypted",
+     "note": "f. 109v cipher read; lines 1-2 re-read from the image 3 Oct 2026 ('[9]: of whome especiallie [o] hath made choise ...'). Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Every cipher passage of R7770-R7775 deciphered with one key; measured 3 Oct 2026, 1,023 of 1,035 signs (98.8%), only person code signs open.",
      "reading": "decode_updates/decryptions/R7774.txt",
      "sent": false
     },
     "R7775": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "f. 112 cipher read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. LXVI, pp. 148-151.",
+     "proposed": "Decrypted",
+     "note": "f. 112 cipher read ('carryinge', r+y ligature, 3 Oct 2026). Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. LXVI, pp. 148-151. Every cipher passage of R7770-R7775 deciphered with one key; measured 3 Oct 2026, 1,023 of 1,035 signs (98.8%), only person code signs open.",
      "reading": "decode_updates/decryptions/R7775.txt",
      "sent": false
     }
@@ -4765,8 +4765,8 @@
    "records": {
     "R2242": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "Read with the R1892 digit-pair key unchanged; p.1 clear Dutch under the cipher confirms it. Second pass 2 Oct 2026: p3 l1 and p4 l8 re-transcribed at full resolution, twelve more word signs valued from context; 981 of 1,037 tokens read as sense (94.6%), 20 single-occurrence word signs open. Pp. 3-4 date from late May or June 1795 (after the Treaty of The Hague, 16 May): the envoys De Sitter and Van Grasveld and the ministers Blauw and Meyer are named (Colenbrander, Gedenkstukken I pp. 655, 678); the letter is not printed there.",
+     "proposed": "Decrypted",
+     "note": "Read with the R1892 digit-pair key unchanged; p.1 clear Dutch under the cipher confirms it. Second pass 2 Oct 2026 (p3 l1 and p4 l8 re-transcribed at full resolution, twelve more word signs valued from context) and third pass 3 Oct 2026 (one pair corrected, stricter measure): 994 of 1,037 tokens read as sense (95.9%); open are 20 single-occurrence word signs with no key material and two ink blots. Pp. 3-4 date from late May or June 1795 (after the Treaty of The Hague, 16 May): the envoys De Sitter and Van Grasveld and the ministers Blauw and Meyer are named (Colenbrander, Gedenkstukken I pp. 655, 678); the letter is not printed there.",
      "reading": [
       {
        "file": "decode_updates/decryptions/R2242.txt"
@@ -7810,8 +7810,8 @@
    "records": {
     "R927": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "French letter to 'Monsieur', written at Nancy in December (year not given), signed with a name read 'Nicle'(?). The letter runs f. 243 then f. 241; f. 242 is a second copy of f. 243, line for line. All three pages hand-transcribed and decoded (2 Oct 2026): 84.0% of the letter's signs read as sense. Homophonic pigpen; the pencil key on the flap is not the key. Earlier decoded by Sheila Richards, Secret Writings (1973), per G. Lasry; this reading is independent. Neighbouring records R922-R933 are not in this cipher.",
+     "proposed": "Decrypted",
+     "note": "French letter to 'Monsieur', written at Nancy in December (year not given), signed with a name read 'Nicle'(?). The letter runs f. 243 then f. 241; f. 242 is a second copy of f. 243, line for line. All three pages hand-transcribed and decoded (2 Oct 2026); every unread word re-read sign by sign (3 Oct 2026): 95.6% of the letter's signs read as sense, the rest under ink blots or name signs. Homophonic pigpen; the pencil key on the flap is not the key. Earlier decoded by Sheila Richards, Secret Writings (1973), per G. Lasry; this reading is independent. Neighbouring records R922-R933 are not in this cipher.",
      "reading": [
       {
        "file": "decode_updates/decryptions/R927.txt"

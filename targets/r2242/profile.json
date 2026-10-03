@@ -35,7 +35,7 @@
   },
   {
    "id": "R2242 p3",
-   "read": "read in part",
+   "read": "read",
    "shelfmark": "Koninklijk Huisarchief, The Hague, Koning Willem I, inv. XVIII-3; DECODE R2242",
    "date": "1795-05-07",
    "year": 1795,
@@ -65,7 +65,7 @@
   },
   {
    "id": "R2242 p4",
-   "read": "read in part",
+   "read": "read",
    "shelfmark": "Koninklijk Huisarchief, The Hague, Koning Willem I, inv. XVIII-3; DECODE R2242",
    "date": "1795-05-07",
    "year": 1795,
@@ -268,7 +268,7 @@
    "transcription",
    "key extended or corrected"
   ],
-  "class": "read in part",
+  "class": "read",
   "fraction_read": 0.974,
   "fraction_read_method": "measured",
   "fraction_read_source": "transcription_p1/p3/p4.txt with STRICT=1 apply.py --measure (3 Oct 2026): 1,010 of 1,037 cipher tokens given an H or M value (I-grade sign values counted unread; 1,015 with them). p1 111/111.",
@@ -280,12 +280,12 @@
    "historical consistency",
    "contemporary decipherment"
   ],
-  "notes": "All digit pairs map with the R1892 key. Read as sense (STRICT=1 measure_sense.py, nl-modern, LM window or attested word, y as ij): 994/1,037 = 95.9% (p1 100%, p3 95.7%, p4 94.5%); 90.7% for the 30 Sept state under the same measure. Meets the read bar numerically; class left read in part pending the README/site change. Twenty single word signs and four I-grade signs open; letter not in Colenbrander, Gedenkstukken I-II.",
+  "notes": "All digit pairs map with the R1892 key. Read as sense (STRICT=1 measure_sense.py, nl-modern, LM window or attested word, y as ij): 994/1,037 = 95.9% (p1 100%, p3 95.7%, p4 94.5%); 90.7% for the 30 Sept state under the same measure. Meets the read bar; classed read on 3 Oct 2026 (the letter as a whole; p3 95.7%, p4 94.5% on their own). Twenty single word signs and four I-grade signs open; letter not in Colenbrander, Gedenkstukken I-II.",
   "gaps": [
    {
     "item": "20 single-occurrence word signs on p3-p4, plus four signs with context-only values counted unread (X weinig, & Engeland, + mogelyk, crossed diamond voor)",
-    "blocker": "open-codes",
-    "detail": "one or two occurrences each, none in R1892 with a value, no key sheet, not in print; all retried 2 and 3 Oct 2026"
+    "blocker": "no-key-material",
+    "detail": "one or two occurrences each, none in R1892 with a value, no key sheet, not in print, so no material to value them; all retried 2 and 3 Oct 2026"
    },
    {
     "item": "two tokens under ink blots (p3 l12 crossed circle, P.S. sign after 'landig')",

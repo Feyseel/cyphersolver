@@ -30,6 +30,7 @@
   "archduke leopold wilhelm to the abbé de mercy, 6 june 1648": "2026-10-01",
   "arend willem van reede to van de spiegel, berlin, december 1787 and march 1788": "2026-09-21",
   "armstrong to madison, 20 february 1808": "2026-09-16",
+  "armstrong’s the=972 despatches, 1807–1810": "2026-10-03",
   "attempted, not solved": "2026-09-23",
   "barberini to nuncio ceva, rome to paris, 25 september and 18 december 1632": "2026-09-20",
   "bavarian agents and king john zápolya to the dukes of bavaria, buda 1534–35": "2026-10-02",
@@ -141,9 +142,11 @@
   "koehler cryptograms, 1944": "2026-09-15",
   "kurz von senftenau to trauttmansdorff, hamburg, january–april 1639": "2026-09-19",
   "la guiche (rome) to montmorency, 22 november 1551": "2026-09-21",
+  "la verrière to nevers, poissy, 12 august 1593": "2026-10-03",
   "la verrière to the duc de nevers, poissy, 12 august 1593 (bnf fr. 3985 f. 58)": "2026-10-02",
   "lanssac to anjou and to catherine de médicis, warsaw, 24 april 1573": "2026-10-02",
   "lanssac to charles ix, warsaw, 26 april 1573": "2026-09-17",
+  "lanssac’s cipher letters from warsaw and płock, april–may 1573": "2026-10-03",
   "lanssac’s polish election letters, april–may 1573": "2026-09-17",
   "lebel to charles emmanuel i of savoy, january–march 1593": "2026-09-21",
   "letters to and from ferenc rákóczi ii, 1707–1711": "2026-09-21",
@@ -200,6 +203,7 @@
   "prince frederick of orange to an officer of the orange troops, late 1795": "2026-10-02",
   "prince frederick of orange to his brother, 1795": "2026-10-02",
   "prince frederick of orange to the hereditary prince, 7 may 1795": "2026-09-21",
+  "prince frederick of orange’s two cipher letters, 1795": "2026-10-03",
   "prospero santa croce to cardinal del monte, 1553": "2026-09-21",
   "pál bornemisza to ferdinand i, transylvania, c. 1556": "2026-09-22",
   "queen anne to the earl of peterborough, 22 february 1712": "2026-09-21",
@@ -263,7 +267,9 @@
   "the secretariat of state to the nunciature in spain, rome to madrid, 1736": "2026-09-21",
   "the secretariat of state to the nuncio in spain, rome to madrid, 1718–1720": "2026-09-20",
   "the sp 106/10 codebreaker’s own table of “the venetian cifer”, c. 1623–24": "2026-09-21",
+  "the sp 106/10 pigpen letter, nancy, december (17th c.)": "2026-10-03",
   "the windischgrätz brothers, brussels, 18 nov 1721": "2026-09-21",
+  "thomas edmondes to burghley, 1593–94": "2026-10-03",
   "thomas edmondes to burghley, tours, 3 march 1593, f. 59 (bl stowe ms 166, decode": "2026-10-02",
   "thomas randolph to the earl of sussex, 5 july 1570": "2026-09-21",
   "thomas spinelly to henry viii, brussels, 1 feb 1517": "2026-09-21",
@@ -343,8 +349,8 @@
   },
   "armstrong": {
    "first": "2026-09-14",
-   "hash": "be464118f24e",
-   "updated": "2026-10-02"
+   "hash": "8f7c0ccdfa8a",
+   "updated": "2026-10-03"
   },
   "atlas": {
    "first": "2026-09-21",
@@ -483,8 +489,8 @@
   },
   "champagne1590": {
    "first": "2026-09-21",
-   "hash": "27a8150b1dbe",
-   "updated": "2026-10-02"
+   "hash": "6c2d6f7a22ce",
+   "updated": "2026-10-03"
   },
   "charlesixducroc": {
    "first": "2026-09-20",
@@ -753,8 +759,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "a424ef1ae219",
-   "updated": "2026-10-02"
+   "hash": "ba12f9889f18",
+   "updated": "2026-10-03"
   },
   "indus": {
    "first": "2026-09-24",
@@ -813,8 +819,8 @@
   },
   "lanssac": {
    "first": "2026-09-17",
-   "hash": "1a76bae98678",
-   "updated": "2026-10-02"
+   "hash": "f261434f7d18",
+   "updated": "2026-10-03"
   },
   "lebel1593": {
    "first": "2026-09-21",
@@ -1108,8 +1114,8 @@
   },
   "r1892": {
    "first": "2026-09-21",
-   "hash": "936979cb12e2",
-   "updated": "2026-10-02"
+   "hash": "bfad3b180c64",
+   "updated": "2026-10-03"
   },
   "r1942": {
    "first": "2026-09-20",
@@ -1133,8 +1139,8 @@
   },
   "r2242": {
    "first": "2026-09-21",
-   "hash": "6b0589413d15",
-   "updated": "2026-10-02"
+   "hash": "8e4f2670818d",
+   "updated": "2026-10-03"
   },
   "r2276": {
    "first": "2026-09-23",
@@ -1398,8 +1404,8 @@
   },
   "sp106r927": {
    "first": "2026-09-19",
-   "hash": "4261286e32c5",
-   "updated": "2026-10-02"
+   "hash": "49661cb9266a",
+   "updated": "2026-10-03"
   },
   "spaen1808": {
    "first": "2026-09-21",
@@ -1423,8 +1429,8 @@
   },
   "stowe166": {
    "first": "2026-09-21",
-   "hash": "5fb9f9376762",
-   "updated": "2026-10-02"
+   "hash": "8bed901ea845",
+   "updated": "2026-10-03"
   },
   "sunintercepts": {
    "first": "2026-09-18",
@@ -1573,8 +1579,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "62b806a3d6f2",
-   "updated": "2026-10-02"
+   "hash": "3e2fc9025366",
+   "updated": "2026-10-03"
   },
   "yard1699": {
    "first": "2026-09-18",

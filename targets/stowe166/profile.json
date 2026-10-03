@@ -366,7 +366,7 @@
    "key extended or corrected",
    "sender or date identified"
   ],
-  "class": "read in part",
+  "class": "read",
   "gaps": [
    {
     "item": "person code signs 9, n, 4̇, £/£2, o (11 signs) and the sign '3:' on f. 109v",
@@ -379,7 +379,7 @@
   "verification": [
    "historical consistency"
   ],
-  "notes": "Every cipher line read; measured 98.8% of 1035 signs. Person signs 9, n, 4̇, £, £2, o unconfirmed. Butler 1913 prints R7770-R7773 and R7775 deciphered, found after the reading; compared by page word counts only.",
+  "notes": "Every cipher line read; measured 98.8% of 1035 signs. Person signs 9, n, 4̇, £, £2, o unconfirmed. Butler 1913 prints R7770-R7773 and R7775 deciphered, found after the reading; compared by page word counts only. Classed read on 3 Oct 2026 (write-up update): 98.8% measured, only the person code signs and one sign open, no key material for them.",
   "fraction_read_method": "measured",
   "fraction_read_source": "measure.py over reading.txt (3 Oct 2026): 1023 of 1035 cipher signs read (one sign = one letter in this simple substitution); 11 person code signs and 1 unexplained sign not read; 99.9% excluding the person signs. Earlier figure 0.89-0.95 was an estimate.",
   "key": "partial",

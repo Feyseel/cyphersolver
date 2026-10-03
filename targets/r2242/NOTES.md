@@ -1,6 +1,7 @@
 # R2242 — Prince Frederick of Orange to the Hereditary Prince, London, 7 May 1795 (KHA, Koning Willem I, XVIII-3)
 
-Status: read in part
+Status: read (3 Oct 2026: 994/1,037 tokens = 95.9% read as sense, strict measure; meets the read bar. The open tokens are
+single word signs with no key material and two ink blots. Key: partial, the square complete, word signs open.)
 
 DECODE R2242 ("KHA_A35_KWI_inr.XVIII-3_Prince_Frederick_to_Heredary_Prince_1795-05-07"), Non-decrypted,
 4 pp., authentication-required images IMG_R2242_I15891–I15894 (photographs of photocopies, sideways; git-ignored
@@ -206,11 +207,14 @@ written: p4 l3 "persisteern" (the writer dropped an e: the image has t e e r n).
 What got it over the line: the forced-sign upgrades (+26 tokens: the signs themselves and the read letters next to
 them that had no scoring window), the y→ij scoring (+15) and the word check (+13). Tokens given a value: 1,010/1,037 strict (97.4%),
 1,015/1,037 with I values. The letter now meets the read bar's numbers (95% read as sense, no gap untried, what
-stays open is scattered single word signs and ink blots); `outcome.class` is left "read in part" here because the
-class change has to reach the README row and the site, which this pass did not touch.
+stays open is scattered single word signs and ink blots); `outcome.class` was left "read in part" by this pass because the
+class change had to reach the README row and the site. Reclassed **read** with the write-up update of 3 Oct 2026: the
+letter (p1, p3, p4 are pages of one letter) is 95.9%; p3 95.7% and p4 94.5% on their own. The single word signs were
+relabelled from open-codes to no-key-material: each occurs once or twice, none occurs in R1892 with a value, there is
+no key sheet and the letter is not in print, so no material exists to value them.
 
 ## Remaining gaps
-- 20 single-occurrence word signs on p3-p4 (T-bar, S-stroke, square bracket, H with P, dagger, V-with-cross, C-hook, % twice, crossed o, plain Δ twice, vertical bracket, x mark, Δ with tail, H with loop, ψ, P.S. S / crossed ø / ⊖), plus four signs with context-only values counted unread (X weinig, & Engeland, + mogelyk, crossed diamond voor) - blocker: open-codes; each occurs once or twice, none in R1892 with a value, no key sheet, the letter is not in print; all retried 2 and 3 Oct 2026
+- 20 single-occurrence word signs on p3-p4 (T-bar, S-stroke, square bracket, H with P, dagger, V-with-cross, C-hook, % twice, crossed o, plain Δ twice, vertical bracket, x mark, Δ with tail, H with loop, ψ, P.S. S / crossed ø / ⊖), plus four signs with context-only values counted unread (X weinig, & Engeland, + mogelyk, crossed diamond voor) - blocker: no-key-material; each occurs once or twice, none in R1892 with a value, no key sheet, the letter is not in print; all retried 2 and 3 Oct 2026
 - two tokens under ink blots (p3 l12 crossed circle, P.S. sign after "landig") - blocker: illegible; the photocopy is blotted at both places
 - P.S. "Dankaert" unidentified - blocker: no-key-material; the name is spelled out in the square, only its identity is unknown
 

@@ -1819,7 +1819,7 @@
    "kind": "rebuilt here",
    "by": "Daniel Bourdeau",
    "year": 1573,
-   "note": "Homophonic sign cipher with syllable and word signs, recovered from the gutter-cut marginal decipherments in BnF fr. 4735 and a pinned annealer; corrects Tomokiyo's table (first row shifted by one letter); extended on ff. 154 and 156 (2 Oct 2026)."
+   "note": "Homophonic sign cipher with syllable and word signs, recovered from the gutter-cut marginal decipherments in BnF fr. 4735 and a pinned annealer; corrects Tomokiyo's table (first row shifted by one letter); extended on ff. 154 and 156 (2 Oct 2026) and checked sign by sign against Tomokiyo's current table, whose st, il, nous, par and t were adopted (3 Oct 2026)."
   },
   {
    "id": "k-r9407-sysA2",
@@ -2783,7 +2783,7 @@
    "key": "k-lanssac1573",
    "target": "lanssac",
    "how": "rebuilt from",
-   "note": "marginal glosses of ff. 124 and 154v; applied to ff. 154, 156, 160, 164, 174"
+   "note": "marginal glosses of ff. 124 and 154v; applied to ff. 154, 156, 160, 164, 174, every letter over 95% (97.0% in all, 3 Oct 2026)"
   },
   {
    "key": "k-r9407-sysA2",

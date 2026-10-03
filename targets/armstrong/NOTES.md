@@ -173,7 +173,7 @@ carry the older wording and need the same correction. Frames the band score rank
 ## The other despatches in THE=972 (2026-10-02/03)
 
 Status: in progress (the postscript above is finished and written up; this section extends the table to the rest of
-the correspondence and is not yet on the site).
+the correspondence; on the site in docs/armstrong.html section 07, updated with the 3 Oct measures).
 
 **Sources.** `founders_crawl.py` walked Founders' Armstrong-Madison chain through the Wayback Machine (pages in `fo/`,
 index `fo/index.json`). Roll 14 (naId 188671566, 22 Jan 1808 - 14 Sept 1810) was already on disk in `img/` (665
