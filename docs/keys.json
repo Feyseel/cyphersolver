@@ -1812,6 +1812,14 @@
    "year": null,
    "found": 2026,
    "note": "Homophonic pigpen key recovered from the ciphertext alone by annealing on a hand transcription of f. 243; extended 2 Oct 2026 on ff. 241-242 (H3 z, C*2 q, C1 f/q and F2 l/h polyphones)"
+  },
+  {
+   "id": "k-lanssac1573",
+   "label": "Lanssac 1573 cipher (Polish election embassy)",
+   "kind": "rebuilt here",
+   "by": "Daniel Bourdeau",
+   "year": 1573,
+   "note": "Homophonic sign cipher with syllable and word signs, recovered from the gutter-cut marginal decipherments in BnF fr. 4735 and a pinned annealer; corrects Tomokiyo's table (first row shifted by one letter); extended on ff. 154 and 156 (2 Oct 2026)."
   }
  ],
  "links": [
@@ -2762,6 +2770,12 @@
    "target": "sp106r927",
    "how": "rebuilt from",
    "note": "ciphertext-only"
+  },
+  {
+   "key": "k-lanssac1573",
+   "target": "lanssac",
+   "how": "rebuilt from",
+   "note": "marginal glosses of ff. 124 and 154v; applied to ff. 154, 156, 160, 164, 174"
   }
  ],
  "sources": [
@@ -3178,6 +3192,10 @@
   {
    "source": "s-bourdeau",
    "key": "k-sp106r927"
+  },
+  {
+   "source": "s-bourdeau",
+   "key": "k-lanssac1573"
   }
  ],
  "unlinked": {

@@ -363,6 +363,10 @@
   "Washington": [
    38.9,
    -77.04
+  ],
+  "Esztergom": [
+   47.79,
+   18.74
   ]
  },
  "letters": [
@@ -1173,7 +1177,7 @@
    "date": "26 Apr 1573",
    "from": "Warsaw",
    "to": "Paris",
-   "st": "solved",
+   "st": "partial",
    "label": "Lanssac"
   },
   {
@@ -1183,7 +1187,7 @@
    "date": "9 May 1573",
    "from": "Płock",
    "to": "Paris",
-   "st": "solved",
+   "st": "partial",
    "label": "Lanssac"
   },
   {
@@ -4045,6 +4049,56 @@
    "to": "Washington",
    "st": "solved",
    "label": "Armstrong"
+  },
+  {
+   "slug": "lanssac",
+   "doc": "f154",
+   "year": 1573.31,
+   "date": "24 Apr 1573",
+   "from": "Warsaw",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Lanssac"
+  },
+  {
+   "slug": "lanssac",
+   "doc": "f156",
+   "year": 1573.31,
+   "date": "24 Apr 1573",
+   "from": "Warsaw",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Lanssac"
+  },
+  {
+   "slug": "lanssac",
+   "doc": "f160",
+   "year": 1573.33,
+   "date": "1 May 1573",
+   "from": "Warsaw",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Lanssac"
+  },
+  {
+   "slug": "lanssac",
+   "doc": "f164",
+   "year": 1573.33,
+   "date": "1 May 1573",
+   "from": "Warsaw",
+   "to": "Paris",
+   "st": "partial",
+   "label": "Lanssac"
+  },
+  {
+   "slug": "caprile1519",
+   "doc": "V1921",
+   "year": 1521.15,
+   "date": "25 Feb 1521",
+   "from": "Esztergom",
+   "to": "Ferrara",
+   "st": "partial",
+   "label": "Caprile 1519–21"
   }
  ]
 }

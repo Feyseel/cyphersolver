@@ -1709,7 +1709,10 @@
   {
    "role": "recipient",
    "name": "Alfonso I d'Este",
-   "img": null
+   "img": "portrait_alfonso-i-d-este.jpg",
+   "what": "Portrait after Titian, Fondation Bemberg, Toulouse",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Bemberg Fondation Toulouse - Portrait d'Alphonse dEste - Titien Inv.1053.jpg"
   }
  ],
  "dedem1788": [

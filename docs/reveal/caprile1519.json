@@ -78,14 +78,8 @@
    "p": "e"
   },
   {
-   "g": "o",
-   "p": "·",
-   "cls": "null"
-  },
-  {
-   "g": "o",
-   "p": "·",
-   "cls": "null"
+   "g": "o o",
+   "p": "b"
   },
   {
    "g": "L",
@@ -600,5 +594,5 @@
    "p": "o"
   }
  ],
- "key_note": "EM key from Somogyi's published cribs; a lone o is a null and o-SL-o stands for o; the decrypt is mechanical, so some letters are wrong."
+ "key_note": "EM key from Somogyi's published cribs, corrected on the letter of 25 February 1521: two lone o together are b (de-b-ito); a single lone o is h or u, or here a null; o-SL-o stands for o. The decrypt is mechanical, so some letters are wrong."
 }

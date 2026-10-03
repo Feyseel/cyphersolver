@@ -110,6 +110,7 @@
   "ghinucci, lee and poyntz to cardinal wolsey, valladolid, 17 july 1527": "2026-09-21",
   "gilbert bayard to montmorency, 5 january 1526": "2026-09-22",
   "giuliano caprile and alfonso cistarelli (eger) to ferrara, 1519–21": "2026-09-21",
+  "giuliano caprile to alfonso i d’este, esztergom, 25 february 1521": "2026-10-02",
   "gonzalo fernández de córdoba to lorenzo suárez, 17 august 1500 (bnf espagnol 318": "2026-09-21",
   "gramont, mâcon and langeac to montmorency, 1529–1537": "2026-09-18",
   "guido rangone to montmorency, venice, 1529–30": "2026-09-22",
@@ -140,6 +141,7 @@
   "kurz von senftenau to trauttmansdorff, hamburg, january–april 1639": "2026-09-19",
   "la guiche (rome) to montmorency, 22 november 1551": "2026-09-21",
   "la verrière to the duc de nevers, poissy, 12 august 1593 (bnf fr. 3985 f. 58)": "2026-10-02",
+  "lanssac to anjou and to catherine de médicis, warsaw, 24 april 1573": "2026-10-02",
   "lanssac to charles ix, warsaw, 26 april 1573": "2026-09-17",
   "lanssac’s polish election letters, april–may 1573": "2026-09-17",
   "lebel to charles emmanuel i of savoy, january–march 1593": "2026-09-21",
@@ -445,8 +447,8 @@
   },
   "caprile1519": {
    "first": "2026-09-21",
-   "hash": "323c57a5dd49",
-   "updated": "2026-09-30"
+   "hash": "99c79b5655ea",
+   "updated": "2026-10-02"
   },
   "caracciolo1537": {
    "first": "2026-09-21",
@@ -750,7 +752,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "77afaca0c59d",
+   "hash": "e01353132de6",
    "updated": "2026-10-02"
   },
   "indus": {
@@ -810,8 +812,8 @@
   },
   "lanssac": {
    "first": "2026-09-17",
-   "hash": "fcbb7b690175",
-   "updated": "2026-09-24"
+   "hash": "1a76bae98678",
+   "updated": "2026-10-02"
   },
   "lebel1593": {
    "first": "2026-09-21",
@@ -1570,7 +1572,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "f74065b7e55e",
+   "hash": "94e7b3e1151d",
    "updated": "2026-10-02"
   },
   "yard1699": {

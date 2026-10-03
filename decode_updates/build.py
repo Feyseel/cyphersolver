@@ -2,7 +2,7 @@
 
 For every queued record not yet sent, writes decode_updates/out/R<id>/:
   additional_information.txt  the line to append to the record's Additional Information
-  fields.txt                  status and descriptive-field changes
+  fields.txt                  status and descriptive-field changes (entry "fields" merged with the record's own)
   key.txt                     DECODE key format, only when the key was rebuilt here (not when it is already in DECODE)
   decryption.txt              DECODE header + our reading
 
@@ -152,9 +152,13 @@ def main(argv):
             continue
         if not isinstance(q.get('key'), dict):  # "key": null = queued without a key (unread target)
             q['key'] = {'none': 'no key'}
+        base = q
         for rec, r in q['records'].items():
             if r.get('sent'):
                 continue
+            # A record may carry its own "key" (e.g. {"none": ...} for a sibling in another system); it
+            # replaces the entry's key for that record only, so the entry's key file is not attached to it.
+            q = {**base, 'key': r['key']} if isinstance(r.get('key'), dict) else base
             if 'TODO' in json.dumps([r, q['key']]):
                 gaps.append(f'{t} {rec}: TODO fields left (python decode_updates/queue.py status {t})')
                 continue

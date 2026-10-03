@@ -697,7 +697,7 @@
       "catalogue correction"
     ],
     "class": "read in part",
-    "fraction_read": 0.45,
+    "fraction_read": 0.72,
     "verification": [
       "contemporary decipherment",
       "key confirms"
@@ -705,14 +705,29 @@
     "notes": "Unpublished cipher, opened 2026-09-20. TWO records carry the clerk's own full contemporary clear version - R9644 (ff. 241-242, in lettered sections keyed to the cipher) and R9650 (f. 272) - and R9648 is R9644's duplicate. R9652 carries no cipher at all - DECODE's 'partially decrypted' is wrong, the leaf is entirely in the clear - and is read complete too. Those four letters are therefore READ COMPLETE as to content (read_r9644.md, read_r9650.md): the Pope Adrian VI temporising between Charles V and Francis I, the French resolved to come into Italy with a great sum of money to Lyon, Hieronymo Adorno's intercepted letters, the Pope's parsimony and his unpaid household, the peace track through the archbishop of Bari. The CIPHER is read in part: 47 CODE values fixed against that plaintext and 29 probable (the 10 substitution-alphabet signs were downgraded to probable on 20 Sept after an 8x zoom showed signs that must be different letters looking near-identical at the zoom they were read at; the code groups, being plain latin trigrams that cross-check, are unaffected), kept apart in a confidence column and audited for conflicts. The key reads outside its own evidence - two thirds of tokens on sight in R9648 and R9650, and 'el papa' unaided in R9656, which has no clear version and no duplicate. Open: the five records with no clear version (R9634, R9645, R9646, R9649, R9656), and a word-perfect edition of any ciphered leaf, which needs the substitution alphabet - all ten alphabet signs probable after the 8x zoom on perdido, the rest limited by per-glyph discrimination on these scans. 2026-10-02: R9634 (Genoa, 13 Sept 1522, Adorno's Provence plan) transcribed and read in part, 71% of tokens measured; R9646 80%; R9649 read in full from its own clear f. 268 (it had been listed as uncribbed). New: ɋ = r, plural z after codes, yob ducado, xu gente, nulls after the opener Ꮒ (ʃta confirmed). Retry 2026-10-02: R9645 73% (re-transcribed, f. 243r = Ferrara capitulation terms), R9656 61% (regraded), R9634 71%; ɣto null and xu = gente confirmed on R9645's glosses.",
     "gaps": [
       {
-        "item": "R9645 (57% tokens) and R9656 (42% tokens), the content words",
-        "blocker": "illegible",
-        "detail": "alphabet signs cannot be told apart at DECODE's 1700 px per folio (the 'perdido' 8x zoom); no larger variant on DECODE; RAH Biblioteca Digital blocked to automated requests"
+        "item": "R9645 (73% read): ze (3x), tec, ʃen, the spelled words of f. 243r ll. 5, 8, 14, 17 and f. 243v ll. 1, 7, 10",
+        "blocker": "no-key-material",
+        "detail": "f. 243r and upper f. 243v have no gloss; codes seen once"
       },
       {
-        "item": "R9634, R9646, R9649",
-        "blocker": "not-attempted",
-        "detail": "listed as uncribbed but no coverage was measured and no reading file exists"
+        "item": "R9656 (61% read): ll. 13-18 of f. 334r and f. 334v l. 1, spelled words",
+        "blocker": "illegible",
+        "detail": "the f. 335r clear copy is legible only in its right half at DECODE resolution, and the spelled signs are at the scan's limit; RAH Biblioteca Digital blocked to automated requests"
+      },
+      {
+        "item": "R9634 (71% read): about 45 code groups seen once (ʃe, xer, zud, zac, ʃum, yat, zub, ʃof, xen, zer, yul ...) and yel (4x), ɣ̊e (4x), ʃun, ʃud",
+        "blocker": "no-key-material",
+        "detail": "no clear version in the record and none in CSP Spain ii; one context each; retried 2026-10-02 against the R9645 values"
+      },
+      {
+        "item": "R9634 spelled words with every letter valued that give no word (14r12, 14v03 place names, 14v16, 15r11, 15v05, 15v12) and the force numerals of 15r05/15r09/15r10",
+        "blocker": "illegible",
+        "detail": "8/ϑ (e/t), ∂ (s/p/t) and ε (l/g) not separable at DECODE resolution"
+      },
+      {
+        "item": "R9646 (80% read): ʙ∠89&Ho, zip (run 4); zob, δ8ǝtoo, ʃof, ʙ∠47 ɣ?8δHo (run 5)",
+        "blocker": "no-key-material",
+        "detail": "no crib, codes seen once; one misvalued sign in each spelled word"
       },
       {
         "item": "Spelled runs in the ciphered leaves of R9644, R9648, R9650 (word-perfect edition)",
@@ -721,12 +736,12 @@
       },
       {
         "item": "Nomenclator codes not yet met in the uncribbed letters",
-        "blocker": "open-codes",
-        "detail": "no clear version for them; roughly half the tokens resolve"
+        "blocker": "no-key-material",
+        "detail": "no clear version for them"
       }
     ],
-    "fraction_read_method": "estimated",
-    "fraction_read_source": "Not measurable: decode.py coverage was run only on sample lines (R9648 f.262 70%, R9650 f.270 62%, R9645 f.243 57%, R9656 f.334 42%); no whole-letter token transcription or reading file exists for the ciphered leaves, and R9634/R9646/R9649 were never measured. 0.45 kept from the notes.",
+    "fraction_read_method": "measured",
+    "fraction_read_source": "Measured 2026-10-02 over the five letters with a whole-letter token transcription and reading file, summing tokens read as sense: R9634 846/1191 (NOTES 'Retry, same day', read_r9634.md), R9645 358/489 (read_r9645.md), R9646 97/121 (read_r9646.md), R9649 89/89 (read_r9649.md), R9656 131/214 (read_r9656.md); 1521/2104 = 0.723. R9644, R9648 and R9650 are read as to content from their contemporary clear versions but their ciphered leaves have no token transcription, so they are not in the count; R9652 has no cipher.",
     "key": "partial"
   }
 }

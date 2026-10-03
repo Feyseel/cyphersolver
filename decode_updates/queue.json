@@ -912,18 +912,19 @@
     "how": "ciphertext-only"
    },
    "cite": null,
-   "fields": {
-    "cipher_types": "homophonic, nomenclator",
-    "plaintext_lang": "Italian",
-    "date": "1627-12-24 (clear dateline \"Di Varsouia 24 Xbre 1627\"; DECODE gives 1600-1799)",
-    "origin_city": "Warsaw",
-    "receiver": "Cardinal Franz von Dietrichstein, Bishop of Olomouc (docket at the foot of the page, '... Card. Dietrichstein', read on the image 2 Oct 2026)",
-    "cleartext_language": "Italian"
-   },
+   "fields": {},
    "records": {
     "R1408": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
+     "fields": {
+      "cipher_types": "homophonic, nomenclator",
+      "plaintext_lang": "Italian",
+      "date": "1627-12-24 (clear dateline \"Di Varsouia 24 Xbre 1627\"; DECODE gives 1600-1799)",
+      "origin_city": "Warsaw",
+      "receiver": "Cardinal Franz von Dietrichstein, Bishop of Olomouc (docket at the foot of the page, '... Card. Dietrichstein', read on the image 2 Oct 2026)",
+      "cleartext_language": "Italian"
+     },
      "note": "Every spelled word read; ten word codes glossed from context, not read. Measured 2 Oct 2026 after checking the image: 316 of 332 significant tokens (95.2%). The image corrects Tomokiyo's transcription twice (line 2 'a 12 o' is the code 120; line 10 has a 29, 'stimato'). A docket at the foot names Card. Dietrichstein, the addressee. The neighbouring record R1409 is a different system, and none of the fascicle's key records R1392-R1406 is this key.",
      "reading": [
       {
@@ -939,7 +940,7 @@
      "reading": null,
      "reading_not_needed": true,
      "key": {
-      "none": "no key on DECODE in R1392-R1406; not the R1408 key"
+      "none": "different system; not the R1408 key"
      },
      "transcription": [
       "targets/warsaw/r1409_ct.txt"
@@ -2453,28 +2454,22 @@
    "key": {
     "file": "targets/caprile1519/key21.json",
     "lang": "IT",
-    "how": "Homophonic sign key rebuilt by EM alignment of the transcription against J. W. Somogyi's printed decipherment of the 16 Feb 1521 postscript (R1138 and Vestigia 1920)"
+    "how": "Homophonic sign key rebuilt by EM alignment of the transcription against J. W. Somogyi's printed decipherment of the 16 Feb 1521 postscript (R1138 and Vestigia 1920); extended 2 Oct 2026 on V1921 (ASMo Ungheria b. 4, 1520-21 no. 12, not on DECODE): lone o = h/u, oo = b, z+/x+/xp = q, EL = f, K = et, o+ = s, D = b/x"
    },
    "cite": "J. W. Somogyi, Scriptorium VI (2025) 247-264, n. 50",
-   "fields": {
-    "R1138": {
-     "date": "1521-02-16",
-     "city": "Buda",
-     "receiver": "Alfonso I d'Este"
-    },
-    "R1139": {
-     "receiver": "Alfonso I d'Este",
-     "city": "Buda"
-    }
-   },
+   "fields": {},
    "records": {
     "R1139": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "Read in part with the key rebuilt from Somogyi 2025; no earlier decipherment. Date 6 Apr 1521, Buda, to Duke Alfonso I.",
+     "fields": {
+      "receiver": "Alfonso I d'Este",
+      "city": "Buda"
+     },
+     "note": "Caprile to Duke Alfonso I, Buda, 6 Apr 1521 (slip). Read in part with the key rebuilt from Somogyi 2025 and extended on V1921 (1520-21 no. 12): second transcription at native resolution, 88.7% of decoded letters inside read phrases (2 Oct 2026). Open: the numeral-like groups \"4 8 1 7\" and \"1 7\" and short stretches of lines 2, 4-5 and 8. No earlier decipherment.",
      "reading": [
       {
-       "file": "targets/caprile1519/decrypt21_raw.txt"
+       "file": "targets/caprile1519/pass3_r1136_r1139.md"
       }
      ],
      "sent": false
@@ -2482,10 +2477,10 @@
     "R1136": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "Read in part with the same key (1520-21 sign cipher); 8 Mar 1520, to Pistofilo.",
+     "note": "Caprile to Bonaventura Pistofilo, 8 Mar 1520 (1519-20 no. 11). Read in part with the same 1520-21 key: second transcription at native resolution, 66.9% of decoded letters inside read phrases (2 Oct 2026). The custode of Eger, the see, Lactantio, the Kalocsa-Bacs see; the rest is limited by doubtful sign separations.",
      "reading": [
       {
-       "file": "targets/caprile1519/decrypt21_raw.txt"
+       "file": "targets/caprile1519/pass3_r1136_r1139.md"
       }
      ],
      "sent": false
@@ -2493,6 +2488,11 @@
     "R1138": {
      "decode_status": "Partially decrypted",
      "proposed": "Decrypted",
+     "fields": {
+      "date": "1521-02-16",
+      "city": "Buda",
+      "receiver": "Alfonso I d'Este"
+     },
      "note": "Deciphered by J. W. Somogyi, Scriptorium VI (2025) 259-260 n. 50. Letter of 16 Feb 1521, Buda, to Duke Alfonso I.",
      "reading": null,
      "sent": false,
