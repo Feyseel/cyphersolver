@@ -123,7 +123,7 @@ already fetches for `targets/lorraine1592/`. Folio numbers there run about canva
   *Roma* vos, *seignor* ʒus, *satisfecho* yas — plus a *Nulles* row.
 
 These are precisely the groups that stood unresolved on the leaves — *hur, cer, vul, vos, ra, ʃes, nor, xel,
-dox, nes, tas, tis, sas, pem*. `key92.tsv` carried those 40 and the syllables (133 entries). The sheet has over a hundred word entries; the rest were added on 2 Oct (202 rows).
+dox, nes, tas, tis, sas, pem*. `key92.tsv` carried those 40 and the syllables (133 entries). The sheet has over a hundred word entries; the rest were added on 2 Oct.
 
 Adjacent leaves (ff. 94, 96, 98, 101) hold further Spanish keys of the same office, including the one the
 repository already identified as *"1592 Chifre d'entre le Duc de Parme et le Roy Cath[olique]"* at f. 98. **Correction (2 Oct 2026, on a note from satorunet):** that endorsement is on the back of f. 97 (canvas 189) and labels the key of f. 97 itself, "lequel sert aussi pour le Duc de Sessa et Don Diego de Ybarre"; f. 98 is a different, French key. See `retry_f97.md`.
@@ -261,5 +261,5 @@ Cattolici, Concilio generale, Corte di*). It belongs to another correspondence.
 - [x] clear-pages: no. 47's interlinear decipherment used as control; no. 68's clear opening read
 - [x] known-keys: Tomokiyo 1592-93, Feria-Mansfeld, Ibarra-Doria, Ibarra-Zuniga keys; DECODE R4076/R4077 = fr. 3995 ff. 94-97
 - [x] print: Tomokiyo spanish3.htm; BnF notices for fr. 3983/3984
-- [x] key-rebuild: the office key's nomenclature re-read from f. 97 (70 entries added, one revised, the rule sheet read; `retry_f97.md`); the Feria-Mansfeld nomenclature of no. 68 is still not rebuilt (no key material, above)
+- [x] key-rebuild: the office key's nomenclature re-read from f. 97 (61 entries added and 8 numeric ones listed as comments, one revised, the rule sheet read; `retry_f97.md`); the Feria-Mansfeld nomenclature of no. 68 is still not rebuilt (no key material, above)
 - [x] retry: every unresolved group of the transcribed rows rerun against the extended key92.tsv: 13 resolved, 1 corrected, 1 reassigned (`retry_f97.md`); the lines never transcribed (no. 45 L16-17, no. 79 two lines, no. 47 L14 on) are not yet read

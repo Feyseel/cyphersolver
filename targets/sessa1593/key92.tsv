@@ -141,6 +141,8 @@ yas	satisfecho
 # --- Nomenclature of BnF fr. 3995 f. 97 (canvas 188), read again from the Gallica image on 2 Oct 2026 (full-resolution crops).
 # The endorsement on the back, f. 97v (canvas 189): "1592 Chifre d'entre le Duc de Parme et le Roy Cat.co en l'an 1592, lequel sert aussi pour
 # le Duc de Sessa et Don Diego de Ybarre avec le Roy". f. 98 (canvas 190) is a different, French key ("Chiffre de monsieur du Maine ... 1592").
+# Entries whose bare number is also a syllable (24 podra, 31 servicio, 34 siempre, 49 Su Santidad, 55 tambien, 63 tierra, 57e tanta, 67e tratar)
+# need the dots or the T of the sheet; they are listed as comments, because this table looks tokens up by the base number.
 # Entries above this line came from the 19 Sept pass; those below were added or confirmed on 2 Oct (a first count of the word entries on the sheet by
 # satorunet, 3 Oct, prompted the re-reading). ? = sign or word not certain. T = a T-shaped mark under the group on the sheet.
 di	alla
@@ -186,7 +188,7 @@ Vor	opinion / por cierto
 lis	puerto
 cis	pera
 ʒer	parte
-24	podra
+# 24 (with dots or a T on the sheet) = podra; not decodable by number alone
 cos	personas
 ʒir	particular
 ʒar	paris
@@ -199,16 +201,16 @@ xur	para
 nur^	ninguna
 per	nuestro
 50T	Su Magestad
-49	Su Santidad
+# 49 (with dots or a T on the sheet) = Su Santidad; not decodable by number alone
 95T	Duque de Sessa
-31	servicio
-34	siempre
-63	tierra
-57e	tanta
-67e	tratar
+# 31 (with dots or a T on the sheet) = servicio; not decodable by number alone
+# 34 (with dots or a T on the sheet) = siempre; not decodable by number alone
+# 63 (with dots or a T on the sheet) = tierra; not decodable by number alone
+# 57e (with dots or a T on the sheet) = tanta; not decodable by number alone
+# 67e (with dots or a T on the sheet) = tratar; not decodable by number alone
 61T	tiempo
 fi	tiempo
-55	tambien
+# 55 (with dots or a T on the sheet) = tambien; not decodable by number alone
 65T	trabajo
 57T	tanto
 # revised on 2 Oct: the line "aduisa - ʃes" sits directly above the B block, so ʃes is aviso; the 19 Sept pass had read it as causa
