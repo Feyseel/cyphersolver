@@ -7,6 +7,7 @@
   "a letter from reims on the chapter’s postulation, 19 june 1589": "2026-09-23",
   "a letter from rome to the abbé d’orbais, 23 august 1589": "2026-09-18",
   "a paris informant to the nevers household, 6 june 1588": "2026-09-22",
+  "a pigpen letter from nancy, sp 106/10 ff. 241–243": "2026-10-02",
   "a venetian ambassador at rome to the doge, 29 april 1628": "2026-09-22",
   "a wallachian postscript against antide dunod, after 1688": "2026-09-28",
   "adfgvx, 1918": "2026-09-15",
@@ -131,6 +132,7 @@
   "jean du bellay to montmorency, london, 1529": "2026-09-17",
   "johan banér to torsten stålhandske, hof, 29 december 1640": "2026-09-22",
   "johan isaac de swart to pieter van bleiswijk, 8 march 1782": "2026-09-21",
+  "john armstrong to madison and robert smith, 1807–1810": "2026-10-02",
   "jános pápai to ferenc rákóczi ii, 1706–1710": "2026-09-21",
   "kauderbach from the hague to dresden, 1754–56": "2026-09-19",
   "king john zápolya and an agent at buda → the dukes of bavaria, february 1534": "2026-09-22",
@@ -147,6 +149,7 @@
   "lope de soria to charles v, genoa, 1523": "2026-09-19",
   "lope hurtado de mendoza (rome) to charles v, 1522": "2026-09-20",
   "lope hurtado de mendoza at rome to charles v and gattinara, may 1523 – march 152": "2026-09-21",
+  "lope hurtado de mendoza to charles v, genoa, 13 september 1522": "2026-10-02",
   "lord cobham at ostend to walsingham, 20–22 march 1588": "2026-09-21",
   "lord cobham to walsingham, may–june 1588": "2026-09-21",
   "louis xiv and louvois to catinat, july–september 1691": "2026-09-16",
@@ -191,6 +194,8 @@
   "philip ii to the nuncio ormanetto, 1573 (asv segr. stato spagna 7)": "2026-09-21",
   "philippe groffey (?) to ferenc rákóczi ii, 15 october 1707": "2026-09-20",
   "potocka and mniszech to dunin, 1714–16 and undated": "2026-09-23",
+  "prince frederick of orange to an officer of the orange troops, late 1795": "2026-10-02",
+  "prince frederick of orange to his brother, 1795": "2026-10-02",
   "prince frederick of orange to the hereditary prince, 7 may 1795": "2026-09-21",
   "prospero santa croce to cardinal del monte, 1553": "2026-09-21",
   "pál bornemisza to ferdinand i, transylvania, c. 1556": "2026-09-22",
@@ -242,6 +247,7 @@
   "the cardinal de mâcon, rome and orvieto, to montmorency, 1536–37": "2026-09-21",
   "the cardinal of como to the nuncio dandini, 1580": "2026-09-21",
   "the conde de hernán núñez to baltasar de fuenmayor, stockholm, december 1674": "2026-09-21",
+  "the duke of sessa to charles v, 14 april 1524 and 24 february 1525": "2026-10-02",
   "the duke of sessa to charles v, february–april 1523": "2026-09-21",
   "the duke of sessa to charles v, rome, 18 april 1524": "2026-09-18",
   "the hereditary prince to prince frederik, berlin, 12 march 1796": "2026-09-21",
@@ -334,8 +340,8 @@
   },
   "armstrong": {
    "first": "2026-09-14",
-   "hash": "8b75b7254810",
-   "updated": "2026-09-24"
+   "hash": "be464118f24e",
+   "updated": "2026-10-02"
   },
   "atlas": {
    "first": "2026-09-21",
@@ -744,7 +750,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "73120c9946a7",
+   "hash": "77afaca0c59d",
    "updated": "2026-10-02"
   },
   "indus": {
@@ -829,8 +835,8 @@
   },
   "lopehurtado": {
    "first": "2026-09-20",
-   "hash": "bda8066cd68b",
-   "updated": "2026-09-24"
+   "hash": "aff7f44393b9",
+   "updated": "2026-10-02"
   },
   "lopehurtado1523": {
    "first": "2026-09-21",
@@ -1099,8 +1105,8 @@
   },
   "r1892": {
    "first": "2026-09-21",
-   "hash": "9507458c2e1a",
-   "updated": "2026-09-25"
+   "hash": "936979cb12e2",
+   "updated": "2026-10-02"
   },
   "r1942": {
    "first": "2026-09-20",
@@ -1124,8 +1130,8 @@
   },
   "r2242": {
    "first": "2026-09-21",
-   "hash": "1f4219ad2fe5",
-   "updated": "2026-09-30"
+   "hash": "6b0589413d15",
+   "updated": "2026-10-02"
   },
   "r2276": {
    "first": "2026-09-23",
@@ -1329,8 +1335,8 @@
   },
   "sessa1524": {
    "first": "2026-09-18",
-   "hash": "68fcfdd231d9",
-   "updated": "2026-09-24"
+   "hash": "09ac67ba462b",
+   "updated": "2026-10-02"
   },
   "sessa1593": {
    "first": "2026-09-19",
@@ -1389,8 +1395,8 @@
   },
   "sp106r927": {
    "first": "2026-09-19",
-   "hash": "868afda3d9cd",
-   "updated": "2026-09-25"
+   "hash": "4261286e32c5",
+   "updated": "2026-10-02"
   },
   "spaen1808": {
    "first": "2026-09-21",
@@ -1564,7 +1570,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "201f58425c78",
+   "hash": "f74065b7e55e",
    "updated": "2026-10-02"
   },
   "yard1699": {
