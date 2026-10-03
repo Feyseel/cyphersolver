@@ -1,0 +1,135 @@
+{
+ "slug": "sessa1593",
+ "anchor": "reading",
+ "title": "f. 98, line 1: Miranda to Feria, \"con este achaque, que siendo confidente ... Su Magestad\"",
+ "caption": "The first cipher line of fr. 3983 no. 45 (f. 98), group by group with the 1592 office key of fr. 3995 f. 97: <i>en alla con es te · ca que que si en do con fi den te ? Su Magestad</i>, that is &ldquo;con este [a]chaque, que siendo confidente &hellip; Su Magestad&rdquo;. The group before <i>ca</i> (the ring that gives <i>cha</i>) and the one before <i>Su Magestad</i> are not resolved; <i>50T</i> is a nomenclature entry of the sheet.",
+ "unit": "groups",
+ "key_note": "Syllables of two digits, the consonant-vowel table of f. 97 (ba 10 ... zu 99); a dot after a group adds -n, ^ adds -s, a T marks a word of the nomenclature. Word spaces are added here.",
+ "tokens": [
+  {
+   "g": "n.",
+   "p": "en"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "di",
+   "p": "alla"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "16.",
+   "p": "con"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "n^",
+   "p": "es"
+  },
+  {
+   "g": "81",
+   "p": "te"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "?",
+   "p": "·",
+   "cls": "unk"
+  },
+  {
+   "g": "19",
+   "p": "ca"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "73",
+   "p": "que"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "73",
+   "p": "que"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "92",
+   "p": "si"
+  },
+  {
+   "g": "n.",
+   "p": "en"
+  },
+  {
+   "g": "21",
+   "p": "do"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "16.",
+   "p": "con"
+  },
+  {
+   "g": "27",
+   "p": "fi"
+  },
+  {
+   "g": "23.",
+   "p": "den"
+  },
+  {
+   "g": "81",
+   "p": "te"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "?5",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "50T",
+   "p": "Su Magestad",
+   "cls": "code"
+  }
+ ]
+}

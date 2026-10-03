@@ -40,5 +40,5 @@ this, and I refer myself to his prudence. I only beg him that** — when he has 
 who** … **write to give some message, if it should be** … **and to do it in such a way that it is not
 understood, because the hour that** … he will **lose much** …
 
-Code groups resolve from the office key: *hur* = **mucho**, *cer* = **manera**, *ʃes* = **causa**,
+Code groups resolve from the office key: *hur* = **mucho**, *cer* = **manera**, *ʃes* = **aviso**,
 *ra* = **lettera**, *vul* = **estados**, *vos* = **Roma**, *nor* = **negocios**.

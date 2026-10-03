@@ -10,7 +10,7 @@ Cipher and key as for no. 45: the Spanish syllabic cipher of 1592-93, read with 
 | 4 | ʃis 58^80: 45 4 49 xur dir ʒir far n. 81 76 4 vom 23 94 tim 45^ 82 55 81. | · **mostrar la alu**· · **mente en te**· **a** [legato] **de su** · **las tima ten** |
 | 5 | 31 4 ʒus pal 23 26 77 4 ʃ 4 87T feu^ 73 4. 23 80 80: 16. cos^ 80. 4 1217 290 | **go a** [seignor] · **de feria en a** · **que a de tantar con** · **tan a** · |
 | 6 | ʃ g. 16. ∆ 80. 81^ 92 12 n. 48^ 73 12 87 58^ n. vos 61 23 91 58^ 23 81 ʒ: | [en] · **constantes si bien los que bivimos en** [**Roma**] **no desemos de tear** |
-| 7 | n. 17 4 23 48 6 61 ʃ 23 48 vur ʃ 92 68: 6x ʃes 73 61 20 75 4̄ 22 4^ 62 | **encia de lo** · **no** [en] **de lo** · **si por** · [**causa**] **que no dura 4 dias ni** |
+| 7 | n. 17 4 23 48 6 61 ʃ 23 48 vur ʃ 92 68: 6x ʃes 73 61 20 75 4̄ 22 4^ 62 | **encia de lo** · **no** [en] **de lo** · **si por** · [**aviso**] **que no dura 4 dias ni** |
 | 8 | 65 90 4 48^ 94 18 93 76^ 91 40 705. 80. n̂ 80 2:22 64 77 4^ mal^ 61 56 | **pasa a los sucesores se hazen tan esta**[s] **ordinarias** · **no me** |
 | 9 | 75 87 48 73 91 2 2̃6∂19. 57 22 27 is 80 23^ n. 45 rol 23 6. vas 16. 83 21 n 93 | · **que se o**· **mi difi**· **tades en la** [**election**] **de** · [seignor] **con todo eso** |
 | 10 | n̂ nor 80. ʃ 68: 80. 81 4 45 17∆ 82 4. 24 0 73 n̂ 66 78 73 46 4 23 21 86 76 18: | **es** [**negocios**] **tan** [en] **por tante a la** · **que espero que le a de** · **favorecer** |
@@ -39,5 +39,5 @@ suits**, among those who follow; **diverse pretensions**, in each one, **if I am
 **of which they cannot be trusted**.
 
 The nomenclature groups carry the names and the political vocabulary: *vos* = **Roma**, *rol* = **election**,
-*nor* = **negocios**, *cer* = **manera**, *ʃes* = **causa**, *ʃur* = **ministro**, *far* = **mente**,
+*nor* = **negocios**, *cer* = **manera**, *ʃes* = **aviso**, *ʃur* = **ministro**, *far* = **mente**,
 *vom* = **legato**, *vas* = **seignor**. `4̄`, with the bar, is the numeral **4** itself.

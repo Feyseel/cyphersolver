@@ -2,7 +2,7 @@
 
 Catalogue no. 19 (priority 5.0, class B). Opened 19 Sept 2026.
 
-Status: read in part (see section 8). Both keys recovered - including the office's own key at BnF fr. 3995
+Status: in progress (2 Oct 2026: the full f. 97 nomenclature was added and the unresolved groups rerun, `retry_f97.md`; lines not yet transcribed remain). Read in part (see section 8). Both keys recovered - including the office's own key at BnF fr. 3995
 f. 97 - all four leaves located on the images, and all four read line by line, with a scatter of groups and
 the Feria-Mansfeld nomenclature still open. Written up as `docs/sessa1593.html`.
 
@@ -123,10 +123,10 @@ already fetches for `targets/lorraine1592/`. Folio numbers there run about canva
   *Roma* vos, *seignor* ʒus, *satisfecho* yas — plus a *Nulles* row.
 
 These are precisely the groups that stood unresolved on the leaves — *hur, cer, vul, vos, ra, ʃes, nor, xel,
-dox, nes, tas, tis, sas, pem*. `key92.tsv` now carries all of them, 133 entries in total.
+dox, nes, tas, tis, sas, pem*. `key92.tsv` carried those 40 and the syllables (133 entries). The sheet has over a hundred word entries; the rest were added on 2 Oct (202 rows).
 
 Adjacent leaves (ff. 94, 96, 98, 101) hold further Spanish keys of the same office, including the one the
-repository already identified as *"1592 Chifre d'entre le Duc de Parme et le Roy Cath[olique]"* at f. 98.
+repository already identified as *"1592 Chifre d'entre le Duc de Parme et le Roy Cath[olique]"* at f. 98. **Correction (2 Oct 2026, on a note from satorunet):** that endorsement is on the back of f. 97 (canvas 189) and labels the key of f. 97 itself, "lequel sert aussi pour le Duc de Sessa et Don Diego de Ybarre"; f. 98 is a different, French key. See `retry_f97.md`.
 
 ## 6. What remains
 
@@ -251,9 +251,9 @@ Cattolici, Concilio generale, Corte di*). It belongs to another correspondence.
 
 ## Remaining gaps
 - no. 68, f. 145 (Ibarra, 10 July 1593): the Feria-Mansfeld nomenclature (pra, dur, hes, gar, pun, rom, mon, xen, vul, cil) - blocker: no-key-material; Tomokiyo tabulates none, and fr. 3995 f. 101 was checked and is an Italian nomenclature of another correspondence
-- no. 47, f. 108: the unglossed and faint later lines - blocker: not-attempted; the office key applies, only lines 2-13 were read
-- no. 45, f. 98: 2 of 17 lines and scattered unresolved groups - blocker: not-attempted; key complete (fr. 3995 f. 97), unresolved groups not rerun
-- no. 79, f. 162: 2 of 16 lines and scattered unresolved groups - blocker: not-attempted; as for no. 45
+- no. 47, f. 108: the unglossed and faint later lines (line 14 on) - blocker: not-attempted; the office key applies, only lines 2-13 were read, and the glosses fade (marginal contrast)
+- no. 45, f. 98: lines 16-17 not transcribed, and about 40 unresolved groups (the 2 Oct rerun resolved 4) - blocker: not-attempted; key complete (fr. 3995 f. 97)
+- no. 79, f. 162: two lines not transcribed, and about 50 unresolved groups (the rerun resolved 8) - blocker: not-attempted; as for no. 45
 - symbol-alphabet variants still unresolved in nos. 45/47/79 - blocker: open-codes; forms not yet matched to the office key's alphabet
 
 ## Escalation
@@ -261,5 +261,5 @@ Cattolici, Concilio generale, Corte di*). It belongs to another correspondence.
 - [x] clear-pages: no. 47's interlinear decipherment used as control; no. 68's clear opening read
 - [x] known-keys: Tomokiyo 1592-93, Feria-Mansfeld, Ibarra-Doria, Ibarra-Zuniga keys; DECODE R4076/R4077 = fr. 3995 ff. 94-97
 - [x] print: Tomokiyo spanish3.htm; BnF notices for fr. 3983/3984
-- [ ] key-rebuild: not done — rebuild the Feria-Mansfeld nomenclature from no. 68 and fr. 3984 f. 130 (Tomokiyo's other citation), and look for the Mansfeld key elsewhere in fr. 3995
-- [ ] retry: not done — rerun every unresolved group in reading45/79/47 against the 133-entry key92.tsv and read the remaining lines of no. 47
+- [x] key-rebuild: the office key's nomenclature re-read from f. 97 (70 entries added, one revised, the rule sheet read; `retry_f97.md`); the Feria-Mansfeld nomenclature of no. 68 is still not rebuilt (no key material, above)
+- [x] retry: every unresolved group of the transcribed rows rerun against the extended key92.tsv: 13 resolved, 1 corrected, 1 reassigned (`retry_f97.md`); the lines never transcribed (no. 45 L16-17, no. 79 two lines, no. 47 L14 on) are not yet read
