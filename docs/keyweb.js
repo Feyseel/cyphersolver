@@ -1,92 +1,131 @@
-// The Key Web: keys.json + pages.json as a force-directed graph, letters pulled towards their year on the x axis.
+// The Key Web: keys.json + pages.json. Keys that read several letters on a timeline, one-letter keys as cards,
+// keys tried and ruled out as a list; one key card, filters, and a link per key (keys.html#k-balbases).
 (async()=>{
-  const root=document.getElementById('kw'); if(!root || !window.d3) return;
-  const still=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const tl=document.getElementById('tl'); if(!tl) return;
   const [K,pages]=await Promise.all([fetch('keys.json').then(r=>r.json()),fetch('pages.json').then(r=>r.json())]);
   const page=Object.fromEntries(pages.map(p=>[p.slug,p]));
   const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-  const W=1000,H=820;
+  const BANDS=[['period','Keys of the period','surviving in the archives or on DECODE'],['scholar',"Scholars' keys",'recovered or published by others'],['here','Rebuilt here','recovered by this project']];
+  const band=k=>k.kind==="scholar's key"?'scholar':k.kind==='rebuilt here'?'here':'period';
+  const EDGES=[['rebuilt','rebuilt from',h=>/rebuilt/.test(h)],['unchanged','read unchanged',h=>/unchanged|explained/.test(h)],
+               ['adapted','adapted',h=>/adapt/.test(h)],['partial','partial',h=>/partial/.test(h)],['tried','tried, did not fit',h=>h==='tried']];
+  const ecls=h=>(EDGES.find(e=>e[2](h))||EDGES[1])[0];
 
-  const nodes=[], byId={};
-  const add=n=>{ byId[n.id]=n; nodes.push(n); return n; };
-  K.keys.forEach(k=>add({...k,type:'key'}));
-  (K.sources||[]).forEach(s=>add({...s,type:'src'}));
-  const links=[];
-  for(const l of K.links){ const p=page[l.target]; if(!p || !byId[l.key]) continue;
-    const t=byId['t:'+l.target]||add({id:'t:'+l.target,type:'t',slug:l.target,label:p.label,y:p.y,st:p.st,stt:p.stt});
-    links.push({source:l.key,target:t.id,how:l.how||'',note:l.note||''}); }
-  for(const l of (K.source_links||[])) if(byId[l.source] && byId[l.key]) links.push({source:l.source,target:l.key,how:'src'});
-  // keys sit at the mean year of their letters; sources at the mean of their keys
-  const deg={}; links.forEach(l=>{ deg[l.source]=(deg[l.source]||0)+1; deg[l.target]=(deg[l.target]||0)+1; });
-  nodes.forEach(n=>{ n.deg=deg[n.id]||0; });
-  const years=id=>links.filter(l=>l.source===id && byId[l.target].type==='t').map(l=>byId[l.target].y);
-  K.keys.forEach(k=>{ const n=byId[k.id], ys=years(k.id); n.y0=ys.length?d3.mean(ys):(k.year||1600); });
-  (K.sources||[]).forEach(s=>{ const ks=links.filter(l=>l.source===s.id).map(l=>byId[l.target].y0); byId[s.id].y0=ks.length?d3.mean(ks):1600; });
-  nodes.forEach(n=>{ if(n.type==='t') n.y0=n.y; });
-  const yr=d3.extent(nodes,n=>n.y0), x=d3.scaleLinear().domain([Math.floor(yr[0]/50)*50,Math.ceil(yr[1]/50)*50]).range([60,W-60]);
-  nodes.forEach(n=>{ n.x=x(n.y0)+(Math.random()-.5)*20; n.y=H/2+(Math.random()-.5)*300; });
+  // the model: one record per key, its read edges and its tried edges
+  const keys=K.keys.map(k=>({...k,band:band(k),reads:[],tried:[],srcs:[]})), byId=Object.fromEntries(keys.map(k=>[k.id,k]));
+  const srcById=Object.fromEntries((K.sources||[]).map(s=>[s.id,s]));
+  (K.source_links||[]).forEach(l=>{ if(byId[l.key]&&srcById[l.source]) byId[l.key].srcs.push(srcById[l.source].label); });
+  const letter=slug=>{ const p=page[slug]; return p&&{slug,label:p.label,y:typeof p.y==='number'?p.y:null,st:p.st,stt:p.stt}; };
+  K.links.forEach(l=>{ const k=byId[l.key], t=letter(l.target); if(k&&t) k.reads.push({...t,how:l.how,note:l.note||'',e:ecls(l.how)}); });
+  (K.tried||[]).forEach(l=>{ const k=byId[l.key], t=letter(l.target); if(k&&t) k.tried.push({...t,how:'tried',note:l.note||'',e:'tried'}); });
+  keys.forEach(k=>{ k.reads.sort((a,b)=>(a.y??0)-(b.y??0)); k.letters=new Set(k.reads.map(r=>r.slug)).size;
+    k.hay=[k.id,k.label,k.by,k.kind,k.note,k.year,k.found,...k.srcs,...[...k.reads,...k.tried].flatMap(r=>[r.slug,r.label,r.note])].join(' ').toLowerCase(); });
+  const multi=keys.filter(k=>k.letters>=2), single=keys.filter(k=>k.letters===1);
+  const triedOnly=keys.filter(k=>!k.letters&&k.tried.length);
 
-  const svg=d3.select(root).insert('svg',':first-child').attr('viewBox',`0 0 ${W} ${H}`).attr('role','img')
-    .attr('aria-label','Network of cipher keys and the letters they read');
-  const ax=svg.append('g').attr('class','axis');
-  x.ticks(8).forEach(t=>{ ax.append('line').attr('x1',x(t)).attr('x2',x(t)).attr('y1',20).attr('y2',H-34);
-    ax.append('text').attr('x',x(t)).attr('y',H-18).attr('text-anchor','middle').text(t); });
-  const g=svg.append('g');
-  const cls=h=>'lk '+(h==='src'?'src':/rebuilt/.test(h)?'rebuilt':/adapt/.test(h)?'adapted':/partial/.test(h)?'partial':'');
-  const lk=g.append('g').selectAll('path').data(links).join('path').attr('class',l=>cls(l.how));
-  const reads=n=>links.filter(l=>(l.source===n.id||l.target===n.id) && l.how!=='src').length;
-  const nd=g.append('g').selectAll('g').data(nodes).join('g').attr('class',n=>'nd '+n.type+(n.st?' '+n.st:'')+(n.type==='key'&&reads(n)<2?' lone':'')+(n.type==='t'&&reads(n)>=2?' multi':''))
-    .attr('tabindex',0).attr('role','button').attr('aria-label',n=>n.label);
-  const KEYPATH='M-3,-2.5a4.5,4.5 0 1,1 0,5h10l2,-2.5l-2,-2.5z';          // a small key: bow and blade
-  nd.filter(n=>n.type==='key').append('path').attr('d',KEYPATH).attr('transform',n=>`scale(${1.15+Math.min(n.deg,6)*.22})`);
-  nd.filter(n=>n.type==='src').append('circle').attr('r',n=>8+Math.sqrt(n.deg)*2.2);
-  nd.filter(n=>n.type==='t').append('circle').attr('r',n=>4+Math.min(n.deg,4));
-  nd.append('text').attr('dy',n=>n.type==='t'?'-.8em':n.type==='src'?'2.2em':'1.9em').attr('text-anchor','middle')
-    .text(n=>n.type==='t'?n.label.replace(/\s*\(.*?\)\s*/g,' ').trim():n.label);
+  // stats
+  const lset=new Set(keys.flatMap(k=>k.reads.map(r=>r.slug))), ntried=keys.reduce((s,k)=>s+k.tried.length,0);
+  document.getElementById('kwstats').innerHTML=[[keys.filter(k=>k.letters).length,'keys that read a letter'],[lset.size,'letters and series read with them'],
+    [multi.length,'keys that read more than one'],[keys.filter(k=>k.band==='here'&&k.letters).length,'keys rebuilt here'],[ntried,'tests of a key that did not fit']]
+    .map(([n,t])=>`<span><b>${n}</b>${t}</span>`).join('');
 
-  const sim=d3.forceSimulation(nodes)
-    .force('link',d3.forceLink(links).id(n=>n.id).distance(l=>l.how==='src'?90:46).strength(l=>l.how==='src'?.15:.7))
-    .force('charge',d3.forceManyBody().strength(n=>n.type==='t'?-70:-220))
-    .force('x',d3.forceX(n=>x(n.y0)).strength(n=>n.type==='src'?.02:.22))
-    .force('y',d3.forceY(H/2).strength(.06))
-    .force('collide',d3.forceCollide(n=>n.type==='t'?16:26));
-  const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
-  function tick(){
-    nodes.forEach(n=>{ n.x=clamp(n.x,30,W-30); n.y=clamp(n.y,30,H-50); });
-    lk.attr('d',l=>{ const dx=l.target.x-l.source.x, dy=l.target.y-l.source.y, dr=Math.hypot(dx,dy)*1.6;
-      return `M${l.source.x},${l.source.y}A${dr},${dr} 0 0,1 ${l.target.x},${l.target.y}`; });
-    nd.attr('transform',n=>`translate(${n.x},${n.y})`);
+  let showAll=false;
+  document.getElementById('triedlist').insertAdjacentHTML('afterend','<button type="button" class="kw-chip" id="triedmore" hidden></button>');
+  document.getElementById('triedmore').addEventListener('click',()=>{ showAll=true; render(); });
+  // filter state
+  const st={q:'',bands:new Set(BANDS.map(b=>b[0])),edges:new Set(EDGES.map(e=>e[0]))};
+  const chips=(el,list,set,cls)=>{ el.innerHTML=list.map(([id,label])=>`<button type="button" class="kw-chip ${cls(id)}" data-v="${id}" aria-pressed="true">${cls(id).startsWith('e-')?'<i></i>':''}${esc(label)}</button>`).join('');
+    el.addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return; const v=b.dataset.v;
+      set.has(v)?set.delete(v):set.add(v); b.setAttribute('aria-pressed',set.has(v)); render(); }); };
+  chips(document.getElementById('kwband'),BANDS,st.bands,id=>'b-'+id);
+  chips(document.getElementById('kwedge'),EDGES,st.edges,id=>'e-'+id);
+  const q=document.getElementById('kwq'); q.addEventListener('input',()=>{ st.q=q.value.trim().toLowerCase(); render(); });
+  const match=k=>st.bands.has(k.band)&&(!st.q||st.q.split(/\s+/).every(w=>k.hay.includes(w)));
+  const edgesOf=k=>[...k.reads,...k.tried].filter(r=>st.edges.has(r.e));
+
+  // timeline geometry
+  const ys=multi.flatMap(k=>[...k.reads,...k.tried].map(r=>r.y).concat(k.year||[])).filter(y=>y!=null);
+  const y0=Math.floor(Math.min(...ys)/25)*25, y1=Math.ceil(Math.max(...ys)/25)*25, pct=y=>((y-y0)/(y1-y0)*100).toFixed(2)+'%';
+  const step=(y1-y0)>300?50:25;
+  document.getElementById('tlgrid').innerHTML=Array.from({length:Math.floor((y1-y0)/step)+1},(_,i)=>y0+i*step)
+    .map(y=>`<span style="left:${pct(y)}"><b>${y}</b></span>`).join('');
+  const dot=(r,cls)=>`<a class="dot ${r.e==='tried'?'tried':esc(r.st||'')} h-${r.e}${cls||''}" href="${r.slug}.html" style="left:${pct(r.y)};top:var(--t)"
+      aria-label="${esc(r.label)}: ${esc(r.how)}" title="${esc(r.label)}${r.y!=null?' ('+Math.floor(r.y)+')':''} · ${esc(r.how)}${r.note?' · '+esc(r.note):''}"></a>`;
+  // letters of the same years sit side by side: each dot at its date, pushed right just enough to clear the one before
+  let W=600; const GAP=14, px=y=>(y-y0)/(y1-y0)*W;
+  function row(k){
+    const es=edgesOf(k).filter(r=>r.y!=null).sort((a,b)=>a.y-b.y); let last=-1e9;
+    const placed=es.map(r=>{ const x=Math.max(px(r.y),last+GAP); last=x; return {r,x}; });
+    const ry=k.reads.map(r=>r.y).filter(y=>y!=null);
+    const xs=placed.map(p=>p.x).concat(k.year?[px(k.year)]:[]), lo=Math.min(...xs), hi=Math.max(...xs);
+    const dots=placed.map(({r,x})=>dot(r).replace(`left:${pct(r.y)}`,`left:${x.toFixed(1)}px`).replace('var(--t)','50%')).join('');
+    const km=k.year&&ry.length&&(k.year<Math.min(...ry)-2||k.year>Math.max(...ry)+2)?`<i class="kmark" style="left:${px(k.year).toFixed(1)}px" title="key dated ${k.year}"></i>`:'';
+    return `<div class="row" id="row-${esc(k.id)}" data-id="${esc(k.id)}"><button class="rl" type="button" data-key="${esc(k.id)}">${esc(k.label)}<small>${k.letters} letters${k.tried.length?` · ${k.tried.length} tried`:''}${k.by&&k.band!=='here'?' · '+esc(k.by):''}</small></button>
+      <div class="track"><span class="span" style="left:${lo.toFixed(1)}px;width:${(hi-lo).toFixed(1)}px"></span>${km}${dots}</div></div>`;
   }
-  sim.on('tick',tick);
-  if(still){ sim.stop(); for(let i=0;i<300;i++) sim.tick(); tick(); }
+  const card=k=>{ const r=k.reads[0];
+    return `<div class="kc b-${k.band}" id="card-${esc(k.id)}">${k.image?`<img class="thumb" src="${esc(k.image.src)}" alt="" loading="lazy">`:''}
+      <button type="button" data-key="${esc(k.id)}">${esc(k.label)}</button>
+      <a class="to" href="${r.slug}.html">&rarr; ${esc(r.label)}</a><small>${esc(r.how)}${r.y!=null?' · '+Math.floor(r.y):''} · ${esc(r.stt)}${k.tried.length?` · also tried on ${k.tried.length}`:''}</small></div>`; };
 
-  // drag
-  nd.call(d3.drag().on('start',(e,n)=>{ if(!e.active) sim.alphaTarget(.2).restart(); n.fx=n.x; n.fy=n.y; })
-    .on('drag',(e,n)=>{ n.fx=e.x; n.fy=e.y; }).on('end',(e,n)=>{ if(!e.active) sim.alphaTarget(0); n.fx=null; n.fy=null; }));
-
-  // focus: a node, its links and neighbours
-  const side=document.getElementById('kwside'), idle=side.innerHTML;
-  const nb=n=>links.filter(l=>l.source===n||l.target===n);
-  function focus(n){
-    root.classList.toggle('focus',!!n);
-    if(!n){ nd.classed('hot',false); lk.classed('hot',false); side.innerHTML=idle; return; }
-    const ls=nb(n), set=new Set([n]); ls.forEach(l=>{ set.add(l.source); set.add(l.target); });
-    nd.classed('hot',d=>set.has(d)); lk.classed('hot',l=>ls.includes(l));
-    const item=(o,l)=>o.type==='t'?`<li><a href="${o.slug}.html">${esc(o.label)}</a><small>${esc(l.how)}${l.note?' &middot; '+esc(l.note):''} &middot; ${esc(o.stt)}</small></li>`
-                                   :`<li><b>${esc(o.label)}</b><small>${esc(l.how==='src'?'published or held by':l.how)}${l.note?' &middot; '+esc(l.note):''}</small></li>`;
-    const other=l=>l.source===n?l.target:l.source;
-    if(n.type==='key') side.innerHTML=`<p class="k">Key &middot; ${esc(n.kind||'')}</p><h3>${esc(n.label)}</h3>${n.by?`<p>${esc(n.by)}${n.year?', '+n.year:''}</p>`:''}<p>${esc(n.note||'')}</p>
-      <ul>${ls.filter(l=>l.how!=='src').map(l=>item(other(l),l)).join('')}</ul>`;
-    else if(n.type==='src') side.innerHTML=`<p class="k">Source</p><h3>${esc(n.label)}</h3><ul>${ls.map(l=>`<li><b>${esc(other(l).label)}</b><small>${other(l).deg-1} letter${other(l).deg===2?'':'s'}</small></li>`).join('')}</ul>`;
-    else side.innerHTML=`<p class="k">Letter &middot; ${esc(n.stt)}</p><h3><a href="${n.slug}.html">${esc(n.label)}</a></h3><p>Read with:</p><ul>${ls.map(l=>item(other(l),l)).join('')}</ul>`;
+  function render(){
+    let shown=0;
+    const g=document.getElementById('tlgrid').getBoundingClientRect(); W=Math.max(200,g.width);
+    // timeline
+    const tb=BANDS.map(([b,label,sub])=>{ const ks=multi.filter(k=>k.band===b&&match(k)&&edgesOf(k).length).sort((a,b)=>(a.reads[0].y??0)-(b.reads[0].y??0));
+      shown+=ks.length; return ks.length?`<section class="band b-${b}"><h3>${label} <span>· ${sub}</span></h3>${ks.map(row).join('')}</section>`:''; }).join('');
+    tl.querySelectorAll('.band,.tl-empty').forEach(e=>e.remove());
+    tl.insertAdjacentHTML('beforeend',tb||'<p class="tl-empty">No key that read several letters matches.</p>');
+    // one-letter keys
+    const cs=BANDS.map(([b,label])=>{ const ks=single.filter(k=>k.band===b&&match(k)&&k.reads.some(r=>st.edges.has(r.e))).sort((a,b)=>(a.reads[0].y??0)-(b.reads[0].y??0));
+      shown+=ks.length; return ks.length?`<p class="cards-h b-${b}">${label} · ${ks.length}</p><div class="cards">${ks.map(card).join('')}</div>`:''; }).join('');
+    document.getElementById('singles').innerHTML=cs||'<p class="tl-empty">No one-letter key matches.</p>';
+    // ruled out, grouped by letter
+    const byT={};
+    if(st.edges.has('tried')) keys.filter(k=>match(k)).forEach(k=>k.tried.forEach(t=>(byT[t.slug]=byT[t.slug]||{t,ks:[]}).ks.push({k,note:t.note})));
+    const all=Object.values(byT).sort((a,b)=>(a.t.y??0)-(b.t.y??0)), filtered=st.q||st.bands.size<BANDS.length;
+    const tg=showAll||filtered?all:all.slice(0,12);
+    document.getElementById('triedmore').hidden=tg.length===all.length;
+    document.getElementById('triedmore').textContent=`Show all ${all.length} letters`;
+    shown+=triedOnly.filter(k=>match(k)&&st.edges.has('tried')).length;
+    document.getElementById('triedlist').innerHTML=tg.map(({t,ks})=>`<li><div class="tgt"><a href="${t.slug}.html">${esc(t.label)}</a><small>${t.y!=null?Math.floor(t.y)+' · ':''}${esc(t.stt)}</small></div>
+      <ul>${ks.map(({k,note})=>`<li><button type="button" class="kn" data-key="${esc(k.id)}">${esc(k.label)}</button>${note?' — '+esc(note):''}</li>`).join('')}</ul></li>`).join('')
+      ||'<li class="tl-empty">No ruled-out key matches.</li>';
+    document.getElementById('kwcount').textContent=`${shown} of ${keys.length} keys`;
+    if(cur) mark(cur);
   }
-  let pinned=null;
-  nd.on('pointerenter',(e,n)=>{ if(!pinned) focus(n); }).on('pointerleave',()=>{ if(!pinned) focus(null); })
-    .on('focus',(e,n)=>focus(n))
-    .on('click',(e,n)=>{ if(n.type==='t' && pinned===n){ location.href=n.slug+'.html'; return; } pinned=pinned===n?null:n; focus(pinned||n); })
-    .on('keydown',(e,n)=>{ if(e.key==='Enter' && n.type==='t') location.href=n.slug+'.html'; });
-  svg.on('click',e=>{ if(e.target===svg.node()){ pinned=null; focus(null); } });
 
-  const multi=K.keys.filter(k=>links.filter(l=>l.source===byId[k.id] && l.how!=='src').length>=2).length, tset=nodes.filter(n=>n.type==='t').length;
-  document.getElementById('kwstats').innerHTML=`<span><b>${K.keys.length}</b>keys</span><span><b>${tset}</b>letters and series read with them</span><span><b>${multi}</b>keys that read more than one</span>`;
+  // the key card
+  const side=document.getElementById('kwside'), cardEl=document.getElementById('kwcard'), idle=cardEl.innerHTML;
+  let cur=null;
+  const decode=k=>{ const m=(k.kind==='DECODE key record')&&(k.label.match(/\bR(\d{2,5})\b/)||k.id.match(/^k-r(\d{2,5})$/)); return m?`https://de-crypt.org/decrypt-web/RecordsView/${m[1]}`:null; };
+  const li=r=>`<li><a href="${r.slug}.html">${esc(r.label)}</a><small>${esc(r.how)}${r.note?' · '+esc(r.note):''}${r.y!=null?' · '+Math.floor(r.y):''} · ${esc(r.stt)}</small></li>`;
+  function mark(id){ document.querySelectorAll('.row.sel,.kc.sel').forEach(e=>e.classList.remove('sel'));
+    document.querySelectorAll(`#row-${CSS.escape(id)},#card-${CSS.escape(id)}`).forEach(e=>e.classList.add('sel')); }
+  function show(id,{scroll=false,push=true}={}){
+    const k=byId[id];
+    if(!k){ cur=null; cardEl.innerHTML=idle; side.classList.remove('open'); mark(''); if(push) history.replaceState(null,'',location.pathname); return; }
+    cur=id; mark(id);
+    const bl=BANDS.find(b=>b[0]===k.band)[1], dl=decode(k);
+    cardEl.innerHTML=`<p class="k">${esc(k.kind)} · ${bl}</p><h3>${esc(k.label)}</h3>
+      <p class="by">${[k.by,k.year&&('key of '+k.year),k.found&&((k.band==='scholar'?'published ':'found ')+k.found)].filter(Boolean).map(esc).join(' · ')}${k.srcs.length?'<br>Held or published by '+k.srcs.map(esc).join(', '):''}</p>
+      ${k.image?`<figure data-credit="${esc(k.image.credit)}"><a href="${esc(k.image.page)}.html"><img src="${esc(k.image.src)}" alt="${esc(k.image.caption||k.label)}" loading="lazy"></a><figcaption>${esc((k.image.caption||'').slice(0,160))}${(k.image.caption||'').length>160?'…':''} <span class="credit">Image: ${esc(k.image.credit)}</span></figcaption></figure>`:''}
+      <p>${esc(k.note)}</p>
+      ${k.reads.length?`<h4>Read ${k.letters} letter${k.letters>1?'s':''}</h4><ul>${k.reads.map(li).join('')}</ul>`:''}
+      ${k.tried.length?`<h4>Tried, did not fit</h4><ul>${k.tried.map(li).join('')}</ul>`:''}
+      <div class="acts"><button type="button" data-copy>Copy link</button>${dl?`<a href="${dl}" rel="noopener">DECODE record &#8599;</a>`:''}</div>`;
+    side.classList.add('open'); side.scrollTop=0;
+    if(push) history.replaceState(null,'','#'+id);
+    if(scroll){ const el=document.getElementById('row-'+id)||document.getElementById('card-'+id); el&&el.scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}); }
+  }
+  document.addEventListener('click',e=>{
+    const b=e.target.closest('[data-key]'); if(b){ show(b.dataset.key); return; }
+    if(e.target.closest('[data-copy]')){ const u=location.href; (navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>{ e.target.textContent='Link copied'; },()=>prompt('Link to this key',u)); }
+  });
+  side.querySelector('.x').addEventListener('click',()=>show(null));
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&cur&&!document.querySelector('#search:not([hidden])')) show(null); });
+  const fromHash=()=>{ const h=decodeURIComponent(location.hash.slice(1)); if(h.startsWith('q=')){ q.value=h.slice(2); st.q=h.slice(2).toLowerCase(); render(); } else if(byId[h]) show(h,{scroll:true,push:false}); };
+  window.addEventListener('hashchange',fromHash);
+  let rz; window.addEventListener('resize',()=>{ clearTimeout(rz); rz=setTimeout(()=>{ const w=document.getElementById('tlgrid').getBoundingClientRect().width; if(Math.abs(w-W)>4) render(); },150); });
+  render(); setTimeout(fromHash,60);   // after the layout settles, or the scroll to the row lands short
 })();

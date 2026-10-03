@@ -2108,6 +2108,32 @@ def write_steps():
         STEPS.add(slug)
     return len(STEPS)
 
+KEY_KINDS = {'contemporary key', 'archive key', 'DECODE key record', "scholar's key", 'rebuilt here'}
+KEY_HOWS = {'read unchanged', 'adapted', 'rebuilt from', 'partial', 'explained'}
+
+def check_keys(meta):
+    """docs/keys.json, the key web: every edge points at a key and a page that exist, kinds and edge types from fixed lists."""
+    kw = json.loads((HERE / 'keys.json').read_text(encoding='utf-8'))
+    slugs, errs = {m['slug'] for m in meta}, []
+    ids = [k['id'] for k in kw['keys']] + [s['id'] for s in kw.get('sources', [])]
+    errs += [f'duplicate id {i}' for i in sorted({i for i in ids if ids.count(i) > 1})]
+    for k in kw['keys']:
+        if k.get('kind') not in KEY_KINDS: errs.append(f"{k['id']}: kind {k.get('kind')!r} not in {sorted(KEY_KINDS)}")
+        if '&' in k.get('label', '') and ';' in k['label']: errs.append(f"{k['id']}: HTML entity in label (write plain text)")
+        im = k.get('image')
+        if im and (not (HERE / im['src']).exists() or not im.get('credit')): errs.append(f"{k['id']}: image missing or uncredited")
+    for kind, rows in (('link', kw['links']), ('tried', kw.get('tried', []))):
+        for l in rows:
+            if l['key'] not in ids: errs.append(f"{kind} {l['key']} -> {l['target']}: no such key")
+            if l['target'] not in slugs: errs.append(f"{kind} {l['key']} -> {l['target']}: no page {l['target']}.html")
+            if kind == 'link' and l.get('how') not in KEY_HOWS: errs.append(f"link {l['key']} -> {l['target']}: how {l.get('how')!r}")
+    for l in kw.get('source_links', []):
+        if l['source'] not in ids or l['key'] not in ids: errs.append(f"source link {l['source']} -> {l['key']}: no such node")
+    linked = {l['target'] for l in kw['links']}
+    errs += [f'unlinked {t} also has a key link' for t in kw.get('unlinked', {}) if t in linked]
+    if errs: raise SystemExit('docs/keys.json:\n  ' + '\n  '.join(errs))
+    return len(kw['keys']), len(kw['links']), len(kw.get('tried', []))
+
 if __name__ == '__main__':
     print('solution replays:', write_steps())
     for f in sorted(HERE.glob('*.html')):      # date every page before any menu is built: the menu lists the newest
@@ -2122,6 +2148,7 @@ if __name__ == '__main__':
                  **({'people': [{k: q[k] for k in ('role', 'name', 'img')} for q in PORTRAITS[p['slug']]]} if PORTRAITS.get(p['slug']) else {}))
             for p in PAGES if p['slug'] not in SURVEYS]
     (HERE / 'pages.json').write_text(json.dumps(meta, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    print('key web: %d keys, %d links, %d tried' % check_keys(meta))
     print('built', ', '.join(done))
 IMAGES['bordeaux1653'] = ('bordeaux1653_f88r_opening.jpg', 'Add MS 4200 f. 88r: clear opening, then the first cipher lines', 'British Library, Add MS 4200 f. 88r, via DECODE R8390')
 IMAGES['segur'] = ('segur_f233_lines.jpg', 'F. 233, October 1585: clear French running into dotted figures, capituler et conclure promptement&hellip;', 'Biblioth&egrave;que nationale de France, Cinq cents de Colbert 401 f. 233, via Gallica')

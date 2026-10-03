@@ -186,9 +186,17 @@ three are data files you edit by hand; each is a few lines, and skipping one lea
 - **Key web** (`docs/keys.json`): when a named key read this target (a sibling's key, a DECODE key record, Lasry's or
   Tomokiyo's table, a key rebuilt here), add a `links` entry `{"key", "target": "<slug>", "how": "read unchanged" |
   "adapted" | "rebuilt from" | "partial", "note"}`, and a `keys` entry `{"id": "k-…", "label", "kind", "by", "year",
-  "note"}` if the key is new. Only edges the NOTES state explicitly. When no named key read it (read from a
-  contemporary decipherment, key rebuilt from its own text only, key not identified), record that instead as
+  "note"}` if the key is new. Only edges the NOTES state explicitly. A key rebuilt here, even from the target's own
+  text only, or recovered by an outside solver, is a key: give it a node (`"kind": "rebuilt here"` or `"scholar's key"`)
+  and a `"rebuilt from"` edge, so a later letter read with it can link to it. Only when there is no key at all (read
+  from a contemporary decipherment with no values rebuilt, key not identified, not a cipher) record it as
   `"unlinked": {"<slug>": "<reason>"}`; `_check_writeup.py` warns until one or the other is there.
+  `kind` is one of `contemporary key`, `archive key`, `DECODE key record`, `scholar's key`, `rebuilt here`; labels are
+  plain text (no HTML entities); `year` is the year the key was in use, and a scholar's publication year goes in
+  `found`. Optional `"image": {"src", "credit", "caption", "page"}` puts a picture of the key on its card (credit
+  required). Every named key the NOTES say was tested and did not fit goes in `"tried": [{"key", "target", "note"}]`
+  (add the key node if it is new). `_build_site.py` fails the build on an unknown kind or edge type, a missing key or
+  page, an uncredited image, or a target both linked and unlinked.
 - **Zoom overlay** (`docs/zoom/<image name>.json`, optional): every figure image already opens in the deep-zoom viewer
   (`zoom.js`). To lay the transcription over a line crop, give `{"image", "source", "lines": [{"x", "y", "w", "h",
   "text", "gloss"}]}` with the box in fractions of the image, placed by looking at the image; `text` from the repo's

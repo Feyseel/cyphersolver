@@ -4,7 +4,7 @@
    "id": "k-balbases",
    "label": "Balbases key (SEG 2559)",
    "kind": "rebuilt here",
-   "by": "",
+   "by": "this project",
    "year": 1677,
    "note": "Rebuilt from the ten margined letters of Balbases, then read the rest of the series unchanged."
   },
@@ -12,7 +12,7 @@
    "id": "k-r1892",
    "label": "Orange 6x6 digit-pair square",
    "kind": "rebuilt here",
-   "by": "",
+   "by": "this project",
    "year": 1795,
    "note": "Broken ciphertext-only on R1892, then read R2242 unchanged."
   },
@@ -54,7 +54,13 @@
    "kind": "DECODE key record",
    "by": "",
    "year": 1801,
-   "note": "Wolff/Wilhelmina key, the record after the letter."
+   "note": "Wolff/Wilhelmina key, the record after the letter.",
+   "image": {
+    "src": "r2232_key.jpg",
+    "credit": "Koninklijk Huisarchief, The Hague, Wilhelmina Prinses van Pruisen (A32) inv. 192, via DECODE R2233",
+    "caption": "DECODE R2233, the key sent with Wolff’s letter of 8 September 1801. Row 1 = 0 ⅛ ¼ ½, row 5 = 1 2 3 4, row 15 = a b c d, row 45 = i o u a. Image: Koninklijk Huisarchief, The Hague, Wilhelmina Prinses van Pruisen (A32) inv. 192, via DECODE R2233.",
+    "page": "r2232"
+   }
   },
   {
    "id": "k-r2235",
@@ -62,7 +68,13 @@
    "kind": "DECODE key record",
    "by": "",
    "year": 1796,
-   "note": "Five alphabets, changing every line."
+   "note": "Five alphabets, changing every line.",
+   "image": {
+    "src": "r2234_key.jpg",
+    "credit": "Koninklijk Huisarchief, The Hague, Prins Willem V inv. 339, via DECODE R2235",
+    "caption": "DECODE R2235, the Schrijf Tafel: five enciphering alphabets. Image: Koninklijk Huisarchief, The Hague, Prins Willem V inv. 339, via DECODE R2235.",
+    "page": "r2234"
+   }
   },
   {
    "id": "k-r2118",
@@ -70,7 +82,13 @@
    "kind": "DECODE key record",
    "by": "",
    "year": 1620,
-   "note": "Key filed in the same DECODE series as Haga's letters."
+   "note": "Key filed in the same DECODE series as Haga's letters.",
+   "image": {
+    "src": "haga1620_key_alphabet.jpg",
+    "credit": "Nationaal Archief, The Hague, key sheet (alphabet a–l), via DECODE R2118",
+    "caption": "The key, DECODE R2118: a–l. a is written φ, b K, c an 8-like sign, d ℓ, e 7, f o, g x, h 9, i an ε-like sign, k ω, l a looped 2. Image: Nationaal Archief, The Hague, key sheet (alphabet a–l), via DECODE R2118.",
+    "page": "haga1620"
+   }
   },
   {
    "id": "k-r2237",
@@ -94,7 +112,13 @@
    "kind": "DECODE key record",
    "by": "",
    "year": 1720,
-   "note": "Two keys named on the DECODE record; each reads different letters."
+   "note": "Two keys named on the DECODE record; each reads different letters.",
+   "image": {
+    "src": "windischgraetz1720_key5018.jpg",
+    "credit": "Státní oblastní archiv v Plzni, Rodinný archiv Windischgrätzů, key sheet, via DECODE R5018",
+    "caption": "Key R5018, the top of the sheet: each letter with its number, its sign and, for the vowels, a second number. The nomenclature columns begin below. Image: Státní oblastní archiv v Plzni, Rodinný archiv Windischgrätzů, key sheet, via DECODE R5018.",
+    "page": "windischgraetz1720"
+   }
   },
   {
    "id": "k-mirka",
@@ -262,7 +286,13 @@
    "kind": "scholar's key",
    "by": "Satoshi Tomokiyo",
    "year": 1563,
-   "note": "Reconstructed key image CharlesIX_Rennes."
+   "note": "Reconstructed key image CharlesIX_Rennes.",
+   "image": {
+    "src": "rennes1563_key.jpg",
+    "credit": "S. Tomokiyo, Cryptiana (his reconstruction of the Bishop of Rennes’ cipher, 1561–1564)",
+    "caption": "S. Tomokiyo’s reconstruction of the cipher, built from the letters of Cinq cents Colbert 390 and BnF français 3158 f. 1 that carry decipherments. The bottom rows are the word-signs and the nulls. Image: S. Tomokiyo, Cryptiana (his reconstruction of the Bishop of Rennes’ cipher, 1561–1564).",
+    "page": "rennes1563"
+   }
   },
   {
    "id": "k-tomokiyo-pelissier",
@@ -286,7 +316,13 @@
    "kind": "scholar's key",
    "by": "Satoshi Tomokiyo",
    "year": 1529,
-   "note": "Francis I cipher table."
+   "note": "Francis I cipher table.",
+   "image": {
+    "src": "raince_key.png",
+    "credit": "Drawn here from S. Tomokiyo’s key table, Cryptiana, “French Ciphers during the Reign of Francis I” (2020)",
+    "caption": "Every glyph cut out of the key image and labelled by the column it measures into. Three homophones for a and u/v, four for e, three for i,\ntwo each for l, o, p, r and s; no glyph at all for x; three nulls. Image: Drawn here from S. Tomokiyo’s key table, Cryptiana, “French Ciphers during the Reign of",
+    "page": "raince"
+   }
   },
   {
    "id": "k-tomokiyo-clair",
@@ -301,22 +337,24 @@
    "label": "Somogyi's 1489 key",
    "kind": "scholar's key",
    "by": "Judit W. Somogyi",
-   "year": 2016,
-   "note": "Numeric key, re-anchored to signs here."
+   "note": "Numeric key, re-anchored to signs here.",
+   "found": 2016,
+   "year": null
   },
   {
    "id": "k-somogyi2025",
    "label": "Somogyi's 2025 decipherments",
    "kind": "scholar's key",
    "by": "W. Somogyi",
-   "year": 2025,
-   "note": "Two printed decipherments used as cribs."
+   "note": "Two printed decipherments used as cribs.",
+   "found": 2025,
+   "year": null
   },
   {
    "id": "k-sessa",
    "label": "Sessa 1523-25 key",
    "kind": "rebuilt here",
-   "by": "",
+   "by": "this project",
    "year": 1524,
    "note": "Built from the sessa1524 siblings' clears; shared groups tie the 1523 letters to it."
   },
@@ -332,7 +370,7 @@
    "id": "k-vich",
    "label": "Vich N.46/N.52BIS key",
    "kind": "rebuilt here",
-   "by": "",
+   "by": "this project",
    "year": 1511,
    "note": "Built on two letters, then read three it was not built on."
   },
@@ -350,7 +388,13 @@
    "kind": "DECODE key record",
    "by": "",
    "year": 1761,
-   "note": "Its vocabulary was the annealing target."
+   "note": "Its vocabulary was the annealing target.",
+   "image": {
+    "src": "kauderbach1754_key1761.jpg",
+    "credit": "Sächsisches Hauptstaatsarchiv Dresden, 10024 Geheimer Rat, Loc. 08236/11 Bl. 5, via DECODE R936",
+    "caption": "Hauptstaatsarchiv Dresden 10024 Loc. 08236/11 Bl. 5, the cipher for “Kauderbach in Den Haag”, 1761 (DECODE R936): pour chiffrer and pour déchiffrer, one number for each letter or syllable, the capitals A–Z for persons and states (S la Hollande, T l’Angleterre, U France), and 6. est faux chiffre. DEC",
+    "page": "kauderbach1754"
+   }
   },
   {
    "id": "k-kurtz",
@@ -382,37 +426,46 @@
    "kind": "DECODE key record",
    "by": "Thomas Smith",
    "year": 1563,
-   "note": "Add MS 4136 f.179"
+   "note": "Add MS 4136 f.179",
+   "image": {
+    "src": "smith1562_key.jpg",
+    "credit": "British Library, Add MS 4136 f. 179, via DECODE R9261",
+    "caption": "Add MS 4136 f. 179 (DECODE R9261 p. 1), “Sr Thomas Smith’s Cipher”: the alphabet on the left, the word list in the middle, the name signs, and the “Nothings” on the right. Image: British Library, Add MS 4136 f. 179, via DECODE R9261.",
+    "page": "smith1562"
+   }
   },
   {
    "id": "k-woodard-r413",
    "label": "Woodard's R413 key",
    "kind": "scholar's key",
    "by": "Woodard (DECODE)",
-   "year": 2021,
-   "note": "posted on DECODE R413"
+   "note": "posted on DECODE R413",
+   "found": 2021,
+   "year": null
   },
   {
    "id": "k-waldispuhl-kopal",
    "label": "Waldispühl & Kopal's Heusner key",
    "kind": "scholar's key",
    "by": "Waldispühl & Kopal",
-   "year": 2024,
-   "note": "HistoCrypt 2024"
+   "note": "HistoCrypt 2024",
+   "found": 2024,
+   "year": null
   },
   {
    "id": "k-pitt-forster",
    "label": "Pitt's Forster key",
    "kind": "scholar's key",
    "by": "Robert Pitt (Lasry, Biermann earlier)",
-   "year": 2026,
-   "note": "GitHub robertpitt/forster-cipher"
+   "note": "GitHub robertpitt/forster-cipher",
+   "found": 2026,
+   "year": null
   },
   {
    "id": "k-petit-chiffre-1690",
    "label": "Petit chiffre 1690",
    "kind": "rebuilt here",
-   "by": "",
+   "by": "this project",
    "year": 1690,
    "note": "rebuilt from the printed translation"
   },
@@ -421,30 +474,39 @@
    "label": "Bazeries' Grand Chiffre 1691",
    "kind": "scholar's key",
    "by": "Étienne Bazeries",
-   "year": 1893,
-   "note": "Le Masque de fer"
+   "note": "Le Masque de fer",
+   "found": 1893,
+   "year": null
   },
   {
    "id": "k-rommel-hesse",
    "label": "Rommel's printed Hesse key",
    "kind": "contemporary key",
    "by": "Rommel (from van der Kemp)",
-   "year": 1846,
-   "note": "printed 1846; corrected here"
+   "note": "printed 1846; corrected here",
+   "found": 1846,
+   "year": null,
+   "image": {
+    "src": "hesse1603_key1846.jpg",
+    "credit": "Rommel, Allgemeine Zeitschrift für Geschichte V (1846), p. 403, via the Internet Archive (bub_gb_Zpc1AAAAMAAJ)",
+    "caption": "Rommel, “La clef des chiffres dans la Correspondance inédite de Henri IV avec Maurice le Savant”, Allgemeine Zeitschrift für Geschichte V (1846),\np. 403: the word lists (comma, two dots, overbar) and the symbols. The letter table is on p. 402. Image: Rommel, Allgemeine Zeitschrift für Geschichte V (",
+    "page": "hesse1603"
+   }
   },
   {
    "id": "k-gabbrielli",
    "label": "Gabbrielli's key 1",
    "kind": "scholar's key",
    "by": "Gabbrielli",
-   "year": 1863,
-   "note": "tabulated key, on film"
+   "note": "tabulated key, on film",
+   "found": 1863,
+   "year": null
   },
   {
    "id": "k-sadoleto1482",
    "label": "Sadoleto 1482 key",
    "kind": "rebuilt here",
-   "by": "",
+   "by": "this project",
    "year": 1482,
    "note": "from clear copies 7a/13a"
   },
@@ -453,14 +515,21 @@
    "label": "Lasry's Sormano key",
    "kind": "scholar's key",
    "by": "George Lasry",
-   "year": 2023,
-   "note": "Cryptiana; three corrections here"
+   "note": "Cryptiana; three corrections here",
+   "found": 2023,
+   "year": null,
+   "image": {
+    "src": "sormano1529_key.jpg",
+    "credit": "Table by George Lasry (2023), built from BnF fr. 3096 f. 113, via S. Tomokiyo, Cryptiana",
+    "caption": "Sormano’s cipher, key recovered by George Lasry in 2023: the exemplar table built from BnF Français 3096 f. 113, the glossed control in this very volume. Four forms for a, four for e, four for i, three for o, four for u/v, two for s, plus doubled cc and ll: about thirty-six forms for some twenty val",
+    "page": "sormano1529"
+   }
   },
   {
    "id": "k-lope1522",
    "label": "Lope Hurtado 1522 key",
    "kind": "rebuilt here",
-   "by": "",
+   "by": "this project",
    "year": 1522,
    "note": "from the bound 'Claro' decipherment f.242"
   },
@@ -468,7 +537,7 @@
    "id": "k-soria-b",
    "label": "Soria key B (R9844)",
    "kind": "rebuilt here",
-   "by": "",
+   "by": "this project",
    "year": 1523,
    "note": "from a court decipherment R9844"
   },
@@ -478,7 +547,13 @@
    "kind": "contemporary key",
    "by": "",
    "year": 1603,
-   "note": "Brèves's original key"
+   "note": "Brèves's original key",
+   "image": {
+    "src": "breves1603_key_leaf.jpg",
+    "credit": "Bibliothèque nationale de France, fr. 3462 f. 103, via Gallica (btv1b9058227h)",
+    "caption": "BnF fr. 3462 f. 103, the whole table: the persons on the left (from le Pape sa Saincteté to les Spahis gens de cheval), the alphabet across the top, the nomenclator below, and the doubles and nulls at the foot of the last column. Image: Bibliothèque nationale de France, fr. 3462 f. 103, via Gallica ",
+    "page": "breves1603"
+   }
   },
   {
    "id": "k-manchester1699",
@@ -486,7 +561,13 @@
    "kind": "contemporary key",
    "by": "Deciphering office copy",
    "year": 1699,
-   "note": "Copy of the E. of Manchester's Cypher, Yale 2046948"
+   "note": "Copy of the E. of Manchester's Cypher, Yale 2046948",
+   "image": {
+    "src": "yard1699_key_t.jpg",
+    "credit": "Beinecke Rare Book and Manuscript Library, Yale University, OSB MSS fc37, box 18, folder 47, via Beinecke IIIF 1213691",
+    "caption": "The key, rows S–V of the first columns: printed syllables and words, handwritten numbers. the is 454; the numbers run 124, 126, 127, 128, 130 and never end in 5 or 9. Some blank\nslots have been filled by hand (Sixty 867, Seven 1027, Sixteen 1028). Image: Beinecke Rare Book and Manuscript Library, Ya",
+    "page": "yard1699"
+   }
   },
   {
    "id": "k-r596",
@@ -526,7 +607,13 @@
    "kind": "scholar's key",
    "by": "Satoshi Tomokiyo",
    "year": "",
-   "note": "Nevers key book"
+   "note": "Nevers key book",
+   "image": {
+    "src": "nevers1593_key46_alphabet.jpg",
+    "credit": "Bibliothèque nationale de France, fr. 3995 f. 87, via Gallica (btv1b525085665, canvas 169)",
+    "caption": "BnF fr. 3995 f. 87, the head of the table: a 34 74 · b 90 · c 92 95 · d 54 55 · e 79 69 · f 71 · g 40 · h 27 · i 63 73 83 · l 65 77 · m 49 50 · n 57 58 · o 26 36 46 · p 52 21 · qu 19 · r 22 32 42 · s 17 18 · t 12 13 · u 15 25 35 · x 14 · y 76 · z 86; nulls 66 96 80 (1)99 100. Below it, three word li",
+    "page": "nevers1593"
+   }
   },
   {
    "id": "k-tomokiyo-nevers60",
@@ -534,7 +621,13 @@
    "kind": "scholar's key",
    "by": "Satoshi Tomokiyo",
    "year": "1593",
-   "note": "fr. 3995 ff. 108-110"
+   "note": "fr. 3995 ff. 108-110",
+   "image": {
+    "src": "nevers1593_key60_decipher1.jpg",
+    "credit": "Bibliothèque nationale de France, fr. 3995 f. 110v, via Gallica (btv1b525085665)",
+    "caption": "The deciphering table, fr. 3995 f. 110v: Roman numerals, Arabic figures, letter-shapes. Image: Bibliothèque nationale de France, fr. 3995 f. 110v, via Gallica (btv1b525085665).",
+    "page": "nevers1593"
+   }
   },
   {
    "id": "k-tomokiyo-cg13",
@@ -587,22 +680,24 @@
   {
    "id": "k-tomokiyo-savoy1593",
    "label": "Tomokiyo's Savoy key (1593)",
-   "kind": "published table",
+   "kind": "scholar's key",
    "by": "S. Tomokiyo",
-   "year": 2017,
-   "note": "Rebuilt from fr. 3983 no. 80 and fr. 3984 f. 182; cryptiana savoy.htm."
+   "note": "Rebuilt from fr. 3983 no. 80 and fr. 3984 f. 182; cryptiana savoy.htm.",
+   "found": 2017,
+   "year": null
   },
   {
    "id": "k-luo-c38",
    "label": "Luo's Cifrario 38 (Charles V–Caracciolo)",
    "kind": "scholar's key",
    "by": "Wanruo Luo",
-   "year": 2021,
-   "note": "Reconstructed from AGS Estado leg. 38 doc. 190 in Luo's 2021 thesis."
+   "note": "Reconstructed from AGS Estado leg. 38 doc. 190 in Luo's 2021 thesis.",
+   "found": 2021,
+   "year": null
   },
   {
    "id": "k-r609",
-   "label": "R609 R&aacute;k&oacute;czi syllabic key (G15 C 43/56)",
+   "label": "R609 Rákóczi syllabic key (G15 C 43/56)",
    "kind": "DECODE key record",
    "by": "R&aacute;k&oacute;czi chancery",
    "year": 1705,
@@ -610,9 +705,9 @@
   },
   {
    "id": "k-laski-sysB",
-   "label": "&#321;aski&rsquo;s cipher (System B, KAA 4591)",
+   "label": "Łaski’s cipher (System B, KAA 4591)",
    "kind": "rebuilt here",
-   "by": "",
+   "by": "this project",
    "year": 1529,
    "note": "Graphic letter cipher with word signs, rebuilt from the glossed letters R9322 and R9417 in BayHStA KAA 4591 (targets/kaa4591/sysB)."
   },
@@ -622,7 +717,13 @@
    "kind": "archive key",
    "by": "Deciphering Branch",
    "year": 1641,
-   "note": "DECODE R9115, headed Windebank to his Son, Paris, March 1642; letters 1-100 with odd nulls, symbol letters, alphabetical code to ~735."
+   "note": "DECODE R9115, headed Windebank to his Son, Paris, March 1642; letters 1-100 with odd nulls, symbol letters, alphabetical code to ~735.",
+   "image": {
+    "src": "harley7001_key.jpg",
+    "credit": "British Library, Add MS 32256, continuation page of the Windebank cipher (after f. 4), via DECODE R9115",
+    "caption": "BL Add MS 32256, the page “Windebank’s C[ipher] continued 1640”: the reconstructed code from 551, with 572 to, 574 the, 578 that, 586 they, 587 there. Image: British Library, Add MS 32256, continuation page of the Windebank cipher (after f. 4), via DECODE R9115.",
+    "page": "harley7001"
+   }
   },
   {
    "id": "k-r1211",
@@ -638,7 +739,13 @@
    "kind": "DECODE key record",
    "by": "",
    "year": 1554,
-   "note": "TNA SP 106/2 f. 162, 'France 1554': homophonic sign alphabet, nulls, ~140-entry nomenclator (Carew, the rebels, the Constable, Lady Elizabeth)."
+   "note": "TNA SP 106/2 f. 162, 'France 1554': homophonic sign alphabet, nulls, ~140-entry nomenclator (Carew, the rebels, the Constable, Lady Elizabeth).",
+   "image": {
+    "src": "harley1582r8499_key.jpg",
+    "credit": "The National Archives, SP 106/2 f. 162, via DECODE R354",
+    "caption": "The key, TNA SP 106/2 f. 162 (DECODE R354): the alphabet a–z with its homophones in columns, and below them the nulls, “Nihil significantia”. The nomenclator fills the rest of the sheet. Image: The National Archives, SP 106/2 f. 162, via DECODE R354.",
+    "page": "harley1582r8499"
+   }
   },
   {
    "id": "k-r672",
@@ -651,7 +758,7 @@
   {
    "id": "k-kaa4591-sysA",
    "label": "KAA 4591 System A′ key, from the contemporary gloss on R9410/R9427",
-   "kind": "key rebuilt from a glossed sibling",
+   "kind": "rebuilt here",
    "by": "Daniel Bourdeau",
    "year": 1535,
    "note": "Homophonic signs and numerals of the Bavarian ducal chancery's 1534–35 Hungarian letters; the key is written between the lines of R9427 and R9410 by a contemporary hand and was rebuilt from there."
@@ -659,7 +766,7 @@
   {
    "id": "k-nevers-informant1588",
    "label": "Paris informant to the Nevers household, 1588 (BnF fr. 3976 ff. 62, 131, 133)",
-   "kind": "key rebuilt here",
+   "kind": "rebuilt here",
    "by": "this project",
    "year": 1588,
    "note": "Rebuilt from the interlinear glosses of f. 131 and the reading of f. 62 (targets/nevers1588/key.md); extended from ff. 133-134 (y with cross = y, 4 with cross = z, bracket sign = n)."
@@ -678,7 +785,13 @@
    "kind": "contemporary key",
    "by": "Nevers's chancery; listed by Satoshi Tomokiyo",
    "year": "1586",
-   "note": "alphabet, word capitals, ~100 names with a virgule; Auvergne and Lyonnais names"
+   "note": "alphabet, word capitals, ~100 names with a virgule; Auvergne and Lyonnais names",
+   "image": {
+    "src": "nevers1587_key11.jpg",
+    "credit": "Bibliothèque nationale de France, fr. 3995 f. 23, via Gallica (btv1b525085665, view 52)",
+    "caption": "BnF fr. 3995 f. 23, the alphabet of key no. 11 (turned). Under l: m and π; under y: ^ and <; under o: n, u and an underlined ꭓ; under p: a script l and a script F. Image: Bibliothèque nationale de France, fr. 3995 f. 23, via Gallica (btv1b525085665, view 52).",
+    "page": "nevers1587"
+   }
   },
   {
    "id": "k-ferdinand1619",
@@ -691,7 +804,7 @@
   {
    "id": "k-kaa4591-sysL",
    "label": "King John–Bavaria sign cipher, \"System L\" (KAA 4591, rebuilt here)",
-   "kind": "key rebuilt from a glossed sibling",
+   "kind": "rebuilt here",
    "by": "this project",
    "year": 1533,
    "note": "Homophonic substitution on the graphic sign set of KAA 4591, with pair signs (2o = et/und, r+ = sch). Rebuilt for R9415 (1533) and again, independently, from the interlinear decipherment of R9411 (1534): the values agree."
@@ -710,7 +823,13 @@
    "kind": "contemporary key",
    "by": "",
    "year": 1798,
-   "note": "Pigpen-type Rosicrucian alphabet with ligature table, drawn on p. 83 of Mellon MS 136; reads every passage unchanged."
+   "note": "Pigpen-type Rosicrucian alphabet with ligature table, drawn on p. 83 of Mellon MS 136; reads every passage unchanged.",
+   "image": {
+    "src": "mellon136_key.jpg",
+    "credit": "Beinecke Rare Book and Manuscript Library, Mellon MS 136 p. 83, via Yale Digital Collections (image 45)",
+    "caption": "Page 83: “Die Figur unserer geheimen Schrift”. Each cell’s walls are its sign. The second letter of a cell is the same sign with a dot. On the right is the table of ligature signs (ae, oe, ui, ch, ck, sch, ss, st, th, und, ll, lich, nn, tz). The last five triangle signs, for v, w, y, x and z, are a ",
+    "page": "mellon136"
+   }
   },
   {
    "id": "k-asve-1628-syllabary",
@@ -723,10 +842,11 @@
   {
    "id": "k-cifra-general",
    "label": "Cifra general de los Reyes Católicos (RAH 9/15)",
-   "kind": "printed",
+   "kind": "contemporary key",
    "by": "Galende Díaz",
-   "year": 1994,
-   "note": "Printed by Galende Díaz 1994, app. doc. 1; transcribed in targets/esp318/keys/cifra_general.txt."
+   "note": "Printed by Galende Díaz 1994, app. doc. 1; transcribed in targets/esp318/keys/cifra_general.txt.",
+   "found": 1994,
+   "year": null
   },
   {
    "id": "k-tomokiyo-selve",
@@ -739,7 +859,7 @@
   {
    "id": "k-nevers-piles",
    "label": "Nevers-Piles alphabet (Tomokiyo)",
-   "kind": "partial table",
+   "kind": "scholar's key",
    "by": "Satoshi Tomokiyo, from BnF fr. 3612",
    "year": 1586,
    "note": "Symbol alphabet with homophones, nulls and a few codes, used by Jean de Piles and the Guise-Nevers circle; extended here from BnF fr. 4715 f. 2 and from R2276 itself."
@@ -748,9 +868,15 @@
    "id": "k-benedict1399",
    "label": "Benedict XIII–Climent key (1399–1400)",
    "kind": "rebuilt here",
-   "by": "",
+   "by": "this project",
    "year": 1399,
-   "note": "Puig y Puig rebuilt it in 1920 from Climent's glosses but never printed it; rebuilt here from his p. 475 facsimile against his text: one sign per letter, o as a double loop, a dotted V for the King of Aragon."
+   "note": "Puig y Puig rebuilt it in 1920 from Climent's glosses but never printed it; rebuilt here from his p. 475 facsimile against his text: one sign per letter, o as a double loop, a dotted V for the King of Aragon.",
+   "image": {
+    "src": "benedict1399_key.jpg",
+    "credit": "S. Puig y Puig, Pedro de Luna (Barcelona 1920), p. 475, facsimile of Arxiu Capitular de Barcelona doc. 1068; via Google Books (University of Wisconsin copy), cut, deskewed and contrast-stretched here",
+    "caption": "Top: the end of line 3, …negocium, then line 4, c′ δ n δ n ‡ cb ε = tenendum, then o n = in. Puig printed te sicudum. Bottom, line 24: detinent, then the six signs of absque (Puig: abique), then o o n, the start of congedio (Puig: congerio). Image: S. Puig y Puig, Pedro de Luna (Barcelona 1920), p. ",
+    "page": "benedict1399"
+   }
   },
   {
    "id": "k-ilten1743",
@@ -758,7 +884,13 @@
    "kind": "archive key",
    "by": "",
    "year": 1743,
-   "note": "Two-part syllabic nomenclator in GWLB Ms XXIII 1234:31,1 pp. 386-391 (volume of 1745/46): alphabetical encoding side and numbered decoding side; blanks and 864-1000 are nulls."
+   "note": "Two-part syllabic nomenclator in GWLB Ms XXIII 1234:31,1 pp. 386-391 (volume of 1745/46): alphabetical encoding side and numbered decoding side; blanks and 864-1000 are nulls.",
+   "image": {
+    "src": "ilten1743_key.jpg",
+    "credit": "Gottfried Wilhelm Leibniz Bibliothek Hannover, Ms XXIII 1234:31,1 p. 390, via the GWLB digital library (public domain)",
+    "caption": "The deciphering table, p. 390, entries 1–240: “1 – Car”, “101 – annulle la precedente”, “172 – Duc”, “223 – londres”. Image: Gottfried Wilhelm Leibniz Bibliothek Hannover, Ms XXIII 1234:31,1 p. 390, via the GWLB digital library (public domain).",
+    "page": "ilten1743"
+   }
   },
   {
    "id": "k-spain-cifra-ordinaria",
@@ -775,6 +907,862 @@
    "by": "Satoru",
    "year": 1637,
    "note": "Homophonic symbol cipher, key recovered ciphertext-only by Satoru with Claude (1 Oct 2026); name codes unread."
+  },
+  {
+   "id": "k-stafford-walsingham1586",
+   "label": "Stafford's Walsingham cipher, 1586 (Harley 1582)",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1586,
+   "note": "Letter key rebuilt from the f. 72r decipherment (R8501) and the f. 73r glosses (R8502); no key sheet known."
+  },
+  {
+   "id": "k-harley1582r8505",
+   "label": "Navarre memoir graphic-sign alphabet (Harley 1582 ff. 263-264)",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": null,
+   "note": "Homophonic alphabet rebuilt from the ciphertext alone; no named key record exists."
+  },
+  {
+   "id": "k-dewes1635",
+   "label": "D'Ewes's private alphabet",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1635,
+   "note": "Rebuilt by crib from the log of his son's fits (Harley 286 f. 61)."
+  },
+  {
+   "id": "k-bremen1631",
+   "label": "Bremen grid-band key (Riksarkivet group)",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1631,
+   "note": "Rebuilt from its own text; the other Riksarkivet keys stay open."
+  },
+  {
+   "id": "k-pitt-boswell",
+   "label": "Pitt's Charles I–Boswell alphabet",
+   "kind": "scholar's key",
+   "by": "Robert Pitt",
+   "year": 1643,
+   "note": "Periodic alphabet 20-115 and supplementary homophones, recovered by Robert Pitt (Sept 2026); verified here against a permutation control."
+  },
+  {
+   "id": "k-mondoucet1572",
+   "label": "Mondoucet key of 1572",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1572,
+   "note": "Rebuilt from the glossed 16 July crib in the volume itself."
+  },
+  {
+   "id": "k-mondoucet1573",
+   "label": "Mondoucet key of 1573",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1573,
+   "note": "Rebuilt from the 9 Sept Court decipherment; 4 Jan 1573 read from Didier 1891."
+  },
+  {
+   "id": "k-marburg1635",
+   "label": "Hesse-Kassel volume cipher, 1635 (R4500)",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1635,
+   "note": "Rebuilt from its own text by annealing; no sheet in the Marburg volume fits."
+  },
+  {
+   "id": "k-swieten1759",
+   "label": "Van Swieten–Cobenzl table of 1759",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1759,
+   "note": "Alphabetical syllabary rebuilt ciphertext-only (monotone annealing + hand correction); R955 read from its own decipherment."
+  },
+  {
+   "id": "k-andreae1616",
+   "label": "Andreae's invented alphabet (Chymische Hochzeit)",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1616,
+   "note": "Rebuilt from the book's own glosses (pp. 96, 98)."
+  },
+  {
+   "id": "k-rangone1530",
+   "label": "Rangone homophonic key, 1530",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1530,
+   "note": "About 50 signs for Italian, rebuilt ciphertext-only from fr. 3070 f. 81 and fr. 3082 f. 42."
+  },
+  {
+   "id": "k-r1854",
+   "label": "Gonzaga keys of 1428-30 (R1854)",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1428,
+   "note": "P2 and P4 rebuilt ciphertext-only, P3 completed from context, one from the interlinear gloss; the R1853 register keys do not fit."
+  },
+  {
+   "id": "k-moncada1524",
+   "label": "Moncada key, 1524",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1524,
+   "note": "Rebuilt from the letter against the 1854 printed decipherment (CODOIN XXIV)."
+  },
+  {
+   "id": "k-baner1640",
+   "label": "Banér–Stålhandske key, 1640",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1640,
+   "note": "Rebuilt from the letter's own clear context; none of the Swedish keys on DECODE (R4122, R4123, R4325, R4266) fits."
+  },
+  {
+   "id": "k-r4817",
+   "label": "SCH R 201 flyleaf key",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": null,
+   "note": "Reconstructed from the note alone, helped by Rous's partial decipherment in Korn 2023.",
+   "image": {
+    "src": "r4817_key.jpg",
+    "credit": "Zentralbibliothek Zürich, SCH R 201, image 1033442, via e-manuscripta; Public Domain Mark; labelled crops made here",
+    "caption": "The 19 attested sign classes. IDs refer to the reproducible transcription. Values are inferred from the text, not copied from a surviving key. U/V share a sign. Image: Zentralbibliothek Zürich, SCH R 201, image 1033442, via e-manuscripta; Public Domain Mark; labelled crops made here.",
+    "page": "r4817"
+   }
+  },
+  {
+   "id": "k-memoire1560",
+   "label": "Mémoire du XIIe décembre 1560 key",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1560,
+   "note": "Rebuilt from the target's own ciphertext; no named key, sibling or decipherment."
+  },
+  {
+   "id": "k-segura1596",
+   "label": "Segura key, 1596",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1596,
+   "note": "Rebuilt from this letter alone."
+  },
+  {
+   "id": "k-potocka1714",
+   "label": "Potocka key, 1714",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1714,
+   "note": "Recovered from R7526 and transferred to eight other Potocka letters; Mniszech remains unkeyed."
+  },
+  {
+   "id": "k-siena1421",
+   "label": "Siena Concistoro keys (nos. 4, 14, 18, 25)",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1421,
+   "note": "Four keys: nos. 14, 18 and 25 recovered from their own ciphertext, no. 4 from an alphabet fragment and glosses; none of the 43 key sheets of fasc. 1 (R4746-R4789) fits.",
+   "image": {
+    "src": "siena1421_no4key.jpg",
+    "credit": "Archivio di Stato di Siena, Concistoro 2308 fasc. 2 no. 4, via DECODE R4793",
+    "caption": "No. 4, the alphabet fragment below the text: l m n o over the cipher signs ∫ 2 a T. Image: Archivio di Stato di Siena, Concistoro 2308 fasc. 2 no. 4, via DECODE R4793.",
+    "page": "siena1421"
+   }
+  },
+  {
+   "id": "k-hesse1824",
+   "label": "Hessian polyalphabetic key, 1824",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1824,
+   "note": "Rebuilt from the decipherer's note on the same leaf (key letters bcdefg, first word) and the ciphertext."
+  },
+  {
+   "id": "k-szembek1689",
+   "label": "Szembek postscript key, 1688-89",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1689,
+   "note": "Rebuilt from the interlinear glosses of this letter only."
+  },
+  {
+   "id": "k-malsburg1637",
+   "label": "Malsburg numerical key, 1637",
+   "kind": "rebuilt here",
+   "by": "this project",
+   "year": 1637,
+   "note": "Homophonic two-digit table rebuilt from its own ciphertext by Daniel Bourdeau; the Sixtinus key of Dec 1635 (HCPortal key 5) shares the layout but not the table."
+  },
+  {
+   "id": "k-noautopilot-mercy1648",
+   "label": "Brussels Secretaria key, 1648",
+   "kind": "scholar's key",
+   "by": "NoAutopilot (issue 16)",
+   "year": 1648,
+   "note": "Rebuilt from the ciphertext alone by an outside contributor; verified here."
+  },
+  {
+   "id": "k-klee-vatican",
+   "label": "Klee's Vatican key",
+   "kind": "scholar's key",
+   "by": "Simon Klee",
+   "year": null,
+   "note": "Recovered from the ciphertext by Simon Klee (Sept 2026); Meister keys 1-2 excluded."
+  },
+  {
+   "id": "k-uppsala-r4349",
+   "label": "Strängnäs vowel shift (a→b e→f i→k o→p u→x)",
+   "kind": "archive key",
+   "by": "Uppsala UB catalogue",
+   "year": 1517,
+   "note": "Stated in the Uppsala catalogue; applied to a new transcription."
+  },
+  {
+   "id": "k-barwick",
+   "label": "Hyde–Barwick key (Tabula Cryptographica)",
+   "kind": "contemporary key",
+   "by": "Peter Barwick",
+   "note": "Engraved key plate facing p. 316 of Vita Johannis Barwick (1721); THE=370, 1-692",
+   "found": 1721,
+   "year": null
+  },
+  {
+   "id": "k-calvimont1526",
+   "label": "Calvimont key, 1525-26 (Clair. 325 f. 67)",
+   "kind": "scholar's key",
+   "by": "Biermann",
+   "year": null,
+   "note": "Calvimont key as published by Biermann"
+  },
+  {
+   "id": "k-tomokiyo-raince1526",
+   "label": "Tomokiyo's Raince 1526 key",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": null,
+   "note": "Raince 1526 key reconstructed on cryptiana"
+  },
+  {
+   "id": "k-r958-965",
+   "label": "DECODE R958–R965 Brussels chiffres 1647-98",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "Eight keys of the Brussels Secrétairerie d'État et de Guerre series"
+  },
+  {
+   "id": "k-riksarkivet-baner",
+   "label": "Banér keys R4122, R4123, R4325, R4266 (Riksarkivet)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "Horn–Banér c. 1630-31, Banér 1634 code, 1640 chancery register alphabets, Ekehielm 1640"
+  },
+  {
+   "id": "k-nah-g15",
+   "label": "NAH G15 key records R549–R646",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "94 Rákóczi-period key records of fond G15; R609/R561 fit Bay 1706"
+  },
+  {
+   "id": "k-bazeries-bethune1599",
+   "label": "Bazeries' Bethune 1599 key",
+   "kind": "scholar's key",
+   "by": "Étienne Bazeries",
+   "note": "Same design as the Bethune ciphers, different values",
+   "found": 1901,
+   "year": null
+  },
+  {
+   "id": "k-r1146",
+   "label": "DECODE R1146/R1147 (abbot of Forlì cipher)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-r9549",
+   "label": "DECODE R9549 (ASNa box 2317)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "Suggested by DECODE as holding Castelcicala plaintexts"
+  },
+  {
+   "id": "k-r9532-9541",
+   "label": "DECODE R9532–R9541 Borbone consular keys",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": 1859,
+   "note": "1859-60 Neapolitan consular keys"
+  },
+  {
+   "id": "k-r8497",
+   "label": "DECODE R8497 Bodley cipher (Harley 287 f. 187)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": 1590,
+   "note": "Bodley's cipher of December 1590"
+  },
+  {
+   "id": "k-fagel-r2842",
+   "label": "Fagel key series R2842–R2852",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "NA 1.10.29 inv. 1257-1267, undated-1793 alphabetical Dutch codebooks"
+  },
+  {
+   "id": "k-r2240",
+   "label": "DECODE R2240 Orange key",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": 1793,
+   "note": "KHA PWV inv. 339; letters 1-100, names 100-6006"
+  },
+  {
+   "id": "k-r1891",
+   "label": "DECODE R1891 Schimmelpenninck codebook",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": 1798,
+   "note": "Dutch-language codebook"
+  },
+  {
+   "id": "k-bl-french1798",
+   "label": "BL Add MS 32264 French cyphers (R8963/R8964, R8984)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": 1798,
+   "note": "Intercepted French government ciphers 1798-1805"
+  },
+  {
+   "id": "k-r594",
+   "label": "DECODE R594",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "Key DECODE suggests for Eichel 1758"
+  },
+  {
+   "id": "k-escriva1",
+   "label": "Escrivá cipher no. 1",
+   "kind": "contemporary key",
+   "by": null,
+   "year": null,
+   "note": "Spanish key excluded for Esp 318 nos. 93/94 by code-initial range"
+  },
+  {
+   "id": "k-tomokiyo-estrada",
+   "label": "Tomokiyo's Estrada cipher",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": null,
+   "note": "cab, cev, gam … raf, ru code groups"
+  },
+  {
+   "id": "k-kaa4591-keys",
+   "label": "KAA 4591 key records R9419–R9423",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "Bavarian chancery key-book: R9419 nomenclator, R9420-R9423 1530s-1583 alphabets"
+  },
+  {
+   "id": "k-gabbrielli-2-4",
+   "label": "Gabbrielli's keys 2-4",
+   "kind": "scholar's key",
+   "by": "Gabbrielli",
+   "year": null,
+   "note": "Frames 58-4 to 58-6; only key 1 fits Florence 1429"
+  },
+  {
+   "id": "k-r8694",
+   "label": "DECODE R8694 (Mr Browne, Add MS 72438)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-caprile1519",
+   "label": "Caprile 1519 values (R1130/4c)",
+   "kind": "rebuilt here",
+   "by": null,
+   "note": "Syllabic values from the Caprile 1519 cribs",
+   "found": 2026,
+   "year": null
+  },
+  {
+   "id": "k-bonzagni1512",
+   "label": "Bonzagni 1512 alphabet",
+   "kind": "contemporary key",
+   "by": null,
+   "year": 1512,
+   "note": "Este–Hungary sibling cipher"
+  },
+  {
+   "id": "k-armstrong972",
+   "label": "Armstrong THE=972 table",
+   "kind": "rebuilt here",
+   "by": null,
+   "note": "592-entry table of the Armstrong legation code",
+   "found": 2026,
+   "year": null
+  },
+  {
+   "id": "k-r9369",
+   "label": "DECODE R9369 (Augurelio key, KAA 4591 f. 172)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": 1531,
+   "note": "Key addressed to 'Dno Aurelio Augurelio'"
+  },
+  {
+   "id": "k-fr3995-lorraine1592",
+   "label": "BnF fr. 3995 key sheets ff. 32, 83-84, 98, 103",
+   "kind": "contemporary key",
+   "by": null,
+   "year": 1592,
+   "note": "Four 1592 key sheets whose DECODE profile matched"
+  },
+  {
+   "id": "k-tomokiyo-lorraine",
+   "label": "Tomokiyo's Lorraine keys (Bréval c. 1620, Bassompierre 1593)",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": null,
+   "note": "lorraine.htm; DECODE 7952"
+  },
+  {
+   "id": "k-r10182",
+   "label": "DECODE R10182 (ACA 1413 jargon code)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": 1413,
+   "note": "List of cover names"
+  },
+  {
+   "id": "k-r10183",
+   "label": "DECODE R10183 (Montcada–Amat alphabet 1437)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": 1437,
+   "note": ""
+  },
+  {
+   "id": "k-castile1429",
+   "label": "Castile-war key of 1429 (Cortès & Pons 1986)",
+   "kind": "contemporary key",
+   "by": "Cortès & Pons",
+   "note": "Saitabi 36 (1986), key of the batle general of Valencia",
+   "found": 1986,
+   "year": null
+  },
+  {
+   "id": "k-matignon1586",
+   "label": "Mayenne–Forget Cipher-1",
+   "kind": "rebuilt here",
+   "by": null,
+   "year": null,
+   "note": "From targets/matignon1586"
+  },
+  {
+   "id": "k-alberti",
+   "label": "Alberti's cipher disk (published ring)",
+   "kind": "contemporary key",
+   "by": "Leon Battista Alberti",
+   "year": 1467,
+   "note": "De cifris movable ring with index capitals"
+  },
+  {
+   "id": "k-r1210",
+   "label": "DECODE R1210 (Bornemisza c. 1540)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": 1540,
+   "note": ""
+  },
+  {
+   "id": "k-soria-a",
+   "label": "Soria key A (1523)",
+   "kind": "rebuilt here",
+   "by": null,
+   "year": null,
+   "note": "Genoa embassy key, three-letter code groups"
+  },
+  {
+   "id": "k-kolosova",
+   "label": "Kolosova keys",
+   "kind": "scholar's key",
+   "by": "Kolosova",
+   "note": "Spanish ciphers of the 1520s",
+   "found": 2024,
+   "year": null
+  },
+  {
+   "id": "k-nevers-no2-1584",
+   "label": "Nevers key no. 2, 1584 (BnF fr. 3995 f. 16)",
+   "kind": "contemporary key",
+   "by": null,
+   "year": 1584,
+   "note": ""
+  },
+  {
+   "id": "k-tomokiyo-nevers10",
+   "label": "Nevers cipher no. 10 (BnF fr. 3995 f. 21)",
+   "kind": "contemporary key",
+   "by": null,
+   "year": null,
+   "note": "Tomokiyo nevers.htm"
+  },
+  {
+   "id": "k-tomokiyo-nevers12",
+   "label": "Nevers cipher no. 12 (BnF fr. 3995 f. 26)",
+   "kind": "contemporary key",
+   "by": null,
+   "year": 1587,
+   "note": "Symbol alphabet, April 1587"
+  },
+  {
+   "id": "k-tomokiyo-nevers18",
+   "label": "Nevers cipher no. 18 (BnF fr. 3995 f. 36v) and canvas-45 alphabet",
+   "kind": "contemporary key",
+   "by": null,
+   "year": null,
+   "note": "Roman-numeral codes"
+  },
+  {
+   "id": "k-nevers-balagny",
+   "label": "Balagny–Nevers alphabet (Tomokiyo)",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": null,
+   "note": "Reconstructed from fr. 3993 f. 130"
+  },
+  {
+   "id": "k-fr3995-nos65-76",
+   "label": "BnF fr. 3995 Nevers keys nos. 65-76",
+   "kind": "contemporary key",
+   "by": null,
+   "year": null,
+   "note": "Incl. no. 76 read in full, no. 75 chiffre commun, no. 65 Lesdiguières"
+  },
+  {
+   "id": "k-r9257-9262",
+   "label": "Add MS 4136 key records R9257, R9260 (Percy, Throckmorton)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "R9261 and R9262 have own nodes"
+  },
+  {
+   "id": "k-fr3413-keys",
+   "label": "BnF fr. 3413 bound keys nos. 53, 61, 69",
+   "kind": "contemporary key",
+   "by": null,
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-nevers-pelleve-guise",
+   "label": "Nevers–Pellevé and Nevers–Guise tables",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": null,
+   "note": "NeversPelleve.png, NeversGuise.png in targets/orbais"
+  },
+  {
+   "id": "k-albany1556",
+   "label": "d'Albany key of 1556",
+   "kind": "contemporary key",
+   "by": null,
+   "year": 1556,
+   "note": "Pasted on the verso of the r2276 letter"
+  },
+  {
+   "id": "k-meister-crivelli1561",
+   "label": "Crivelli 1561 nunciature key (Meister V.8)",
+   "kind": "scholar's key",
+   "by": "Aloys Meister",
+   "note": "Meister p. 259",
+   "found": 1906,
+   "year": null
+  },
+  {
+   "id": "k-meister-como",
+   "label": "Meister VI.1-VI.3 (Como / Spain-Flanders keys)",
+   "kind": "scholar's key",
+   "by": "Aloys Meister",
+   "note": "Meister pp. 262-265",
+   "found": 1906,
+   "year": null
+  },
+  {
+   "id": "k-r7928",
+   "label": "DECODE R7928 key fragment (Windischgrätz & Starhemberg)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-sanguszko-keys",
+   "label": "Sanguszko key records R7515, R7460, R7461",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-r1853",
+   "label": "DECODE R1853 Gonzaga register keys (1406-1419)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "Incl. Malatesta keys, Ziffra nova 1417"
+  },
+  {
+   "id": "k-r1855-r1852",
+   "label": "DECODE R1855 (Este) and R1852 (Florence Dieci 1424-32) keys",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-r341-r343",
+   "label": "DECODE R341/R343 (SP 106/2 ff. 5, 50)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "Norris-period keys"
+  },
+  {
+   "id": "k-rechteren-provisional",
+   "label": "Provisional Rechteren-family keys (R2051/R2052 alignments)",
+   "kind": "rebuilt here",
+   "by": null,
+   "note": "From targets/deswart1782",
+   "found": 2026,
+   "year": null
+  },
+  {
+   "id": "k-tomokiyo-rennes2",
+   "label": "Tomokiyo's Rennes2 (Lorraine) key",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-r4310",
+   "label": "DECODE R4310 Siebenbürgen key",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "'Schauis' key, a = 9 50 71 86"
+  },
+  {
+   "id": "k-r4296",
+   "label": "DECODE R4296 (1632 key)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": 1632,
+   "note": "Word-end-30 key"
+  },
+  {
+   "id": "k-r4922-richmond",
+   "label": "Duke of Richmond's cipher (R4922)",
+   "kind": "contemporary key",
+   "by": null,
+   "year": 1645,
+   "note": "Interlined sibling, 31 July 1645"
+  },
+  {
+   "id": "k-r8724-digby",
+   "label": "Digby–Walsingham key R8724 (and list R8627)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-tomokiyo-spanish1590s",
+   "label": "Tomokiyo's Spanish keys 1592-95 (Descovar, Fuentes–Pimentel, Ibarra–Doria, Ibarra–Zúñiga)",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-siena-fasc1",
+   "label": "Siena Concistoro fasc. 1 keys R4746–R4789",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "Concistoro 2308, fasc. 1 Cifrari, 1433-1530s"
+  },
+  {
+   "id": "k-brah915-keybook",
+   "label": "BRAH 9/15 key book (R9815–R9832)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-lasry-goring1645",
+   "label": "Lasry's Goring key (R932, SP106-3)",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": null,
+   "note": "June 1645"
+  },
+  {
+   "id": "k-r9117-culpeper",
+   "label": "Charles I–Culpeper key 1645 (R9117/R9118)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": 1645,
+   "note": "BL Add MS 32256 ff. 6-7"
+  },
+  {
+   "id": "k-sp106r927-flap",
+   "label": "Pencil key on the R927 flap",
+   "kind": "contemporary key",
+   "by": null,
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-r955",
+   "label": "Van Swieten–Cobenzl 1757 table (R955)",
+   "kind": "contemporary key",
+   "by": null,
+   "year": 1757,
+   "note": "From R955 and its decipherment"
+  },
+  {
+   "id": "k-meister-poggio",
+   "label": "Meister 1906 keys nos. 1-4 (Poggio / Montepulciano / Piacenza)",
+   "kind": "scholar's key",
+   "by": "Aloys Meister",
+   "note": "pp. 176-177",
+   "found": 1906,
+   "year": null
+  },
+  {
+   "id": "k-vich-n79",
+   "label": "N.79 'Clave de cifra'",
+   "kind": "contemporary key",
+   "by": null,
+   "year": 1500,
+   "note": "Plain letter→sign table"
+  },
+  {
+   "id": "k-hessen-marburg",
+   "label": "Hessen-Kassel Marburg keys 1710-1799 (Nr. 1229/R4680, 1231, 1237/R4741-R4742)",
+   "kind": "archive key",
+   "by": null,
+   "year": null,
+   "note": "HCPortal and DECODE Marburg keys"
+  },
+  {
+   "id": "k-moray-wood",
+   "label": "Moray–Wood key",
+   "kind": "scholar's key",
+   "by": "Satoshi Tomokiyo",
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-teleki-keys",
+   "label": "Teleki and Fasc. 327 keys (R665–R673, R676–R690)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "R672 has own node"
+  },
+  {
+   "id": "k-sixtinus1635",
+   "label": "Sixtinus key, Dec 1635 (HCPortal key 5)",
+   "kind": "archive key",
+   "by": null,
+   "year": 1635,
+   "note": ""
+  },
+  {
+   "id": "k-hcportal-marburg",
+   "label": "HCPortal Marburg keys 2, 30, 38, 49, 105",
+   "kind": "archive key",
+   "by": null,
+   "year": null,
+   "note": "Marburg key volumes"
+  },
+  {
+   "id": "k-marburg-alphabets",
+   "label": "Marburg sign alphabets R4467, R4491, R4520, R4525",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": ""
+  },
+  {
+   "id": "k-sforza-1597",
+   "label": "Sforza keys, Carteggio Sforzesco cart. 1597",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "Incl. no. 14 and no. 17 (1447)"
+  },
+  {
+   "id": "k-fr3995-madame1580",
+   "label": "'Chifre avec Madame' 1580 (BnF fr. 3995 f. 1)",
+   "kind": "contemporary key",
+   "by": null,
+   "year": 1580,
+   "note": ""
+  },
+  {
+   "id": "k-decode-british",
+   "label": "British DECODE keys 1690-1730 (SP 106 boxes 6-8, BL/TNA)",
+   "kind": "DECODE key record",
+   "by": "DECODE",
+   "year": null,
+   "note": "155 transcribed key records"
+  },
+  {
+   "id": "k-scorpion-2018",
+   "label": "Rubislaw32's claimed Scorpion key (2018)",
+   "kind": "scholar's key",
+   "by": "Rubislaw32",
+   "year": 2018,
+   "note": "Forum claim"
+  },
+  {
+   "id": "k-lasry-mazarin1654",
+   "label": "Lasry's Mazarin→Bordeaux 1654 key (R9482)",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "note": "cryptiana louisxiv_0mazarin.png",
+   "found": 2025,
+   "year": null
+  },
+  {
+   "id": "k-beck-malsburg-alpha",
+   "label": "Malsburg alphabetic cipher, f. 12 (period-five shifts)",
+   "kind": "scholar's key",
+   "by": "Larry Beck with ChatGPT",
+   "year": 1637,
+   "found": 2026,
+   "note": "Period-five shifts 4,5,3,6,2 recovered from the alphabetic ciphertext on f. 12 (PR #17); three exceptional labels and some local sign readings stay open. No surviving key sheet."
   }
  ],
  "links": [
@@ -1509,6 +2497,180 @@
    "target": "vizani1637",
    "how": "read unchanged",
    "note": "applied to his transcription, verified here"
+  },
+  {
+   "key": "k-stafford-walsingham1586",
+   "target": "harley1582r8500",
+   "how": "rebuilt from",
+   "note": "f. 72r decipherment and f. 73r glosses"
+  },
+  {
+   "key": "k-stafford-walsingham1586",
+   "target": "harley1582r8504",
+   "how": "read unchanged",
+   "note": ""
+  },
+  {
+   "key": "k-stafford-walsingham1586",
+   "target": "stafford1586",
+   "how": "rebuilt from",
+   "note": "interlinear glosses; values agree with the R8500 key"
+  },
+  {
+   "key": "k-harley1582r8505",
+   "target": "harley1582r8505",
+   "how": "rebuilt from",
+   "note": "ciphertext only"
+  },
+  {
+   "key": "k-dewes1635",
+   "target": "harley286",
+   "how": "rebuilt from",
+   "note": "crib"
+  },
+  {
+   "key": "k-bremen1631",
+   "target": "riksarkivet1628",
+   "how": "rebuilt from",
+   "note": "Bremen letter only"
+  },
+  {
+   "key": "k-pitt-boswell",
+   "target": "boswell",
+   "how": "adapted",
+   "note": "four graphic signs and the addressee added here"
+  },
+  {
+   "key": "k-mondoucet1572",
+   "target": "mondoucet",
+   "how": "rebuilt from",
+   "note": "16 July 1572 crib"
+  },
+  {
+   "key": "k-mondoucet1573",
+   "target": "mondoucet",
+   "how": "rebuilt from",
+   "note": "9 Sept decipherment"
+  },
+  {
+   "key": "k-marburg1635",
+   "target": "marburg1635",
+   "how": "rebuilt from",
+   "note": "ciphertext"
+  },
+  {
+   "key": "k-swieten1759",
+   "target": "swieten1757",
+   "how": "rebuilt from",
+   "note": "R956/R957"
+  },
+  {
+   "key": "k-nevers-informant1588",
+   "target": "nevers1588",
+   "how": "rebuilt from",
+   "note": "interlinear glosses of f. 131 and the reading of f. 62"
+  },
+  {
+   "key": "k-andreae1616",
+   "target": "andreae1616",
+   "how": "rebuilt from",
+   "note": "pp. 96, 98 glosses"
+  },
+  {
+   "key": "k-rangone1530",
+   "target": "rangone1530",
+   "how": "rebuilt from",
+   "note": "two letters"
+  },
+  {
+   "key": "k-r1854",
+   "target": "r1854",
+   "how": "rebuilt from",
+   "note": "images 2-5"
+  },
+  {
+   "key": "k-moncada1524",
+   "target": "moncada1524",
+   "how": "rebuilt from",
+   "note": "CODOIN XXIV decipherment"
+  },
+  {
+   "key": "k-baner1640",
+   "target": "baner1640",
+   "how": "rebuilt from",
+   "note": "cribs"
+  },
+  {
+   "key": "k-r4817",
+   "target": "r4817",
+   "how": "rebuilt from",
+   "note": "note"
+  },
+  {
+   "key": "k-memoire1560",
+   "target": "memoire1560",
+   "how": "rebuilt from",
+   "note": "ciphertext only"
+  },
+  {
+   "key": "k-segura1596",
+   "target": "segura1596",
+   "how": "rebuilt from",
+   "note": "letter"
+  },
+  {
+   "key": "k-potocka1714",
+   "target": "potocka1714",
+   "how": "rebuilt from",
+   "note": "R7526, then eight letters"
+  },
+  {
+   "key": "k-siena1421",
+   "target": "siena1421",
+   "how": "rebuilt from",
+   "note": "four letters"
+  },
+  {
+   "key": "k-hesse1824",
+   "target": "hesse1824",
+   "how": "rebuilt from",
+   "note": "decipherer's note"
+  },
+  {
+   "key": "k-szembek1689",
+   "target": "szembek1689",
+   "how": "rebuilt from",
+   "note": "interlinear glosses"
+  },
+  {
+   "key": "k-malsburg1637",
+   "target": "malsburg1637",
+   "how": "rebuilt from",
+   "note": "ciphertext only"
+  },
+  {
+   "key": "k-noautopilot-mercy1648",
+   "target": "mercy1648",
+   "how": "rebuilt from",
+   "note": "ciphertext only"
+  },
+  {
+   "key": "k-klee-vatican",
+   "target": "vatican",
+   "how": "rebuilt from",
+   "note": "ciphertext only"
+  },
+  {
+   "key": "k-uppsala-r4349",
+   "target": "r4349",
+   "how": "read unchanged",
+   "note": "the f. 19v colophon, rule and reading given in the 1992 catalogue"
+  },
+  {
+   "key": "k-beck-malsburg-alpha",
+   "target": "malsburg1637",
+   "how": "rebuilt from",
+   "note": "alphabetic letters on f. 12"
   }
  ],
  "sources": [
@@ -1741,59 +2903,659 @@
  ],
  "unlinked": {
   "burgo1527": "not a cipher: the record is a clear minute, no key involved",
-  "harley1582r8504": "read with the letter key rebuilt in harley1582r8500 (no named key record)",
-  "harley1582r8500": "letter key rebuilt here from the f. 72r decipherment (R8501) and f. 73r glosses (R8502); no key sheet known",
-  "harley286": "key rebuilt from the text by crib; D'Ewes's private alphabet",
-  "riksarkivet1628": "key rebuilt from its own text only (Bremen grid-band key); others open",
-  "boswell": "key rebuilt from its own text only",
   "randolph1570": "read from the contemporary decipherment (f. 278, R4932); no key",
   "walsingham1585": "key not identified; name numbers from context only",
   "hyde": "Barwick key tested and does not read it; key not identified",
   "hellen1752": "not read; key not identified",
   "hamilton1569": "read from the contemporary decipherment bound as f. 74; Tomokiyo's Mary-Hamilton key only checked on one line",
   "poyntz1527": "read from the contemporary decipherment (interlinear, and Tuke's printed in L&P IV 3271); Tomokiyo's Lee-Worcester key only spot-checked on R8567",
-  "mondoucet": "keys rebuilt from the volume itself: 1572 from the glossed 16 July crib, 1573 from the 9 Sept Court decipherment; 4 Jan 1573 read from Didier 1891",
-  "stafford1586": "read from the contemporary interlinear decipherment; letter values rebuilt here from the glosses, no key sheet known",
   "r1875": "read from the contemporary decipherment written on the despatch; key not rebuilt",
   "jantini1517": "No key found; Caprile's 1519 values (the only sibling key) tried and do not fit",
-  "marburg1635": "key rebuilt from its own text; no sheet in the Marburg volume fits",
   "r8361": "no key found; one code identified from context",
   "walsingham1572": "no key of 1572-73 found; Cecil-Norris 1568 tried and failed",
   "r8358": "no key found; one code identified from context",
-  "swieten1757": "R955 read from its own decipherment; the 1759 table rebuilt from its own ciphertext (no named key)",
   "r8356": "no key found; run too short",
   "r8362": "no key: nothing enciphered; boxed digits are cover-name markers",
   "bayard1526": "no key read it; Calvimont and Raince 1526 keys tested and ruled out",
-  "nevers1588": "key rebuilt here from the interlinear glosses of the same informant's letter f. 131 (4 June 1588) and the letter's own context; no named key",
   "r688": "Not a cipher: clear Serbian in Cyrillic script; no key involved.",
-  "r4349": "no key: a vowel shift (a→b e→f i→k o→p u→x) stated in the Uppsala catalogue and applied to a new transcription",
   "r7707": "not read; no key known (contemporary worksheets stop at frequency analysis)",
-  "andreae1616": "Key rebuilt from the book's own glosses (pp. 96, 98); an invented alphabet with no named key.",
   "toulon1803": "key identified (Croiset Correspondentiecijffer, NA 2.21.045/34313) but not digitised; three values from the same-key 1801 solutions targets/R1944/R1946, no key record read it",
   "mellon29": "not read; no key known (Alberti's published ring tested and rejected)",
   "r8364": "place name read from five copies across four letters and an archive catalogue entry; the Walsingham key of 1571 (SP 106/2 f. 141A) not consulted",
-  "harley1582r8505": "homophonic alphabet rebuilt here from the ciphertext alone; no named key record exists",
-  "rangone1530": "key rebuilt ciphertext-only from its own two letters (fr. 3070 f. 81, fr. 3082 f. 42); no named key read it",
-  "r1854": "keys rebuilt here from the ciphertext (images 2, 4-5) and from the contemporary interlinear gloss (image 3); the R1853 register keys do not fit",
-  "vatican": "key recovered from the ciphertext by Simon Klee (Sept 2026); no named key record reads it (Meister keys 1-2 excluded)",
-  "moncada1524": "key rebuilt here from the letter against the 1854 printed decipherment (CODOIN XXIV); no key sheet known",
   "nevers1595": "not read: key not identified; fr. 3995 no. 76 shares the sign family but not the values",
-  "baner1640": "Key rebuilt here from the letter's own clear context (cribs); none of the Swedish keys on DECODE (R4122, R4123, R4325, R4266) fits.",
   "bagno1652": "not read; no key found. Lasry's Francia 346 key was tested and structurally excluded because it reserves 6 as a separator while R5622 contains repeated 66 and 666.",
   "nevers1574": "read from the target manuscript's own interlinear decipherment and clear copies; the related Nevers no. 2 key of 1584 is not identical and did not read it",
-  "r4817": "Key reconstructed from this note alone, assisted by Rous partial decipherment in Korn 2023; no external named key.",
-  "memoire1560": "Key rebuilt here from the target's own ciphertext; no named key, sibling or decipherment.",
-  "segura1596": "Key rebuilt from this letter alone; no independently named key matched.",
   "labbe1582": "Not read; no validated key. The March letter reports a February cipher dispatch, but its enclosure has not been located.",
-  "potocka1714": "Key recovered here from R7526 and transferred to eight other Potocka letters; no external named key used. Mniszech remains unkeyed.",
   "schiner1516": "Read by Büchi and Schiess (1925) with keys they rebuilt for Schiner's correspondence and never printed; no key sheet is known, and the leaf is not digitised.",
   "indus": "undeciphered script: no key read it; published sign values (Parpola, Fairservis, Yajnadevam) tested against their own shuffles, not used",
   "ilten1697": "read from the contemporary interlinear decipherments; no key sheet for codes A or B is known",
-  "siena1421": "no filed key read any piece: the keys of nos. 14, 18 and 25 were recovered from their own ciphertext, that of no. 4 from an alphabet fragment and glosses on the letter itself; the 43 key sheets of fasc. 1 (DECODE R4746-R4789) were tried and none fits",
-  "hesse1824": "Key rebuilt here from the decipherer's note on the same leaf (key letters bcdefg, first word) and the ciphertext; no named key sheet.",
-  "szembek1689": "read from the contemporary interlinear decipherment; key rebuilt from the glosses of this letter only, no key sheet known",
-  "waldeck1744": "not deciphered: no key known; a two-part nomenclator not rebuildable from one letter",
-  "malsburg1637": "Numerical key rebuilt from its own ciphertext by Daniel Bourdeau; alphabetic period-five shifts 4,5,3,6,2 recovered from the alphabetic ciphertext by Larry Beck with ChatGPT. No surviving key sheet identified for either mechanism; matching numbers in other codebooks do not establish shared nomenclature.",
-  "mercy1648": "key rebuilt from the ciphertext alone by an outside contributor (NoAutopilot, issue 16); no key for the Brussels Secretaria of 1648 is known"
- }
+  "waldeck1744": "not deciphered: no key known; a two-part nomenclator not rebuildable from one letter"
+ },
+ "tried": [
+  {
+   "key": "k-barwick",
+   "target": "hyde",
+   "note": "Hyde–Barwick key (1659, 1–692): the one in-range superscription decodes to gibberish; others use numbers not in the key"
+  },
+  {
+   "key": "k-barwick",
+   "target": "conley1652",
+   "note": "Hyde–Barwick key applied to the five cipher runs: gibberish"
+  },
+  {
+   "key": "k-calvimont1526",
+   "target": "bayard1526",
+   "note": "Biermann's Calvimont key (Clair. 325 f. 67) mapped by sign shape, pinned anneal: no sense"
+  },
+  {
+   "key": "k-tomokiyo-raince1526",
+   "target": "bayard1526",
+   "note": "Tomokiyo's Raince 1526 key, nulls removed: -3.5/sign, gibberish; same sign pool, different values"
+  },
+  {
+   "key": "k-lasry-ceva",
+   "target": "bagno1652",
+   "note": "Lasry's Francia 346 key: its 6 separator is incompatible with R5622's 66/666; a checked line gives no Italian"
+  },
+  {
+   "key": "k-r958-965",
+   "target": "balbases1677",
+   "note": "None of the eight Brussels keys of the series (R958–R965, chiffres 1647-98) fits"
+  },
+  {
+   "key": "k-r958-965",
+   "target": "mercy1648",
+   "note": "Contributor ruled out DECODE's Brussels chiffres 1647-98 (R958–R965) for the 1648 Secretaria letter"
+  },
+  {
+   "key": "k-riksarkivet-baner",
+   "target": "baner1640",
+   "note": "R4122, R4123, R4325 (3rd/4th alphabets), R4266 tried as is and with offsets ±30: gibberish (~-6 nats/char)"
+  },
+  {
+   "key": "k-nah-g15",
+   "target": "bay1706",
+   "note": "All 94 G15 key records (R549–R646) tried; only R609/R561 fit, the other 92 do not"
+  },
+  {
+   "key": "k-bazeries-bethune1599",
+   "target": "bethune",
+   "note": "Bazeries 1901 key for Bethune 1599 compared: same design, different values"
+  },
+  {
+   "key": "k-r1146",
+   "target": "buda1489",
+   "note": "Abbot of Forlì's cipher (R1146/R1147) checked: a different system"
+  },
+  {
+   "key": "k-r9549",
+   "target": "castelcicala1816",
+   "note": "R9549 (box 2317), suggested by DECODE, uses a different code (groups 441, 486, 563, 1144)"
+  },
+  {
+   "key": "k-r9532-9541",
+   "target": "castelcicala1816",
+   "note": "Borbone consular keys R9532–R9541 (1859-60) checked: different codes"
+  },
+  {
+   "key": "k-tomokiyo-nevers46",
+   "target": "champagne1590",
+   "note": "Tomokiyo's Nevers no. 46 tried on no. 24's two-digit figures: values do not fit"
+  },
+  {
+   "key": "k-r8497",
+   "target": "cobham1588",
+   "note": "Catalogue's key record R8497 (f. 187) is Bodley's 1590 cipher, a different alphabet"
+  },
+  {
+   "key": "k-r8497",
+   "target": "harley287",
+   "note": "Bodley's key R8497 (1590) tried: a different alphabet; gives neither 42 nor .7."
+  },
+  {
+   "key": "k-fagel-r2842",
+   "target": "dedem1788",
+   "note": "Undated Fagel key series R2842–R2852 checked: large alphabetical Dutch codebooks, not this code"
+  },
+  {
+   "key": "k-fagel-r2842",
+   "target": "fagel1804",
+   "note": "Fagel family key sets R2842–R2852, one interior page each: Dutch-vocabulary codes, ruled out"
+  },
+  {
+   "key": "k-fagel-r2842",
+   "target": "vanreede1787",
+   "note": "R2846, R2848, R2850, R2851 (and R2243) tried on R1893: no fit, no crib"
+  },
+  {
+   "key": "k-r1024",
+   "target": "fagel1804",
+   "note": "Grand Chiffre direct lookup, additive Tableau from every start, offsets ±2600 and renumberings: nonsense"
+  },
+  {
+   "key": "k-r2240",
+   "target": "fagel1804",
+   "note": "R2240 Orange key (letters 1-100, names 100-6006): dot-joined words are not small-number runs, no fit"
+  },
+  {
+   "key": "k-r1035",
+   "target": "fagel1804",
+   "note": "R1035 (1803 Russia legation codebook) is a Dutch-language code; the letter's plaintext is French"
+  },
+  {
+   "key": "k-r1891",
+   "target": "fagel1804",
+   "note": "R1891 (1798 Schimmelpenninck codebook) is a Dutch-language code; ruled out"
+  },
+  {
+   "key": "k-r2237",
+   "target": "fagel1804",
+   "note": "Siblings R2236/R2237/R2239 use a small-number system with fraction marks, a different system"
+  },
+  {
+   "key": "k-r2233",
+   "target": "fagel1804",
+   "note": "Wolff's 1801 homophonic key R2233: small homophonic system, incompatible"
+  },
+  {
+   "key": "k-r2235",
+   "target": "fagel1804",
+   "note": "Exile-era key R2235 compared with the target and ruled out"
+  },
+  {
+   "key": "k-bl-french1798",
+   "target": "fagel1804",
+   "note": "BL Add MS 32264 R8963/R8964 (French Cypher 1798-99), R8984 (1805): ranges do not match groups 1531, 1731, 2510"
+  },
+  {
+   "key": "k-r594",
+   "target": "eichel1758",
+   "note": "Key R594, as DECODE suggests: nonsense, 61% of groups unassigned"
+  },
+  {
+   "key": "k-escriva1",
+   "target": "esp318",
+   "note": "Escrivá no. 1 excluded for nos. 93/94 by code-initial range"
+  },
+  {
+   "key": "k-tomokiyo-estrada",
+   "target": "estrada1503",
+   "note": "Tomokiyo's 'Estrada cipher' (cab, cev, gam … raf, ru): its groups do not occur in the letter"
+  },
+  {
+   "key": "k-kaa4591-keys",
+   "target": "ferdinand1619",
+   "note": "KAA 4591's own key records: R9419 Latin 1-99 nomenclator, R9420–R9423 1530s-1583 alphabets; none is the 1619 cipher"
+  },
+  {
+   "key": "k-kaa4591-keys",
+   "target": "kaa4591",
+   "note": "R9422 alphabet applied to R9424: does not read; R9420 (shift) and R9421 (tabula recta) checked"
+  },
+  {
+   "key": "k-gabbrielli-2-4",
+   "target": "florence1429",
+   "note": "Gabbrielli keys 2-4 (frames 58-4 to 58-6) compared; only key 1 fits"
+  },
+  {
+   "key": "k-tomokiyo-segur",
+   "target": "harley1582r8505",
+   "note": "Navarre's numeric cipher with Ségur is not this graphic-sign key"
+  },
+  {
+   "key": "k-r8694",
+   "target": "harley7001",
+   "note": "DECODE R8694 (Mr Browne, Add MS 72438) tried first: codes stop at 371, alphabet gives no sense"
+  },
+  {
+   "key": "k-ilten1743",
+   "target": "ilten1697",
+   "note": "The only Ilten key sheet (1234:31,1 pp. 386-391) is the 1740s code, not codes A or B"
+  },
+  {
+   "key": "k-caprile1519",
+   "target": "jantini1517",
+   "note": "Caprile 1519 values (R1130/4c) seeded on Fantini: score collapses, no Italian"
+  },
+  {
+   "key": "k-bonzagni1512",
+   "target": "jantini1517",
+   "note": "Bonzagni 1512 alphabet compared: a different system"
+  },
+  {
+   "key": "k-armstrong972",
+   "target": "legation",
+   "note": "Armstrong THE=972 table on JQA's 1812 despatches: noise; his code has the = 1385, of = 1576"
+  },
+  {
+   "key": "k-r9369",
+   "target": "augurelio1535",
+   "note": "R9369, the key addressed to Augurelio (f. 172), tested against the P3 gloss: omega = l there, e here"
+  },
+  {
+   "key": "k-r9369",
+   "target": "kaa4591b",
+   "note": "R9369 (Augurelio's 1531 key) tested on R9415 (L) and R9414 (G): does not match"
+  },
+  {
+   "key": "k-kaa4591-sysA",
+   "target": "kaa4591b",
+   "note": "System A′ key (R9427 gloss) applied to R9415, whose signs look like A′: values differ"
+  },
+  {
+   "key": "k-kaa4591-sysA",
+   "target": "sperantio1534",
+   "note": "System A′ (R9427 gloss key) tried; only System L fits"
+  },
+  {
+   "key": "k-fr3995-lorraine1592",
+   "target": "lorraine1592",
+   "note": "fr. 3995 key sheets ff. 32, 83-84, 98, 103 (DECODE profile match) eliminated on their own evidence"
+  },
+  {
+   "key": "k-tomokiyo-lorraine",
+   "target": "lorraine1592",
+   "note": "Tomokiyo's Lorraine keys (Bréval c. 1620, Bassompierre 1593): other systems"
+  },
+  {
+   "key": "k-r10182",
+   "target": "maria1435",
+   "note": "R10182 (ACA 1413) is a jargon code of cover names; does not fit"
+  },
+  {
+   "key": "k-r10183",
+   "target": "maria1435",
+   "note": "R10183, the 1437 Montcada–Amat alphabet: a different alphabet from the letter's"
+  },
+  {
+   "key": "k-castile1429",
+   "target": "maria1435",
+   "note": "1429 Castile-war key (Cortès & Pons 1986): alphabet does not fit, nomenclator only partly"
+  },
+  {
+   "key": "k-lasry-gl",
+   "target": "memoire1560",
+   "note": "Lasry's GL.htm Henri II / Charles IX tables checked: different symbol sets"
+  },
+  {
+   "key": "k-lasry-gl",
+   "target": "mercoeur1586",
+   "note": "Lasry's fr. 15564 key (GL.htm) compared with the MR slip: a different system, no shared signs"
+  },
+  {
+   "key": "k-tomokiyo-clair",
+   "target": "mercoeur1586",
+   "note": "Clairambault 357 figure cipher compared: no fit"
+  },
+  {
+   "key": "k-matignon1586",
+   "target": "mercoeur1586",
+   "note": "Mayenne–Forget Cipher-1 (matignon1586) compared: no fit"
+  },
+  {
+   "key": "k-alberti",
+   "target": "mellon29",
+   "note": "Alberti's published ring tried per segment (alberti.py), then free rings annealed: nothing read"
+  },
+  {
+   "key": "k-r1210",
+   "target": "r1212",
+   "note": "R1210 (Bornemisza c. 1540) name codes tried on the unkeyed numbers: no sense"
+  },
+  {
+   "key": "k-soria-a",
+   "target": "moncada1524",
+   "note": "Soria 1523 key A (Genoa, same court) compared: three-letter code groups, a different system"
+  },
+  {
+   "key": "k-soria-b",
+   "target": "moncada1524",
+   "note": "Soria 1523 key B compared: three-letter code groups, a different system"
+  },
+  {
+   "key": "k-kolosova",
+   "target": "moncada1524",
+   "note": "Kolosova keys ruled out (by Tomokiyo)"
+  },
+  {
+   "key": "k-nevers-no2-1584",
+   "target": "nevers1574",
+   "note": "Nevers no. 2 alphabet of 1584 (fr. 3995 f. 16): close but differs at F=e, 9=q; not an exact decoder"
+  },
+  {
+   "key": "k-tomokiyo-nevers10",
+   "target": "nevers1587",
+   "note": "Tomokiyo's Nevers no. 10 (f. 21) ruled out: 45 = Picardie"
+  },
+  {
+   "key": "k-tomokiyo-nevers10",
+   "target": "nevers1588",
+   "note": "No. 10 (f. 21v) tried against run R01: no French"
+  },
+  {
+   "key": "k-tomokiyo-nevers11",
+   "target": "nevers1588",
+   "note": "No. 11 (f. 23v, cardinal de Guise's key) tried against run R01: rejected"
+  },
+  {
+   "key": "k-tomokiyo-nevers16",
+   "target": "nevers1588",
+   "note": "No. 16 (f. 32v) tried against run R01: rejected"
+  },
+  {
+   "key": "k-tomokiyo-nevers18",
+   "target": "nevers1588",
+   "note": "No. 18 (f. 36v, Roman-numeral codes) and the canvas-45 alphabet tried against R01: rejected"
+  },
+  {
+   "key": "k-tomokiyo-nevers60",
+   "target": "nevers1595",
+   "note": "Court cipher no. 60 applied to the whole transcription (nevers1593 decoder): scattered syllables, no French"
+  },
+  {
+   "key": "k-nevers-balagny",
+   "target": "nevers1595",
+   "note": "Balagny–Nevers alphabet (Tomokiyo, fr. 3993 f. 130): different sign set"
+  },
+  {
+   "key": "k-fr3995-nos65-76",
+   "target": "nevers1595",
+   "note": "fr. 3995 nos. 76, 75, 66, 65, 68-74 read or checked: same sign family at best, no French"
+  },
+  {
+   "key": "k-r9257-9262",
+   "target": "norreys1567",
+   "note": "Add MS 4136 key records R9257, R9260, R9261, R9262 (Percy, Throckmorton 1-3, Smith) do not match"
+  },
+  {
+   "key": "k-r9257-9262",
+   "target": "percy1559",
+   "note": "Sibling key records R9257, R9260–R9262 checked for a box alphabet: none matches"
+  },
+  {
+   "key": "k-fr3413-keys",
+   "target": "orbais",
+   "note": "Three keys bound in fr. 3413 (nos. 53, 61, 69): no figures / other signs / square = e where n needed"
+  },
+  {
+   "key": "k-nevers-pelleve-guise",
+   "target": "orbais",
+   "note": "Nevers–Pellevé and Nevers–Guise tables: different glyph sets, no fit"
+  },
+  {
+   "key": "k-nevers-pelleve-guise",
+   "target": "r2276",
+   "note": "Nevers–Pellevé and Nevers–Guise tables (from orbais): do not fit"
+  },
+  {
+   "key": "k-albany1556",
+   "target": "r2276",
+   "note": "The 1556 d'Albany key pasted on p. 4 (the letter's verso): does not fit"
+  },
+  {
+   "key": "k-lasry-spagna6",
+   "target": "ormanetto1573",
+   "note": "Lasry's 1568 Spain nunciature polyphonic key (alessandrino1568): nonsense (-3.0/item)"
+  },
+  {
+   "key": "k-meister-crivelli1561",
+   "target": "ormanetto1573",
+   "note": "Crivelli 1561 polyphonic key (Meister V.8): nonsense (-3.7)"
+  },
+  {
+   "key": "k-meister-como",
+   "target": "ormanetto1573",
+   "note": "Meister VI.1-VI.3 (Como ciphers, Spain–Flanders): nonsense, no parse, or impossible (330 odd digits)"
+  },
+  {
+   "key": "k-lasry-dandini",
+   "target": "ormanetto1576",
+   "note": "Lasry's 1580 Como→Dandini key (R72): even-second-digit letter codes cannot produce this text"
+  },
+  {
+   "key": "k-r7928",
+   "target": "palm1727",
+   "note": "R7928 key fragment (Windischgrätz & Starhemberg) contradicts the glosses: 40=r vs ſ, 23=u vs n"
+  },
+  {
+   "key": "k-sanguszko-keys",
+   "target": "potocka1714",
+   "note": "Sanguszko key records R7515 (a=5/10/15), R7460/R7461 (symbols): alphabet/value mismatch"
+  },
+  {
+   "key": "k-r1853",
+   "target": "r1854",
+   "note": "R1853 register keys (Malatesta keys 1406-19, 'Ziffra nova' 1417) on P1: values do not fit (-4.2/char)"
+  },
+  {
+   "key": "k-r1855-r1852",
+   "target": "r1854",
+   "note": "R1855 (Este keys incl. Malatesta Novello 1441), R1852 (Florence Dieci 1424-32): sign sets differ"
+  },
+  {
+   "key": "k-r2240",
+   "target": "r1892",
+   "note": "R2240 (four-digit Orange name key) tried: R1892 uses only digits 1-6"
+  },
+  {
+   "key": "k-r2233",
+   "target": "r1892",
+   "note": "R2233 tried: no fit"
+  },
+  {
+   "key": "k-uppsala-r4349",
+   "target": "r4349",
+   "note": "Colophon's vowel shift applied to the six signs: none of b f k p x occurs, does not fit"
+  },
+  {
+   "key": "k-r341-r343",
+   "target": "r8364",
+   "note": "SP 106/2 keys R341 (f. 5) and R343 (f. 50, Norris-period): no sense, no VALERY"
+  },
+  {
+   "key": "k-lasry-gl",
+   "target": "rangone1530",
+   "note": "Lasry's GL.htm keys (Visconti, Bizozola, Gramont tables) compared by sign set: none shares it"
+  },
+  {
+   "key": "k-lasry-sormano",
+   "target": "rangone1530",
+   "note": "Sormano key compared by sign set: not shared"
+  },
+  {
+   "key": "k-rechteren-provisional",
+   "target": "rechteren1785",
+   "note": "Provisional Rechteren-family keys (deswart1782 R2051/R2052 alignments) applied: no Dutch"
+  },
+  {
+   "key": "k-tomokiyo-rennes2",
+   "target": "rennes1563",
+   "note": "Tomokiyo's Rennes2 (Lorraine) key checked: not this cipher"
+  },
+  {
+   "key": "k-r4310",
+   "target": "riksarkivet1628",
+   "note": "Siebenbürgen 'Schauis' key R4310 tested on R4306 and R4284: no fit"
+  },
+  {
+   "key": "k-r4296",
+   "target": "riksarkivet1628",
+   "note": "1632 word-end-30 key R4296 tested on R4306 and R4284: no fit"
+  },
+  {
+   "key": "k-r4922-richmond",
+   "target": "rupert1645",
+   "note": "Duke of Richmond cipher (sibling R4922): letter values above 100, ours stop at 98; ruled out"
+  },
+  {
+   "key": "k-r8724-digby",
+   "target": "rupert1645",
+   "note": "Digby–Walsingham key R8724 and Digby's cipher list R8627 checked: not this one"
+  },
+  {
+   "key": "k-tomokiyo-spanish1590s",
+   "target": "segura1596",
+   "note": "Descovar, Fuentes–Pimentel, Ibarra–Doria, Ibarra–Zúñiga sign inventories compared: no match"
+  },
+  {
+   "key": "k-tomokiyo-cg13",
+   "target": "segura1596",
+   "note": "Cg.13 sign inventory compared: no direct match"
+  },
+  {
+   "key": "k-siena-fasc1",
+   "target": "siena1421",
+   "note": "Filed keys of fasc. 1 (R4746–R4789) compared; R4750, R4753-57, R4762, R4760, R4768, R4778, R4764 tested: no fit"
+  },
+  {
+   "key": "k-brah915-keybook",
+   "target": "soria1523",
+   "note": "BRAH 9/15 key book (R9815–R9832) checked page by page: no alphabet matches either key"
+  },
+  {
+   "key": "k-tomokiyo-1522",
+   "target": "soria1523",
+   "note": "Decrypted 9/28 sibling of Alonso Sánchez (R9768) checked for a shared key: a different cipher"
+  },
+  {
+   "key": "k-lasry-sp106-5",
+   "target": "sp106box10",
+   "note": "R931: Lasry's 1645-46 SP 106 keys (SP 106, -2, -5, -8) applied: coverage ≤ 0.45, gibberish"
+  },
+  {
+   "key": "k-lasry-goring1645",
+   "target": "sp106box10",
+   "note": "R931: Lasry's June 1645 Goring key (R932) applied: gibberish"
+  },
+  {
+   "key": "k-r9117-culpeper",
+   "target": "sp106box10",
+   "note": "R931: Charles I→Culpeper 1645 key (R9117/R9118): words 300-600, nothing in 100-260; no fit"
+  },
+  {
+   "key": "k-sp106r927-flap",
+   "target": "sp106r927",
+   "note": "Pencil key on the flap tested in all orientations and dot orders: nonsense"
+  },
+  {
+   "key": "k-r1035",
+   "target": "spaen1808",
+   "note": "Croiset's 1803 codebook R1035 applied to the annex: word salad"
+  },
+  {
+   "key": "k-r955",
+   "target": "swieten1757",
+   "note": "R955's 1757 table (from its clear decipherment) tried on the 1759 letters: does not fit"
+  },
+  {
+   "key": "k-r1035",
+   "target": "toulon1803",
+   "note": "R1035 1803 codebook, Van Kampen's 1,849 entries under all 2,520 mark mappings: chance-level coverage"
+  },
+  {
+   "key": "k-r1038",
+   "target": "toulon1803",
+   "note": "R1038 (1765 St Petersburg key) re-tested on the anchors: no niet/handen/brengen, marks digits"
+  },
+  {
+   "key": "k-r1891",
+   "target": "toulon1803",
+   "note": "R1891 tried: does not fit"
+  },
+  {
+   "key": "k-meister-poggio",
+   "target": "vatican",
+   "note": "Meister 1906 keys nos. 1-4 (incl. the Poggio key, Piacenza 1545) as printed: below search optima, excluded"
+  },
+  {
+   "key": "k-vich-n79",
+   "target": "vich1511",
+   "note": "N.79 'Clave de cifra' table compared with N.73: does not fit"
+  },
+  {
+   "key": "k-tomokiyo-nevers11",
+   "target": "vieuville1587",
+   "note": "Key no. 11 (Tomokiyo, failed on the sibling, marked 'NG') ruled out on this letter"
+  },
+  {
+   "key": "k-tomokiyo-nevers12",
+   "target": "vieuville1587",
+   "note": "Key no. 12 (Apr 1587, fr. 3995 f. 26): a symbol alphabet unlike the letter"
+  },
+  {
+   "key": "k-hessen-marburg",
+   "target": "waldeck1744",
+   "note": "Hessen-Kassel keys Nr. 1229 (R4680), 1231, 1237 (R4741, R4742) and other Marburg keys: do not fit"
+  },
+  {
+   "key": "k-tomokiyo-norris",
+   "target": "walsingham1572",
+   "note": "Cecil–Norris 1567-68 table applied: 'r a ? ? i p', nonsense"
+  },
+  {
+   "key": "k-tomokiyo-norris",
+   "target": "wod1568",
+   "note": "Cecil–Norris table tried against the margin and the Wood line: no reading"
+  },
+  {
+   "key": "k-r9261",
+   "target": "wod1568",
+   "note": "Smith 1563 key tried against the margin and the Wood line: no reading"
+  },
+  {
+   "key": "k-moray-wood",
+   "target": "wod1568",
+   "note": "Moray–Wood key tried against the margin and the Wood line: no reading"
+  },
+  {
+   "key": "k-teleki-keys",
+   "target": "wesselenyi1664",
+   "note": "Teleki and Fasc. 327 keys R665–R673, R676–R690 scored: none gives sense for 60/64 (R672 alphabet only)"
+  },
+  {
+   "key": "k-r5017",
+   "target": "windischgraetz1721",
+   "note": "Charles VI keys R5017/R5018 noted as a different cipher"
+  },
+  {
+   "key": "k-sixtinus1635",
+   "target": "malsburg1637",
+   "note": "HCPortal key 5 (Sixtinus, Dec 1635): shares code numbers but its table does not decode f. 3"
+  },
+  {
+   "key": "k-hcportal-marburg",
+   "target": "malsburg1637",
+   "note": "HCPortal keys 30, 38, 49 on the digits and 2, 105 on the f. 12 letter block: none fits"
+  },
+  {
+   "key": "k-marburg-alphabets",
+   "target": "marburg1635",
+   "note": "Sign alphabets R4467, R4491, R4520, R4525 compared: none is this key"
+  },
+  {
+   "key": "k-sforza-1597",
+   "target": "it1583",
+   "note": "Sforza keys cart. 1597 no. 14 (same family) and no. 17 (1447): letter signs do not match f. 68/f. 70"
+  },
+  {
+   "key": "k-fr3995-madame1580",
+   "target": "labbe1582",
+   "note": "'Chifre avec Madame' 1580 (fr. 3995 f. 1) applied in context: no grammatical French"
+  },
+  {
+   "key": "k-decode-british",
+   "target": "anne1711",
+   "note": "155 transcribed British DECODE keys (SP 106 boxes 6-8, BL/TNA 1690-1730) tested against the anchors: none fits"
+  },
+  {
+   "key": "k-scorpion-2018",
+   "target": "scorpion",
+   "note": "Rubislaw32's 2018 claimed homophonic key: repeated symbols conflict; scores no better than alternatives"
+  },
+  {
+   "key": "k-lasry-mazarin1654",
+   "target": "bordeaux1653",
+   "note": "Lasry's 1654 Mazarin→Bordeaux key (R9482): two-dot series stops at 61, text has 73¨-99¨; keys differ"
+  }
+ ]
 }
