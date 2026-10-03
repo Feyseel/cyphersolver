@@ -446,7 +446,7 @@
   ],
   "sessions": 1,
   "first_date": "2026-09-21",
-  "last_date": "2026-09-21"
+  "last_date": "2026-10-02"
  },
  "solution": [
   {
@@ -638,7 +638,7 @@
  ],
  "outcome": {
   "method": "key recovered based on adjacent plaintext",
-  "method_basis": "Most of what is read comes from keys rebuilt from contemporary glosses in the same key volume: System B (Łaski letters R9322, R9323, R9417) from 153 interlinear gloss pairs, System A′ (R9408-R9413) from the gloss on R9427; R9325 was read with key R9324 filed a few folios earlier, and R9416 f. 263 was broken ciphertext-only.",
+  "method_basis": "Most of what is read comes from keys rebuilt from contemporary glosses in the same key volume: System B (Łaski letters R9322, R9323, R9417) from 153 interlinear gloss pairs, System A′ (R9408-R9413, R9427) from the gloss on R9427, improved on the sibling R9407 and re-learned per letter (2 Oct 2026); R9325 was read with key R9324 filed a few folios earlier, and R9416 f. 263 was broken ciphertext-only.",
   "contribution": [
    "transcription",
    "key recovered",

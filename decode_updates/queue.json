@@ -5017,7 +5017,7 @@
    "key": {
     "file": "targets/kaa4591/NOTES.md",
     "lang": "LA/DE",
-    "how": "Per record: R9325 key R9324 (same volume); R9322/R9323/R9417 key rebuilt from interlinear glosses (targets/kaa4591/sysB/key_from_glosses.tsv); R9408-R9427 key from the R9427 gloss (targets/kaa4591/r9427/key_full.tsv, targets/kaa4591/sysA_decode.py); R9367 key register R9423 block 2_4; R9416 f.263 solved ciphertext-only"
+    "how": "Per record: R9325 key R9324 (same volume); R9322/R9323/R9417 key rebuilt from interlinear glosses (targets/kaa4591/sysB/key_from_glosses.tsv); R9408-R9427 key from the R9427 gloss (targets/kaa4591/r9427/key_full.tsv), improved on R9407 and re-learned per letter (targets/kaa4591/sysA2/); R9367 key register R9423 block 2_4; R9416 f.263 solved ciphertext-only"
    },
    "cite": null,
    "fields": {},
@@ -5101,45 +5101,96 @@
     "R9408": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "Report of 1534 on Hungary and the Turk; key from the R9427 gloss; working decrypt only. Machine decrypts in the repository, not yet a clean text.",
-     "reading": null,
+     "note": "Jorg (Georg) Weinmeister, signed in cipher, to the Dukes of Bavaria, Ofen (Buda), 8 February 1534 (octava februarii); German with Latin clear passages; image P1 is a separate news page. Deciphered by hand 2 Oct 2026, 1,358 of 1,528 words (88.9%).",
+     "reading": [
+      {
+       "file": "targets/kaa4591/r9408/reading.txt"
+      }
+     ],
      "sent": false,
-     "reading_not_needed": true,
      "fields": {
-      "plaintext_lang": "German"
+      "plaintext_lang": "German",
+      "cleartext_lang": "Latin",
+      "sender": "Jorg (Georg) Weinmeister",
+      "receiver": "Dukes of Bavaria (Wilhelm IV and Ludwig X)",
+      "date": "1534-02-08",
+      "origin_city": "Buda (Ofen)"
+     },
+     "key": {
+      "file": "targets/augurelio1535/pass2/key.txt",
+      "lang": "DE",
+      "how": "System A' of KAA 4591: the key first rebuilt from the contemporary gloss on R9427, then improved on the sibling letter R9407 (augurelio1535 pass 2) and carried back by sign shape on 2 Oct 2026, re-learned on each letter by EM and a word-aware decoder (per-letter keys: targets/kaa4591/sysA2/<record>_g_key.json; the R9407 sign codes are mapped to these by targets/kaa4591/sysA2/prep.py). Word signs: hourglass = 'F.G.' (Dominationes in the Latin letter); a looped K = a person, probably King Ferdinand, open"
      }
     },
     "R9409": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "German intelligence report with articles and answers; key from the R9427 gloss; working decrypt only. Machine decrypts in the repository, not yet a clean text.",
-     "reading": null,
+     "note": "German intelligence report of early 1534 to the Dukes of Bavaria (Ferdinand and the confederation, the Turkish embassy, Pressburg, Katzianer and Majlath in Transylvania, Poland and Muscovy; numbered articles on a mining concession; postscript 'Auf den Reichstag'). Deciphered by hand 2 Oct 2026, 1,911 of 2,361 words (80.9%).",
+     "reading": [
+      {
+       "file": "targets/kaa4591/r9409/reading.txt"
+      }
+     ],
      "sent": false,
-     "reading_not_needed": true,
      "fields": {
-      "plaintext_lang": "German"
+      "plaintext_lang": "German",
+      "receiver": "Dukes of Bavaria",
+      "date": "1534 (early)"
+     },
+     "key": {
+      "file": "targets/augurelio1535/pass2/key.txt",
+      "lang": "DE",
+      "how": "System A' of KAA 4591: the key first rebuilt from the contemporary gloss on R9427, then improved on the sibling letter R9407 (augurelio1535 pass 2) and carried back by sign shape on 2 Oct 2026, re-learned on each letter by EM and a word-aware decoder (per-letter keys: targets/kaa4591/sysA2/<record>_g_key.json; the R9407 sign codes are mapped to these by targets/kaa4591/sysA2/prep.py). Word signs: hourglass = 'F.G.' (Dominationes in the Latin letter); a looped K = a person, probably King Ferdinand, open"
      }
     },
     "R9410": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "German report of 1535 (France, the Empire, the Turk); key from the R9427 gloss; working decrypt only. Machine decrypts in the repository, not yet a clean text.",
-     "reading": null,
+     "note": "Two letters. f. 244r: German, to the Dukes of Bavaria, 'des ersten aprilis Anno 35' (1 April 1535): a treaty, the King of France, holding together against the Turks; 255 of 304 words (83.9%). ff. 246-247 (images P3, P4, P6; P5 repeats P4): a second letter, in LATIN, 'Datum Bude ultima Iunii Anno (15)34', from King John (Zapolya) of Hungary to the Dukes of Bavaria (royal 'we', only a truce with 'adversarius noster', an envoy back at Constantinople); transcribed and deciphered 2 Oct 2026, 350 of 422 words (82.9%).",
+     "reading": [
+      {
+       "file": "targets/kaa4591/r9410/reading.txt"
+      },
+      {
+       "file": "targets/kaa4591/r9410/reading_p3p6.txt"
+      }
+     ],
      "sent": false,
-     "reading_not_needed": true,
      "fields": {
-      "plaintext_lang": "German"
-     }
+      "plaintext_lang": "German (f. 244r); Latin (ff. 246-247)",
+      "sender": "unknown Bavarian agent (f. 244r); John Zapolya, King of Hungary (ff. 246-247)",
+      "receiver": "Dukes of Bavaria",
+      "date": "1535-04-01 (f. 244r); 1534-06-30 (ff. 246-247)",
+      "origin_city": "Buda (ff. 246-247)"
+     },
+     "key": {
+      "file": "targets/augurelio1535/pass2/key.txt",
+      "lang": "DE/LA",
+      "how": "System A' of KAA 4591: the key first rebuilt from the contemporary gloss on R9427, then improved on the sibling letter R9407 (augurelio1535 pass 2) and carried back by sign shape on 2 Oct 2026, re-learned on each letter by EM and a word-aware decoder (per-letter keys: targets/kaa4591/sysA2/<record>_g_key.json; the R9407 sign codes are mapped to these by targets/kaa4591/sysA2/prep.py). Word signs: hourglass = 'F.G.' (Dominationes in the Latin letter); a looped K = a person, probably King Ferdinand, open"
+     },
+     "transcription": [
+      "targets/kaa4591/r9410/transcription_p3p6.txt"
+     ]
     },
     "R9413": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "Three German letters, June-July 1534 (Rincon, Constantinople); key from the R9427 gloss, refitted; working decrypt only. Machine decrypts in the repository, not yet a clean text.",
-     "reading": null,
+     "note": "Three German letters of a Bavarian agent to the dukes, July, 7 June and 8 July 1534, addressed to secretary Waisenfelder (Cornelius, the French orator Antonius Rincon at Constantinople, Katzianer, the bishop of Wardein before Hunyad, the Wurttemberg war, an ore sample from near Ofen, the Turk's fleet, the Pressburg diet). Deciphered by hand 2 Oct 2026, 1,431 of 1,663 words (86.0%).",
+     "reading": [
+      {
+       "file": "targets/kaa4591/r9413/reading.txt"
+      }
+     ],
      "sent": false,
-     "reading_not_needed": true,
      "fields": {
-      "plaintext_lang": "German"
+      "plaintext_lang": "German",
+      "receiver": "Dukes of Bavaria (via secretary Waisenfelder)",
+      "date": "1534-06-07 / 1534-07-08"
+     },
+     "key": {
+      "file": "targets/augurelio1535/pass2/key.txt",
+      "lang": "DE",
+      "how": "System A' of KAA 4591: the key first rebuilt from the contemporary gloss on R9427, then improved on the sibling letter R9407 (augurelio1535 pass 2) and carried back by sign shape on 2 Oct 2026, re-learned on each letter by EM and a word-aware decoder (per-letter keys: targets/kaa4591/sysA2/<record>_g_key.json; the R9407 sign codes are mapped to these by targets/kaa4591/sysA2/prep.py). Word signs: hourglass = 'F.G.' (Dominationes in the Latin letter); a looped K = a person, probably King Ferdinand, open"
      }
     },
     "R9416": {
@@ -5185,12 +5236,22 @@
     "R9427": {
      "decode_status": "Partially decrypted",
      "proposed": "Partially decrypted",
-     "note": "German newsletter, 24-25 April 1534; key rebuilt from its own interlinear gloss; working decrypt only. Machine decrypts in the repository, not yet a clean text.",
-     "reading": null,
+     "note": "German newsletter to the Dukes of Bavaria, dated 15, 21 and 24 April [15]34, postscript 25 April: the Wurttemberg affair (the League, the dukes of Wurttemberg, the Landgrave), Ferdinand, a provost-priest who married and was imprisoned; the dukes' letter came 'durch Stehan' on 23 April. Contemporary gloss over lines 1-10. Deciphered by hand 2 Oct 2026, 419 of 542 words (77.3%).",
+     "reading": [
+      {
+       "file": "targets/kaa4591/r9427/reading.txt"
+      }
+     ],
      "sent": false,
-     "reading_not_needed": true,
      "fields": {
-      "plaintext_lang": "German"
+      "plaintext_lang": "German",
+      "receiver": "Dukes of Bavaria",
+      "date": "1534-04-24"
+     },
+     "key": {
+      "file": "targets/augurelio1535/pass2/key.txt",
+      "lang": "DE",
+      "how": "System A' of KAA 4591: the key first rebuilt from the contemporary gloss on R9427, then improved on the sibling letter R9407 (augurelio1535 pass 2) and carried back by sign shape on 2 Oct 2026, re-learned on each letter by EM and a word-aware decoder (per-letter keys: targets/kaa4591/sysA2/<record>_g_key.json; the R9407 sign codes are mapped to these by targets/kaa4591/sysA2/prep.py). Word signs: hourglass = 'F.G.' (Dominationes in the Latin letter); a looped K = a person, probably King Ferdinand, open"
      }
     }
    }

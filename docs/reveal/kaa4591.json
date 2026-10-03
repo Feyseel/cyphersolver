@@ -1,0 +1,575 @@
+{
+"slug": "kaa4591",
+"anchor": "the-latin-letter-of-king-john-buda-30-june",
+"title": "R9410 ff.&nbsp;246&ndash;247, Latin: &ldquo;nos cum adversario nostro pacem non habere&rdquo;",
+"caption": "Three lines of the Latin letter of 30 June 1534 (ff. 246&ndash;247), sign by sign, with the values of the System A&prime; key as re-learned for this letter and the hand reading aligned to the signs. The hourglass sign is the code for <i>Dominationes</i>, as F.G. is in the German letters; the bar marks the end of a manuscript line. Signs marked uncertain take a value the rest of the letter does not confirm; the one sign marked ? after nostro is passed over by the reading.",
+"unit": "signs",
+"key_note": "Homophonic substitution of invented signs, Greek-looking letters and numerals, written without word division; the key is the improved R9407 (Augurelio) key carried over by sign shape and re-learned on this letter. Word division is editorial.",
+"tokens": [
+{
+"g": "3",
+"p": "u",
+"cls": ""
+},
+{
+"g": "w",
+"p": "e",
+"cls": ""
+},
+{
+"g": "x",
+"p": "s",
+"cls": ""
+},
+{
+"g": "y",
+"p": "t",
+"cls": ""
+},
+{
+"g": "v",
+"p": "r",
+"cls": ""
+},
+{
+"g": "w",
+"p": "e",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "X",
+"p": "[Dom.]",
+"cls": "code"
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "E",
+"p": "c",
+"cls": ""
+},
+{
+"g": "w",
+"p": "e",
+"cls": ""
+},
+{
+"g": "v",
+"p": "r",
+"cls": ""
+},
+{
+"g": "N",
+"p": "t",
+"cls": "unc"
+},
+{
+"g": "p",
+"p": "i",
+"cls": ""
+},
+{
+"g": "9",
+"p": "o",
+"cls": ""
+},
+{
+"g": "v",
+"p": "r",
+"cls": ""
+},
+{
+"g": "4",
+"p": "e",
+"cls": ""
+},
+{
+"g": "x",
+"p": "s",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "D",
+"p": "f",
+"cls": ""
+},
+{
+"g": "m",
+"p": "i",
+"cls": ""
+},
+{
+"g": "w",
+"p": "e",
+"cls": ""
+},
+{
+"g": "v",
+"p": "r",
+"cls": ""
+},
+{
+"g": "p",
+"p": "i",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "E",
+"p": "c",
+"cls": ""
+},
+{
+"g": "3",
+"p": "u",
+"cls": ""
+},
+{
+"g": "A",
+"p": "p",
+"cls": ""
+},
+{
+"g": "m",
+"p": "i",
+"cls": ""
+},
+{
+"g": "3",
+"p": "u",
+"cls": ""
+},
+{
+"g": "8",
+"p": "n",
+"cls": ""
+},
+{
+"g": "y",
+"p": "t",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "6",
+"p": "d",
+"cls": ""
+},
+{
+"g": "w",
+"p": "e",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "x",
+"p": "s",
+"cls": ""
+},
+{
+"g": "y",
+"p": "t",
+"cls": ""
+},
+{
+"g": "",
+"p": " | ",
+"cls": "plain"
+},
+{
+"g": "5",
+"p": "a",
+"cls": ""
+},
+{
+"g": "y",
+"p": "t",
+"cls": ""
+},
+{
+"g": "#",
+"p": "u",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "v",
+"p": "r",
+"cls": ""
+},
+{
+"g": "w",
+"p": "e",
+"cls": ""
+},
+{
+"g": "g",
+"p": "r",
+"cls": ""
+},
+{
+"g": "3",
+"p": "u",
+"cls": ""
+},
+{
+"g": "7",
+"p": "m",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "8",
+"p": "n",
+"cls": ""
+},
+{
+"g": "9",
+"p": "o",
+"cls": ""
+},
+{
+"g": "x",
+"p": "s",
+"cls": ""
+},
+{
+"g": "y",
+"p": "t",
+"cls": ""
+},
+{
+"g": "v",
+"p": "r",
+"cls": ""
+},
+{
+"g": "5",
+"p": "a",
+"cls": ""
+},
+{
+"g": "g",
+"p": "r",
+"cls": ""
+},
+{
+"g": "3",
+"p": "u",
+"cls": ""
+},
+{
+"g": "7",
+"p": "m",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "x",
+"p": "s",
+"cls": ""
+},
+{
+"g": "E",
+"p": "c",
+"cls": ""
+},
+{
+"g": "p",
+"p": "i",
+"cls": ""
+},
+{
+"g": "5",
+"p": "a",
+"cls": ""
+},
+{
+"g": "q",
+"p": "n",
+"cls": ""
+},
+{
+"g": "y",
+"p": "t",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "q",
+"p": "n",
+"cls": ""
+},
+{
+"g": "9",
+"p": "o",
+"cls": ""
+},
+{
+"g": "x",
+"p": "s",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "E",
+"p": "c",
+"cls": ""
+},
+{
+"g": "3",
+"p": "u",
+"cls": ""
+},
+{
+"g": "7",
+"p": "m",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "5",
+"p": "a",
+"cls": ""
+},
+{
+"g": "6",
+"p": "d",
+"cls": ""
+},
+{
+"g": "k",
+"p": "u",
+"cls": ""
+},
+{
+"g": "w",
+"p": "e",
+"cls": ""
+},
+{
+"g": "v",
+"p": "r",
+"cls": ""
+},
+{
+"g": "x",
+"p": "s",
+"cls": ""
+},
+{
+"g": "5",
+"p": "a",
+"cls": ""
+},
+{
+"g": "v",
+"p": "r",
+"cls": ""
+},
+{
+"g": "p",
+"p": "i",
+"cls": ""
+},
+{
+"g": "9",
+"p": "o",
+"cls": ""
+},
+{
+"g": "",
+"p": " | ",
+"cls": "plain"
+},
+{
+"g": "q",
+"p": "n",
+"cls": ""
+},
+{
+"g": "9",
+"p": "o",
+"cls": ""
+},
+{
+"g": "x",
+"p": "s",
+"cls": ""
+},
+{
+"g": "y",
+"p": "t",
+"cls": ""
+},
+{
+"g": "v",
+"p": "r",
+"cls": ""
+},
+{
+"g": "9",
+"p": "o",
+"cls": ""
+},
+{
+"g": "d",
+"p": "?",
+"cls": "unk"
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "A",
+"p": "p",
+"cls": ""
+},
+{
+"g": "5",
+"p": "a",
+"cls": ""
+},
+{
+"g": "E",
+"p": "c",
+"cls": ""
+},
+{
+"g": "4",
+"p": "e",
+"cls": ""
+},
+{
+"g": "7",
+"p": "m",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "8",
+"p": "n",
+"cls": ""
+},
+{
+"g": "9",
+"p": "o",
+"cls": ""
+},
+{
+"g": "q",
+"p": "n",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "$",
+"p": "h",
+"cls": ""
+},
+{
+"g": "5",
+"p": "a",
+"cls": ""
+},
+{
+"g": "n",
+"p": "b",
+"cls": ""
+},
+{
+"g": "4",
+"p": "e",
+"cls": ""
+},
+{
+"g": "v",
+"p": "r",
+"cls": ""
+},
+{
+"g": "w",
+"p": "e",
+"cls": ""
+},
+{
+"g": "",
+"p": " ",
+"cls": "plain"
+},
+{
+"g": "x",
+"p": "s",
+"cls": ""
+},
+{
+"g": "w",
+"p": "e",
+"cls": ""
+},
+{
+"g": "6",
+"p": "d",
+"cls": ""
+}
+]
+}

@@ -4099,6 +4099,26 @@
    "to": "Ferrara",
    "st": "partial",
    "label": "Caprile 1519–21"
+  },
+  {
+   "slug": "kaa4591",
+   "doc": "R9408",
+   "year": 1534.1,
+   "date": "8 February 1534",
+   "from": "Buda",
+   "to": "Munich",
+   "st": "partial",
+   "label": "Weinmeister from Ofen, February 1534"
+  },
+  {
+   "slug": "kaa4591",
+   "doc": "R9410 ff. 246-247",
+   "year": 1534.49,
+   "date": "30 June 1534",
+   "from": "Buda",
+   "to": "Munich",
+   "st": "partial",
+   "label": "King John to the dukes, June 1534 (Latin)"
   }
  ]
 }

@@ -1820,6 +1820,14 @@
    "by": "Daniel Bourdeau",
    "year": 1573,
    "note": "Homophonic sign cipher with syllable and word signs, recovered from the gutter-cut marginal decipherments in BnF fr. 4735 and a pinned annealer; corrects Tomokiyo's table (first row shifted by one letter); extended on ff. 154 and 156 (2 Oct 2026)."
+  },
+  {
+   "id": "k-r9407-sysA2",
+   "label": "System A′ key as improved on R9407 (Weinmeister 1533, rebuilt here)",
+   "kind": "rebuilt here",
+   "by": "Daniel Bourdeau",
+   "year": 1533,
+   "note": "The R9427 gloss key carried to R9407 by sign shape and extended there by EM, a word-aware decoder and readings aligned back to the signs (augurelio1535 pass 2); carried back to the five sibling letters of 1534-35 on 2 Oct 2026."
   }
  ],
  "links": [
@@ -2776,6 +2784,24 @@
    "target": "lanssac",
    "how": "rebuilt from",
    "note": "marginal glosses of ff. 124 and 154v; applied to ff. 154, 156, 160, 164, 174"
+  },
+  {
+   "key": "k-r9407-sysA2",
+   "target": "augurelio1535",
+   "how": "rebuilt from",
+   "note": "pass 2 key, R9407 deciphered to 96.7% of words"
+  },
+  {
+   "key": "k-kaa4591-sysA",
+   "target": "kaa4591",
+   "how": "rebuilt from",
+   "note": "R9427's gloss over ten lines, 21 Sept 2026; superseded on 2 Oct 2026"
+  },
+  {
+   "key": "k-r9407-sysA2",
+   "target": "kaa4591",
+   "how": "adapted",
+   "note": "carried by sign shape to R9408, R9409, R9410 (German and the Latin letter), R9413 and R9427 and re-learned per letter; 83.9% of 6,820 words"
   }
  ],
  "sources": [
@@ -3196,6 +3222,10 @@
   {
    "source": "s-bourdeau",
    "key": "k-lanssac1573"
+  },
+  {
+   "source": "s-bourdeau",
+   "key": "k-r9407-sysA2"
   }
  ],
  "unlinked": {

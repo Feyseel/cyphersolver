@@ -32,6 +32,7 @@
   "armstrong to madison, 20 february 1808": "2026-09-16",
   "attempted, not solved": "2026-09-23",
   "barberini to nuncio ceva, rome to paris, 25 september and 18 december 1632": "2026-09-20",
+  "bavarian agents and king john zápolya to the dukes of bavaria, buda 1534–35": "2026-10-02",
   "beatrice d’aragona, 1482–1505": "2026-09-20",
   "benedetto fantini to the este court, buda and eger, 1517–18": "2026-09-22",
   "benedict xiii to francesc climent, 1399–1416": "2026-09-23",
@@ -352,8 +353,8 @@
   },
   "augurelio1535": {
    "first": "2026-09-22",
-   "hash": "7b74ab83e834",
-   "updated": "2026-09-24"
+   "hash": "bb61baed6e49",
+   "updated": "2026-10-02"
   },
   "ayala1516": {
    "first": "2026-09-21",
@@ -752,7 +753,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "e01353132de6",
+   "hash": "a424ef1ae219",
    "updated": "2026-10-02"
   },
   "indus": {
@@ -782,8 +783,8 @@
   },
   "kaa4591": {
    "first": "2026-09-21",
-   "hash": "8c7adf22e35c",
-   "updated": "2026-09-30"
+   "hash": "ce1057a01553",
+   "updated": "2026-10-02"
   },
   "kaa4591b": {
    "first": "2026-09-22",
@@ -1572,7 +1573,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "94e7b3e1151d",
+   "hash": "62b806a3d6f2",
    "updated": "2026-10-02"
   },
   "yard1699": {

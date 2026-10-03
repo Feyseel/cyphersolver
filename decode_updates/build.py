@@ -15,7 +15,7 @@ import json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Q = os.path.join(ROOT, 'decode_updates', 'queue.json')
 OUT = os.path.join(ROOT, 'decode_updates', 'out')
-LANG = {'IT': 'Italian', 'ES': 'Spanish', 'FR': 'French', 'DE': 'German', 'NL': 'Dutch', 'HU': 'Hungarian'}
+LANG = {'IT': 'Italian', 'ES': 'Spanish', 'FR': 'French', 'DE': 'German', 'NL': 'Dutch', 'HU': 'Hungarian', 'LA': 'Latin', 'DE/LA': 'German and Latin'}
 BY = 'Dan Bourdeau'
 DATE = 'September 2026'
 
