@@ -1,21 +1,42 @@
 # cyphersolver
 
-An informal benchmark of a frontier AI (Claude Fable 5.1) on historically "unsolved" ciphers, as much a hobby as a
-measurement. The targets
-are drawn from three standard lists: S. Tomokiyo's
+An informal benchmark of frontier AI models on historically "unsolved" ciphers, as much a hobby as a measurement.
+Most of the work is by Claude (Opus 5 and 5.5, some Fable 5.1); a few results came from outside contributors using
+other models. Each target's `profile.json` records which model did what, and what it was given. The first targets
+came from three standard lists: S. Tomokiyo's
 [Unsolved Historical Ciphers](https://cryptiana.web.fc2.com/code/unsolved.htm), Klaus Schmeh's
 [Top 50 unsolved encrypted messages](https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/),
-and Elonka Dunin's [famous unsolved codes](https://elonka.com/UnsolvedCodes.html). Each one is a test of how far an AI
-assistant, working with a human, can get on a problem that has resisted people for decades or centuries: how much is
-archival research, how much is cryptanalysis, and where it stops. Method: archival research, historical cribs,
-19th-century printed editions, and small purpose-built solvers, always run against matched controls so that a
-negative result says something.
+and Elonka Dunin's [famous unsolved codes](https://elonka.com/UnsolvedCodes.html). Since mid-September 2026 most come
+from this project's own catalogue of undeciphered archival letters (DECODE records, BnF and Gallica notices,
+Tomokiyo's "undeciphered" letters, printed calendars). Each one is a test of how far an AI assistant, working with a
+human, can get on a problem that has resisted people for decades or centuries: how much is archival research, how much
+is cryptanalysis, and where it stops. Method: archival research, historical cribs, printed editions, and small
+purpose-built solvers, always run against matched controls so that a negative result says something. The results
+are being written up with George Lasry as a paper on how LLMs perform against historical ciphers.
 
 - **Website:** https://dbourdeau.github.io/cyphersolver/ — hub, priority queue, and formal write-ups (source in [`docs/`](docs/)).
 - **Solved, catalogued:** [SOLVED_CATALOGUE.md](SOLVED_CATALOGUE.md) — every item solved, read or partly read, the method that broke it, and where the AI did the work.
-- **Solved, ranked:** [SOLVED_RANKING.md](SOLVED_RANKING.md) — the finished targets scored by difficulty, historical weight, novelty, research effort, profile and verification.
-- **Catalogue of new targets:** [CATALOGUE.md](CATALOGUE.md) · [site page](https://dbourdeau.github.io/cyphersolver/catalogue.html) — 251 undeciphered letters and series absent from the standard lists, scored for importance, solvability and difficulty. The first 33 (1497–1649) came from the BnF catalogue on Gallica and the fine print of the cryptiana articles, and most have since been taken to the leaf here; the twenty read, partly read, resolved or found in print here (with Matthias 1482 from the DECODE set) were removed from the catalogue on 19 Sept 2026 and live in [SOLVED_CATALOGUE.md](SOLVED_CATALOGUE.md). On 19 Sept 2026 the catalogue was refilled from the DECODE database: every ciphertext record marked non-decrypted or partly decrypted (1,187), grouped into 238 new entries from 1482 to 1841, after dropping 27 groups already solved or already targets here. The new entries are scored by rule from DECODE metadata and tagged as such until reviewed; the top fifteen have been reviewed by hand, and 194 targets are now open. Harvest scripts in [`research/catalogue_harvest/decode/`](research/catalogue_harvest/decode/). On 22 Sept 2026 a new-solves sweep added 63 entries (ids 272–334): candidates for solves and for reads from outside keys or printed decipherments, drawn from DECODE records never classified, Tomokiyo's "undeciphered" letters, Gallica notices and the printed calendars. A prior-art check the same day removed seven found already read and eleven read in part by others (listed in SOLVED_CATALOGUE.md), set aside eight whose prior art could not be settled, narrowed eight, and moved out the 21 whose key is already held or published (the catalogue keeps only letters that need cryptanalysis); 54 targets are open.
-- **Per-target record:** each working directory has a `NOTES.md` with sources, dead ends, what is established and what is inferred.
+- **Solved, ranked:** [SOLVED_RANKING.md](SOLVED_RANKING.md) — the finished targets in one table, scored by difficulty, historical weight, novelty, research effort, profile and verification.
+- **Catalogue of open targets:** [CATALOGUE.md](CATALOGUE.md) · [site page](https://dbourdeau.github.io/cyphersolver/catalogue.html) — undeciphered letters and series absent from the standard lists, scored for importance, solvability and difficulty. Generated from [`catalogue.json`](catalogue.json); a target leaves it when it is read, resolved or found in print. How it was compiled and refilled (BnF/Gallica, DECODE, the 22 Sept 2026 new-solves sweep) is in CATALOGUE.md; harvest scripts in [`research/catalogue_harvest/`](research/catalogue_harvest/).
+- **Per-target record:** each folder under [`targets/`](targets/) has a `NOTES.md` (sources, dead ends, what is established and what is inferred) and a `profile.json` (the fixed-field record behind the paper; [`profile.schema.json`](profile.schema.json)).
+
+## At a glance
+
+<!-- glance:start -->
+202 rows record a reading of some kind; the site has 246 write-up pages and 53 catalogue targets are open. Counts are rows of the tables below (a row can cover a group of letters), regenerated by `docs/_build_site.py`.
+
+| Outcome | Rows | Complete |
+|---|---|---|
+| [Key recovered from ciphertext-only](#key-recovered-from-ciphertext-only) | 29 | 15 |
+| [Key recovered based on plaintext from external sources](#key-recovered-based-on-plaintext-from-external-sources) | 12 | 8 |
+| [Key recovered based on adjacent plaintext](#key-recovered-based-on-adjacent-plaintext) | 37 | 18 |
+| [Read after matching with key from external sources](#read-after-matching-with-key-from-external-sources) | 15 | 9 |
+| [Read with known key](#read-with-known-key) | 75 | 47 |
+| [Read from existing decipherment](#read-from-existing-decipherment) | 34 | 32 |
+| [Not solved](#not-solved) | 51 | &mdash; |
+| [Not applicable](#not-applicable) | 21 | &mdash; |
+| [In progress](#in-progress) | 11 | &mdash; |
+<!-- glance:end -->
 
 ## Results
 
@@ -382,16 +403,20 @@ Six further list entries turned out to be solved by others with nothing to add h
 
 ```
 README.md          this file
-CATALOGUE.md       the archival catalogue (generated from catalogue.json)
+CLAUDE.md          working rules for the AI sessions (write-up, profile, shared-checkout conventions)
+catalogue.json     the open targets, with scores and status; CATALOGUE.md is generated from it
+CATALOGUE.md       the archival catalogue: how it was compiled, the open table, what was removed and why
 SOLVED_CATALOGUE.md  what was solved or read, how, and where the AI did the work
 SOLVED_RANKING.md  the solved targets ranked by difficulty and historical weight
+profile.schema.json  the schema of every targets/<name>/profile.json
 unsolved.htm       snapshot of Tomokiyo's source page, for diffing against later revisions
 
-docs/              the website (GitHub Pages), see below
+.claude/           session skills (/writeup, /profile) and the hooks that run the write-up audit
+docs/              the website (GitHub Pages) and its build and check scripts, see below
 lang/              shared language models: corpus registry, model registry, one n-gram engine (lang/README.md)
 papers/            publication drafts;  unpublished/  pages held back from the site
 decode_updates/    corrections and transcriptions queued for the DECODE database
-tools/             shared scripts (transcription export)
+tools/             shared scripts: transcription export (transcription_xml.py), the targets/ migration for old checkouts
 
 targets/<name>/    one directory per cipher target: NOTES.md, profile.json, ciphertext, scripts, small derived data
 research/          work that is not a single target:
@@ -407,7 +432,8 @@ gramont1529`) and look it up under `targets/`. A target script that puts `..` on
 `lang` package through the `targets/lang/` stand-in; new scripts should use `../..`. Anything a second target could
 reuse belongs in a shared directory: language models in [`lang/`](lang/), not a new `targets/<name>/lm.py`.
 
-Every target directory except `targets/barney/` has a `NOTES.md`. Large downloads (microfilm, corpora, OCR, run logs, images)
+Every target directory has a `NOTES.md` except `targets/barney/` (a pointer to a published solution) and
+`targets/richelieu/` (its record is `SOLUTION.md`). Large downloads (microfilm, corpora, OCR, run logs, images)
 are excluded by [`.gitignore`](.gitignore) and regenerated by the scripts named in each directory's notes.
 
 ### The website
@@ -419,8 +445,14 @@ footers with previous/next links, "On this page" strips and the index cards. Aft
 cd docs && python _build_site.py
 ```
 
-The builder is idempotent. The priority queue on the index page is generated separately from
-[`docs/_queue.json`](docs/_queue.json) by `python _build_queue.py`.
+The builder is idempotent. It also regenerates the "At a glance" counts at the top of this file. The priority queue
+on the index page is generated separately from [`docs/_queue.json`](docs/_queue.json) by `python _build_queue.py`,
+and the catalogue page from `catalogue.json` by `_catalogue_page.py`.
+
+Two checkers keep the ledgers in step. `python docs/_check_writeup.py <slug>` lists every surface a finished target
+must reach (page, manifest, README row, ledgers, catalogue, DECODE queue) and prints `result: complete` when it has;
+`--audit` lists finished targets with no write-up and the drift between README, manifest and pages.
+`python docs/_check_profile.py <folder>` validates a target's `profile.json` against the schema.
 
 The sender and recipient portraits under a write-up's title come from [`docs/_portraits.json`](docs/_portraits.json)
 (slug &rarr; role, name, image, what the picture is, and its Wikimedia Commons file). Only public-domain portraits
@@ -532,9 +564,11 @@ cd richelieu && pip install requests && python build_ngrams.py && python solve.p
 
 ## Publication drafts
 
-[`papers/`](papers/) holds anonymised HistoCrypt-format drafts of the solved results (two regular papers, one short paper), the
-official style files, a shared bibliography, and a README with the verified format rules and the pre-submission checklist.
-Unvalidated drafts, not submitted.
+[`papers/`](papers/) holds unvalidated drafts, none submitted: [`histocrypt/`](papers/histocrypt/), anonymised
+HistoCrypt-format papers on individual results with the official style files and a shared bibliography;
+[`cryptologia/`](papers/cryptologia/), a *Cryptologia* version of the Armstrong paper; and [`lasry/`](papers/lasry/),
+the material for the paper with George Lasry on how LLMs perform against historical ciphers, built from the targets'
+`profile.json` records. [`papers/README.md`](papers/README.md) has the format rules and the pre-submission checklist.
 
 ## Contact
 
@@ -543,7 +577,8 @@ archive copies, or pointers to key material are all welcome. Issues and pull req
 
 ## Licence
 
-Text and notes CC BY 4.0; code MIT. Manuscript images are from the Library of Congress, National Archives, BnF, JACAR and
-the IACR and remain subject to those institutions' terms. Every image on the site is credited under it to its specific
+Text and notes CC BY 4.0; code MIT. Manuscript images come from many holders (among them the BnF, the British Library,
+The National Archives, the Library of Congress, NARA, the Vatican and Venetian archives through DECODE, the Hessian and
+Bavarian state archives, JACAR and the IACR) and remain subject to those institutions' terms. Every image on the site is credited under it to its specific
 source (holder, shelfmark and folio, and the route: Gallica, DECODE record, IIIF, edition); crops of BnF cipher
 photographs are used with attribution.
