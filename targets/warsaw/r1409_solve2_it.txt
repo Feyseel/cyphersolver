@@ -1,0 +1,6 @@
+it-cinquecento real seed 0: -2.756/char
+it-cinquecento real seed 1: -2.606/char
+    m a d l a o l e s i n n e s a a l a e n i l a m s e d o i l a u t i n a e e i n u s a r e n c i s o d a e o t i n i n o i ch n e s i o n e l a n e s e l e i i l a a s s a t i n u e d o o n t e e o t i t e a d i s e t o u d n e o t e u o i p i o i a d e l u n e i ch e e l e u a i s c a co l a a n d a r ch e o o t e p e r t a l a t r d er e o o n d a r c a n c a i a i r n o r l i p i i i e t m u n i c o
+    01=f 02=p 08=a 10=b 101=t 103=o 104=ar 105=m 106=t 107=a 108=r 109=ch 11=di 110=s 111=l 113=ch 114=ch 115=ch 116=s 117=l 118=t 119=q 12=t 120=t 124=o 127=o 129=g 13=l 130=per 131=r 132=a 133=a 134=e 136=c 14=n 141=s 143=f 145=m 146=t 147=l 15=n 150=d 151=i 152=d 154=q 155=re 156=o 157=o 158=l 159=n 16=i 161=d 163=s 165=d 166=o 167=o 168=e 169=t 17=e 171=e 176=ch 177=er 18=i 180=g 181=p 182=co 183=i 184=o 185=l 186=r 187=m 19=ch 193=d 195=o 20=e 21=i 22=o 23=co 24=c 25=u 26=s 27=r 28=a 29=u 30=o 31=d 33=e 34=a 35=e 37=b 39=il 4=u 40=i 41=o 45=o 48=a 5=g 54=a 55=n 56=o 59=h 6=z 66=m 7=re 70=a 73=u 74=a 77=o 78=o 8=b 95=g 96=r 98=d
+it-cinquecento shuffled seed 0: -2.853/char
+it-cinquecento shuffled seed 1: -2.946/char

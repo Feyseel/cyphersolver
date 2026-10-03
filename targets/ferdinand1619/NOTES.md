@@ -53,7 +53,8 @@ The codes are three-digit groups (102, 122, 136, 142, 146, 154, 160, 165, 183, 2
 which cannot be confused with the even letter values. Only **248 = und** is established, from its own contexts
 ("Gwalt 248 Betrangnus", "Eifer 248 Ernst", "248 in kurzer Zeit"). 414 (12 occurrences) is a person or a title
 and 232 recurs after the ciphered word "ertz", so it is probably *stift*, but neither is proved and neither is
-counted as read.
+counted as read. (2 Oct 2026: R9425 shows 414, 415, 416, 417 and 419 to be nulls, and makes 232 = *stift*
+nearly certain; see the R9425 section below. The R9426 figures here are not yet recounted.)
 
 ## How it was solved
 
@@ -95,6 +96,28 @@ Religion und Seelen Seligkeit … bei der Posteritet" (the conservation of us an
 the salvation of souls, for posterity); his agent's relation shows that a resolution is needed, and levies are to be feared "für dem
 Frühling". A closing passage names **Alexandro**, the King, and "die Austilgung der ca[t]olischen Religion".
 
+## R9425 (ff. 278–280), the sibling, read 2 October 2026
+
+Status: **read** with the key unchanged (97.3% of 1567 enciphered tokens measured, `r9425/count_r9425.py`). It is
+**Archduke Albert's written resolution for Licentiate Morreus**, the League agent, dated 15 December 1619 (clear line
+f. 280r; endorsement f. 280v "Resolutio deß hertzogs Albrechts dem L. Morreo … ertailt"): Albert agrees on the
+recovery of the kingdom [of Bohemia], has done good offices with the Emperor and the King of Spain, will send his
+troops on foot to join the Catholic army if needed, cannot grant the muster place, regiment of foot and 500 horse
+(his levies are for Luxembourg), writes to Oñate about Breisach and refers the 1000 cuirassiers to Ambrogio Spinola.
+Transcription, decrypt, summary and code table: `r9425/` (`transcription.txt`, `decoded.txt`, `reading.md`,
+`codes.txt`). Clear passages are a working reading only.
+
+**Feedback to R9426 (not yet applied to its files, count.py or the site page):**
+- **414, 415, 416, 417, 419 are nulls.** R9425 forces it ("Kön. 414 M. und L." beside "Kön. 165 und L."; "unsers 414
+  hochlöblichen"; "zu gedachtem 419 End"; "iren L. 414 L." / "ire L. 415 L."). In R9426 these are 23 of the 74 open
+  nomenclator tokens (414 12×, 416 4×, 419 5×, 415, 417); the contexts fit ("mit 414 dem Doctor", "ermeltem Erwite 414
+  zu mir"). 410 and 412 (one each in R9426) are probably nulls of the same run but are not seen in R9425. Counting the
+  five as read raises R9426 from 95.8% to 96.7% ((2504 + 23) / 2614).
+- With 416 a null, R9426's "ertz 232 416" and "zu meinem 416 232" make **232 = stift** close to forced.
+- **242 = und** (homophone of 248), **165 = Mt.**, **2 = Ambrosio [Spinola]** (red margin "Ambr."). 165 occurs once in
+  R9426 ("gegen 414 160 als 165 in"). Probable values that also occur in R9426: 216 = Pferd/Reiter ("seine 216",
+  "obbesagter 216", "Boninckhausen 216"), 154 = Haus ("Conservation ires 154 und"), 47 = Mt.
+
 ## Corrections
 
 - **30 Sept 2026 (while filling the gaps in the quotation for Lasry's list).** P8.15-P8.20 re-checked on the image
@@ -109,15 +132,26 @@ Frühling". A closing passage names **Alexandro**, the King, and "die Austilgung
 
 ## Remaining gaps
 
-- **open-codes**: 32 nomenclator groups, 74 tokens (2.8% of the text), chiefly 414 (12×), 232 (6×), 122, 216,
-  419 (5× each), 221, 416 (4× each). No key for this cipher survives: KAA 4591's own key records were checked
-  (below) and none is it. The one document that could settle them is R9425's margin, and its margin is an
-  abstract, not a group-by-group decipherment.
-- **unidentified names**: three words read as proper names whose bearers are not identified — "leicker"
+Each gap carries its blocker. R9426:
+
+- **open-codes** (no-key-material): 32 nomenclator groups, 74 tokens (2.8% of the text), chiefly 414 (12×), 232 (6×),
+  122, 216, 419 (5× each), 221, 416 (4× each). No key for this cipher survives: KAA 4591's own key records were
+  checked (below) and none is it. R9425 (2 Oct 2026) shows 414/415/416/417/419 to be nulls (23 tokens; see the R9425
+  section), not yet applied to R9426's count; the rest stay open.
+- **unidentified names** (left open): three words read as proper names whose bearers are not identified — "leicker"
   (Doctor Leicker, Ferdinand's negotiator), "dernersen" (with Herberstorff), "marreo"/"morres" (the agent).
-- Four words (37 tokens) still do not read: `tarceen` (P1.22), `situs` (P2.05), `unaerherschaffen` (P3.05),
+- (illegible) Four words (37 tokens) still do not read: `tarceen` (P1.22), `situs` (P2.05), `unaerherschaffen` (P3.05),
   `gegainer` (P4.23). Each is a single-token misreading somewhere in a word; the digits are genuinely
   ambiguous at this resolution.
+
+R9425:
+- **open-codes** (no-key-material): 32 tokens, 2.0%: 45, 149, 225 (2× each), 160, 219, 153, 15, 215, 155, 221, 136,
+  140, 249 and the probable-only values 41, 218, 154, 169, 47, 216, 31, 157. Single contexts; no key survives.
+- **gutter loss** (needs-physical-access): two or three signs on f. 278v lines 30–31 run into the binding.
+- **illegible** single signs: P1.18, P3.05, the gloss over 155 and the gloss over 221; five single-token slips in
+  words whose sense is clear are counted unread.
+- **clear text** (left open): the clear passages are transcribed as a working reading with gaps; they are not
+  cipher and do not enter the measurement.
 
 ## Escalation
 
@@ -131,9 +165,13 @@ Frühling". A closing passage names **Alexandro**, the King, and "die Austilgung
   through in `../kaa4591/`. None is the 1619 cipher.
 - [x] print: *Briefe und Akten* NF I/1, Hurter viii, Wolf/Breyer iv, Pastor, and a web/Google Books/archive.org
   sweep for "Äußeres Archiv 4591" — no edition and no decipherment of either letter.
-- [ ] not done: a full transcription of R9425's four cipher pages aligned against its margin abstract, which
-  might yield a few of the groups; and the Munich archive's own "Kasten schwarz" concordance, which would say
-  where Franz's NF I/1 cites these folios.
+- [x] R9425's four cipher pages transcribed and deciphered (2 Oct 2026, `r9425/`): read 97.3%; nulls 414–419,
+  242 = und, 165 = Mt., 2 = Ambrosio fixed from its contexts and its margin.
+- [x] retry of the open groups against both letters together: the nulls and 232 = stift follow; the remaining
+  groups have one or two contexts each and stay open.
+- [ ] not done: the Munich archive's own "Kasten schwarz" concordance, which would say where Franz's NF I/1 cites
+  these folios (needs-physical-access or correspondence with BayHStA); a full-resolution re-read of R9425's clear
+  passages.
 
 ## Files
 
@@ -147,4 +185,5 @@ Frühling". A closing passage names **Alexandro**, the King, and "die Austilgung
 | `count.py` | the measurement quoted above |
 | `reading.txt` | the reading, line by line |
 | `control_r9425.txt` | the sibling control |
+| `r9425/` | R9425 transcription, decode (`decode_r9425.py`, `decoded.txt`), measure (`count_r9425.py`), `codes.txt`, `reading.md` |
 | `solve_out1.txt`, `solve_out2.txt` | the two annealer runs, kept for the record |

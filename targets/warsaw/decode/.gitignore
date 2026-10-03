@@ -1,0 +1,3 @@
+# DECODE images (not public domain) and logged-in record pages (embed a session JWT): never commit
+IMG_*.png
+rec*.htm

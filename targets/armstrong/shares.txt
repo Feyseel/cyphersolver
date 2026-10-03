@@ -1,0 +1,13 @@
+dec1807  27/29 Dec 1807   groups  225  known(H/C)  156  69.3%  new(+)  32  read incl. M/inferred/new  200  88.9%  unread  25
+feb15    15 Feb 1808      groups  243  known(H/C)  169  69.5%  new(+)  56  read incl. M/inferred/new  243 100.0%  unread   0
+feb22    22 Feb 1808      groups  387  known(H/C)  281  72.6%  new(+)  63  read incl. M/inferred/new  380  98.2%  unread   7
+mar05    5/9 Mar 1808     groups  408  known(H/C)  289  70.8%  new(+)  74  read incl. M/inferred/new  386  94.6%  unread  22
+aug13    13 Aug 1808      groups   27  known(H/C)   19  70.4%  new(+)   6  read incl. M/inferred/new   25  92.6%  unread   2
+aug30    30 Aug 1808      groups   48  known(H/C)   37  77.1%  new(+)   0  read incl. M/inferred/new   48 100.0%  unread   0
+mar26    26 Mar 1808      groups    5  known(H/C)    2  40.0%  new(+)   1  read incl. M/inferred/new    5 100.0%  unread   0
+may31    31 May 1808      groups    4  known(H/C)    3  75.0%  new(+)   1  read incl. M/inferred/new    4 100.0%  unread   0
+jun06    6 Jun 1808       groups    3  known(H/C)    2  66.7%  new(+)   0  read incl. M/inferred/new    2  66.7%  unread   1
+oct25    25 Oct 1808      groups   22  known(H/C)   16  72.7%  new(+)   2  read incl. M/inferred/new   20  90.9%  unread   2
+jan1810  20 Jan 1810      groups   29  known(H/C)   23  79.3%  new(+)   6  read incl. M/inferred/new   29 100.0%  unread   0
+feb1810a 2 Feb 1810       groups   18  known(H/C)    7  38.9%  new(+)  11  read incl. M/inferred/new   18 100.0%  unread   0
+feb1810b 17 Feb 1810      groups   83  known(H/C)   53  63.9%  new(+)  21  read incl. M/inferred/new   83 100.0%  unread   0

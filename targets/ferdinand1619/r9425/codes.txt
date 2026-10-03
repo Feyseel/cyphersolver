@@ -1,0 +1,21 @@
+# nomenclator values for the R9425/R9426 cipher. value<TAB>status: null = carries no meaning; fixed = forced by context in several
+# places; probable = one context or a guess the text supports but does not prove (not counted as read).
+248	und	fixed
+410	-	null
+412	-	null
+414	-	null
+415	-	null
+416	-	null
+417	-	null
+419	-	null
+242	und	fixed
+165	Mt.	fixed
+2	Ambrosio [Spinola]	fixed
+47	Mt.	probable
+41	Chur-	probable
+216	Pferd	probable
+218	Rath	probable
+169	Kriegs-	probable
+31	Vettern	probable
+154	Haus	probable
+157	Hilf	probable

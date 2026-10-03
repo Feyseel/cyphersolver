@@ -68,6 +68,10 @@ landed from Barcelona and is hiding at his brother's house is left unidentified.
 89 cipher tokens in three runs. **86 / 89 valued** (97%): all but `Ꮒ yω ʃta` in run 2; `Ꮒ` counted as
 valued (a null, three contexts). Read in full from the letter's own clear version.
 
+**Measured 2026-10-02: 89 / 89 tokens read as sense (100%).** `yω ʃta` are nulls after the opener `Ꮒ`: the same
+groups follow `Ꮒ` in R9634 (`Ꮒ ʃta` 14r13, 15r20) and R9646 (`Ꮒ ʃta avia miedo`), always where the sentence closes
+without them. Probable values inside the reading: `ti` ni, `ϭ` s, `♀` z, `⅋` x, `ƀ` n(c).
+
 ## New values (evidence)
 
 | sign | value | status | evidence |
@@ -98,4 +102,4 @@ Re-confirmed 1524/1522 values: yub, zar, xil, top, yuc, xug, ton, tu, xur, zun, 
 
 ## Unread
 
-`yω ʃta` in run 2 only (no counterpart in the clerk's clear; likely nulls).
+None. `yω ʃta` in run 2 are nulls (see Coverage).

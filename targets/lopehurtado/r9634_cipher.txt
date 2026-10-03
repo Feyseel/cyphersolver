@@ -1,0 +1,91 @@
+# R9634, RAH Salazar 9/26 ff. 14-16 (A-26), Lope Hurtado de Mendoza to Charles V, Genoa 13 Sept 1522 - cipher transcription
+# Images: IMG_R9634_I45360_P1 (f.14r right), P2 (f.14v left, f.15r right), P3 (f.15v left, f.16r right: clear end + signature).
+# One line of the file = one manuscript line. [..] = clear words written in the line. Tokens separated as the scribe spaces
+# them where the spacing is clear; letter signs separated by spaces. (?) = doubtful sign.
+# Notation: 1524 sign names (../lopehurtado1523/key_1524.tsv) and the R9646/R9649 names (read_r9649.md):
+#   ϑ  open-topped 8-like sign (t)        8  closed 8 (e)          Ho  H-with-o (a)       ß  sharp-s (a)
+#   ɣ̊  ɣ with small o under (r)          ʇʇ double-crossed tt (r) ʇ single crossed t    ∠  angle (u/v)
+#   δ  plain delta (s)  ∂  delta with loop to the left           &  et-sign (o)         α  alpha (i)
+#   ʄ  NEW: long s crossed by a bar with a loop at the foot (stands between words; see read_r9634.md)
+#   Ꮒ  the run-opening mark ("J6"/"Θ"-like)   ʃta  the group that follows it in R9646/R9649/R9656
+#   ϯ  NEW: cross-like sign with hook   ɸ NEW: circle with descender ("φ" with closed head)   Ɛ epsilon with dots (l)
+# --- f.14r (P1 right page), after the clear "... y algunos me han dicho hombres cuerdos y honrados"
+14r01 [cuerdos y honrados] ʄ ⊃ ʇʇ & ton ʃe yaf ∂ 7 z ʃif xer zar rab ʄ
+14r02 zarε ter ton ɣ̊ α 8 4 6 & zar ∂ ϑ ʇʇ ∠ α ɣ̊ zu tar zar ⊤ 7 ʇʇ
+14r03 zar ɣ ɭ ʇʇ Ɛ 8 xug xac top ɭb ɣ̊ & 8 4 ϑ α 7 ton yaf xug
+14r04 ∂ α 8 ɋ 7 xon # ϑ 7 ϑ Ho ton yub b α 8 ϑ 8 ʄ x & 4
+14r05 ϑ 8 yub yal zar rab ʄ ∠ 8 6 H yuc ∂ ʇʇ 7 ɣ̊ ʃu v ∠ ʇʇ &
+14r06 ∠ 4 7 ∂ α 8 ɋ 7 # 8 ɣ̊ ∂ α Ɛ zar zud z xug xep top yub
+14r07 ϑ & ∂ 7 x & [para proveer con las galeras de genoba] ʄ zar rab ʄ
+14r08 x & z 6 8 ɭb ∠ 8 x H ϑ yuc ∂ ʇʇ 7 ɣ̊ zef x & ∂ 8 xul z zar
+14r09 xug xep ʄ xul z zar xuɡ̵ ∂ α 8 ɋ ß zu xu zarε ∂ 7 ʄ ∂
+14r10 ton tab ɸ α & xug 4 ϑ 7 ʃal z xor 8 ʇʇ 8 & ∂ zar ϯ α 8 x &
+14r11 [del saco de genoba y de las otras cosas que han hecho la gente de V. Mt.] ɭo
+14r12 ʇʇ & 4 8 ʇʇ 8 ∂ zar xac ton ∂ 7 ɣ 8 ϑ ɣ α 4 ton xul z yuc
+14r13 m & ɣ̊ ton 4 [a todos y que se pornan en presiones para ello si] Ꮒ ʃta [ayud-]
+# --- f.14v (P2 left page)
+14v01 yuc α ϯ ∠ 7 8 ʇʇ & ϯ 8 ∂ H ɕ ton tog zac ∂ & 4 ε 7 rab
+14v02 yal tu ʃil ʃal ∂ ʇʇ & 8 ɣ ɣ̶ ω Ho ʄ ε 8 & 4 ʄ tif zarε
+14v03 y & Ɛ ʇʇ α 4 7 ∆ ε m 8 xul xon zar x ɩ 4 ε ∠ 7 x & ton
+14v04 ton ʃu ɣ̊ 7 ʃil ʇʇ zu tar xug z xig 8 ∂ y & ∂ 7 c ton ʃum 48
+14v05 ʄ zar ∂ ϑ ʇʇ ∠ α ɣ̊ r 8 tog ton zar yof z tif ∂ [se puede dezir]
+14v06 teg ʃad z ∂ 8 4 Ho ɣ̊ xug z ʇudd ʄ yub yat zar rab Ꮒ
+14v07 ɣ̊ʇ ɡʇo zil xul ton ß yub xil [quitasen se sostenian para]
+14v08 [engrandecerse] ʄ ʃil ʇʇ xil xul tod ton xil ton x ß yel
+14v09 ɣ 8 ʇʇ b 7 ɣ̊ xil yuc ɭb 7 ɣ̊ α ∂ [y que lo que se haria] top zu
+14v10 zil ʌʃ ʋ yob z tu ʃu 3 Ho ʇʇ 7 top yol ti top yeg zil
+14v11 x & ∂ [millones] tog ton xul z xar z zub yof 4 [apercebidos del]
+14v12 [artilleria y bastimentos que son menester] ʄ za to& xul ɣ̊ ? 4 H
+14v13 zub xug xu yaf ʃal zar # ʇʇ & 4 ϑ 8 ɣ̊ 7 [que se han visto en]
+14v14 [guerras y son para pelear] Ꮒ ʆ∂ za tu ʇʇʄ xud ton ϑ 8 4 ɣ̶
+14v15 ɣ̊e ɣ ∠ f Ɛ α ɷ & [dizen algunos que entraran agora con la gente de V. Mt.]
+14v16 yuc yon ton ʃub tu ʃu 8 & ɣ ʇʇ α 8 ʇʇ 7 yub
+14v17 [prospero y el marques] Ꮒ ∂ yt tu & ʃop 8 ʇʇ 7 4 teg 6 & yel ʃ
+14v18 xul ton [quisieran] ʃof xug 8 x & xil z 7 ʃop ß 9 [visto lo que]
+14v19-20 [me dezian pareciome en estando bueno que era bien comunicarlo con Geronimo Adorno que es hombre sabio y cuerdo y servidor de V. Mt. a mi parecer tan(to?) / yo he visto; dixele lo que he dicho aqui a V. Mt. que que le parecia; dixome que no lo]
+14v21 [toviesse] top xul y & ∂ xul z ton yif ß ʃop 7 4 yo [que juraba a]
+14v22 [dios] ʃub yub xob zif yin ɸ α ∠ & tu x α ϯ 8 ɣ̊ 7 xig
+14v23 top zar xac [y que pues V. Mt.] yof ∠ 7 zar ∂ 8 ʇʇ xug xu
+14v24 x & ʄ yub ter zar zar∂ ϑ ʇʇ ∠ α ɣ̊ zu tor [y tenian]
+14v25 [(y tenian) / f.15r: aparejo para ello]
+# --- f.15r (P2 right page)
+15r01 [aparejo para ello] ton ϑ 8 ʇʇ 4 α 7 4 yub ∂ 8 & ɣ̊ zil ∂ 8 α ʙ
+15r02 zarε xor 4 x & [si dexasen de] ʃil ɣ̊ xil yif ton yof ∠ 7 yuc
+15r03 ʃed ϯ 7 tu [preguntele] ton xu ʃu ɣ̊ & 7 ϯ 8 4 Ho ∂ 8 oo ɣ̊
+15r04 [dixome que] ∂ 8 α c ɣ α 8 4 ϑ & ∂ xud z zar Ho ɣ̊ ϯ 7 ∂ ʄ
+15r05 ɣ ϯ α ɷ 8 · 9 · ϑ 7 ʇʇ 7 ɷ & ∂ ε α ϯ 8 ɣ̊ m ∂ ʄ x b ʋ ∂ yt
+15r06 ∂ & ε 9 7 x & c [y que para su paga serian menester] 9 7 x Ho
+15r07 ϯ 8 ∂ · lxx U yob z ʄ ton ʇʇʇ ∠ ʇʇ 7 teg 8 ∂ α x 7 9 zar
+15r08 ton rab ʄ yub ter ʃu ß ɣ & ʇʇ x 7 ∂ 8 ϑ zil ʃun 4 & ∂
+15r09 ɣ ʃud · & · zar ⊤ 7 ɣ̊ yuc xug z 8 ʃ ∂ ∂ 7 ε 9 Ho ∂ [en el]
+15r10 [ducado de milan] ɣ̊e yal zar yel ɷɩ U ∂ & ε 9 7 x m z
+15r11 ʒ m̊ xud z x ∠ ɣ̊ ϯ 7 ∂ teg ton z α ∂ ɷ 8 ∂ H ɣ ϑ & ∂
+15r12 ϑ ʇʇ & ß ton ʃud ti ʃun 4 & ∂ tu ∂ 7 ⊤ Ho ∂ 8 4 [presente]
+15r13 [donde se podria] ß ∠ 8 ʇʇ xug xu [dixome que la] xu
+15r14 9 7 ʇʇ ϯ 7 ∂ rab xug ∂ 8 ɣ α 7 [porque podria venir] Ꮒ yt
+15r15 xul ʃ ∂ 8 ∂ 7 ε ∠ Ho ʇʇ x ɷ ß zar xas zɣ ʄ xug zarε
+15r16 taf ʄ yul [si V. Mt. selo escriviese y que su S.t holgaria que]
+15r17 ʃop 4 α 8 ∂ H 9 tog tu xul z ∂ 8 4 Ho ɣ̊ ß Ɛ & ε 7 x & ∂
+15r18 [en sus tierras] ʄ xug xu ton ß 8 ∂ 7 ∂ 7 ʇʇ Ho zarε 7 4 ϑ 8
+15r19 [los cavallos ligeros que] # 7 ε 8 7 ∂ 8 4 ton xen ʃu ß ∠ ʇʇ α 7 4
+15r20 [lansquenetes y ytalianos] Ꮒ ʃta ʃu ∂ & x ʇʇ α 7 ɣ yɩ ɣ̊
+15r21 teg ton x 7 ʇʇ ϑ xul z ton zε ß z ton ∂ 7 ɡ 7 ∂ 8 4
+15r22 [añadiendoles el cumplimiento] ʄ ton ɭb & ʇʇ 4 α 7 xug ɣ Ho
+15r23 ∂ 8 ɣ Ho ton zer zar m̊ ϯ 8 ∂ H c yac z ∂ & ∠ α 8 ∂ H ɣ
+15r24 zil ton ɭb 7 ε Ho ɣ̊ ʃed ∂ ∠ 8 ε x m [y sobrados dineros] ɭb 8 ɣ̊ &
+15r25 ton ʃub yif & ∠ α 8 ∂ H zar z 8 ʇʇ ton ß ʃop 7 zar ʃu ɣ̊
+# --- f.15v (P3 left page)
+15v01 xor 8 ʃab tog ton tu ϑ & ∠ α 8 ∂ 8 4 ß ʃop ∂ m teg ɣ 8 ∂ 7
+15v02 ɣ̊ 7 ʇʇ ∂ 8 [y que desde agora se avia de concertar] teg yub ʇ 8 ∂
+15v03 zar ϯ 7 ʇʇ ɣ & ʄ ton yaf ɣ̊e 7 ɣ & ∂ 7 ʃu ε ∠ ʇʇ 7 zar ll
+15v04 ɭb & ɣ 7 f & ∂ 9 7 8 [provechosa y que le] ton ϯ 8 ɣ ʃub ʃu ∂ 8
+15v05 x 8 3 8 ɋ Ho ɣ̊ [/] ton yuc ∂ α ɣ 7 ʇʇ x α 7 ti ʇʇʇ α 7 4 Ho
+15v06 tu ʃi zil yub [recabdo] ʃq yub tor [alla porna de gente y de]
+15v07 [guarda la fortaleza de los lugares] Ꮒ ʆ∂ ton yal ɭb ∠ 8 9 H
+15v08 ʇʇ ß ∂ 8 7 ʇʇ teg yel ɣ̊ xil xer zun ɀ & ton xon ʃu
+15v09 ε Ho ∂ 8 7 ʇʇ ß yuc 8 & ϯ 7 ɣ̊ ɣ̊e xin zar ∂ & z ton za
+15v10 yuc ʃal yif [y que dela sobrada costa que alla V. Mt.] ʄ yub ter
+15v11 ϑ α 8 4 H 4 zil xul z xob z yal z [podrian quitar hasta que]
+15v12 yub car ʒa ɡ 7 4 Ho ∂ 8 zil ton ʃu z & ∂ ϑ 8 ɣ H ɣ̊
+15v13 ton ʃu ʇʇ α 7 xor 8 ɭb ʇʇ 8 ∂ 9 8 & ∂ [pareceme que era razon de escrevir a V. Mt. esto que aqui he oydo, especial siendo de tan buen servidor de V. Mt. como es Geronimo Adorno ...]
+# f.15v after section B and f.16r: clear only (Cesarino's illness, don Juan Manuel in Rome; "de Genoba xiij de setiembre 1522"; autograph signature).

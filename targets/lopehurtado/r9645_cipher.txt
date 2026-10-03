@@ -1,0 +1,39 @@
+# R9645, RAH Salazar 9/26 ff. 243-244 (A-26), Lope Hurtado to Charles V, Rome [Nov 1522] - cipher re-transcribed 2026-10-02
+# in the R9634 notation (see r9634_cipher.txt header; key_1522_r9634.tsv). P1 right = f.243r, P2 left = f.243v, P2 right = f.244r (clear close).
+# P1 left page (f.242v) is the end of R9644's "Claro" (La fortaleza de Ostia ya la havia quitado ...), not a crib for this letter.
+# f.243v ll.13-21 carry the second hand's glosses (read_r9645.md); those lines are transcribed after the earlier pass, sign names converted.
+# --- f.243r
+r01 [despues que partio la posta me dixo su S.] Ꮒ ɣto ʃta ton ß ʃop 7 ϑ 8 ϑ 7
+r02 xm zuc 8 4 ϑ m zil yiub yib zar m̶ 8 ɋ 7 ɣ̊ Ho ʄ ϑ ʇʇ 8 ∂
+r03 zil x ω ɣ α ∂ 4 8 z zarε 7 ɣ Ho ⊃ α ϑ ∠ 9 ß ɣ ω ɣ 7 ɋ ⊃ ⊃ 8
+r04 [los dineros] zarε # 8 ∠ x ∂ ton yub taf ß ε 8 ϑ 7 4 x ɣ̊ &
+r05 xil ∂ & ε 8 m zil yub ɣ ß ∂ 7 xug yuc ϑ m zar ʃed z ω α 7
+r06 yub yib [fuese obligado a servir a la yglesia con cient hombres de armas por medio año aviendolos menester]
+r07 ʄ ton zil to ⊃ ɣ̊ ∂ z
+r08 ɣ ω ɭb 8 ti ⊃ 8 4 & ɣ̊ α 7 ɭb & x α 8 ∂ oo zil # 8 x oo ɣ̊ 7 ʇʇ
+r09 ʃu ʃub tu zil ʃed ʃe 8 zil rab ton tu ⊃ & x ω 8 ∂ oo yuc
+r10 ʃed yof xm ϙ 8 ɣ & ε 8 ʇʇ to zar ʃib x & ɣ̊ ʃed z & ɣ̊ ti zar
+r11 rab [nos ... su S. de las otras condiciones mañana dize que la]
+r12 [han de traer firmados] zar yo yib [que embiara el traslado a V. Mt.]
+r13 [su S. no le da mas de lo que agora posee ya / hame dicho] Ꮒ [a pena?] ʇʇ 9
+r14 ton tu xi ɣ̊ 7 # ʇʇ Ho ε 9 7 ß rab ton x ω ϑ 7 4 xul ɣ ton
+r15 ɲ ∠ ω ∂ α 8 ɣ̊ 8 4 ⊃ 8 ʇʇ & ton ton tu ∂ α 8 4 oo ze ϙ 8 ß 9
+r16 ton ze tu ɭb ∠ 8 zar yiL [lo que querria]
+r17 ʄ ∂ α 8 4 oo tec ton ze zuf zarε yub zar xug ϙ ϙ 7 4 [biene sobre]
+# --- f.243v
+v01 ʄ ϑ & ε 7 ʑ ton yub yib zil ɣ 7 ∠ 8 ϑ 8 ɋ Ho xu zar ∂ ⊃ 8 x α
+v02 9 & [el capitan y alguna gente darmas y que los de V. Mt.] ϑ ʇʇ 7 ∂ 7 4
+v03 xip ʃed z ʃen z [en los asientos y aunque vienen algunos sobre y] ʄ
+v04 b δ ε 7 [con harta gente tienen pensamiento que es hecho por los servidores]
+v05 ʄ Ꮒ zar rab tep yɩ ʇʇ xil 8 & ɣ̊ 9 8 zar ɣ̊ &
+v06 tog ton xu ɡ ʇʇ Ho xul ton rab ɭb ω zar [yo he avisado al duque de Sessa]
+v07 ʄ xod y z α xob x 8 ∂ α # ɣ̊ 8 ϑ α xug yuc
+v08 8 & ∂ zu taf ʄ yuc xod yo ß ʃed ʃe ton tu ⊃ α 8 4 ʃu
+v09 ton ɣ ʇʇ α 7 x & zar rab xu zar ∂ 8 4 oo ɣ̊ [tal atrevimiento]
+v10 yof ʃed zaf xor zɣ ton ϑ & ∂ m zarε yub zar ϑ ω ε 7 ϙ [pareceme ... clear to l. 12]
+v13 [assi mismo ha escrito Bernardino de (..) del passado de Londres] Ꮒ ɣto yi
+v14 ton yub ter 8 ɋ 7 ɣ & 4 ɣ 8 ɣ̊ ϑ 7 x m ʙ & 9 xul z yaf ɣ m ʙ 8
+v15 δ oo 7 ʃ ton ßß ʃop 7 4 xod ɣ # ß x & zu yib zar ß ε 8 7 4 ω Ho
+v18 [Aca se favorecen mucho] zil yeɣ̊ ton
+v19 xul z xuf 8 δ ʃ xup xu zar ɣ rab Ꮒ ɣto ʃta tu
+v21 3 α T ω 8 ɣ̊ & 4 zƀo zun [y que se partieron] xip zil δ 8 4 6 8 δ

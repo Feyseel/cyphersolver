@@ -35,6 +35,39 @@
     "image_quality": "fair",
     "notes": "docs/_check_profile.py --measure over transcription.txt gives 3932 tokens / 634 distinct, which counts the bracketed clear words and the two word-end separator signs as tokens; the profile uses count.py's figure of 2614 enciphered tokens (2519 letter tokens, 95 nomenclator tokens), which is the unit the read bar is measured in. Image 7 duplicates image 6 (same page photographed twice), so the ten pages are on eleven images."
    }
+  },
+  {
+   "id": "R9425",
+   "read": "read",
+   "shelfmark": "BayHStA, Kurbayern Äußeres Archiv 4591, ff. 278-280 (DECODE R9425)",
+   "date": "15 Dec 1619",
+   "year": 1619,
+   "country": "Spanish Netherlands",
+   "route": "Brussels -> Munich (resolution handed to the League agent Morreus)",
+   "language": "German",
+   "pages": 4,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "margin"
+    ],
+    "source": "red marginal abstract by a contemporary decipherer (summary, not group by group); one gloss 'Ambr.' beside code 2; DECODE status 'Decrypted'",
+    "partial": true
+   },
+   "length": {
+    "tokens": 1567,
+    "distinct": 60,
+    "unit": "mixed",
+    "measured": true,
+    "file": "r9425/transcription.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images IMG_R9425_I44571_P1..P6 (login only, not public domain)",
+    "corrections": 8,
+    "image_quality": "fair",
+    "notes": "r9425/count_r9425.py gives 1567 enciphered tokens (1482 letter tokens, 85 nomenclator tokens); docs/_check_profile.py --measure counts clear words and separators too (413 distinct). Clear passages transcribed as a working reading only. 'distinct' = distinct cipher tokens (letter values plus code groups), measured over the parsed words."
+   }
   }
  ],
  "system": {
@@ -75,7 +108,8 @@
    "unread_groups": 31
   },
   "nulls": {
-   "present": false
+   "present": true,
+   "count": 5
   },
   "key_order": "partly alphabetical",
   "word_division": "separator symbol"
@@ -101,9 +135,9 @@
   "models": [
    "claude-opus-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-22",
-  "last_date": "2026-09-22"
+  "last_date": "2026-10-02"
  },
  "solution": [
   {
@@ -183,12 +217,76 @@
    "kind": "verification",
    "what": "P8.15-P8.20 re-read on the image to fill the quotation cut for Lasry's list: the clear words are 'Ich vermeine, das die' (not 'Ich hoffe'), and the cut words are 'unser [248=und] in kurzer Zeit unser'; the passage reads continuously. Transcription, reading, reveal and page corrected; key unchanged.",
    "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "access",
+   "what": "R9425 images P1-P6 already in targets/kaa4591/img/; page order of the letter established as P1 (f.278r), P2 (278v), P6 (279r), P3 (279v), P4 (280r clear close), P5 (endorsement)",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "transcription",
+   "what": "R9425's four cipher pages read strip by strip at full resolution into r9425/transcription.txt (about 100 manuscript lines), clear passages bracketed",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "control",
+   "what": "R9426 key applied unchanged to all of R9425 (r9425/decode_r9425.py): the letters read as German throughout ('Recuperation und Wiedereroberung', 'aintausendt Curissier', 'Lützenburg', 'Brisach', 'Onnate', 'catolischen Liga')",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "verification",
+   "what": "words the decrypt left odd re-read on zoom: 'correspondentr' -> 58 (correspondentz), 'erssens' -> overwritten 52 (erstens), 'geureme' -> 30 18 52 48 72 78 18 (getrewe); several line-end signs taken for hyphens were word ends",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "414 as a person or title (R9426's reading): contradicted by 'Kön. 414 M. und L.' beside 'Kön. 165 und L.' and by 'unsers 414 hochlöblichen'",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "reading",
+   "what": "414, 415, 416, 417, 419 fixed as nulls from the parallel formulas 'iren L. 414 L.' / 'ire L. 415 L.' and 'zu gedachtem 419 End'; 242 = und and 165 = Mt. from 'Kön. M. 417 242 415 L.' and 'Kön. 165 und L.'; 2 = Ambrosio from the red margin gloss 'Ambr.'",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "reading",
+   "what": "the open groups retried against both letters: 41 = Chur-, 218 = Rath, 169 = Kriegs-, 216 = Pferd, 154 = Haus, 47 = Mt., 31 = Vettern, 157 = Hilf supported by one or two contexts each, kept as probable and not counted; 45, 149, 225, 160, 219, 153, 15, 215, 155, 221, 136, 140, 249 stay open",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "verification",
+   "what": "r9425/count_r9425.py: 1524 of 1567 tokens read = 97.3% (1500 of 1543 = 97.2% without nulls); lm.best_language puts the decrypt in German first",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "reading",
+   "what": "sender, date and occasion from the clear close (15 Dec 1619) and the endorsement 'Resolutio deß hertzogs Albrechts dem L. Morreo … ertailt': Archduke Albert's answer to the League agent Licentiate Morreus",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "prediction",
+   "what": "feedback to R9426: with 414-419 null, 23 of its 74 open nomenclator tokens become nulls (95.8% -> 96.7%) and 232 = stift is nearly forced; noted in NOTES, not yet applied to R9426's count or the site",
+   "result": "partial"
   }
  ],
  "outcome": {
   "method": "key recovered from ciphertext-only",
   "method_basis": "The homophonic key was annealed against the de-1500s German model from the letter alone (DECODE R9426, no prior reading found in Briefe und Akten NF I/1, Hurter, Wolf/Breyer or Pastor) and checked by applying it unchanged to sibling R9425.",
-  "contribution": ["transcription", "key recovered", "sender or date identified"],
+  "contribution": [
+   "transcription",
+   "key recovered",
+   "sender or date identified"
+  ],
   "class": "read",
   "key": "partial",
   "fraction_read": 0.958,
@@ -203,6 +301,6 @@
    "matched control",
    "historical consistency"
   ],
-  "notes": "Letters: 2483 of 2519 read. Nomenclator: only 248 = 'und' is established, from its own contexts. Four words (37 tokens) still do not read and three read as proper names whose bearers are not identified."
+  "notes": "Letters: 2483 of 2519 read. Nomenclator: only 248 = 'und' is established, from its own contexts. Four words (37 tokens) still do not read and three read as proper names whose bearers are not identified. R9425 (Albert's resolution of 15 Dec 1619, ff. 278-280) read 2 Oct 2026 with the key unchanged: 97.3% measured (r9425/count_r9425.py); it fixes 414/415/416/417/419 as nulls, 242 = und, 165 = Mt., 2 = Ambrosio. outcome.fraction_read still gives R9426's figure."
  }
 }

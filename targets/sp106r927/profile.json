@@ -1,36 +1,98 @@
 {
  "schema_version": 1,
  "target": "sp106r927",
- "title": "Unknown writer to 'Monsieur', 17th c., French homophonic pigpen, TNA SP 106/10 ff. 241-243 (DECODE R927)",
+ "title": "'Nicle'(?) at Nancy to 'Monsieur', December, 17th c., French homophonic pigpen, TNA SP 106/10 ff. 241-243 (DECODE R927)",
  "documents": [
   {
-   "id": "R927",
-   "shelfmark": "TNA SP 106/10 ff. 241-243 (DECODE R927)",
-   "date": "unknown",
+   "id": "R927 f. 243",
+   "shelfmark": "TNA SP 106/10 f. 243 (DECODE R927)",
+   "date": "December, year unknown (f. 241: 'De Nancy le .. decembre')",
    "year": "unknown",
-   "country": "unknown",
+   "country": "Lorraine (written at Nancy)",
    "route": "unknown",
    "language": "French",
-   "pages": 3,
+   "pages": 1,
    "cleartext_in_document": "none",
    "plaintext": {
     "location": [
      "none"
     ],
-    "source": "No decipherment found",
-    "partial": false
+    "source": "This repository: reading.txt (key.json, dec2.py)",
+    "partial": true
    },
    "length": {
-    "tokens": "unknown",
+    "tokens": 475,
     "unit": "symbols",
-    "measured": false,
+    "measured": true,
     "file": "hand_p3.txt"
    },
    "transcription": {
     "by": "llm from images",
     "source": "DECODE images",
     "image_quality": "good",
-    "notes": "p. 3 hand-transcribed (450 signs); p. 1 fragments; p. 2 not transcribed"
+    "notes": "first page of the letter; hand-transcribed 19 Sept 2026. Token count from _check_profile --measure includes the column labels and line-end marks."
+   },
+   "read": "read in part"
+  },
+  {
+   "id": "R927 f. 241",
+   "shelfmark": "TNA SP 106/10 f. 241 (DECODE R927)",
+   "date": "December, year unknown (f. 241: 'De Nancy le .. decembre')",
+   "year": "unknown",
+   "country": "Lorraine (written at Nancy)",
+   "route": "unknown",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "This repository: reading.txt (key.json, dec2.py)",
+    "partial": true
+   },
+   "length": {
+    "tokens": 436,
+    "unit": "symbols",
+    "measured": true,
+    "file": "hand_p1.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "good",
+    "notes": "closing page of the letter (follows f. 243); hand-transcribed 2 Oct 2026. Token count from _check_profile --measure includes the column labels and line-end marks."
+   },
+   "read": "read in part"
+  },
+  {
+   "id": "R927 f. 242",
+   "shelfmark": "TNA SP 106/10 f. 242 (DECODE R927)",
+   "date": "December, year unknown (f. 241: 'De Nancy le .. decembre')",
+   "year": "unknown",
+   "country": "Lorraine (written at Nancy)",
+   "route": "unknown",
+   "language": "French",
+   "pages": 1,
+   "cleartext_in_document": "none",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "This repository: reading.txt (key.json, dec2.py)",
+    "partial": true
+   },
+   "length": {
+    "tokens": 418,
+    "unit": "symbols",
+    "measured": true,
+    "file": "hand_p2.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE images",
+    "image_quality": "good",
+    "notes": "second copy of f. 243, line for line; top of six columns under the paper flap; cq-cv collated against f. 243. Token count from _check_profile --measure includes the column labels and line-end marks."
    },
    "read": "read in part"
   }
@@ -55,10 +117,10 @@
    "present": "unknown"
   },
   "key_order": "unknown",
-  "word_division": "unknown",
+  "word_division": "none",
   "doubled_letters": "unknown",
   "sibling_key": "unknown",
-  "notes": "Minimal profile created during the partial-status audit; fields not in the NOTES left unknown."
+  "notes": "Shapes A-I = the nine pigpen cells (A=RB, B=LRB, C=LB, D=TRB, E=box, F=TLB, G=TR, H=TLR, I=TL in archive orientation), K = stem with a middle bar, X = rare extra sign; * = inner stroke; digit = dot count. Two signs are polyphones resolved by context: C1 = f/q, F2 = l/h. Special signs: '@' (circle/9) and a numeral-like sign, plus the number 67 written in clear in the cipher on f. 241."
  },
  "conditions": {
   "prior_solution": {
@@ -78,9 +140,9 @@
   "models": [
    "claude-opus-5"
   ],
-  "sessions": "unknown",
+  "sessions": 3,
   "first_date": "2026-09-19",
-  "last_date": "2026-09-19"
+  "last_date": "2026-10-02"
  },
  "solution": [
   {
@@ -112,6 +174,66 @@
    "kind": "literature search",
    "what": "Lasry review (email 25 Sept 2026): the letter was decoded by Sheila Richards in Secret Writings (1973). Not found by the Sept 2026 web search; not seen, not used. Independent re-solution, dropped from the ciphertext-only list for Klaus Schmeh.",
    "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "transcription",
+   "what": "f. 241 hand-transcribed column by column from deskewed 5x crops of the DECODE image (hand_p1.txt, 20 columns, ~414 signs); auto-segmentation (v1_glyphs2.json) used only to locate columns",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "reading",
+   "what": "f. 241 decoded with key.json unchanged: it is the closing page (vostre tres humble et fidel serviteur ..., De Nancy le .. decembre); 'sa Majesté' after a long illness, an envoy, 'vous conjurant me faire faveur d'asseurer Sa Majesté du zele...'",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "key from source",
+   "what": "New values from f. 241: H3 = z (zele), C*2 = q (ce qui); C1 confirmed as polyphone f/q (faveur, confiance vs que, qu'il)",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "transcription",
+   "what": "f. 242 hand-transcribed (hand_p2.txt); found to be a second copy of f. 243 with the same line breaks and the same signs (cj, cp, cs read independently agree sign for sign); top of six columns hidden by the paper flap",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "F2 = l/h polyphone, prompted by f. 241 c0 'etclerisce' after f. 243's last word 'honnor-': gives 'honnore et cheris ce qui', and on f. 243 'gentilhomme', 'choses', 'homme', 'l'honeur' without breaking 'plus sensible'",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "verification",
+   "what": "Page order fixed: f. 243 -> f. 241 (f. 243 ends 'je vous honnor-', f. 241 begins '-e et cheris ce qui se peut'); f. 242 is a duplicate of f. 243",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "statistics",
+   "what": "measure.py on reading.txt: signs read as sense f. 241 86.5%, f. 243 81.7%, letter (ff. 243+241) 728/867 = 84.0%; duplicate f. 242 73.5% of visible signs. lm.best_language: fr-1600-letters first (-2.1/char) on both pages",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "solver",
+   "what": "Low-resolution reading of corner shapes on f. 242 cq/cr/cn confused open sides (C/F/I, B/D); independent reading abandoned there and the f. 243 signs adopted after collation",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "access",
+   "what": "Neighbouring DECODE records opened: R922 (NAH), R923, R924, R925, R928, R929 (SP 106/10 ff. 233-240, 245-247: digit codes, Henrietta Maria 1645-46 group), R930 (f. 249, strip of alchemical-type symbols), R931/R932 (f. 251-252 numeric), R933 (a key sheet); R926 and ff. 237, 244 have no record. No other pigpen letter, no decipherment or clear copy of R927",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "literature search",
+   "what": "Web search (SP 106/10 pigpen, Nancy), Lasry GL.htm copies in the repo, Tomokiyo's Cryptiana index (only the Walsingham-Wilkes pigpen): no edition or calendar entry; CSP not searchable without a year or names",
+   "result": "failed"
   }
  ],
  "outcome": {
@@ -119,41 +241,42 @@
   "method_basis": "The homophonic pigpen key was built by annealing (hc3.py) on a hand transcription of f. 243 until French emerged, then fixed with guessed anchors ('monsieur', 'vous supplie'); the pencil key on the flap was tested and rejected, and no prior solution was found at the time; Lasry later reported it decoded by Sheila Richards in Secret Writings (1973), so this is an independent re-solution.",
   "contribution": [
    "transcription",
-   "key recovered"
+   "key recovered",
+   "key extended or corrected"
   ],
   "class": "read in part",
-  "fraction_read": 0.5,
+  "fraction_read": 0.84,
   "verification": [
    "historical consistency"
   ],
-  "notes": "Last page read, first page in fragments, second page not transcribed. fraction_read is an estimate from the NOTES, not measured.",
+  "notes": "All three pages transcribed. The letter runs f. 243 -> f. 241; f. 242 is a second copy of f. 243. Written at Nancy in December by a client ('vostre tres humble et fidel serviteur', signature read 'Nicle') to a 'Monsieur'; it concerns the marriage of 'ce gentilhomme', an envoy to congratulate 'Sa Majesté' on recovering from a long illness, and assurances of zeal for the King's service.",
   "gaps": [
    {
-    "item": "f. 241 (p. 1), all but hand-checked fragments",
-    "blocker": "not-attempted",
-    "detail": "auto-segmentation too noisy, full hand transcription not done"
+    "item": "words not read as sense on ff. 243/241 (about 16% of signs, e.g. 'utesteiersnenei', 'lequessalui', 'couguupr', 'b_ruileru')",
+    "blocker": "illegible",
+    "detail": "the 2300-px DECODE images are the only images; at that size the open side of corner shapes, inner strokes and dot counts are ambiguous, and the duplicate f. 242 repeats the same signs so it cannot correct them; a higher-resolution image or the leaf is needed"
    },
    {
-    "item": "f. 242 (p. 2)",
-    "blocker": "not-attempted",
-    "detail": "never transcribed"
+    "item": "the '@' (circle/9) signs, the numeral-like sign and '67' (f. 241, f. 243)",
+    "blocker": "no-key-material",
+    "detail": "three or four occurrences, in name positions; no nomenclator survives with the letter; too few occurrences to value from context"
    },
    {
-    "item": "the two circle/\"9\" signs and stacked composites on f. 243",
-    "blocker": "open-codes",
-    "detail": "they sit where names or abbreviations are expected, too few to value"
+    "item": "upper part of f. 242 columns a-f",
+    "blocker": "needs-physical-access",
+    "detail": "covered by the pasted paper flap with the pencil key; it duplicates f. 243 c0-c5, so only the copy is lost, not the text"
    },
    {
-    "item": "sender, recipient and date",
-    "blocker": "not-attempted",
-    "detail": "expected in the unread start of the letter"
+    "item": "sender, recipient and year",
+    "blocker": "no-key-material",
+    "detail": "the closing names only 'Nicle'(?) at Nancy in December; the recipient is 'Monsieur'; the names sit in the '@' code signs; no docket, no address leaf in the record"
    }
   ],
-  "fraction_read_method": "estimated",
-  "fraction_read_source": "p3_plain.txt covers f. 243 only; ff. 241-242 were never transcribed, so the letter's token total cannot be counted",
+  "fraction_read_method": "measured",
+  "fraction_read_source": "measure.py over reading.txt: 728 of 867 signs of the letter (f. 243 + f. 241) read as sense words (at most one wrong letter per word); the duplicate f. 242 (283/393 visible) is reported separately",
   "key": "partial",
   "codes_open": {
-   "open": 2,
+   "open": 4,
    "total": "unknown"
   },
   "first_break": false

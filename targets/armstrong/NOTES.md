@@ -81,7 +81,9 @@ carries a full pencil decode and gives **1320 = like** (H), plus 1492 last, 835 
   0150-51, 0160, 0188-89, 0191-92, 0223-25, 0232-38, 0289 (dense pages such as 0233 need 600 dpi crops line by line).
 - The LoC image of the postscript (mjm015002) is still Cloudflare-blocked to scripts; it was collated by hand.
 - The 20 Feb 1808 letter: see the adjudication section below (2026-09-16). Not readable with this table.
-- The ~40 other coded Armstrong despatches of 1804–10 in rolls 13–14 can now be read with the table.
+- The other coded Armstrong despatches: see "The other despatches in THE=972 (2026-10-02)" below. The "~40" was an
+  overestimate: Founders' early-access texts of Sept 1807 - Feb 1809 contain eleven coded despatches, roll 14 adds three
+  of 1810, and the 1804-07 ones are already printed decoded.
 
 ## The 20 February 1808 letter and the AFIO contest solution (adjudication, 2026-09-16)
 
@@ -167,3 +169,82 @@ can find the first, densely annotated page of a decoded despatch and nothing mor
 (`papers/cryptologia/armstrong1808.tex` section 4.2) says so; the HistoCrypt draft and `docs/armstrong.html` still
 carry the older wording and need the same correction. Frames the band score ranks high and that have not been read:
 0147 (a copy letter in clear with bleed-through, false positive on inspection), 0029, 0264, 0302, 0186, 0061, 0117.
+
+## The other despatches in THE=972 (2026-10-02)
+
+Status: in progress (the postscript above is finished and written up; this section extends the table to the rest of
+the correspondence and is not yet on the site).
+
+**Sources.** `founders_crawl.py` walked Founders' Armstrong-Madison chain through the Wayback Machine (pages in `fo/`,
+index `fo/index.json`). Roll 14 (naId 188671566, 22 Jan 1808 - 14 Sept 1810) turned out to be on disk already in
+`img/` (665 frames; the notes above said "not fetched"); all frames were paged at 12 per sheet (`grids14/`). The
+inventory with dates, group counts and frames is `inventory.tsv`. `despatches.py` decodes each despatch from the Founders
+text (or from `transcripts14.txt` for the 1810 ones), applies the frame-checked corrections in `fix972.json`, and layers
+`additions972.tsv` (about 160 values forced by context in these despatches, each with its evidence and slot check) on top
+of `decode972.py`'s table. Output: `despatches_out.txt`; shares: `shares.txt`.
+
+**Per despatch** (groups measured by `despatches.py`; "known" = pencil/known-plaintext H/C values; "given a value" adds
+M, the earlier inferences and this session's additions, all marked in the output). "Given a value" is not the same as
+"reads as sense": a handful of rendered syllables in each long despatch still do not make words.
+
+| despatch | Founders / frames | groups | known H/C | given a value | content |
+|---|---|---|---|---|---|
+| 27/29 Dec 1807 | 99-01-02-2472 | 225 | 69.3 % | 88.9 % (25 open) | Talleyrand, permitted in this way more than any other person, "dare not" [act?]; the Emperor wished to get hold of the Spanish royal family; the P.S. warns against overtures made here: "Russia is sincere and will be a dupe" |
+| 15 Feb 1808 | 2703; roll 14 0024-25 | 243 | 69.5 % | 100 % | "With one hand they offer us the blessings of equal alliance against Great Britain; with the other they menace us with war if we do not accept this kindness ... they pick our pockets with all imaginable diligence, dexterity and impudence"; if Britain abandons impressment, resist the projected alliance; otherwise ask the cession of the Floridas and the settlement of a western boundary |
+| 22 Feb 1808 | 2733; roll 14 0034 | 387 | 72.6 % | 98.2 % (7 open) | the ruin of Gustavus resolved; the British attack "has driven her [Denmark] out of her old and wise course of conduct and thrown her completely into the arms of France"; Bonaparte will not disdain to wear the crown of Portugal, and if he succeeds to that of Spain will consider himself heir to her colonies; "you will [have] to elect between being the ally or the enemy of France"; meet the danger at the threshold: a league of a general American interest, restricted to Cuba and Mexico if the provinces beyond the isthmus of Darien are too remote; the P.S.: the next attempt on the decrees "will be commenced by Cretet, seconded by Fouché and supported by Talleyrand" |
+| 5/9 Mar 1808 | 2780; roll 14 0643-44 (copy) | 408 | 70.8 % | 94.6 % (22 open) | Armstrong's note to Lafayette (5 Mar) and Lafayette's reply: what the minister of police and Cretet said is obscure and a little contradictory; Champagny says the complaints go to the grand juge and gives little encouragement; Talleyrand was to speak to the Emperor but had not the opportunity; signed "yours, La Fayette"; 9 Mar: the Emperor would consent to an exception to the operation of the November decree; "perhaps he means to put [our] ships in requisition also" |
+| 26 Mar 1808 | 2871 | 5 | 40 % | 100 % | "this career of bri-ga-n-?-ge" (brigandage) |
+| 31 May 1808 | 3139 | 4 | 75 % | 100 % | the supposed author of the "Jugement sur les affaires d'Espagne": colon(?) Emperor |
+| 6 Jun 1808 | 3164 | 3 | 67 % | 67 % | "he would become a fre[e?] [1269]" |
+| 13 Aug 1808 | 3414 | 27 | 70.4 % | 92.6 % | the present moment will [en]able you to do with the Floridas and your western limits whatever you please; "there is no one even to ask a question on either subject" |
+| 30 Aug 1808 | 3466 | 48 | 77.1 % | 100 % | the postscript above (Russel, O'Mealy, Warden) |
+| 25 Oct 1808 | 3642 | 22 | 72.7 % | 90.9 % | while they [keep?] Spain ...; while France continues to be what it is not; this government |
+| 20 Jan 1810 | roll 14 0476-77 | 29 | 79.3 % | 100 % | "our business here has taken another turn, and the duke of Cadore and myself are in negociation for an adjustment of our differences" (pencil) |
+| 2 Feb 1810 | roll 14 0494 | 18 | 38.9 % | 100 % | "Mr Petry called ... a proposition ... for forming a convention on principles of reciprocal advantage" (pencil) |
+| 17 Feb 1810 | roll 14 0495 | 83 | 63.9 % | 100 % | Champagny's note seeks "to justify the violence already committed on our commerce (which may in its execution be as much abused as the old) ... this judgement is neither hasty [nor] uncharitable, and is founded as well on the contents of the note as on the necessary operation of a policy that seeks only ... force or fraud" (pencil) |
+
+The 20 Feb 1808 letter (369 groups) is a different code and stays out (adjudication above). The 1804-07 despatches with
+encoded passages (18 listed in `inventory.tsv`) are printed decoded in the Secretary of State Series, from the clerks'
+interlinear decodes or the editors' partial key, without group lists; they were not re-read group by group.
+
+**Findings about the code.** 1105 = comma, 962 = full stop (also the abbreviation point in "M. Petry"), 1104 and 897
+= semicolon, 895 = dash, 1103 = question mark: the code has punctuation groups, which the 1806 pencil never wrote out.
+608 is u/v (Gusta-v-us, Fo-u-ché, excl-u-de, fra-u-d, act-u-al-ly), not "va" alone. 773 = ea (sp-ea-k); the first
+"Bonaparte" on 22 Feb is written 773 for 723 (bo), the second correctly. 894/959/960/1109 are digits (the date "5 March
+1808"). Founders misreads several MS groups (21 corrections in `fix972.json`): e.g. 1155 for 1165, 1145 for 1245, 1801
+for 1201, 1150 893 for 1251 895 (Cretet), and it drops "1216 249" (another) on 5 Mar.
+
+## Remaining gaps
+
+- 22 Feb 1808, 7 groups: 247 1229 ("to [form?] a league"), 406 / 1440 ("for ever the [?]an [?]oses of Europe"), 924
+  ("you will [?] to elect"), 1244 1387 (the man "of Hamburg" in the antechamber). Each occurs once and context does not
+  fix it. Blocker: too-short.
+- 5 Mar 1808, 22 groups: 276 1101 (opening), 177 1311, 296 152 120 (what Cretet said), 1259 206, 401, 733 437 ("[burn?]
+  my [note]"), 1338, 583 210, 573 809 180 1229 6 (Lafayette's close), 1369. Frame 0643 was collated for the first
+  two-thirds; the 9 Mar part on frame 0644 is not yet collated. Left open.
+- 27/29 Dec 1807, 25 groups, including 1701 and 1723 (values above 1600, as in the 20 Feb letter's code), 896 x2, 1155,
+  1461, 709 1307. The manuscript was not located on roll 13 or 14 at grid scale. Left open (search roll 13's last
+  frames and roll 14's first line by line).
+- 6 Jun 1808 1269, 25 Oct 1808 875 815, and the two damaged groups of 13 Aug 1808 (Founders "⟨ ⟩18", "⟨ ⟩69", read as
+  [?]18 and [15]69 mit): MS not located at grid scale. Left open.
+- Conflicts not resolved: 1260 dou (22 Feb 1808) vs chari (17 Feb 1810, a triplicate copy); 720 bir (PS) vs "da" needed
+  in bri-ga-n-?-ge (26 Mar 1808); 396 while vs the pencil's "which" (17 Feb 1810); 1415 be (C) vs ble (pencil
+  "blessings"); 946 on (C) vs Gu (Gustavus). Left open: each needs a third occurrence.
+- The 1804-07 despatches: decoded in print, group lists not transcribed. Left open (frame work, not blocked).
+- Roll 14 is online and in hand; nothing here needs physical access.
+
+## Escalation
+
+- Siblings: every coded despatch in Founders' Armstrong-Madison chain of Sept 1807 - Feb 1809 was decoded (inventory),
+  and roll 14 was paged for the three 1810 despatches to Robert Smith, whose pencil decodes added turn, negociation,
+  duke, Petry, convention, principles, reciprocal, advantage, justify, violence, already, neither, hasty, uncharitable,
+  founded, necessary, operation, policy, force, fraud.
+- Clear pages and copies: frame 0643 (a contemporary copy of the 5 Mar 1808 letter) corrected Founders; frames 0024-25
+  and 0034 checked 15 and 22 Feb. The faint pencil on 0024 (15 Feb) gave "one hand", "if we do not accept", "driven",
+  "G.B.", "Boundary".
+- Known keys: the THE=972 table (decode972.py) and Tomokiyo's partial table; the 20 Feb 1808 code is a different key.
+- Key rebuild: about 160 new values in `additions972.tsv`, each forced by its sentence and checked against its
+  alphabetical slot; where the slot does not fit (806, 807, 1137, 588, 606) the entry says so.
+- Retry: not yet. Next: collate frame 0644 (9 Mar 1808); locate the short-run despatches (Dec 1807, Mar-Oct 1808) on
+  roll 14 line by line; transcribe the 1804-07 group lists from roll 13 to check the printed decodes and settle the
+  conflicts above.

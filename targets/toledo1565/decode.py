@@ -7,8 +7,11 @@ for letter, codes in [('a',[12,13,14]),('b',[15]),('c',[16]),('d',[17]),('e',[18
                       ('u',[38,39,40]),('x',[41]),('y',[42]),('z',[43])]:
     for c in codes: KEY[c] = letter
 
+SIGNS = {'θ': 'll', 'μ': 'r'}  # no. 249 only: barred theta = ll; M-like sign = r (in 'respuesta')
+
 def dec(run):
     if run == '1565': return run  # the date, not cipher
+    if run in SIGNS: return SIGNS[run].upper()
     d = run.replace(' ', '')
     out = []
     for i in range(0, len(d) - 1, 2):
@@ -16,7 +19,7 @@ def dec(run):
     if len(d) % 2: out.append('|odd')
     return ''.join(out).upper()
 
-pat = re.compile(r'(?<![\w])(?!15[0-9]{2})\d{2,}(?: \d+)*')
+pat = re.compile(r'(?<![\w])(?!15[0-9]{2})(?:\d{2,}|θ|μ)(?: (?:\d+|θ|μ))*')
 for line in open(sys.argv[1] if len(sys.argv) > 1 else 'transcription.txt', encoding='utf-8'):
     line = line.rstrip('\n')
     if line.startswith('#'): continue

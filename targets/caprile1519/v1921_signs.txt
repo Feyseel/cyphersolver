@@ -1,0 +1,13 @@
+# V1921 (ASMo Ungheria b. 4, Caprili 1520-21 no. 12, 25 Feb 1521), cipher runs only, labels as seg21/signs.md.
+# Re-checked sign by sign on img/v/v1921_2.jpg, 2 Oct 2026. Ligatures written as one token: z+ x+ MT (m+) NT (n+);
+# oSLo = the o-stroke-o group; oo = two lone o written together (= b). Changes from caprile1521_transcription.txt:
+# L01 "z t" -> z+; L02 "m p" -> MT (the cross written as a looped descender); L03 "x t" -> x+; L06 "o o" -> oo;
+# L04 "U HH B" -> "U ff B" (tall barred ff with descenders, not the short H); L06 end "w K? PHI" confirmed at the page edge (K and PHI uncertain). y' (L02) is y with a hook, kept as y.
+L01 8 z ss PSI B PHI L Z 8 o T LAM DIV oSLo HH CE z+ o RC
+L02 r B TH y QB w p L PHI CE MT q y y x a ss n f UT
+L02 L ff PHI LAM NT h CE r y ss MT f q
+L03 h QB x+ a y ff TH o T EL ss x NT LAM T MT oSLo 1 1
+L03 QB T w AST B q ss x q PSI UT h T r q DIV h B L ff NT o QB UT PSI
+L04 a y DIV h oSLo K PHI o ss n e f QB U ff B q RC p oSLo EL L TH B CE
+L05 NT LAM oSLo MT B w p CE x y
+L06 MT CE AMP AST q NT QB B oo y DIV L z+ LAM T p h o DIV x p LAM y MT B q p CE B DIV AST y w K PHI

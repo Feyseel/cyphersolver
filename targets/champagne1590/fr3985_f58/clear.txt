@@ -1,0 +1,31 @@
+# BnF fr. 3985 f. 58r (Gallica btv1b90606498, canvas 114), La Verrière to Nevers, Poissy, 12 Aug 1593.
+# Clear text, transcribed from the full-resolution canvas (4719 x 6676). [..] = illegible/unsure. ⟦C⟧ = cipher run.
+# f. 58v (canvas 115): address only, "A Monseigneur / Monseigneur le duc de Nivernois".
+# Docket top left: "12 d'aoust 1593". Folio "58" top right.
+
+l1  Monseigneur, je ne faillis en descendant de Revol a [moiré?] monsieur de
+l2  Fresne sur ce que me commandastes, lequel me dict que monsieur luy avoit
+l3  dict qu'il luy envoyeroit la lettre dont m'aviez parlé avec le deschiffrement, mais
+l4  que ses papiers estoient desja partis et qu'il les donneroit a mons. de Revol,
+l5  dont je me suis enquis depuis s'il les avoit, qui m'a dict luy avoir
+l6  esté mis en main le deschiffrement et non la lettre, et qu'il ne fauldroit
+l7  de vous en envoyer une coppie. Quant aux aultres quatre poinctz
+l8  dont m'aviez enchargé, je n'ay failly d'en parler a mons. de
+l9  Revol: vous en verrez l'ordre(?). Mons. de Sancy au sortir du Roy luy
+l10 en ayant parlé, je croys qu'il fera en cella tout ce qu'il
+l11 pourra. Le plus au [..] ce [..] empesche c'est ⟦C⟧
+     [cipher run A, page lines 11-19, see ct.txt; Laverriere's clear words inside it: "qui s'acorderoit fort bien
+     pour cela", "et point", "estans tous"]
+l20 Quant a la conference, je ne fus que hyer a ce soir et fort tard [et?]
+l21 n'y eust grand propos, et ⟦B1⟧ ce tiennent le plus empeschés ⟦B2⟧
+l22 et ce [..] ⟦B4⟧ de ces [..] dict qu'il y a ⟦B3⟧
+l24 ⟦B5⟧ et disent avoir les lettres, et je ne croys qu'il amenera. Le
+l25 Roy est allé ce soir a Fony(?) et doit estre cejourd'huy pour aller a Mantes,
+l26 et la conference ce jour a Andresy. Voilla, Monseigneur,
+l27 tout ce que vous puis mander, sinon que pour le reste des
+l28 1000 escus mons. de Sancy et [Hombert?] avec mons. de Revol tiendront la main
+l29 et y vaqueront(?) que vous serez contant, les ayant tous trouvez
+l30 fort affectionnez a vostre service, et vous puis asseurer
+l31 que mons. de Sancy n'oublie rien et me tient a jamais.
+    Monseigneur, [...]
+    A Poissy ce xij aoust 1593.  Vostre tres humble et tres affectionné serviteur, Laverriere

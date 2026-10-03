@@ -1,0 +1,13 @@
+# BL Stowe MS 166 f. 59 (DECODE R7772, image IMG_R7772_I35130_P3), the four cipher lines at the head of the page.
+# Transcribed 2 Oct 2026 from the full-resolution DECODE image, signs as in the NOTES key table; words as written.
+# '|' = the vertical-stroke sign (q, new: only in "consequence"); [blot] = an ink blot over a struck sign.
+L1: бȝш +λ 2αȝ&ʋ|шʋȝ2ʋ 9α9ǂ&3ǂʋ ȝαшfǂ&4ʋш 9fʋωʋȝшǂȝб
+L2: &α ωα б99ʋfωбǂȝʋ ωα ω4ʋ 93б2ʋ α8 ω4ʋ 2αȝ&ωб+[blot]3ʋ
+L3: ωα 4бшʋ ω4ʋ бαшʋf□ʋȝω α8 ω4ʋ λαшȝбʋ 4ʋǂfʋ α8
+L4: ω4ʋ 2fαπȝʋ,
+# decrypt (letter for letter, 126 signs = 126 letters; with the Stowe 166 key; б = a in "haue", g in "pretending", "younge")
+L1: and by consequence popislie nourished pretending
+L2: so to appertaine to the place of the constable
+L3: to haue the gouerment of the younge heire of
+L4: the crowne,
+# then in clear: "but wherein he hath nothing effected, the K. being resolued not to assent thereunto."

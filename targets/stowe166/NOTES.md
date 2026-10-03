@@ -1,7 +1,7 @@
 # Stowe MS 166: Edmondes to Burghley, 1592–1594 (DECODE R7770–R7775)
 
 Status: in progress
-Reading so far: read in part
+Reading so far: read in part (every cipher line read; only the person signs open)
 Prior decipherment in print (found 30 Sept 2026, after the key was recovered here): G. G. Butler, *The Edmondes
 Papers* (1913), prints five of the six letters with the cipher passages deciphered. See "Print check" below.
 
@@ -50,7 +50,7 @@ with "difficulties" and "empeachement" as the first long words. Same key in all 
 | ȝ | n | α | o | 9 | p |
 | f | r | & | s | ω | t |
 | o (small) | v | π | w | 5 | x |
-| λ | y (q?) | | | | |
+| λ | y | `\|` (stroke) | q (f. 59, "consequence") | | |
 
 Code signs: **9** (standing alone) = a person, most likely the Count of Soissons in 1593 (R7770, R7772);
 **n** = the new suitor for Catherine de Bourbon (R7770), unidentified; **£ / £2** = most likely the Duke of Guise in 1594
@@ -77,14 +77,18 @@ that cause (as it pleaseth himself to tell me) as especiallye"):
 > required the performance before he would come, to haue the yong prince of Condé deliuered into the handes of
 > Madame d'Angolesme his sister in law to be vnder his custodie.
 
-**R7772, f. 59**, 4 lines: **not read.** Only fragments: "…papistes…", "…to the place…of the constable (?)…
-of the …", ending "…the crowne, but wherein he hath nothing effected, the K. being resolued not to assent thereunto" (the last part in clear).
-30 Sept 2026: Butler prints this letter whole (no. XXII, from ff. 58, 59). His p. 56 holds the f. 58v passage and the
-clear ending of f. 59 ("wherein", "nothing", "resolued", "assent", "thereunto"), so these four lines are on that page
-too. The page's words that fit the fragments, several in modern spelling like Butler's other decipherments, are
-Constable, crown, heir (and heire), place, popishly, nourished, descended, house, sole, daughter, marriage (twice),
-young (twice) and Dampuille. "papistes" is not on the page ("popishly" is), and neither is "effected" ("profited" is).
-The HathiTrust word data gives no word order, so these are crib candidates, not a reading.
+**R7772, f. 59**, 4 lines (read 2 Oct 2026, `f59_r7772.txt`, 126 signs; continues the f. 58v passage on Montmorency):
+> and by consequence popis[h]lie nourished, pretending so to appertaine to the place of the Constable, to haue the
+> gouer[n]ment of the younge heire of the crowne,
+
+then in clear "but wherein he hath nothing effected, the K. being resolued not to assent thereunto". The "young heir of
+the crown" is the young Prince of Condé of the f. 58v passage. The key read it unchanged except one new sign, a
+vertical stroke = q ("consequence"). б is a in "haue" and g in "pretending" and "younge", as elsewhere. The earlier
+fragments "papistes" and "effected (in cipher)" were misreadings: "popislie" is the cipher word, "effected" is clear.
+**Butler p. 56 check:** all 20 distinct words of this decipherment stand on Butler's p. 56 (seq 104) in the HathiTrust
+word data, in his modern spelling (popishly, nourished, pretending, appertain, constable, government, young, heir,
+crown); the next best page in the volume has 10. Butler's page text could still not be opened (HathiTrust IP block),
+so the comparison is by words, not word order.
 
 **R7773, f. 60v** (after "but the K. thereuppon saide vnto me"):
 > that his faith is not vendible.
@@ -174,19 +178,18 @@ used, and George Lasry's list entry needs reclassifying as a re-solution of a pu
 
 ## Open
 
-- f. 59, four cipher lines. Butler p. 56 prints them (see "Print check").
+- f. 59: read 2 Oct 2026 (see Readings).
 - Identify n (Montpensier, by Love 2001's gloss) and confirm 9 = Soissons and £ = Guise against Butler pp. 46, 150.
 - Butler 1913: read pp. 46–59 and 148–151 verbatim and compare with the readings here (done by word counts only,
   30 Sept 2026).
 
 ## Remaining gaps
-- R7772 f. 59, four cipher lines - blocker: not-attempted; NOTES record only fragments and give no cause (no damage or illegibility noted); no documented second pass with the full key. Butler 1913 p. 56 prints them (30 Sept 2026): read that page, or use its words as cribs (Constable, crown, heir, popishly, nourished, sole, daughter)
-- code signs 9, n, £/£2, 4̇ - blocker: open-codes; person signs; 9 = Soissons? and £ = Guise? by context, with "Soissons" on Butler p. 46 and "Guise" on p. 150; n = Montpensier in Love 2001's gloss; 4̇ unidentified
+- code signs 9, n, £/£2, 4̇ - blocker: no-key-material; person signs with no name table: 9 = Soissons? and £ = Guise? by context ("Soissons" on Butler p. 46, "Guise" on p. 150), n = Montpensier in Love 2001's gloss, 4̇ unidentified; no key with names survives (known keys checked, see Escalation) and Butler's page text, which would show his reading of the signs, is blocked here (HathiTrust IP block; a browser elsewhere can read seq 94, 104, 198)
 
 ## Escalation
 - [x] siblings: all six records R7770-R7775 of the volume opened and read; f. 110 checked, no cipher
 - [x] clear-pages: leaves checked, no interlinear readings and no key filed with the volume
-- [ ] known-keys: not done — compare with the Edmondes/Burghley tables in Tomokiyo (elizabeth.htm) and DECODE Elizabethan keys
+- [x] known-keys: 2 Oct 2026. Tomokiyo's Elizabethan tables (copy in targets/norreys1567/csp/elizabeth.htm) have no Edmondes cipher; Unton's 1591 cypher (Stevenson 1847 p. 14) is letters and digits, a different system; the DECODE harvest (research/catalogue_harvest/decode) has no Edmondes or Stowe 166 key record. No key gives the person signs
 - [x] print: done 2026-09-30. Butler 1913 prints R7770, R7771, R7772, R7773 and R7775 with the cipher deciphered (nos. XVIII, XXI–XXIII, LXVI; shown from HathiTrust's page-level word data, page text not seen), but not R7774. Love 2001 quotes the f. 50 and f. 60v passages from the letters as received. Birch 1749 (three texts) and HMC Salisbury IV have none of them. List and Analysis vols 3–5 remain unseen (in copyright). (2026-09-21: blocked; HathiTrust Cloudflare 403, Google Books captcha)
 - [x] key-rebuild: substitution key rebuilt from the/of/to and long words across the six records
-- [ ] retry: not done — re-read f. 59 against the images with the full key and regrade the person signs
+- [x] retry: 2 Oct 2026. R7772 images re-fetched from DECODE; f. 59 re-read with the full key and read in full (one new sign, | = q); the person signs regraded: f. 59 has none, the lone "9:" before f. 58v stays a mark or Soissons (Butler p. 56 has no "Soissons")

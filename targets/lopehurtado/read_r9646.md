@@ -52,12 +52,13 @@ both unconfirmed (1524 `ω` = i), so the word is probable only.
 
 ```
 Ꮒ  ʃta   ß ʃop 7   ʇ α 8 x &   ton  & α 8 ʃu   9 8   ʙ ∠ 8 9 & Ho   yuc  zip
-∅  ?     a bi  a   m i e d o   que  o i e se    d e   b u e d o a ?   en   ?
+∅  null  a bi  a   m i e d o   que  o v i e se    d e   b u e d o a ?   en   ?
 ```
-= *[…] abia miedo que oyese de … en …*. Secure: *abia* (`ʃop` = bi, 1524), *miedo* (5 for 5, `ʇ` = m as in
-R9649 *mata*), *que*, *oyese* (4 signs + `ʃu` = se). Unread: `ʃta` (again at a run start, cf. R9649,
-R9656: a filler or *esta*), the six-sign word `ʙ∠89&Ho` (letter values give *bued·oa*, no sense: one sign
-misvalued), and the code `zip`.
+= *abia miedo que oviese de … en …*. Secure: *abia* (`ʃop` = bi, 1524), *miedo* (5 for 5, `ʇ` = m as in
+R9649 *mata*), *que*, *oviese* (re-read 2026-10-02 at 1.5x: the second sign is `∠` = v, not `α`; `& ∠ α 8 ʃu` =
+o-v-i-e-se). `Ꮒ ʃta` = opener + null (2026-10-02: `ʃta` has no counterpart in R9649's clear and sits after `Ꮒ` in
+R9634 too; see `read_r9634.md`). Unread: the six-sign word `ʙ∠89&Ho` (letter values give *bued·oa*, no sense:
+one sign misvalued), and the code `zip`.
 
 ### Run 5 (ll. 11–15) — *El arçobispo me ha avisado que se hara bien v. Mt. responda luego al duque lo que manda, y si seria bien* [cipher] *de todo doy aviso al duque*
 
@@ -67,10 +68,11 @@ misvalued), and the code `zip`.
 ton xug δ 8 ǝ t oo ʃof   ton  ɣc ʇʇ 8 &   ton top yeb    yuc ʇʇ Ho ʃel    ʙ ∠ 4 7   ɣ ? 8 δ Ho
 que la  s e ? ? e  ?     que  c  r  e o   que por dinero en  r  a  toda?  b u n a   c ? e s a
 ```
-= *y si seria bien [… ] ofrecer [algo?] al papa para sus necesidades, que la …, que creo que por dinero
+= *y si seria bien [nulls] ofrecer [algo?] al papa para sus necesidades, que la …, que creo que por dinero
 en[t]ra[r]a toda …* . Secure: **ofrecer** (7 for 7), **al papa**, **para sus necesidades** (`tef` = nec-,
-1524; 9 letters exact), **creo que por dinero**. Unread: `ʑ to ɡto`, `zob`, the word `δ8ǝtoo`, `ʃof`,
-the close `ʇʇ Ho ʃel ʙ∠47 ɣ?8δHo`.
+1524; 9 letters exact; `sed z` = sus with the plural `z` of R9634), **creo que por dinero**. `Ꮒ ʑ to ɡto` =
+opener + nulls (the same `ɡto`/`ɡʇo` follows `Ꮒ` in R9634 14v07). Unread: `zob`, the word `δ8ǝtoo`, `ʃof`, the
+close `ʙ∠47 ɣ?8δHo` (*toda bu[e]na …?*).
 
 ## Running reading
 
@@ -78,7 +80,7 @@ the close `ʇʇ Ho ʃel ʙ∠47 ɣ?8δHo`.
 > capitulacion firmada, y el papa ha mandado que me den traslado della para embiar a v. Mt., y para que el
 > duque de Sessa vea la forma que se ha de tener con el duque **de Ferrara**.
 > El duque me mando que yo hablase al papa **en lo de la [decima?]** que v. Mt. pide; halle bueno a su
-> Santidad, pero respondiome que **[…] abia miedo que oyese de […]**; lo abia escrito a v. Mt. con Rodrigo
+> Santidad, pero respondiome que **[…] abia miedo que oviese de […]**; lo abia escrito a v. Mt. con Rodrigo
 > Niño, que esperasemos lo que respondia. Yo hable al datario y arçobispo y auditor de la camara, que son
 > los que tratan destas cosas. El arçobispo me ha avisado que se hara bien; v. Mt. responda luego al duque
 > lo que manda, y si seria bien **[…] ofrecer […] al papa para sus necesidades, que […], que creo que por
@@ -90,8 +92,12 @@ being sent. Charles's request (probably the ecclesiastical tenth) meets papal ca
 
 ## Coverage
 
-118 cipher tokens in five runs. Tokens with a value (confirmed or probable): **99 / 118 (84%)**. Words read
-with sense: runs 1–2 in full; run 3 probable; runs 4–5 in part (about two thirds of the words).
+121 cipher tokens in five runs (counted from the transcription blocks above, 2026-10-02; the earlier figure of
+118 was a miscount). Tokens with a value (confirmed or probable): about 100 / 121.
+
+**Measured 2026-10-02, tokens read as sense: 97 / 121 = 80%.** Unread: run 4 `ʙ∠89&Ho` (6) + `zip` (1);
+run 5 `zob` (1), `δ8ǝtoo` (5), `ʃof` (1), `ʙ∠47` (4), `ɣ?8δHo` (6). Run 3 *decima* is counted read but probable
+(`ω` = c and `t` = m rest on this one word). Runs 1–2 in full.
 
 ## New values (evidence)
 
@@ -111,6 +117,6 @@ with sense: runs 1–2 in full; run 3 probable; runs 4–5 in part (about two th
 
 ## Unread and why
 
-`ʃta` (twice across the letters at run starts), `zip`, `zob`, `ʑ to ɡto`, `ʃof`, and three spelled words
+`zip`, `zob`, `ʃof`, and three spelled words
 (`ʙ∠89&Ho`, `δ8ǝtoo`, `ɣ?8δHo`) — no crib; the spelled words contain one sign each whose value is not
 settled (`ʙ`, `ǝ`, `?`), and the codes occur once.

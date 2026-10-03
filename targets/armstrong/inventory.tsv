@@ -1,0 +1,28 @@
+# Coded Armstrong despatches in hand (2 Oct 2026). key = despatches.py key; groups = measured by despatches.py from the source named.
+# source: FO = Founders Online early-access transcription (fo/<id>.html, via Wayback); MS = transcribed here from the NARA M34 frame
+# Read share = H/C-known groups; "+new" = groups read with the values added this session (additions972.tsv)
+key	date	to	Founders id	frames	groups	code	status
+dec1807	27/29 Dec 1807	Madison	99-01-02-2472	roll 13 end / roll 14 not located	225	THE=972	FO only; clerk's interlinear decode printed by Founders in angle brackets for 3 runs
+feb15	15 Feb 1808	Madison	99-01-02-2703	roll 14 0024-0025 (pencil decode, partial)	243	THE=972	FO checked against frames 0024-0025; 2 Founders slips corrected
+feb20	20 Feb 1808	Madison	99-01-02-2728	roll 14 0029-0032	367	OTHER (not THE=972)	see NOTES adjudication; not readable with this table
+feb22	22 Feb 1808	Madison	99-01-02-2733	roll 14 0033-0034	387	THE=972	FO checked against frame 0034; 7 Founders slips corrected
+mar05	5/9 Mar 1808	Madison	99-01-02-2780	roll 14 0643-0644 (contemporary copy)	408	THE=972	FO checked against frame 0643; 12 Founders slips corrected; contains the Armstrong-Lafayette exchange of 5 Mar
+mar26	26 Mar 1808	Madison	99-01-02-2871	not located	5	THE=972	one word (brigandage)
+may31	31 May 1808	Madison	99-01-02-3139	not located	4	THE=972	one name
+jun06	6 Jun 1808	Madison	99-01-02-3164	not located	3	THE=972	one phrase, 1269 open
+aug13	13 Aug 1808	Madison	99-01-02-3414	not located	27	THE=972	2 groups damaged in Founders
+aug30	30 Aug 1808	Madison	99-01-02-3466	LoC Madison Papers reel 10 frame 0521	48	THE=972	postscript, read earlier (NOTES top)
+oct25	25 Oct 1808	Madison	99-01-02-3642	not located	22	THE=972	short runs
+jan1810	20 Jan 1810	R. Smith	-	roll 14 0476 (pencil) + 0477 (duplicate)	29	THE=972	MS; pencil decode
+feb1810a	2 Feb 1810	R. Smith	-	roll 14 0494 (pencil)	18	THE=972	MS; pencil decode
+feb1810b	17 Feb 1810	R. Smith	-	roll 14 0495 (triplicate, pencil)	83	THE=972	MS; pencil decode
+# Roll 14 frames with long code runs, found by paging all 663 frames at 12-per-sheet scale (short runs of 2-30 groups are not visible at that scale and were not located): 0024-0025, 0029-0032, 0033-0034, 0476-0477, 0494, 0495, 0643-0644.
+# Small runs (1-5 groups) in the 1808 Founders texts that are dates or enclosure numbers, not code: 12 Nov 1807, 18 Apr 1808, 25 Jul 1808, 2 Jan 1809, 28 Feb 1808.
+# 1804-1807 despatches (roll 13 and the 1804-05 roll): the published Papers of James Madison, Secretary of State Series, print these
+# DECODED (italics), from the clerks' interlinear decodes or the editors' partly reconstructed key; no group lists are printed. Group-level
+# re-reading needs transcription from the roll-13 frames; not done this session. Letters with encoded passages (Founders ids):
+#  02-08-02-0192 20 Oct 1804; 02-08-02-0427 24 Dec 1804; 02-08-02-0444 30 Dec 1804; 02-09-02-0150 18 Mar 1805 (roll 13 frame 0034 copy);
+#  02-09-02-0222 2 Apr 1805; 02-10-02-0192 15 Aug 1805; 02-10-02-0293 10 Sep 1805 (frame 0097); 02-10-02-0369 3 Oct 1805; 02-11-02-0201 17 Feb 1806;
+#  02-11-02-0350 28 Mar 1806; 02-11-02-0495 4 May 1806 (frame 0149, the known plaintext); 02-12-02-0002 1 Jun 1806; 02-12-02-0197 17 Jul 1806;
+#  02-12-02-0214 21 Jul 1806 (frame 0190); 02-12-02-0539 10 Oct 1806 (frames 0192-0201, the table's main source); 02-13-02-0415 15 Feb 1807;
+#  02-13-02-0545 20 Mar 1807; 02-13-02-0580 29 Mar 1807.

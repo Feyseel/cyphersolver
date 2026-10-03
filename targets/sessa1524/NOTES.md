@@ -77,7 +77,7 @@ cookie) attested `rad` = *dicha*, `boy`/`bez` = *-ido*, `Є` = *h*, `kel` = `kef
 (key_working.md, pass 10). Unread now: `vo` (the noun after *dichas*: the bishop's letters or their copies),
 `z y` (the verb after *quiere*, *mostrar* from the sense), `per`, `rus`, `hay`, and the clause *los m-re que r-ido
 los que no m-r-e-van*, where one sign value (probably `v`) is still wrong. The other 1525 letter, R9898 (14 pp.),
-was then read through as well (pass 12): it carries no decipherment despite DECODE's "Decrypted", so it gave only
+was then read through as well (pass 12): it seemed to carry no decipherment (wrong: see section 5, it has six marginal ones), so it gave only
 contexts (`z y` also after *si*; `ruc`/`rus` is a person who *ha respondido*; `hud` again in *la plática de la paz*).
 Pass 13 (the 24 July 1524 letter R9893, cipher f. 483 with its clear on f. 485) corrected `lif` to *mostrar*
 (*ni se quiere mostrar* = `lep dim fa lif 3 α`, `fa` = *quiere*) and gave `zum` = *hay*, `tas` *cosa*, `luh`
@@ -111,16 +111,43 @@ To attest the nine open groups, the next deciphered Sessa letters (same correspo
 Then `python tokens.py <img> x0 y0 x1 y1 tok/<name>.png` per cipher line and search the tile sheets for `rad`,
 `vo`, `lif`, `per`, `kel`, `boy`, `rus`, `hay`.
 
+## 5. R9873 (14 Apr 1524) and R9898 (24 Feb 1525) transcribed and read in part (pass 16, 2 Oct 2026)
+
+Both letters were transcribed in full from `img/` into the (a) cipher / (b) reading convention of
+`targets/sessa1523/reading_r9660.txt`: [r9873_cipher.txt](r9873_cipher.txt), [r9898_cipher.txt](r9898_cipher.txt).
+Readings, content and gaps: [read_r9873.md](read_r9873.md), [read_r9898.md](read_r9898.md). Share read as sense,
+measured by [measure_read.py](measure_read.py) (each assembled word scored on `lang` `es-golden-age`):
+
+| letter | cipher tokens | read as sense | open groups | letters without sense | status |
+|---|---|---|---|---|---|
+| R9873, Sessa 14 Apr 1524, A-31 ff. 79-86 | 2,473 | 2,165 (87.5%) | 256 tokens | 52 | read in part |
+| R9898, Sessa 24 Feb 1525, A-34 ff. 150-156 | 3,059 | 2,361 (77.2%) | 300 tokens | 398 (bleed-through) | read in part |
+
+- **R9898 is not without decipherment** (corrects pass 12 above): six cipher runs carry a contemporary marginal
+  decipherment in a second hand (ff. 150r, 152r, 153v, 154r, 154v x3, 156r). They are the cribs of pass 16.
+- **R9873** is CSP Spain ii 637 (Goicoechea's 19th-c. reading, not bound); no. 636 is the triplicate with its
+  deciphering, no. 638 the court abstract ([csp/csp2_636_638.txt](csp/csp2_636_638.txt)). The reading follows no. 636
+  topic by topic (cortes and the coming to Italy; Capua from Blois; the two proposals; the pension; 4,000 ducats at
+  Lodi; the nuncio's letters of 26 March; Wolsey's "honest colour"; the English will not contribute).
+- Pass 16 values (key_working.md): `ruc`/`rus` = dicho, `hay` = aunque (tentative), `v em` = cierto, `li` = mi,
+  `le` = me, `net` = halla, `lec` = -mos, `yol` = aqui, `sud` = datario, `fed` = rey de Francia, `xir` = cardenal,
+  `lot` = nuncio, `pof` = exercito, `kuc` = liga, `tig` = contra, `cuq` = tengo, `yod`/`quf` = amigo/enemigo, and
+  the name *Micer Agostino Foyeta* (Foglietta). For f. 128 this closes two of the four residue groups:
+  *de lo suso[rus] [hay] no* = **de lo susodicho, aunque no, me parece que concuerda mucho con lo primero**.
+
 ## Remaining gaps
-- group `vo` (noun after *las dichas*, f. 128r) - blocker: open-codes; matches nowhere in the downloaded pages (pass 14 template search)
-- group `per` - blocker: open-codes; matches nowhere in the downloaded pages (pass 14)
-- groups `ruc`/`rus` and `hay` - blocker: no-key-material; occur only in R9873 (1524) and R9660 (1523), neither with a decipherment; five R9660 contexts do not fix `ruc`
-- clause *los m-re que r-ido los que no m-r-e-van* - blocker: open-codes; one sign value (probably `v`) still wrong after 14 passes
+- group `vo` (noun after *las dichas*, f. 128r) - blocker: open-codes; absent from R9873 and R9898 as well (pass 16) and from every other downloaded page (pass 14)
+- group `per` - blocker: open-codes; absent from R9873 and R9898 (pass 16) and every other downloaded page (pass 14)
+- `hay` = aunque is tentative (four contexts in R9873, none deciphered) - blocker: open-codes; no deciphered occurrence
+- clause *los m-re que r-ido los que no m-r-e-van* - blocker: open-codes; one sign value (probably `v`) still wrong after 16 passes
+- R9873: about 120 code groups (256 tokens) and 52 spelled letters without sense - blocker: open-codes; single contexts (read_r9873.md)
+- R9898: about 140 code groups (300 tokens) - blocker: open-codes; single contexts, not in the six marginal decipherments (read_r9898.md)
+- R9898: 398 letter tokens on the bleed-through pages ff. 150v-151r, 155v - blocker: illegible; the DECODE images do not separate the cursive r/u/n signs
 
 ## Escalation
-- [x] siblings: R9878 duplicate collated; R9881, R9883/4, R9890, R9893, R9834, R9897, R9898 read against their clears (passes 1-14)
-- [x] clear-pages: clears f. 140, f. 172, f. 324, f. 485, f. 38, ff. 14v-15 aligned; R9898's "Decrypted" found to carry none
+- [x] siblings: R9878 duplicate collated; R9881, R9883/4, R9890, R9893, R9834, R9897, R9898 read against their clears (passes 1-14); R9873 and R9898 transcribed in full (pass 16)
+- [x] clear-pages: clears f. 140, f. 172, f. 324, f. 485, f. 38, ff. 14v-15 aligned; R9898's six marginal decipherments found and aligned (pass 16; pass 12 had missed them)
 - [x] known-keys: one cipher throughout 1523-25; the key was built from its own siblings, no other key of the series is known
-- [x] print: Bergenroth CSP Spain vol. 2 checked; this letter is not calendared (only Lope Hurtado's no. 642)
-- [x] key-rebuild: key_working.md extended over 14 passes by crib alignment and template matching (tmatch.py)
-- [x] retry: rerun 21 Sept 2026 with the pass-15 key (key_working.md) over the new full transcription of R9660 (targets/sessa1523/reading_r9660.txt, ~2,050 tokens) on top of the pass-14 template search of all ~110 downloaded 1523-25 pages: `vo` and `per` occur nowhere; `ruc` gets five more contexts (del ruc [rey], el ruc [pof], los ruc-s, le lo ruc, han ruc-do), so it is a verb/adjective root, not a person, but no context fixes it; `hay` still unattested (`zum` = hay in clear pass 13); the m-re clause unchanged. No reading regraded. A token-by-token alignment of the six other 1523 letters was not done; the template search covered them
+- [x] print: Bergenroth CSP Spain vol. 2 checked (f. 128 not calendared; R9873 = nos. 636-638, used as a topic crib); CSP iii.1 checked for R9898 (not calendared)
+- [x] key-rebuild: key_working.md extended over 16 passes by crib alignment, template matching (tmatch.py) and the R9898 margins
+- [x] retry: rerun 21 Sept 2026 with the pass-15 key over R9660 (no change); rerun 2 Oct 2026 with the pass-16 key over f. 128: `rus` = dicho and `hay` = aunque fill the residue *de lo susodicho, aunque no*; `vo`, `per` and the m-re clause still open

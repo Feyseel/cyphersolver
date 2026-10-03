@@ -25,7 +25,10 @@ at the end. The earlier fragments came from a hand table that was one group out 
 The same key reproduces the office's interlinear decipherment of **no. 10** (13 July 1593) in a blind test
 contributed by setsunaatto (PR 15, 30 Sept 2026): 80% of the gloss falls in matching runs of four or more letters,
 against shuffled controls of at most 30%. The one run the office left unglossed reads "[le grand duc de Toscane]
-quant [le Roy] nous bailla par escrit (sa?) volonté".
+quant [le Roy] nous bailla par escrit (sa?) volonté". **Fr. 3985 f. 58** (La Verrière, Poissy, 12 Aug 1593, the
+letter Tomokiyo names for key no. 57; glossed at the time by the office) was deciphered with the same key on 2 Oct
+2026: 222 of 248 cipher tokens (89.5%) read, on the prince de Conty, Madame d'Angoulême, the Montmorency house and La
+Trémoille, and a reported papal design against the Cardinal de Bourbon (section near the end).
 
 ## Prior work checked
 
@@ -182,7 +185,9 @@ Laurière letter.
 * `ct_3625_10_blind.txt`, `ct_3625_10_rest.txt` — all thirteen glossed runs of no. 10 in sign names, with the glosses
   (the first five transcribed blind), and the unglossed run as U1; `check_3625_10.py` scores key no. 57 against the
   glossed runs (exit 0 = pass) and prints the decipherment of U1.
-* Images in `img/` (git-ignored, not committed).
+* `fr3985_f58/` — fr. 3985 f. 58 (La Verrière, Poissy, 12 Aug 1593): `ct.txt`, `clear.txt`, `words57.tsv`,
+  `decode58.py`, `reading.md`.
+* Images in `img/` (git-ignored, not committed); f. 58 and the key sheet in `img/fr3985_f58/`.
 
 ## Fr. 3625 no. 55 read with key no. 57 (29 Sept 2026, issue 13)
 
@@ -268,11 +273,55 @@ overbarred block; 320 religion in R, 320 sans added in S), and province 29 is "L
 header rows match the alphabet in `check_3625_10.py` letter for letter, which showed that the old alphabet line in
 `key57.txt` had c and h the wrong way round (now corrected; the contributor had flagged it). Details in `key57.txt`.
 
+## Fr. 3985 f. 58, La Verrière to Nevers, Poissy, 12 Aug 1593, deciphered with key no. 57 (2 Oct 2026)
+
+Tomokiyo's entry for key no. 57 says the key is used in "a letter from Laveriere to the Duke of Nevers, Poissy,
+12 August 1593 (BnF fr.3985 fol.58)". No target had read it (`targets/nevers1593` works other items of fr. 3985).
+Gallica `btv1b90606498`: **f. 58r = canvas 114**, f. 58v = canvas 115 (address only, "Monseigneur le duc de
+Nivernois"). Full write-up in `fr3985_f58/reading.md`; transcription `fr3985_f58/ct.txt`, clear text
+`fr3985_f58/clear.txt`, decoder and count `fr3985_f58/decode58.py`, the whole word list of the key sheet
+`fr3985_f58/words57.tsv` (read off f. 103r for this letter; key57.txt had only the words of nos. 10 and 55). Images in
+`img/fr3985_f58/` (git-ignored).
+
+The page is clear French with two cipher passages (run A, page lines 11-19; run B, lines 21-24), and **the office's
+interlinear decipherment stands over almost every cipher line**: the letter was deciphered at the time. Key no. 57
+applied as it stands on the sheet reads **222 of 248 cipher tokens (89.5%)** as sense: run A 207/223, run B 15/25.
+French LM (`fr-1600-letters`) on the run A reading -1.72 per char; `best_language` French. Tomokiyo's own anchor
+(a Japanese comment in the page source: "17(de)9(na)70(tu)26(re) 17(de)32(fi)ω(a)q*(n)n(s)", with 304 = pour at the
+start) is the last group of run A and the first figure of run A here.
+
+Run A: "pour le fait du [prince de Conty], qui desire de ritirer, mais il ne sait a qui le confier, estant la
+personne qui luy est de plus d'importance. Madame d'Angoulesme est a[...] du tout a la maison de [Messieurs de
+Montmorency], et le principal appuy qu'il ait, soit des catholiques, soit de ceux de la religion, soit de ceste
+maison, *qui s'acorderoit fort bien pour cela*, s'il y avoit quelque remuement. Vola pourquoy il desire faire
+election d'ung fidelle serviteur et tabour le [lieu?], ou il le pourra mettre, *et point*, l'oter, instruire, gagner
+monsieur de la Trimouille, pour ne donner aucung soubs son[...] a ceux de la religion, *estans tous* de nature
+defians." (italics = clear words inside the run). Run B: "... qu'il y a [?] du Pape pour atanter a la personne du
+[Cardinal de Bourbon], et disent avoir les lettres ...".
+
+Key changes: the full word list (160 desire, 183 estre, 200̄ plus, 243 importance, 245 instruire, 300 personne,
+309 quoy, 327 serviteur, 340 tabour, ...). 183 *estre* + n t stands for *estant* (grade I). Four name signs that are not
+on the f. 103r panel as checked, taken from the gloss (grade C): prince de Conty (R crossed with X), Messieurs de
+Montmorency, Cardinal de Bourbon, and the B4 sign (gloss "duc de Lorraine", not read). Writer's slips forced by
+context and gloss: 8 *2* 22 for madame (3), *44* for 40 in princi-, *334* for 335 soit, *22* for 32 in fidelle, 57
+without its bar for vo, 29̄ for vo in avoit. The scroll sign is b in soub[s] and u in ou: the writer's xi and Vs are not
+separable on this page. Key and office differ at A8 (*a ceux*, office *a cause*), A6 (e-le-o-c-ti-o-n, office
+*election*) and A7 (ga-g-ne-t, office *gagner*).
+
+Failed or open here: the word after "est" in A3 (`lam ? plus plus`, gloss "a m..."); `340 20 34 ye plus` (key "tabour
+le liet", gloss "tabour le lieu", no sense established); the three middle signs of c...e (ceste) and a sign in
+pa?l (principal), illegible on the microfilm; run B pieces B1 (two signs), B2 `6 lam 344` (key "la a tout", gloss
+"la plus..."), the overbarred 252 (not on the sheet as read), and B4 `28 25 203 NAME` ("te que fait", gloss "pour
+mo[...] du duc de Lorraine").
+
 ## Remaining gaps
 
 - Nos. 24/25/60 code numbers 12, 16, 17, 19, 39, 89, 99 and the plain numbers of no. 24 (22, 51, 84, 44) - blocker: open-codes; no key bound with these letters; the alphabetical two-digit table covers letters only
 - No. 24 two passages, first half of the no. 25 'qu'on dict' passage, the name in no. 60 ('de la V?an') - blocker: open-codes; values fall outside the anchored slots of the alphabetical table (30-39, 48, 92-99 uncertain); no gloss over them
 - No. 78 (f. 111r), one group of about six mixed signs - blocker: too-short; a single group, probably a name, in a different mixed code
+- Fr. 3985 f. 58 run A, 16 tokens: two signs in s..t (sait), the sign in pa?l, the three middle signs of c...e (ceste), one sign in monsieur, one in de l?a, the word `lam ? plus plus` after "est" - blocker: illegible; single signs too cursive or blotted to decide on the microfilm canvas (4719 px); no colour scan online
+- Fr. 3985 f. 58 run A `340 20 34 ye plus` (key "tabour le liet", gloss "tabour le lieu") - blocker: open-codes; the key values are certain on the sheet but give no established sense; the office gloss does not resolve it
+- Fr. 3985 f. 58 run B, 10 tokens: B1 two signs, B2 `6 lam 344`, the overbarred 252 in B3, B4 `28 25 203` + a name sign - blocker: open-codes; overbarred 252 and the B4 name sign are not on the key sheet as read (names panel f. 103v lists no such sign as checked); the key values of B2/B4 give no sense
 
 ## Escalation
 
@@ -281,4 +330,8 @@ header rows match the alphabet in `check_3625_10.py` letter for letter, which sh
 - [x] known-keys: Nevers keys of fr. 3995 (Tomokiyo nevers.htm) reviewed; no. 46 tested against the two-digit table and does not fit; no. 57 (La Verrière, Feb 1593) reads no. 55 in full (29 Sept 2026, issue 13); no. 57 tried on no. 78's group '96 □ 3 9̄ f 3' (ch ? da [Dauphiné] o da): no sense, a different code
 - [x] print: Tomokiyo nevers.htm and GL.htm, Memoires de Nevers index: no printed decipherment
 - [x] key-rebuild: no. 55 superseded by key no. 57 (the writer's own sheet); nos. 24/25/60 table bracketed by alphabetical order, the anchored slots filled; the unanchored code numbers have no gloss to fit
+- [x] siblings (2 Oct 2026): fr. 3985 f. 58, the letter Tomokiyo names for key no. 57, located (canvas 114) and deciphered with the key (89.5%); its verso is the address only; neighbouring canvases 112-120 looked over (f. 56 and f. 59 are other 12 Aug letters in clear)
+- [x] known-keys (2 Oct 2026): the whole word list of key no. 57 read off f. 103r (`fr3985_f58/words57.tsv`) to try every word number on f. 58; overbarred 252 and two name signs remain off the sheet as read
+- [x] clear-pages (2 Oct 2026): the office's interlinear decipherment on f. 58 used to check run A word for word and to name four name signs; it does not resolve the B2/B4 groups
+- [x] print (2 Oct 2026): Tomokiyo's nevers.htm gives no reading of f. 58 beyond his anchor phrase "de nature defians" and 304 = pour; Mémoires de Nevers ii is not online (targets/nevers1593/NOTES.md), so a printed text of f. 58 could not be checked
 - [x] retry: the no. 10 table (12 entries) was applied to all 86 groups of no. 55 in the third pass (19 read); key no. 57 then read all 86 (29 Sept) and every run of no. 10, the unglossed one included (PR 15, 30 Sept)

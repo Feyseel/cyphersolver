@@ -1,0 +1,46 @@
+# fr. 3985 f. 58r (Gallica btv1b90606498 canvas 114), La Verriere to Nevers, Poissy, 12 Aug 1593. Cipher runs.
+# Transcribed 2 Oct 2026 from the full-resolution canvas, deskewed by 2.9 degrees (c114_deskew.jpg), at 1.6-2.2x crops.
+# The office's interlinear decipherment stands ABOVE each cipher line (lighter ink, sometimes dark); G lines give it
+# as read here (spelling of the gloss, unsure letters in []).
+# Sign names as in ../check_3625_10.py: lam/om a, del/xi b, mu/rhoC c, Dh/Dgrid d, ye/Ep e, Fb/piF f, varpi/Gs g,
+# Hq/c h, zig/yi i, beta/eps l, xm/Mh m, onplus/venus n, f/sigma o, caret/four p, chi/tbar q, mcross/ddag r,
+# hash/pi s, tri/plus t, Vs/perp u, theta/inf x, X/o y, a/eng z. NUMBER_ = overbarred. PAPE = XX.
+# NAME:x = a name sign not on the f. 103r panel as checked here; x is what the gloss gives for it.
+# "?" = a sign not decided. {clear: ...} = words Laverriere wrote in clear inside the run.
+# Notes on shapes: the venus sign (n) is written like a 9 / q; the zig sign (i) like a 4 or 5 with a tail;
+# mcross (r) like a barred h; Vs (u) like a xi.
+#
+# RUN A, after clear "... ce qui l'empesche c'est" (page line 11), to "de nature defians" (line 19).
+A1	304 20 203 59 NAME:Conty 39
+G1	po[ur] [le] fait du
+A2	160 ye 17 40 42 40 ddag 8 yi pi 248 23 pi ? ? tri om 39 20 44 venus 32 ye mcross 183 venus tri 6 300 39 262 184 17
+G2	prince de Conty qui desire de ritirer mais il ne sait a qui le confier estant la [per]sonne qui luy est
+A3	200_ Dgrid 243 8 2 22 3 venus 47 perp 20 hash 22 184 lam ? plus plus 59 344 om 6 8 zig 55 venus 17 NAME:Montmorency 185 20 caret 44 venus 30
+G3	le plus d'importance madame d'Angoulesme est a[mie] du tout a la maison de Mrs de Mont[morency] et le prin[ci]
+A4	10 ? eps lam 66 X 39 eps lam o yi 335 17 hash 141 pi 335 17 16 perp theta 17 6 320 334 tri 17 mu ? ? ? ye 8 zig 334
+G4	pal appuy qu'il ait soit des catholiques soit de ceux de la religion soit de ceste maison
+# {clear: qui s'acorderoit fort bien pour cela}
+A5	41 eps X lam v29 sigma yi plus 25 eps 25 26 64 ye 8 venus tri 57 6 304 309
+G5	s'il y avoit quelque remuement vola pourquoy
+A6	248 160 ye 197 Ep 20 sigma mu 42 f venus 59 venus Gs 22 17 eps 20 327 185 340 20 34 ye plus f Vs zig eps 20 52 perp ddag mcross om
+G6	il desire faire election d'ung fidelle serviteur et tabour[er] le lieu? ... ou il le pourra
+A7	22 tri plus ddag ye {et_point} 48 tri ye ddag 245 5 varpi 23 plus 50 venus hash ? ye perp ddag 17 beta om tri 40 50 perp 20 304 venus Ep 159
+G7	mettre a po[int] l'oter instruire gagner mons[ieur] de la Trimoulle pour ne donner
+A8	om perp 58 venus Gs 55 perp xi 334 lam 16 perp inf 17 beta ? 320 {estans_tous} 17 9 70 26 17 32 om venus pi
+G8	aucung soubs soy a cause de la religion ... de nature defians
+#
+# RUN B (page lines 21-23), after clear "... ny eust grand ... je".
+B1	om ? ? PAPE
+G9	aux bas[sadeurs?] du pape
+# {clear: ce tiennent le plus empesche}
+B2	6 lam 344
+G10	la plus? [...]
+# {clear: ... qu'il y a}
+B3	252_ PAPE 304 om 14 venus 28 ddag om beta lam
+G11	des... du pape pour atanter a la
+B4	28 25 203 NAME:B4
+G12	po[ur] mo[...] du d[uc] de Lor[raine] (gloss stands over B4; 303 written and struck before 203)
+# {clear: ... de ces ...}
+B5	300 17 NAME:CardBourbon
+G13	La personne du Cardinal de Bourbon
+# {clear: et disent avoir les lettres, et je ne croys qu'il amenera. Le Roy est alle ce soir ...}

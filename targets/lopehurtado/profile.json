@@ -112,16 +112,16 @@
         "partial": false
       },
       "length": {
-        "tokens": 2,
-        "unit": "code groups",
-        "measured": false,
-        "file": "NOTES.md"
+        "tokens": 214,
+        "unit": "symbols",
+        "measured": true,
+        "file": "r9656_cipher.txt"
       },
       "transcription": {
         "by": "llm from images",
         "source": "DECODE images fetched 2026-09-20",
         "image_quality": "good",
-        "notes": "DECODE records this as Non-decrypted, and it has no clear version or duplicate anywhere. Used as the independent control on the key; only 'el papa' read so far."
+        "notes": "DECODE records this as Non-decrypted, and it has no clear version or duplicate anywhere. Used as the independent control on the key; only 'el papa' read so far. 2026-10-02: token file r9656_cipher.txt built from the 1524-notation tables of read_r9656.md; regraded to 61% read as sense."
       },
       "read": "read in part"
     },
@@ -153,6 +153,128 @@
         "notes": "DECODE calls this Partially decrypted, but the leaf carries NO cipher at all - it is written entirely in the clear and signed Lope Hurtado. The 'partial' status appears to reflect faded show-through at the head of the page. Read complete as read_r9652.md; there is nothing here to decipher."
       },
       "read": "not applicable"
+    },
+    {
+      "id": "R9634",
+      "shelfmark": "RAH, Signatura 9/26, f. 14-16 (DECODE R9634)",
+      "date": "13 Sept 1522",
+      "year": 1522,
+      "country": "Spain",
+      "route": "Genoa -> imperial court",
+      "language": "Spanish",
+      "pages": 6,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "partial": false
+      },
+      "length": {
+        "tokens": 1174,
+        "unit": "symbols",
+        "measured": true,
+        "file": "r9634_tokens.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-20 (img/)",
+        "image_quality": "good",
+        "notes": "First transcribed 2026-10-02, whole cipher of ff. 14r-15v line by line (r9634_cipher.txt; r9634_tokens.txt is the cipher-only derivative that was measured; decode.py counts 1191 because it keeps the '·' marks). Mixed stream of code groups and single letter signs. Dated in the clear on f. 16r 'de Genoba xiij de setiembre 1522'; DECODE has only the month. No clear version in the record, none in CSP Spain ii."
+      },
+      "read": "read in part"
+    },
+    {
+      "id": "R9646",
+      "shelfmark": "RAH, Signatura 9/26, f. 252 (DECODE R9646)",
+      "date": "[Nov 1522]",
+      "year": 1522,
+      "country": "Spain",
+      "route": "Rome -> imperial court",
+      "language": "Spanish",
+      "pages": 2,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "partial": false
+      },
+      "length": {
+        "tokens": 121,
+        "unit": "symbols",
+        "measured": false,
+        "file": "read_r9646.md"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-20 (img/)",
+        "image_quality": "good",
+        "notes": "Five cipher runs in a clear letter; transcription in read_r9646.md (code blocks), counted from those blocks, not measured by _check_profile.py. Top four lines of the image are mirrored show-through from f. 252v."
+      },
+      "read": "read in part"
+    },
+    {
+      "id": "R9649",
+      "shelfmark": "RAH, Signatura 9/26, f. 266-268 (DECODE R9649)",
+      "date": "9 Nov 1522",
+      "year": 1522,
+      "country": "Spain",
+      "route": "Rome -> imperial court",
+      "language": "Spanish",
+      "pages": 6,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "separate folio"
+        ],
+        "source": "contemporary clear version of the whole letter on f. 268r, headed 'Al Rey - De Lope hurtado de ix de noviembre'",
+        "partial": false
+      },
+      "length": {
+        "tokens": 89,
+        "unit": "symbols",
+        "measured": false,
+        "file": "read_r9649.md"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-20 (img/)",
+        "image_quality": "good",
+        "notes": "Three cipher runs in a clear letter; transcription in read_r9649.md, counted from its code blocks. NOTES had listed it as uncribbed and never attempted; it carries its own clear."
+      },
+      "read": "read"
+    },
+    {
+      "id": "R9645",
+      "shelfmark": "RAH, Signatura 9/26, f. 243-244 (DECODE R9645)",
+      "date": "Nov 1522",
+      "year": 1522,
+      "country": "Spain",
+      "route": "Rome -> imperial court",
+      "language": "Spanish",
+      "pages": 4,
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "a second hand's glosses over the cipher at the foot of f. 243v only",
+        "partial": true
+      },
+      "length": {
+        "tokens": 489,
+        "unit": "symbols",
+        "measured": true,
+        "file": "r9645_cipher.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "DECODE images fetched 2026-09-20 (img/)",
+        "image_quality": "good",
+        "notes": "Re-transcribed 2026-10-02 in the R9634 notation (r9645_cipher.txt); glossed lines 13-21 of f. 243v converted from the 2026-09-21 pass. The facing f. 242v is the end of R9644's Claro, not a crib for this letter."
+      },
+      "read": "read in part"
     }
   ],
   "system": {
@@ -474,19 +596,113 @@
       "kind": "sibling key",
       "what": "Applied the 1524 alphabet (targets/lopehurtado1523/key_1524.tsv) back to the 1522 letters by re-reading R9656 f. 334 (uncribbed) off the image in 1524 notation. 'xug ∠84αx7 zar ε&∂ yun ʒ∂' = 'la venida de los franceses' on an exact count, with 1524 values a/e/n/l/i and codes zar, xug, yun unchanged; the phrase recurs on l.1-2 and 'sub ∠α84..' = 'si vien-' is echoed by the clear 'si vienen franceses'. New sign ∠ = v. Shows the 1522 and 1524 alphabets are one; the 1522 'L = i' was a transcription collision.",
       "result": "worked"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "verification",
+      "what": "Checked the NOTES claim that R9634, R9646 and R9649 were never attempted. Out of date for two: read_r9646.md and read_r9649.md already existed from an earlier session that did not update NOTES or the profile. R9649 is not uncribbed either: f. 268r is the clerk's clear of the whole letter. Only R9634 was untouched.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "transcription",
+      "what": "Transcribed the whole cipher of R9634 (ff. 14r-15v, 75 manuscript lines) from the three DECODE openings at 1.5x crops, in the 1524 sign names plus the R9646/R9649 names, appending line by line to r9634_cipher.txt. 1174 symbols measured (r9634_tokens.txt). The date and place (Genoa, 13 Sept 1522) come from the clear close on f. 16r.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "sibling key",
+      "what": "Applied the merged 1524 key (lopehurtado1523/key_merged.tsv), the 1522 code groups and the R9649/R9646 sign values to R9634 with a new letter mode of decode.py. Coverage 77% confirmed, 92% with probable values on the first pass; the function-word spine and the alphabet read unchanged (seiscientos hombres de armas, tomarle esto que estava en su mano, del mundo).",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "reading",
+      "what": "Read R9634 line by line (r9634_reading.tsv). Context forced new values: ɋ = r (tierra x3, 'una tierra fertil' exact), z after a code = plural s (xul z los, xud z hombres, xob z yal z grandes exercitos), yob = ducado ('lxx U yob z' = 70,000 ducats after 'serian menester cada mes'), xep = mar ('los de la xep y los de la tierra'), xu = gente ('la xu darmas'; conflicts the 1524 xu = ha-), zar∂ = des- (destruir). Content: Geronimo Adorno's plan for Charles V and Henry VIII to invade France through Provence, 600 men-at-arms and 70,000 ducats a month, in March, kept secret.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "hypothesis",
+      "what": "Hypothesis that the groups standing right after the run opener Ꮒ are nulls: ʃta, ɡʇo/ɣ̊ʇ/ʑto, ʆ∂, yt, yω. Tested against the one crib that covers such a run (R9649 f. 268: nothing for 'Ꮒ yω ʃta') and against sentence closure in R9634 (14r13, 14v07, 14v14, 14v17, 15r20, 15v07) and R9646 (runs 4 and 5). Holds in every context; ʃta confirmed, the others probable.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "control",
+      "what": "Measured R9634: 842 of 1191 cipher tokens in words read as sense = 71% (f.14r 74%, f.14v 63%, f.15r 77%, f.15v 66%); lm.best_language on the read text returns es-modern first. Valued by the key 80% confirmed / 94% with probable, so about a quarter of tokens carry values but do not form words: spelled words with one sign at the 8/ϑ, ∂ s/p/t or ε l/g limit, and about 45 codes seen once.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "reading",
+      "what": "Retried R9646 at 1.5x: run 4 'o-i-e-se' is 'o-v-i-e-se' = oviese (second sign ∠, not α); 'Ꮒ ʃta' and 'Ꮒ ʑto ɡto' are opener + nulls; 'sed z' = sus with the plural z. Re-counted 121 tokens (not 118) and measured 97 read as sense = 80%. ʙ∠89&Ho, zip, zob, δ8ǝtoo, ʃof and the close ʙ∠47 ɣ?8δHo still fail.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "control",
+      "what": "Measured R9649 against its own clear (f. 268): 89/89 tokens read as sense once yω ʃta are taken as nulls. Probable values inside it: ti, ϭ, ♀, ⅋, ƀ.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "literature search",
+      "what": "Looked for a crib for R9634 and R9646 in CSP Spain ii (Bergenroth): the 2026-09-21 full-text search found no Hurtado letter of Sept-Nov 1522 calendared, so neither has a printed summary; no clear version in either record. Failed as a crib source.",
+      "result": "failed"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "transcription",
+      "what": "Re-transcribed R9645 (f. 243r all 17 lines, f. 243v ll. 1-10) from the DECODE images at 1.5x in the R9634 notation into r9645_cipher.txt; glossed lines 13-21 converted from the 2026-09-21 pass. 489 tokens. Checked the facing f. 242v 'Claro': it is the end of R9644's clear (Ostia fortress), no crib here.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "sibling key",
+      "what": "Applied key_1522_r9634.tsv plus the merged 1524 key to R9645. The unglossed f. 243r now reads as the terms of Adrian VI's capitulation with Ferrara: assiento con el duque de Ferrara (m̶8ɋ7ɣ̊Ho), tres condiciones, del feudo que el papa Alexandro, cient hombres de armas, confederarse si no con su Sd e con V. Mt., recoger deservidores. Valued 84% confirmed / 98% with probable.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "verification",
+      "what": "Tested the null-after-Ꮒ hypothesis on R9645's contemporary glosses: the glossator writes nothing for 'Ꮒ ɣto' before yi = dize, nor for 'Ꮒ ɣto ʃta' between 'la gente de v. mgd' and 'no'. ɣto upgraded to confirmed; the earlier guess 'hasta agora' for this run is withdrawn. The gloss 'al duque de Albania' sits over yib (duque), resolving the old yub = duque conflict as a misread; 'la gente' over 'xup xu' confirms xu = gente.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "control",
+      "what": "Measured R9645: 358 of 489 tokens read as sense = 73% (f. 243r 70%, f. 243v 77%), against 57% confirmed coverage / about 47% read on 2026-09-21.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "control",
+      "what": "Regraded R9656 with the null openers (∂6 ʃta, three places) and the R9634 values, on a token file built from its 2026-09-21 1524-notation transcription (not re-read from the image): 131 of 214 = 61% read as sense, against about 47%. Lines 13-18 still fail on spelled words.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-02",
+      "kind": "reading",
+      "what": "Retried every unread group of R9634 against the extended key (R9645 and R9656 values). Only two gains: xug xu = la gente in 14v23, and yɩ ɣ̊ = yiL + r = hazer (probable, from R9645 'no puede yiL') in 15r20. 846 of 1191 = 71%. The other unread groups (about 45 codes) occur once and do not recur with a crib in any sibling; ze, yel, ʃun, ʃud stay open.",
+      "result": "failed"
     }
   ],
   "outcome": {
     "method": "key recovered based on adjacent plaintext",
     "method_basis": "The key was rebuilt by aligning the cipher of R9644 (ff. 238-239) with the clerk's full contemporary clear version bound in the same record (ff. 241-242, 'Claro', keyed by marginal letters A-C), then with the second clear version in R9650 (f. 272); the 1524 alphabet from lopehurtado1523 (itself rebuilt here) was applied back only as a later check.",
-    "contribution": ["transcription", "key recovered", "catalogue correction"],
+    "contribution": [
+      "transcription",
+      "key recovered",
+      "catalogue correction"
+    ],
     "class": "read in part",
     "fraction_read": 0.45,
     "verification": [
       "contemporary decipherment",
       "key confirms"
     ],
-    "notes": "Unpublished cipher, opened 2026-09-20. TWO records carry the clerk's own full contemporary clear version - R9644 (ff. 241-242, in lettered sections keyed to the cipher) and R9650 (f. 272) - and R9648 is R9644's duplicate. R9652 carries no cipher at all - DECODE's 'partially decrypted' is wrong, the leaf is entirely in the clear - and is read complete too. Those four letters are therefore READ COMPLETE as to content (read_r9644.md, read_r9650.md): the Pope Adrian VI temporising between Charles V and Francis I, the French resolved to come into Italy with a great sum of money to Lyon, Hieronymo Adorno's intercepted letters, the Pope's parsimony and his unpaid household, the peace track through the archbishop of Bari. The CIPHER is read in part: 47 CODE values fixed against that plaintext and 29 probable (the 10 substitution-alphabet signs were downgraded to probable on 20 Sept after an 8x zoom showed signs that must be different letters looking near-identical at the zoom they were read at; the code groups, being plain latin trigrams that cross-check, are unaffected), kept apart in a confidence column and audited for conflicts. The key reads outside its own evidence - two thirds of tokens on sight in R9648 and R9650, and 'el papa' unaided in R9656, which has no clear version and no duplicate. Open: the five records with no clear version (R9634, R9645, R9646, R9649, R9656), and a word-perfect edition of any ciphered leaf, which needs the substitution alphabet - all ten alphabet signs probable after the 8x zoom on perdido, the rest limited by per-glyph discrimination on these scans.",
+    "notes": "Unpublished cipher, opened 2026-09-20. TWO records carry the clerk's own full contemporary clear version - R9644 (ff. 241-242, in lettered sections keyed to the cipher) and R9650 (f. 272) - and R9648 is R9644's duplicate. R9652 carries no cipher at all - DECODE's 'partially decrypted' is wrong, the leaf is entirely in the clear - and is read complete too. Those four letters are therefore READ COMPLETE as to content (read_r9644.md, read_r9650.md): the Pope Adrian VI temporising between Charles V and Francis I, the French resolved to come into Italy with a great sum of money to Lyon, Hieronymo Adorno's intercepted letters, the Pope's parsimony and his unpaid household, the peace track through the archbishop of Bari. The CIPHER is read in part: 47 CODE values fixed against that plaintext and 29 probable (the 10 substitution-alphabet signs were downgraded to probable on 20 Sept after an 8x zoom showed signs that must be different letters looking near-identical at the zoom they were read at; the code groups, being plain latin trigrams that cross-check, are unaffected), kept apart in a confidence column and audited for conflicts. The key reads outside its own evidence - two thirds of tokens on sight in R9648 and R9650, and 'el papa' unaided in R9656, which has no clear version and no duplicate. Open: the five records with no clear version (R9634, R9645, R9646, R9649, R9656), and a word-perfect edition of any ciphered leaf, which needs the substitution alphabet - all ten alphabet signs probable after the 8x zoom on perdido, the rest limited by per-glyph discrimination on these scans. 2026-10-02: R9634 (Genoa, 13 Sept 1522, Adorno's Provence plan) transcribed and read in part, 71% of tokens measured; R9646 80%; R9649 read in full from its own clear f. 268 (it had been listed as uncribbed). New: ɋ = r, plural z after codes, yob ducado, xu gente, nulls after the opener Ꮒ (ʃta confirmed). Retry 2026-10-02: R9645 73% (re-transcribed, f. 243r = Ferrara capitulation terms), R9656 61% (regraded), R9634 71%; ɣto null and xu = gente confirmed on R9645's glosses.",
     "gaps": [
       {
         "item": "R9645 (57% tokens) and R9656 (42% tokens), the content words",

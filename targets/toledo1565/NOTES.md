@@ -112,6 +112,8 @@ Searching *carta cifrada Toledo* limited to 1565 returns exactly one García de 
 - `decode.py` — prints the decode with figure runs in angle brackets.
 - `render.py` → `reading_raw.md` — the running text with decoded runs in italics.
 - `reading.md` — the edited reading, with word division and an English summary.
+- `img/249_p1.jpg` … `249_p4.jpg`, `transcription_249.txt`, `figures_249.txt` (cipher tokens only, for
+  `_check_profile.py --measure`), `read_249.md` — the companion letter no. 249. `python decode.py transcription_249.txt`.
 
 ## Reproducing
 
@@ -127,5 +129,38 @@ of figures in clear Spanish. The figures decode with this key: *Sauiendo le entr
 los* (navios) · *Cabo Bono* · *Argel* · *las galeras … con la gente a la Goleta* · *a mal tiempo* · *(r)espuesta
 del Maestre* · *forma de ponelle mas gente* · *falta* · *pide mas de la que yo agora le puedo dar* · *partiran las
 galeras mañana* (ñ = *nn*). New sign: a barred θ for *ll* (in *llegada*, *ponelle*); the *r* of *respuesta* is
-written as an M-like sign. Not transcribed in full. No. 248 (same day, to Eraso) is in clear on its first page.
+written as an M-like sign. No. 248 (same day, to Eraso) is in clear on its first page.
 Estado leg. 1395 not checked.
+
+**Read in full 2 Oct 2026** (`read_249.md`, `transcription_249.txt`, `figures_249.txt`, images `img/249_p1..p4.jpg`).
+Image 1 is the letter; 2 is the blank verso, 3 a blank leaf, 4 the address leaf (*En manos del señor Fran.co de
+Erasso*). 25 runs, 150 cipher tokens (147 figures, 2 θ = *ll*, 1 overlined M-like sign = *r*), every token read:
+150/150 = 100 %, `es-golden-age` −1.67 per char on the word-divided decrypt against −5.89 shuffled. The key is
+no. 247's unchanged; `decode.py` now takes `θ` and `μ` in a run (its no. 247 output is byte-identical). Content: a
+covering note written as the courier was embarking — La Valette's latest letters are worse than expected even with
+the relief *entrado*; the bearer heard an artillery salute from the Turkish fleet, probably *la llegada de los*
+ships sighted off *Cabo Bono*, i.e. those of *Argel*; had he sent *las galeras con la gente a la Goleta* they would
+have arrived *a mal tienpo*; he held them waiting for the *respuesta del Maestre* on whether there was *forma de
+ponelle mas gente por* land, but La Valette *pide mas de la que yo agora le puedo dar*, so the galleys *partiran
+mañana*. Signed autograph *criado y vasallo de V. M. … don Garcia de Toledo*.
+
+## Remaining gaps
+
+Both letters are read; nothing below blocks the reading. Each gap names its blocker.
+
+- **No. 247, `yaretas` and `secanos`** — figures certain; word sense only. Blocker: lexical, needs a 16th-c. naval
+  glossary or a parallel text, not more cipher work.
+- **No. 249, group `17·0` in *entrado*** — read 17 30. Blocker: image resolution; PARES zoom 10 (~975×1385 px) is the
+  largest image served, and the mark between 7 and 0 cannot be resolved at it.
+- **No. 249, the overlined M-like sign (one occurrence, read *r*)** and **the barred θ = *ll*** — neither occurs in
+  no. 247. Blocker: no second text in this key and no key sheet found; Estado leg. 1395 siblings not yet searched
+  (PARES cannot list a legajo, only find records by text or whole shelfmark).
+- **The non-duplicate originals of 247/249 and the Mdina governor's enclosure** — not found in PARES by text search.
+  Blocker: archive search; may need the AGS inventory of Estado leg. 1394 or a request to Simancas.
+
+## Escalation
+
+- Siblings: no. 249 found and read with the key unchanged (2 Oct 2026); no. 248 checked, in clear on its first page.
+- Clear pages / print: none of 247/249 carries a decipherment; no edition found (searched 2026-09-18).
+- Retry: the doubtful 249 group re-examined at 5× (2 Oct 2026); the M-like sign tested as *re* and rejected.
+- Next: PARES text searches for García de Toledo / Malta / 1565 in Estado leg. 1395 to find more letters in this key.

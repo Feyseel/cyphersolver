@@ -4,7 +4,8 @@ Catalogue entry "Unknown sender to Louis Gonzaga, duke of Nevers", DECODE R3705 
 1 p., graphic signs). Session of 22 September 2026.
 
 Status: read. All 19 cipher runs of the letter read (350 of 353 plaintext letters, measured from `reading.tsv`);
-two items tentative (the name in R01, one word in R18).
+two items tentative (the name in R01, one word in R18). **f. 131 (4 June 1588) read in full 2 Oct 2026**: 130/130
+signs read by the key, all 8 runs matching the interlinear decipherment of the time (`f131/reading.md`).
 
 ## The document
 
@@ -38,7 +39,7 @@ in this session (Gomberville's *Mémoires de Nevers* not searched for this lette
   variants, unigram penalty) collapsed to e/n/t strings. Too little text for a transcription this noisy.
 * **The same informant wrote ff. 131 (4 June 1588) and 133 (6 June 1588)** of the volume, same hand, same
   cipher, same monogram. **f. 131 (canvas 221) carries interlinear decipherments** of its runs: "quelques mutins
-  d'entr'eux", "conte de Brissac", "que s'il pouvoit", "Roy", and the code numbers 24 = Nevers (gloss "nevers"; first misread as Navarre), 11 = le Roy.
+  d'entr'eux", "conte de Brissac", "que s'il perissoit" (first read here as "pouvoit"; corrected 2 Oct), "Roy", and the code numbers 24 = Nevers (gloss "nevers"; first misread as Navarre), 11 = le Roy.
   Aligning "7 i7 id i2 t 6 s 8 g p i3 f 2 X" = "c o n t e d e b r i s s a c" showed the unit: **a sign is one
   character, or "1" (a dotted i-like figure) plus a character.** The first gloss confirmed m=19, u=d, t=12, i=p,
   n=l, s=f.
@@ -72,28 +73,46 @@ The runs in their clear context (`reading.tsv`):
 > **remueroit tant de messages(?) en ce royaume** que led. 11 en auroit **la plus petite part**. Voila tout ce
 > que j'ay peu scavoir de nouveau.
 
-Code numbers, from f. 131's glosses and this context: 11 = le Roy (glossed), 24 = the duc de Nevers (glossed "nevers" on f. 131; first misread as Navarre, corrected from ff. 133-134, see `targets/r3708/`),
-102 = Paris (context), 9 = the duc de Guise (context: threatens the King's council, commands 40 000 men),
+Code numbers, from f. 131's glosses and this context: 9 = the duc de Guise (glossed "guis[e]" on f. 131, 2 Oct), 11 = le Roy (glossed), 24 = the duc de Nevers (glossed "nevers" on f. 131; first misread as Navarre, corrected from ff. 133-134, see `targets/r3708/`),
+102 = Paris (context), 9 = Guise also fits here (threatens the King's council, commands 40 000 men),
 12 = probably the Queen Mother; 10, 20, 28, 49, 70 not identified (20 is a count, "20 des plus belles villes").
 
 This is the Paris news of late April 1588, a fortnight before the Day of the Barricades: Henri III tempted to
 have five or six League leaders of Paris drowned, talked out of it by Villeroy and (probably) Catherine, and
 Guise's threat in reply.
 
+## f. 131: the letter of 4 June 1588 (read 2 Oct 2026)
+
+Folder `f131/`: `transcription.md` (whole page), `ciphertext.txt`, `reading.tsv`, `decode.py`, `reading.md`. One
+page (canvas 222 = f. 132, blank). 8 runs, 130 signs; `decode.py` aligns each reading with the key of ff. 62/133/139
+and finds no sign outside its candidates once three values are added. Every run and every code number (9 Guise,
+10 Espernon, 11 le Roy, 24 Nevers, 72 Savoie, 73 ambassadeur) carries a gloss of the time, and all agree. Content:
+the Hôtel de Ville assembly of 3 June moving to an apology to the King; rumours that Brissac was killed and Elbeuf
+held the fort Sainte-Catherine at Rouen; Meulan invested by Biron and Aumont; Corbeil surrounded by Guise; Épernon
+at Loches, saying "que s'il perissoit il vouloit que tout le Royaume perist avec luy"; postscript: Savoy arming to
+take the marquisate of Saluzzo (done October 1588). Measured: 130/130 signs, 33/33 words as French, LM -1.56/char.
+
+Key changes from f. 131 (`key.md`): a bare 1 = i; the old two-character signs "1n" and "1e" are bare 1 + n (l) and
+1 + e (t), which also fits f. 62 "failly", "avoit", "remueroit" without changing those readings; b-like sign = y
+(once, "Roy", glossed); h and 1s carry "qu"; codes 9, 72, 73 glossed.
+
 ## Remaining gaps
 
 - R01 name: letters read (f-o-u-g/j-e-r-e-s), the person not identified. Blocker: none from outside;
   identification is a history question, not a cipher gap.
 - R18 one word "mes?a?es": read as "messages" if the unique sign 1r = g. Blocker: too-short (the sign occurs once).
-- Code numbers 28, 49, 70 (and 12, 9 by context only): open-codes (10 = Épernon, glossed on f. 139, see `targets/r3708/`); the informant's number list is not in
-  fr. 3995 as far as checked, and f. 131/133 gloss only 11 and 24.
+- f. 131: no cipher gap (130/130 signs, 8/8 code numbers glossed). The b-like sign = y rests on one occurrence
+  (glossed). Blocker: too-short.
+- Code numbers 28, 49, 70 (and 12 by context only): open-codes (10 = Épernon, glossed on f. 139, see `targets/r3708/`); the informant's number list is not in
+  fr. 3995 as far as checked; f. 131 glosses 9, 10, 11, 24, 72, 73, f. 139 adds 10, 38, 98, 107, none of these.
 
 ## Escalation
 
-- siblings: done — ff. 131 and 133 (same hand, same key) give the key; f. 131's glosses are the crib. f. 139
+- siblings: done — f. 131 transcribed and read in full 2 Oct 2026 (`f131/`), its code glosses add 9, 72, 73; ff. 131 and 133 (same hand, same key) give the key; f. 131's glosses are the crib. f. 139
   (9 June, "chiffrée avec déchiffrement") was checked in the r3708 work: its glosses give codes 10 (Épernon), 38, 98 and 107.
 - clear pages: done — the letter's own clear text supplies the context for every run.
 - known keys: done — Tomokiyo nos. 10, 11, 16, 18 and the c. 45 alphabet tried and rejected.
 - print: not done — Gomberville's *Mémoires de Nevers* (1665) may print this letter; not searched.
 - key rebuild: done — `key.md`.
-- retry: done — second zoomed pass corrected z→2, curly d→8, g→9 misreadings.
+- retry: done — second zoomed pass corrected z→2, curly d→8, g→9 misreadings. f. 131 at native resolution
+  corrected the segmentation (bare 1 = i) and the G04 gloss ("perissoit", not "pouvoit").

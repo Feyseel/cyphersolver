@@ -78,3 +78,32 @@ yi dize; ter Rey de Inglaterra; 3ul/zul con; yer dezir; xulʒ los; ℔℔ʃop74 
 
 ## What stays unread and why
 f.243r has no glosses, and neither do the upper f.243v cipher runs. Their code groups decode, but the letter runs between them do not form words at this resolution. The top of f.243r, under the show-through, is illegible. A larger RAH image of ff. 243r-v is needed.
+
+## Third pass, 2026-10-02: re-transcribed in the R9634 notation and regraded
+
+Files: `r9645_cipher.txt` (all cipher lines of f. 243r and 243v; the glossed lines 13-21 converted from the second
+pass), `r9645_reading.tsv` (line-by-line reading with unread counts), `python decode.py --letter r9645`.
+
+**Measured: 358 of 489 tokens read as sense = 73%** (f. 243r 180/258, f. 243v 178/231). Valued by the key: 84%
+confirmed, 98% with probable. The 2026-09-21 figures (57% confirmed coverage; about 47% read) are superseded.
+
+What changed:
+- **`ƀʏro ʃta` is the opener `Ꮒ` + nulls `ɣto ʃta`**, not *hasta agora*: the glossator writes nothing for it in two places
+  (*dize que el* over `Ꮒ ɣto yi`; *la gente de v. mgd no* over `rab Ꮒ ɣto ʃta tu`).
+- **The yub = 'duque' conflict is resolved**: the group in *al duque de Albania* is `yib` (duque), as in R9646.
+- **f. 243r reads now** (no glosses there): *[despues que partio la posta me dixo su S.] que avia [..] assiento con el
+  duque de Ferrara y tres condiciones de la capitula[cion]: [los dineros] del feudo que el papa Alexandro [..]; el duque
+  [fuese obligado a servir a la yglesia con cient hombres de armas ...]; y que con [..] ni [..] pudiese confederarse
+  si no con su Sd e con V. Mt.; que no pudiese en su estado recoger [..] deservidor[es] [..] ni de V. Mt.* — the terms of
+  Adrian VI's capitulation with Alfonso d'Este, which R9646 announces as signed. Then *que ~quisieren, pero que no
+  ~vienen [ze ..]*, *que [ze] no puede ~hazer*.
+- **f. 243v upper**: *y que el duque con [..] gente despedido [el capitan ...] ~tratan mal sus [ʃen z] [en los asientos]*;
+  *por que ~hara lo que V. Mt. pide*; *al papa ... a su Sd que no piense que criado de V. Mt. ha de tener [tal
+  atrevimiento]; esta su Santidad [..] que todo ...*.
+- Values: `m̶8ɋ7ɣ̊Ho` = Ferrara (m̶ f, ɋ r), `#8∠x∂` feudo, `zil #8xooɣ̊7ʇʇ` confederar, `ϙ8ɣ&ε8ʇʇ` recoger (ε = g),
+  `ɣʇʇα7x&` criado, `⊃α84ʃu` piense, `xup xu` = la gente (xu = gente confirmed), `yeɣ̊` dezir, `ʃe` Santidad (probable),
+  `ɲ` = q (probable), `yiL` = hazer (probable). In `key_1522_r9634.tsv`.
+
+Still unread: `ze` (3x), `tec`, `xiɣ̊7 #ʇʇHoε97` (r14), `∂&ε8m`, `ɣß∂7`, `zωα7` (r05), `ɣωɭb8`, `⊃84&ɣ̊α7` (r08),
+`ɣ7∠8ϑ8ɋHo` (v01), `xod yzα`, `x8∂ α#ɣ̊8ϑα` (v07), `ϑωε7ϙ` (v10), `ʃen` and the r17 tail. No crib for f. 243r or
+upper f. 243v; codes seen once (no-key-material) and spelled words with one sign at the scan's limit (illegible).

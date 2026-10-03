@@ -311,3 +311,47 @@ decipherment (Goicoechea's 19th-c. reading, cited by Bergenroth, is not bound wi
 | ruc | a verb root, not a person | "ha-n ruc-do" (corrects pass 12/14) |
 | tentative | sat = ten (intencion), kim = manda-, Jam = llam- | |
 Readings: targets/sessa1523/reading_r9660.txt, reading_r9665.txt.
+
+## Pass 16 (2 Oct 2026: R9873 14 Apr 1524 and R9898 24 Feb 1525 transcribed in full; r9873_cipher.txt, r9898_cipher.txt; apply_pass16.py)
+Cribs: R9898 is NOT without decipherment (corrects pass 12): six cipher runs carry a contemporary marginal
+decipherment in a second hand (ff. 150r, 152r, 153v, 154r, 154v x3, 156r). R9873 is calendared from Goicoechea's
+reading and the triplicate (CSP Spain ii 636-638, csp/csp2_636_638.txt), which gives its order of topics.
+| cipher | clear | evidence |
+|---|---|---|
+| **ruc / rus** | **dicho** | "el ruc datario" (R9898 f.151r), "del ruc duque" (R9873 f.81r), "los ruc-s quatro mill ducados" (R9873 f.82r: the 4,000 of CSP 636), "lo ha ruc a Micer Agostino" (R9898 f.153r), "el ruc dinero"; with `rad` = dicha (pass 10) a masc./fem. pair. So f.128 *de lo suso[ruc]* = *de lo susodicho*. Resolves the pass-14 residue |
+| **hay** | **aunque** (tentative) | "hay juzgan que mas ... tiempo tan dispuesto" (R9873 f.86r), "Su Sd. se determinara, hay siempre le he conocido inclinado a abaxar a franceses", "hay con la ymposibilidad encubre lo que quiere" (f.82r); f.128 "de lo susodicho, aunque no, me parece que concuerda" |
+| **v em** | **cierto** | R9898 f.154v margin "y cierto si mi obligacion no me forçara" = `ꝑ v em cob li Jac ttt boz Ɉ ler le oo 4 ꝍ ttt α ꝍ α`; "V.Md. se a-v em que" = sea cierto que (x3) |
+| **li** | **mi** | same crib (*si mi obligacion*); "ni li-r-a-n-do" = ni mirando; `li ttt g ꝍ α # Jim ott 3 Ɉ oo 4 ꝑ x ott α` = **Micer Agostino Foyeta** (Foglietta, CSP 642 "Folleta"; R9873 f.82r, R9898 ff.153r, 154r) |
+| **Jac** | **obliga-** | ibid. |
+| **le** | **me** | "le lex ꝑo nf ꝍ x ttt boz" = me-no-s-p-r-e-c-io (R9898 f.156r margin "es en su menosprecio"); "no le forçara" = no me forçara; "duele me" |
+| **net** | **halla** | R9898 f.154v margin "dueleme grandemente hallarme" = `nuh kaz net ꝍ le`; R9873 "yo he net-do ... mill ducados a cambio", "no net grand aliento" (corrects the R9660 guess *toma*) |
+| **nuh** | **grande** | ibid. (`noh` grand, `nub` gran) |
+| **kch** | **mal** | "la kch-i-ssi-m-a providencia" = malissima (margin) |
+| **cap** | **tem-** | "cap que su-c-e-da" = temo que suceda (margin) |
+| **lec** | **-mos** | R9898 f.152r margin "sabiendo que las entendemos y conocemos ... por conjeturas sabemos" = `dug qid ram gap mus ꝑo qid ott qid sof lec ꝑ ttt 4 ler ttt g lec ... doh lec`; f.154v "que tenemos" = `gap ott g do x lec` |
+| **dug** | **sabi-** | ibid. (confirms pass-1 *sabia*) |
+| **doh** | **sabe-** | ibid. |
+| **yol** | **aqui** | R9898 f.152r margin "que aqui ninguna cosa nos comunican" = `yol lip α tas ler ꝑo ttt 4 v Ɉ lep ttt α do`; "apartarle de yol" |
+| **sud** | **datario** | R9898 f.154r margin "el datario ha tentado de reduzir al duque a franceses" = `qib sud njn ott qid ott α ram sof x g ꝑ Ɉ bla 3an kun α pnz qes` |
+| **pand / Jur** | **buena / parte** | ibid. "se de buena parte" |
+| **kun** | **duque** (of Ferrara?) | ibid. (`yim` = duque in 1523: homophone) |
+| **cuq** | **tengo** | "yo cuq por averiguado", "lo que ya cuq dicho", "lo que cuq para mostrar" |
+| **tig** | **contra** | "si del todo fuera tig-r-io o neutral" = contrario; "por tig-r-io"; "se convierta tig su" |
+| **gat** | **esto** | "y con gat", "gat-n-c-es" = estonces (x3), "gat-s sus sobrinos" (confirms pass 11) |
+| **yod / quf** | **amigo / enemigo** | "con-se-r-v-e ... con los yod-tt que con los quf-s" (CSP 636 "preserve his friends ... intimidate his enemies") |
+| **kuc** | **liga** | "de-c-l-a-r-a-r-se en kuc de-f-en-si-va ni o-f-en-si-va" |
+| **fed** | **rey de Francia** | "el fed embiasse una persona ... debaxo de alguna onesta color" (CSP 636 "if the King of France would send an ambassador ... under some honest colour"); "el fed la pension al de Inglaterra que le solia dar" (CSP "pay him the wonted pensions") |
+| **xir** | **cardenal** | "al xir de C-o-r-t-o-n-a"; "el xir ultimamente" = the Cardinal of England (CSP 636) |
+| **lot** | **nuncio** | "su lot ha scrito" (CSP "letters from the Papal nuncio in England") |
+| **pof** | **exercito** | "sobre el deshazerse el pof" (CSP "breaking up of his army"); "sostenimiento del pof" |
+| **cex** | **trata-** (tentative) | "ha cex-do de la dicha tregua", "y cex la tregua", "si no cex-n liga" |
+| **ges** | **embaxador** (tentative) | "el dicho ges ha respondido", "con el ges de Inglaterra", "al ges" |
+| **lin** | **necesidad** (tentative) | "en la lin que estava el visorrey para el sostenimiento del exercito", "lin del dinero", "la grandisima lin" |
+| **bun** | **visorrey** (tentative) | ibid.; "al bun ... escrivi" |
+| **kin / qus / guf / vih / lef** | **manda / este / puede / cerca / parece-** | "lo que V.Md. kin que en qus articulo", "lo que adelante guf suceder", "los que estan vih de Su Sd.", "por no lef-r" |
+| **Jus / sus** | **pasa-** | "en lo Jus-do", "ha sus-do el limite" |
+| **him** | **poco** (= `hin`) | "ni tan him" |
+| **hoz** | **dich- / dix-** (tentative) | "ha me hoz-do Su Sd. que", "por esto le hoz-o" |
+| **nah** | **govierno** (tentative) | R9898 f.150r margin "el govierno de aqui adelante"; R9873 "assistir al nah de" Florence |
+Still open (single contexts, listed in read_r9873.md / read_r9898.md): about 120 groups in R9873 and 140 in R9898,
+most attested once (`xoc`, `qat`, `var`, `cas`, `bup`, `kal`, `pam`, `sur` the commonest).

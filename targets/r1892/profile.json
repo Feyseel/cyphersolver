@@ -7,10 +7,10 @@
    "id": "R1892 p1",
    "read": "read",
    "shelfmark": "Koninklijk Huisarchief, The Hague, Prins Willem V, inv. 339; DECODE R1892",
-   "date": "unknown",
+   "date": "1795-11/1795-12",
    "year": 1795,
    "country": "Germany",
-   "route": "a son of William V -> an officer of the Orange émigré troops",
+   "route": "Prince Frederick of Orange (England) -> an officer of the Orange émigré rassemblement",
    "language": "French",
    "cleartext_in_document": "none",
    "plaintext": {
@@ -37,10 +37,10 @@
    "id": "R1892 p2",
    "read": "read in part",
    "shelfmark": "Koninklijk Huisarchief, The Hague, Prins Willem V, inv. 339; DECODE R1892",
-   "date": "unknown",
+   "date": "1795-11/1795-12",
    "year": 1795,
    "country": "Germany",
-   "route": "a son of William V -> an officer of the Orange émigré troops",
+   "route": "Prince Frederick of Orange (England) -> an officer of the Orange émigré rassemblement",
    "language": "Dutch",
    "cleartext_in_document": "interspersed",
    "plaintext": {
@@ -104,14 +104,16 @@
   "tools": [
    "DECODE filesrv download",
    "PIL rotation and strips",
-   "quadgram simulated annealing (python)"
+   "quadgram simulated annealing (python)",
+   "Huygens retroboeken full-text search (Gedenkstukken)",
+   "lang/ fr-1750-nospace and nl-modern sense measure"
   ],
   "models": [
    "claude-opus-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-21",
-  "last_date": "2026-09-21"
+  "last_date": "2026-10-02"
  },
  "solution": [
   {
@@ -173,6 +175,36 @@
    "kind": "literature search",
    "what": "Lasry review (email 25 Sept 2026): Lasry wrote that he had independently solved it in 2021 but never published it; kept in the ciphertext-only list with that note.",
    "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "sibling key",
+   "what": "R2242's word-sign values (page-1 clear text and context) tried at every occurrence of the matching R1892 sign: bar-H = zoo, > = als (alsdan x2), lambda = dat (x3), parallelogram = brief and p1 box = lettre, 8 = zijn (I) adopted.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "R2242 values that do not fit R1892's contexts: phi = Frankrijk, S = moeten, Y-cross = zee, x = weinig, cross = mogelyk, check = zonder; ruled out (different shapes under the same transcriber labels, or other words).",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "f = aan from aan-geboden, aan-geeven, aan-komst (M).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "literature search",
+   "what": "Colenbrander, Gedenkstukken I-II full text searched (Dundas, Osnabrück, rassemblement, Nienburg, Bentinck, gratification) and GS II pp. 886-894 read: R1892 not printed; no. 724 (Prince Frederick at Nienburg, Oct 1795) and nos. 733-734 identify the writer as Prince Frederick in England and date the letter late Nov - early Dec 1795 (before General Dundas's orders of 8 Dec 1795).",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "statistics",
+   "what": "Measured with apply.py --measure and ../r2242/measure_sense.py (fr-1750-nospace p1, nl-modern p2): tokens given a value 95.6% -> 96.5% (1,882/1,951); read as sense 88.5% -> 90.1% (1,757/1,951).",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -181,25 +213,26 @@
   "contribution": [
    "transcription",
    "key recovered",
-   "sender or date identified"
+   "sender or date identified",
+   "key extended or corrected"
   ],
   "class": "read in part",
-  "fraction_read": 0.94,
+  "fraction_read": 0.965,
   "fraction_read_method": "measured",
-  "fraction_read_source": "transcription_p1.txt + transcription_p2.txt with the apply.py key (scratchpad measure_C_orange.py): 1,848 of 1,958 cipher tokens read (digit pairs in the square and the circle-dot DE sign); word signs left as <..>, unmapped pairs and ?? counted unread; <struck>, parentheticals and bracketed clear words excluded. p1 1043/1056, p2 805/902.",
+  "fraction_read_source": "transcription_p1.txt + transcription_p2.txt with apply.py --measure (2 Oct 2026): 1,882 of 1,951 cipher tokens (digit pairs and word signs; <struck>, comment lines, bracketed clear words and parentheticals excluded) given a value. p1 1044/1053, p2 838/898. With the 21 Sept sign values (de, zich, te, ik): 1,865/1,951 = 95.6%.",
   "key": "partial",
   "codes_open": {
-   "tokens_open": 93
+   "tokens_open": 69
   },
   "verification": [
    "historical consistency"
   ],
-  "notes": "1816 of 1829 digit pairs mapped; 27 'de' signs read; ~100 other sign occurrences unread or only probable.",
+  "notes": "All digit pairs map. Read as sense (measure_sense.py; fr-1750-nospace p1, nl-modern p2): 1,757/1,951 = 90.1% (88.5% before the 2 Oct pass). R2242 sign values applied 2 Oct 2026: zoo, als, dat, brief/lettre, zijn adopted, six others ruled out; f = aan found. Writer Prince Frederick, late Nov - early Dec 1795 (Gedenkstukken II nos. 724, 733-734); not printed.",
   "gaps": [
    {
-    "item": "about 20 rare word signs (1-4 occurrences each), plus ⊣H and hook (guessed)",
+    "item": "about 20 rare word signs (1-4 occurrences each), plus ⊣H and hook",
     "blocker": "open-codes",
-    "detail": "context does not fix them; transcriber labels may merge or split shapes"
+    "detail": "retried 2 Oct 2026 with R2242's values (five adopted, six ruled out); the rest occur only here, no key sheet, not in print"
    },
    {
     "item": "page 2 line 24 middle; page 1 line 1",
@@ -207,6 +240,12 @@
     "detail": "photocopy; the two digit rows drift and several pairs are ambiguous"
    }
   ],
-  "first_break": "unpublished prior"
+  "first_break": "unpublished prior",
+  "fraction_coherent": 0.901,
+  "grades": {
+   "H": 3,
+   "M": 10,
+   "I": 1
+  }
  }
 }

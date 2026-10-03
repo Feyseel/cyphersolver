@@ -1,0 +1,67 @@
+code	plain	confidence	source
+# R9634 (Genoa, 13 Sept 1522), in the notation of r9634_cipher.txt. Letter values of this hand; codes added here.
+# "confirmed" = an exact-count word with every other sign already fixed, or two independent contexts.
+7	a	confirmed	1524 key; passim
+ß	a	confirmed	1524 key; 15r19 se avrian, 15r08 acordasen
+Ho	a	confirmed	R9649; 15r04 armas, 15r18 adelante
+8	e	confirmed	1524 key; passim
+H	e	confirmed	R9646; 15v11 tienen
+oo	e	confirmed	R9649; 15r03 menester
+ɣ̊	r	confirmed	R9646/R9649; 15r04 armas, 15r01 ternian
+ʇʇ	r	confirmed	1524 key; 15r01 ternian, 15r19 avrian
+ϑ	t	confirmed	R9649; 15r18 adelante, 15r01 ternian, 15r04 seiscientos
+∠	u/v	confirmed	R9649; 15r19 avrian, 15v01 toviesen
+α	i	confirmed	1524 key; 15r04 seiscientos, 15v11 tienen
+4	n	confirmed	1524 key; passim
+&	o	confirmed	R9649; 15r04 seiscientos, 15r02 mundo
+x	d	confirmed	1524 key; 15r02 mundo, 15r04 hombres de armas (xud)
+9	d	confirmed	1524 key; 15r06 soldados
+c	s	confirmed	1524 key; 15r04 seiscientos
+∂	s (also p: two delta forms not separated)	probable	15r04 seiscientos (s x2), 14r02 destruir (s), 15r20 podria (p), 15v05 picardia (p)
+ɣ	c	confirmed	R9646 ɣc; 15r04 seiscientos, 15v03 março, cosa
+ϯ	m	confirmed	15r04 armas, 15r03 menester, 15v03 março, 15v02 mes
+ʇ	m	confirmed	R9646/R9649 single crossed t; 15v02 mes
+ɭb	p	confirmed	14v09 Paris, 15r22 pornia, 15r24 pagar, 15r24 pero
+ε	l	probable	1524 key; 15r06 soldados; BUT g in 15r24 pagar, 15v03 segura: the two forms not separated
+Ɛ	l	probable	R9649; 14r06 fertil
+#	f	confirmed	R9646 Ferrara; 15r19 faltasen
+ɡ	g	probable	15v12 ganase, 15r21 pagasen
+zarε	del	confirmed	1524 key; 15r18 adelante (zarε as syllable), 15r02 del mundo
+xor	mu	confirmed	1524 retry key; 15r02 del mundo (xor 4 x & = mu-n-d-o)
+lxx U	70.000 (numeral, U = mil)	probable	15r07, after "serian menester"
+# --- added after the line-by-line reading (r9634_reading.tsv), 2026-10-02
+ɋ	r	confirmed	looped rho-like sign: 14r04/14r06 tierra (x2, the second in "una tierra fertil"), 14r09 tierra
+b	t	confirmed	1524 b=t; 14r04 tiene, 14v09 cercarle (b in the c/t slot: written 'certar')
+f	c	confirmed	1524 f=c; 14v15?, 15v04 costa
+ɀ	ñ	probable	15v08 zun ɀ & = da-ñ-o (daño), one slot
+ʇʇʇ	b	probable	1524 ʇʇʇ=b; 15v05 Biana? (one slot)
+⊤	s?	possible	15r12 pasasen (∂7⊤Ho∂84); CONFLICTS 1524 ⊤=u; one slot
+yob	ducado (+z = ducados)	probable	15r07 "lxx U yob z" = 70,000 ducados (after "para su paga serian menester cada mes"); 14v10 "D. yob z"
+xep	mar	probable	14r08-09 "los de la xep y los de la tierra"; 14r06 "de [..] la xep"
+xu	gente	probable	15r13 "aver la xu; dixome que la xu darmas" (gente darmas); 15r18 "y la xu que pasara adelante"; 14v13 "la xu es esta de frontera"; CONFLICTS 1524 xu = ha- (R9846 haze) and 1522 key_codes xu = hara (probable)
+ʃil	toma	confirmed	1524-add value; here 14v04 tomar, 14v08 tomarle, 15r02 tomarle
+ʃal	esta	confirmed	1524 retry value; here 14r10 "ʃal z" = estan (muertos de miedo), 15v10 "en ʃal esto"
+ʃop	bi	confirmed	1524; here 14v17 obieran, 14v18 avia, 14v21 avian, 15r17 viniesen, 15r25 avia, 15v01 aviso
+zar∂	des-	confirmed	14v24 zar∂ ϑʇʇ∠αɣ̊ = destruir; = zar ∂ in 14r02 and 14v05 (de-struir)
+xud	hombre	confirmed	1522 key; here 15r04 and 15r11 "hombres de armas", 14v14 "no ... hombre que tenga"
+z	s (plural after a code)	confirmed	xul z = los, xug z = las, xud z = hombres, yob z = ducados, xob z yal z = grandes exercitos (15v11)
+Ꮒ	null (run opener)	confirmed	R9649; 13 runs here open with it or with ʄ
+ʄ	y	confirmed	upgrade: 14v24 "y el Rey de Inglaterra", 15r04 "hombres de armas y", 15r08, 15r18, 15v03 "de março y que"
+ʃta	null (after the run opener Ꮒ)	confirmed	R9649 run 2 "Ꮒ yω ʃta en la fortaleza" has no counterpart in the clerk's clear f. 268; R9634 14r13 "si Ꮒ ʃta ayud-", 15r20; R9646 run 4 "respondiome que Ꮒ ʃta avia miedo"; R9656 "∂6 ʃta" (∂6 = the opener)
+ɡʇo	null (after Ꮒ)	probable	R9634 14v07 "Ꮒ ɣ̊ʇ ɡʇo con lo que a el le quitasen"; R9646 run 5 "bien Ꮒ ʑto ɡto ofrecer"
+ɣ̊ʇ	null (after Ꮒ; = R9646 ʑto)	probable	same two contexts
+ʆ∂	null (after Ꮒ)	probable	R9634 14v14 "Ꮒ ʆ∂ aca no", 15v07 "Ꮒ ʆ∂ que exercito"
+yt	null (after Ꮒ)	probable	R9634 14v17 "Ꮒ ∂ yt no obieran", 15r14 run end
+yω	null (after Ꮒ)	probable	R9649 run 2 (no counterpart in f. 268)
+# --- 2026-10-02 retry: R9645 re-transcribed in this notation (r9645_cipher.txt), R9656 regraded (r9656_cipher.txt)
+ɣto	null (after Ꮒ)	confirmed	R9645 f.243v glosses skip it twice: "Ꮒ ɣto yi" = "dize que el" (l.13), "rab Ꮒ ɣto ʃta tu" = "de V. mgd no" (l.19); also f.243r l.1 "su S. Ꮒ ɣto ʃta ton"
+yib	duque	confirmed	upgrade: R9645 f.243r "con el yib de m̶8ɋ7ɣ̊Ho" = duque de Ferrara, f.243v gloss "al duque de Albania" (zu yib zar; earlier read as yub), R9646 "con el yib de Ferrara"
+xu	gente	confirmed	upgrade: R9645 f.243v gloss "la gente de v. mgd" over "xup xu zar ɣ rab" + R9634 15r13 "la xu darmas"; BUT R9645 v06 "xu ɡʇʇHo" = hara? (1524 xu = ha-): homophone or misread, left probable there
+xup	la	probable	R9645 gloss "la gente" (homophone of xug)
+yeɣ̊	dezir	confirmed	R9645 gloss "con dezir que" (ye = dizi- 1524 + ɣ̊ = r)
+ɲ	q	probable	R9645 r15 ɲ∠ω∂α8ɣ̊84 = quisieren (one slot)
+m̶	f	confirmed	1524-add; R9645 r02 m̶8ɋ7ɣ̊Ho = Ferrara
+ʃe	Santidad (after ʃed su)	probable	R9645 r09 "con ʃed ʃe e con V. Mt." = con su Sd e con V. Mt.; v08 "a ʃed ʃe que no piense"
+yiL	hazer	probable	R9645 r16 "no puede yiL"; R9634 15r20 "se podrian yɩ ɣ̊" (yiL + r); both after a modal verb, sense only
+ze	(unknown code)	open	R9645 r15, r16, r17 ("que ze ..."), R9634 15r21 zε: no crib
+∂6	null (run opener, = Ꮒ)	confirmed	R9656 ∂6 ʃta x3 (l.1, l.12, f.334v B), ∂6 tu; f.335 copy has nothing for it

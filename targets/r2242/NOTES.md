@@ -30,23 +30,29 @@ gives the values of a dozen word signs (below).
   from Hamburg that never arrived, "Robespierre"-era news; one word in cipher: 24 43 25 55 15 15 65 = **famille**.
 - **p3 (17 cipher lines) and p4 (8 lines + P.S.)**, one continuous text (p3 ends "ra-", p4 begins "-tificatie").
 
-## What the cipher says (p3–p4, Dutch; | = unread word sign)
+## What the cipher says (p3–p4, Dutch; [x] = word sign with its value, | = unread sign)
 
-The alliance and its effect on the Orange émigré troops, and the Dutch/Prussian situation after the Peace of
-Basel (5 April 1795):
+Reading after the second pass of 2 Oct 2026 (values and grades in the sign tables below). The letter dates from
+late May or June 1795: the ratification it speaks of is that of the Treaty of The Hague with France (16 May 1795),
+carried to Paris by the extraordinary envoys De Sitter and Van Grasveld (received by the Convention 23 June 1795).
 
-- … "| onse alliansie met | geeft | ook verandering; men heeft de officier[s] en de trouppes | wel | malkander
-  gelegen … staat op veele der gedimitteerde offeciers te maaken … niet veel | stellen; ook is er geen de minste
-  saamenhang tussen | [z]elve, zij [zijn] geheel verstrooid, | hooft …" (the troops scattered, no cohesion,
-  dismissed officers).
-- "de politiken ook | verslappen … men zig | niet te veel op [ver]laten | het point der coalitie … men heeft de
-  ratificatie ons met | gepubliceert, of schoon de ratificatie zelver nog niet gekoomen was" — the ratification
-  (the Prussian peace of Basel) published before it had arrived.
-- "| Parijs | onse ministers … zijn nog | ambassadeurs gesonden om [de] ratificatie van onse | over te brengen"
-  — envoys sent to Paris with the ratification.
-- "maar blijft persisteeren het tegenwoordig gouvernement niet te erkennen, dan zoo zij geen Robespierismus durven
-  te introduceeren … zeer veel dispositie … is mijn respect … het geheele geselschap … groet mijn broeder."
-- P.S. fragment: "… is ook | landig … al | met hen."
+- "[de] [brief] braaden. Wat zeid men [van] onse alliansie met [Frankrijk]? Geeft [dat] ook verandering? Men heeft
+  de offeciers en de trouppes [zoo] wel [uit] malkander gelegen, [daar] is [zoo] [weinig] staat op veele der
+  gedimitteerde offeciers te maaken, [dat] men zig [daar] niet veel | [van] | [voor]stellen; ook is er geen
+  de minste saamenhang tussen [dez]elve, zy [zijn] geheel verstrooyd en [zonder] hooft" — the émigré troops and
+  dismissed officers scattered, without cohesion or leader.
+- "… natuurlyk zoude | en [dat] zig [voor] | zouden toonen hebben, zig niet brilliant ge| | vreese [dat] de
+  benauwtheid de politiken ook | [dat] verslappen | | er [daar] men op | vertrouwen | als aen o[ns?] [als] men
+  zig [maar] niet [al] te veel openden [dat] het point der coalitie met alle [mogelyk]e | heid behandelt word."
+- "Men heeft de ratificatie [van] ons met [Frankrijk] gepubliceert, of schoon de ratificatie zelver nog niet
+  gekoomen was. Het was op | echte [brieven] [uit] Parys [van] onse ministers Meier en Blaauw, en nu zyn nog
+  [naar] [Frankrijk] [als] ambassadeurs gesonden (interlined: [de] Sitter en [van] Grasveld) om de ratificatie van
+  onse | t' oover te brengen." Blauw and Meyer were the Batavian negotiators in Paris (Gedenkstukken I no. 507).
+- "[Als] [Engeland] [maar] blyft persisteeren [om] het tegenwoordig gouvernement niet te erkennen, dan [zoo] zy
+  geen Robespierismus durven te introduseeren [daar] | zeer veel dispositie | is. Myn respect [daar] het behoort
+  [is] het geheele geselschap nog [daar]. | Hier | omstandig antwoort. Groet myn broer."
+- P.S. "Dankaert is ook [uit]landig | | | al | met hen." (Dankaert unidentified; the sign after 'landig' is under
+  an ink blot.)
 
 Decrypts: `decrypt_p1.txt`, `decrypt_p3.txt`, `decrypt_p4.txt`; transcriptions `transcription_p*.txt`
 (LLM transcription from the photographs; several pairs doubtful, marked ?).
@@ -62,17 +68,14 @@ Decrypts: `decrypt_p1.txt`, `decrypt_p3.txt`, `decrypt_p4.txt`; transcriptions `
 | ⊙ Y | de Zee | | crossed 8 | zijn |
 | > ⊙ ♁ | als de Erfprins | | ʃ | zelfde |
 
-⊙ alone = de (R1892). The p3–p4 signs Λ, ∞, Δ, φ, script L, ⊥ and some twenty others are open.
-
-## Open
-
-- About twenty word signs on p3–p4; p3 line 1 ("wat ze id men") and p4 line 8 are poorly read.
-- A second, careful transcription pass of p3–p4 at full resolution would firm up the doubtful pairs.
+⊙ alone = de (R1892). The p3–p4 signs were read from context on 30 Sept and 2 Oct 2026 (tables below); twenty
+single-occurrence signs stay open.
 
 ## Prior art
 
 DECODE: Non-decrypted, no transcription or decipherment on the record. The only decipherment is the clear text on
 page 1 itself. This is the first reading of pages 3–4; the key came from R1892 (this project, 21 Sept 2026).
+Print (2 Oct 2026): the letter is not in Colenbrander's *Gedenkstukken* (see Escalation for the search).
 
 ## Word signs read from context (30 Sept 2026, for the Lasry quotation)
 
@@ -92,7 +95,7 @@ Line 15 re-read: 34 65 11 12 43 44 22 45 = "het was op", a small x (sign or corr
 65 51 [3]4 11 65 = "echte" (the 34 is half under an ink blot), then the parallelogram. Line 16 opens with the script L,
 45 43 52 13 44 "parys", then the flagged D-shape, "onse ministers meier en blaauw en nu".
 
-Still open in the passage: "<" (p3 l17, "naar"? I, not adopted), "&" (p4 l1, the subject of "maar blijft
+Still open in the passage on 30 Sept ("<" and "&" adopted 2 Oct, see Second pass): "<" (p3 l17, "naar"? I), "&" (p4 l1, the subject of "maar blijft
 persisteeren"; England is a guess only), the plain Δ in "van onse Δ 't oover te brengen", and the x on l15.
 The p4 interlinear insertion reads 44 55 11 11 65 52 65 32 [flagged D] 41 52 43 44 33 65 15 31 "sitteren [van]
 grasveld", probably two names (a Batavian envoy "Grasveld"?); not identified here.
@@ -105,14 +108,76 @@ Quotation for the Lasry list (30 Sept 2026): "… men heeft de ratificatie [van]
 of schoon de ratificatie zelver nog niet gekoomen was … maar blijft persisteeren [om] het tegenwoordig gouvernement
 niet te erkennen, dan zoo zij geen Robespierismus durven te introduceeren …"
 
+## Second pass (2 Oct 2026)
+
+**Images.** The four DECODE photographs were not in this checkout; the rotated full-resolution copies and strips
+made on 21 Sept were found in the old worktree `.worktrees/r2242/r2242/img/` (r1.png–r4.png, 3648×5472) and copied
+to `img/` (git-ignored). A fresh DECODE download with the session cookie returned a 5 kB placeholder.
+
+**Re-transcription of the two flagged lines, at full resolution.**
+- p3 l1: every pair confirmed as transcribed: ⊙ ▱ 35 52 43 43 31 65 32 | 12 43 11 21 65 55 31 25 65 32 | flagged D |
+  22 32 44 65 43 15 15 55 43 32 44 55 65 25 65 11 = "[de] [brief] braaden wat zeid men [van] onse alliansie met"
+  (H). The "1" at the right edge is the page number.
+- p4 l8: H-loop 34 55 65 52 ψ 22 25 44 11 43 32 31 55 41 13 32 11 12 22 22 52 11 41 52 22 65 11 25 13 32 35 52 22
+  65 52. Corrections: the sixth pair of "woort" is 22 (the old 32 was a hooked 2), and the last is 52 (a 4
+  overwritten by a 5), so "…omstandig yn t woort groet myn broer." 13 32 11 (y n t) is clearly 1 over 3 on the
+  page; read "antwoort", taking the 1 as the writer's slip for 4 (M).
+- Also re-read: p3 l2 end = "offeciers" (cramped at the margin, M); p4 l6 "is aet" → 55 44 34 65 11 "is het" (H,
+  the 34 is clear); p3 l11 after "vertrouwen" the bracket and 43 15 44 43 65 32 22 52 ("als aen or", the 3 and 22
+  underlined in the original) are confirmed; the faint interlinear "als a e n o λ" above them is a reader's
+  attempt at the same pairs, not new text. Five doubtful pairs were resolved where the earlier notes gave a
+  probable value (benauwtheid, zig, brilliant, echte, ministers); p1 l4 "dtenst" → 55 "dienst" (the clear text).
+
+**Word signs, second pass** (grades: H fixed by clear text, M several contexts or a sibling agree, I one context):
+
+| sign | value | grade | evidence |
+|---|---|---|---|
+| Λ | dat | M | "geeft [dat] ook verandering"; "te maaken, [dat] men zig"; "en [dat] zig"; R1892 three times ("op de volgende wyze: [dat] alle heeren officieren") |
+| slashed / crossed Λ | dat | I | "vreese [dat] de benauwtheid"; "openden [dat] het point der coalitie" |
+| ∞ | daar | M | "[daar] is zoo weinig staat op"; "dat men zig [daar] niet veel van … voorstellen" (daar … van); "[daar] men op … vertrouwen"; "myn respect [daar] het behoort" |
+| < | naar | I | "zyn nog [naar] Frankrijk [als] ambassadeurs gesonden", the pair of > als |
+| check over bar | zonder | M | "zy zijn geheel verstrooyd en [zonder] hooft" |
+| crossed e | zijn | M | "zy [zijn] geheel verstrooyd"; the p1 crossed 8 = zijn is probably the same sign |
+| X | weinig | I | "[daar] is zoo [weinig] staat op … te maaken" |
+| crossed x | al | I | "maar niet [al] te veel" |
+| & | Engeland | I | the power that "blijft persisteeren om het tegenwoordig gouvernement niet te erkennen" |
+| + | mogelyk | I | "met alle [mogelyk]e …heid behandelt" |
+| crossed diamond | voor | I | "niet veel … van … [voor]stellen"; "dat zig [voor] … zouden toonen hebben" |
+| Y with crossbar | ik | I | "[ik] vreese dat de benauwtheid" |
+| crossed Y | dez- | I | "tussen [dez]elve" (the digits give only "elve") |
+| flagged D, also p3 l5 | van | M (was I) | now also "niet veel … [van] … voorstellen" and the interlinear "Sitter en [van] Grasveld" |
+| inverted D with stroke (interlinear) | van | M | "[de] Sitter en [van] Grasveld": Gedenkstukken I p. 655 names the envoys Grasveld and De Sitter |
+
+Still open (one occurrence each unless noted): T-bar and S-stroke ("niet veel [T] van [S] voorstellen", probably
+"goeds" and "kan"/"hen", not adopted); square bracket (p3 l7); H with P (l8); dagger (l8); V-with-cross ("ge[V]",
+l9); C-hook (l10); % (l10, p4 l4); crossed o (l10); plain Δ (p3 l11 "op [Δ] vertrouwen", p4 l1 "ratificatie van
+onse [Δ]"; "Staaten" or "zyde" fit one context each, not adopted); vertical bracket (l11); crossed circle (l12,
+over an ink blot); x mark (l15); Δ with tail (p4 l5); H with loop and ψ (p4 l8, "[?] hier [?] omstandig
+antwoort"); S, crossed ø and ⊖ in the P.S. 20 sign tokens and 2 ink-blotted tokens.
+
+**Measured** (`apply.py --measure`, `measure_sense.py`; both count every digit pair and word sign on p1, p3, p4,
+parentheticals excluded):
+
+| | tokens given a value | tokens read as sense (nl-modern, 13-char window > −4.3) |
+|---|---|---|
+| before (HEAD transcription, signs as of 30 Sept) | 982/1,031 = 95.2% | 887/1,031 = 86.0% |
+| after (2 Oct transcription and signs) | 1,015/1,037 = 97.9% | 981/1,037 = 94.6% |
+
+The sense threshold is calibrated on p1, whose decrypt the clear text under it confirms (110/111 pass), against
+letter-shuffled p3/p4 controls (about 5% pass). By page after: p1 99.1%, p3 95.9%, p4 90.1%. The LM checks only that
+the letters read as Dutch; a wrong word value that is still Dutch passes, so the I-grade signs inflate it slightly.
+The 21 Sept profile figure (93%, 966/1,040) was counted by a scratchpad script that is gone; the two rows above are
+both counted with this folder's scripts.
+
 ## Remaining gaps
-- about sixteen word signs on p3-p4 (Λ, ∞, Δ, &, < ...) - blocker: open-codes; the p1 signs are fixed by the clear text under it, and script L, the flagged D-shape, φ and ⊥ were read from context on 30 Sept 2026 (grades I/M)
-- p3 line 1 and p4 line 8, doubtful pairs across p3-p4 - blocker: not-attempted; LLM transcription only; a careful full-resolution second pass not done
+- 20 single-occurrence word signs on p3-p4 (T-bar, S-stroke, square bracket, H with P, dagger, V-with-cross, C-hook, % twice, crossed o, plain Δ twice, vertical bracket, x mark, Δ with tail, H with loop, ψ, P.S. S / crossed ø / ⊖) - blocker: open-codes; each occurs once or twice in this letter and not in R1892, there is no key sheet, and the letter is not in print; all retried against context and R1892 on 2 Oct 2026
+- two tokens under ink blots (p3 l12 crossed circle, P.S. sign after "landig") - blocker: illegible; the photocopy is blotted at both places
+- P.S. "Dankaert" unidentified - blocker: no-key-material; the name is spelled out in the square, only its identity is unknown
 
 ## Escalation
-- [x] siblings: R1892 (same key) used
+- [x] siblings: R1892 (same key) used; its signs pooled with R2242's on 2 Oct 2026 (Λ = dat confirmed by three R1892 contexts; R1892 phi, S, Y-cross, x and cross do not take R2242's values); R2236/R2237/R2239 (hereditary1796) use a different numbered word list and share no signs
 - [x] clear-pages: p1 clear text under the cipher used as crib; p2 clear letter read
 - [x] known-keys: R1892 key applied unchanged
-- [ ] print: not done — Orange family correspondence editions (Colenbrander, Gedenkstukken) not searched
-- [x] key-rebuild: word signs extended from context, 30 Sept 2026 (script L uit, flagged D van, φ Frankrijk, ⊥ om, pooled with R1892 p2); the rest of the pool still to do
-- [ ] retry: not done — re-transcribe p3-p4 at full resolution and rerun apply.py
+- [x] print: searched 2 Oct 2026 - Colenbrander, Gedenkstukken I (1789-1795) and II (1795-1798), full text on resources.huygens.knaw.nl/retroboeken/gedenkstukken, for Grasveld, Sitter, Blaauw, Robespierismus, gebraaden, persisteeren, saamenhang, gedimitteerde, verstrooid, Banquier, rassemblement, "Prins Frederik aan", ratificatie; GS II pp. 834-841 (May-July 1795 letters) read: the letter is not printed; GS I p. 655 and p. 678 confirm the envoys De Sitter and Van Grasveld and the ministers Blauw and Meyer
+- [x] key-rebuild: word signs extended from context, 30 Sept 2026 (uit, van, Frankrijk, om) and 2 Oct 2026 (dat, daar, naar, zonder, zijn, weinig, al, Engeland, mogelyk, voor, ik, dez-; flagged D and the interlinear inverted D = van)
+- [x] retry: 2 Oct 2026 - p3 l1 and p4 l8 re-transcribed at full resolution and rerun with apply.py; p3 l2 end, p4 l6, p3 l11 and five doubtful pairs re-read; every unread sign retried against the extended key, R1892 and the printed context, and regraded (table above)

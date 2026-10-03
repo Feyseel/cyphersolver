@@ -85,3 +85,13 @@ value from the 1524 or 1522 key or from the copy: **about 47%**. The f. 335 copy
 - `ε&∂` = los (`&` = o, `∂` = s): probable (l.2, l.5)
 - `oo` = n in `∠α84oo` = vienen: probable
 - `xod` = fe, `xic` = ha: upgraded to confirmed (1524 plus B4 "lo que ha fecho")
+
+## Regrade, 2026-10-02
+
+Token file `r9656_cipher.txt` built from the tables above (not re-read from the image), reading with unread
+counts in `r9656_reading.tsv`. With the opener `∂6` (= `Ꮒ`) and `ʃta` taken as nulls (confirmed on R9645's glosses and
+R9649's clear) and the R9634 values: **131 of 214 tokens read as sense = 61%** (was about 47% in this file, 42% in
+NOTES on confirmed values only). Valued by the key: 67% confirmed, 93% with probable. The `∂6 ʃta` before *de la
+venida*, at l. 12 and before *sobre lo de* on f. 334v are now read as nulls; the rest of l. 13-18 still fails on
+spelled words in an uncertain notation. A re-transcription from the image in the R9634 notation, and a better image of
+the faded copy on f. 335r, are the remaining moves.

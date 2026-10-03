@@ -50,8 +50,8 @@
     "source": "No decipherment on the DECODE images or record."
    },
    "length": {
-    "tokens": 785,
-    "distinct": 168,
+    "tokens": 804,
+    "distinct": 174,
     "unit": "mixed",
     "measured": true,
     "file": "transcription_p3.txt"
@@ -81,7 +81,7 @@
    },
    "length": {
     "tokens": 319,
-    "distinct": 68,
+    "distinct": 66,
     "unit": "mixed",
     "measured": true,
     "file": "transcription_p4.txt"
@@ -134,14 +134,16 @@
   "tools": [
    "DECODE filesrv download",
    "PIL rotation and strips",
-   "R1892 apply.py"
+   "R1892 apply.py",
+   "Huygens retroboeken full-text search (Gedenkstukken)",
+   "lang/ nl-modern sense measure (measure_sense.py)"
   ],
   "models": [
    "claude-opus-5"
   ],
-  "sessions": 1,
+  "sessions": 2,
   "first_date": "2026-09-21",
-  "last_date": "2026-09-21"
+  "last_date": "2026-10-02"
  },
  "solution": [
   {
@@ -185,6 +187,54 @@
    "what": "Word signs in p3-p4 read from context and re-checked on the photographs: script L = uit, flagged D-shape = van, phi = Frankrijk (I); perp = om (M, also fits R1892 p2); the ratification passage and the Robespierismus sentence now read without gaps except the sign '&'. Dating consequence: the treaty 'with France' puts p3-p4 after 16 May 1795.",
    "result": "partial",
    "date": "2026-09-30"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "access",
+   "what": "DECODE images not in the checkout; a cookie download returned a 5 kB placeholder; the 21 Sept rotated full-resolution copies were recovered from the old worktree .worktrees/r2242 and copied to img/.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "transcription",
+   "what": "p3 l1 re-transcribed at full resolution: every pair confirmed ('braaden wat zeid men [van] onse alliansie met').",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "transcription",
+   "what": "p4 l8 re-transcribed: 32->22 ('woort'), final 42->52 ('broer', a 4 overwritten by 5); 13 32 11 'ynt' is as written, read 'antwoort' as the writer's 1-for-4 slip (M). Also p4 l6 43->34 ('is het'), p1 l4 11->55 ('dienst'), p3 l2 margin 'offeciers', five doubtful pairs given their probable values.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "Word signs from context, pooled with R1892: Lambda = dat (M, three R1892 contexts agree), slashed/crossed Lambda = dat, infinity = daar (M, 'daar ... van voorstellen'), < = naar, check-over-bar = zonder (M), crossed e = zijn (M), X = weinig, crossed x = al, & = Engeland, + = mogelyk, crossed diamond = voor, Y-crossbar = ik, crossed Y = dez-.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "literature search",
+   "what": "Colenbrander, Gedenkstukken I-II full text (resources.huygens.knaw.nl retroboeken) searched for Grasveld, Sitter, Blaauw, Robespierismus, gebraaden, persisteeren, saamenhang, gedimitteerde, verstrooid, Banquier, rassemblement, ratificatie; GS II pp. 834-841 read. The letter is not printed.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "verification",
+   "what": "The interlinear insertion 'sitteren [inverted D] grasveld' = '[de] Sitter en [van] Grasveld', the extraordinary envoys to Paris (GS I p. 655), and 'Meier en Blaauw' = the negotiators Blauw and Meyer (GS I no. 507): fixes the inverted D = van and dates p3-p4 to late May-June 1795.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "Remaining single signs tried and not adopted: plain Delta (Staaten / zyde each fit one context), T-bar and S-stroke ('goeds', 'kan'), psi and H-loop on p4 l8, %, C-hook, crossed o, V-with-cross, H-with-P, dagger, square/vertical brackets, x mark, Delta-with-tail, P.S. signs.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "statistics",
+   "what": "Measured with apply.py --measure and measure_sense.py (nl-modern, 13-char window > -4.3, calibrated on p1 and letter-shuffled controls): tokens given a value 95.2% -> 97.9% (1,015/1,037); tokens read as sense 86.0% -> 94.6% (981/1,037).",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -195,29 +245,40 @@
    "key extended or corrected"
   ],
   "class": "read in part",
-  "fraction_read": 0.93,
+  "fraction_read": 0.979,
   "fraction_read_method": "measured",
-  "fraction_read_source": "transcription_p1/p3/p4.txt with the apply.py key (scratchpad measure_C_orange.py): 966 of 1,040 cipher tokens read; digit pairs in the square and the circle-dot DE sign read, other [sign:..] word signs and ?? pairs unread, except the 15 p1 signs whose values the clear text under the cipher gives. p1 111/111, p3 581/635, p4 274/294.",
+  "fraction_read_source": "transcription_p1/p3/p4.txt with apply.py --measure (2 Oct 2026): 1,015 of 1,037 cipher tokens (digit pairs and word signs; parentheticals excluded) given a value; 22 open (20 word signs, 2 ink-blotted). p1 111/111, p3 620/633, p4 284/293. Before this pass, same scripts on the 30 Sept transcription: 982/1,031 = 95.2%.",
   "key": "partial",
   "codes_open": {
-   "tokens_open": 67
+   "tokens_open": 22
   },
   "verification": [
    "historical consistency",
    "contemporary decipherment"
   ],
-  "notes": "All digit pairs map with the R1892 key; about twenty word signs on p3-p4 unread; several doubtful pairs in the LLM transcription.",
+  "notes": "All digit pairs map with the R1892 key. Read as sense (measure_sense.py, nl-modern): 981/1,037 = 94.6% (86.0% before the 2 Oct pass); p1 99.1%, p3 95.9%, p4 90.1%. Twenty single-occurrence word signs open; letter not in Colenbrander, Gedenkstukken I-II.",
   "gaps": [
    {
-    "item": "about sixteen word signs on p3-p4 (Λ, ∞, Δ, &, < ...)",
+    "item": "20 single-occurrence word signs on p3-p4 (T-bar, S-stroke, square bracket, H with P, dagger, V-with-cross, C-hook, % x2, crossed o, plain Delta x2, vertical bracket, x mark, Delta with tail, H with loop, psi, P.S. S / crossed o-slash / circle-bar)",
     "blocker": "open-codes",
-    "detail": "the p1 signs are fixed by the clear text under it, and script L, the flagged D-shape, φ and ⊥ were read from context on 30 Sept 2026 (grades I/M)"
+    "detail": "one or two occurrences each, none in R1892, no key sheet, not in print; all retried against context and R1892 on 2 Oct 2026"
    },
    {
-    "item": "p3 line 1 and p4 line 8, doubtful pairs across p3-p4",
-    "blocker": "not-attempted",
-    "detail": "LLM transcription only; a careful full-resolution second pass not done"
+    "item": "two tokens under ink blots (p3 l12 crossed circle, P.S. sign after 'landig')",
+    "blocker": "illegible",
+    "detail": "the photocopy is blotted at both places"
+   },
+   {
+    "item": "P.S. name 'Dankaert'",
+    "blocker": "no-key-material",
+    "detail": "spelled out in the square; identity unknown"
    }
-  ]
+  ],
+  "fraction_coherent": 0.946,
+  "grades": {
+   "H": 14,
+   "M": 9,
+   "I": 11
+  }
  }
 }

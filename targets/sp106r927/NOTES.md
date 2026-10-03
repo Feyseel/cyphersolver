@@ -2,7 +2,9 @@
 
 Lasry review (25 Sept 2026): the letter was decoded by Sheila Richards in *Secret Writings* (1973). The book was not seen here and a web search found no record of it; it was not used. This reading is an independent re-solution (outcome.first_break = false), left out of the ciphertext-only list for Klaus Schmeh.
 
-Outcome: read in part (2026-09-19). Cipher broken: French, homophonic pigpen. Last page (f.243) read almost in full; first page (f.241) read in fragments.
+Outcome: read in part (key recovered from ciphertext-only; 2026-09-19, all pages transcribed 2026-10-02). French, homophonic pigpen.
+The letter runs f. 243 -> f. 241; f. 242 is a second copy of f. 243. Measured: 84.0% of the letter's signs read as sense
+(f. 243 81.7%, f. 241 86.5%; the copy f. 242 73.5% of its visible signs). Written at Nancy, in December, signed "Nicle"(?).
 
 ## Source
 
@@ -82,7 +84,7 @@ Language and formulae point to a French letter of the 17th century. Sender and r
 
 Next: hand-transcribe pp.1-2 (the start of the letter, which should name people), finish the key, then /writeup.
 
-## Reading of the last page (f. 243; `hand_p3.txt` → `p3_plain.txt`, key `key.json`)
+## Reading of f. 243 (the first page of the letter, see Session 3; `hand_p3.txt` → `p3_plain.txt`, key `key.json`)
 
 Raw decipherment, one line per written line:
 
@@ -103,7 +105,7 @@ Key notes: C1 serves both f (affection, effets) and q (que): either a true polyp
 not separated in transcription. K1=c, K2=h, B2/B*2=g, G2=y. The two circle/"9" signs (@) and the stacked
 composites are unresolved; they sit where names or abbreviations are expected (e.g. before "de la part de").
 
-## First page (f. 241)
+## f. 241 (session 1 fragments; superseded by Session 3, it is the closing page)
 
 Auto-segmented (`v1_glyphs2.json`); the classifier often reads ⊔ as ◻ on this page. Hand-checked columns give
 "... disposer ... envoier le ...", "... la santé ... la longue maladie qu'il a eue, je m'asseure ...",
@@ -114,16 +116,54 @@ Sender, recipient and date are not named in the parts read. The formulae ("monsi
 "vostre bienveuillance") and spelling point to a French letter of the 17th century, from a client or
 servant to a patron.
 
+## Session 3 (2 Oct 2026): ff. 241 and 242 transcribed
+
+Files: `hand_p1.txt` (f. 241, 20 columns), `hand_p2.txt` (f. 242, 22 columns), `dec2.py` (decoder: key.json, polyphones
+resolved per occurrence by `lang` fr-1600-letters), `reading.txt` (marked decrypt + regularised French, all pages),
+`measure.py` (checks the marks against dec2.py and counts the share read). Method: columns located with the old
+auto-segmentation (`v1_glyphs2.json`, offset +1150/+100 on the DECODE image), then every sign read by eye from deskewed
+5x strips; the auto labels were not used.
+
+**Page order.** f. 243 ends "et croire que je vous honnor-"; f. 241 begins "-e et cheris ce qui se peut, s'y vous
+trouviés a propos de disposer ..." and ends with the subscription and dateline. So the letter is f. 243 + f. 241.
+**f. 242 is a second copy of f. 243**, line for line: same line breaks, same signs (cj, cp, cs read independently agree
+sign for sign; the same '@' at the same place). The upper part of its six rightmost columns is under the pasted flap
+that carries the pencil key, and three signs of ch are under an ink blot.
+
+**f. 241 (regularised):** "[...honnor]e et cheris ce qui se peut. S'y vous trouviés a propos de disposer [..] d'envoier
+le .. [..] de Sa Majesté vers [..] pour se resjouir de sa santé apres la longue maladie qu'il a eue, je m'asseure que les
+personnes que vous aimés n'en seroint marris, et [..] mon costé je [..] j'iray, mon coeur, de tout ce que je jugeray
+estre du [..] [67] et du [..], vous conjurant me faire [..] faveur d'asseurer Sa Majesté du zele que j'ay a son tres
+humble service, estant, mo[nsieur], [..] vostre tres humble et fidel serviteur Nicle(?). De Nancy le [n] decembre."
+
+Key changes (key.json; the pre-session key is in git): H3 = z (zele); C*2 = q (ce qui); C1 = f/q polyphone (faveur,
+confiance, affection, effets vs que, qu'il, quelque); F2 = l/h polyphone (plus sensible vs cheris, gentilhomme, choses,
+homme, l'honeur); C3 = l and A*2 = q (one occurrence each on f. 242, provisional). The polyphones are resolved by the LM
+in dec2.py. lm.best_language puts fr-1600-letters first on both pages (-2.1/char).
+
+Content: a client or servant writing from Nancy (Lorraine) in December to a "Monsieur" whose favour he asks; the marriage
+of "ce gentilhomme", an envoy to congratulate "Sa Majesté" on recovering from a long illness, and assurances of his zeal
+for the King's service. Sender (signature read "Nicle", perhaps a contraction), recipient and year stay open.
+
+### Neighbouring records (2 Oct 2026)
+
+Opened on DECODE (catalogue_harvest views + RecordsView pages with the bordeaux cookie): R922 is NAH (not SP 106);
+R923 (ff. 233-234), R924 (ff. 235-236), R925 (ff. 238-240), R928 (ff. 245-246), R929 (f. 247) are the digit-code
+Henrietta Maria / Goffe 1645-46 group (images of R925 checked: numbers); R930 (f. 249) is a strip of alchemical-type
+symbols and letters, not this pigpen; R931/R932 (ff. 251-252) numeric; R933 a key sheet with English names. R926 and
+ff. 237, 244 have no record (the image id I4920 between R925 and R927 is not served). No other letter in this pigpen and
+no decipherment or clear copy of R927 in the neighbouring records.
+
 ## Remaining gaps
-- f. 241 (p. 1), all but hand-checked fragments - blocker: not-attempted; auto-segmentation too noisy, full hand transcription not done
-- f. 242 (p. 2) - blocker: not-attempted; never transcribed
-- the two circle/"9" signs and stacked composites on f. 243 - blocker: open-codes; they sit where names or abbreviations are expected, too few to value
-- sender, recipient and date - blocker: not-attempted; expected in the unread start of the letter
+- signs not read as sense on ff. 243/241 (about 16%: e.g. "utesteiersnenei", "lequessalui", "couguupr", "b_ruileru", "lhoseur") - blocker: illegible; the 2300-px DECODE images are the only images and at that size the open side of corner shapes, inner strokes and dot counts are ambiguous; f. 242 repeats the same signs and does not resolve them; needs a higher-resolution image or the leaf
+- the '@' (circle/9) signs, the numeral-like sign and the clear "67" - blocker: no-key-material; three or four occurrences in name positions, too few to value from context, and no nomenclator survives with the letter or in the neighbouring records
+- upper part of f. 242 columns a-f - blocker: needs-physical-access; under the pasted flap with the pencil key (it duplicates f. 243 c0-c5, so no text is lost)
+- sender, recipient and year - blocker: no-key-material; only "Nicle"(?) at Nancy in December and "Monsieur"; the names sit in the '@' code signs; no docket or address leaf in the record
 
 ## Escalation
-- [ ] siblings: not done — the neighbouring SP 106/10 records around ff. 241-243 were not opened for this letter (sp106box10 covers ff. 125-205 only)
-- [ ] clear-pages: not done — check those neighbouring records for a decipherment or clear copy
+- [x] siblings: neighbouring SP 106/10 records R922-R933 opened (2 Oct 2026); none is in this pigpen; f. 242 found to be a second copy of f. 243 and used to check it
+- [x] clear-pages: no clear page, docket or decipherment on ff. 241-243 or in the neighbouring records; the top half of f. 241 is show-through from another leaf, not text
 - [x] known-keys: the pencil flap key tested in all orientations and rejected
-- [ ] print: not done — only a web search; no calendar (CSP Domestic/Foreign) searched, needs the sender from p. 1 first
-- [x] key-rebuild: homophonic key built by annealing (hc3.py) on the p. 3 hand transcription plus hand anchors (key.json)
-- [ ] retry: not done — hand-transcribe pp. 1-2 with inner-mark variants separate and decode with key.json, then rerun the annealer on all three pages
+- [x] print: web search (SP 106/10 pigpen, Nancy), the GL.htm copies in the repo and Tomokiyo's Cryptiana index (only the Walsingham-Wilkes pigpen): no edition; Sheila Richards, Secret Writings (1973), reported by Lasry, not seen; CSP needs a year or names
+- [x] key-rebuild: homophonic key built by annealing (hc3.py) on the p. 3 hand transcription plus hand anchors (key.json); extended 2 Oct with H3, C*2 and the C1/F2 polyphones
+- [x] retry: pp. 1-2 hand-transcribed with inner-mark variants separate and decoded with key.json (2 Oct 2026)

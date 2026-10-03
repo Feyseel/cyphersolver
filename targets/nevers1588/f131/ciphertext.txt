@@ -1,0 +1,13 @@
+# BnF fr. 3976 f. 131r, Paris informant to the Nevers household, 4 June 1588. Gallica btv1b9060548h canvas 221.
+# Conventions of targets/r3708/ciphertext.txt: one run per line, signs space-separated; a sign is one character or
+# "1"+character; E = epsilon-like e (t), J = long J-like sign, Z = z, <n> = underlined code number inside a run,
+# # = a sign struck through by the writer. A bare 1 (no following character joined to it) = i.
+# Transcribed 2 Oct 2026 from the IIIF full image at native resolution.
+G01	1s t n h s 13 19 d 12 p J f 6 t 1d 12 14 t 5 d o c
+G02	7 17 1d 12 t 6 5 8 g p 13 f 2 X
+G03	9 5 13 E t 12 d s t E h s v s n y t d f s f 12 9 d 4 k g E f z p l 7 E t 7 9 12 5 14 1 J t
+G04	h s 13 1 n 16 t 14 p 13 f 17 1 E
+G05	# J t 14 1 f E 9 d 5 7 o d Q
+G06	<72> 13 9 14 19 5
+G07	14 17 b
+G08	19 9 14 h p f z E 6 5 13 9 o d 7 5
