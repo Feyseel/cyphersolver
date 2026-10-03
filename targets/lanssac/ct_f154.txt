@@ -1,0 +1,78 @@
+# BnF fr. 4735 no. 60, f. 154r (Gallica btv1b9060724s canvas 294): Lanssac to the duc d'Anjou, Warsaw, 24 April 1573.
+# Session 3 (2 Oct 2026) re-transcription from img/c294.jpg (deskewed: img/s154_deskew.png, 19 lines).
+# Format: "@Lnn" then a token line and a "=" reading line with the same number of '|' groups.
+#   Token labels as in key.tsv (new labels added this session are listed there). Groups follow plaintext words, not the
+#   manuscript separators. Reading: {..} = unread group (counted as unread), ? after a word = uncertain value, [..] = sign
+#   read but not in the key value (context value), '-' joins a word across lines.
+# Clear text before: "... Depuis la conclusion desquelz"  (block begins at the end of the clear line)
+# Gloss (inner margin, gutter-cut; only line ends survive): "...que nous | ...causé l'autre | ...[me tr]ouble beaucoup |
+#   ...est que j'ay | ...de Lithuanie(?) | ...[ch]efz desquelz nous | ...prendre que donner | ...Roy a aucuns qui |
+#   ...qui sera de | ...importance | ...bonne part | ...[royau]me au Roy(?) | ...doubte ou vous | ...est grande |
+#   ...sur la teste | ...recommandé(e) | ...grand seigneur | ...[q]u'il a faicte | ...l'estime | ...par le Vaynode de |
+#   ...qui nous | ...[?]nament"
+@L01
+de4 g ff
+= {et su-}
+@L02
+X i sm | i T q9 | pi Y F blot s g | hh ast ot Mx | 7 h c g X Lo | ol | u2
+= {-e i nt} | j'ay | aprins | deux | choses | l' | u-
+@L03
+s ast | B i | Gf | hh c 5 nn X | oo T i s D | 4h | 7 T ot Lo G | 3 | T ff sh
+= -ne | qui | me | donne | gaing | de | cause | l' | aut-
+@L04
+phi X | Ng i | Gf | 3 F c ff 4 3 X | 4 G pi ot 7 L ff Y | 3 T | Y phi ast 8
+= -re | qui | me | trouble | beaucoup | la | prem-
+@L05
+i X F ast | G st | B X | q9 pi i | G st X | pi ot | 4h u2 T sm | 4h g | 3 q9 sh ot H ns
+= -iere | est | que | j'ay | esté | au | devant | des | Lituans
+@L06
+3 G g | 7 h X of Mx | 4h g B X 3 sh | Gf c sm | Y F L 8 G g | s X | hh c nn
+= les | chefz | desquelz | m'ont | promis | ne | don-
+@L07
+5 s X phi | ol ast ot F | ot c G u2 | pi | T ot 3 sh F X | B blot G | pi | ot c
+= -ner | leur | voeu | à | aultre | que | à | vo-
+@L08
+u2 g
+= -us
+# clear: "qui sera de telle importance que"
+@L08b
+pi ff G 7 | 3 T | 4 L
+= avec | la | bo-
+@L09
+nn s X | qq sh | B G | Gf | pi ff c ns | T ot | F c q9 T ff 8 X | g T ns
+= -nne | part | que | nous | avons | au | royaume | sans
+@L10
+hh c ot 4 3 X | c 5 | ot c ff g | 8 G 3 sh F G | 7 X st ast | oo phi pi sm
+= doubte | ou | vous | mettre | ceste | grant
+@L11
+Z c u2 F L nn s X | g ot phi | 3 T | sh X st G | g q9 | 3 pi | F G 7 c ll sm8 T
+= couronne | sur | la | teste | si | la | recommanda-
+@L12
+s cross pi 3 q9 c s | hh ot | oo phi pi nn sh | g X i oo s G ot F | 3 pi B X ol
+= -ndation | du | grant | seigneur | laquel-
+@L13
+3 G | N | T | of pi q9 7 3 X | 4h | ot c ot u2 g | 7 c 8 ll X | q9 G st i 8 ast | pi
+= -le | [il] | a | faicte | de | vous | comme | j'estime | a-
+@L14
+ff X 7 | F ot g ast | qq | 3 G | ot pi q9 u2 c 4h | B ff i de4~ | 4h
+= -vec | ruse | par | le | vaivode | qui? | de
+@L14b
+3 T | u2 H 3 T B q9 X | Mu i G X st | qq sh i X s | T sm8 G q9 nn ast
+= la | Valaquie | qui est? | {qq sh i X s} | ameine
+# session 3 pass 2 (final retry with the extended key, full-scale check): Gf = nous before 'avons' and before 'esperons'
+# (gloss '...qui nous'); B ff i = qui after 'vaivode' (the de4 after it is struck); Mu i G X st = qui est (doubled e);
+# T sm8 G q9 nn ast = ameine. x1 is the half-lost first sign of l. 19, the e of Dieu.
+# the first two groups of L14b are the end of L14 and the start of L15 in the manuscript (Valaquie runs across)
+@L15
+cd X 3 Ng X | q9 s G g Y X F ast | 7 h pi s oo X 8 G sm | B i | X st | 3 ast | g G 7 c s hh
+= quelque | inespéré | changement | qui | est | le | second
+@L17
+Y c q9 nn 7 sh | B i | Gf | hh c nn s X | ot nn ast | sh F pi ff X phi g G
+= poinct | qui | me | donne | une | traverse
+@L18
+4h | 3 pi B G ol 3 X | pi ot G 7 | 3 pi q9 4h | de4 ff mm sm | 4h | hh q9
+= de | laquelle | avec | l'aide | {de4 ff mm sm} | de | Di-
+@L19
+x1 ot | Gf | X g Y ast F c ns | s X T u2 8 c q9 s g | Lo c phi 3 i F
+= -[e]u | nous | esperons | neaumoins | sortir
+# clear after: "Je seray aussi vous supplier tres humblement Monseigneur vouloir recommander le Sr de Balagny ..."

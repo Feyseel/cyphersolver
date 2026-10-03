@@ -53,3 +53,27 @@ st	8 with dot	st	A	.	esté
 de4	o with cross below	ou	B	-	retenu ou empesché
 ns	Lambda	ns	C	.	two tokens
 2	2 with loop	de	C	-	despuis (one token)
+# --- Session 3 (2 Oct 2026): signs added or revalued from ff. 154, 154v, 156, 156v (ct_f154*.txt, ct_f156*.txt; measure.py) ---
+Gf	r-like with flourish (Gamma with hook)	me / nous	B	-	"qui me donne", "qui me trouble", "m'ont promis" (f. 154, gloss "qui me donne", "me trouble beaucoup"); "ne nous donnast" f. 156v and "que nous avons", "Dieu nous esperons" f. 154 (gloss "nous"): a pronoun sign, me or nous by context
+Ng	N with hook / curl	qu	A	-	qui (x3), quelque (x3), quinze, que (x3) on ff. 154-156
+Nb	N with a bar through it	il	B	-	"laquelle il a faicte" (gloss "qu'il a faicte"), "il me semble", "comme il[z]"; f. 124 'despuis' (p) and f. 160 'autant' (a) disagree: conflated shapes
+Mx	n-shape with tail	x / z	B	-	deux, chefz (f. 154)
+sq	square-hooked sign	x	C	-	deux (f. 156)
+M	n-shape	x	B	u / t	deux, des deux costez (f. 156v); gloss "des deux costez"
+cd	c with descender	qu	C	-	quelque (f. 154 l. 15)
+sm8	8 with loops (second form)	m	C	-	recommandation (f. 154 l. 11)
+obul	o-bar with loop	bien	B	-	combien, bien belistre (f. 154v; gloss "bien belistre")
+Pi2	pi with tail	x / y	B	-	ceulx (x2), imperiaulx, celuy (gloss "a celuy qui")
+Co	6-like sign	o	B	-	volunté (f. 174), costé, roy, seront, vous (f. 156v)
+vo	v-o ligature	l'Empereur	B	-	f. 156v l. 2, gloss "l'Empereur cependant"; a form of the o- word-sign of ff. 164/174
+5	script z	n	B	o (p?)	donne, donner, crainte, enclos?; once u in 'ou' (f. 154 l. 10)
+4	4	b	A	b	trouble, beaucoup (x4), bonne, belistre, subjectz, semble, ambassadeur
+blot	sign under an ink blot	(context)	-	-	not a sign value: the reading of the word is forced by context or gloss
+6	6-like with hook (open)	qu	B	-	qu'il (x2), quatre (f. 156v); probably the same sign as Ng in another hand-form
+lf	bold l with loop	?	-	-	in the group 8 + g lf glossed "mais" (f. 156v ll. 1, 10); unread as letters
+# --- Session 3, pass 2 on f. 156v (full scale) ---
+Ne	barred N with a loop above	est	C	-	"à cause d'est-roit" (f. 156v l. 5, gloss "du destroit"); distinct from Nb (barred N, il)
+Mu	n-shape (plain, no feet)	u / qu	B	u	vers, vous (f. 156v l. 23), que (l. 2), quatre (l. 30); Tomokiyo's u; the footed form Mx is x
+Gq	r-like with a long flourish	qu	C	-	embarquement (f. 156v l. 26)
+qq	8-like with strokes	par	B	-	par (f. 160), par terre (f. 156v l. 8)
+Bf	S with bar (second form)	f	C	-	"mon frere" (f. 156v l. 10, gloss "monsieur"): the B shape is qu elsewhere; two forms not separated

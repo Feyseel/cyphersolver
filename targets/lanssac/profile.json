@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "target": "lanssac",
- "title": "Lanssac to Charles IX, Warsaw, 26 April 1573, BnF fr. 4735 no. 51 f. 124, and the sibling election letters ff. 160, 164, 174",
+ "title": "Lanssac's letters from Poland, 1573, BnF fr. 4735: f. 124 to Charles IX, ff. 154 and 156 (24 Apr), 160, 164, 174 (1 and 9 May)",
  "documents": [
   {
    "id": "f124",
@@ -121,6 +121,131 @@
     "source": "Gallica IIIF microfilm scans",
     "image_quality": "fair"
    }
+  },
+  {
+   "id": "f154",
+   "read": "read in part",
+   "shelfmark": "BnF fr. 4735 no. 60, f. 154r (canvas 294)",
+   "date": "24 Apr 1573",
+   "year": 1573,
+   "country": "France",
+   "route": "Warsaw -> Anjou",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "margin"
+    ],
+    "source": "Contemporary decipherment in the inner margin, cut by the microfilm gutter; line ends only",
+    "partial": true
+   },
+   "length": {
+    "tokens": 454,
+    "distinct": 52,
+    "unit": "symbols",
+    "measured": true,
+    "file": "f154_tokens3.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF microfilm scans, 4417 x 6483 px",
+    "image_quality": "fair",
+    "notes": "Session 3 word-aligned re-transcription (ct_f154.txt); pass-2 retry with the extended key: 439 of 454 tokens read as sense (96.7%)."
+   }
+  },
+  {
+   "id": "f154v",
+   "read": "read in part",
+   "shelfmark": "BnF fr. 4735 no. 60, f. 154v (canvas 297)",
+   "date": "24 Apr 1573",
+   "year": 1573,
+   "country": "France",
+   "route": "Warsaw -> Anjou",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "margin"
+    ],
+    "source": "Contemporary decipherment in the outer margin, complete for both blocks",
+    "partial": false
+   },
+   "length": {
+    "tokens": 224,
+    "distinct": 43,
+    "unit": "symbols",
+    "measured": true,
+    "file": "f154v_tokens3.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF microfilm scans, 4417 x 6483 px",
+    "image_quality": "fair",
+    "notes": "ct_f154v.txt. 206 of 224 tokens read (92.0%); line ends lost in the gutter."
+   }
+  },
+  {
+   "id": "f156",
+   "read": "read in part",
+   "shelfmark": "BnF fr. 4735 no. 61, f. 156r (canvas 300)",
+   "date": "24 Apr 1573",
+   "year": 1573,
+   "country": "France",
+   "route": "Warsaw -> Catherine de Medicis",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "margin"
+    ],
+    "source": "Contemporary decipherment in the inner margin, gutter-cut",
+    "partial": true
+   },
+   "length": {
+    "tokens": 316,
+    "distinct": 45,
+    "unit": "symbols",
+    "measured": true,
+    "file": "f156_tokens3.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF microfilm scans, 4417 x 6483 px",
+    "image_quality": "fair",
+    "notes": "ct_f156.txt. 307 of 316 tokens read (97.2%)."
+   }
+  },
+  {
+   "id": "f156v",
+   "read": "read in part",
+   "shelfmark": "BnF fr. 4735 no. 61, f. 156v (canvas 301)",
+   "date": "24 Apr 1573",
+   "year": 1573,
+   "country": "France",
+   "route": "Warsaw -> Catherine de Medicis",
+   "language": "French",
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "margin"
+    ],
+    "source": "Contemporary decipherment in the outer margin as a running text, nearly complete",
+    "partial": false
+   },
+   "length": {
+    "tokens": 645,
+    "distinct": 53,
+    "unit": "symbols",
+    "measured": true,
+    "file": "f156v_tokens3.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "Gallica IIIF microfilm scans, 4417 x 6483 px",
+    "image_quality": "fair",
+    "notes": "Pass 2 at full scale (ct_f156v.txt; pass 1 at reduced scale kept as ct_f156v_pass1.txt, 346/515 = 67.2%). 569 of 645 tokens read as sense (88.2%); 9 signs struck by the writer not counted.",
+    "corrections": 130
+   }
   }
  ],
  "system": {
@@ -180,14 +305,17 @@
    "strips.py",
    "French 5-gram annealer (solve.py)",
    "lattice beam decode (lattice.py)",
-   "controls.py"
+   "controls.py",
+   "measure.py (share of tokens read, fr-1600-letters)",
+   "control3.py"
   ],
   "models": [
-   "claude-fable-5-1"
+   "claude-fable-5-1",
+   "claude-opus-5-5"
   ],
-  "sessions": 2,
+  "sessions": 3,
   "first_date": "2026-09-17",
-  "last_date": "2026-09-17"
+  "last_date": "2026-10-02"
  },
  "solution": [
   {
@@ -249,12 +377,130 @@
    "kind": "verification",
    "what": "Readings agree with the surviving gloss fragments on every leaf.",
    "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "access",
+   "what": "Fetched ff. 154r-v, 156r-157v at full size and canvases 330-358 at 600/1400 px from Gallica IIIF to locate ff. 182 ff.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "verification",
+   "what": "Checked the 9 May letters ff. 182 (Anjou), 184 (Catherine), 186 (Brulart), 188 (Lanssac pere): all in clear, no cipher, no marginal decipherment; the session-2 expectation that they were in the key was wrong.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "transcription",
+   "what": "Re-transcribed f. 154r (19 lines) and f. 154v (two blocks) with word groups aligned to the plaintext (ct_f154.txt, ct_f154v.txt), 679 tokens.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "transcription",
+   "what": "Re-transcribed f. 156r (two blocks, 316 tokens) and a first pass of f. 156v (515 tokens) at reduced scale.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "crib",
+   "what": "Outer-margin glosses of f. 154v and f. 156v, which survive whole, used as cribs; inner-margin fragments of ff. 154r/156r used as checks.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "sibling key",
+   "what": "Session 1-2 key applied unchanged; read most of ff. 154r and 156r at once.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "Key extended from context and glosses: Gf = me, Ng = qu, Nb = il, obul = bien, Pi2 = x/y, Co = o, vo = l'Empereur, 5 = n, M/Mx/sq = x, 4 = b confirmed.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "Tried the session-1 value N = p and session-2 N = a for the barred N on ff. 154-156: neither fits; there it reads il.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "Tried to read the 11-sign group after 'de la Valaquie' (f. 154r l. 15) and the 4-sign group after 'vaivode' with the key and variant values; no French word.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "reading",
+   "what": "Measured share of tokens read as sense: f. 154r 92.5%, f. 154v 92.0%, f. 156r 97.2%, f. 156v 67.2% (first pass).",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "control",
+   "what": "Raw first-value decode vs three shufflings under fr-1600-letters (no spaces): -1.93 to -3.00 per char vs -4.4 to -4.7.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "verification",
+   "what": "Readings agree with every surviving gloss fragment of ff. 154r and 156r and with the full verso glosses.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "transcription",
+   "what": "f. 156v re-transcribed line by line at full scale (pass 2): 645 tokens against 515 in pass 1; whole lines had been merged or skipped at reduced scale.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "crib",
+   "what": "Outer-margin decipherment of f. 156v aligned line by line with the pass-2 tokens; read 'voient enclos de deux si puissantz roys comme ilz seront', 'demanderont qu'il ameine quatre mil gascons', 'faire mettre en ordre les galleres pour pouvoir servir', 'toute la noblesse crie pour avoir ung roy'.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "New values from pass 2: Mu = u/qu (Tomokiyo's u), Ne = est, Gq = qu, Bf = f ('mon frere' for the gloss 'monsieur'), qq = par; Gf generalised to me/nous.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "Tried to read the gloss 'cependant', 'estoit ennemy', 'ensemble afin', 'de ceste nation' sign by sign on f. 156v: the cipher groups do not match; the gloss paraphrases at these points.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "hypothesis",
+   "what": "Rechecked f. 124 'despuis' with the barred N = il of ff. 154-156: gives 'desiluis', no French; the f. 124 sign is a different barred-N form; 'despuis' (N = p) stands.",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "reading",
+   "what": "Final retry of every unread group on ff. 154r, 154v, 156r with the extended key: f. 154r 92.5% -> 96.7% (nous x2, qui, qui est, ameine); f. 154v and 156r unchanged.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "control",
+   "what": "Raw first-value decode vs shuffles after pass 2: f. 154r -2.25, f. 156v -2.60 per char vs -4.4 to -4.7 shuffled.",
+   "result": "worked"
   }
  ],
  "outcome": {
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "The key was rebuilt from the contemporary marginal decipherments beside the cipher on f. 124 and its sibling f. 154v in the same volume (BnF fr. 4735), cut by the gutter on the microfilm, with a pinned annealer filling the rest; Tomokiyo's published table was checked and found shifted.",
-  "contribution": ["transcription", "key extended or corrected", "catalogue correction"],
+  "contribution": [
+   "transcription",
+   "key extended or corrected",
+   "catalogue correction"
+  ],
   "class": "read",
   "fraction_read": "unknown",
   "grades": "unknown",
@@ -263,6 +509,6 @@
    "matched control",
    "historical consistency"
   ],
-  "notes": "f. 124: 96 of 100 signs; siblings read in substance with four unread runs on f. 164."
+  "notes": "f. 124: 96 of 100 signs; siblings ff. 160/164/174 read in substance; session 3 (pass 2): f. 154r 96.7%, f. 154v 92.0%, f. 156r 97.2%, f. 156v 88.2% (together 1521/1639 = 92.8%); remaining gaps at the microfilm gutter; ff. 182-189 (9 May) are clear."
  }
 }

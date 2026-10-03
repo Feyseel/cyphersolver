@@ -1,0 +1,52 @@
+# BnF fr. 4735 no. 60, f. 154v (canvas 297): Lanssac to Anjou, 24 April 1573, continued. Session 3 transcription.
+# Format as ct_f154.txt. The right ends of the cipher lines run into the gutter on the microfilm; signs lost there are
+# not counted (marked ~ in the reading). The decipherment is in the OUTER (left) margin of the verso and survives in full:
+# Gloss, block 1: "Car je n'ay pas | cinquante escuz | et y ay emprunté | plus de xvᶜ aussy | estoit le party |
+#   [bien] belistre pour | venir si loing | demeurer si long | temps et faire | contrecarre a celuy | qui par beaucoup de |
+#   grandz dons ne | sçauroyt vaincre | les ... du frere(?)"
+# Gloss, block 2: "Je espere que dans | peu de jours tous | ceulx la avec beaucoup | d'aultres seront voz [subjectz]"
+# Clear before: "Monseigneur, ... ne pourroit faire sans l'argent pour ses affaires"
+@A
+Z i X | s pi q9 | Y T g | 7 i s B pi s 3 X | x2
+= car je | n'ay | pas | cinquante | {x2}
+# ~ gutter: es[cus]
+@B
+x3 ot Lo | cross c 8 obul | B X | q9 G s | pi i | ast nn Y F ff nn sh ast | Y 3
+= {x3} -us | combien | que | j'en | ay | emprunté | pl-
+# ~ gutter: [us]
+@C
+4h | Ng q9 s sh X | 7 ast s g
+= de | quinze | cens
+# clear: "Aussi estois je party"
+@C2
+obul | 4 X 3 i st F
+= bien | belistr-
+# ~ gutter: [e]
+@D
+pour | ot X s i F | Lo q9 3 c i s oo | de4 | 4h 8 X ot phi ast F | g i 3 c s oo sh X
+= pour | venir | si loing | et | demeurer | si longte-
+# ~ gutter: [mps]
+@E
+x4 | de4 | of T i F X | 7 c s sh phi ast | 7 pi phi F X | T | 7 X ff 3 Pi2 | B i
+= {x4} | et | faire | contre- | -carre | à | celuy | qui
+# ~ gutter: [par] (gloss "qui par beaucoup")
+@F
+4 X T ot 7 c u2 Y | 4h | oo phi T ns | hh L ns | nn X | g 7 pi ot F c sm
+= beaucoup | de | grans | dons | ne | sçauront
+# ~ gutter: [va]
+@G
+q9 s 7 F X | 3 G Y s c 8 F ast | Lo i F | s of X phi q9 X ot F | Y de4
+= -incre | {3 G Y s c 8 F ast} | {Lo i F} | [i]nferieur? | {Y de4}
+# clear: "... vous avoir fasché par ceste importunité pour m'excuser ... valdroient bien en France plus de trois cens escus la piece"
+@H
+et | X g Y G F ast | B X | hh pi ns | Y X ot | 4h | q9
+= et | espere | que | dans | peu | de | j-
+# ~ gutter: [our]
+@I
+g | sh c ot Lo | 7 X ff 3 Pi2 | 3 pi | T ot X 7 | 4 X pi u2
+= -s | tous | ceulx | là | avec | beau-
+# ~ gutter: [coup]
+@J
+hh pi u2 sh F X g | Lo ast F c sm | ot L g | Lo ot 4 i X 7 sh
+= d'autres | seront | vos | subjectz
+# clear: "Monseigneur, apres vous avoir baisé tres humblement les mains ... De Varsovie le xxiiije jour d'avril 1573"

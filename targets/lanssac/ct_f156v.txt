@@ -1,0 +1,143 @@
+# BnF fr. 4735 no. 61, f. 156v (canvas 301): Lanssac to Catherine de Médicis, Warsaw, 24 April 1573, continued.
+# Session 3, PASS 2 (2 Oct 2026): re-transcribed line by line at full scale from img/v156a_deskew.png and
+# img/v156b_deskew.png (crops img/F_v156a_*.png, F_v156b_*.png). Pass 1 (reduced scale) is kept as ct_f156v_pass1.txt.
+# Format as ct_f154.txt. Signs struck through by the writer are written with a trailing ~ in the label (e.g. "Lox~")
+# and are left out of the count (measure.py skips labels ending in ~). Signs lost in the gutter are not counted.
+# The contemporary decipherment is in the outer (left) margin and survives nearly whole, a few lines behind the cipher:
+#   "Mais de crainte que | l'Empereur cependant | ne nous surprenne et | que le Roy de Dannemarch | ayant obtemperé a sa |
+#   volunté ne nous | donnast beaucoup d'aff[aires] | de ce costé la a cause | du destroit qui n'a | pas demie lieue de |
+#   large et deux fortz | situez des deux costez | de venir par terre | Il n'y a aucune apparence | que monseigneur le doibve |
+#   faire aussi ne luy | vouldrois je conseiller | de se mettre a la mercy | de ceulx qui par tous | avec propos et actions |
+#   si monsieur estoit | ennemy(?) d'icy de la | France et specialement de | monseigneur ... | sont extremement marrys |
+#   s'il fault qu'il[z] | se voyent enclos de deux | si puissans roix ... | ...lez seront. Que mons. | seigneur vienne par l'Italie |
+#   et la Dalmace. Oultre | la difficulté longueur [du chemin] | la despense y seroit | trop grande. Car | j'estime que ces
+#   seigneurs | demanderont qu'il | amaine iiii mil gascons | dont vous avez ouy parler | Il ne me reste plus | a vous ...
+#   sinon | que vous recueilliez le | plus d'argent que vous | pourrez ensemble afin | que quant ces seigneurs de | deça
+#   envoyeront ambassad. | pour porter la couronne | a Monseigneur et y arriveront | ... vous ne soyez | lors empesché d'y
+#   trouver ... | sera hors de propos aussi de [commander] a ses estatz que leurs navires seront propres a l'embarquement
+#   et mettre en ordre les galleres pour pouvoir servir. J'en ose parler avec telle asseurance d'autant que [de ceste]
+#   nation il n'y a que quatre [serviteurs?] ... et que toute la noblesse crie pour avoir ung roy ..."
+# Clear before L01: "... on pourroit bien faire apres avoir esté advertys de la conclusion de ces estatz"
+@L01
+8 cross g lf | hh X | Lox~ phi~ X~ | 7 F pi i s g | B ast
+= mais(gloss) | de | | crainte | que
+# 8 has "mais" written above it with a caret by the decipherer; the four-sign group recurs at L10 in the same place
+# (before "si monsieur estoit"), so it is read as one word sign group; signs struck by the writer after "de" not counted
+@L02
+of | hh llp Cq Nb | s i | Lo c i 3h | Y F X ot ast nn u2 | sm | Mu X
+= l'Empereur | {hh llp Cq Nb} | n'y | soit | prevenu | et | que
+# gloss "l'Empereur cependant ne nous surprenne et que": the 4-sign group stands for "cependant" in the gloss but is not
+# read sign by sign; "n'y soit prevenu" is the cipher where the decipherer paraphrased "ne nous surprenne"
+@L03
+3h 7 3h | F Co q9 | 4h | hh X nn s ast ll pi F 7
+= {3h 7 3h} | roy | de | Dennemarc
+# "le" expected before "roy"; the line end of L02 and start of L03 run into the gutter and the three signs give no word
+# clear: "ayant obtemperé a sa volunté ne"
+@L04
+Gf | hh c s nn T st | 4 X pi ot 7 c u2 Y | hh T
+= nous(gloss) | donnast | beaucoup | d'a-
+# Gf is "me" on ff. 154/156r; here the gloss has "nous" in "ne nous donnast"
+@L05
+pi i F X g | 4h | 7 ast | 7 Co st ast | 3 pi | T | cross T H ot Lo X | hh Ne
+= -ffaires | de | ce | costé | là | à | cause | d'est-
+# cross T H ... = c a a u s e with the a doubled at the turn; Ne (barred N with a loop) = est (new, C)
+@L06
+phi c q9 3h | B blot i nn | pi Y T g | 4h 8 i X | 3 q9 ast ot X | 4h | Mx 3h
+= -roit | qui n' | a pas | demie | lieue | de | {Mx 3h}
+# "de large" in the gloss: the two signs after "de" do not give "large" (the line ends in the gutter)
+@L07
+cross | 4h g | of c F 3h sh | g i 3h ot X sh | 4h g | 4h ot Mx | 7 c st X sh | 4h
+= {cross} | des | fortz | situez | des | deux | costez | de
+@L08
+qq phi Co | 3h X F phi ast
+= par? | terre
+# qq (8-like with strokes) is "par" on f. 160; the second and third signs are its flourish or "ar"; read with the gloss
+# clear: "Il n'y a aulcune apparence que monseigneur le doibve faire, aussi ne luy vouldrois je conseiller"
+@L09
+4h | ll X 7 3h F X | T 3 pi | 8 X F 7 q9 | 4h | cross X ot 3 Mx | Mu | B i
+= de | mectre | à la | mercy | de | ceulx | {Mu} | qui
+# clear: "par tous ... propos et actions"
+@L10
+8 cross g lf | Lo G | 8 c s Bf F X | Bf~ ast~ Bf F X ast | ot
+= mais | si | mon frere | frere(rewritten)? | {ot}
+# the gloss writes "si monsieur estoit": "mon frere" = the King's brother, Monsieur (Anjou); B here = f (two forms of the
+# B sign, qu and f, not separated by the transcription); the writer struck two signs and rewrote "frere"
+@L11
+8 i g q9 ot F X sh | 4h ol~ i | of F pi nn 7 X | de4~ | g q9 X 7 i pi 3
+= {8 i g q9 ot F X sh} | d'i[cy]? | France | | special-
+# gloss "estoit [ennem]y d'icy de la France et specialement": the 8-sign group is "estoit ennemy" in the gloss but gives
+# "m i s i u r e z" under the key; not read
+@L12
+X~ sm L | 4h | 8 c s | sm Lo X i oo nn ast ot F | de4 3 X g | 6 ot ast 3 sh
+= {sm L} | de | mon | seigneur | {de4 3 X g} | {6 ot ast 3 sh}
+@L13
+B | X Mx 3h F ast 8 G ll X B | 8 T phi F i Y | Lo q9 3 | of pi ot 3 3h | 6 q9 3
+= {B} | extremement | marrys | s'il | fault | qu'il
+@L14
+g X | ot c i X B | ast nn 7 3 c g | 4h | hh X ot Mx | Lo blot | i Y u2 i
+= se | voient | enclos | de | deux | si | puiss-
+@L15
+T s 3h sh | F c q9 g | 7 c 8 ll X | Nb sh | g X F c sm
+= -antz | roys | comme | ilz | seront
+# clear: "Que monseigneur vienst par l'Italie et la Dalmace, oultre la difficulté et longueur du chemin la despence y seroit
+#   trop grande. J'estime que"
+@L16
+de4 q9 g cross m B | 7 ast g | Lo ast q9 oo nn X ot F g | 4h 8
+= {de4 q9 g cross m B} | ces | seigneurs | dem-
+@L17
+4h F c sm | 6 i 3 | pi 8 X q9 s G | 6 T 3h F X | 8 i 3 | oo pi Lo
+= -anderont | qu'il | ameine | quatre | mil | gas-
+# 4h F c sm = de r o nt, with "an" lost in the gutter at the end of L16
+# clear: "[gas]cons dont vous avez ouy parler. Il ne me reste plus a vous supplier tres humblement, Madame, sinon que vous"
+@L19
+F de4~ cross~ B~ X 7 ast ot i | q9 X sh | 3 ast Y ol ot g | hh pi F oo X sm | 6 G ast~ F G sh | X s g ast 8
+= recuei- | -liez | le plus | d'argent | querez? | ensem-
+# struck signs after F are a correction by the writer; "ll" of "recueilliez" lost in the gutter
+@L21
+Pb cross nn | 6 G
+= {Pb cross nn} | que
+# gloss "ensemble afin que"; the three signs are not "ble afin"
+# clear: "Quant les seigneurs de deça"
+@L22
+pi 8 4 T | T 4h ot F g | X~ | Y c phi 3h X F | 3 T | 7 c ot F L nn s X | pi | sh
+= ambas- | -sadeurs | | porter | la | couronne | à | {sh}
+# "pour" is not written before "porter"; pi sh = "a" + the three-stroke sign, gloss "a Monseigneur" (not counted as read)
+@L23
+phi i ot X F c sm | Mu X F g | 3 u2 q9 | ot c Mu g | nn X g c i
+= -riveront | vers | luy | vous | ne soi-
+# gloss "et y arriveront"; the start of the word is in the gutter
+@L24
+c phi g | X 8 Y ast g 7 h X | G | hh ast s 3h F c u2 Mx~ X F | cross T
+= [l]ors | empesché | {G} | d'en trouver | {cross T}
+# clear: "Ilz halteront sa venue par deça le plus qu'ilz pourront pour beaucoup de raisons. Il ne sera hors de propos"
+@L25
+pi ot g i | T | c 8 ll X s 7 G phi | pi of T i F X | G 8 pi Mx | 6 X | 3h sh | s pi
+= aussi | {T} | commencer | à faire | {G 8 pi Mx} | que | {3h sh} | na-
+@L26
+F X g | Lo X F c sm | Y F c Y F X g | X 3 | ast 8 4 pi F Gq X 8 ast
+= -vires | seront | propres | à l'? | embarqueme-
+@L27
+de4 | 4h | of pi i F X | 8 G 3h sh phi X | ast s | c F hh phi G | 3 X g | oo pi 3h
+= et | de | faire | mettre | en | ordre | les | gal-
+@L28
+X g | X~ Y c ot u2 c i phi | g X F ot i phi
+= -eres | pouvoir | servir
+# clear: "J'en ose parler avec telle asseurance, Madame, d'aultant que"
+@L29
+4h c | 7 3h T B X Lo i
+= {4h c} | {7 3h T B X Lo i}
+# gloss "d'autant que de ceste nation"; the 7 signs begin c-t-a and do not give "ceste nation" under the key
+@L30
+sh ast ot F g | blot Nb s | q9 X s pi | B ast | Mu G sh F X | 7 c s
+= -teurs | il n' | y en a | que | {quatre? Mu G sh F X} | con-
+# Mu G sh F X: Mu = qu (here), G = a?, sh = t: "quatre" with the gloss; marked ? (G = a not met elsewhere)
+@L31
+ast G | de4 6 X 3h c ot sh ast | 3h G | s c 4 3 X g Lo G | 7 F q9 X
+= {ast G} | et que toute | la | noblesse | crie
+@L32
+u2 c i F | ot s oo | F c i | de4 | s c 8 ll X | 8 G B ot X u2 3 G
+= [pour a]voir | ung | roy | et | nommé | {8 G B ot X u2 3 G}
+@L33
+nn X pi u2 8 c i s g
+= neaumoins
+# clear: "toutes choses sont en la main de Dieu" (continues on f. 157r)

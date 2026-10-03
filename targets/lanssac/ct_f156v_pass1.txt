@@ -1,0 +1,110 @@
+# BnF fr. 4735 no. 61, f. 156v (canvas 301): Lanssac to Catherine de Médicis, Warsaw, 24 April 1573, continued.
+# Session 3 (2 Oct 2026), FIRST PASS from img/c301.jpg (deskewed v156a, v156b) at 0.5-0.8 scale. Format as ct_f154.txt.
+# Cipher runs alternate with clear text across the page; the right ends of lines run into the gutter (lost signs not counted).
+# The contemporary decipherment is in the LEFT (outer) margin and survives almost in full on this verso. It is written as a
+# running text of the whole passage (clear words included), a few lines behind the cipher it explains:
+#   "Mais de crainte que | l'Empereur cependant | ne vous surprenne et | que le Roy de Dannemarch | ayant obtemperé a sa
+#   volunté | volunté. Mais nous(?) | donnast beaucoup d'affaires | de ce costé la a cause | du destroit qui n'a [pas] |
+#   demie lieue de large et bien fortz | situez des deux costez de | venir par terre | Il n'y a aucune apparence |
+#   monseigneur en doibve | ... aussi ne luy | vouldrois je conseiller | de se mettre a la mercy | de ceulx qui par terre |
+#   avec propos et actions | si monsieur estoit | ...(e)nnemy(?) d'icy de la | France et special(ement) des(?) |
+#   monseigneur passe(?) qu'ilz | sont extremement marrys | S'il fault qu'il | se voyent enclos de deux | si puissans roix(?) |
+#   ...lez seront. Quant mons. | seigneur viendra par l'Italie | et la Dalmace. Oultre | la difficulté longueur du chemin |
+#   la despense y seroit | trop grande. Car | ...ces seigneurs | demanderont qu'il | [amaine?] ... quatre mil gascons |
+#   dont vous avez ouy parler | Il ne me reste plus a | vous supplier tres humblement | que vous recueilliez(?) |
+#   plus d'argent que vous | pourrez assembler afin | que quant ces seigneurs de | deça envoyeront ambassad(eurs) |
+#   pour porter la couronne | a Monseigneur ilz arriveront | vers luy(?) ... | ...bien empesché d'y trouver | ...sera hors de
+#   propos aussi de [demander, struck] armer(?) | a ses estatz que leurs navires seront propres ... | mettre en ordre les
+#   galleres pour pouvoir servir. J'en ose parler avec telle asseurance d'autant que ... | ...nation il n'y a que quatre
+#   ... | ...ville(?) en Monseigneur ..."
+# Clear before L01: "... necessairement venir en ce royaulme, c'est chose que tousjours on pourroit bien faire apres avoir esté
+#   advertys de la conclusion de ces estatz"
+@L01
+8 cross g lf | hh X | Lox phi X | 7 F pi i 5 g | B ast
+= mais(gloss) | de | {Lox phi X} | crainte | que
+# 8 has "mais" written over it by the decipherer; Lox is struck through; g read t/e here (context of the gloss)
+@L02
+vo | hh llp Cq Nb 5 i Lo | c i 3h Y F X ot ast nn u2 st | M X 3
+= l'Empereur | {hh llp Cq Nb 5 i Lo} | {c i 3h Y F X ot ast nn u2 st} | {M X 3}
+@L03
+7 3h | F Co q9 | 4h | hh X nn 5 ast ll pi F 7
+= {7 3h} | roy | de | Dennemarc
+# clear: "ayant obtemperé a l'emp[ereur] ... sa volunté, ne"
+@L04
+Gf | hh c 5 nn T st | 4 X pi ot 7 c u2 Y | hh T
+= me | donnast | beaucoup | d'a-
+@L05
+pi i F X g | 4h | 7 ast | 7 Co st ast 3h | 3 pi | T | cross H ot Lo X | hh M
+= -ffaires | de | ce | costé | là | à | cause | {hh M}
+@L06
+phi c q9 3h | B blot i nn | pi Y T g | 4h 8 i X | 3 q9 ast ot X | 4h | 3 pi
+= -roit | qui n' | a pas | demie | lieue | de | la-
+@L07
+cross | 4h g | of c F 3h sh | g i 3h ot X sh | 4h g | 4h ot M | 7 c st X sh | 4h
+= {cross} | {4h g} | fortz | situez | des | deux | costez | de
+@L08
+phi q9 Co | 3h X F phi ast
+= {phi q9 Co} | terre
+# clear: "Il n'y a aulcune apparence que monseigneur le doibve faire, aussi ne luy vouldrois je conseiller."
+@L09
+4h | ll X 7 3h 4h X | T | 3 pi | 8 X F 7 q9 | 4h | cross X ot 3 Pi2 | st i
+= de | {ll X 7 3h 4h X} | à | la | mercy | de | ceulx | {st i}
+# clear: "par tous ... propos et actions"
+@L10
+8 cross g lf | Lo Gf | 8 c 5 8 F X g X 8 F X ast
+= mais(gloss) | si | {8 c 5 8 F X g X 8 F X ast}
+@L11
+8 i g phi ot F X ll | 4h ol i of F pi nn 7 X | 3h | g Y X 7 i pi 3
+= {8 i g phi ot F X ll} | de la France | et | special-
+@L12
+X 8 | 4h | 8 L 5 | Lo X i oo nn ast ot F | 4h 3 X g | 6 ot ast 3 ll
+= -ement | de | mon- | -seigneur | {4h 3 X g} | {6 ot ast 3 ll}
+@L13
+6 | X M 3h F ast 8 L ll X g | 8 T phi F i Y | Lo q9 3 of pi ot 3 3h | 6 q9 3
+= {6} | extremement | marrys | s'il fault | qu'il
+@L14
+g X | ot c i X oo | ast nn 7 3 c g | 4h | hh X ot M | Lo q9 | i Y ot nn ot Y
+= se | voient | enclos | de | deux | si | {i Y ot nn ot Y}
+@L15
+T 5 3h ll | F c q9 g | 7 c 8 ll X | Nb | ll g X F c g
+= {T 5 3h ll} | roys | comme | il | {ll g X F c g}
+# clear: "Que monseigneur vienst par l'Italie et la Dalmace, oultre la difficulté et longueur du chemin la despence y seroit
+#   trop grande. J'estime que"
+@L16
+de4 q9 g cross m Co | 7 ast g Lo ast q9 oo nn X ot F g | 4h 8
+= {de4 q9 g cross m Co} | ces seigneurs | {4h 8}
+@L17
+4h F c Co | 6 i 3 | pi 8 X q9 5 of | 6 T 3h F X | 8 i 3 | oo pi Lo
+= {4h F c Co} | qu'il | {pi 8 X q9 5 of} | quatre | mil | gas-
+@L18
+c g
+= -cons
+# clear: "dont vous avez ouy parler. Il ne me reste plus a vous supplier tres humblement, Madame, sinon que vous"
+@L19
+F de4x cross qq X 7 ast ot
+= {F de4x cross qq X 7 ast ot}
+@L20
+q9 X ll 3h ast | Y ol ot g | hh pi F cross oo X Co | 6 Gf M F Gf ll | X 5 g ast 8
+= {q9 X ll 3h ast} | plus | d'argent | {6 Gf M F Gf ll} | ensem-
+@L21
+Pb qq i vo c Lo
+= {Pb qq i vo c Lo}
+# clear: "Quant les seigneurs de deça"
+@L22
+pi 8 4 T Y | T i 4h ot F | pour | oo c 3h X F | 3 T | 7 c ot F L nn 5 X | pi sh
+= ambas- | -sadeur | pour | porter | la | couronne | {pi sh}
+@L23
+u2 Co i F | ot s oo | F Co i | 4h | s Co 8 ll X | 8 Gf st ot X u2 3 Gf
+= voir | ung | roy | de | nomme | {8 Gf st ot X u2 3 Gf}
+# L23-L24 re-read at full scale (img/gc3.png, gc4.png); the first pass had them as "vers luy vous ne soyez ... empesché", which was the gloss, not the signs
+@L24
+nn X pi u2 8 Co cross s g
+= neaumoins?
+# clear: "Ilz halteront sa venue par deça le plus qu'ilz pourront pour beaucoup de raisons. Il ne sera hors de propos"
+@L25
+pi ot g i | 7 c 8 ll X 5 7 G phi | pi oo T G F X | G 8 pi ll | 6 X 3 ll 5 pi
+= aussi | commencer | {pi oo T G F X} | {G 8 pi ll} | {6 X 3 ll 5 pi}
+@L26
+X g | Lo X F Co oo | Y q9 Co Y F X g | X 3 | ast 8 4 pi F Gf X 8
+= {X g} | seront | propres | {X 3} | {ast 8 4 pi F Gf X 8}
+# the remaining cipher lines of v156b (lines at y 1990-2170) and the clear close follow on f. 157r; not transcribed this pass

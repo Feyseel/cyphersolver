@@ -1,0 +1,56 @@
+# BnF fr. 4735 no. 61, f. 156r (canvas 300): Lanssac to Catherine de Médicis, Warsaw, 24 April 1573. Session 3 transcription.
+# Format as ct_f154.txt. Gloss in the inner margin, gutter-cut; line ends:
+#   block A: "...[cho]ses sont de | ...[te]lz termes | ...[es]pere dedans | ...[prochai]n vous serez | ...[me]re des deux plus |
+#             ...[roy]s du monde | ...[n] quelque"
+#   blocks B-C: "...[pu]blique(?) a ne | ...mal faict | ...[Ma]jesté envoyast | ...vers le Roy de | ...[Danne]march non pour luy |
+#             demander passage | ...[con]sidere(?) | ...Imperiaulx"
+# Clear before block A: "... et de ceulx de mon maistre. Vous advisant, Madame, que"
+@A1
+sm s cross hh de4 | 3 X g | 7 h c Lo ast g | Lo c sm | 4h Y phi X Lo ast
+= {sm s cross hh de4} | les | choses | sont | de prese-
+# de4 here is struck through in the manuscript (a deleted sign)
+@A2
+sm | ast s | 3 X 3 sh | sh ast F 8 X g | B G | q9 ast g Y X F G | 4h hh pi ns | 3 ot
+= -nt | en | telz | termes | que | j'espere | dedans | lu-
+@A3
+s hh q9 | Y F c 7 h T i nn | u2 c ff g | Lo X F ast sh | blot 8 X F ast
+= -ndi | prochain | vous | serez | mere
+@A4
+4h N | 4h ot sq | Y 3 u2 g | oo F pi s | phi c q9 Lo | hh ot | 8 c s 4h | Lo
+= des | deux | plus | grans | roys | du | monde | s'
+@A5
+i 3 | nn pi hh ot i X sm | B G 3 | Ng ast | 7 h T s oo X 8 ast sm | 4h ot
+= il | n'advient | quel | que | changement | de v-
+@A6
+c 3 u2 s sh ast sh | pour | Ng X 3 B G | oo F pi s 4h | h | i s c Y q9 s G X
+= -oluntez | pour | quelque | grande | {h} | inopinée
+@A7
+L 7 cross pi Lo i c s | hh L sm
+= occasion | dont
+# clear: "Vous avez a rendre graces a Dieu ... afin qu'il n'empeschast le passage de son destroit en mer si Monseigneur estoit esleu"
+@B1
+N | 8 X | g ast 8 4 ol X
+= il | me | semble
+@B2
+B ast | 7 X | s ast | Lo G F pi | Y T Lo | 8 pi 3 | of pi i 7 sh | ff G
+= que | ce | ne | sera | pas | mal | faict | {ff G}
+@B3
+ot c st F X | 8 T q9 ast st G | X s u2 c q9 pi st | Ng X 3 B
+= vostre | Majesté | envoyast | quelqu-
+@B4
+2 s oo | x5 | u2 X F g | 3 G | F c q9 | 4h | hh X s nn ast 8 T F 7 | s c nn
+= [u]ng | {x5} | vers | le | roy | de | Dennemarc | non
+@B5
+pour | 3 ot q9 | 4h 8 pi s 4h phi | Y T g Lo pi oo X | ot ast ff | B G
+= pour | luy | demander | passage | veu | que
+# clear: "la chose n'est encores reduite a son effect. Mais bien"
+@C1
+pour | 3 ot q9
+= pour | luy
+@C2
+of T q9 F X | ast s 3 G s hh phi X | Ng ast | 3 G g | i 8 Y X F ast pi ot 3 Pi2
+= faire | entendre | que | les | imperiaulx
+@C3
+nn c Lo | X s nn G 8 q9 Lo | ast s | 7 X | of H q9 7 3
+= nos | ennemis | en | ce | faict
+# clear: "n'ont sceu objecter autre difficulté pour empescher la promotion de Monseigneur, sinon qu'ilz disent ..."
