@@ -1,0 +1,64 @@
+# System A′ decrypt, 2 Oct 2026: key re-learned per letter (EM seeded with the improved R9407 key, augurelio1535/pass2/key.txt, then 4 rounds of word-beam re-estimation); sysA2/run.py --alpha 1 --rounds 4 --beam 1500 --lam 1.0; machine output, word division by the beam. Hand reading: reading.txt.
+== P1 ==
+P1.01 [ornamental A] mdurchleusti blosse dorn fur ist endend dische den des
+P1.02 [15 Aprilis] newen dir eurn [F.G.] noui zeit [F.G.] du solch der maghen se
+P1.03 cht andern das und eur [F.G.] detrehendt du zeuchst sermolinat
+P1.04 eur [F.G.] cht und so geuss empfahen die der id sich euer mit der
+P1.05 weil neue heit uns eur [F.G.] uon acto on gut wissen du getragen
+P1.06 fuegend wir nie mit eurn [F.G.] ondertaenig gleich uo uernemen
+P1.07 [ornament] [21 Aprilis] d seiner dises got alle ein mit ire es on
+P1.08 ankomen die mir c ihr den diese uber hie sunde solchen mi
+P1.09 t dem hin helt das sic secum teil die cutiert darumd das er ob
+P1.10 ime so den suo iererbsten die wesen mit d theur rede g
+P1.11 ut die ers uon de den sich einer cristen leit leiden
+P1.12 das d mit irer fuertragen die rew diesen das durch [K] h die
+P1.13 sein so die so o auss unserer nach und so er du irer stra
+P1.14 gewogen ret dem ewig die anzeigen das besser kein uer
+P1.15 tragen zu nim im den guete regierung er ire reimen zu die
+P1.16 komen uersaumen [Et primo] reg das der pundt durch seind eur
+P1.17 [F.G.] mels der tymnt sicherers solche wien noe macht den [K]
+P1.18 bu kriegen zustande also ir kein mal gewesen noch werden
+P1.19 sie in dieweil die werck o den sonderten burger furst
+P1.20 en gen umb thuer oder nun grosser bei so iungsten und uete
+P1.21 ungezweifelter clene gedachts fursten c taub mit
+P1.22 guetem rechts titel einzunemen darzu erlandgraf sein
+P1.23 bestuericus und mels bose mit uigen andern aus den le
+P1.24 ben fursten up item hat in thun neh mit der uertrost
+P1.25 ung es sol wider [K] ein so diser zug ubel derscheidt den
+P1.26 ich an gedencken bist se uiel der gleichs iren teutelend
+P1.27 [K] iter wortt das der welt den er ire furnemer sie uere
+P1.28 so dess bei disem boten ime zu freuden do mit er sich
+P1.29 s seine sachen darnach zurichten hette darauff den boten
+P1.30 in ehlicht der anti wirt ewige fertigt das ers auss be [K]
+P1.31 ilxhiber x wol lxb x die geist des tere gesandten als nemlich mich cae ernd iuncker
+P1.32 s mit wir ein brot ist zu im es andern seiner parthei
+P1.33 fursten sich in die dein sachen ziweben eure der [F.G.] aus hin
+P1.34 dersich bring und memand lenger hof mich bald hinnach beko
+P1.35 men schen worden ll liebe lassens und andere neue zeit und
+== P2 ==
+P2.01 so sich huetten sind die dass irrden hauffen chiorgen
+P2.02 sich lob das mus pfluegen den der bis und geacht perso
+P2.03 nen mit sich in c hungern in ein stat de wir ich engenant
+P2.04 ila biber xi ex b xxii leb x dicebiib gefurt mee im eben seiner die soldung ein gegend seet des
+P2.05 tage bei sich behaltend als sie ich zur schreiten ge
+P2.06 gen dem he sich arckt sind se uon francken die die chen dei
+P2.07 nem flecken beulchen genant odder sagen hefen sind hart
+P2.08 der bundten zu die sorgen mand werde sie er ist in das macht
+P2.09 des rund der etliche handlung [Principium immo illius totius negotii est]
+P2.10 [Illud?] dass ueber ist den ich gedachts francken die die ch
+P2.11 [K] rueder ein brot ists priester alhie iunii eingeno
+P2.12 men darumb in es gefangen und e der aus burg fast ausge
+P2.13 lassen d hat die den zu seinem brueder hat er im es mit der
+P2.14 seiner un priesterlichen handlung die gene gesehe
+P2.15 gueter genomen dene mit die ein einkomen lassen den
+P2.16 so micha durch die ferdinand eben sol und der est das er u mit
+P2.17 gesehen das in aus disem heurat erwiessen das hattend der
+P2.18 eurn [F.G.] una der underthenigkeit nit die hend werden den un
+P2.19 d der uns daher gehorsame die felsen thun [Datum 24 Aprilis]
+P2.20 [Anno C xxxiiij]
+P2.21 ixrde ziel c libell hend dz bllmnsriti xxxix olmbsnixblixecrex brod dz xii xl xc [F.G.]
+P2.22 [25 <Marcii struck through> Aprilis] fulet die feur [F.G.] brief so uns durch stehen
+P2.23 bdcncken [des 23 Aprilis] zukome nicht sach tit dess bruehe b
+P2.24 dem [K] h zu gesicht die ein gedachten stehen bald eid fertigen
+P2.25 r sagt die ehe kundt im reich uier das bund seind wil
+P2.26 unsicht seinen [F.G.] euen beren [F.G.] ig gesehen

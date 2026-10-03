@@ -174,8 +174,8 @@
   {
    "id": "R9408",
    "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 ff.236-239 (DECODE R9408)",
-   "date": "[1535]",
-   "year": "unknown",
+   "date": "8 Feb 1534 (Ofen; read in cipher 2 Oct 2026)",
+   "year": 1534,
    "country": "Germany",
    "route": "unknown",
    "language": "German",
@@ -202,8 +202,8 @@
   {
    "id": "R9409",
    "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 ff.240-243 (DECODE R9409)",
-   "date": "[1530s]",
-   "year": "unknown",
+   "date": "[early 1534]",
+   "year": 1534,
    "country": "Germany",
    "route": "unknown",
    "language": "German",
@@ -258,8 +258,8 @@
   {
    "id": "R9413",
    "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 ff.252-256 (DECODE R9413)",
-   "date": "[1530s]",
-   "year": "unknown",
+   "date": "7 Jun - 8 Jul 1534",
+   "year": 1534,
    "country": "Germany",
    "route": "unknown",
    "language": "German",
@@ -370,8 +370,8 @@
   {
    "id": "R9427",
    "shelfmark": "BayHStA Kurbayern Äußeres Archiv 4591 f.287 (DECODE R9427)",
-   "date": "Apr [year illegible]",
-   "year": "unknown",
+   "date": "24 Apr [15]34",
+   "year": 1534,
    "country": "Germany",
    "route": "unknown",
    "language": "German",
@@ -550,6 +550,60 @@
    "kind": "reading",
    "what": "R9416 f.263 recto lines 11-16 re-keyed by hand from the v2 transcription and checked word by word on the image: v2 sign z split into e (one-bar zig-zag) and s (two-bar dagger), b into d and l; lines 11-12 agree with the faint contemporary gloss ('das aus den tag zu bresburg erfolgt ist dahin auch / des Ferd tail ... mit grossem bumbb kummen sint auch'). Normalised passage (Pressburg diet, 'mit grossem Pomp', full powers, the Turkish embassy on Shrove Tuesday) in r9416/reading_p3_11-16.txt; rest of f.263 not yet re-keyed.",
    "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "transcription",
+   "what": "R9408 look-alike split finished at the image: P6 l.24-31, P7 and six flagged tall looped signs on P5-P6 (all K, a seventh K at P6 l.10; two # -> U; three ringless δ b -> d; one dropped 8); 17 edits, r9408/transcription_v3.txt, r9408/split_p6p7.md. The R9410 split had already been applied to R9409, R9413 and R9427 (their split.md) but not recorded in NOTES.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "control",
+   "what": "Lexical measure sysA2/lexmeasure.py (DTA words + chancery vocabulary, Viterbi segmentation) calibrated on R9407: hand reading 0.912, pass-2 machine decrypt 0.786, the same under a random letter key 0.194. Old decrypts of the five A′ letters: R9408 0.585, R9409 0.582, R9410 0.690, R9413 0.647, R9427 0.546.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "sibling key",
+   "what": "Improved R9407 key (augurelio1535/pass2/key.txt, polyphonic options) applied as is by sign shape to R9408, R9409 (codes mapped), R9410, R9413, R9427 with a word-aware beam: lexical share 0.661, 0.746, 0.785, 0.721, 0.633.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "solver",
+   "what": "Per-letter key re-learned: Baum-Welch on a letter-trigram HMM (de-1500s) seeded with the R9407 key, Dirichlet prior to the seed, then word-beam decode and 4 rounds of re-estimation from the beam output (sysA2/run.py); merges c# = ck (R9408), w3v before F.G. = eur. Lexical share R9408 0.875, R9409 0.840, R9410 0.864, R9413 0.848, R9427 0.847. A pooled key over all five letters did no better than per-letter keys; LAM 1.0 slightly better than 0.6.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "statistics",
+   "what": "Per-letter keys show new merged look-alikes not split on the images: R9408 y = t and r (undotted γ coded y), R9408/R9427 4 = e and i (4 vs open ч as on R9407), R9409 ç+ = f/v, sch, da; R9413 Z mostly i, also u and e.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "reading",
+   "what": "Hand reading rounds over every line of the five letters (r94xx/reading.txt; drafted by text-only reading agents from the decrypts with sysA2/show.py and checked with the strict sign-alignment measure sysA2/measure2.py; R9409 P7 read in the main session after the agent stopped). Words read (count.py, {?} unread): R9408 1358/1528 = 88.9%, R9409 1911/2361 = 80.9%, R9410 f.244r 255/304 = 83.9%, R9413 1431/1663 = 86.0%, R9427 419/542 = 77.3%; all five 5374/6398 = 84.0%. Strict measure2: 0.814, 0.721, 0.729, 0.799, 0.638.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "crib",
+   "what": "Values forced by context in the readings: R9409 Ŧ = l, ç = s, ç+ = f/v, 7o/ço = h, ð = ich, Θ = n, ʝ = und; R9408 my = m, R = und, d = r; R9413 k = ich, d = r, Mj = m, ro = h, J+ = sch; R9427 R = und, nn = w, β = sch/f; all: Q = l/ll besides g, a lone β and a# are nulls. R9408 is signed Weinmaister, Ofen 8 Feb 1534; R9413 addressed to secretary Waisenfelder.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "solver",
+   "what": "Supervised re-key from the hand readings (sysA2/supkey.py) and re-decode: lexical share fell (R9408 0.838, R9410 0.847, R9413 0.838, R9427 0.817), so the EM keys stand.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "reading",
+   "what": "R9410 ff.246-247 (P3-P6, a second letter dated Anno XXXIIII) found never transcribed; left open.",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -563,7 +617,7 @@
   ],
   "class": "read in part",
   "fraction_read": "unknown",
-  "notes": "Read: R9325, R9322, R9417; mostly R9323; R9416 f.262 at the time; R9416 f.263 broken (working decrypt). Open: R9408, R9409, R9410, R9413, R9424, R9427, R9367; R9319 blocked (cover letters not imaged); R9291 is a key fragment.",
+  "notes": "Read: R9325, R9322, R9417; mostly R9323; R9416 f.262 at the time; R9416 f.263 broken (working decrypt). System A′ letters read in part with the R9407 key re-learned per letter (2 Oct 2026): R9408 88.9%, R9409 80.9%, R9410 f.244r 83.9%, R9413 86.0%, R9427 77.3% of words. Open: R9424, R9367, R9410 ff.246-247 (not transcribed); R9319 blocked (cover letters not imaged); R9291 is a key fragment.",
   "verification": [
    "contemporary decipherment",
    "key confirms",
@@ -572,19 +626,39 @@
   "key": "partial",
   "gaps": [
    {
-    "item": "R9408 clean reading",
+    "item": "R9408 unread words (170 of 1,528)",
     "blocker": "open-codes",
-    "detail": "decrypt working; E/X/a+ unsettled"
+    "detail": "legible signs, values unsettled; y and 4 look-alikes to split on the images"
    },
    {
-    "item": "R9413",
+    "item": "R9409 unread words (450 of 2,361)",
     "blocker": "open-codes",
-    "detail": "transcription in progress; System A' key should apply"
+    "detail": "salutation, P7, names; ç+ covers several signs"
    },
    {
-    "item": "R9409/R9410/R9427 clean readings",
+    "item": "R9410 f.244r unread words (49 of 304)",
     "blocker": "open-codes",
-    "detail": "signs E (d/ch) and a+ unsettled"
+    "detail": "P1.03-05, the a# group"
+   },
+   {
+    "item": "R9410 ff.246-247",
+    "blocker": "not-attempted",
+    "detail": "second letter, not transcribed"
+   },
+   {
+    "item": "R9413 unread words (232 of 1,663)",
+    "blocker": "open-codes",
+    "detail": "P1 opening, ore description, 4o group"
+   },
+   {
+    "item": "R9427 unread words (123 of 542)",
+    "blocker": "open-codes",
+    "detail": "line ends P1.01-03, names on P2"
+   },
+   {
+    "item": "K word sign (System A′)",
+    "blocker": "open-codes",
+    "detail": "probably King Ferdinand in R9413; no key gives it"
    },
    {
     "item": "R9416 f.263 clean reading",

@@ -22,14 +22,14 @@ they are separate letters in at least six systems, several with their key a few 
 | R9323 | 123 | Latin note to the Bavarian secretary (Łaski circle) | System B | rebuilt from glosses | 3 of 13 lines, rest in hand |
 | R9325 | 129 | Latin note, Fulda affair (1576) | letter substitution + nomenclator | **R9324 (f.124–127)** | **read** |
 | R9367 | 169 | German letter, son to father, 22 March 1535, names/phrases in cipher | letter signs | **R9423 block 2_4 ("H. Wilh.")** + values from context | **broken**, read in part (`r9367/decode_test.txt`) |
-| R9408 | 236–239 | Anno 1534, German report to "Sp…nio" (Sperantio?) with Latin clear passages: Hungary, the Turk, Constantinople, Syria, "dreissig tausent man aus dem teutschen land" | System A′ | R9427 gloss key | **broken**, read in part (`r9408/decrypt_working.txt`) |
-| R9409 | 240–243 | German intelligence report with clear phrases, numbered articles and answers (pp.5–7), postscript "Auf den Reichstag…"; 11,311 signs transcribed | System A′ (same as R9410/R9427) | anchors from R9427 gloss | **broken**, read in part |
-| R9410 | 244–247 | German, Anno 35, to the duke: the Turks, "bruederlich halten" | System A′ | R9427 gloss key | **broken**, read in part (`sysA/r9410_decrypt_working.txt`) |
-| R9413 | 252–256 | two German letters to the duke, [July] and 7 June 1534: Niclas Jurisitz, Cornelius (Sperantio?), Antonius Rincon the French king's orator, Constantinople, Emericus (Czibak), the Turk | System A′ | R9427 gloss key | **broken**, read in part (all 8 pp. transcribed, ~7,380 signs; letters of 11 July and 7 June 1534, a 3rd dated "8 Julij"; sign Z unassigned, probably a null) |
+| R9408 | 236–239 | Jörg Weinmeister (signed in cipher) to the dukes, Ofen 8 Feb 1534, with Latin clear passages: his mission and a ratschlag, the Turk's power and money, mining (Schmaltz, Reinhart), Katzianer before Kaschau, the priest-bishop Emericus, bad coin with the dukes' stamp; P1 a separate news page (Emperor Sigmund, Constantinople, Syria) | System A′ | R9407 key carried over, re-learned per letter (2 Oct 2026) | read in part, **88.9%** of words (`r9408/reading.txt`) |
+| R9409 | 240–243 | German intelligence report of early 1534 with clear phrases: Ferdinand and the confederation, the Turkish embassy, Pressburg, Katzianer and Majláth in Transylvania, Késmárk, Poland and Muscovy; numbered articles on mining (Antoni Slesinger, Schmaltz, Freiberger, gold-exchangers); postscript "Auf den Reichstag" | System A′ (same as R9410/R9427) | R9407 key carried over, re-learned per letter | read in part, **80.9%** of words (`r9409/reading.txt`) |
+| R9410 | 244–247 | f.244r: German, "datum … ersten [a]brilis Anno 35", to the dukes: a treaty, the King of France, "bruederlich halten" against the Turks; ff.246–247 (P3–P6) a second, denser letter with Latin clear phrases, Anno XXXIIII, **not transcribed** | System A′ | R9407 key carried over, re-learned per letter | f.244r read in part, **83.9%** (`r9410/reading.txt`); P3–P6 not transcribed |
+| R9413 | 252–256 | letters of a Bavarian agent to the dukes, July and 7 June 1534 and a third of "8 Julij", addressed to secretary Waisenfelder: Cornelius, the French orator Antonius Rincon at Constantinople, Katzianer, the bishop of Wardein before Hunyad, the Württemberg war, an ore sample from near Ofen, the Turk's fleet, the Pressburg diet | System A′ | R9407 key carried over, re-learned per letter | read in part, **86.0%** (`r9413/reading.txt`) |
 | R9416 | 262–263 | pp.1–2 a Bavarian servant to his duke, "eritags nach Jacobi" (Tuesday after 25 July): troops in Austria/Styria, asks for 7 years' pension and the Oberrichter post at Straubing; pp.3–4 another sign set | homophonic signs | interlinear | pp.1–2 **read at the time**; pp.3–4 **broken ciphertext-only** (de-1500s model), report on the Pressburg talks between the two kings and the Turk |
 | R9417 | 264 | Łaski at Kraków, 16 June [1530], to the Bavarian secretary "Waisenfelder": Buda siege, Nicolaus Min… sent to France, meeting at Coburg | System B | rebuilt from glosses | **read** |
 | R9424 | 274–277 | German letter, cipher in Latin-letter substitution | letters | margin notes | |
-| R9427 | 287 | German newsletter to a duke, dated 24 April [15]34, postscript 25 April; gloss over lines 1–10 | System A′ | partial key from gloss: 5 a, 4/ω e, □ n, p i, 8 h, 9 o, ↓ r, ÿ t, 7 m, π b, X = F.G. | **broken**, key rebuilt from its own gloss; P1 11–35 and P2 decoded (`r9427/decrypt.txt`), read in part |
+| R9427 | 287 | German newsletter to a duke, 15/21/24 April [15]34, postscript 25 April: the Württemberg affair (the Bund, the dukes of Württemberg, the Landgrave), Ferdinand, a provost-priest who married and was imprisoned; gloss over lines 1–10 | System A′ | gloss key, then the R9407 key carried over and re-learned | read in part, **77.3%** (`r9427/reading.txt`) |
 
 System A (signs ↓ ω π 4 8 ÿ …) is also the system of R9368, R9407 (Augurelio), R9411–R9412 (Cornelio Sperantio):
 (R9411–R9412 are written up separately in `targets/sperantio1534/`: King John to the dukes, 6 Feb 1534, and a Buda
@@ -106,7 +106,7 @@ curve) are passed over by the gloss and are not rendered. Lines 17-19 read in ou
 Brief vom Kaiser bracht hat, welcher in Latein transferirt ist, desselben Copei ich E. F. G. hiemit schick";
 "mit vy fngioDDio" on line 17 (perhaps "mit ir Scheffe[n]") is not settled. The rest of f. 263 is not re-keyed.
 
-## System A′ (R9409, R9410, R9427; R9408 and R9413 being transcribed) — key from the R9427 gloss, read in part
+## System A′ (R9408, R9409, R9410, R9413, R9427), 21 Sept 2026 — key from the R9427 gloss (superseded by the 2 Oct section below)
 
 A full-zoom alignment of R9427's gloss (lines 1–5, 7–10; `r9427/aligned_full.tsv`, `r9427/key_full.tsv`) gives a
 homophonic letter substitution with a code sign X = "F.G." (w3vX = "ewr F.G."). In R9410 codes: 4 e, w e, q(□) n,
@@ -119,11 +119,99 @@ angezaigt … gehorsamen underthenigen … meinen genedigsten herren … datum",
 part the same way (`r9409/decrypt_working.txt`): "genedig… februari… angezaigt… der turckische kaiser… Ferdinand…
 bruederlich halten…". State: broken; clean readings need the E/a+ signs settled and word division restored.
 
+## System A′, 2 Oct 2026: the improved R9407 key carried back, the look-alike splits applied, hand readings
+
+Work in `sysA2/` (usage in each script's docstring): `prep.py` brings the five v2/v3 transcriptions to one code set
+(R9409's own codes mapped to the R9410 codes by shape; merges jo = ʒo (h), a+ = β, mg = ɱ, Ro = "und", R9408 c# = ck,
+w3v/wUv before the F.G. sign = "eur", the formula glossed on R9427) and writes `REC.tok`; `run.py` learns a key per
+letter (Baum-Welch on a letter-trigram HMM, de-1500s, seeded with the improved R9407 key `augurelio1535/pass2/key.txt`
+by sign shape, Dirichlet prior towards the seed) and decodes with a word-aware beam (de-1500s 5-gram + DTA word
+unigrams + `vocab.txt`), then re-estimates the key from the beam's own output for 4 rounds; `lexmeasure.py` is the
+machine measure; `measure2.py` (the R9407 measure, adapted) and `count.py` measure a hand reading; `show.py` and
+`supkey.py` serve the reading rounds.
+
+**Look-alike split.** The R9410 split (d = l vs the big looped K word sign; # = g vs upright U = u/v) had in fact already
+been carried to R9409 (all pages), R9413 (all pages) and R9427 (`*/split.md`, `transcription_v2.txt`), but not
+recorded here; R9408 had P6 l.24-31 and P7 unchecked. Those lines and the six flagged tall looped signs on P5-P6 were
+checked at the image on 2 Oct 2026 (`r9408/split_p6p7.md`): all six are K, a seventh K at P6 l.10, two # -> U, three
+ringless δ coded b -> d, one dropped 8; 17 edits -> `r9408/transcription_v3.txt`. Also from the split notes: the X
+after c on R9408 is the slanted c#-type sign, so R9408 `c#` = ck (44x), and the F.G.-like signs on R9408 P1 read k.
+New look-alike merges found by the per-letter keys (not split; they need the images): R9408 `y` covers ÿ (t) and an
+undotted γ (r, 19%); R9408 and R9427 `4` take e and i (probably 4 and the open ч, as on R9407); R9409 `ç+` covers f/v,
+sch and da (several signs).
+
+**Measures.** `lexmeasure.py` segments a decrypt into DTA/chancery words (calibrated on R9407: its hand reading scores
+0.912, the pass-2 machine decrypt 0.786, the same decrypt under a random letter key 0.194). Hand readings are counted
+with `count.py` (words read / all words, {?} unread; on the R9407 reading it gives 95.6%) and checked with
+`measure2.py` (strict: a word counts only if every sign under it takes a value the sign takes at least 5% of the
+time; it also fails the words next to a {?}).
+
+| letter | signs | lexmeasure: old decrypt | R9407 key as is | re-learned (`*_g`) | hand reading (count.py) | measure2 (strict) |
+|---|---|---|---|---|---|---|
+| R9408 | 7,068 | 0.585 (`decrypt_v2`) | 0.661 | 0.875 | **1358/1528 = 88.9%** | 0.814 |
+| R9409 | 10,930 | 0.582 (`decrypt_v2`) | 0.746 | 0.840 | **1911/2361 = 80.9%** | 0.721 |
+| R9410 f.244r | 1,329 | 0.690 (`r9410_v2_decrypt`) | 0.785 | 0.864 | **255/304 = 83.9%** (old reading ~69% firm) | 0.729 |
+| R9413 | 7,295 | 0.647 (`decrypt_v3`) | 0.721 | 0.848 | **1431/1663 = 86.0%** | 0.799 |
+| R9427 | 2,640 | 0.546 (`decrypt_v2`) | 0.633 | 0.847 | **419/542 = 77.3%** | 0.638 |
+| all five | 29,262 | | | | **5374/6398 = 84.0%** | |
+
+No hand readings existed before except R9410's (`sysA/r9410_reading.txt`, 278 tokens, 63 "…" gaps, 22 more doubtful).
+Decrypts: `r9408/decrypt_v3.txt`, `r9409/decrypt_v3.txt`, `r9410/decrypt_v3.txt`, `r9413/decrypt_v4.txt`,
+`r9427/decrypt_v3.txt`; readings: `r94xx/reading.txt` (R9410 now has its own folder `r9410/`). The readings were drafted
+by text-only reading agents from the decrypts with `show.py` and checked with measure2; R9409 P7 was read in the main
+session, conservatively. A supervised re-key from the readings (`supkey.py`, then re-decode) did not beat the `_g`
+decrypts (lexmeasure 0.838/0.847/0.838/0.817 for R9408/R9410/R9413/R9427), so the `_g` keys stand.
+
+**Key values forced by context** (from the readings; the A′ hands differ, so they are per letter):
+- all: E = d and ch; n = b/w (and o in R9410 "entschlossen", "darumb wol"); # = g, after c = k; 5 = a, often e; m = i/o;
+  Q = g and l/ll ("aller", "wollen", "allein"; R9410 also z in "angezaigt"); β = b, -er after "ir" (R9410), sch
+  (R9408 "schreiben", "schicken"; R9427 "teutschland"); a lone β, and a#, are nulls/dividers (R9408, R9410).
+- R9408: my = m (Weinmaister, Sigmund), R = "und", d = r in "her(en)", b also l/n.
+- R9409: Ŧ = l (solen, alain), ç = s, ç+ = f/v (Ferdinandischen, abgefertigt), 7o/ço = h, ð = "ich" after "hab",
+  Θ = n, ʝ = "und" as a word, o = w for b (Sibenwurgen); the pair ç# brackets clear passages (divider).
+- R9413: k = "ich" (word sign), Z = i (EM 85%) and e (komen, schreiben) as well as u; d = r in "heren"; Mj = m;
+  ro = h; J+ = sch; [K] probably King Ferdinand ("mit dem [K] ein frid machen").
+- R9427: R alone = "und", nn = w, β = sch/f, A = b/p, o = b, 9 = e (briefen, neue, with the gloss).
+
+**What the letters say** (detail in each `reading.txt`):
+- R9408 (Ofen, 8 Feb 1534, signed "… Weinmaister" in cipher): back from his mission, he handed over a ratschlag for
+  Jörg Weinmeister, put into Latin; the instruction was written without knowledge of the Turk, who pays foreign
+  soldiers in cash and thinks himself "herr der welt"; sums of 100,000 and 12 x 100,000 gulden; mining: Friedrich
+  Schmaltz and his brother-in-law Reinhart, miners to be sent from Schwaz, a silver purchase via Nuremberg; Ferdinand's
+  peace with the Turk, Hieronymus [Zara] and his son Vespasian sent back to the Turk; Katzianer two months before
+  Kaschau; Emericus, provost of Stuhlweissenburg and bishop-elect of Neutra, married and was imprisoned; bad half-batzen
+  bearing the dukes' stamp. P1 is a separate news page (Emperor Sigmund's 6,000 men, Constantinople and Syria).
+- R9409 (early 1534): the dukes and the Roman king to agree on the confederation; a Turkish embassy; the Sultan to
+  come to Constantinople; royal commissioners at Pressburg and Vienna achieved nothing; Katzianer's troops and Rascians
+  on the Transylvanian border, Majláth forcing Hermannstadt, dearth in Transylvania; the voivode's practices, a truce in
+  the Zips, Poland against Muscovy, seven Késmárk burghers held for ransom; the French and English kings advise war;
+  numbered articles on a mining concession (Antoni Slesinger, Schmaltz as mining captain, Freiberger, gold-exchangers
+  and silver-buyers, export of gold and silver refused); postscript "Auf den Reichstag", "Datum ut in literis".
+- R9410 f.244r ("ersten [a]brilis Anno 35"): a treaty; the King of France has not acted as before; someone will accept
+  no treaty unless the dukes are included ("in vertrag eingeschlossen"); hold together "bruederlich" against the
+  Turks; commends himself "als seinen lieben herren und bruedern".
+- R9413 (July / 7 June / 8 July 1534, addressed to secretary Waisenfelder): the dukes' letters received with joy; no
+  reliable news of the Turk; Cornelius delayed because the French orator Antonius Rincon came to Constantinople;
+  Katzianer's riders, Transylvania; the bishop of Wardein before Margrave Georg's castle Hunyad; the Württemberg war
+  and the Landgrave; an ore sample from near Ofen (2½ mark silver); the Turk at sea with 200 galleys; the Hungarian
+  lords' diet at Pressburg; herr Caspar to be dispatched; Antoni kept at the dukes' cost.
+- R9427 (15/21/24 April [15]34, postscript 25 April): the Württemberg affair (the Bund, the dukes of Württemberg, the
+  Landgrave, "kain vertrag"), Ferdinand, Christendom, Hungary; a provost-priest "alhie" took a wife and was imprisoned;
+  the dukes' letter came "durch Stehan" on 23 April.
+
+**State: read in part.** 84.0% of the five letters' words read as sense by count.py (R9408 88.9%, R9413 86.0%,
+R9410 83.9%, R9409 80.9%, R9427 77.3%), below the 95% bar; no letter meets it. The unread words are legible signs whose
+values the letters do not settle (merged look-alikes, rare signs, names), not missing key material.
+
 ## Remaining gaps
 
-- R9408 clean reading - blocker: open-codes; paused 21 Sept 2026 (workable): decrypt working, E/X/a+ signs to settle.
-- R9413 clean reading - blocker: open-codes; paused 21 Sept 2026 (workable): all pages transcribed and decoded (`r9413/decrypt.txt`); sign Z and A unassigned.
-- R9409/R9410/R9427 clean readings - blocker: open-codes; paused 21 Sept 2026 (workable): R9410 look-alikes split on the image (`sysA/r9410_split.md`: d = l vs K word sign; # = g vs U = u/v; n = b/w one sign) and re-decoded (`sysA/r9410_v2_decrypt.txt`: "…vertragen … behandlung … kunig von Frankreich also gehandelt nit so vil als vor…"); same split still to apply to R9408/R9409/R9413/R9427; K's meaning (Kaiser/Kunig?) open.
+- R9408: 170 of 1,528 words unread ({?} in `r9408/reading.txt`: P1.01-06 and P1.20-26, the P2.01 greeting, the ratschlag clauses P2.06/25-30, P3.10-16, P4.16-28, P5.01-08, P6.04-07/28-30, the signature forename) - blocker: open-codes (workable); the signs are legible but take no value the letter settles; next: image split of `y` (ÿ t vs γ r) and `4` (4 vs ч), then a second reading round.
+- R9413: 232 of 1,663 words unread (P1 opening and P1.19-26, P2.05-12, P3.04-12 the ore description, the 4o group on P5, P6-P7 short lines, P8 address) - blocker: open-codes (workable); next: image check of the noisy P1 opening lines and of the 4o group, second reading round.
+- R9409: 450 of 2,361 words unread (P1.01-03 salutation and date, P7 about half, names at P3.05-30 and P6.18/31, runs at P2.11, P3.04/07/34, P4.03/05/22, P5.18-19, P6.05/09; the F.G.-like sign read as a letter at P1.18, P5.23/26, P6.24) - blocker: open-codes (workable); next: split `ç+` on the images, second reading round of P7.
+- R9410 f.244r: 49 of 304 words unread (P1.03-05, the a# group, P1.29-32, the place in the date line) - blocker: open-codes (workable).
+- R9410 ff.246-247 (P3-P6, a second letter, Anno XXXIIII) - blocker: not-attempted; not transcribed (workable: images on disk).
+- R9427: 123 of 542 words unread (ends of P1.01-03, P1.09-14, names P2.03-23, the signature) - blocker: open-codes (workable).
+- The K word sign in all five letters (R9413 context suggests King Ferdinand) - blocker: open-codes (workable); no key of the volume gives it.
 - R9416 f.263 clean reading - blocker: open-codes; paused 21 Sept 2026 (workable): v2 re-keyed (Pressburg talks read throughout); one sign serves ch but the annealer gives it s ("auss"=auch) — needs a digraph value set by hand. 30 Sept 2026: recto lines 11-16 read clean by hand (`r9416/reading_p3_11-16.txt`; z split into e and a two-bar s, b into d and l); the rest still to do the same way.
 - R9323 lines 4, 8-10 - blocker: illegible; faint signs, several '?' in transcription.
 - R9424 - blocker: no-key-material; R9422 alphabet cut at a/b and does not read as transcribed; R9420 (1531 keys, shift alphabet) and R9421 (tabula recta) checked; IoC 0.068 flat over periods 1–8 = monoalphabetic, yet annealing fails in German (de-1500s, with/without '/' and nulls), Latin and Italian — likely code groups (gloss names sit over single groups) plus transcription noise; gloss cribs too few.
@@ -149,9 +237,13 @@ T ♉, V ‡‡, X o-o, Y ε, Z π; und 9, auch Z, ch t, das T, ll 9, rr m); the
 - [x] print: web search for KAA 4591 / Augurelio ciphers found no edition.
 - [x] key-rebuild: Łaski (System B) from glosses; System A′ from the R9427 gloss, extended by constrained annealing over R9408+R9410 with the gloss values fixed (open signs settled: # t, o a, X e in running text, A u, S h, | e). Scoring E as d vs ch over the combined text: ch scores better (−3.458 vs −3.537 per char) but gives "charzu" for darzu, so E is two look-alike signs (d and ch) merged in transcription — needs a visual re-split on the images. R9424 and R9367: no key material to rebuild from.
 - [x] retry: R9424/R9367 re-annealed with de-1500s, homophone caps and nulls (failed). System A′ letters re-decoded with the extended key and each E resolved as d or ch by de-1500s context (`sysA_decode.py`); decrypts in `r9408/decrypt.txt`, `r9409/decrypt.txt`, `sysA/r9410_decrypt.txt`, `r9413/decrypt.txt`. Remaining noise is transcription-level (merged look-alikes, doubtful signs), not key-level.
+- [x] key-rebuild/retry (2 Oct 2026, System A′): the improved R9407 key (augurelio1535 pass 2) carried to R9408, R9409, R9410, R9413, R9427 by sign shape, re-learned per letter by EM and word-beam re-estimation (`sysA2/`), R9408 look-alike split finished at the image (`r9408/split_p6p7.md`), hand reading rounds over every line of all five letters (`r94xx/reading.txt`), a supervised re-key from the readings (no gain). Readings 77-89% of words, 84.0% overall.
 
 ## Steps
 
 - 2026-09-21: record list from the DECODE dump (141 records in KAA 4591: 102 keys, 39 ciphertexts); images of the
   14 targets and 30 neighbouring keys fetched with the cookie.
 - Matched R9325 to key R9324 by the null signs (identical set); applied key, all words Latin; read.
+- 2026-10-02: System A′ revisited (see the 2 Oct section): R9408 P6 l.24-31, P7 and six flagged signs split at the
+  image (`r9408/transcription_v3.txt`); the R9407 pass-2 key carried to R9408/R9409/R9410/R9413/R9427 and re-learned
+  per letter (`sysA2/`); lexical share 0.55-0.69 -> 0.84-0.88; hand readings of all five, 84.0% of words read; read in part.

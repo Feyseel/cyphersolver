@@ -1,0 +1,10 @@
+# Supplementary word list for run.py and lexmeasure.py: chancery forms of these letters that the DTA print list lacks or
+# holds too rarely (Bavarian spellings, titles, names of the 1530s Hungarian war). Not taken from any decrypt of the letters.
+# word:count gives a count (the "eur(n) F.G." formula before the F.G. sign); otherwise 50.
+eur:20000 eurn:20000 euer:5000 euern:5000 ewr:2000 ewrn:2000 ain ainen ainer ainem aines kain kainen kunig kunigs kunigen kunigin kunigclich kunigliche
+genedig genedigen genedigister genedigisten gnedig gnedigen hertzog hertzogen fursten furstlich furstlichen
+turck turcken turckisch turckischen turckischer kaiser kaisers kayser ferdinand ferdinandus hungern ungern ungerland
+hungerland ofen constantinopel cornelius rincon katzianer cacianer gritti wien pressburg bresburg behaim
+sibenburgen polan polen kunigreich zeitung zeitungen anzaigt angezaigt anzaigen vertrag vertragen vertrags
+underthenig underthenigen undertheniger gehorsamen bruederlich bruederlichen ietz itzo yetz yetzo antzaigen
+schreiben geschriben verstendigen verstendigt hiemit dieweil derhalben demnach dergleichen
