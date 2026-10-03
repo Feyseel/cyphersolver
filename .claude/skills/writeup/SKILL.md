@@ -214,8 +214,11 @@ three are data files you edit by hand; each is a few lines, and skipping one lea
   open), Where: `` [`targets/<folder>/`](targets/<folder>/) · [write-up](https://dbourdeau.github.io/cyphersolver/<slug>.html) ``.
   The Where link is what marks the row as written up; without it the row lists as "notes only".
 - `SOLVED_CATALOGUE.md` (solved and partly read only): next number, same columns as the rows above it.
-- `SOLVED_RANKING.md` (solved and partly read only): a `pN` provisional row with the six axis scores and the
-  weighted score, and the sentence in the preamble that places it; add the score line at the foot.
+- `SOLVED_RANKING.md` (solved and partly read only): one row in the single `## Composite ranking` table, inserted
+  at its score position and marked `†` (provisional) after the rank: the six axis scores, the score computed with the
+  stated formula (0.25 D + 0.25 H + 0.20 N + 0.10 R + 0.10 F + 0.10 V, two decimals), and the reasons in the last cell.
+  Renumber the ranks below it (equal scores share a rank). No separate provisional table, preamble sentence or
+  arithmetic line.
 - `catalogue.json` (catalogue items only): the catalogue holds open targets only, so **take the entry out**.
   If the target was read, partly read, resolved or found already in print, delete its entry (ids are never
   reused) and add its id to the list in `CATALOGUE.md` under "Read or resolved here, and removed". If the entry
