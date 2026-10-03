@@ -1,35 +1,60 @@
-# SP 106/10 ff. 241-243 (DECODE R927): reading of all three pages, 2 Oct 2026
+# SP 106/10 ff. 241-243 (DECODE R927): reading of all three pages (pass 2, 3 Oct 2026)
 # Each line: page.column | marked decrypt | regularised French
-# Marked decrypt = exactly the output of `python dec2.py hand_pN.txt` (key.json), with only spaces and
-# brackets added: <...> = signs NOT read as sense (wrong letters, unknown signs '_', unread codes).
+# Marked decrypt = exactly the output of `python dec2.py hand_pN.txt` (key.json), with only spaces and marks added:
+#   <...> = signs NOT read as sense (wrong letters, lost signs '_'); {...} = code signs and proper names (the '@'
+#   circle/9 signs, the numeral 67, the date numeral, the signature), counted separately.
 # A word is counted as read when its decrypt differs from the regular word by at most one letter.
-# measure.py checks that the marks add nothing to the decrypt and counts the share.
+# measure.py checks that the marks add nothing to the decrypt and counts the shares.
 #
-# f. 241 (p. 1) = the END of the letter begun on f. 243: f. 243 ends "croire que je vous honnor-", f. 241 goes on
-# "-e et cheris ce qui se peut", then the closing formula, signature and "de Nancy le .. decembre".
-p1.c0  | et cheris ce qui se peut sy | [..honnor]e et cheris ce qui se peut, s'y
+# The letter runs f. 243 -> f. 241. f. 242 is a second copy of f. 243 (its cq-cv taken over from f. 243, see hand_p2.txt).
+#
+# f. 243 (p. 3), hand_p3.txt (v3 'c7' and 'c12' are a stain and the head of c11, not columns)
+p3.c0  | ie ne pouuois receuoi d | je ne pouvois recevoir d'
+p3.c1  | un ennuy plus sensible | un ennuy plus sensible,
+p3.c2  | ayant <_> appris que du<n>ri | ayant [..] appris que du mari-
+p3.c3  | age de ce gentilhomme | -age de ce gentilhomme
+p3.c4  | lequel salua dernierement | lequel salua dernierement
+p3.c5  | {_n} de la part de {_} mon maitre | [name] de la part de [name] mon maistre,
+p3.c6  | <_>us auies creu quelqu | vous aviés creu quelqu-
+p3.c8  | chose au preiudice | -es choses au prejudice
+p3.c9  | de lentiere affection que | de l'entiere affection que
+p3.c10 | iay uoue a uostre seruice | j'ay vouée a vostre service:
+p3.c11 | sil fut este persnne <n>fui | s'il fut esté personne en qui
+p3.c13 | ie peusse prendre confia | je peusse prendre confia-
+p3.c14 | nce uous eussies congnu pr | -nce, vous eussiés congnu par
+p3.c15 | luy que ie ne cheris rien | luy que je ne cheris rien
+p3.c16 | tant que les occasions de uous | tant que les occasions de vous
+p3.c17 | en tesmoingner des effets | en tesmoigner des effets.
+p3.c18 | iescris a {_} ce que ce gentil | J'escris a [name] ce que ce gentil-
+p3.c19 | homme alloet fairc par dela | -homme alloit faire par dela,
+p3.c20 | et uous supplie tres hunblem | et vous supplie tres humblem[ent],
+p3.c21 | monsieur me continuer lhonneur | Monsieur, me continuer l'honneur
+p3.c22 | de uostre bienueullance et | de vostre bienveuillance et
+p3.c23 | croire que ie uous honnor | croire que je vous honnor-
+#
+# f. 241 (p. 1), hand_p1.txt: the end of the letter, subscription and dateline
+p1.c0  | et cheris ce qui se peut sy | -e et cheris ce qui se peut. S'y
 p1.c1  | uous trouuies a propos de | vous trouviés a propos de
-p1.c2  | disposer <_> denuoier le <it> | disposer [..] d'envoier le ..
-p1.c3  | <_de_paru> de sa maieste uers | [..] de sa Majesté vers
-p1.c4  | <_> pour se reiouir de sa | [..] pour se resjouir de sa
-p1.c5  | <__> sante apres la longue | santé apres la longue
+p1.c2  | disposer {_} denuoier ledit | disposer [name] d'envoier ledit
+p1.c3  | {_} de la paru de sa maieste uers | [name] de la part de Sa Majesté vers
+p1.c4  | {_} pour se reiouir de sa | [name] pour se resjouir de sa
+p1.c5  | sante apres la longue | santé apres la longue
 p1.c6  | maladie quil a eu iemass | maladie qu'il a eue, je m'ass-
 p1.c7  | eure que les personnes que | -eure que les personnes que
-p1.c8  | uous aimes nen seroint marie | vous aimés n'en seroint marri[s]
-p1.c9  | et <re_> mon foste ie <lurou> | et [..] mon costé je [..]
-p1.c10 | <u_> iray mon coeur de tout ce | [..] j'iray mon coeur de tout ce
+p1.c8  | uous aimes nen seroint marie | vous aimés n'en seroint marris,
+p1.c9  | et de mon foste ie lur ou | et de mon costé je leur ou-
+p1.c10 | uriray mon coeur de tout ce | -vriray mon coeur de tout ce
 p1.c11 | que ie iuieray estre du | que je jugeray estre du
-p1.c12 | <b_ruileru_> et du <uoii> | [..] [67] et du [..]
-p1.c13 | uous coniurant me faire <___> | vous conjurant me faire [..]
-p1.c14 | faueur dasse<_>rer sa maies<o> | faveur d'asseurer Sa Majesté
+p1.c12 | <b_ruiledu> {_} et du <uoii> | [..] [67] et du [..],
+p1.c13 | uous coniurant me faire la <_> | vous conjurant me faire la
+p1.c14 | faueur dasseurer sa maieso | faveur d'asseurer Sa Majesté
 p1.c15 | du zele que iay a son tr<_> | du zele que j'ay a son tr[es]
-p1.c16 | hunble seruice estant mo | humble service, estant, mo[nsieur],
-p1.c17 | <bienr> uostre tres hunble e | vostre tres humble e[t]
-p1.c18 | fidel seruiteur <nicle> | fidel serviteur [signature? "Nicle"]
-p1.c19 | de nancy l<_> <_> decembre | De Nancy le [day] decembre
+p1.c16 | hunble seruice estant mo | humble service, estant, Mo[nsieur],
+p1.c17 | <bienr> uostre tres hunble e | [..] vostre tres humble e[t]
+p1.c18 | fidel seruiteur {nicle} | fidel serviteur [signature, read "Nicle"]
+p1.c19 | de nancy l<_> {_} decembre | De Nancy le [day] decembre
 #
-# f. 242 (p. 2) = a second copy of the letter on f. 243, line for line (same line breaks, same signs).
-# The upper parts of p2.ca-cf are under the paper flap with the pencil key; [flap] signs are not counted.
+# f. 242 (p. 2), hand_p2.txt: copy of f. 243; [flap] signs (under the pasted flap) are not counted
 p2.ca  | <_> eceuoir | [je ne pouvois r]ecevoir
 p2.cb  | <_> ensible | [un ennuy plus s]ensible
 p2.cc  | <_> <uecuuai> | [ayant appris q]ue du mari-
@@ -44,35 +69,11 @@ p2.ck  | <silfutesteperlnneenqui> | [..]
 p2.cl  | ie peusse prendre <f>onfia | je peusse prendre confia-
 p2.cm  | <nfououseussseicauguupir> | [..]
 p2.cn  | <lurque> ie ne <dqeris> rien | [..] je ne [..] rien
-p2.co  | tant que tes occasions de <utub> | tant que les occasions de [..]
+p2.co  | tant que les occasions de <utub> | tant que les occasions de [..]
 p2.cp  | entesmoingner des effets | en tesmoigner des effets
-p2.cq  | iescris a <_> ce que ce gentil | j'escris a [..] ce que ce gentil-
+p2.cq  | iescris a {_} ce que ce gentil | j'escris a [name] ce que ce gentil-
 p2.cr  | homme alloet fairc par dela | -homme alloit faire par dela
 p2.cs  | et uous supplie tres hunblem | et vous supplie tres humblem[ent]
-p2.ct  | monsieur me continuer lho<s>eur | Monsieur, me continuer l'honneur
-p2.cu  | de uostre bienueu<he>ance et | de vostre bienveuillance et
-p2.cv  | croire que ie uous honnor | croire que je vous honnor[e]
-#
-# f. 243 (p. 3); hand_p3.txt (p3 c7 and c12 are 3- and 5-sign fragments, not transcribed in session 1)
-p3.c0  | ie ne <ponunis> receuoi d | je ne pouvois recevoir d'
-p3.c1  | un ennuy plus sensible | un ennuy plus sensible
-p3.c2  | ayant <apidis> que du<n>ri | ayant appris que du mari-
-p3.c3  | age de ce gentilhomme | -age de ce gentilhomme
-p3.c4  | <lequessalui> de <r> vie <dement> | [..] de vie [..]
-p3.c5  | <_n> de la part de <_> mon <maio> | [..] de la part de [..] mon [..]
-p3.c6  | <us> auies <treu> quelqu | [vo]us aviés [..] quelqu-
-p3.c8  | choses preiudice | -es choses [au] prejudice
-p3.c9  | de hentiere affection <se> | de l'entiere affection [que]
-p3.c10 | iay uoue a uostre seruice | j'ay vouée a vostre service
-p3.c11 | <utesteiersnenei> | [..]
-p3.c13 | <i> peusse prendre confia | [je] peusse prendre confia-
-p3.c14 | nuous eussies <couguupr> | nous eussiés [..]
-p3.c15 | <luy> que ie ne <c>le dis rien | [..] que je ne le dis rien
-p3.c16 | tant que tes occasions de <utub> | tant que les occasions de [..]
-p3.c17 | entesmoingner des effets | en tesmoigner des effets
-p3.c18 | iescris a <_> ce que ce gentil | j'escris a [..] ce que ce gentil-
-p3.c19 | homme alloet fairc par dela | -homme alloit faire par dela
-p3.c20 | et uous supplie tres hunblem | et vous supplie tres humblem[ent]
-p3.c21 | monsieur me continuer lho<s>eur | Monsieur, me continuer l'honneur
-p3.c22 | de uostre bienueu<he>ance et | de vostre bienveuillance et
-p3.c23 | croire que ie uous honnor | croire que je vous honnor[e]
+p2.ct  | monsieur me continuer lhonneur | Monsieur, me continuer l'honneur
+p2.cu  | de uostre bienueullance et | de vostre bienveuillance et
+p2.cv  | croire que ie uous honnor | croire que je vous honnor-

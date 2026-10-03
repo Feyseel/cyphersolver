@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'
 from lang import lm
 from measure import parse, K, first
 m=lm.load('fr-1600-letters', spaces=False)
-for fn in ['ct_f154.txt','ct_f154v.txt','ct_f156.txt','ct_f156v.txt']:
+for fn in ['ct_f154.txt','ct_f154v.txt','ct_f156.txt','ct_f156v.txt','ct_f160.txt','ct_f164.txt','ct_f174.txt']:
     toks=[t for _,g,_ in parse(fn) for grp in g for t in grp]
     dec=lambda ts:''.join(first(K[t]) for t in ts if t in K and first(K[t]) not in ('?','(context)'))
     real=m.per_char(lm.norm(dec(toks),'early',spaces=False))

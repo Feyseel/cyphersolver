@@ -15,16 +15,17 @@ import decode972 as D
 
 # key: (founders id, date, frames, note)
 DESPATCHES = {
-    'dec1807':  ('99-01-02-2472', '27/29 Dec 1807', 'roll 13/14', ''),
+    'nov1807':  ('tr:nov1807', '15 Nov 1807', 'roll 13 frame 0377', 'triplicate; pencil decode; Founders 99-01-02-2332 prints the decode only'),
+    'dec1807':  ('tr:dec1807', '27/29 Dec 1807', 'roll 13 frames 0390-0391', 'pencil decode; Founders 99-01-02-2472 group list collated'),
     'feb15':    ('99-01-02-2703', '15 Feb 1808', 'roll 14', ''),
     'feb22':    ('99-01-02-2733', '22 Feb 1808', 'roll 14 frames 0033-0034', ''),
-    'mar05':    ('99-01-02-2780', '5/9 Mar 1808', 'roll 14', ''),
+    'mar05':    ('tr:mar05', '5/9 Mar 1808', 'roll 14 frames 0039-0040', 'pencil decode; collated with 0643-44 and Founders 99-01-02-2780'),
     'aug13':    ('99-01-02-3414', '13 Aug 1808', 'roll 14', ''),
     'aug30':    ('99-01-02-3466', '30 Aug 1808', 'roll 14', 'postscript; read in NOTES'),
     'mar26':    ('99-01-02-2871', '26 Mar 1808', 'roll 14', 'one word'),
     'may31':    ('99-01-02-3139', '31 May 1808', 'roll 14', 'one name'),
-    'jun06':    ('99-01-02-3164', '6 Jun 1808', 'roll 14', 'one phrase'),
-    'oct25':    ('99-01-02-3642', '25 Oct 1808', 'roll 14', 'short runs'),
+    'jun06':    ('tr:jun06', '6 Jun 1808', 'roll 14 frame 0086', 'pencil decode'),
+    'oct25':    ('tr:oct25', '25 Oct 1808', 'roll 14 frames 0132-0133', 'pencil decode'),
     'jan1810':  ('tr:jan1810', '20 Jan 1810', 'roll 14 frames 0476-0477', 'to R. Smith; pencil decode'),
     'feb1810a': ('tr:feb1810a', '2 Feb 1810', 'roll 14 frame 0494', 'to R. Smith; pencil decode'),
     'feb1810b': ('tr:feb1810b', '17 Feb 1810', 'roll 14 frame 0495', 'to R. Smith; pencil decode'),
@@ -36,6 +37,9 @@ if os.path.exists('fix972.json'):
     FIX = json.load(open('fix972.json', encoding='utf-8'))
 
 
+WEAK = set()
+
+
 def load_additions():
     add = {}
     if os.path.exists('additions972.tsv'):
@@ -44,8 +48,23 @@ def load_additions():
                 continue
             n, r, where, ev = (line.rstrip('\n').split('\t') + ['', ''])[:4]
             add[int(n)] = r
+            if re.search(r'weak|does not fit|left weak|probably|conflict', ev or ''):
+                WEAK.add(int(n))
     return add
 
+
+# pencil decodes read this session (pencil.tsv) enter the table as H
+for line in open('pencil.tsv', encoding='utf-8'):
+    if line.startswith('#') or not line.strip():
+        continue
+    n, r = line.split('	')[:2]
+    D.tab[int(n)].append((r, 'H'))
+PENCIL = {}
+for line in open('pencil.tsv', encoding='utf-8'):
+    if not line.startswith('#') and line.strip():
+        n, r = line.split('	')[:2]
+        if int(n) not in (240, 1557, 1228):   # second values, used in context only
+            PENCIL[int(n)] = r
 
 ADD = load_additions()   # readings prefixed '!' override even an H/C value (the old value is kept in NOTES)
 
@@ -54,9 +73,20 @@ CONTEXT = {
     (1078, 368): ['dri', 'ven'],          # pencil 'driven' over 1078.368, roll 14 frame 0024; 22 Feb 'it has driven her'
     (664, 1078, 781): ['pro', 'je', 'ct'],  # 15 Feb 'the pro-je-ct-ed alliance'
     (1415, 1116, 1131): ['ble', 's', 'sin'],  # 15 Feb 'ble-s-sin-g-s', pencil 'blessings'
+    (1557, 576): ['mar', 'ry'],             # 15 Nov 1807 pencil 'marry' (1557 = Marshal on 13/0195)
+    (1467, 240): ['his', 'master'],         # 27 Dec 1807 pencil 'his master' (240 = roc on 13/0195)
+    (1228, 965, 514): ['at', 'tach', 'ment'],  # 15 Nov 1807 pencil 'attachment' (965 = tal elsewhere)
+    (1225, 975, 1088, 1219): ['as', 'sa', 'il', 'ant'],  # 27 Dec 1807 pencil 'assailant' (1088 = mil elsewhere)
+    (561, 618): ['re', 'sult'],
+    (821, 720, 1433): ['n', 'da', 'ge'],   # 26 Mar 1808 pencil 'brigandage': MS 720 or 750 (750 = da, H)
+    (177, 1311): ['probabil', 'ity'],      # 5 Mar 1808 pencil 'probability'
+    (977, 437, 420): ['scr', 'aw', 'l'],   # pencil 'scrawl' (420 = al / l, both H)
+    (975, 1087): ['sa', 'id'],             # 5 Mar 1808 pencil 'said' (1087 = ig elsewhere)
+    (465, 1478, 133): ['count', 'but', 'because'],  # 5 Mar 1808 pencil 'not on my account but because' (1478 = ing elsewhere)            # 27 Dec 1807 pencil 'result'
+    (578, 1102, 1001): ['T', '-', 'd'],    # 27 Dec 1807 pencil 'T__d' (Talleyrand, abbreviated in the code too)
+    (1078, 934): ['j', 'o'],               # Ar-an-j-o, pencil 'Aranjo' (1078 = I)
     (619, 1260, 1484, 808): ['un', 'chari', 't', 'able'],  # 17 Feb 1810 pencil 'uncharitable' (1260 = dou in 22 Feb 1808)
     (1179, 460): ['po', 'licy'],          # 17 Feb 1810 pencil 'Policy'
-    (946, 985, 608, 899): ['Gu', 'sta', 'v', 'us'],  # 22 Feb Gustavus (946 is 'on' in the 1806 known plaintext)
 }
 
 
@@ -122,7 +152,7 @@ def segments(text):
 def groups_of(key):
     doc = DESPATCHES[key][0]
     segs = segments(body(doc))
-    for fv, nth, ms, note in FIX.get(key, []):
+    for fv, nth, ms, note in (FIX.get(key, []) if not DESPATCHES[key][0].startswith('tr:') else []):
         seen = 0
         done = False
         for k, v in segs:
@@ -138,6 +168,8 @@ def groups_of(key):
 
 
 def reading(n):
+    if n in PENCIL:
+        return PENCIL[n], 'H'
     b = D.best(n)
     if n in ADD:
         r = ADD[n]
@@ -148,9 +180,16 @@ def reading(n):
     return b
 
 
-def render(key, mark=True):
+NOSENSE = json.load(open('sense972.json', encoding='utf-8')) if os.path.exists('sense972.json') else {}
+
+
+def render(key, mark=True, indexed=False):
     segs = groups_of(key)
     out, stats = [], Counter()
+    gi = -1
+    bad = set()
+    for a, b, note in NOSENSE.get(key, []):
+        bad.update(range(a, b + 1))
     for k, v in segs:
         if k == 't':
             out.append(v)
@@ -164,16 +203,23 @@ def render(key, mark=True):
                     for t, (p, _) in enumerate(ints[q:q + len(pat)]):
                         ctx[p] = vals[t]
         for p, g in enumerate(v):
+            if isinstance(g, int):
+                gi += 1
+            pre = f'{gi}:' if indexed and isinstance(g, int) else ''
             if p in ctx:
                 stats['n'] += 1; stats['inferred'] += 1
-                words.append(ctx[p] + '*'); continue
+                if gi not in bad:
+                    stats['sense'] += 1
+                words.append(pre + ctx[p] + '*'); continue
             if isinstance(g, str):  # a clear letter written after a group, e.g. 741s
                 words.append('+' + g)
                 continue
             r, c = reading(g)
             stats['n'] += 1
+            if r is not None and gi not in bad and not (c == 'A' and g in WEAK):
+                stats['sense'] += 1
             if r is None:
-                words.append(f'[{g}]')
+                words.append(f'{pre}[{g}]')
                 stats['unread'] += 1
             else:
                 if c in 'HC':
@@ -184,7 +230,7 @@ def render(key, mark=True):
                     stats['uncertain'] += 1
                 else:
                     stats['inferred'] += 1
-                words.append(r + ('' if c in 'HC' else ('?' if c == 'M' else ('+' if c == 'A' else '*'))) if mark else r)
+                words.append(pre + r + ('' if c in 'HC' else ('?' if c == 'M' else ('+' if c == 'A' else '*'))) if mark else r)
         out.append('«' + ' '.join(words) + '»')
     return '\n'.join(out), stats
 
@@ -203,7 +249,7 @@ def summary_line(key, st):
     n = st['n'] or 1
     read = st['known'] + st['uncertain'] + st['inferred'] + st['added']
     return (f"{key:8s} {DESPATCHES[key][1]:16s} groups {st['n']:4d}  known(H/C) {st['known']:4d} {100*st['known']/n:5.1f}%"
-            f"  new(+) {st['added']:3d}  read incl. M/inferred/new {read:4d} {100*read/n:5.1f}%  unread {st['unread']:3d}")
+            f"  new(+) {st['added']:3d}  given a value {read:4d} {100*read/n:5.1f}%  reads as sense {st['sense']:4d} {100*st['sense']/n:5.1f}%  unread {st['unread']:3d}")
 
 
 if __name__ == '__main__':
@@ -212,7 +258,7 @@ if __name__ == '__main__':
         unread(args[1]); sys.exit()
     keys = [a for a in args if not a.startswith('--')] or list(DESPATCHES)
     for key in keys:
-        txt, st = render(key)
+        txt, st = render(key, indexed='--indexed' in args)
         if '--summary' not in args:
             print(f'== {key} {DESPATCHES[key][1]} (Founders {DESPATCHES[key][0]}) ==')
             print(txt)

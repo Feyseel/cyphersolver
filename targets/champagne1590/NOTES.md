@@ -27,7 +27,7 @@ contributed by setsunaatto (PR 15, 30 Sept 2026): 80% of the gloss falls in matc
 against shuffled controls of at most 30%. The one run the office left unglossed reads "[le grand duc de Toscane]
 quant [le Roy] nous bailla par escrit (sa?) volonté". **Fr. 3985 f. 58** (La Verrière, Poissy, 12 Aug 1593, the
 letter Tomokiyo names for key no. 57; glossed at the time by the office) was deciphered with the same key on 2 Oct
-2026: 222 of 248 cipher tokens (89.5%) read, on the prince de Conty, Madame d'Angoulême, the Montmorency house and La
+2026, second pass 3 Oct: 235 of 248 cipher tokens (94.8%) read, on the prince de Conty, Madame d'Angoulême, the Montmorency house and La
 Trémoille, and a reported papal design against the Cardinal de Bourbon (section near the end).
 
 ## Prior work checked
@@ -185,6 +185,7 @@ Laurière letter.
 * `ct_3625_10_blind.txt`, `ct_3625_10_rest.txt` — all thirteen glossed runs of no. 10 in sign names, with the glosses
   (the first five transcribed blind), and the unglossed run as U1; `check_3625_10.py` scores key no. 57 against the
   glossed runs (exit 0 = pass) and prints the decipherment of U1.
+* `anneal_twodigit.py` — bracketed LM search for the unknown two-digit letter values of nos. 24/25/60 (3 Oct 2026).
 * `fr3985_f58/` — fr. 3985 f. 58 (La Verrière, Poissy, 12 Aug 1593): `ct.txt`, `clear.txt`, `words57.tsv`,
   `decode58.py`, `reading.md`.
 * Images in `img/` (git-ignored, not committed); f. 58 and the key sheet in `img/fr3985_f58/`.
@@ -314,14 +315,68 @@ pa?l (principal), illegible on the microfilm; run B pieces B1 (two signs), B2 `6
 "la plus..."), the overbarred 252 (not on the sheet as read), and B4 `28 25 203 NAME` ("te que fait", gloss "pour
 mo[...] du duc de Lorraine").
 
+### Second pass on f. 58 (3 Oct 2026): 89.5% -> 94.8%
+
+Goal set by the coordinator: 95% for f. 58 and for the target. What was done (details in `fr3985_f58/reading.md`):
+
+* Gallica's maximum for canvas 114 is the 4719 x 6676 image already used (`info.json`). The cipher block was fetched
+  again as lossless IIIF PNG regions, deskewed, contrast-stretched and sharpened (greyscale microfilm: no channels to
+  separate). Images in `img/fr3985_f58/`.
+* Names panel f. 103v (fr. 3995 canvas 201) read at full resolution: prince de Conty, M. de Montmorency (singular),
+  Cardinal de Bourbon and duc de Lorraine are all on it. The four name signs are now grade H.
+* The writer's caret (p) looks like his lam (a). A3 `caret sigma ddag plus` = *port[ée]* ("Madame d'Angoulesme est
+  port[ée] du tout a la maison de [M. de Montmorency]"), grade I. Other signs settled on the enhanced image: beta in
+  *principall*, zig in *monsieur*, lam in *de la*, *lieu* in A6 (plus for perp, as in *aucung*).
+* Run B: 29 with a bar = province 29, *Espagnols* (B1, gloss "aux Esp… au Pape"); 252 = *lettre* (B3: "qu'il y a
+  lettre[s] du [Pape] pour atanter a la personne du [Cardinal de Bourbon], et disent avoir les lettres"); the B4 sign
+  is the duke of Lorraine. B2 is `6 lam 340`, not 344.
+* 340 re-read on a lossless crop of the sheet: "taboure", as the office glossed. "Tabour le lieu" is not settled; the
+  sense wants *trouver*, and no reading of the sheet gives it.
+
+Count (`decode58.py`): **235 of 248 (94.8%)**, run A 219/223 (98.2%), run B 16/25. Still one token short of 95%, so the
+letter stays read in part. Of the 13 open tokens, 6 are illegible signs and 7 have certain key values that give no
+sense.
+
+Other documents, before and after this pass: nos. 24/25/60 63/104 (unchanged); key no. 57 and `words57.tsv` applied
+to them give no sense ("qui pi bo ni lo fi …"), because they use a different, alphabetical two-digit system. No. 55
+85/86 (unchanged; the one open group is '9P', a clear abbreviation). No. 78 0/6 (unchanged; too short). **Target
+overall: 370/444 (83.3%) -> 383/444 (86.3%).** Nos. 24/25/60 are what keep it under 95%: their 41 open figures have no
+key and no gloss.
+
+### Third pass (3 Oct 2026): two-digit search, dictionaries, slip test. No change in the count.
+
+* **Nos. 24/25/60, ciphertext-only (`anneal_twodigit.py`).** The anchored values rise with the alphabet, so each
+  unknown letter value is bracketed between its known neighbours: 52 in h–i, 62 in l–n, 92 in s–v, 94 in u–v, 95 in
+  u–z. The space is small (2 × 3 × 4 × 2 × 5 = 240), so it was enumerated rather than annealed and scored with
+  `fr-1600-letters` over all ten runs, code numbers left out. Best: 52 = i, 62 = n, 92 = u/v (tie), 95 = y. That gives
+  "de Launan" (no. 60, "en est aussi [39] de la V?an") and "…audovic" (no. 24, "du faict 99 38 39 45 30 93 38 67 92
+  52 37"). **None of these passes the second-occurrence rule.** 52, 62, 94 and 95 occur once each. 92 occurs twice: in
+  no. 24 line 22 it gives "le [99] y u a v [05] i s" with no sense. The code numbers (05 12 16 17 19 39 89 99) are words
+  or names, and an LM cannot fill them. Count unchanged at 63/104.
+* **"Tabour(er)" in the dictionaries.** Cotgrave 1611 (archive.org `fre_b2062733`): "Tabourer. To drumme; also, to
+  rap, knocke, or thumpe (as on a Drumme) at a wooden window, doore, &c." Nicot 1606 (`fre_b1887920`) has *tabour*
+  and *tabourin* (the drum) and no verb sense that fits. Neither gives "et tabourer le lieu ou il le pourra mettre" a
+  sense.
+* **Slip test for 340 and the run B groups.** 340 is a clear 340 on the lossless crop (closed 0). Of the key words one
+  digit away (300 personne, 341 tenir, 343 tous, 344 tout, 345 veult, 346 volonte, 347 vous, 348 voir, 349 voie,
+  350 venir, …), only **348 *voir*** and **341 *tenir*** make A6 grammatical: "faire election d'ung fidelle serviteur
+  et *voir* le lieu ou il le pourra mettre". 348 is the better reading, but the office read *tabour* and nothing else
+  supports a slip, so it is recorded as a conjecture (grade I) and not counted. The character LM cannot rank the
+  candidates: any common word scores alike. B2 `6 lam 340` gives no sense with any neighbour of 340 either (gloss "la
+  plu…"). B4 `28 25 202` with neighbours (27 se, 203 fait, …) gives at best "et ce se que fait [duc de Lorraine]"
+  ("et ce que fait …", if 28 is a slip or null), not counted.
+
+Before and after, all passes of 2–3 Oct: f. 58 222/248 -> 235/248 (94.8%); nos. 24/25/60 63/104 -> 63/104; no. 55
+85/86; no. 78 0/6; **overall 370/444 (83.3%) -> 383/444 (86.3%)**.
+
 ## Remaining gaps
 
 - Nos. 24/25/60 code numbers 12, 16, 17, 19, 39, 89, 99 and the plain numbers of no. 24 (22, 51, 84, 44) - blocker: open-codes; no key bound with these letters; the alphabetical two-digit table covers letters only
 - No. 24 two passages, first half of the no. 25 'qu'on dict' passage, the name in no. 60 ('de la V?an') - blocker: open-codes; values fall outside the anchored slots of the alphabetical table (30-39, 48, 92-99 uncertain); no gloss over them
 - No. 78 (f. 111r), one group of about six mixed signs - blocker: too-short; a single group, probably a name, in a different mixed code
-- Fr. 3985 f. 58 run A, 16 tokens: two signs in s..t (sait), the sign in pa?l, the three middle signs of c...e (ceste), one sign in monsieur, one in de l?a, the word `lam ? plus plus` after "est" - blocker: illegible; single signs too cursive or blotted to decide on the microfilm canvas (4719 px); no colour scan online
-- Fr. 3985 f. 58 run A `340 20 34 ye plus` (key "tabour le liet", gloss "tabour le lieu") - blocker: open-codes; the key values are certain on the sheet but give no established sense; the office gloss does not resolve it
-- Fr. 3985 f. 58 run B, 10 tokens: B1 two signs, B2 `6 lam 344`, the overbarred 252 in B3, B4 `28 25 203` + a name sign - blocker: open-codes; overbarred 252 and the B4 name sign are not on the key sheet as read (names panel f. 103v lists no such sign as checked); the key values of B2/B4 give no sense
+- Fr. 3985 f. 58, 6 illegible tokens: two signs in s..t (sait; a blot and a 2-shaped sign), the three middle signs of c...e (ceste, written '1 5 4'), the sign after 29-bar in B1 - blocker: illegible; Gallica's maximum (4719 px, lossless PNG regions, enhanced) does not decide them; no colour scan online, needs the manuscript
+- Fr. 3985 f. 58, 7 tokens with certain key values and no sense: 340 'taboure' in A6 (context wants a verb; 348 'voir' one digit away fits, conjecture only; Cotgrave/Nicot give tabourer = to drum, to rap), B2 '6 lam 340' (gloss 'la plu...'), B4 '28 25 202' ('te que font', before [duc de Lorraine]) - blocker: open-codes; the sheet's values are certain and the office gloss does not resolve them
+- Nos. 24/25/60 runs tried with key no. 57 (words57.tsv, syllables): no sense ('qui pi bo ni lo fi ...'); a different, alphabetical two-digit system; bracketed exhaustive LM search (anneal_twodigit.py) proposes 52 i, 62 n, 92 u/v, 95 y but none verifies on a second occurrence - blocker: open-codes; no key or gloss for the code numbers, single-occurrence letter values cannot be checked
 
 ## Escalation
 
@@ -330,8 +385,13 @@ mo[...] du duc de Lorraine").
 - [x] known-keys: Nevers keys of fr. 3995 (Tomokiyo nevers.htm) reviewed; no. 46 tested against the two-digit table and does not fit; no. 57 (La Verrière, Feb 1593) reads no. 55 in full (29 Sept 2026, issue 13); no. 57 tried on no. 78's group '96 □ 3 9̄ f 3' (ch ? da [Dauphiné] o da): no sense, a different code
 - [x] print: Tomokiyo nevers.htm and GL.htm, Memoires de Nevers index: no printed decipherment
 - [x] key-rebuild: no. 55 superseded by key no. 57 (the writer's own sheet); nos. 24/25/60 table bracketed by alphabetical order, the anchored slots filled; the unanchored code numbers have no gloss to fit
-- [x] siblings (2 Oct 2026): fr. 3985 f. 58, the letter Tomokiyo names for key no. 57, located (canvas 114) and deciphered with the key (89.5%); its verso is the address only; neighbouring canvases 112-120 looked over (f. 56 and f. 59 are other 12 Aug letters in clear)
+- [x] siblings (2 Oct 2026): fr. 3985 f. 58, the letter Tomokiyo names for key no. 57, located (canvas 114) and deciphered with the key (89.5%, 94.8% after the 3 Oct retry); its verso is the address only; neighbouring canvases 112-120 looked over (f. 56 and f. 59 are other 12 Aug letters in clear)
 - [x] known-keys (2 Oct 2026): the whole word list of key no. 57 read off f. 103r (`fr3985_f58/words57.tsv`) to try every word number on f. 58; overbarred 252 and two name signs remain off the sheet as read
 - [x] clear-pages (2 Oct 2026): the office's interlinear decipherment on f. 58 used to check run A word for word and to name four name signs; it does not resolve the B2/B4 groups
 - [x] print (2 Oct 2026): Tomokiyo's nevers.htm gives no reading of f. 58 beyond his anchor phrase "de nature defians" and 304 = pour; Mémoires de Nevers ii is not online (targets/nevers1593/NOTES.md), so a printed text of f. 58 could not be checked
 - [x] retry: the no. 10 table (12 entries) was applied to all 86 groups of no. 55 in the third pass (19 read); key no. 57 then read all 86 (29 Sept) and every run of no. 10, the unglossed one included (PR 15, 30 Sept)
+- [x] retry (3 Oct 2026): f. 58 re-read from lossless IIIF PNG regions at Gallica's maximum with contrast enhancement; names panel f. 103v read at full resolution (Conty, Montmorency, Cardinal de Bourbon, duc de Lorraine all on it); caret/lam ambiguity found; 13 tokens settled (89.5% -> 94.8%)
+- [x] known-keys (3 Oct 2026): words57.tsv and key no. 57's syllables applied to the two-digit runs of nos. 24/25/60: no sense, a different system
+- [x] key-rebuild (3 Oct 2026): nos. 24/25/60 unknown letter values bracketed by the alphabetical order and searched exhaustively with fr-1600-letters (anneal_twodigit.py); no value verifies on a second occurrence
+- [x] print (3 Oct 2026): Cotgrave 1611 and Nicot 1606 checked for tabourer: drum / rap at a door, no sense fitting f. 58 A6
+- [x] retry (3 Oct 2026): slip hypothesis for 340, '6 lam 340', '28 25 202' tested against every key word one digit away; 348 voir fits A6 (conjecture, not counted), the run B groups stay without sense

@@ -1,0 +1,44 @@
+# BnF fr. 4735 no. 65, f. 164r (canvas 313): Lanssac to the duc d'Anjou, Warsaw, 1 May 1573. Session 3 pass 3 (3 Oct 2026),
+# word-aligned re-transcription at full scale from img/c313.jpg (deskewed img/s164_deskew.png). Format as ct_f154.txt.
+# Replaces the session-2 first pass f164_tokens.txt, which had skipped the first cipher line and merged several signs.
+# Gloss: inner margin, gutter-cut ("…négotiation" survives); used only as a check.
+# Clear before: "... c'est de latin et d'argent, et a bonne quantité, car il y aura de quoy l'employer"
+@L01
+X s | 3h c ot sh G g | Lo c F 3h X g | Xp | c | u2 ast s q9 phi | pi
+= en | toutes | sortes | pour | {c} | venir | à
+# Xp = the slanted cross, Tomokiyo's "pour"; the c between "pour" and "venir" gives no word ("pour o-venir"): left unread
+@L02
+ot c st F X | 4h g i phi
+= vostre | desir
+# clear: "A quoy nous ne fauldrons, de tousjours, comme nous avons faict, de faire fidellement et diligemment nostre debvoir,
+#   mesmes a remonstrer les traverses de nos contraires qui n'y espargnent rien pour nous empescher"
+@L03
+Z | g i | q9 ot g 6 X Lo
+= car | si | jusques
+@L04
+7 q9 | Mc | pi | 4h g Y X s hh ff | 3h F X s sh ast | 8 i 3 | X g 7 u2 Lo | ast s
+= cy | {Mc} | a | despendu | trente | mil | escus | en
+# Mc = large M with a hooked c-stroke before it, a word sign (the subject who spent 30,000 écus: the King or Anjou's side);
+# not in the key and not glossed; left unread
+@L05
+7 X st G | nn ast D c cross q9 pi 3h q9 c s | Ef | X s | q9 | pi | 4h g Y ast s hh ff
+= ceste | negotiation | l'Empereur | en | y | a | despendu
+# Ef = tall dagger with loop, the word sign l'Empereur (gloss f. 174 "de l'Empereur" beside it)
+@L06
+Y 3 ot g | 4h | 3h F c i g | 7 X ns | 8 q9 3 | et | s q9 | of pi i 7 3h | sh c ot
+= plus | de | trois | cens | mil | et | n'y | faict | tou-
+@L07
+3h X of hhx c i g | F q9 X s | 6 q9 | ot pi i 3 ol X | Xp | Lo c q9 | 8
+= -tefois | riens | qui | vaille | pour | soy | m-
+# hhx = the double cross with slanted bars, here o in "toutefois" (one occurrence, C)
+@L08
+T i g | Lo ast ot 3 ast ll G sm | i 3 | 3 q9 | 3h F c u2 4 3 X | ot c st
+= -ais | seulement | il | {3 q9} | trouble | vost-
+# "il le trouble" is the sense; the second sign is the i/j sign, giving "li"; left unread
+@L09
+phi X | 4h g ast q9 s D | of H i g pi sm | 3 X | Y i g | 6 q9 3 | Y X ot 3 sh
+= -re | desseing | faisant | le | pis | qu'il | peult
+@L10
+7 c s 3h F X | ot c ff g
+= contre | vous
+# clear: "Encores ne veulx je faillir, Monseigneur, de vous ramentevoir ..."

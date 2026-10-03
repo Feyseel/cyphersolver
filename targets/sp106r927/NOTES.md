@@ -2,9 +2,10 @@
 
 Lasry review (25 Sept 2026): the letter was decoded by Sheila Richards in *Secret Writings* (1973). The book was not seen here and a web search found no record of it; it was not used. This reading is an independent re-solution (outcome.first_break = false), left out of the ciphertext-only list for Klaus Schmeh.
 
-Outcome: read in part (key recovered from ciphertext-only; 2026-09-19, all pages transcribed 2026-10-02). French, homophonic pigpen.
-The letter runs f. 243 -> f. 241; f. 242 is a second copy of f. 243. Measured: 84.0% of the letter's signs read as sense
-(f. 243 81.7%, f. 241 86.5%; the copy f. 242 73.5% of its visible signs). Written at Nancy, in December, signed "Nicle"(?).
+Outcome: read in part (key recovered from ciphertext-only; 2026-09-19; all pages transcribed 2026-10-02; pass 2 2026-10-03).
+French, homophonic pigpen. The letter runs f. 243 -> f. 241; f. 242 is a second copy of f. 243.
+Measured (pass 2, `measure.py`): **95.6%** of the letter's signs read as sense (843/882; 97.1% leaving out 14 code and name
+signs); f. 243 98.3%, f. 241 92.5%. Before pass 2: 84.0%. Written at Nancy, in December, signed "Nicle"(?).
 
 ## Source
 
@@ -154,16 +155,40 @@ symbols and letters, not this pigpen; R931/R932 (ff. 251-252) numeric; R933 a ke
 ff. 237, 244 have no record (the image id I4920 between R925 and R927 is not served). No other letter in this pigpen and
 no decipherment or clear copy of R927 in the neighbouring records.
 
+## Pass 2 (3 Oct 2026): every unread word re-read sign by sign
+
+- Image routes: TNA Discovery has no digitised SP 106/10; DECODE serves only the 2300-px PNGs already in `img/`.
+- Every glyph of the unread words cut out at 3-4x (the `v3_glyphs2.json` / `v1_glyphs2.json` boxes, offsets +80/+880
+  on f. 243 and +100/+1150 on f. 241, used only as locators) and read again. Corrected: f. 243 c0, c2, c4-c6, c8, c9,
+  c11, c13-c16, c21, c22; f. 241 c2, c3, c5, c9, c10, c12 (the errors were the open side of corner shapes, dot counts,
+  inner strokes, and two signs the writer cancelled with an ink blot, now `[struck]` and skipped). The v3 "c7" and
+  "c12" of f. 243 are a stain and the head of c11. f. 242 cq-cv re-synced to the corrected f. 243 lines.
+- Key: F*1 = l (not t; "que les occasions" twice), D*1 = o (pouvois). Joint re-annealing of all sign values over the
+  three pages with fr-1600-letters (`anneal.py`) raised the LM score (-2.106 -> -2.002/char) but turned B2 g->s and
+  K2 h->d against gentilhomme, longue, tesmoigner, humble, honnor: over-fitting, not adopted except F*1.
+- f. 243 now reads: "Je ne pouvois recevoir d'un ennuy plus sensible, ayant appris que du mariage de ce gentilhomme,
+  lequel salua dernierement [name] de la part de [name] mon maistre, vous aviés creu quelques choses au prejudice de
+  l'entiere affection que j'ay vouée a vostre service: s'il fut esté personne en qui je peusse prendre confiance, vous
+  eussiés congnu par luy que je ne cheris rien tant que les occasions de vous en tesmoigner des effets. J'escris a
+  [name] ce que ce gentilhomme alloit faire par dela, et vous supplie tres humblement, Monsieur, me continuer l'honneur
+  de vostre bienveuillance et croire que je vous honnor-"
+- f. 241: "-e et cheris ce qui se peut. S'y vous trouviés a propos de disposer [name] d'envoier ledit [name] de la part
+  de Sa Majesté vers [name] pour se resjouir de sa santé apres la longue maladie qu'il a eue, je m'asseure que les
+  personnes que vous aimés n'en seroint marris, et de mon costé je leur ouvriray mon coeur de tout ce que je jugeray
+  estre du [..] [67] et du [..], vous conjurant me faire la faveur d'asseurer Sa Majesté du zele que j'ay a son tres
+  humble service, estant, Mo[nsieur], [..] vostre tres humble et fidel serviteur Nicle(?). De Nancy le [..] decembre."
+
 ## Remaining gaps
-- signs not read as sense on ff. 243/241 (about 16%: e.g. "utesteiersnenei", "lequessalui", "couguupr", "b_ruileru", "lhoseur") - blocker: illegible; the 2300-px DECODE images are the only images and at that size the open side of corner shapes, inner strokes and dot counts are ambiguous; f. 242 repeats the same signs and does not resolve them; needs a higher-resolution image or the leaf
-- the '@' (circle/9) signs, the numeral-like sign and the clear "67" - blocker: no-key-material; three or four occurrences in name positions, too few to value from context, and no nomenclator survives with the letter or in the neighbouring records
+- f. 241 c12 and c17 ("b_ruiledu ... et du uoii", "bienr") and single signs at the ends of c13, c15 and the day in c19 - blocker: illegible; under ink blots and a stain or ambiguous at 2300 px; f. 241 has no second copy, TNA has not digitised SP 106 and DECODE has no larger image
+- the '@' (circle/9) signs, the clear "67", the date numeral and the signature "Nicle"(?) - blocker: no-key-material; 14 signs in name positions, too few to value from context, and no nomenclator survives with the letter or in the neighbouring records
+- two lost signs on f. 243 (c2 blot, c6 paper hole) - blocker: illegible; the same places on the copy f. 242 are under its flap
 - upper part of f. 242 columns a-f - blocker: needs-physical-access; under the pasted flap with the pencil key (it duplicates f. 243 c0-c5, so no text is lost)
-- sender, recipient and year - blocker: no-key-material; only "Nicle"(?) at Nancy in December and "Monsieur"; the names sit in the '@' code signs; no docket or address leaf in the record
+- sender, recipient and year - blocker: no-key-material; the names sit in the '@' code signs; no docket or address leaf in the record
 
 ## Escalation
 - [x] siblings: neighbouring SP 106/10 records R922-R933 opened (2 Oct 2026); none is in this pigpen; f. 242 found to be a second copy of f. 243 and used to check it
 - [x] clear-pages: no clear page, docket or decipherment on ff. 241-243 or in the neighbouring records; the top half of f. 241 is show-through from another leaf, not text
 - [x] known-keys: the pencil flap key tested in all orientations and rejected
 - [x] print: web search (SP 106/10 pigpen, Nancy), the GL.htm copies in the repo and Tomokiyo's Cryptiana index (only the Walsingham-Wilkes pigpen): no edition; Sheila Richards, Secret Writings (1973), reported by Lasry, not seen; CSP needs a year or names
-- [x] key-rebuild: homophonic key built by annealing (hc3.py) on the p. 3 hand transcription plus hand anchors (key.json); extended 2 Oct with H3, C*2 and the C1/F2 polyphones
-- [x] retry: pp. 1-2 hand-transcribed with inner-mark variants separate and decoded with key.json (2 Oct 2026)
+- [x] key-rebuild: homophonic key built by annealing (hc3.py) on the p. 3 hand transcription plus hand anchors (key.json); extended 2 Oct (H3, C*2, C1/F2 polyphones) and 3 Oct (F*1 = l, D*1 = o); joint re-anneal over all pages tried (anneal.py), over-fits
+- [x] retry: pp. 1-2 hand-transcribed (2 Oct) and every unread word re-read sign by sign at 3-4x (3 Oct); measured 84.0% -> 95.6%

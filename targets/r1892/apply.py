@@ -21,8 +21,18 @@ SIGNS = {
     '<perp>': ('om', 'M'), '<8>': ('zijn', 'I'),
     # found while doing so: aan-geboden, aan-geeven, aan-komst
     '<f>': ('aan', 'M'),
+    # 3 Oct 2026: alle de [voor]stellingen; my niet [voor]gesteld
+    '<P>': ('voor', 'M'),
 }
 SKIP = {'<struck>'}
+# Page 1 is French: the writer uses pair 12 (w in his Dutch) for the z of -ez (pourrez, avez); see the key table in
+# NOTES. FRENCH is switched on for transcription_p1.txt (and by measure_sense.py for French models).
+KFR = dict(K, **{'12': 'z'})
+FRENCH = False
+FRENCH_FILES = {'transcription_p1.txt'}
+
+import os
+STRICT = os.environ.get('STRICT') == '1'   # STRICT=1: I-grade (context-only) sign values count as unread
 
 TOK = re.compile(r'\[[^\]]*\]|<[^>]*>|\([^)]*\)|\S+')
 
@@ -32,13 +42,18 @@ def tokens(line):
         return
     for t in TOK.findall(line):
         u = t.rstrip('?')
+        m = re.fullmatch(r'([1-6]{2})>([1-6]{2})', u)
+        if m:                     # writer's slip, emended: 'written>read' (listed in NOTES, grade M)
+            u = m.group(2)
         if re.fullmatch(r'[1-6]{2}', u):
-            yield 'pair', u, K.get(u)
+            yield 'pair', u, (KFR.get(u) if FRENCH else K.get(u))
         elif t in SKIP:
             yield 'note', t, None
         elif t.startswith('[sign:') or (t.startswith('<') and t.endswith('>')):
             lab = t[6:-1] if t.startswith('[sign:') else t
             v = SIGNS.get(lab)
+            if v and STRICT and v[1] == 'I':
+                v = None
             yield 'sign', lab, (v[0] if v else None)
         elif re.fullmatch(r'[1-6?]{2}|\?\d|\d\?', u) or (t.startswith('[') and 'ink blot' in t):
             yield 'pair', u, None
@@ -73,6 +88,9 @@ def measure(files):
 
 
 if __name__ == '__main__':
+    import os as _os
+    if sys.argv[1] != '--measure':
+        FRENCH = _os.path.basename(sys.argv[1]) in FRENCH_FILES
     if sys.argv[1] == '--measure':
         measure(sys.argv[2:])
     else:

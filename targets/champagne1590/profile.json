@@ -152,7 +152,7 @@
     "by": "llm from images",
     "source": "Gallica IIIF full resolution (microfilm, 4719 x 6676), deskewed 2.9 degrees",
     "image_quality": "fair",
-    "notes": "Sign names as in check_3625_10.py; 248 cipher tokens counted by decode58.py (Laverriere's clear words inside the runs excluded). The office gloss transcribed as G lines. About ten signs not decided."
+    "notes": "Sign names as in check_3625_10.py; 248 cipher tokens counted by decode58.py (Laverriere's clear words inside the runs excluded). The office gloss transcribed as G lines. About ten signs not decided. Second pass 3 Oct 2026 from lossless IIIF PNG regions (Gallica maximum 4719 px), contrast-enhanced."
    },
    "read": "read in part"
   }
@@ -216,9 +216,9 @@
    "claude-opus-5",
    "claude-opus-5-5"
   ],
-  "sessions": 4,
+  "sessions": 5,
   "first_date": "2026-09-21",
-  "last_date": "2026-10-02"
+  "last_date": "2026-10-03"
  },
  "solution": [
   {
@@ -400,6 +400,54 @@
    "kind": "reading",
    "what": "Tried every value of the full word list on the open groups: '340 20 34 ye plus' gives 'tabour le liet' (gloss 'tabour le lieu') with no established sense; B2 '6 lam 344' gives 'la a tout' (gloss 'la plus...'); B4 '28 25 203' gives 'te que fait' (gloss 'pour mo... du duc de Lorraine'); overbarred 252 is not on the sheet as read. Not read.",
    "result": "failed"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "access",
+   "what": "Gallica info.json for fr. 3985 canvas 114: the maximum is the 4719 x 6676 image already used. Cipher block fetched again as nine lossless PNG regions, deskewed, autocontrast + unsharp mask (greyscale microfilm: channel separation not applicable).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "key from source",
+   "what": "Names panel f. 103v (fr. 3995 canvas 201) read at full resolution: prince de Conty, M. de Montmorency, Cardinal de Bourbon, duc de Lorraine all present; the four f. 58 name signs move from grade C (gloss) to H (key). Key header rows re-read: the writer's caret (p) is a tall lambda like his lam (a), and on the sheet the u sign (Vs) is a blotted scroll close to the b sign (xi).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "reading",
+   "what": "Re-read of the open signs: A3 'caret sigma ddag plus' = port[ee] (grade I; office 'a m...'); beta in principall, zig in monsieur, lam in de la, lieu in A6; B1 29-bar = Espagnols; B3 252 = lettre (the clear 'avoir les lettres' agrees); B4 last sign = duc de Lorraine; B2 corrected to 6 lam 340. 235 of 248 tokens read as sense (94.8%; run A 98.2%).",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "reading",
+   "what": "340 re-read on a lossless crop of the sheet: 'taboure' (the office glossed 'tabour'); 'et [340] le lieu ou il le pourra mettre' wants 'trouver' but no reading of the sheet gives it. B2 '6 lam 340' and B4 '28 25 202' give no sense; A2 two signs, A4 three signs of 'ceste', B1 one sign stay illegible. Not settled.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "control",
+   "what": "Key no. 57 (words57.tsv and the row + 14 x vowel syllables) applied to the two-digit runs of nos. 24/25/60: no sense ('qui pi bo ni lo fi ...'), confirming a different system; those 41 open figures stay without key.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "solver",
+   "what": "Nos. 24/25/60: unknown letter values bracketed between known neighbours by the alphabetical order (52 h-i, 62 l-n, 92 s-v, 94 u-v, 95 u-z), all 240 combinations scored with fr-1600-letters over the ten runs, codes left out (anneal_twodigit.py). Best 52 i, 62 n, 92 u/v, 95 y ('de Launan', '...audovic'); none verifies on a second occurrence (92's second occurrence gives 'le [99] y u a v [05] i s'). Not accepted; 63/104 unchanged.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "literature search",
+   "what": "Cotgrave 1611 (archive.org fre_b2062733) and Nicot 1606 (fre_b1887920) searched for tabourer: 'to drumme; to rap, knocke, or thumpe at a window, doore'; no sense fitting f. 58 'et [340] le lieu ou il le pourra mettre'.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "hypothesis",
+   "what": "Writer's-slip test: every key word one digit from 340, and from the B2/B4 groups, substituted. 348 voir (and 341 tenir) makes A6 grammatical ('et voir le lieu ou il le pourra mettre'), a conjecture not counted (the office read tabour; the figure is a clear 340). B2 '6 lam 340' and B4 '28 25 202' give no sense with any neighbour. The character LM does not separate the candidates.",
+   "result": "partial"
   }
  ],
  "outcome": {
@@ -410,9 +458,9 @@
    "key recovered"
   ],
   "class": "read in part",
-  "fraction_read": 0.833,
+  "fraction_read": 0.863,
   "fraction_read_method": "measured",
-  "fraction_read_source": "ct_3623_twodigit.txt 63 of 104 + ct_3625_55.txt 85 of 86 + ct_3623_78.txt 0 of 6 (29 Sept 2026) + fr3985_f58/ct.txt 222 of 248 (decode58.py, 2 Oct 2026): 370 of 444. No. 23 (all names in its key) and no. 10 (scored against its gloss by check_3625_10.py) not counted.",
+  "fraction_read_source": "ct_3623_twodigit.txt 63 of 104 + ct_3625_55.txt 85 of 86 + ct_3623_78.txt 0 of 6 (29 Sept 2026) + fr3985_f58/ct.txt 235 of 248 (decode58.py, second pass 3 Oct 2026; 222 on 2 Oct): 383 of 444. No. 23 (all names in its key) and no. 10 (scored against its gloss by check_3625_10.py) not counted.",
   "key": "partial",
   "codes_open": {
    "open": 6,
@@ -425,7 +473,7 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 19 of 86 groups from no. 10's glosses; no. 78 open. fraction_read 0.45 is an estimate from the notes (cipher tokens: about 70 of 104 two-digit figures, 19 of 86 no. 55 groups, no. 23 codes all, no. 78 none), not a measurement. Measured 21 Sept 2026: 0.418 (was 0.45 estimated). codes_open = the word codes of the nos. 24/25/60 table (12 = de read; 16, 17, 19, 39, 89, 99 open); no. 55's syllabic groups (67 of 86 open) not counted there. 29 Sept 2026: no. 55 read in full with key no. 57 (issue 13); fraction 0.755. 2 Oct 2026: fr. 3985 f. 58 (Laverriere, Poissy, 12 Aug 1593; Tomokiyo's letter for key no. 57) deciphered with key no. 57, 222 of 248 tokens (89.5%); fraction 0.833.",
+  "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 19 of 86 groups from no. 10's glosses; no. 78 open. fraction_read 0.45 is an estimate from the notes (cipher tokens: about 70 of 104 two-digit figures, 19 of 86 no. 55 groups, no. 23 codes all, no. 78 none), not a measurement. Measured 21 Sept 2026: 0.418 (was 0.45 estimated). codes_open = the word codes of the nos. 24/25/60 table (12 = de read; 16, 17, 19, 39, 89, 99 open); no. 55's syllabic groups (67 of 86 open) not counted there. 29 Sept 2026: no. 55 read in full with key no. 57 (issue 13); fraction 0.755. 2 Oct 2026: fr. 3985 f. 58 (Laverriere, Poissy, 12 Aug 1593; Tomokiyo's letter for key no. 57) deciphered with key no. 57, 222 of 248 tokens (89.5%); fraction 0.833. 3 Oct 2026: f. 58 second pass 235/248 (94.8%); fraction 0.863. 3 Oct third pass (two-digit bracketed search, dictionaries, slip test): no counted change.",
   "gaps": [
    {
     "item": "Nos. 24/25/60 code numbers 12, 16, 17, 19, 39, 89, 99 and the plain numbers of no. 24 (22, 51, 84, 44)",
@@ -443,19 +491,14 @@
     "detail": "a single group, probably a name, in a different mixed code"
    },
    {
-    "item": "fr. 3985 f. 58 run A: two signs in s..t, the sign in pa?l, three signs of c...e (ceste), one in monsieur, one in de l?a, the word 'lam ? plus plus' after 'est' (16 tokens)",
+    "item": "fr. 3985 f. 58: two signs in s..t (sait), three middle signs of c...e (ceste), the sign after 29-bar in B1 (6 tokens)",
     "blocker": "illegible",
-    "detail": "single signs too cursive or blotted to decide on the microfilm canvas; no colour scan online"
+    "detail": "not decided at Gallica's maximum resolution with lossless PNG regions and enhancement; needs a colour scan or the manuscript"
    },
    {
-    "item": "fr. 3985 f. 58 run A '340 20 34 ye plus' (key 'tabour le liet', gloss 'tabour le lieu')",
+    "item": "fr. 3985 f. 58: 340 'taboure' in A6, B2 '6 lam 340', B4 '28 25 202' (7 tokens)",
     "blocker": "open-codes",
-    "detail": "key values certain on the sheet but give no established sense"
-   },
-   {
-    "item": "fr. 3985 f. 58 run B: B1 two signs, B2 '6 lam 344', overbarred 252 in B3, B4 '28 25 203' + a name sign (10 tokens)",
-    "blocker": "open-codes",
-    "detail": "overbarred 252 and the B4 name sign are not on the key sheet as read; B2/B4 key values give no sense"
+    "detail": "key values certain on the sheet but give no sense; the office gloss does not resolve them"
    }
   ]
  }

@@ -3,9 +3,9 @@
 Gallica btv1b9060724s canvases 294 (f. 154r), 297 (f. 154v). Session 3, 2 Oct 2026. Transcription: ct_f154.txt (recto),
 ct_f154v.txt (verso). Measured with `python measure.py ct_f154.txt` (measure.log).
 
-**Status: read in part.** Recto 439 of 454 cipher tokens read as sense (96.7 %, after the pass-2 retry); verso 206 of
-224 (92.0 %); together 645 of 678 (95.1 %). Key: key.tsv (session 1 key plus the session 3 rows). Control (control3.py): the raw first-value
-decode scores -2.25 / -2.38 per char under `fr-1600-letters` (no spaces) against -4.4 to -4.7 for the same tokens shuffled.
+**Status: read** (README read bar: over 95 %, every open piece blocked by the gutter). Recto 439 of 454 cipher tokens
+read as sense (96.7 %); verso 221 of 223 (99.1 %, pass 3, 3 Oct 2026); the letter 660 of 677 (97.5 %). Key: key.tsv (session 1 key plus the session 3 rows). Control (control3.py): the raw first-value
+decode scores -2.25 / -2.20 per char under `fr-1600-letters` (no spaces) against -4.4 to -4.7 for the same tokens shuffled.
 
 Check against the contemporary decipherment: the recto gloss is in the inner margin and the gutter leaves only line
 ends; every surviving fragment agrees with the reading ("…causé l'autre", "…[me tr]ouble beaucoup", "…est que j'ay",
@@ -31,9 +31,9 @@ point, a setback from which, with God's help, they hope to come out.
 
 f. 154v, first block (clear before: *… ne pourroit faire sans l'argent*):
 
-> Car je n'ay pas cinquante {es-}c{-us} [gloss "escuz"], combien que j'en ay emprunté plus de quinze cens. [clear:
-> *Aussi estois je party*] bien belistre pour venir si loing et demeurer si longtemps {1 sign} et faire contrecarre à
-> celuy qui [par] beaucoup de grans dons ne sçauront vaincre {8 signs} {3 signs} [i]nferieur? {2 signs}
+> Car je n'ay pas cinquante e[sc]us, combien que j'en ay emprunté plus de quinze cens. [clear: *Aussi estois je party*]
+> bien belistre pour venir si loing et demeurer si longtemps et faire contrecarre à celuy qui [par] beaucoup de grans
+> dons ne sçauront vaincre le[s] nostre, si inferieur {2 signs, gutter}.
 
 Gloss: "Car je n'ay pas cinquante escuz et y ay emprunté plus de xvᶜ. Aussy estoit le party bien belistre pour venir si
 loing demeurer si longtemps et faire contrecarre a celuy qui par beaucoup de grandz dons ne sçauroyt vaincre …".
@@ -51,13 +51,13 @@ Gloss: "Je espere que dans peu de jours tous ceulx la avec beaucoup d'aultres se
 | r l. 1-2 | de4 g ff X i sm | opening words after "desquelz"; gloss line cut to "…que nous" |
 | r l. 15 | qq sh i X s | before "ameine"; gloss end "…nament" does not reach it |
 | r l. 18 | de4 ff mm sm | after "l'aide"; no word under the key |
-| v l. 1-2 | x2, x3 | "escus" across the gutter, signs half-lost on the microfilm |
-| v l. 5 | x4 | one sign after "longtemps" (gutter) |
-| v l. 7 | 3 G Y s c 8 F ast; Lo i F; Y de4 | after "vaincre"; the gloss line here is too faint on the scan to read past "les" |
+| v l. 7 | Co sm | two signs after "inferieur", half in the gutter |
 
 Pass 2 retry (2 Oct 2026, extended key, full-scale check): Gf = *nous* before *avons* and before *esperons*; B ff i =
 *qui* after *vaivode* (the sign after it is struck); Mu i G X st = *qui est*; T sm8 G q9 nn ast = *ameine*; the half-lost
-first sign of l. 19 is the *e* of *Dieu*. f. 154v unchanged.
+first sign of l. 19 is the *e* of *Dieu*. Pass 3 (3 Oct) on f. 154v: the gloss ends at "vaincre"; the cipher goes on "le[s] nostre si inferieur" (stacked 8 =
+*st*, Tomokiyo); the line-end signs of ll. 1 and 5 are the *e* of *escus* and the *s* of *longtemps*; one pass-1 token was
+not a sign.
 
 All gaps are on the microfilm gutter or in the faint lines of the recto gloss; nothing in the volume gives another
 copy (see NOTES, Remaining gaps).

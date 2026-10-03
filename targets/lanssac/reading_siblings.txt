@@ -1,3 +1,5 @@
+[Superseded 3 Oct 2026 by read_f160_f174.md and ct_f160.txt / ct_f164.txt / ct_f174.txt (session 3, pass 3). Kept as the session-2 record.]
+
 Lanssac's other ciphered letters in BnF fr. 4735, read with the f. 124 key on 17 Sept 2026 (second session).
 Same conventions as reading.txt: cipher in [brackets], ? = uncertain sign, {..} = unread run, gloss = the Court
 decipherer's marginal note as far as the gutter leaves it. Token files: f160_tokens.txt, f164_tokens.txt, f174_tokens.txt.
@@ -9,9 +11,9 @@ gloss: "…qui reste / …autant / …liberté à(?) / …gaigner / …comme son
 occasions des affaires premièrement surviennent. [Car je veoy que ceste nation est autant vénale et? sujette à se
 laisser gaigner par argent comme sont les Allemans leurs voisins.] Ce jourd'huy ilz mettent en délibération s'ilz
 doibvent prendre pour Roy ung Piaste ou ung prince estrangier, mais on sçait bien quelle en doibt estre la résolution.
-  Z phi X ffx G c i | qq ast 7 G st X s T 3h phi c nn ast st | N u2 sh pi sm | ot X s pi 3 ast | de4 Lo ot phi ast 3 sh X | H g G 3 pi phi g Lo X F | D pi i oo s G phi | qq H F D G sm | 7 c ll 8 X | q9 c sm | 3 ast g | H ol X 8 T ns | 3 ast ot F | q9 u2 c q9 Lo i ns
+  Z phi X ffx G c i | qq ast 7 G st X s T 3h phi c nn ast st | T u2 sh pi sm | ot X s pi 3 ast | de4 Lo ot phi ast 3 sh X | H g G 3 pi phi g Lo X F | D pi i oo s G phi | qq H F D G sm | 7 c ll 8 X | q9 c sm | 3 ast g | H ol X 8 T ns | 3 ast ot F | q9 u2 c q9 Lo i ns
   car ie ueoi | que ceste nation est | autant | uenale | et? suiette | a se laisser | gaigner | par argent | comme | sont | les | Alemans | leurs | uoisins
-  Signs read once: ffx (ff with a bar) = u/v in "veoy"; N (N with two bars) = a in "autant" (it was p in "despuis", f. 124: two signs or one misread);
+  Signs read once: ffx (ff with a bar) = u/v in "veoy"; [corrected 3 Oct 2026: the first sign of "autant" is the tall T (a), not a barred N; re-read on img/c307.jpg]
   qq (8-like with strokes) = "que" at the head of the clause and "par" before "argent" (Tomokiyo's par sign is of this shape); H = a.
 
 === f. 164 (canvas 313), no. 65, Lanssac to the duc d'Anjou, Warsaw, 1 May 1573 ===

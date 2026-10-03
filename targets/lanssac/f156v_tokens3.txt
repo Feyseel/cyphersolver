@@ -1,16 +1,16 @@
-# cipher tokens only, generated from ct_f156v.txt (session 3, pass 2); struck signs (~) omitted
+# cipher tokens only, generated from ct_f156v.txt (session 3, pass 3); struck signs (~) omitted
 8 cross g lf hh X 7 F pi i s g B ast
-of hh llp Cq Nb s i Lo c i 3h Y F X ot ast nn u2 sm Mu X
-3h 7 3h F Co q9 4h hh X nn s ast ll pi F 7
+of hh pi sm Nb s i Lo c i 3h Y F X ot ast nn u2 sm Mu X 3h
+7 3h F Co q9 4h hh X nn s ast ll pi F 7
 Gf hh c s nn T st 4 X pi ot 7 c u2 Y hh T
 pi i F X g 4h 7 ast 7 Co st ast 3 pi T cross T H ot Lo X hh Ne
 phi c q9 3h B blot i nn pi Y T g 4h 8 i X 3 q9 ast ot X 4h Mx 3h
 cross 4h g of c F 3h sh g i 3h ot X sh 4h g 4h ot Mx 7 c st X sh 4h
 qq phi Co 3h X F phi ast
 4h ll X 7 3h F X T 3 pi 8 X F 7 q9 4h cross X ot 3 Mx Mu B i
-8 cross g lf Lo G 8 c s Bf F X Bf F X ast ot
+8 cross g lf Lo G 8 c s st F X clov st F X ast nn
 8 i g q9 ot F X sh 4h i of F pi nn 7 X g q9 X 7 i pi 3
-sm L 4h 8 c s sm Lo X i oo nn ast ot F de4 3 X g 6 ot ast 3 sh
+clov 4h 8 c s sm Lo X i oo nn ast ot F de4 3 X g 6 ot ast 3 sh
 B X Mx 3h F ast 8 G ll X B 8 T phi F i Y Lo q9 3 of pi ot 3 3h 6 q9 3
 g X ot c i X B ast nn 7 3 c g 4h hh X ot Mx Lo blot i Y u2 i
 T s 3h sh F c q9 g 7 c 8 ll X Nb sh g X F c sm
@@ -21,12 +21,12 @@ Pb cross nn 6 G
 pi 8 4 T T 4h ot F g Y c phi 3h X F 3 T 7 c ot F L nn s X pi sh
 phi i ot X F c sm Mu X F g 3 u2 q9 ot c Mu g nn X g c i
 c phi g X 8 Y ast g 7 h X G hh ast s 3h F c u2 X F cross T
-pi ot g i T c 8 ll X s 7 G phi pi of T i F X G 8 pi Mx 6 X 3h sh s pi
+pi ot g i T c 8 ll X s 7 G phi pi of T i F X ast st pi Mt 6 X 3h sh s pi
 F X g Lo X F c sm Y F c Y F X g X 3 ast 8 4 pi F Gq X 8 ast
 de4 4h of pi i F X 8 G 3h sh phi X ast s c F hh phi G 3 X g oo pi 3h
 X g Y c ot u2 c i phi g X F ot i phi
 4h c 7 3h T B X Lo i
 sh ast ot F g blot Nb s q9 X s pi B ast Mu G sh F X 7 c s
-ast G de4 6 X 3h c ot sh ast 3h G s c 4 3 X g Lo G 7 F q9 X
-u2 c i F ot s oo F c i de4 s c 8 ll X 8 G B ot X u2 3 G
+ast Gf de4 6 X 3h c ot sh ast 3h G s c 4 3 X g Lo G 7 F q9 X
+u2 c i F ot s oo F c i de4 s c 8 ll X 8 G sm ot X u2 3 G
 nn X pi u2 8 c i s g

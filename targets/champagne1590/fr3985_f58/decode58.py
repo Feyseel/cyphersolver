@@ -21,7 +21,7 @@ for line in (HERE / "words57.tsv").read_text(encoding="utf-8").splitlines():
     WORDS.setdefault(num, val.split(" / ")[0].split(" (")[0].rstrip("?"))
 WORDS["320"] = "religion"  # both values on the sheet; context decides (see reading.md)
 NAMES = dict(k.NAMES)
-NAMES.update({"NAME:Conty": "[prince de Conty]", "NAME:Montmorency": "[Mrs de Montmorency]",
+NAMES.update({"NAME:Conty": "[prince de Conty]", "NAME:Montmorency": "[M. de Montmorency]",
               "NAME:CardBourbon": "[Cardinal de Bourbon]", "PAPE": "[Pape]"})
 SLIPS = {}  # signs written that the context and gloss correct; see reading.md
 
@@ -61,32 +61,31 @@ def runs():
 
 # Reading of each run, and the 0-based indices (clear-text braces excluded) of cipher tokens NOT read as sense.
 # A token counts as read when its key value (or a slip correction listed in reading.md) gives a word of the reading.
+# Reading of each run, and the 0-based indices (clear-text braces excluded) of cipher tokens NOT read as sense.
+# A token counts as read when its key value (or a slip correction listed in reading.md) gives a word of the reading.
+# Pass 2, 3 Oct 2026 (lossless PNG regions, enhancement, name panel f. 103v): see reading.md.
 READING = {
     "A1": "pour le fait du [prince de Conty] qui",
     "A2": "desire de ritirer, mais il ne s[ai]t a qui le confier, estre-nt (estant) la personne qui luy est de",
-    "A3": "plus d'importance. Ma[d]ame d'Angoulesme est a[...] du tout a la maison de [Mrs de Montmorency] et le pr[i]nci",
-    "A4": "pa[l] apuy qu'il ayi(t), soi(t) des catholiques, soit de ceux de la religion, soi(t) de c[est]e maison",
+    "A3": "plus d'importance. Ma[d]ame d'Angoulesme est port[ee] du tout a la maison de [M. de Montmorency] et le pr[i]nci",
+    "A4": "pall apuy qu'il ayi(t), soi(t) des catholiques, soit de ceux de la religion, soi(t) de c[est]e maison",
     "A5": "s'il y aveoit quelque remuemant. [Vo]la pourquoy",
-    "A6": "il desiree faire eleoction d'ung [fi]delle serviteur et tabour le [liet?] ou il le pourra",
+    "A6": "il desiree faire eleoction d'ung [fi]delle serviteur et [340] le lieu ou il le pourra",
     "A7": "mettre (et point) l'oter, instruire, gagnet monsieur de la Trimoule pour ne donner",
-    "A8": "aucung soub[s] son a ceux de l[a] religion (estans tous) de nature defians",
-    "B1": "a [?] [Pape]",
+    "A8": "aucung soub[s] son a ceux de la religion (estans tous) de nature defians",
+    "B1": "a [Espagnols] [?] [Pape]",
     "B2": "[?]",
-    "B3": "[?] [Pape] pour atanter a la",
-    "B4": "[?]",
+    "B3": "lettre[s] [du] [Pape] pour atanter a la",
+    "B4": "[?] [duc de Lorraine]",
     "B5": "personne de [Cardinal de Bourbon]",
 }
 OPEN = {
-    "A2": [13, 14],             # two illegible signs inside s..t (sait): word read, signs not
-    "A3": [14, 15, 16, 17],     # lam ? plus plus: the word after "est" (gloss "a[mie?]") not read
-    "A4": [1, 30, 31, 32],      # sign between pa and l; the three middle signs of c...e (ceste)
-    "A6": [24, 26, 27, 28],     # 340 'tabour' and 34 ye plus 'liet': no sense found (gloss "tabour le lieu")
-    "A7": [18],                 # one sign of monsieur
-    "A8": [16],                 # the sign after beta in de la
-    "B1": [1, 2],
-    "B2": [0, 1, 2],
-    "B3": [0],                  # 252 overbarred: not on the sheet as read
-    "B4": [0, 1, 2, 3],         # 28 25 203 + an unlisted name sign: no sense
+    "A2": [13, 14],             # two signs inside s..t (sait): a blot and a 2-shaped sign that is no a or i sign
+    "A4": [30, 31, 32],         # the three middle signs of c...e (ceste): '1 5 4' shapes, no key value gives -est-
+    "A6": [24],                 # 340 'taboure' on the sheet (office: 'tabour'): no sense in 'et [340] le lieu'
+    "B1": [2],                  # the sign after the Espagnols number (gloss 'aux Esp... au Pape')
+    "B2": [0, 1, 2],            # 6 lam 340: 'la a/p taboure', gloss 'la plu...': no sense
+    "B4": [0, 1, 2],            # 28 25 202 'te que font' before [duc de Lorraine]: no sense; 303 struck
 }
 
 

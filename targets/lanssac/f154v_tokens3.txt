@@ -1,12 +1,12 @@
-# cipher tokens only, generated from ct_f154v.txt (session 3); one manuscript line per line
-Z i X s pi q9 Y T g 7 i s B pi s 3 X x2
-x3 ot Lo cross c 8 obul B X q9 G s pi i ast nn Y F ff nn sh ast Y 3
+# cipher tokens only, generated from ct_f154v.txt (session 3, pass 3); struck signs (~) omitted
+Z i X s pi q9 Y T g 7 i s B pi s 3 X G
+ot Lo cross c 8 obul B X q9 G s pi i ast nn Y F ff nn sh ast Y 3
 4h Ng q9 s sh X 7 ast s g
 obul 4 X 3 i st F
 pour ot X s i F Lo q9 3 c i s oo de4 4h 8 X ot phi ast F g i 3 c s oo sh X
-x4 de4 of T i F X 7 c s sh phi ast 7 pi phi F X T 7 X ff 3 Pi2 B i
+g de4 of T i F X 7 c s sh phi ast 7 pi phi F X T 7 X ff 3 Pi2 B i
 4 X T ot 7 c u2 Y 4h oo phi T ns hh L ns nn X g 7 pi ot F c sm
-q9 s 7 F X 3 G Y s c 8 F ast Lo i F s of X phi q9 X ot F Y de4
+q9 s 7 F X 3 G g s c st F ast Lo i i s of X phi q9 ast ot F Co sm
 et X g Y G F ast B X hh pi ns Y X ot 4h q9
 g sh c ot Lo 7 X ff 3 Pi2 3 pi T ot X 7 4 X pi u2
 hh pi u2 sh F X g Lo ast F c sm ot L g Lo ot 4 i X 7 sh

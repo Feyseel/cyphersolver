@@ -1,0 +1,13 @@
+# Stowe MS 166 (DECODE R7770-R7775): every cipher passage, deciphered letter for letter with the volume key
+# (NOTES.md "The cipher"). 3 Oct 2026. One cipher sign = one letter here (simple substitution, word division kept), so
+# the letters count the cipher signs. Marks: {..} = person code signs (one sign each); <..> = signs not read.
+# Editorial brackets are not used: misspellings are kept as written. measure.py counts the shares.
+# R7774 and R7775 were re-checked against the DECODE images on 3 Oct 2026 (R7774 lines 1-2 added; R7775 "carryinge").
+#
+R7770 f. 50   | {4̇} to breake of the marriage betwene her and {9} wch he tould me he is resolued not to permitt but to geive her vnto {n} of whom he said he hath great hope that he will render himself of the religion {9} is herewth enraged and extreemelie discontented
+R7771 f. 57   | {9} is glad to here of hoping to be no further troubled wth the clamor of the catholikes for the seekinge of him
+R7772 f. 58v  | {9} i doe secretelie learne that monsr montmorancy hath made great instance as a condition whereof he required the performance before he would come to haue the yong prince of conde deliuered into the handes of madame dangolesme his sister in law to be vnder his custodie
+R7772 f. 59   | and by consequence popislie nourished pretending so to appertaine to the place of the constable to haue the gouerment of the younge heire of the crowne
+R7773 f. 60v  | that his faith is not vendible
+R7774 f. 109v | {9} of whome especiallie {o} hath made choise expreslie to negotiate therein for the difficulties of empeachement wch he knoweth he will geive to the same in respect of his owne interest against {£} pretending for the gouernment of champaigne {o} hauing no desire it should nowe take place the rather for that he hath renewed his intelligences in amiens and rheins <3> the said townes
+R7775 f. 112  | {£2} execute an enterprise vppon rheins wch would be the carryinge of the place and him

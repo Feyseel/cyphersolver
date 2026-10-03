@@ -169,8 +169,48 @@ the letters read as Dutch; a wrong word value that is still Dutch passes, so the
 The 21 Sept profile figure (93%, 966/1,040) was counted by a scratchpad script that is gone; the two rows above are
 both counted with this folder's scripts.
 
+## Third pass (3 Oct 2026): measured against the read bar
+
+**Measure, made stricter and fairer.** `measure_sense.py` (all switches documented in its header):
+- `STRICT=1` (used for every figure below): a word-sign value graded I (context only, other words would fit)
+  counts as **unread**. Only H and M values count. M now also covers a sign whose one context admits only one
+  word grammatically (apply.py header). Upgraded on that rule, each with its forcing context:
+  script L = uit (three contexts agree: "uit malkander", "[brieven] uit Parys", "uitlandig"); φ = Frankrijk (three
+  contexts, and the printed history: alliance, ratification and envoys all "met/naar Frankrijk"); crossed Y = dez-
+  ("tussen [?]elve" admits only dezelve); slashed and crossed Λ = dat (Λ variants; "ik vreese [?] de
+  benauwtheid", and "[?] het point der coalitie … behandelt word" is a verb-final subordinate clause, so its
+  conjunction is dat); Y with crossbar = ik (subject of first-person "vreese"); crossed x = al ("maar niet [?] te
+  veel", the fixed phrase); < = naar ("gesonden [?] Frankrijk"). Still I and so counted unread: X weinig, & Engeland,
+  + mogelyk, crossed diamond voor.
+- Word check: a read token also passes when it lies inside an attested word of 6+ letters in the decrypt, words taken
+  from the lang/ nl corpus and from Colenbrander's *Gedenkstukken* I–II (1789–1798 Dutch and French, fetched by
+  `fetch_gedenkstukken.py` into git-ignored `gs_corpus/`). The nl-modern corpus is 1.5 MB, so period spellings
+  (alliansie, gedimitteerde, persisteeren) failed the LM window although they are plain Dutch.
+- y scored as ij for Dutch models: pair 13 is the writer's ij (zyn, myn, zy), the corpus spells ij.
+- Control: the same test on letter-shuffled p3/p4 decrypts passes 8.4% of tokens (max 12.2% over 5 seeds), the
+  same rate with and without the word check, so the word list adds no false passes at this word length.
+
+**Transcription.** p3 l6 "saamendang" → 34 "saamenhang" (the pair is 3 over 4 on the image). Re-checked and left as
+written: p4 l3 "persisteern" (the writer dropped an e: the image has t e e r n).
+
+**Result** (`STRICT=1 python measure_sense.py . nl-modern transcription_p1.txt transcription_p3.txt transcription_p4.txt`):
+
+| state | tokens read as sense, strict | same, I-grade values counted |
+|---|---|---|
+| HEAD transcription and the 30 Sept signs, today's measure | 941/1,037 = 90.7% | 959/1,037 = 92.5% |
+| 2 Oct pass, strict, LM window only (no word check, no y→ij) | 940/1,037 = 90.6% | 981/1,037 = 94.6% (the 2 Oct figure) |
+| + word check | 953/1,037 = 91.9% | |
+| + forced-sign upgrades | 979/1,037 = 94.4% | |
+| **3 Oct** | **994/1,037 = 95.9%** (p1 100%, p3 95.7%, p4 94.5%) | 1,000/1,037 = 96.4% |
+
+What got it over the line: the forced-sign upgrades (+26 tokens: the signs themselves and the read letters next to
+them that had no scoring window), the y→ij scoring (+15) and the word check (+13). Tokens given a value: 1,010/1,037 strict (97.4%),
+1,015/1,037 with I values. The letter now meets the read bar's numbers (95% read as sense, no gap untried, what
+stays open is scattered single word signs and ink blots); `outcome.class` is left "read in part" here because the
+class change has to reach the README row and the site, which this pass did not touch.
+
 ## Remaining gaps
-- 20 single-occurrence word signs on p3-p4 (T-bar, S-stroke, square bracket, H with P, dagger, V-with-cross, C-hook, % twice, crossed o, plain Δ twice, vertical bracket, x mark, Δ with tail, H with loop, ψ, P.S. S / crossed ø / ⊖) - blocker: open-codes; each occurs once or twice in this letter and not in R1892, there is no key sheet, and the letter is not in print; all retried against context and R1892 on 2 Oct 2026
+- 20 single-occurrence word signs on p3-p4 (T-bar, S-stroke, square bracket, H with P, dagger, V-with-cross, C-hook, % twice, crossed o, plain Δ twice, vertical bracket, x mark, Δ with tail, H with loop, ψ, P.S. S / crossed ø / ⊖), plus four signs with context-only values counted unread (X weinig, & Engeland, + mogelyk, crossed diamond voor) - blocker: open-codes; each occurs once or twice, none in R1892 with a value, no key sheet, the letter is not in print; all retried 2 and 3 Oct 2026
 - two tokens under ink blots (p3 l12 crossed circle, P.S. sign after "landig") - blocker: illegible; the photocopy is blotted at both places
 - P.S. "Dankaert" unidentified - blocker: no-key-material; the name is spelled out in the square, only its identity is unknown
 
@@ -180,4 +220,4 @@ both counted with this folder's scripts.
 - [x] known-keys: R1892 key applied unchanged
 - [x] print: searched 2 Oct 2026 - Colenbrander, Gedenkstukken I (1789-1795) and II (1795-1798), full text on resources.huygens.knaw.nl/retroboeken/gedenkstukken, for Grasveld, Sitter, Blaauw, Robespierismus, gebraaden, persisteeren, saamenhang, gedimitteerde, verstrooid, Banquier, rassemblement, "Prins Frederik aan", ratificatie; GS II pp. 834-841 (May-July 1795 letters) read: the letter is not printed; GS I p. 655 and p. 678 confirm the envoys De Sitter and Van Grasveld and the ministers Blauw and Meyer
 - [x] key-rebuild: word signs extended from context, 30 Sept 2026 (uit, van, Frankrijk, om) and 2 Oct 2026 (dat, daar, naar, zonder, zijn, weinig, al, Engeland, mogelyk, voor, ik, dez-; flagged D and the interlinear inverted D = van)
-- [x] retry: 2 Oct 2026 - p3 l1 and p4 l8 re-transcribed at full resolution and rerun with apply.py; p3 l2 end, p4 l6, p3 l11 and five doubtful pairs re-read; every unread sign retried against the extended key, R1892 and the printed context, and regraded (table above)
+- [x] retry: 2 Oct 2026 - p3 l1 and p4 l8 re-transcribed at full resolution and rerun with apply.py; p3 l2 end, p4 l6, p3 l11 and five doubtful pairs re-read; every unread sign retried against the extended key, R1892 and the printed context, and regraded (table above). 3 Oct 2026 - every token failing the sense test re-checked (measure_sense.py --show); p3 l6 corrected; sign grades re-examined under the forced-context rule; measured strict 95.9%

@@ -1,0 +1,19 @@
+# BnF fr. 4735 no. 63, f. 160r (canvas 307): Lanssac to Charles IX, Warsaw, 1 May 1573. Session 3 pass 3 (3 Oct 2026),
+# word-aligned from img/c307.jpg (deskewed img/s160_deskew.png); supersedes the session-2 f160_tokens.txt.
+# Gloss (gutter-cut): "…qui reste / …autant / …liberté à(?) / …gaigner / …comme son(t) / …[voi]sins"
+# Clear before: "... selon que les occasions des affaires premierement surviennent."
+@L01
+Z | q9 X | ffx G c i
+= car | je | veoy
+@L02
+ffq ast | 7 G st X | s T 3h q9 c nn | ast st | T u2 sh pi sm | ot X s pi 3 ast
+= que | ceste | nation | est | autant | venale
+# ffq = barred ff with a loop, qu (one occurrence, C); T in "autant" was misread as a barred N in session 2
+@L03
+et | Lo ot q9 ast 3h sh X | H | g G | 3 pi q9 g Lo X F | D pi i oo s G phi | pq | H F
+= et | sujette | à | se | laisser | gaigner | par | ar-
+# pq = looped 9, Tomokiyo's "par"
+@L04
+D G sm | 7 c ll 8 X | g c sm | 3 ast g | H ol X 8 T ns | 3 ast ot F g | u2 c q9 Lo i ns
+= -gent | comme | sont | les | Alemans | leurs | voisins
+# clear: "Ce jourd'huy ilz mettent en deliberation s'ilz doibvent prendre pour Roy ung Piaste ou ung prince estrangier ..."

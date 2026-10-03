@@ -24,13 +24,13 @@
 # 8 has "mais" written above it with a caret by the decipherer; the four-sign group recurs at L10 in the same place
 # (before "si monsieur estoit"), so it is read as one word sign group; signs struck by the writer after "de" not counted
 @L02
-of | hh llp Cq Nb | s i | Lo c i 3h | Y F X ot ast nn u2 | sm | Mu X
-= l'Empereur | {hh llp Cq Nb} | n'y | soit | prevenu | et | que
-# gloss "l'Empereur cependant ne nous surprenne et que": the 4-sign group stands for "cependant" in the gloss but is not
-# read sign by sign; "n'y soit prevenu" is the cipher where the decipherer paraphrased "ne nous surprenne"
+of | hh pi sm | Nb | s i | Lo c i 3h | Y F X ot ast nn u2 | sm | Mu X 3h
+= l'Empereur | {hh pi sm} | il | n'y | soit | prevenu | et | que l[e]
+# gloss "l'Empereur cependant ne nous surprenne et que": pass 3 at 2x: the group is d-a-nt (the tall stroke over pi is
+# the gloss's descender) followed by the barred N "il" (Tomokiyo's il); "[cepen]dant" is not written in full, left unread
 @L03
-3h 7 3h | F Co q9 | 4h | hh X nn s ast ll pi F 7
-= {3h 7 3h} | roy | de | Dennemarc
+7 3h | F Co q9 | 4h | hh X nn s ast ll pi F 7
+= {7 3h} | roy | de | Dennemarc
 # "le" expected before "roy"; the line end of L02 and start of L03 run into the gutter and the three signs give no word
 # clear: "ayant obtemperé a sa volunté ne"
 @L04
@@ -58,21 +58,21 @@ qq phi Co | 3h X F phi ast
 = de | mectre | à la | mercy | de | ceulx | {Mu} | qui
 # clear: "par tous ... propos et actions"
 @L10
-8 cross g lf | Lo G | 8 c s Bf F X | Bf~ ast~ Bf F X ast | ot
-= mais | si | mon frere | frere(rewritten)? | {ot}
-# the gloss writes "si monsieur estoit": "mon frere" = the King's brother, Monsieur (Anjou); B here = f (two forms of the
-# B sign, qu and f, not separated by the transcription); the writer struck two signs and rewrote "frere"
+8 cross g lf | Lo G | 8 c s st F X clov | ast~ st F X | ast nn
+= mais | se | monstrent | [e]stre | en-
+# pass 3 (3 Oct): the sign read "B/f" in pass 2 is the stacked 8 (Tomokiyo's st); with it the line reads
+# "se monstrent estre en[ne]mis jurez" (clov, the clover sign, = -ment/-nt, as in "special-ement" at L12); the writer struck
+# the e of "estre". The decipherer's "si monsieur estoit" misread "se monstrent estre". Pass 2's "mon frere" is withdrawn.
 @L11
-8 i g q9 ot F X sh | 4h ol~ i | of F pi nn 7 X | de4~ | g q9 X 7 i pi 3
-= {8 i g q9 ot F X sh} | d'i[cy]? | France | | special-
-# gloss "estoit [ennem]y d'icy de la France et specialement": the 8-sign group is "estoit ennemy" in the gloss but gives
-# "m i s i u r e z" under the key; not read
+8 i g | q9 ot F X sh | 4h | ol~ i | of F pi nn 7 X | de4~ | g q9 X 7 i pi 3
+= -nemis | jurez | de | {i} | France | | special-
+# pass 3: "-nemis jurez" (q9 = j); the gloss "ennemy d'icy de la France" agrees; {i} after the struck l is unread
 @L12
-X~ sm L | 4h | 8 c s | sm Lo X i oo nn ast ot F | de4 3 X g | 6 ot ast 3 sh
-= {sm L} | de | mon | seigneur | {de4 3 X g} | {6 ot ast 3 sh}
+X~ clov | 4h | 8 c s | sm Lo X i oo nn ast ot F | de4 | 3 X g 6 ot ast 3 sh
+= -ement | de | mon | seigneur | et | lesquelz
 @L13
 B | X Mx 3h F ast 8 G ll X B | 8 T phi F i Y | Lo q9 3 | of pi ot 3 3h | 6 q9 3
-= {B} | extremement | marrys | s'il | fault | qu'il
+= [so]nt | extremement | marrys | s'il | fault | qu'il
 @L14
 g X | ot c i X B | ast nn 7 3 c g | 4h | hh X ot Mx | Lo blot | i Y u2 i
 = se | voient | enclos | de | deux | si | puiss-
@@ -108,11 +108,12 @@ phi i ot X F c sm | Mu X F g | 3 u2 q9 | ot c Mu g | nn X g c i
 # gloss "et y arriveront"; the start of the word is in the gutter
 @L24
 c phi g | X 8 Y ast g 7 h X | G | hh ast s 3h F c u2 Mx~ X F | cross T
-= [l]ors | empesché | {G} | d'en trouver | {cross T}
+= [l]ors | empesché | -e | d'en trouver | ca[r]
+# pass 3: G = e gives the feminine "empeschée" (the letter is to Catherine); cross T = ca[r] (gloss "Car ilz halteront")
 # clear: "Ilz halteront sa venue par deça le plus qu'ilz pourront pour beaucoup de raisons. Il ne sera hors de propos"
 @L25
-pi ot g i | T | c 8 ll X s 7 G phi | pi of T i F X | G 8 pi Mx | 6 X | 3h sh | s pi
-= aussi | {T} | commencer | à faire | {G 8 pi Mx} | que | {3h sh} | na-
+pi ot g i | T | c 8 ll X s 7 G phi | pi of T i F X | ast st pi Mt | 6 X | 3h sh | s pi
+= aussi | à | commencer | à faire | estat | que | {3h sh} | na-
 @L26
 F X g | Lo X F c sm | Y F c Y F X g | X 3 | ast 8 4 pi F Gq X 8 ast
 = -vires | seront | propres | à l'? | embarqueme-
@@ -129,14 +130,14 @@ X g | X~ Y c ot u2 c i phi | g X F ot i phi
 # gloss "d'autant que de ceste nation"; the 7 signs begin c-t-a and do not give "ceste nation" under the key
 @L30
 sh ast ot F g | blot Nb s | q9 X s pi | B ast | Mu G sh F X | 7 c s
-= -teurs | il n' | y en a | que | {quatre? Mu G sh F X} | con-
+= -teurs | il n' | y en a | que | quatre? | con-
 # Mu G sh F X: Mu = qu (here), G = a?, sh = t: "quatre" with the gloss; marked ? (G = a not met elsewhere)
 @L31
-ast G | de4 6 X 3h c ot sh ast | 3h G | s c 4 3 X g Lo G | 7 F q9 X
-= {ast G} | et que toute | la | noblesse | crie
+ast | Gf | de4 6 X 3h c ot sh ast | 3h G | s c 4 3 X g Lo G | 7 F q9 X
+= [-tr]e | nous | et que toute | la | noblesse | crie
 @L32
-u2 c i F | ot s oo | F c i | de4 | s c 8 ll X | 8 G B ot X u2 3 G
-= [pour a]voir | ung | roy | et | nommé | {8 G B ot X u2 3 G}
+u2 c i F | ot s oo | F c i | de4 | s c 8 ll X 8 G sm | ot X u2 3 G
+= [pour a]voir | ung | roy | et | nommement | veule[nt]
 @L33
 nn X pi u2 8 c i s g
 = neaumoins

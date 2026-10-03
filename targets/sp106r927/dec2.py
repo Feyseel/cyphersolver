@@ -19,7 +19,7 @@ def tokens(path):
         if ':' not in line:
             continue
         lab, t = line.split(':', 1)
-        yield lab.strip(), [x for x in t.split() if x not in ('=', '/')]
+        yield lab.strip(), [x for x in t.split() if x not in ('=', '/') and x != '[struck]']
 
 
 def val(tok):

@@ -32,7 +32,8 @@
     "source": "Gallica IIIF microfilm scans, 4417 x 6483 px",
     "image_quality": "fair",
     "notes": "NOTES give 100 signs (96 read); the measured 106 tokens include syllable and word signs written as tag names. Glyph conflations (3/hooked 3, cross forms, two et forms) told apart by context."
-   }
+   },
+   "read": "read"
   },
   {
    "id": "f160",
@@ -55,13 +56,15 @@
     "distinct": 34,
     "unit": "symbols",
     "measured": true,
-    "file": "f160_tokens.txt"
+    "file": "f160_tokens3.txt"
    },
    "transcription": {
     "by": "llm from images",
     "source": "Gallica IIIF microfilm scans",
-    "image_quality": "fair"
-   }
+    "image_quality": "fair",
+    "notes": "Session 3 pass 3 (3 Oct 2026): word-aligned full-scale re-transcription (ct_f160.txt); 91 of 91 (100%) tokens read as sense."
+   },
+   "read": "read"
   },
   {
    "id": "f164",
@@ -80,18 +83,19 @@
     "partial": true
    },
    "length": {
-    "tokens": 181,
+    "tokens": 207,
     "distinct": 42,
     "unit": "symbols",
     "measured": true,
-    "file": "f164_tokens.txt"
+    "file": "f164_tokens3.txt"
    },
    "transcription": {
     "by": "llm from images",
     "source": "Gallica IIIF microfilm scans",
     "image_quality": "fair",
-    "notes": "Four runs of 3-7 signs unread."
-   }
+    "notes": "Session 3 pass 3 (3 Oct 2026): word-aligned full-scale re-transcription (ct_f164.txt); 203 of 207 (98.1%) tokens read as sense."
+   },
+   "read": "read"
   },
   {
    "id": "f174",
@@ -110,21 +114,23 @@
     "partial": true
    },
    "length": {
-    "tokens": 127,
-    "distinct": 34,
+    "tokens": 123,
+    "distinct": 35,
     "unit": "symbols",
     "measured": true,
-    "file": "f174_tokens.txt"
+    "file": "f174_tokens3.txt"
    },
    "transcription": {
     "by": "llm from images",
     "source": "Gallica IIIF microfilm scans",
-    "image_quality": "fair"
-   }
+    "image_quality": "fair",
+    "notes": "Session 3 pass 3 (3 Oct 2026): word-aligned full-scale re-transcription (ct_f174.txt); 123 of 123 (100%) tokens read as sense."
+   },
+   "read": "read"
   },
   {
    "id": "f154",
-   "read": "read in part",
+   "read": "read",
    "shelfmark": "BnF fr. 4735 no. 60, f. 154r (canvas 294)",
    "date": "24 Apr 1573",
    "year": 1573,
@@ -155,7 +161,7 @@
   },
   {
    "id": "f154v",
-   "read": "read in part",
+   "read": "read",
    "shelfmark": "BnF fr. 4735 no. 60, f. 154v (canvas 297)",
    "date": "24 Apr 1573",
    "year": 1573,
@@ -171,8 +177,8 @@
     "partial": false
    },
    "length": {
-    "tokens": 224,
-    "distinct": 43,
+    "tokens": 223,
+    "distinct": 41,
     "unit": "symbols",
     "measured": true,
     "file": "f154v_tokens3.txt"
@@ -181,12 +187,12 @@
     "by": "llm from images",
     "source": "Gallica IIIF microfilm scans, 4417 x 6483 px",
     "image_quality": "fair",
-    "notes": "ct_f154v.txt. 206 of 224 tokens read (92.0%); line ends lost in the gutter."
+    "notes": "ct_f154v.txt; pass 3 (3 Oct 2026) full-scale re-read of the open groups: 221 of 223 tokens read (99.1%)."
    }
   },
   {
    "id": "f156",
-   "read": "read in part",
+   "read": "read",
    "shelfmark": "BnF fr. 4735 no. 61, f. 156r (canvas 300)",
    "date": "24 Apr 1573",
    "year": 1573,
@@ -217,7 +223,7 @@
   },
   {
    "id": "f156v",
-   "read": "read in part",
+   "read": "read",
    "shelfmark": "BnF fr. 4735 no. 61, f. 156v (canvas 301)",
    "date": "24 Apr 1573",
    "year": 1573,
@@ -234,7 +240,7 @@
    },
    "length": {
     "tokens": 645,
-    "distinct": 53,
+    "distinct": 52,
     "unit": "symbols",
     "measured": true,
     "file": "f156v_tokens3.txt"
@@ -243,7 +249,7 @@
     "by": "llm from images",
     "source": "Gallica IIIF microfilm scans, 4417 x 6483 px",
     "image_quality": "fair",
-    "notes": "Pass 2 at full scale (ct_f156v.txt; pass 1 at reduced scale kept as ct_f156v_pass1.txt, 346/515 = 67.2%). 569 of 645 tokens read as sense (88.2%); 9 signs struck by the writer not counted.",
+    "notes": "Pass 2 at full scale, pass 3 at 2x on every open group (ct_f156v.txt; pass 1 kept as ct_f156v_pass1.txt). 614 of 645 tokens read as sense (95.2%); 9 signs struck by the writer not counted.",
     "corrections": 130
    }
   }
@@ -491,6 +497,90 @@
    "kind": "control",
    "what": "Raw first-value decode vs shuffles after pass 2: f. 154r -2.25, f. 156v -2.60 per char vs -4.4 to -4.7 shuffled.",
    "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "access",
+   "what": "Looked for other photographs of fr. 4735: Gallica SRU returns one digitisation (btv1b9060724s, microfilm), no colour scan; Tomokiyo's cryptiana page has no image of the leaves.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "sibling key",
+   "what": "Compared key.tsv with Tomokiyo's current table (henryiii_Lansac.png): adopted st = stacked 8, il = barred N, nous = barred Gamma, q = 6, t = footed Pi.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "reading",
+   "what": "f. 154v l. 7 past the end of the gloss read 'le[s] nostre si inferieur'; gutter signs of ll. 1 and 5 identified (e of escus, s of longtemps).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "reading",
+   "what": "f. 156v l. 10-11 re-read with st = stacked 8: 'se monstrent estre ennemis jurez de ... France et specialement de Monseigneur, et lesquelz [so]nt extremement marrys'; the decipherer's 'si monsieur estoit ennemy' is a misreading; pass 2's 'mon frere' withdrawn.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "reading",
+   "what": "f. 156v: 'à faire estat que', 'il n'y en a que quatre con[tr]e nous', 'et nommement veule[nt]', 'empeschée', 'ca[r]' read with the gloss sense and sign values.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "hypothesis",
+   "what": "Barred-N forms separated on all pages: barred N = il throughout ff. 154-156; f. 124 looped form stays p (despuis); f. 160 'N = a' was a misread tall T (re-read on c307).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "reading",
+   "what": "Measured after pass 3: f. 154r 96.7%, f. 154v 99.1%, f. 156r 97.2%, f. 156v 95.2%; letter to Anjou 97.5%, letter to Catherine 95.8%, four pages 96.5% (1581/1638).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "control",
+   "what": "Raw first-value decode vs shuffles after pass 3: -2.25, -2.20, -1.93, -2.49 per char vs -4.4 to -4.7.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "transcription",
+   "what": "ff. 160, 164, 174 re-transcribed word-aligned at full scale (ct_f160/164/174.txt); f. 164's first cipher line had been skipped in session 2.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "reading",
+   "what": "f. 164 open runs read with the extended key and Tomokiyo's pour/par/et: 'en toutes sortes pour venir a vostre desir', 'car si jusques cy ... a despendu trente mil escus en ceste negotiation', 'et n'y faict toutefois riens qui vaille pour soy; mais seulement', 'vostre desseing'.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "reading",
+   "what": "f. 174 run after 'Moscovite' was a misdivision; f. 160 'et' and 'par' confirmed as Tomokiyo's word signs; both letters read in full.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "hypothesis",
+   "what": "Tried to read the f. 164 word sign Mc (subject of 'a despendu trente mil escus'): not in the key or Tomokiyo's table, gloss cut; left open.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "reading",
+   "what": "Measured per letter (measure.py --letters): f. 154 97.5%, f. 156 95.8%, f. 160 100%, f. 164 98.1%, f. 174 100%; ff. 154-174 1998/2059 = 97.0%; with f. 124 (96/100) 2094/2159 = 97.0%.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "control",
+   "what": "Raw first-value decode vs shuffles for ff. 160/164/174: -2.26/-2.11/-1.94 per char vs -3.8 to -4.3.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -501,8 +591,8 @@
    "key extended or corrected",
    "catalogue correction"
   ],
-  "class": "read in part",
-  "fraction_read": 0.93,
+  "class": "read",
+  "fraction_read": 0.97,
   "fraction_read_method": "measured",
   "fraction_read_source": "Measured over the documents with a sign-level count: f. 124 96/100 (reading.txt) and, 2 Oct 2026, f. 154r 439/454, f. 154v 206/224, f. 156r 307/316, f. 156v 569/645 (measure.py over ct_f154*.txt, ct_f156*.txt; NOTES section 9): 1617/1739 = 0.930. The election letters ff. 160, 164, 174 were deciphered in substance in session 2 but have no measured count, so they are not in it. Extent partial under the read bar: the letter to Catherine (ff. 156r-v) is 876/961 = 91.2%, below 95%, though every unread sign has an outside blocker.",
   "key": "recovered",
@@ -512,27 +602,42 @@
    "matched control",
    "historical consistency"
   ],
-  "notes": "f. 124: 96 of 100 signs; siblings ff. 160/164/174 read in substance; session 3 (pass 2): f. 154r 96.7%, f. 154v 92.0%, f. 156r 97.2%, f. 156v 88.2% (together 1521/1639 = 92.8%); remaining gaps at the microfilm gutter; ff. 182-189 (9 May) are clear.",
+  "notes": "Measured per letter (measure.py --letters, 3 Oct 2026): f. 124 96/100; to Anjou 24 Apr ff. 154r-v 660/677 = 97.5%; to Catherine 24 Apr ff. 156r-v 921/961 = 95.8%; f. 160 91/91; f. 164 203/207 = 98.1%; f. 174 123/123; all 2094/2159 = 97.0%. 65 open tokens: gutter-cut line ends, single signs, one unkeyed word sign (f. 164). ff. 182-189 (9 May) are clear.",
   "gaps": [
    {
-    "item": "f. 154r ll. 1-2, 15, 18 (6 + 5 + 4 signs)",
+    "item": "f. 154r ll. 1-2, 15, 18 (15 tokens)",
     "blocker": "illegible",
-    "detail": "inner-margin decipherment lost in the microfilm gutter; the signs give no word under the key"
+    "detail": "inner-margin decipherment lost in the microfilm gutter"
    },
    {
-    "item": "f. 154v ll. 1-2, 5, 7 (18 signs)",
+    "item": "f. 154v l. 7 end (2 tokens)",
     "blocker": "illegible",
-    "detail": "signs lost in the gutter ('escus' half-lost); the outer gloss too faint on the scan at l. 7"
+    "detail": "signs in the gutter"
    },
    {
-    "item": "f. 156r (9 signs)",
+    "item": "f. 156r (9 tokens)",
     "blocker": "too-short",
-    "detail": "single signs at gutter-cut line ends, one struck through; no gloss left for them"
+    "detail": "single signs at gutter-cut line ends"
    },
    {
-    "item": "f. 156v (76 signs in 24 groups)",
+    "item": "f. 156v (31 tokens, 12 groups)",
     "blocker": "illegible",
-    "detail": "line ends against the gutter or under the decipherer's overwriting; the gloss paraphrases there, so it does not fix the signs; retried with the extended key in pass 2"
+    "detail": "gutter-cut line ends and decipherer's overwriting; one microfilm digitisation only"
+   },
+   {
+    "item": "f. 164 word sign Mc (1 token)",
+    "blocker": "no-key-material",
+    "detail": "word sign met once, not in Tomokiyo's table, gloss cut"
+   },
+   {
+    "item": "f. 164 ll. 1, 8 (3 tokens)",
+    "blocker": "too-short",
+    "detail": "single signs, no value fits"
+   },
+   {
+    "item": "f. 124 l. 3 (4 tokens)",
+    "blocker": "illegible",
+    "detail": "gloss cut by the gutter"
    }
   ]
  }

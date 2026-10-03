@@ -1,0 +1,29 @@
+# BnF fr. 4735 no. 70, f. 174r (canvas 329): Lanssac to Charles IX, Plock, 9 May 1573. Session 3 pass 3 (3 Oct 2026),
+# word-aligned from img/c329.jpg (deskewed img/s174_deskew.png); supersedes the session-2 f174_tokens.txt.
+# Gloss (left margin, partly cut): "…la volunté et / …du Grand / …eur, de l'Empereur / …[prince]s de l'Empire /
+#   …de Spaigne / …secours et du / …Suède, qui tout / …bandez contr[e] / …Majesté"
+# Clear before: "... et qui est reussy tant heureusement"
+@L01
+cross c s sh F X | 3 pi
+= contre | la
+@L02
+ot Co ol u2 s 3h ast | et | 8 X s G ast g | hh ff | D phi G sm
+= volunté | et | menees | du | Grant
+# "Grant": G read a here (gloss "du Grand"); elsewhere G = e
+@L03
+Lo X i D s G ot phi | 4h | Ef | 4h g | Y F i s cross X g | 4h | 3 ast 8
+= Seigneur | de | l'Empereur | des | princes | de | l'Em-
+@L04
+P q9 phi G | hh ff F c q9 | 4h g Y pi q9 D s X | hh ot | 8 c Lo 7
+= -pire | du roy | d'Espaigne | du | Mosc-
+@L05
+u2 q9 3h X | et | dT ot | phi c q9 | 4h | g u2 X 4h | Ng i | 3h Co ot g
+= -ovite | et | du | roy | de | Suede | qui | tous
+# dT = Tomokiyo's row-1 d (a T with the bar to the left); the o of Moscovite is not written
+@L06
+G st c i X sm | 4 pi s 4h sh | cross c s sh F X | ot c st phi G | 8 pi
+= estoient | bandez | contre | vostre | Ma-
+@L07
+q9 G st ast
+= -jesté
+# clear: "Si est ce que j'auray encores plus d'occasion de louer Dieu ..."

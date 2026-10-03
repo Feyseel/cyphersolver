@@ -1,6 +1,6 @@
 # Lanssac to Charles IX, Warsaw, 26 April 1573 — BnF fr. 4735 no. 51, f. 124 — NOTES
 
-**Verdict: read; key carried to three sibling letters (section 8) and, in session 3 (section 9), to ff. 154r (97 %), 154v (92 %), 156r (97 %) and 156v (88 %), all read in part with gutter-blocked gaps; the 9 May letters ff. 182-189 are in clear.** Both cipher passages of the letter are recovered, 96 of the 100 signs. The key is a homophonic
+**Verdict: read. Every cipher letter of Lanssac's in fr. 4735 is over the read bar, measured per letter (session 3, section 9): f. 124 96 %, to Anjou 24 Apr (ff. 154r-v) 97.5 %, to Catherine 24 Apr (ff. 156r-v) 95.8 %, f. 160 100 %, f. 164 98.1 %, f. 174 100 %; the 65 open tokens are gutter-cut, single signs or one unkeyed word sign. Key: recovered (key.tsv), one word sign open. The 9 May letters ff. 182-189 are in clear.** Both cipher passages of the letter are recovered, 96 of the 100 signs. The key is a homophonic
 letter cipher with two or three signs per common letter, a dozen syllable and word signs (*et, nt, st, de, ou,
 car, Allemagne, pour, ns*), and the Court decipherer's marginal gloss, cut by the gutter on the microfilm, gives
 fragments of both passages. Lanssac writes that, after the dangers French travellers now meet in Germany, the
@@ -167,18 +167,43 @@ Anjou, Catherine, Brulart and Lanssac père (ff. 182 ff.). Still not done (outsi
 
 Per-letter status (tokens read as sense / cipher tokens, `python measure.py ct_<folio>.txt`, measure.log):
 
-| letter | file | read | status |
+| letter | file | read (pass 3, 3 Oct) | status |
 |---|---|---|---|
-| f. 154r, to Anjou, 24 Apr | ct_f154.txt, read_f154.md | 439 / 454 = 96.7 % | read in part (15 tokens, gutter) |
-| f. 154v, same letter | ct_f154v.txt, read_f154.md | 206 / 224 = 92.0 % | read in part (18 tokens, gutter) |
-| f. 156r, to Catherine, 24 Apr | ct_f156.txt, read_f156.md | 307 / 316 = 97.2 % | read in part (9 tokens, gutter) |
-| f. 156v, same letter | ct_f156v.txt, read_f156.md | 569 / 645 = 88.2 % | read in part (pass 2, full scale) |
+| f. 124, to Charles IX, 26 Apr | reading.txt | 96 / 100 = 96 % (session 1) | read |
+| f. 154r, to Anjou, 24 Apr | ct_f154.txt, read_f154.md | 439 / 454 = 96.7 % | read (15 tokens open, gutter) |
+| f. 154v, same letter | ct_f154v.txt, read_f154.md | 221 / 223 = 99.1 % | read (2 tokens at the gutter) |
+| **letter to Anjou, ff. 154r-v** | | **660 / 677 = 97.5 %** | **read** |
+| f. 156r, to Catherine, 24 Apr | ct_f156.txt, read_f156.md | 307 / 316 = 97.2 % | read (9 tokens, gutter) |
+| f. 156v, same letter | ct_f156v.txt, read_f156.md | 614 / 645 = 95.2 % | read (31 tokens in 12 groups) |
+| **letter to Catherine, ff. 156r-v** | | **921 / 961 = 95.8 %** | **read** |
 | f. 157r, same letter | — | clear | no cipher |
+| f. 160, to Charles IX, 1 May | ct_f160.txt, read_f160_f174.md | 91 / 91 = 100 % | read |
+| f. 164, to Anjou, 1 May | ct_f164.txt, read_f160_f174.md | 203 / 207 = 98.1 % | read (word sign Mc + 3 tokens) |
+| f. 174, to Charles IX, 9 May | ct_f174.txt, read_f160_f174.md | 123 / 123 = 100 % | read |
 | ff. 182, 184, 186, 188 (9 May, to Anjou, Catherine, Brulart, Lanssac père) | read_f182.md | — | **no cipher, no gloss**: all four are in clear |
 
-All four cipher pages together: 1,521 of 1,639 tokens (92.8 %). Pass 1 of f. 156v (reduced scale, 346 / 515 = 67.2 %)
-is kept as ct_f156v_pass1.txt; pass 2 re-read every line at full scale, found 130 more signs (whole lines had been
-merged or skipped), and drops the 9 signs the writer struck through (marked ~).
+All pages ff. 154-174: 1,998 / 2,059 = 97.0 % (`python measure.py --letters`); with f. 124, 2,094 / 2,159 = 97.0 %.
+ff. 160, 164, 174 were word-aligned and re-read at full scale in pass 3 (3 Oct): f. 164's first cipher line had been
+skipped in session 2 and its four open runs read *en toutes sortes pour venir à vostre desir*, *car si jusques cy … a
+despendu trente mil escus*, *et n'y faict toutefois riens qui vaille pour soy; mais seulement*, *vostre desseing*.
+The four pages of 24 April: 1,581 / 1,638 = 96.5 %. History: pass 1 (2 Oct, reduced scale) 154r 92.5,
+154v 92.0, 156r 97.2, 156v 67.2 %; pass 2 (full-scale 156v, first retry) 96.7 / 92.0 / 97.2 / 88.2 %; pass 3 (3 Oct, below)
+96.7 / 99.1 / 97.2 / 95.2 %. Pass 1 of f. 156v is kept as ct_f156v_pass1.txt.
+
+**Pass 3 (3 Oct 2026).** (a) Other images: Gallica holds one digitisation of fr. 4735 (SRU `dc.source all "Français 4735"`
+returns only btv1b9060724s, microfilm); no colour scan. Tomokiyo's page (cryptiana henryiii.htm, read 3 Oct) shows no image
+of the leaves, only his table, which is now unshifted and gives *st* = stacked 8, *il* = barred N, *nous* = barred Γ,
+*par* = looped c, *q* = 6 and plain N, *t* row 2 = footed Π. (b) With those values and 2x crops of every open group:
+f. 154v l. 7, where the gloss stops at "vaincre", reads "le[s] nostre si inferieur"; the gutter signs of ll. 1-2 and 5 are
+the *e* of *escus* and the *s* of *longtemps* (one "sign" of pass 1 was not a sign). f. 156v l. 10-11: the sign pass 2
+took as *f* ("mon frere") is the stacked-8 *st*: the cipher reads "se monstrent estre en[ne]mis jurez de … France et
+specialement de Monseigneur, et lesquelz [so]nt extremement marrys" — the decipherer's "si monsieur estoit ennemy" is a
+misreading of "se monstrent estre ennemis"; the clover sign is *-ment/-nt*. l. 25 "à faire estat que" (footed Π = t);
+l. 30-31 "il n'y en a que quatre con[tr]e nous" (Γ = nous); l. 32 "et nommement veule[nt]"; l. 24 the feminine
+"empeschée" and "ca[r]" (gloss "Car ilz halteront"). (c) Barred N: the barred N proper is *il* everywhere it occurs
+(ff. 154, 156r, 156v); f. 124's *despuis* sign has a loop above the bar and *il* gives "desiluis", so it stays *p* (C);
+f. 160's "N = a" in *autant* was a misread tall T (re-read on img/c307.jpg; f160_tokens.txt and reading_siblings.txt
+corrected). f. 160 and f. 124 are now consistent with ff. 154-156.
 
 The session-1 tokens of ff. 154/156 (tokens.txt) were redone from the full-size scans (img/c294, c297, c300, c301,
 deskewed with strips.py) with word groups aligned to the plaintext, so that each group can be scored read or unread.
@@ -195,41 +220,44 @@ Key changes (key.tsv, session-3 rows): Gf = *me / nous* (a pronoun sign: "qui me
 faicte", "il me semble", "ilz seront", "il n'y en a"); obul = *bien*; Pi2 = *x/y* (ceulx, imperiaulx, celuy); Co (6-like)
 = *o*; vo = *l'Empereur* (second form of o-); 4 = *b* confirmed (eleven words); 5 = *n*; Mx (footed n-shape), sq = *x*
 (deux, chefz, ceulx); Mu (plain n-shape) = *u / qu* (vers, vous, que; Tomokiyo's *u*); 6 = *qu*; Ne (barred N with a
-loop) = *est* (d'estroit); Gq = *qu* (embarquement); qq = *par* (par terre); Bf (second B form) = *f* (mon frere);
-sm8 = *m* (recommandation, ameine). Pass 2 also shows the hand writes "mectre", "ameine", "neaumoins", "nommé".
+loop) = *est* (d'estroit); Gq = *qu* (embarquement); qq = *par* (par terre); clov = *-ment/-nt*; Mt (footed Π) = *t*; Bf = *f* of pass 2 withdrawn in pass 3 (the sign is the stacked-8 *st*);
+sm8 = *m* (recommandation, ameine). Pass 3 on ff. 160-174 added Xp = *pour* and pq = *par* (Tomokiyo), Ef = *l'Empereur* (third form), dT = *d*, ffq = *qu*,
+hhx = *o* (one each); Mc, a word sign on f. 164, stays unread. Pass 2 also shows the hand writes "mectre", "ameine", "neaumoins", "nommé".
 
 Recheck of *despuis* (f. 124, first word): re-read on img/c242.jpg. The third sign is a barred N with a loop above, not
 the plain barred N that reads *il* on ff. 154-156. Read *il* the word gives *de-s-il-u-i-s*, no French; read *p* it gives
 *despuis*, which fits the gloss end "…es dangier" (… les dangiers). *despuis* stands. The barred-N signs are at least
-three graphic forms (Nb *il*, Ne *est*, the f. 124 form *p*) that the transcription does not yet separate reliably; f. 160's
-*autant* (N = a) is a fourth occurrence and should be rechecked on its image.
+three graphic forms (Nb *il*, Ne *est*, the f. 124 looped form *p*); pass 3 separated them on every page. f. 160's
+*autant* (N = a) was a misread tall T (pass 3).
 
 The ff. 182 ff. letters were expected (section 8, catalogue) to be in the same key with a marginal decipherment. The
 images (canvases 341-353) show four letters entirely in clear, with addresses on 183v, 185v, 187v, 189v.
 
 Controls: control3.py scores the raw first-value decode of each new letter (no hand choices) under
-`fr-1600-letters` without spaces: −2.25 (f. 154r), −2.38 (154v), −1.93 (156r), −2.60 (156v, pass 2; −3.00 in pass 1)
+`fr-1600-letters` without spaces: −2.25 (f. 154r), −2.20 (154v), −1.93 (156r), −2.49 (156v, pass 3; −3.00 in pass 1)
 per char, against −4.4 to −4.7 for three shufflings of the same tokens. The hand readings score −1.50 to −1.61 per char with spaces, in the range of real French.
 
 ## Remaining gaps
 
-118 tokens on the four pages are unread. All of them have an outside blocker; none is a key gap the text could still
-close (each was retried with the extended key in pass 2, below).
+65 tokens are open over all the cipher pages (61 on ff. 154-174, 4 on f. 124); each was retried at 2x with the extended key and Tomokiyo's table.
 
-- f. 154r ll. 1-2 (6 tokens: the group after "desquelz", gloss line cut to "…que nous") - blocker: illegible; the inner-margin decipherment is lost in the microfilm gutter and the six signs give no word under the key.
-- f. 154r l. 15 (5 tokens before "ameine") and l. 18 (4 tokens after "l'aide") - blocker: illegible; gutter-cut gloss ("…nament", "…qui nous") does not reach them, and no value set from the key gives a word.
-- f. 154v ll. 1-2, 5, 7 (18 tokens: "escus" half-lost at the line end, one sign after "longtemps", three groups after "vaincre") - blocker: illegible; signs lost in the gutter and the outer gloss too faint on the scan at l. 7.
-- f. 156r (9 tokens: opening group with a struck sign, one sign before "inopinée", "ff G" at a line end, one sign after "quelqu'ung") - blocker: too-short; single signs at gutter-cut line ends, no gloss left for them.
-- f. 156v (76 tokens in 24 groups: the "cependant" group, "le" before "roy", "de large", the 8-sign "estoit ennemy" group, the opening of the Car-j'estime sentence, "ensemble afin", "a Monseigneur", the words after "ung roy … nommé", "de ceste nation", "quatre", and a few single signs) - blocker: illegible; most sit at the line ends against the gutter or under the decipherer's overwriting, and the gloss paraphrases there (e.g. "ne nous surprenne" for cipher "n'y soit prevenu") so it does not fix the signs.
+- f. 154r l. 1-2 (6 tokens after "desquelz"; gloss cut to "…que nous") - blocker: illegible; the inner-margin decipherment is lost in the microfilm gutter and the signs give no word.
+- f. 154r l. 15 (5 tokens before "ameine") and l. 18 (4 tokens after "l'aide") - blocker: illegible; gutter-cut gloss ("…nament", "…qui nous") does not reach them.
+- f. 154v l. 7 end (2 tokens after "inferieur") - blocker: illegible; half the signs are in the gutter.
+- f. 156r (9 tokens: opening group with a struck sign, one sign before "inopinée", two at a line end, one after "quelqu'ung") - blocker: too-short; single signs at gutter-cut line ends, no gloss left for them.
+- f. 156v (31 tokens in 12 groups: "[cepen]dant" written as d-a-nt only, "le" before roy, "de la[rge]", one sign before "des fortz", one after "ceulx", one after "de", the 6-sign group after "J'estime que", "[ble af]in", "à [Monseigneur]", "[le]urs", and the "de ceste nation [servi]teurs" run) - blocker: illegible; each sits at a gutter-cut line end or under the decipherer's overwriting, and the gloss paraphrases at these points; one microfilm digitisation only (Gallica SRU, 3 Oct 2026), no colour scan.
+- f. 164 l. 4 (1 token: the word sign Mc, subject of "a despendu trente mil escus") - blocker: no-key-material; a nomenclator word sign met once, not in Tomokiyo's table, and the inner-margin gloss beside it is cut by the gutter.
+- f. 164 ll. 1, 8 (3 tokens: a stray *c* between "pour" and "venir"; the two signs of "l[e]" in "il l[e] trouble", which give "li") - blocker: too-short; single signs, the sense is clear but no value fits them.
+- f. 124 l. 3 (4 tokens: "ser{o r h e}", probably *service* with a misread sign; session 1) - blocker: illegible; the gloss at this line is cut by the gutter.
 
 ## Escalation
 
 - [x] siblings - every Lanssac letter of 24 Apr-9 May 1573 in fr. 4735 opened (ff. 124, 154, 156-157, 160, 164, 174, 182, 184, 186, 188); the four 9 May letters ff. 182-189 are in clear, no key material.
 - [x] clear-pages - f. 157r (postscript) and the clear leaves ff. 126-127, 182-189 checked; the verso glosses of ff. 154v and 156v are the decipherment and were used as cribs.
-- [x] known-keys - key.tsv of sessions 1-2 applied unchanged first; Tomokiyo's table compared (his M = u confirmed as Mu).
-- [x] print - Noailles 1867 vol. III searched in session 1 (prints neither 24 April letter nor the 9 May ones); Tomokiyo's cryptiana page gives no reading.
-- [x] key-rebuild - key extended from context and the glosses (Gf, Ng, Nb, Ne, Mu, Mx, Gq, Bf, obul, Pi2, vo, qq; see section 9); LM control (control3.py) against shuffles.
-- [x] retry - pass 2 (2 Oct 2026): f. 156v re-transcribed at full scale and every unread group of ff. 154r, 154v, 156r, 156v retried with the extended key; f. 154r rose from 92.5 % to 96.7 % (nous ×2, qui, qui est, ameine), f. 156v from 67.2 % to 88.2 %; f. 154v and 156r unchanged; f. 124 *despuis* rechecked (stands).
+- [x] known-keys - key.tsv of sessions 1-2 applied first; Tomokiyo's current table (henryiii_Lansac.png, 3 Oct 2026) compared sign by sign: st, il, nous, par, q, t agree and were adopted.
+- [x] print - Noailles 1867 vol. III searched in session 1 (prints neither 24 April letter nor the 9 May ones); Tomokiyo's cryptiana page gives no reading or image of the leaves; Gallica has no second digitisation of fr. 4735.
+- [x] key-rebuild - key extended from context and the glosses (Gf, Ng, Nb, Ne, Mu, Mx, Mt, Gq, clov, obul, Pi2, vo, qq; section 9); pass 2's Bf = f withdrawn; LM control (control3.py) against shuffles.
+- [x] retry - pass 2 (2 Oct) and pass 3 (3 Oct): every open group of ff. 154r, 154v, 156r, 156v, 160, 164, 174 re-read at 2x and retried; f. 164 ~80 -> 98.1 %, ff. 160 and 174 to 100 %; 154v 92.0 -> 99.1 %, 156v 88.2 -> 95.2 %; f. 124 *despuis* and f. 160 *autant* rechecked on the images.
 
 ## 7. Files
 

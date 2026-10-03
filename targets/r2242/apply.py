@@ -11,7 +11,8 @@ K = {'11':'t','12':'w','13':'y','14':'x','15':'l','21':'z','22':'o','23':'k','24
      '55':'i','65':'e'}
 
 # word signs: transcriber label -> (value, grade).  H = fixed by the p1 clear text (or R1892 'de');
-# M = probable (several contexts agree, or a sibling occurrence agrees); I = from context only.
+# M = probable: several contexts agree, a sibling occurrence agrees, or grammar forces the word in its one
+# context (3 Oct 2026: e.g. 'tussen [?]elve' admits only dezelve); I = from context only, other words would fit.
 SIGNS = {
     'circle with dot': ('de', 'H'), '<theta>': ('de', 'H'),
     # page-1 clear text under the cipher
@@ -22,16 +23,19 @@ SIGNS = {
     'section mark §': ('maar', 'H'), 'v-like': ('tot', 'H'), 'crossed loop, 8 with bar': ('zijn', 'H'),
     'long slash/ʃ': ('zelfde', 'H'),
     # read from context 30 Sept 2026
-    'script L': ('uit', 'I'), 'looped L/script ℒ': ('uit', 'I'), 'flagged D': ('van', 'M'), 'inverted triangle with stroke': ('van', 'M'),
-    'phi/circle with stroke': ('frankrijk', 'I'), 'phi/circle with vertical stroke': ('frankrijk', 'I'),
+    'script L': ('uit', 'M'), 'looped L/script ℒ': ('uit', 'M'), 'flagged D': ('van', 'M'), 'inverted triangle with stroke': ('van', 'M'),
+    'phi/circle with stroke': ('frankrijk', 'M'), 'phi/circle with vertical stroke': ('frankrijk', 'M'),
     '⊥ inverted T': ('om', 'M'),
     # second pass 2 Oct 2026
-    'Lambda/angle': ('dat', 'M'), 'Lambda': ('dat', 'M'), 'slashed Lambda': ('dat', 'I'),
-    'crossed Lambda': ('dat', 'I'), 'infinity': ('daar', 'M'), '∞': ('daar', 'M'),
-    '< angle': ('naar', 'I'), 'check-mark over bar': ('zonder', 'M'), 'crossed e with stroke': ('zijn', 'M'),
-    'X/cross': ('weinig', 'I'), 'crossed diamond': ('voor', 'I'), 'Y with crossbar': ('ik', 'I'), 'crossed x/dagger': ('al', 'I'), '&': ('engeland', 'I'),
-    '+ cross': ('mogelyk', 'I'), 'crossed Y/lambda': ('dez', 'I'),
+    'Lambda/angle': ('dat', 'M'), 'Lambda': ('dat', 'M'), 'slashed Lambda': ('dat', 'M'),
+    'crossed Lambda': ('dat', 'M'), 'infinity': ('daar', 'M'), '∞': ('daar', 'M'),
+    '< angle': ('naar', 'M'), 'check-mark over bar': ('zonder', 'M'), 'crossed e with stroke': ('zijn', 'M'),
+    'X/cross': ('weinig', 'I'), 'crossed diamond': ('voor', 'I'), 'Y with crossbar': ('ik', 'M'), 'crossed x/dagger': ('al', 'M'), '&': ('engeland', 'I'),
+    '+ cross': ('mogelyk', 'I'), 'crossed Y/lambda': ('dez', 'M'),
 }
+
+import os
+STRICT = os.environ.get('STRICT') == '1'   # STRICT=1: I-grade (context-only) sign values count as unread
 
 TOK = re.compile(r'\[[^\]]*\]|<[^>]*>|\([^)]*\)|\S+')
 
@@ -41,11 +45,16 @@ def tokens(line):
         return
     for t in TOK.findall(line):
         u = t.rstrip('?')
+        m = re.fullmatch(r'([1-6]{2})>([1-6]{2})', u)
+        if m:                     # writer's slip, emended: 'written>read' (listed in NOTES, grade M)
+            u = m.group(2)
         if re.fullmatch(r'[1-6]{2}', u):
             yield 'pair', u, K.get(u)
         elif t.startswith('[sign:') or (t.startswith('<') and t.endswith('>')):
             lab = t[6:-1] if t.startswith('[sign:') else t
             v = SIGNS.get(lab)
+            if v and STRICT and v[1] == 'I':
+                v = None
             yield 'sign', lab, (v[0] if v else None)
         elif re.fullmatch(r'[1-6?]{2}|\?\d|\d\?', u) or (t.startswith('[') and 'ink blot' in t):
             yield 'pair', u, None

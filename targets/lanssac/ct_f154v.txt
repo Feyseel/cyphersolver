@@ -7,12 +7,12 @@
 # Gloss, block 2: "Je espere que dans | peu de jours tous | ceulx la avec beaucoup | d'aultres seront voz [subjectz]"
 # Clear before: "Monseigneur, ... ne pourroit faire sans l'argent pour ses affaires"
 @A
-Z i X | s pi q9 | Y T g | 7 i s B pi s 3 X | x2
-= car je | n'ay | pas | cinquante | {x2}
+Z i X | s pi q9 | Y T g | 7 i s B pi s 3 X | G
+= car je | n'ay | pas | cinquante | e[scus]
 # ~ gutter: es[cus]
 @B
-x3 ot Lo | cross c 8 obul | B X | q9 G s | pi i | ast nn Y F ff nn sh ast | Y 3
-= {x3} -us | combien | que | j'en | ay | emprunté | pl-
+ot Lo | cross c 8 obul | B X | q9 G s | pi i | ast nn Y F ff nn sh ast | Y 3
+= -us | combien | que | j'en | ay | emprunté | pl-
 # ~ gutter: [us]
 @C
 4h | Ng q9 s sh X | 7 ast s g
@@ -27,16 +27,18 @@ pour | ot X s i F | Lo q9 3 c i s oo | de4 | 4h 8 X ot phi ast F | g i 3 c s oo 
 = pour | venir | si loing | et | demeurer | si longte-
 # ~ gutter: [mps]
 @E
-x4 | de4 | of T i F X | 7 c s sh phi ast | 7 pi phi F X | T | 7 X ff 3 Pi2 | B i
-= {x4} | et | faire | contre- | -carre | à | celuy | qui
+g | de4 | of T i F X | 7 c s sh phi ast | 7 pi phi F X | T | 7 X ff 3 Pi2 | B i
+= [longtemp]s | et | faire | contre- | -carre | à | celuy | qui
 # ~ gutter: [par] (gloss "qui par beaucoup")
 @F
 4 X T ot 7 c u2 Y | 4h | oo phi T ns | hh L ns | nn X | g 7 pi ot F c sm
 = beaucoup | de | grans | dons | ne | sçauront
 # ~ gutter: [va]
 @G
-q9 s 7 F X | 3 G Y s c 8 F ast | Lo i F | s of X phi q9 X ot F | Y de4
-= -incre | {3 G Y s c 8 F ast} | {Lo i F} | [i]nferieur? | {Y de4}
+# pass 3 (3 Oct, full-scale re-read): the gloss ends at "vaincre"; the cipher continues "le[s] nostre si inferieur"
+# (the nostre: the French candidate); x2 = G (e of escus, rest in the gutter), x3 was not a sign, x4 = g (s of longtemps)
+q9 s 7 F X | 3 G g s c st F ast | Lo i | i s of X phi q9 ast ot F | Co sm
+= -incre | le[s] nostre | si | inferieur | {Co sm}
 # clear: "... vous avoir fasché par ceste importunité pour m'excuser ... valdroient bien en France plus de trois cens escus la piece"
 @H
 et | X g Y G F ast | B X | hh pi ns | Y X ot | 4h | q9

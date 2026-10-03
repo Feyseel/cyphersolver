@@ -1,4 +1,4 @@
-# cipher tokens only, generated from ct_f154.txt (session 3, pass 2); struck signs (~) omitted
+# cipher tokens only, generated from ct_f154.txt (session 3, pass 3); struck signs (~) omitted
 de4 g ff
 X i sm i T q9 pi Y F blot s g hh ast ot Mx 7 h c g X Lo ol u2
 s ast B i Gf hh c 5 nn X oo T i s D 4h 7 T ot Lo G 3 T ff sh

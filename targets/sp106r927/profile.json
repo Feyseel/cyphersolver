@@ -21,7 +21,7 @@
     "partial": true
    },
    "length": {
-    "tokens": 475,
+    "tokens": 492,
     "unit": "symbols",
     "measured": true,
     "file": "hand_p3.txt"
@@ -30,7 +30,7 @@
     "by": "llm from images",
     "source": "DECODE images",
     "image_quality": "good",
-    "notes": "first page of the letter; hand-transcribed 19 Sept 2026. Token count from _check_profile --measure includes the column labels and line-end marks."
+    "notes": "first page of the letter; hand-transcribed 19 Sept 2026. Token count from _check_profile --measure includes the column labels and line-end marks. Re-read sign by sign from 3x glyph tiles 3 Oct 2026 (15 columns corrected)."
    },
    "read": "read in part"
   },
@@ -52,7 +52,7 @@
     "partial": true
    },
    "length": {
-    "tokens": 436,
+    "tokens": 437,
     "unit": "symbols",
     "measured": true,
     "file": "hand_p1.txt"
@@ -61,7 +61,7 @@
     "by": "llm from images",
     "source": "DECODE images",
     "image_quality": "good",
-    "notes": "closing page of the letter (follows f. 243); hand-transcribed 2 Oct 2026. Token count from _check_profile --measure includes the column labels and line-end marks."
+    "notes": "closing page of the letter (follows f. 243); hand-transcribed 2 Oct 2026. Token count from _check_profile --measure includes the column labels and line-end marks. Re-read 3 Oct 2026 (6 columns corrected; two writer-cancelled signs marked [struck])."
    },
    "read": "read in part"
   },
@@ -83,7 +83,7 @@
     "partial": true
    },
    "length": {
-    "tokens": 418,
+    "tokens": 419,
     "unit": "symbols",
     "measured": true,
     "file": "hand_p2.txt"
@@ -142,7 +142,7 @@
   ],
   "sessions": 3,
   "first_date": "2026-09-19",
-  "last_date": "2026-10-02"
+  "last_date": "2026-10-03"
  },
  "solution": [
   {
@@ -234,6 +234,42 @@
    "kind": "literature search",
    "what": "Web search (SP 106/10 pigpen, Nancy), Lasry GL.htm copies in the repo, Tomokiyo's Cryptiana index (only the Walsingham-Wilkes pigpen): no edition or calendar entry; CSP not searchable without a year or names",
    "result": "failed"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "access",
+   "what": "Image routes checked: TNA Discovery has no digitised images of SP 106/10; DECODE serves only the 2300-px PNGs already used (no larger original on the record)",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "transcription",
+   "what": "Every sign of the unread words on ff. 243 and 241 re-read from 3-4x tiles of each glyph (auto-segmentation boxes used only as locators): 15 columns of f. 243 and 6 of f. 241 corrected (open sides of corner shapes, dot counts, inner strokes, missed and cancelled signs)",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "reading",
+   "what": "New readings: 'je ne pouvois', 'ayant appris', 'lequel salua dernierement', 'mon maistre', 'vous aviés creu quelques choses au prejudice', 's'il fut esté personne en qui je peusse prendre confiance, vous eussiés congnu par luy que je ne cheris rien tant que les occasions de vous en tesmoigner des effets', 'l'honneur de vostre bienveuillance'; f. 241 'ledit', 'de la part de Sa Majesté', 'je leur ouvriray mon coeur', 'faveur d'asseurer'",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "key from source",
+   "what": "F*1 = l (not t): 'que les occasions' twice; D*1 = o (pouvois)",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "solver",
+   "what": "Joint hill-climb of all sign values over the three pages with fr-1600-letters (anneal.py): score -2.106 -> -2.002/char, but it turns B2 g->s (gentilhomme, longue, tesmoigner) and K2 h->d (humble, honnor); LM-only over-fitting on 1300 signs. Only F*1 = l kept",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "statistics",
+   "what": "measure.py: letter 843/882 = 95.6% read as sense (97.1% excluding 14 code/name signs); f. 243 98.3%, f. 241 92.5%. Before: 84.0%",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -245,38 +281,43 @@
    "key extended or corrected"
   ],
   "class": "read in part",
-  "fraction_read": 0.84,
+  "fraction_read": 0.956,
   "verification": [
    "historical consistency"
   ],
   "notes": "All three pages transcribed. The letter runs f. 243 -> f. 241; f. 242 is a second copy of f. 243. Written at Nancy in December by a client ('vostre tres humble et fidel serviteur', signature read 'Nicle') to a 'Monsieur'; it concerns the marriage of 'ce gentilhomme', an envoy to congratulate 'Sa Majesté' on recovering from a long illness, and assurances of zeal for the King's service.",
   "gaps": [
    {
-    "item": "words not read as sense on ff. 243/241 (about 16% of signs, e.g. 'utesteiersnenei', 'lequessalui', 'couguupr', 'b_ruileru')",
+    "item": "f. 241 c12 and c17 ('b_ruiledu ... et du uoii', 'bienr') and single signs (c13 end, c15 end, c19 day)",
     "blocker": "illegible",
-    "detail": "the 2300-px DECODE images are the only images; at that size the open side of corner shapes, inner strokes and dot counts are ambiguous, and the duplicate f. 242 repeats the same signs so it cannot correct them; a higher-resolution image or the leaf is needed"
+    "detail": "signs under ink blots and a stain or ambiguous at the 2300-px DECODE resolution; f. 241 has no second copy; TNA has not digitised SP 106 and DECODE serves no larger image"
    },
    {
-    "item": "the '@' (circle/9) signs, the numeral-like sign and '67' (f. 241, f. 243)",
+    "item": "the '@' (circle/9) signs, the clear '67', the date numeral and the signature 'Nicle'(?)",
     "blocker": "no-key-material",
-    "detail": "three or four occurrences, in name positions; no nomenclator survives with the letter; too few occurrences to value from context"
+    "detail": "14 signs in name positions; too few to value from context and no nomenclator with the letter or in the neighbouring records"
+   },
+   {
+    "item": "two lost signs on f. 243 (c2 blot, c6 hole)",
+    "blocker": "illegible",
+    "detail": "paper hole and ink blot; f. 242 has the same signs under its flap"
    },
    {
     "item": "upper part of f. 242 columns a-f",
     "blocker": "needs-physical-access",
-    "detail": "covered by the pasted paper flap with the pencil key; it duplicates f. 243 c0-c5, so only the copy is lost, not the text"
+    "detail": "under the pasted flap with the pencil key; duplicates f. 243"
    },
    {
     "item": "sender, recipient and year",
     "blocker": "no-key-material",
-    "detail": "the closing names only 'Nicle'(?) at Nancy in December; the recipient is 'Monsieur'; the names sit in the '@' code signs; no docket, no address leaf in the record"
+    "detail": "names are in the '@' code signs; only 'Nicle'(?) at Nancy in December"
    }
   ],
   "fraction_read_method": "measured",
-  "fraction_read_source": "measure.py over reading.txt: 728 of 867 signs of the letter (f. 243 + f. 241) read as sense words (at most one wrong letter per word); the duplicate f. 242 (283/393 visible) is reported separately",
+  "fraction_read_source": "measure.py over reading.txt (pass 2, 3 Oct 2026): 843 of 882 signs of the letter (f. 243 + f. 241) read as sense words (at most one wrong letter per word); 14 code/name signs (@ signs, 67, date numeral, signature) counted as not read; 97.1% excluding them. f. 243 98.3%, f. 241 92.5%. Before this pass: 84.0% (728/867). The duplicate f. 242 is reported apart (74.4%).",
   "key": "partial",
   "codes_open": {
-   "open": 4,
+   "open": 6,
    "total": "unknown"
   },
   "first_break": false

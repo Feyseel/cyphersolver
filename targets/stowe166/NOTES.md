@@ -1,7 +1,8 @@
 # Stowe MS 166: Edmondes to Burghley, 1592–1594 (DECODE R7770–R7775)
 
 Status: in progress
-Reading so far: read in part (every cipher line read; only the person signs open)
+Reading so far: read in part (every cipher line read; only the person signs open). Measured 3 Oct 2026 (`measure.py` on
+`reading.txt`): 1023 of 1035 cipher signs read = 98.8%; the 11 person code signs and one unexplained sign are the rest.
 Prior decipherment in print (found 30 Sept 2026, after the key was recovered here): G. G. Butler, *The Edmondes
 Papers* (1913), prints five of the six letters with the cipher passages deciphered. See "Print check" below.
 
@@ -93,9 +94,9 @@ so the comparison is by words, not word order.
 **R7773, f. 60v** (after "but the K. thereuppon saide vnto me"):
 > that his faith is not vendible.
 
-**R7774, f. 109v**:
-> choise expreslie to negotiate therein, for the difficulties of empeachement wch he knoweth he will geive to
-> the same in respect of his owne interest against [£] pretending for the gouernment of Champaigne, [?] hauing
+**R7774, f. 109v** (lines 1-2 re-read from the image 3 Oct 2026; the earlier quote began mid-line 2):
+> [9]: of whome especiallie [o] hath made choise expreslie to negotiate therein, for the difficulties of empeachement wch he knoweth he will geive to
+> the same in respect of his owne interest against [£] pretending for the gouernment of Champaigne, [o] hauing
 > no desire it should nowe take place, the rather for that he hath renewed his intelligences in Amiens and
 > Rheins by the meanes of the duke; the said townes…
 
@@ -183,8 +184,24 @@ used, and George Lasry's list entry needs reclassifying as a re-solution of a pu
 - Butler 1913: read pp. 46–59 and 148–151 verbatim and compare with the readings here (done by word counts only,
   30 Sept 2026).
 
+## Measurement and person signs (3 Oct 2026)
+
+`reading.txt` holds every cipher passage letter for letter (one sign = one letter), `measure.py` counts it:
+**1023 of 1035 signs read = 98.8%** (99.9% leaving out the 11 person code signs). The earlier 95% was an estimate.
+Re-checked against re-fetched DECODE images (R7774, R7775; `img/`, git-ignored):
+- R7774 f. 109v: the cipher starts on line 1 after the clear "and whereas,": "[9]: of whome especiallie [o] hath made
+  choise expreslie to negotiate therein ...". The earlier quote began at "choise". The "[?]" of the old reading is the
+  same sign **o** (a small circle) as on line 1, so o is a person sign: the subject who "hath made choise" of [9] to
+  negotiate and "hath no desire it should nowe take place" - most likely the King (by context only). One sign "3:"
+  before "the said townes" (after the clear "by the meanes of the duke") is unexplained; one sign in "said" is struck.
+- R7775 f. 112: the lacuna "ca[...]inge" is "carryinge": r and y written as one ligature over the second f.
+- Person signs now: 9 (Soissons?, R7770 x2, R7771, R7772 f. 58v, R7774), n (Montpensier? R7770), 4̇ (R7770), £ (Guise?,
+  R7774), £2 (R7775), o (the King?, R7774 x2). HMC Salisbury IV (archive.org 11576077bsb, searched 30 Sept) and
+  Birch 1749 print no decipherment that names them; CSP Foreign / List and Analysis 1592-94 is in copyright and not
+  online; Butler's pages (which would show his readings) are blocked here.
+
 ## Remaining gaps
-- code signs 9, n, £/£2, 4̇ - blocker: no-key-material; person signs with no name table: 9 = Soissons? and £ = Guise? by context ("Soissons" on Butler p. 46, "Guise" on p. 150), n = Montpensier in Love 2001's gloss, 4̇ unidentified; no key with names survives (known keys checked, see Escalation) and Butler's page text, which would show his reading of the signs, is blocked here (HathiTrust IP block; a browser elsewhere can read seq 94, 104, 198)
+- person code signs 9, n, 4̇, £/£2, o (11 signs) and the sign "3:" on f. 109v - blocker: no-key-material; no key with a name table survives (known keys checked), the context fixes only "Soissons?", "Montpensier?", "Guise?", "the King?"; Butler 1913's page text, which would give his reading of them, is blocked here (HathiTrust IP block; a browser elsewhere can read seq 94, 104, 198)
 
 ## Escalation
 - [x] siblings: all six records R7770-R7775 of the volume opened and read; f. 110 checked, no cipher
@@ -192,4 +209,4 @@ used, and George Lasry's list entry needs reclassifying as a re-solution of a pu
 - [x] known-keys: 2 Oct 2026. Tomokiyo's Elizabethan tables (copy in targets/norreys1567/csp/elizabeth.htm) have no Edmondes cipher; Unton's 1591 cypher (Stevenson 1847 p. 14) is letters and digits, a different system; the DECODE harvest (research/catalogue_harvest/decode) has no Edmondes or Stowe 166 key record. No key gives the person signs
 - [x] print: done 2026-09-30. Butler 1913 prints R7770, R7771, R7772, R7773 and R7775 with the cipher deciphered (nos. XVIII, XXI–XXIII, LXVI; shown from HathiTrust's page-level word data, page text not seen), but not R7774. Love 2001 quotes the f. 50 and f. 60v passages from the letters as received. Birch 1749 (three texts) and HMC Salisbury IV have none of them. List and Analysis vols 3–5 remain unseen (in copyright). (2026-09-21: blocked; HathiTrust Cloudflare 403, Google Books captcha)
 - [x] key-rebuild: substitution key rebuilt from the/of/to and long words across the six records
-- [x] retry: 2 Oct 2026. R7772 images re-fetched from DECODE; f. 59 re-read with the full key and read in full (one new sign, | = q); the person signs regraded: f. 59 has none, the lone "9:" before f. 58v stays a mark or Soissons (Butler p. 56 has no "Soissons")
+- [x] retry: 3 Oct 2026, R7774 and R7775 re-read from the images (line 1-2 of f. 109v added, "carryinge"); 2 Oct 2026. R7772 images re-fetched from DECODE; f. 59 re-read with the full key and read in full (one new sign, | = q); the person signs regraded: f. 59 has none, the lone "9:" before f. 58v stays a mark or Soissons (Butler p. 56 has no "Soissons")

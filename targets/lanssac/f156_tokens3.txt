@@ -1,4 +1,4 @@
-# cipher tokens only, generated from ct_f156.txt (session 3); one manuscript line per line
+# cipher tokens only, generated from ct_f156.txt (session 3, pass 3); struck signs (~) omitted
 sm s cross hh de4 3 X g 7 h c Lo ast g Lo c sm 4h Y phi X Lo ast
 sm ast s 3 X 3 sh sh ast F 8 X g B G q9 ast g Y X F G 4h hh pi ns 3 ot
 s hh q9 Y F c 7 h T i nn u2 c ff g Lo X F ast sh blot 8 X F ast

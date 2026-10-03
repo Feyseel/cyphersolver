@@ -149,9 +149,48 @@ gratification, Banquier; GS II pp. 886–894 read. R1892 is not printed, but the
   devroient se laisser embarquer"), so it was written before those orders reached the continent: late November or
   early December 1795. DECODE's 1 Jan 1795 is wrong (to queue separately; decode_updates not touched here).
 
+## Third pass (3 Oct 2026): re-transcription, writer's slips, measured against the read bar
+
+Measured with `../r2242/measure_sense.py` (its header and `../r2242/NOTES.md`, Third pass, give the rules: STRICT=1 so
+I-grade sign values count unread; LM window or an attested 6+-letter word; y scored as ij for Dutch; French page
+scored with fr-1750-nospace, and on it pair 12 is rendered z, as the key table above already says (pourrez, avez);
+the French closing lines of p2 are tagged `{fr-1750-nospace}` in the transcription and scored in French).
+Letter-shuffled controls pass 8.7% (p1) and 12.0% (p2) of tokens.
+
+**Re-transcribed on the full-resolution images** (`img/rot_*`, copied from the old worktree):
+- p1 L02 "chez le(64)mbristres" → 64 25 55 32 55 44 11 52 65 44 "le[s] ministres" (the old 35 52 were 55 32).
+- p1 L04 "touchat l(63)o" → ?? = 32, 63 = 43: "touchant la [f]aire" (last pair still doubtful).
+- p1 L13 "de dooveq" → 31 22 32 32 65 52 "de donner": the third pair is a 2 with no top digit, read 32.
+- p1 L18 "quescinn" → the last pairs are 55 22 32: "quescion" (51 for 11 is the writer's, emended below).
+- p2 l15 "[P] s(61)llingen 3? ie" → 44 11 65 15 15 55 32 41 65 32 31 55 65: "[P]stellingen die" (the
+  transcriber had merged 11 65 into one pair "61").
+- p2 l22 "de weis derwaardste ondeqhee" → first pair 52, not 12: "de reis derwaards te ondernee[men]".
+
+**Writer's slips, emended** (written>read in the transcription; one digit each, the word otherwise complete and
+admitting no other reading; grade M): p1 L02 64>44 (le**s**), L07 62>52 (décla**r**a), L12 23>25 (sou**m**ettre),
+L17 64>65 and 15>11 (à l**e**ur **ê**tre donnée), L18 51>11 (ques**t**ion), L22 52>51 and 32>22 (cir**co**nstances);
+p2 l2 51>55 (ind**i**en), l22 54>52 and 34>32 (onde**rn**ee[men]). 11 pairs.
+
+**New sign value:** P = voor (M): "alle de [voor]stellingen die zijn … gedaan" and "toen zoude … my zeeker niet
+[voor]gesteld hebben". Its third occurrence ("…s [P] [psi] te") does not decide.
+
+**Result** (strict):
+
+| state | p1 | p2 | total |
+|---|---|---|---|
+| HEAD (21 Sept signs), today's measure | 1,021/1,053 | 770/898 | 1,791/1,951 = 91.8% |
+| 2 Oct signs, today's measure | 1,024/1,053 | 794/898 | 1,818/1,951 = 93.2% |
+| **3 Oct** | **1,044/1,054 = 99.1%** | **816/900 = 90.7%** | **1,860/1,954 = 95.2%** |
+
+Counting I-grade values too: 1,866/1,954 = 95.5%. Tokens given a value: 1,889/1,954 (96.7%) strict. What got it over
+the line: the p1 re-transcription and slip emendations (+20 on p1) and the p2 fixes (l15, l22, l2, P = voor, the
+French closing scored in French: +22). The margin is thin (11 tokens), and p2 alone is 90.7%: its unread word signs
+(⊣H 9, hook 7, slash 5, cf 4, Y-cross 4 …) and line 24 are what remains. `outcome.class` is left "read in part"
+here (see R2242's note on the class change).
+
 ## Remaining gaps
-- about 20 rare word signs (1-4 occurrences each), plus ⊣H and hook - blocker: open-codes; retried 2 Oct 2026 with R2242's values (five adopted, six ruled out, table above); the rest occur only here, no key sheet, and the letter is not in print
-- page 2 line 24 middle; page 1 line 1 - blocker: illegible; photocopy; the two digit rows drift and several pairs are ambiguous (re-examined 21 Sept at full resolution)
+- about 20 rare word signs on p2 (⊣H 9, hook 7, slash 5, cf 4, Y-cross 4, S 3, Y 3, psi 2, 7 2 and singletons) - blocker: open-codes; retried 2 Oct with R2242's values and 3 Oct with P = voor found; none of the rest has a forcing context, no key sheet, not in print
+- page 2 line 24 middle; page 1 line 1 - blocker: illegible; photocopy; the two digit rows drift and several pairs are ambiguous (re-examined 21 Sept and 3 Oct at full resolution: "…gesteld is geweest" fixes only the end of l24)
 
 ## Escalation
 - [x] siblings: R2242 (same key) read; its sign values applied here 2 Oct 2026; R2240, R2233 checked, do not apply; R2236/R2237/R2239 use a different word list
@@ -159,4 +198,4 @@ gratification, Banquier; GS II pp. 886–894 read. R1892 is not printed, but the
 - [x] known-keys: R2240 and R2233 tried, no fit
 - [x] print: searched 2 Oct 2026 - Colenbrander, Gedenkstukken I-II full text (resources.huygens.knaw.nl retroboeken) for Dundas, Osnabrück, rassemblement, Nienburg/Nienbourg, Bentinck, gratification, Banquier, and GS II pp. 886-894 read: not printed; nos. 724, 733, 734 give the writer (Prince Frederick) and the date (late Nov - early Dec 1795)
 - [x] key-rebuild: digit square rebuilt by quadgram annealing; sign values from context (de, zich, te, ik), then from R2242 (zoo, als, dat, brief/lettre, zijn) and f = aan, 2 Oct 2026
-- [x] retry: 2 Oct 2026 - every sign occurrence rerun with R2242's values and regraded (table above); page 2 line 24 and page 1 line 1 were re-read at full resolution on 21 Sept and stay illegible
+- [x] retry: 2 Oct 2026 - every sign occurrence rerun with R2242's values and regraded (table above); 3 Oct 2026 - every token failing the sense test re-checked on the image (measure_sense.py --show), 6 lines re-transcribed, 11 writer's slips emended, P = voor; page 2 line 24 and page 1 line 1 stay illegible

@@ -18,7 +18,7 @@ nn	o-o	n	A	.	moins, rencontrent
 c	c with hook	o	A	.	moins, oultre, vostre
 L	L	o	B	n	vostre; LM
 Y	y	p	A	-	pas, passer, empesché
-N	N with two bars	p	C	q	despuis (only occurrence read)
+N	N with a loop above and a bar (f. 124 form)	p	C	q	despuis (only occurrence, f. 124 l. 1; rechecked 3 Oct on c242: il gives 'desiluis'); Tomokiyo has plain N = q, not met here
 B	S with bar	qu	B	p (b?)	cinquante, qu'encontrent
 phi	circle with vertical	r	A	.	retenu, passer, oultre
 F	F-like (three bars)	r	A	q	dangiers, grand, vostre
@@ -56,7 +56,7 @@ ns	Lambda	ns	C	.	two tokens
 # --- Session 3 (2 Oct 2026): signs added or revalued from ff. 154, 154v, 156, 156v (ct_f154*.txt, ct_f156*.txt; measure.py) ---
 Gf	r-like with flourish (Gamma with hook)	me / nous	B	-	"qui me donne", "qui me trouble", "m'ont promis" (f. 154, gloss "qui me donne", "me trouble beaucoup"); "ne nous donnast" f. 156v and "que nous avons", "Dieu nous esperons" f. 154 (gloss "nous"): a pronoun sign, me or nous by context
 Ng	N with hook / curl	qu	A	-	qui (x3), quelque (x3), quinze, que (x3) on ff. 154-156
-Nb	N with a bar through it	il	B	-	"laquelle il a faicte" (gloss "qu'il a faicte"), "il me semble", "comme il[z]"; f. 124 'despuis' (p) and f. 160 'autant' (a) disagree: conflated shapes
+Nb	N with a bar through it (Tomokiyo's il)	il	A	il	"laquelle il a faicte", "il me semble", "ilz seront", "il n'y en a", "il n'y soit"; pass 3: f. 160 'autant' was a misread T, not N; f. 124's sign is the looped form (see N)
 Mx	n-shape with tail	x / z	B	-	deux, chefz (f. 154)
 sq	square-hooked sign	x	C	-	deux (f. 156)
 M	n-shape	x	B	u / t	deux, des deux costez (f. 156v); gloss "des deux costez"
@@ -76,4 +76,17 @@ Ne	barred N with a loop above	est	C	-	"à cause d'est-roit" (f. 156v l. 5, gloss
 Mu	n-shape (plain, no feet)	u / qu	B	u	vers, vous (f. 156v l. 23), que (l. 2), quatre (l. 30); Tomokiyo's u; the footed form Mx is x
 Gq	r-like with a long flourish	qu	C	-	embarquement (f. 156v l. 26)
 qq	8-like with strokes	par	B	-	par (f. 160), par terre (f. 156v l. 8)
-Bf	S with bar (second form)	f	C	-	"mon frere" (f. 156v l. 10, gloss "monsieur"): the B shape is qu elsewhere; two forms not separated
+Bf	S with bar (second form)	(withdrawn)	-	-	pass 2 read "mon frere"; pass 3 shows the sign is the stacked-8 st ("se monstrent estre")
+# --- Session 3, pass 3 (3 Oct 2026): checked against Tomokiyo's current table (henryiii_Lansac.png, read 3 Oct) ---
+clov	clover (four-lobed) sign	ment / nt	B	-	"special-ement" (f. 156v l. 12), "monstre-nt" (l. 10)
+Mt	footed n-shape (Pi with feet)	t	C	t (row 2)	"estat" (f. 156v l. 25); Tomokiyo row 2 t; the plain footed Mx is x (deux, ceulx)
+# --- Session 3, pass 3 on ff. 160, 164, 174 (3 Oct 2026) ---
+Xp	slanted cross (x with a slash)	pour	B	pour	"pour venir", "pour soy" (f. 164); Tomokiyo's pour
+Ef	tall dagger with loop	l'Empereur	A	-	f. 164 "l'Empereur en y a despendu", f. 174 "de l'Empereur" (gloss); third form of the of/vo word sign
+Mc	large M with hooked c-stroke	?	-	-	f. 164 l. 4, word sign for the subject of "a despendu trente mil escus"; unread
+hhx	double cross with slanted bars	o	C	-	"toutefois" (f. 164)
+ffq	barred ff with a loop	qu	C	-	"que ceste nation" (f. 160)
+pq	looped 9	par	B	par	"par argent" (f. 160); Tomokiyo's par
+dT	T with the bar to the left	d	B	d	"du roy de Suede" (f. 174); Tomokiyo row-1 d
+ffx	ff with a bar	u / v	B	-	"veoy" (f. 160)
+P	tailed 4 (Tomokiyo's p)	p	B	p	"l'Empire" (f. 174)

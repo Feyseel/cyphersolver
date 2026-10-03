@@ -20,8 +20,8 @@
     "source": "No decipherment on the DECODE images or record."
    },
    "length": {
-    "tokens": 1068,
-    "distinct": 70,
+    "tokens": 1098,
+    "distinct": 85,
     "unit": "mixed",
     "measured": true,
     "file": "transcription_p1.txt"
@@ -50,8 +50,8 @@
     "source": "No decipherment on the DECODE images or record."
    },
    "length": {
-    "tokens": 804,
-    "distinct": 54,
+    "tokens": 969,
+    "distinct": 140,
     "unit": "mixed",
     "measured": true,
     "file": "transcription_p2.txt"
@@ -111,9 +111,9 @@
   "models": [
    "claude-opus-5"
   ],
-  "sessions": 2,
+  "sessions": 3,
   "first_date": "2026-09-21",
-  "last_date": "2026-10-02"
+  "last_date": "2026-10-03"
  },
  "solution": [
   {
@@ -205,6 +205,36 @@
    "kind": "statistics",
    "what": "Measured with apply.py --measure and ../r2242/measure_sense.py (fr-1750-nospace p1, nl-modern p2): tokens given a value 95.6% -> 96.5% (1,882/1,951); read as sense 88.5% -> 90.1% (1,757/1,951).",
    "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "transcription",
+   "what": "Full-resolution re-reading of every token failing the sense test: p1 L02 (ministres), L04 (touchant la), L13 (donner, top digit unwritten), L18 (question); p2 l15 (voorstellingen die: '61' was 11 65 merged), l22 (de reis derwaards te onderneemen).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "hypothesis",
+   "what": "Writer's single-digit enciphering slips emended where the word admits no other reading (written>read in the transcription, grade M): 11 pairs (les, déclara, soumettre, leur être, question, circonstances x2, indien, ondernee[men] x2).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "hypothesis",
+   "what": "P = voor (M): [voor]stellingen, [voor]gesteld.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "statistics",
+   "what": "Read as sense, strict (../r2242/measure_sense.py; fr-1750-nospace p1 with 12 = z, nl-modern p2 with y as ij, French closing scored in French): 1,791/1,951 = 91.8% (HEAD) -> 1,818/1,951 = 93.2% (2 Oct signs) -> 1,860/1,954 = 95.2% (3 Oct). Controls pass 8.7% (p1) and 12.0% (p2).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "transcription",
+   "what": "p2 line 24 re-examined again: only the end ('gesteld is geweest') aligns; the middle stays illegible.",
+   "result": "failed"
   }
  ],
  "outcome": {
@@ -217,22 +247,22 @@
    "key extended or corrected"
   ],
   "class": "read in part",
-  "fraction_read": 0.965,
+  "fraction_read": 0.967,
   "fraction_read_method": "measured",
-  "fraction_read_source": "transcription_p1.txt + transcription_p2.txt with apply.py --measure (2 Oct 2026): 1,882 of 1,951 cipher tokens (digit pairs and word signs; <struck>, comment lines, bracketed clear words and parentheticals excluded) given a value. p1 1044/1053, p2 838/898. With the 21 Sept sign values (de, zich, te, ik): 1,865/1,951 = 95.6%.",
+  "fraction_read_source": "transcription_p1.txt + transcription_p2.txt with STRICT=1 apply.py --measure (3 Oct 2026): 1,889 of 1,954 cipher tokens given an H or M value (I-grade sign values counted unread); emended slips counted at their read value. p1 1049/1054, p2 840/900.",
   "key": "partial",
   "codes_open": {
-   "tokens_open": 69
+   "tokens_open": 65
   },
   "verification": [
    "historical consistency"
   ],
-  "notes": "All digit pairs map. Read as sense (measure_sense.py; fr-1750-nospace p1, nl-modern p2): 1,757/1,951 = 90.1% (88.5% before the 2 Oct pass). R2242 sign values applied 2 Oct 2026: zoo, als, dat, brief/lettre, zijn adopted, six others ruled out; f = aan found. Writer Prince Frederick, late Nov - early Dec 1795 (Gedenkstukken II nos. 724, 733-734); not printed.",
+  "notes": "All digit pairs map. Read as sense, strict (I values unread): 1,860/1,954 = 95.2% (p1 99.1%, p2 90.7%); 91.8% for the 21 Sept state under the same measure. 11 writer slips emended (listed in NOTES). Meets the read bar numerically with a thin margin; class left read in part pending the README/site change. Writer Prince Frederick, late Nov - early Dec 1795.",
   "gaps": [
    {
     "item": "about 20 rare word signs (1-4 occurrences each), plus ⊣H and hook",
     "blocker": "open-codes",
-    "detail": "retried 2 Oct 2026 with R2242's values (five adopted, six ruled out); the rest occur only here, no key sheet, not in print"
+    "detail": "retried 2 Oct with R2242 values (five adopted, six ruled out) and 3 Oct (P = voor); the rest have no forcing context, no key sheet, not in print"
    },
    {
     "item": "page 2 line 24 middle; page 1 line 1",
@@ -241,10 +271,10 @@
    }
   ],
   "first_break": "unpublished prior",
-  "fraction_coherent": 0.901,
+  "fraction_coherent": 0.952,
   "grades": {
    "H": 3,
-   "M": 10,
+   "M": 11,
    "I": 1
   }
  }
