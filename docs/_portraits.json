@@ -2599,5 +2599,15 @@
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Archduke Leopold Wilhelm of Austria by Pieter Thijs.jpg"
   }
+ ],
+ "warsaw": [
+  {
+   "role": "recipient",
+   "name": "Cardinal Franz von Dietrichstein",
+   "img": "portrait_cardinal-franz-von-dietrichstein.jpg",
+   "what": "Engraving by Aegidius Sadeler, Prague, 1604",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portret van bisschop Franz von Dietrichstein, RP-P-OB-4998.jpg"
+  }
  ]
 }

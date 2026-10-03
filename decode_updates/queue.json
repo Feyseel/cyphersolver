@@ -914,17 +914,35 @@
    "cite": null,
    "fields": {
     "cipher_types": "homophonic, nomenclator",
-    "plaintext_lang": "Italian"
+    "plaintext_lang": "Italian",
+    "date": "1627-12-24 (clear dateline \"Di Varsouia 24 Xbre 1627\"; DECODE gives 1600-1799)",
+    "origin_city": "Warsaw",
+    "receiver": "Cardinal Franz von Dietrichstein, Bishop of Olomouc (docket at the foot of the page, '... Card. Dietrichstein', read on the image 2 Oct 2026)",
+    "cleartext_language": "Italian"
    },
    "records": {
     "R1408": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "Every spelled word read; ten word codes glossed.",
+     "note": "Every spelled word read; ten word codes glossed from context, not read. Measured 2 Oct 2026 after checking the image: 316 of 332 significant tokens (95.2%). The image corrects Tomokiyo's transcription twice (line 2 'a 12 o' is the code 120; line 10 has a 29, 'stimato'). A docket at the foot names Card. Dietrichstein, the addressee. The neighbouring record R1409 is a different system, and none of the fascicle's key records R1392-R1406 is this key.",
      "reading": [
       {
        "file": "targets/warsaw/plaintext.txt"
       }
+     ],
+     "sent": false
+    },
+    "R1409": {
+     "decode_status": "N/A",
+     "proposed": "Non-decrypted",
+     "note": "f. 178 is a ciphertext, not a key: dot-separated figures with long underlined runs (1,328 tokens in DECODE's own transcription; two-figure 12-37, about 70 three-figure groups 101-195, 96 x28). Not in the key of R1408 (f. 176): that alphabet gives no language and ranks 67th of 500 random keys on these figures. A ciphertext-only attempt (homophonic letters, then letters or pairs, Italian and German, shuffled control) did not converge (2 Oct 2026). Status should be Non-decrypted rather than N/A.",
+     "reading": null,
+     "reading_not_needed": true,
+     "key": {
+      "none": "no key on DECODE in R1392-R1406; not the R1408 key"
+     },
+     "transcription": [
+      "targets/warsaw/r1409_ct.txt"
      ],
      "sent": false
     }
@@ -3562,8 +3580,8 @@
     },
     "R7772": {
      "decode_status": "Non-decrypted",
-     "proposed": "Partially decrypted",
-     "note": "f. 58v read; four lines on f. 59 not read. Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XXII, pp. 54-57; the year is 1593 new style where the letter says 1592.",
+     "proposed": "Decrypted",
+     "note": "f. 58v read; the four cipher lines on f. 59 read 2 Oct 2026 with the same key (126 signs, one new sign: a vertical stroke = q). Letter to Lord Treasurer Burghley from Henri IV's court (Edmondes papers); 'Lord Threr?' is the addressee. Printed deciphered in Butler, Edmondes Papers (1913), no. XXII, pp. 54-57; the year is 1593 new style where the letter says 1592.",
      "reading": "decode_updates/decryptions/R7772.txt",
      "sent": false
     },
@@ -6020,7 +6038,7 @@
     "R3705": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "Letter of 29 April 1588 (dated at the foot; DECODE date is a placeholder), BnF notice piece 30. All 19 cipher runs read with a key rebuilt from the glossed sibling f. 131; code numbers 11 = Roy, 24 = Nevers (glossed 'nevers' on f. 131; first misread as Navarre, corrected 22 Sept 2026 from ff. 133-134), 102 = Paris, 9 = Guise (context); 10 = Epernon (glossed on f. 139); 12, 28, 49, 70 open.",
+     "note": "Letter of 29 April 1588 (dated at the foot; DECODE date is a placeholder), BnF notice piece 30. All 19 cipher runs read with a key rebuilt from the glossed sibling f. 131; code numbers 9 = Guise, 11 = Roy, 24 = Nevers (all glossed on f. 131; 24 first misread as Navarre, corrected 22 Sept 2026 from ff. 133-134), 102 = Paris (context), 10 = Epernon (glossed on ff. 131 and 139); 12, 28, 49, 70 open. The sibling f. 131 (4 June 1588, not on DECODE) was itself deciphered in full on 2 Oct 2026: 130 of 130 signs, every run matching its interlinear gloss (targets/nevers1588/f131/).",
      "reading": "decode_updates/decryptions/R3705.txt",
      "sent": false
     }
@@ -6360,7 +6378,7 @@
     "R3708": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "Letter of 6 June 1588 (dated head and foot) by the informant of R3705 (f. 62) and f. 131. All 18 cipher runs read with the key of R3705 (226 of 230 signs by the key, 4 from context). Code numbers 11 = Roy, 24 = Nevers, 102 = Paris, 9 = Guise, 10 = Epernon, 12 = the Queen Mother; 4, 23, 25, 33, 79, 94, 105, 106 open. Siblings by the same informant not on DECODE: f. 131 (4 June 1588) and f. 139 (9 June 1588), both with contemporary interlinear decipherment; f. 139 read with this key, every run matching the gloss (targets/r3708/reading_f139.tsv). DECODE's cipher type 'numerical' should add letter-and-figure substitution.",
+     "note": "Letter of 6 June 1588 (dated head and foot) by the informant of R3705 (f. 62) and f. 131. All 18 cipher runs read with the key of R3705 (226 of 230 signs by the key, 4 from context). Code numbers 11 = Roy, 24 = Nevers, 102 = Paris, 9 = Guise, 10 = Epernon, 12 = the Queen Mother; 4, 23, 25, 33, 79, 94, 105, 106 open. Siblings by the same informant not on DECODE: f. 131 (4 June 1588) and f. 139 (9 June 1588), both with contemporary interlinear decipherment; f. 131 read in full with this key on 2 Oct 2026 (130/130 signs, glosses 9 = Guise, 72 = Savoie, 73 = ambassadeur); f. 139 read with this key, every run matching the gloss (targets/r3708/reading_f139.tsv). DECODE's cipher type 'numerical' should add letter-and-figure substitution.",
      "reading": "decode_updates/decryptions/R3708.txt",
      "sent": false
     }
@@ -6537,16 +6555,27 @@
     "plaintext_language": "German",
     "cipher_type": "homophonic substitution (even two-digit figures, vowels with 2-3 homophones) with a three-digit nomenclator",
     "pages": "10 pages on 11 images: image 7 is a second photograph of the page on image 6; images 3-10 are upside down",
-    "related_records": "R9425 (ff. 278-280), the same cipher and the same correspondence, read unchanged by this key"
+    "related_records": "R9425 (ff. 278-280), Archduke Albert's resolution of 15 Dec 1619 for the League agent Morreus, same cipher, read in full with this key (2 Oct 2026)"
    },
    "records": {
     "R9426": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "Read here ciphertext-only (22 Sept 2026): 2504 of 2614 cipher tokens, 95.8%. The record's unknown author, recipient, place and language are all recovered: Ferdinand of Bavaria, Elector of Cologne, to Duke Maximilian I of Bavaria, Bonn, 22 December 1619, in German, on the quartering, pay and march of the Catholic League's troops in Westphalia. Key rebuilt from this record's own text and confirmed on R9425. Open: 31 of the 32 nomenclator groups (only 248 = und), three proper names, four words.",
+     "note": "Read here ciphertext-only (22 Sept 2026): 2504 of 2614 cipher tokens, 95.8%. The record's unknown author, recipient, place and language are all recovered: Ferdinand of Bavaria, Elector of Cologne, to Duke Maximilian I of Bavaria, Bonn, 22 December 1619, in German, on the quartering, pay and march of the Catholic League's troops in Westphalia. Key rebuilt from this record's own text and confirmed on R9425. Open: 31 of the 32 nomenclator groups (only 248 = und), three proper names, four words. The sibling R9425, deciphered with the same key on 2 Oct 2026, shows codes 414, 415, 416, 417 and 419 to be nulls (23 of the 74 open tokens here) and makes 232 = stift close to forced.",
      "reading": [
       {
        "file": "decode_updates/decryptions/R9426.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R9425": {
+     "decode_status": "Decrypted",
+     "proposed": "Decrypted",
+     "note": "Deciphered in full here (2 Oct 2026) with the key rebuilt ciphertext-only from R9426, letter values unchanged: 1524 of 1567 cipher tokens (97.3%, targets/ferdinand1619/r9425/count_r9425.py). The record held only a contemporary abstract in red in the margin; this is the first group-by-group decipherment. It is Archduke Albert's written resolution for Licentiate Morreus, agent of the Duke of Bavaria and the Catholic League, dated 15 December 1619 (clear line f. 280r; endorsement f. 280v 'Resolutio dess hertzogs Albrechts dem L. Morreo ... ertailt'), in German: Bohemia to be recovered, Albert's troops to join the Catholic army, no muster place or 500 horse because his levies go to Luxembourg, Breisach referred to Onate, the 1000 cuirassiers to Ambrogio Spinola. Nomenclator: 414, 415, 416, 417, 419 nulls; 242 = und, 165 = Mt., 2 = Ambrosio fixed; about 20 groups open (no key survives).",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9425.txt"
       }
      ],
      "sent": false

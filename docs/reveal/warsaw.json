@@ -2,7 +2,7 @@
  "slug": "warsaw",
  "anchor": "reading",
  "title": "Warsaw, 24 December 1627: the canonry of Olmütz",
- "caption": "The opening sentence of the ciphered letter from Warsaw, HHStA Staatskanzlei Interiora, Chiffrenschlüssel Kt. 14 Fasc. 20 f. 176 (DECODE R1408), from Tomokiyo's transcription.",
+ "caption": "The opening sentence of the ciphered letter from Warsaw, HHStA Staatskanzlei Interiora, Chiffrenschlüssel Kt. 14 Fasc. 20 f. 176 (DECODE R1408), from Tomokiyo's transcription, corrected against the DECODE image (2 October 2026: his 'a 12 o' is the code group 120).",
  "unit": "figures",
  "tokens": [
   {
@@ -205,19 +205,14 @@
    "cls": "null"
   },
   {
-   "g": "12",
+   "g": "120",
    "p": "V.S.",
-   "cls": "unc"
+   "cls": "code"
   },
   {
    "g": "",
    "p": " ",
    "cls": "plain"
-  },
-  {
-   "g": "o",
-   "p": "·",
-   "cls": "null"
   },
   {
    "g": "m",

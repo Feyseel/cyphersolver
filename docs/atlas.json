@@ -351,6 +351,14 @@
   "Prinkipo": [
    40.874,
    29.129
+  ],
+  "Tours": [
+   47.39,
+   0.69
+  ],
+  "Laon": [
+   49.56,
+   3.62
   ]
  },
  "letters": [
@@ -3783,6 +3791,106 @@
    "to": "Constantinople",
    "st": "solved",
    "label": "Vizani 1637"
+  },
+  {
+   "slug": "ferdinand1619",
+   "doc": "R9425",
+   "year": 1619.96,
+   "date": "15 Dec 1619",
+   "from": "Brussels",
+   "to": "Munich",
+   "st": "solved",
+   "label": "Archduke Albert's resolution for the League's agent 1619"
+  },
+  {
+   "slug": "toledo1565",
+   "doc": "no. 249",
+   "year": 1565.54,
+   "date": "16 Jul 1565",
+   "from": "Messina",
+   "to": "Madrid",
+   "st": "solved",
+   "label": "Toledo 1565, covering letter"
+  },
+  {
+   "slug": "nevers1588",
+   "doc": "R3705 (f. 62)",
+   "year": 1588.32,
+   "date": "29 Apr 1588",
+   "from": "Paris",
+   "to": "Nevers",
+   "st": "solved",
+   "label": "Court informant to Nevers, April 1588"
+  },
+  {
+   "slug": "nevers1588",
+   "doc": "f. 131",
+   "year": 1588.42,
+   "date": "4 Jun 1588",
+   "from": "Paris",
+   "to": "Nevers",
+   "st": "solved",
+   "label": "Court informant to Nevers, June 1588"
+  },
+  {
+   "slug": "stowe166",
+   "doc": "R7770",
+   "year": 1593.05,
+   "date": "19 Jan 1593",
+   "from": "Chartres",
+   "to": "London",
+   "st": "partial",
+   "label": "Edmondes to Burghley 1593"
+  },
+  {
+   "slug": "stowe166",
+   "doc": "R7771",
+   "year": 1593.13,
+   "date": "16 Feb 1593",
+   "from": "Tours",
+   "to": "London",
+   "st": "partial",
+   "label": "Edmondes to Burghley 1593"
+  },
+  {
+   "slug": "stowe166",
+   "doc": "R7772",
+   "year": 1593.17,
+   "date": "3 Mar 1593",
+   "from": "Tours",
+   "to": "London",
+   "st": "partial",
+   "label": "Edmondes to Burghley 1593"
+  },
+  {
+   "slug": "stowe166",
+   "doc": "R7773",
+   "year": 1593.21,
+   "date": "16 Mar 1593",
+   "from": "Blois",
+   "to": "London",
+   "st": "partial",
+   "label": "Edmondes to Burghley 1593"
+  },
+  {
+   "slug": "stowe166",
+   "doc": "R7774",
+   "year": 1594.54,
+   "date": "Jul 1594",
+   "from": "Laon",
+   "to": "London",
+   "st": "partial",
+   "label": "Edmondes to Burghley 1594"
+  },
+  {
+   "slug": "stowe166",
+   "doc": "R7775",
+   "year": 1594.56,
+   "date": "23 Jul 1594",
+   "from": "Laon",
+   "to": "London",
+   "st": "partial",
+   "label": "Edmondes to Burghley 1594"
   }
  ]
 }

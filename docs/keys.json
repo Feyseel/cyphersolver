@@ -1763,6 +1763,46 @@
    "year": 1637,
    "found": 2026,
    "note": "Period-five shifts 4,5,3,6,2 recovered from the alphabetic ciphertext on f. 12 (PR #17); three exceptional labels and some local sign readings stay open. No surviving key sheet."
+  },
+  {
+   "id": "k-toledo1565",
+   "label": "García de Toledo's figure alphabet, Malta 1565 (rebuilt here)",
+   "kind": "rebuilt here",
+   "by": "Daniel Bourdeau",
+   "year": 1565,
+   "note": "Homophonic alphabet on the figures 12-43 in alphabetical order (vowels three figures, consonants one), rebuilt from two cribs in the clear text of AGS Estado leg. 1394 no. 247; reads the companion letter no. 249 unchanged."
+  },
+  {
+   "id": "k-tomokiyo-nevers57",
+   "label": "La Verrière's key, Nevers cipher no. 57 (BnF fr. 3995 ff. 102-103)",
+   "kind": "contemporary key",
+   "by": "Nevers's chancery; listed by Satoshi Tomokiyo",
+   "year": 1593,
+   "note": "Endorsed \"Monsr de La Verriere\", Chartres February 1593: two signs per letter, syllables row + 14 x vowel, words 99-353, overbarred places, name signs. Identified for fr. 3625 no. 55 by setsunaatto (GitHub issue 13)."
+  },
+  {
+   "id": "k-stowe166",
+   "label": "Edmondes-Burghley sign cipher, 1593-94 (rebuilt here)",
+   "kind": "rebuilt here",
+   "by": "Daniel Bourdeau",
+   "year": 1593,
+   "note": "Simple substitution of English in invented signs with word division, a few homophones and person signs; recovered ciphertext-only from BL Stowe MS 166 (DECODE R7770-R7775). Butler (1913) had printed five of the six letters deciphered."
+  },
+  {
+   "id": "k-warsaw1627",
+   "label": "Warsaw 1627 figure cipher (rebuilt here)",
+   "kind": "rebuilt here",
+   "by": "Daniel Bourdeau",
+   "year": 1627,
+   "note": "Homophonic alphabet in plain order (odd figures 13-33 a-m, even 14-32 n-z), letter pairs for consonants, two-figure syllables, a and m as nulls, three-figure word codes; recovered ciphertext-only from DECODE R1408."
+  },
+  {
+   "id": "k-hhsta-kt14-keys",
+   "label": "HHStA Chiffrenschlüssel Kt. 14 Fasc. 20 key records (DECODE R1392-R1406)",
+   "kind": "DECODE key record",
+   "by": "Österreichisches Staatsarchiv",
+   "year": 1600,
+   "note": "Fifteen key records of the fascicle that holds R1408: German, French, Latin, Muscovite and Polish keys and nomenclators of c. 1592-1620s."
   }
  ],
  "links": [
@@ -2400,7 +2440,7 @@
    "key": "k-ferdinand1619",
    "target": "ferdinand1619",
    "how": "rebuilt from",
-   "note": "rebuilt ciphertext-only from R9426's own ten pages by annealing against lang de-1500s; checked on the sibling R9425, which it reads unchanged"
+   "note": "rebuilt ciphertext-only from R9426's own ten pages by annealing against lang de-1500s; reads the sibling R9425 (Albert's resolution, 15 Dec 1619) unchanged, 97.3% measured (2 Oct 2026)"
   },
   {
    "key": "k-kaa4591-sysL",
@@ -2568,7 +2608,7 @@
    "key": "k-nevers-informant1588",
    "target": "nevers1588",
    "how": "rebuilt from",
-   "note": "interlinear glosses of f. 131 and the reading of f. 62"
+   "note": "interlinear glosses of f. 131 and the reading of f. 62; reads f. 131 itself in full, 130 of 130 signs, with three single values added (2 Oct 2026)"
   },
   {
    "key": "k-andreae1616",
@@ -2671,6 +2711,30 @@
    "target": "malsburg1637",
    "how": "rebuilt from",
    "note": "alphabetic letters on f. 12"
+  },
+  {
+   "key": "k-toledo1565",
+   "target": "toledo1565",
+   "how": "rebuilt from",
+   "note": "rebuilt from two clear-text cribs (seiscientos, en tiera) and the alphabetical order of the figures in no. 247; reads no. 249 unchanged, 150 of 150 tokens (2 Oct 2026)"
+  },
+  {
+   "key": "k-tomokiyo-nevers57",
+   "target": "champagne1590",
+   "how": "read unchanged",
+   "note": "deciphers La Verrière's letters fr. 3625 no. 55 and no. 10 and, on 2 Oct 2026, fr. 3985 f. 58 (Poissy, 12 Aug 1593): 222 of 248 tokens"
+  },
+  {
+   "key": "k-stowe166",
+   "target": "stowe166",
+   "how": "rebuilt from",
+   "note": "rebuilt ciphertext-only from the clear context (the, of, to); read f. 59 (R7772) on 2 Oct 2026 with one new sign, a vertical stroke for q"
+  },
+  {
+   "key": "k-warsaw1627",
+   "target": "warsaw",
+   "how": "rebuilt from",
+   "note": "rebuilt ciphertext-only by a 5-gram plus dictionary annealer from Tomokiyo's transcription; checked against the DECODE image on 2 Oct 2026"
   }
  ],
  "sources": [
@@ -3067,6 +3131,22 @@
   {
    "source": "s-bourdeau",
    "key": "k-rechteren-provisional"
+  },
+  {
+   "source": "s-bourdeau",
+   "key": "k-toledo1565"
+  },
+  {
+   "source": "s-bourdeau",
+   "key": "k-stowe166"
+  },
+  {
+   "source": "s-bourdeau",
+   "key": "k-warsaw1627"
+  },
+  {
+   "source": "s-decode",
+   "key": "k-hhsta-kt14-keys"
   }
  ],
  "unlinked": {
@@ -3724,6 +3804,11 @@
    "key": "k-lasry-mazarin1654",
    "target": "bordeaux1653",
    "note": "Lasry's 1654 Mazarin→Bordeaux key (R9482): two-dot series stops at 61, text has 73¨-99¨; keys differ"
+  },
+  {
+   "key": "k-hhsta-kt14-keys",
+   "target": "warsaw",
+   "note": "R1392-R1406 checked 2 Oct 2026: none has an ordered numeric alphabet on 13-33 with letter nulls and codes 100-223"
   }
  ]
 }

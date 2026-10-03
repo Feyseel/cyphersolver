@@ -25,6 +25,7 @@
   "andreae, chymische hochzeit, strassburg 1616": "2026-09-22",
   "andrás bay to rákóczi, jászvásár, 8 march 1706": "2026-09-21",
   "archbishop of bremen to johan adler salvius, november–december 1631": "2026-09-21",
+  "archduke albert’s resolution for the league’s agent morreus, 15 december 1619 (d": "2026-10-02",
   "archduke leopold wilhelm to the abbé de mercy, 6 june 1648": "2026-10-01",
   "arend willem van reede to van de spiegel, berlin, december 1787 and march 1788": "2026-09-21",
   "armstrong to madison, 20 february 1808": "2026-09-16",
@@ -97,10 +98,12 @@
   "frater elias’s lumen luminum, c. 1525 (beinecke mellon ms 29, decode r2877)": "2026-09-22",
   "frederick the great to louis michell, berlin, 28 december 1751": "2026-09-19",
   "from warsaw, 24 december 1627": "2026-09-16",
+  "from warsaw, 24 december 1627 (decode r1408)": "2026-10-02",
   "galeazzo visconti to angelo bolano and to francis i, october 1528 and june 1529": "2026-09-22",
   "galeazzo visconti to montmorency, landriano, 30 august 1528": "2026-09-22",
   "galeotto da ricasoli to the dieci di balía, urbino, early 1425": "2026-09-18",
   "garcía de toledo to philip ii, messina, 16 july 1565": "2026-09-18",
+  "garcía de toledo to philip ii, messina, 16 july 1565, the covering letter (ags e": "2026-10-02",
   "georges de selve at venice to francis i, 1535–1536": "2026-09-22",
   "german police double-box radiograms, 27 february and 16 june 1942": "2026-09-18",
   "ghinucci, lee and poyntz to cardinal wolsey, valladolid, 17 july 1527": "2026-09-21",
@@ -134,6 +137,7 @@
   "koehler cryptograms, 1944": "2026-09-15",
   "kurz von senftenau to trauttmansdorff, hamburg, january–april 1639": "2026-09-19",
   "la guiche (rome) to montmorency, 22 november 1551": "2026-09-21",
+  "la verrière to the duc de nevers, poissy, 12 august 1593 (bnf fr. 3985 f. 58)": "2026-10-02",
   "lanssac to charles ix, warsaw, 26 april 1573": "2026-09-17",
   "lanssac’s polish election letters, april–may 1573": "2026-09-17",
   "lebel to charles emmanuel i of savoy, january–march 1593": "2026-09-21",
@@ -245,11 +249,13 @@
   "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
   "the marqués de los balbases to baltasar de fuenmayor, nijmegen, 1677–78": "2026-09-19",
   "the marqués del carpio to baltasar de fuenmayor, rome, 1677": "2026-09-19",
+  "the paris informant to the duc de nevers, 4 june 1588 (bnf fr. 3976 f. 131)": "2026-10-02",
   "the prince de conti’s ciphered mémoires, march 1649": "2026-09-18",
   "the secretariat of state to the nunciature in spain, rome to madrid, 1736": "2026-09-21",
   "the secretariat of state to the nuncio in spain, rome to madrid, 1718–1720": "2026-09-20",
   "the sp 106/10 codebreaker’s own table of “the venetian cifer”, c. 1623–24": "2026-09-21",
   "the windischgrätz brothers, brussels, 18 nov 1721": "2026-09-21",
+  "thomas edmondes to burghley, tours, 3 march 1593, f. 59 (bl stowe ms 166, decode": "2026-10-02",
   "thomas randolph to the earl of sussex, 5 july 1570": "2026-09-21",
   "thomas spinelly to henry viii, brussels, 1 feb 1517": "2026-09-21",
   "throckmorton to cecil and the queen, 1560–63": "2026-09-20",
@@ -468,8 +474,8 @@
   },
   "champagne1590": {
    "first": "2026-09-21",
-   "hash": "2f7ed7abce08",
-   "updated": "2026-09-30"
+   "hash": "27a8150b1dbe",
+   "updated": "2026-10-02"
   },
   "charlesixducroc": {
    "first": "2026-09-20",
@@ -568,8 +574,8 @@
   },
   "ferdinand1619": {
    "first": "2026-09-22",
-   "hash": "b3236d1f1869",
-   "updated": "2026-09-30"
+   "hash": "1cc3b803b56b",
+   "updated": "2026-10-02"
   },
   "feuquieres": {
    "first": "2026-09-16",
@@ -738,7 +744,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "d2131d65d7f0",
+   "hash": "73120c9946a7",
    "updated": "2026-10-02"
   },
   "indus": {
@@ -953,8 +959,8 @@
   },
   "nevers1588": {
    "first": "2026-09-22",
-   "hash": "021a6574ea46",
-   "updated": "2026-09-24"
+   "hash": "6e1db2a6bc9e",
+   "updated": "2026-10-02"
   },
   "nevers1589": {
    "first": "2026-09-21",
@@ -1128,8 +1134,8 @@
   },
   "r3708": {
    "first": "2026-09-22",
-   "hash": "cb6530dd2875",
-   "updated": "2026-09-24"
+   "hash": "8104fa809777",
+   "updated": "2026-10-02"
   },
   "r4157": {
    "first": "2026-09-22",
@@ -1408,8 +1414,8 @@
   },
   "stowe166": {
    "first": "2026-09-21",
-   "hash": "ff69ab0da004",
-   "updated": "2026-09-30"
+   "hash": "5fb9f9376762",
+   "updated": "2026-10-02"
   },
   "sunintercepts": {
    "first": "2026-09-18",
@@ -1443,8 +1449,8 @@
   },
   "toledo1565": {
    "first": "2026-09-18",
-   "hash": "eedbf4df8c13",
-   "updated": "2026-09-24"
+   "hash": "28090a2c2ccf",
+   "updated": "2026-10-02"
   },
   "toulon1803": {
    "first": "2026-09-22",
@@ -1528,8 +1534,8 @@
   },
   "warsaw": {
    "first": "2026-09-16",
-   "hash": "609a8ce7b461",
-   "updated": "2026-09-30"
+   "hash": "210e73f6ce87",
+   "updated": "2026-10-02"
   },
   "wesselenyi1664": {
    "first": "2026-09-22",
@@ -1558,7 +1564,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "fa3762153f20",
+   "hash": "201f58425c78",
    "updated": "2026-10-02"
   },
   "yard1699": {
