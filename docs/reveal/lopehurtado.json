@@ -1,0 +1,197 @@
+{
+ "slug": "lopehurtado",
+ "anchor": "r9634",
+ "title": "Genoa, 13 September 1522: Provence, the weakest land the King of France has",
+ "caption": "Lines 14r03-14r04 of R9634 (RAH Salazar 9/26 f. 14r), decoded sign by sign with the 1522 key rebuilt here (decode.py --letter r9634). Amber marks a value the reading takes against the decoder (the 8/ϑ e/t confusion, ∂ as s or t) or a probable code.",
+ "unit": "code groups and signs",
+ "key_note": "Three-letter code groups and a substitution alphabet, recovered from the clerk’s clear versions in R9644 and R9650 and extended on R9634 itself (key_1522_r9634.tsv).",
+ "tokens": [
+  {
+   "g": "zar",
+   "p": "de",
+   "cls": "unc"
+  },
+  {
+   "g": "ɣ",
+   "p": "c",
+   "cls": "unc"
+  },
+  {
+   "g": "ɭ",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "ʇʇ",
+   "p": "r",
+   "cls": "unc"
+  },
+  {
+   "g": "Ɛ",
+   "p": "l",
+   "cls": "unc"
+  },
+  {
+   "g": "8",
+   "p": "e",
+   "cls": "unc"
+  },
+  {
+   "g": "xug",
+   "p": "la",
+   "cls": "code"
+  },
+  {
+   "g": "xac",
+   "p": "guerra",
+   "cls": "unc"
+  },
+  {
+   "g": "top",
+   "p": "por",
+   "cls": "code"
+  },
+  {
+   "g": "ɭb",
+   "p": "p"
+  },
+  {
+   "g": "ɣ̊",
+   "p": "r"
+  },
+  {
+   "g": "&",
+   "p": "o"
+  },
+  {
+   "g": "8",
+   "p": "e"
+  },
+  {
+   "g": "4",
+   "p": "n"
+  },
+  {
+   "g": "ϑ",
+   "p": "t"
+  },
+  {
+   "g": "α",
+   "p": "i"
+  },
+  {
+   "g": "7",
+   "p": "a"
+  },
+  {
+   "g": "ton",
+   "p": "que",
+   "cls": "code"
+  },
+  {
+   "g": "yaf",
+   "p": "es",
+   "cls": "code"
+  },
+  {
+   "g": "xug",
+   "p": "la",
+   "cls": "code"
+  },
+  {
+   "g": "∂",
+   "p": "t",
+   "cls": "unc"
+  },
+  {
+   "g": "α",
+   "p": "i"
+  },
+  {
+   "g": "8",
+   "p": "e"
+  },
+  {
+   "g": "ɋ",
+   "p": "r"
+  },
+  {
+   "g": "7",
+   "p": "a"
+  },
+  {
+   "g": "xon",
+   "p": "mas",
+   "cls": "code"
+  },
+  {
+   "g": "#",
+   "p": "f"
+  },
+  {
+   "g": "ϑ",
+   "p": "l",
+   "cls": "unc"
+  },
+  {
+   "g": "7",
+   "p": "a"
+  },
+  {
+   "g": "ϑ",
+   "p": "c",
+   "cls": "unc"
+  },
+  {
+   "g": "Ho",
+   "p": "a"
+  },
+  {
+   "g": "ton",
+   "p": "que",
+   "cls": "code"
+  },
+  {
+   "g": "yub",
+   "p": "el",
+   "cls": "code"
+  },
+  {
+   "g": "b",
+   "p": "t"
+  },
+  {
+   "g": "α",
+   "p": "i"
+  },
+  {
+   "g": "8",
+   "p": "e"
+  },
+  {
+   "g": "ϑ",
+   "p": "n",
+   "cls": "unc"
+  },
+  {
+   "g": "8",
+   "p": "e"
+  },
+  {
+   "g": "ʄ",
+   "p": "y"
+  },
+  {
+   "g": "x",
+   "p": "d"
+  },
+  {
+   "g": "&",
+   "p": "o"
+  },
+  {
+   "g": "4",
+   "p": "n"
+  }
+ ]
+}

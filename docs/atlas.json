@@ -359,6 +359,10 @@
   "Laon": [
    49.56,
    3.62
+  ],
+  "Washington": [
+   38.9,
+   -77.04
   ]
  },
  "letters": [
@@ -2996,7 +3000,7 @@
    "slug": "lopehurtado",
    "doc": "R9656",
    "year": 1522.88,
-   "date": "20 Nov 1522",
+   "date": "23 Nov 1522",
    "from": "Rome",
    "to": "Valladolid",
    "st": "partial",
@@ -3005,6 +3009,46 @@
   {
    "slug": "lopehurtado",
    "doc": "R9652",
+   "year": 1522.88,
+   "date": "Nov 1522",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1522"
+  },
+  {
+   "slug": "lopehurtado",
+   "doc": "R9634",
+   "year": 1522.7,
+   "date": "13 Sept 1522",
+   "from": "Genoa",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1522"
+  },
+  {
+   "slug": "lopehurtado",
+   "doc": "R9649",
+   "year": 1522.86,
+   "date": "9 Nov 1522",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1522"
+  },
+  {
+   "slug": "lopehurtado",
+   "doc": "R9645",
+   "year": 1522.88,
+   "date": "Nov 1522",
+   "from": "Rome",
+   "to": "Valladolid",
+   "st": "partial",
+   "label": "Lope Hurtado 1522"
+  },
+  {
+   "slug": "lopehurtado",
+   "doc": "R9646",
    "year": 1522.88,
    "date": "Nov 1522",
    "from": "Rome",
@@ -3229,6 +3273,26 @@
    "date": "18 Apr 1524",
    "from": "Rome",
    "to": "Burgos",
+   "st": "partial",
+   "label": "Sessa 1524"
+  },
+  {
+   "slug": "sessa1524",
+   "doc": "r9873",
+   "year": 1524.28,
+   "date": "14 Apr 1524",
+   "from": "Rome",
+   "to": "Burgos",
+   "st": "partial",
+   "label": "Sessa 1524"
+  },
+  {
+   "slug": "sessa1524",
+   "doc": "r9898",
+   "year": 1525.15,
+   "date": "24 Feb 1525",
+   "from": "Rome",
+   "to": "Madrid",
    "st": "partial",
    "label": "Sessa 1524"
   },
@@ -3891,6 +3955,96 @@
    "to": "London",
    "st": "partial",
    "label": "Edmondes to Burghley 1594"
+  },
+  {
+   "slug": "armstrong",
+   "doc": "ps30aug1808",
+   "year": 1808.66,
+   "date": "30 Aug 1808",
+   "from": "Bourbon-l'Archambault",
+   "to": "Washington",
+   "st": "solved",
+   "label": "Armstrong"
+  },
+  {
+   "slug": "armstrong",
+   "doc": "dec1807",
+   "year": 1807.99,
+   "date": "27 Dec 1807",
+   "from": "Paris",
+   "to": "Washington",
+   "st": "solved",
+   "label": "Armstrong"
+  },
+  {
+   "slug": "armstrong",
+   "doc": "feb15",
+   "year": 1808.12,
+   "date": "15 Feb 1808",
+   "from": "Paris",
+   "to": "Washington",
+   "st": "solved",
+   "label": "Armstrong"
+  },
+  {
+   "slug": "armstrong",
+   "doc": "feb22",
+   "year": 1808.14,
+   "date": "22 Feb 1808",
+   "from": "Paris",
+   "to": "Washington",
+   "st": "solved",
+   "label": "Armstrong"
+  },
+  {
+   "slug": "armstrong",
+   "doc": "mar26",
+   "year": 1808.23,
+   "date": "26 Mar 1808",
+   "from": "Paris",
+   "to": "Washington",
+   "st": "solved",
+   "label": "Armstrong"
+  },
+  {
+   "slug": "armstrong",
+   "doc": "may31",
+   "year": 1808.41,
+   "date": "31 May 1808",
+   "from": "Paris",
+   "to": "Washington",
+   "st": "solved",
+   "label": "Armstrong"
+  },
+  {
+   "slug": "armstrong",
+   "doc": "jun06",
+   "year": 1808.43,
+   "date": "6 Jun 1808",
+   "from": "Paris",
+   "to": "Washington",
+   "st": "solved",
+   "label": "Armstrong"
+  },
+  {
+   "slug": "armstrong",
+   "doc": "oct25",
+   "year": 1808.82,
+   "date": "25 Oct 1808",
+   "from": "Paris",
+   "to": "Washington",
+   "st": "solved",
+   "label": "Armstrong"
+  },
+  {
+   "slug": "armstrong",
+   "doc": "feb1810b",
+   "year": 1810.13,
+   "date": "17 Feb 1810",
+   "from": "Paris",
+   "to": "Washington",
+   "st": "solved",
+   "label": "Armstrong"
   }
  ]
 }

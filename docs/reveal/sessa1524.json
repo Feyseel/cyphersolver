@@ -1,0 +1,1041 @@
+{
+ "slug": "sessa1524",
+ "anchor": "r9873",
+ "title": "Rome, 14 April 1524: the Pope in grandissimo conflicto",
+ "caption": "R9873 (RAH Salazar A-31 f. 82r), cipher lines 15-25, decoded token by token with the pass-16 key (key_working.md; the (a)/(b) lines of r9873_cipher.txt). Amber: a tentative value; grey: an open group.",
+ "unit": "code groups and signs",
+ "key_note": "The Sessa nomenclator of 1523-25, rebuilt here from the contemporary decipherments of sibling letters and, in pass 16, from R9898’s marginal decipherments.",
+ "tokens": [
+  {
+   "g": "b",
+   "p": "u"
+  },
+  {
+   "g": "tto",
+   "p": "b"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r"
+  },
+  {
+   "g": "x",
+   "p": "e "
+  },
+  {
+   "g": "kef",
+   "p": "lo ",
+   "cls": "code"
+  },
+  {
+   "g": "gap",
+   "p": "que ",
+   "cls": "code"
+  },
+  {
+   "g": "fa",
+   "p": "quiere ",
+   "cls": "code"
+  },
+  {
+   "g": "kef",
+   "p": "lo ",
+   "cls": "code"
+  },
+  {
+   "g": "gap",
+   "p": "que ",
+   "cls": "code"
+  },
+  {
+   "g": "cuq",
+   "p": "tengo ",
+   "cls": "unc"
+  },
+  {
+   "g": "Jez",
+   "p": "para ",
+   "cls": "code"
+  },
+  {
+   "g": "lif",
+   "p": "mostrar ",
+   "cls": "code"
+  },
+  {
+   "g": "qes",
+   "p": "es ",
+   "cls": "code"
+  },
+  {
+   "g": "gap",
+   "p": "que ",
+   "cls": "code"
+  },
+  {
+   "g": "coh",
+   "p": "Su Sd. ",
+   "cls": "code"
+  },
+  {
+   "g": "mjn",
+   "p": "ha ",
+   "cls": "code"
+  },
+  {
+   "g": "qit",
+   "p": "estado ",
+   "cls": "code"
+  },
+  {
+   "g": "qid",
+   "p": "en ",
+   "cls": "code"
+  },
+  {
+   "g": "noh",
+   "p": "grand",
+   "cls": "unc"
+  },
+  {
+   "g": "ꝑ",
+   "p": "y "
+  },
+  {
+   "g": "3",
+   "p": "i"
+  },
+  {
+   "g": "cob",
+   "p": "ssi",
+   "cls": "code"
+  },
+  {
+   "g": "v",
+   "p": "m"
+  },
+  {
+   "g": "4",
+   "p": "o "
+  },
+  {
+   "g": "tac",
+   "p": "con",
+   "cls": "code"
+  },
+  {
+   "g": "oo",
+   "p": "f"
+  },
+  {
+   "g": "q",
+   "p": "l"
+  },
+  {
+   "g": "3",
+   "p": "i"
+  },
+  {
+   "g": "ott",
+   "p": "t",
+   "cls": "code"
+  },
+  {
+   "g": "4",
+   "p": "o "
+  },
+  {
+   "g": "ott",
+   "p": "t",
+   "cls": "code"
+  },
+  {
+   "g": "gli",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "qid",
+   "p": "en",
+   "cls": "code"
+  },
+  {
+   "g": "ram",
+   "p": "do ",
+   "cls": "code"
+  },
+  {
+   "g": "qib",
+   "p": "el ",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑan",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "x",
+   "p": "e"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r"
+  },
+  {
+   "g": "cob",
+   "p": "ci",
+   "cls": "code"
+  },
+  {
+   "g": "ott",
+   "p": "t",
+   "cls": "code"
+  },
+  {
+   "g": "4",
+   "p": "o "
+  },
+  {
+   "g": "suf",
+   "p": "de ",
+   "cls": "code"
+  },
+  {
+   "g": "4",
+   "p": "lo "
+  },
+  {
+   "g": "sof",
+   "p": "de ",
+   "cls": "code"
+  },
+  {
+   "g": "kif",
+   "p": "? ",
+   "cls": "unk"
+  },
+  {
+   "g": "ꝑ",
+   "p": "y "
+  },
+  {
+   "g": "ler",
+   "p": "no ",
+   "cls": "code"
+  },
+  {
+   "g": "mjn",
+   "p": "ha ",
+   "cls": "code"
+  },
+  {
+   "g": "gap",
+   "p": "que",
+   "cls": "code"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r"
+  },
+  {
+   "g": "bez",
+   "p": "ido ",
+   "cls": "code"
+  },
+  {
+   "g": "lep",
+   "p": "ni ",
+   "cls": "code"
+  },
+  {
+   "g": "sar",
+   "p": "dexa",
+   "cls": "code"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r "
+  },
+  {
+   "g": "ler",
+   "p": "no",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s "
+  },
+  {
+   "g": "α",
+   "p": "a "
+  },
+  {
+   "g": "ler",
+   "p": "no",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s"
+  },
+  {
+   "g": "Jom",
+   "p": "otro",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s "
+  },
+  {
+   "g": "lep",
+   "p": "ni ",
+   "cls": "code"
+  },
+  {
+   "g": "ceo",
+   "p": "tan ",
+   "cls": "code"
+  },
+  {
+   "g": "him",
+   "p": "poco ",
+   "cls": "code"
+  },
+  {
+   "g": "sof",
+   "p": "de",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s"
+  },
+  {
+   "g": "sof",
+   "p": "de",
+   "cls": "code"
+  },
+  {
+   "g": "∠",
+   "p": "ñ"
+  },
+  {
+   "g": "α",
+   "p": "a"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r "
+  },
+  {
+   "g": "α",
+   "p": "a "
+  },
+  {
+   "g": "kef",
+   "p": "lo",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s "
+  },
+  {
+   "g": "quf",
+   "p": "enemigo",
+   "cls": "unc"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s "
+  },
+  {
+   "g": "ꝑ",
+   "p": "y "
+  },
+  {
+   "g": "yip",
+   "p": "assi ",
+   "cls": "code"
+  },
+  {
+   "g": "bad",
+   "p": "va ",
+   "cls": "code"
+  },
+  {
+   "g": "ott",
+   "p": "t",
+   "cls": "code"
+  },
+  {
+   "g": "qid",
+   "p": "en",
+   "cls": "code"
+  },
+  {
+   "g": "nf",
+   "p": "p"
+  },
+  {
+   "g": "4",
+   "p": "o"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r"
+  },
+  {
+   "g": "3",
+   "p": "i"
+  },
+  {
+   "g": "⅄",
+   "p": "z"
+  },
+  {
+   "g": "α",
+   "p": "a"
+  },
+  {
+   "g": "ram",
+   "p": "do ",
+   "cls": "code"
+  },
+  {
+   "g": "xoc",
+   "p": "? ",
+   "cls": "unk"
+  },
+  {
+   "g": "α",
+   "p": "a "
+  },
+  {
+   "g": "qat",
+   "p": "? ",
+   "cls": "unk"
+  },
+  {
+   "g": "kef",
+   "p": "lo ",
+   "cls": "code"
+  },
+  {
+   "g": "gap",
+   "p": "que ",
+   "cls": "code"
+  },
+  {
+   "g": "bay",
+   "p": "ya ",
+   "cls": "code"
+  },
+  {
+   "g": "cuq",
+   "p": "tengo ",
+   "cls": "unc"
+  },
+  {
+   "g": "ruc",
+   "p": "dicho ",
+   "cls": "code"
+  },
+  {
+   "g": "sof",
+   "p": "de ",
+   "cls": "code"
+  },
+  {
+   "g": "boe",
+   "p": "ve",
+   "cls": "code"
+  },
+  {
+   "g": "ttt",
+   "p": "c"
+  },
+  {
+   "g": "q",
+   "p": "l"
+  },
+  {
+   "g": "α",
+   "p": "a"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r"
+  },
+  {
+   "g": "4",
+   "p": "o "
+  },
+  {
+   "g": "gap",
+   "p": "que ",
+   "cls": "code"
+  },
+  {
+   "g": "hef",
+   "p": "por ",
+   "cls": "code"
+  },
+  {
+   "g": "g",
+   "p": "e"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s"
+  },
+  {
+   "g": "α",
+   "p": "a"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s "
+  },
+  {
+   "g": "luc",
+   "p": "? ",
+   "cls": "unk"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s "
+  },
+  {
+   "g": "lep",
+   "p": "ni ",
+   "cls": "code"
+  },
+  {
+   "g": "hef",
+   "p": "por ",
+   "cls": "code"
+  },
+  {
+   "g": "mus",
+   "p": "la",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s "
+  },
+  {
+   "g": "sof",
+   "p": "de ",
+   "cls": "code"
+  },
+  {
+   "g": "mef",
+   "p": "Inglaterra ",
+   "cls": "code"
+  },
+  {
+   "g": "lex",
+   "p": "no ",
+   "cls": "code"
+  },
+  {
+   "g": "dim",
+   "p": "se ",
+   "cls": "code"
+  },
+  {
+   "g": "mjn",
+   "p": "ha ",
+   "cls": "code"
+  },
+  {
+   "g": "⅄",
+   "p": "e"
+  },
+  {
+   "g": "g",
+   "p": "cho "
+  },
+  {
+   "g": "lip",
+   "p": "ningun",
+   "cls": "code"
+  },
+  {
+   "g": "qu",
+   "p": "? ",
+   "cls": "unk"
+  },
+  {
+   "g": "sof",
+   "p": "de ",
+   "cls": "code"
+  },
+  {
+   "g": "kef",
+   "p": "lo",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s "
+  },
+  {
+   "g": "njh",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s "
+  },
+  {
+   "g": "gap",
+   "p": "que ",
+   "cls": "code"
+  },
+  {
+   "g": "dim",
+   "p": "se ",
+   "cls": "code"
+  },
+  {
+   "g": "qes",
+   "p": "es",
+   "cls": "code"
+  },
+  {
+   "g": "nf",
+   "p": "p"
+  },
+  {
+   "g": "g",
+   "p": "e"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r"
+  },
+  {
+   "g": "α",
+   "p": "a"
+  },
+  {
+   "g": "bad",
+   "p": "va",
+   "cls": "code"
+  },
+  {
+   "g": "do",
+   "p": "n ",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑ",
+   "p": "y "
+  },
+  {
+   "g": "kef",
+   "p": "lo",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s "
+  },
+  {
+   "g": "gap",
+   "p": "que ",
+   "cls": "code"
+  },
+  {
+   "g": "get",
+   "p": "esta",
+   "cls": "code"
+  },
+  {
+   "g": "do",
+   "p": "n ",
+   "cls": "code"
+  },
+  {
+   "g": "vih",
+   "p": "cerca ",
+   "cls": "unc"
+  },
+  {
+   "g": "sof",
+   "p": "de ",
+   "cls": "code"
+  },
+  {
+   "g": "coh",
+   "p": "Su Sd. ",
+   "cls": "code"
+  },
+  {
+   "g": "yeg",
+   "p": "? ",
+   "cls": "unk"
+  },
+  {
+   "g": "tac",
+   "p": "con",
+   "cls": "code"
+  },
+  {
+   "g": "oo",
+   "p": "f"
+  },
+  {
+   "g": "ꝍ",
+   "p": "o"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r "
+  },
+  {
+   "g": "v",
+   "p": "m"
+  },
+  {
+   "g": "α",
+   "p": "a"
+  },
+  {
+   "g": "do",
+   "p": "n ",
+   "cls": "code"
+  },
+  {
+   "g": "qib",
+   "p": "el ",
+   "cls": "code"
+  },
+  {
+   "g": "oap",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r "
+  },
+  {
+   "g": "ꝑ",
+   "p": "y "
+  },
+  {
+   "g": "mns",
+   "p": "la ",
+   "cls": "code"
+  },
+  {
+   "g": "cod",
+   "p": "? ",
+   "cls": "unk"
+  },
+  {
+   "g": "Jez",
+   "p": "para ",
+   "cls": "code"
+  },
+  {
+   "g": "cox",
+   "p": "? ",
+   "cls": "unk"
+  },
+  {
+   "g": "ka",
+   "p": "le ",
+   "cls": "code"
+  },
+  {
+   "g": "qid",
+   "p": "en ",
+   "cls": "code"
+  },
+  {
+   "g": "get",
+   "p": "esta ",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑ",
+   "p": "y"
+  },
+  {
+   "g": "do",
+   "p": "r",
+   "cls": "code"
+  },
+  {
+   "g": "x",
+   "p": "r"
+  },
+  {
+   "g": "g",
+   "p": "e"
+  },
+  {
+   "g": "ꝑo",
+   "p": "s"
+  },
+  {
+   "g": "4",
+   "p": "o"
+  },
+  {
+   "g": "q",
+   "p": "l"
+  },
+  {
+   "g": "b",
+   "p": "u"
+  },
+  {
+   "g": "ttt",
+   "p": "c"
+  },
+  {
+   "g": "boz",
+   "p": "ion ",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑ",
+   "p": "y "
+  },
+  {
+   "g": "gap",
+   "p": "que ",
+   "cls": "code"
+  },
+  {
+   "g": "kef",
+   "p": "lo ",
+   "cls": "code"
+  },
+  {
+   "g": "α",
+   "p": "a"
+  },
+  {
+   "g": "nf",
+   "p": "p"
+  },
+  {
+   "g": "α",
+   "p": "a"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r"
+  },
+  {
+   "g": "ott",
+   "p": "t",
+   "cls": "code"
+  },
+  {
+   "g": "α",
+   "p": "a"
+  },
+  {
+   "g": "do",
+   "p": "n ",
+   "cls": "code"
+  },
+  {
+   "g": "cob",
+   "p": "si ",
+   "cls": "code"
+  },
+  {
+   "g": "ler",
+   "p": "no ",
+   "cls": "code"
+  },
+  {
+   "g": "li",
+   "p": "Mi",
+   "cls": "unc"
+  },
+  {
+   "g": "ttt",
+   "p": "c"
+  },
+  {
+   "g": "x",
+   "p": "e"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r "
+  },
+  {
+   "g": "α",
+   "p": "A"
+  },
+  {
+   "g": "#",
+   "p": "g"
+  },
+  {
+   "g": "Jim",
+   "p": "os",
+   "cls": "code"
+  },
+  {
+   "g": "ott",
+   "p": "t",
+   "cls": "code"
+  },
+  {
+   "g": "3",
+   "p": "i"
+  },
+  {
+   "g": "b",
+   "p": "n"
+  },
+  {
+   "g": "do",
+   "p": "o ",
+   "cls": "code"
+  },
+  {
+   "g": "oo",
+   "p": "F"
+  },
+  {
+   "g": "4",
+   "p": "o"
+  },
+  {
+   "g": "ε",
+   "p": "y"
+  },
+  {
+   "g": "x",
+   "p": "e"
+  },
+  {
+   "g": "ott",
+   "p": "t",
+   "cls": "code"
+  },
+  {
+   "g": "α",
+   "p": "a "
+  },
+  {
+   "g": "gap",
+   "p": "que ",
+   "cls": "code"
+  },
+  {
+   "g": "cob",
+   "p": "si ",
+   "cls": "code"
+  },
+  {
+   "g": "qid",
+   "p": "en",
+   "cls": "code"
+  },
+  {
+   "g": "nf",
+   "p": "p"
+  },
+  {
+   "g": "ꝍ",
+   "p": "r"
+  },
+  {
+   "g": "x",
+   "p": "e"
+  },
+  {
+   "g": "bad",
+   "p": "va ",
+   "cls": "code"
+  },
+  {
+   "g": "hef",
+   "p": "por ",
+   "cls": "code"
+  },
+  {
+   "g": "qib",
+   "p": "el ",
+   "cls": "code"
+  },
+  {
+   "g": "ꝑar",
+   "p": "? ",
+   "cls": "unk"
+  },
+  {
+   "g": "rin",
+   "p": "? ",
+   "cls": "unk"
+  },
+  {
+   "g": "ꝑo=",
+   "p": "so"
+  },
+  {
+   "g": "ꝑ",
+   "p": "y "
+  },
+  {
+   "g": "kah",
+   "p": "mas ",
+   "cls": "code"
+  },
+  {
+   "g": "α",
+   "p": "a"
+  },
+  {
+   "g": "oo",
+   "p": "f"
+  },
+  {
+   "g": "3",
+   "p": "i"
+  },
+  {
+   "g": "ttt",
+   "p": "c"
+  },
+  {
+   "g": "ε",
+   "p": "i"
+  },
+  {
+   "g": "4",
+   "p": "o"
+  },
+  {
+   "g": "do",
+   "p": "n",
+   "cls": "code"
+  },
+  {
+   "g": "α",
+   "p": "a"
+  },
+  {
+   "g": "ram",
+   "p": "do ",
+   "cls": "code"
+  }
+ ]
+}

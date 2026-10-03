@@ -1378,6 +1378,75 @@
       }
      ],
      "sent": false
+    },
+    "R9634": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Lope Hurtado de Mendoza to Charles V, written from Genoa, 13 Sept 1522 (dateline on f. 16r: 'de Genoba xiij de setiembre 1522'), not from Rome. Reports Geronimo Adorno's plan for Charles V and Henry VIII to invade France through Provence (70,000 ducats a month, set for March). Read in part with the key rebuilt from R9644/R9650 and extended on this letter: 846 of 1191 cipher tokens read as sense (71%); about 45 single-occurrence code groups open. No clear version and none in CSP Spain ii.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9634.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "place": "Genoa",
+      "date": "1522-09-13",
+      "sender": "Lope Hurtado de Mendoza",
+      "receiver": "Charles V"
+     }
+    },
+    "R9645": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Lope Hurtado to Charles V, Rome, Nov 1522. Read in part (358 of 489 cipher tokens, 73%) with the rebuilt key; the contemporary glosses at the foot of f. 243v (second hand) confirm the reading there; f. 243r gives the terms of Adrian VI's capitulation with the duke of Ferrara.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9645.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R9646": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Lope Hurtado to Charles V, Rome, Nov 1522: Adrian VI's capitulation with Ferrara signed; the tenth; money for the Pope's needs. Read in part (97 of 121 cipher tokens, 80%) with the rebuilt key; two spelled words and three codes open.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9646.txt"
+      }
+     ],
+     "sent": false
+    },
+    "R9649": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Lope Hurtado to Charles V, Rome, 9 Nov 1522 (Ostia fortress; the licenciado Bernardino). The record carries the clerk's contemporary clear version of the whole letter on f. 268r; the cipher runs read in full with the rebuilt key and agree with it word for word (89 of 89 tokens).",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9649.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "date": "1522-11-09",
+      "place": "Rome"
+     }
+    },
+    "R9656": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Lope Hurtado to Charles V, Rome, 23 Nov 1522 (dateline 'De Roma xxiij de noviembre 1522'). Read in part (131 of 214 cipher tokens, 61%) with the rebuilt key; f. 335r, which looks blank, carries a very faded contemporary clear copy, legible only in the right half of each line at DECODE's resolution.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9656.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "date": "1522-11-23",
+      "place": "Rome"
+     }
     }
    }
   },
@@ -1388,7 +1457,7 @@
     "lang": "ES",
     "how": "from the decrypted sibling letters R9897, R9893, R9834"
    },
-   "cite": "R9897, R9893, R9834",
+   "cite": "R9897, R9893, R9834; Bergenroth, CSP Spain ii 636-638 (R9873)",
    "fields": {
     "cipher_types": "homophonic, nomenclator",
     "plaintext_lang": "Spanish"
@@ -1397,11 +1466,10 @@
     "R9877": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Read in part from decrypted siblings.",
+     "note": "Duke of Sessa to Charles V, Rome, 18 Apr 1524 (dated on f. 128v; DECODE has 1424). Read in part with the key rebuilt from the decrypted sibling letters (passes 1-16); 2 Oct 2026: 'de lo susodicho, aunque no' filled from R9873/R9898; two code groups and one spelled clause open.",
      "reading": [
       {
-       "file": "targets/sessa1524/NOTES.md",
-       "section": "## 3. Reading"
+       "file": "decode_updates/decryptions/R9877.txt"
       }
      ],
      "sent": false
@@ -1409,14 +1477,47 @@
     "R9878": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Read in part from decrypted siblings.",
+     "note": "Duke of Sessa to Charles V, Rome, 18 Apr 1524 (dated on f. 128v; DECODE has 1424). Read in part with the key rebuilt from the decrypted sibling letters (passes 1-16); 2 Oct 2026: 'de lo susodicho, aunque no' filled from R9873/R9898; two code groups and one spelled clause open. Duplicate of R9877 (second courier).",
      "reading": [
       {
-       "file": "targets/sessa1524/NOTES.md",
-       "section": "## 3. Reading"
+       "file": "decode_updates/decryptions/R9878.txt"
       }
      ],
      "sent": false
+    },
+    "R9873": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Duke of Sessa to Charles V, Rome, 14 Apr 1524 (CSP Spain ii 637, from Goicoechea's 19th-c. reading; no. 636 is the triplicate, no. 638 the court abstract). Transcribed in full and read in part with the Sessa key rebuilt here (pass 16): 2,165 of 2,473 cipher tokens read as sense (87.5%); about 120 code groups open.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9873.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "date": "1524-04-14",
+      "sender": "Luis Fernández de Córdoba, Duke of Sessa",
+      "receiver": "Charles V",
+      "place": "Rome"
+     }
+    },
+    "R9898": {
+     "decode_status": "Decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Duke of Sessa to Charles V, Rome, 24 Feb 1525 (not in CSP Spain iii.1). Six cipher runs carry a contemporary marginal decipherment (ff. 150r, 152r, 153v, 154r, 154v, 156r); the rest has none, so the record is only partly decrypted. Read in part with the Sessa key rebuilt here (pass 16, using those margins): 2,361 of 3,059 cipher tokens read as sense (77.2%); about 140 code groups open and the bleed-through pages ff. 150v-151r, 155v not legible sign by sign.",
+     "reading": [
+      {
+       "file": "decode_updates/decryptions/R9898.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "date": "1525-02-24",
+      "sender": "Luis Fernández de Córdoba, Duke of Sessa",
+      "receiver": "Charles V",
+      "place": "Rome"
+     }
     }
    }
   },
@@ -1584,7 +1685,7 @@
     "lang": "FR",
     "how": "ciphertext-only, quadgram annealing on the Dutch of page 2"
    },
-   "cite": null,
+   "cite": "H. T. Colenbrander, Gedenkstukken der algemeene geschiedenis van Nederland 1795-1840, vol. II nos. 724, 733, 734 (date and writer only)",
    "fields": {
     "cipher_types": "simple substitution",
     "plaintext_lang": "French, Dutch"
@@ -1593,16 +1694,19 @@
     "R1892": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "1,816 of 1,829 digit pairs read; about 129 graphic-sign occurrences (words or names) unread.",
+     "note": "Prince Frederick of Orange (in England) to the officer commanding the Dutch emigre troops (the rassemblement) in Germany, late November or early December 1795, not 1 Jan 1795: Colenbrander, Gedenkstukken II nos. 724, 733, 734 (pp. 886-894) place Frederick's command at Nienburg (named in the postscript), his arrival in England by 26 Nov 1795, and Henry Dundas's orders of 8 Dec 1795, which the letter still anticipates; the letter itself is not printed there. 6x6 digit-pair square recovered ciphertext-only; 1,816 of 1,829 digit pairs read; word signs extended 2 Oct 2026 with the values of the sibling letter R2242 (same key): 1,757 of 1,951 tokens read as sense (90.1%); about twenty rare word signs open.",
      "reading": [
       {
-       "file": "targets/r1892/decrypt_p1.txt"
-      },
-      {
-       "file": "targets/r1892/decrypt_p2.txt"
+       "file": "decode_updates/decryptions/R1892.txt"
       }
      ],
-     "sent": false
+     "sent": false,
+     "fields": {
+      "date": "late November - early December 1795 (DECODE: 1795-01-01)",
+      "sender": "Prince Frederick of Orange-Nassau (1774-1799)",
+      "receiver": "the officer commanding the Dutch emigre troops (rassemblement) in Germany; not William V, in whose papers it is kept",
+      "place": "England"
+     }
     }
    }
   },
@@ -4656,13 +4760,13 @@
     "decode": "R1892 (key recovered in this project; same 6x6 vertical digit-pair square)",
     "lang": "NL"
    },
-   "cite": null,
+   "cite": "H. T. Colenbrander, Gedenkstukken der algemeene geschiedenis van Nederland 1795-1840, vol. I pp. 655, 678 (identifications only)",
    "fields": {},
    "records": {
     "R2242": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Read with the R1892 digit-pair key unchanged; p.1 clear Dutch under the cipher confirms it; about sixteen word signs on pp.3-4 unread (30 Sept 2026: uit, van, Frankrijk and om read from context).",
+     "note": "Read with the R1892 digit-pair key unchanged; p.1 clear Dutch under the cipher confirms it. Second pass 2 Oct 2026: p3 l1 and p4 l8 re-transcribed at full resolution, twelve more word signs valued from context; 981 of 1,037 tokens read as sense (94.6%), 20 single-occurrence word signs open. Pp. 3-4 date from late May or June 1795 (after the Treaty of The Hague, 16 May): the envoys De Sitter and Van Grasveld and the ministers Blauw and Meyer are named (Colenbrander, Gedenkstukken I pp. 655, 678); the letter is not printed there.",
      "reading": [
       {
        "file": "decode_updates/decryptions/R2242.txt"
@@ -7646,13 +7750,18 @@
     "R927": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "French letter to 'Monsieur'. f. 243 (last page) read almost in full, f. 241 in fragments, f. 242 not transcribed. Homophonic pigpen; the pencil key on the flap is not the key. Earlier decoded by Sheila Richards, Secret Writings (1973), per G. Lasry; this reading is independent.",
+     "note": "French letter to 'Monsieur', written at Nancy in December (year not given), signed with a name read 'Nicle'(?). The letter runs f. 243 then f. 241; f. 242 is a second copy of f. 243, line for line. All three pages hand-transcribed and decoded (2 Oct 2026): 84.0% of the letter's signs read as sense. Homophonic pigpen; the pencil key on the flap is not the key. Earlier decoded by Sheila Richards, Secret Writings (1973), per G. Lasry; this reading is independent. Neighbouring records R922-R933 are not in this cipher.",
      "reading": [
       {
-       "file": "targets/sp106r927/p3_plain.txt"
+       "file": "decode_updates/decryptions/R927.txt"
       }
      ],
-     "sent": false
+     "sent": false,
+     "fields": {
+      "place": "Nancy",
+      "language": "French",
+      "date": "December, year unknown (17th century)"
+     }
     }
    }
   },

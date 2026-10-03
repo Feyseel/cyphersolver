@@ -1312,7 +1312,7 @@
    "label": "Armstrong THE=972 table",
    "kind": "rebuilt here",
    "by": "Daniel Bourdeau",
-   "note": "592-entry table of the Armstrong legation code",
+   "note": "592-entry table of the Armstrong legation code; about 160 values added from the 1807-1810 despatches (2 Oct 2026)",
    "found": 2026,
    "year": null
   },
@@ -1803,6 +1803,15 @@
    "by": "Österreichisches Staatsarchiv",
    "year": 1600,
    "note": "Fifteen key records of the fascicle that holds R1408: German, French, Latin, Muscovite and Polish keys and nomenclators of c. 1592-1620s."
+  },
+  {
+   "id": "k-sp106r927",
+   "label": "SP 106/10 homophonic pigpen key (R927)",
+   "kind": "rebuilt here",
+   "by": "Daniel Bourdeau",
+   "year": null,
+   "found": 2026,
+   "note": "Homophonic pigpen key recovered from the ciphertext alone by annealing on a hand transcription of f. 243; extended 2 Oct 2026 on ff. 241-242 (H3 z, C*2 q, C1 f/q and F2 l/h polyphones)"
   }
  ],
  "links": [
@@ -2116,7 +2125,7 @@
    "key": "k-sessa",
    "target": "sessa1524",
    "how": "rebuilt from",
-   "note": ""
+   "note": "passes 1-16; pass 16 from R9898 margins, read R9873 and R9898 in part"
   },
   {
    "key": "k-sessa",
@@ -2236,7 +2245,13 @@
    "key": "k-lope1522",
    "target": "lopehurtado",
    "how": "rebuilt from",
-   "note": "contemporary decipherment"
+   "note": "contemporary decipherment; extended on R9634 (2 Oct 2026)"
+  },
+  {
+   "key": "k-lope1523",
+   "target": "lopehurtado",
+   "how": "partial",
+   "note": "1524 alphabet applied back to R9634, R9645, R9646, R9649, R9656"
   },
   {
    "key": "k-soria-b",
@@ -2735,6 +2750,18 @@
    "target": "warsaw",
    "how": "rebuilt from",
    "note": "rebuilt ciphertext-only by a 5-gram plus dictionary annealer from Tomokiyo's transcription; checked against the DECODE image on 2 Oct 2026"
+  },
+  {
+   "key": "k-armstrong972",
+   "target": "armstrong",
+   "how": "rebuilt from",
+   "note": "pencil decodes on M34 roll 13 + Tomokiyo; extended 2 Oct 2026 on 12 more despatches"
+  },
+  {
+   "key": "k-sp106r927",
+   "target": "sp106r927",
+   "how": "rebuilt from",
+   "note": "ciphertext-only"
   }
  ],
  "sources": [
@@ -3147,6 +3174,10 @@
   {
    "source": "s-decode",
    "key": "k-hhsta-kt14-keys"
+  },
+  {
+   "source": "s-bourdeau",
+   "key": "k-sp106r927"
   }
  ],
  "unlinked": {
