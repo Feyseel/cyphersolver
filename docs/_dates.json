@@ -12,6 +12,7 @@
   "a wallachian postscript against antide dunod, after 1688": "2026-09-28",
   "adfgvx, 1918": "2026-09-15",
   "adrian of utrecht, the admiral and the constable to charles v, vitoria, 30 decem": "2026-09-18",
+  "aerssen to oldenbarnevelt, 25 may 1601": "2026-10-04",
   "alchymey teuczsch, an alchemists’ notebook, east bavaria 1426": "2026-09-18",
   "alonso sánchez at venice to charles v, 1522": "2026-09-20",
   "alonso sánchez at venice to charles v, may–august 1523": "2026-09-21",
@@ -199,6 +200,7 @@
   "philip ii to mendoza, 7 september 1589": "2026-09-17",
   "philip ii to the nuncio ormanetto, 1573 (asv segr. stato spagna 7)": "2026-09-21",
   "philippe groffey (?) to ferenc rákóczi ii, 15 october 1707": "2026-09-20",
+  "pieter battier to gaspar fagel, 1686–1688": "2026-10-04",
   "potocka and mniszech to dunin, 1714–16 and undated": "2026-09-23",
   "prince frederick of orange to an officer of the orange troops, late 1795": "2026-10-02",
   "prince frederick of orange to his brother, 1795": "2026-10-02",
@@ -327,6 +329,11 @@
    "hash": "13b6eecc5581",
    "updated": "2026-09-30"
   },
+  "aerssen1601": {
+   "first": "2026-10-04",
+   "hash": "6212426a1682",
+   "updated": "2026-10-04"
+  },
   "affry1757": {
    "first": "2026-09-19",
    "hash": "98ecc83cf600",
@@ -381,6 +388,11 @@
    "first": "2026-09-22",
    "hash": "40a19b769efc",
    "updated": "2026-09-24"
+  },
+  "battier1686": {
+   "first": "2026-10-04",
+   "hash": "39ca3bf0a6d9",
+   "updated": "2026-10-04"
   },
   "bay1706": {
    "first": "2026-09-21",
@@ -759,8 +771,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "ba12f9889f18",
-   "updated": "2026-10-03"
+   "hash": "d75b5eaec4e1",
+   "updated": "2026-10-04"
   },
   "indus": {
    "first": "2026-09-24",
@@ -1579,8 +1591,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "3e2fc9025366",
-   "updated": "2026-10-03"
+   "hash": "5000690ae53a",
+   "updated": "2026-10-04"
   },
   "yard1699": {
    "first": "2026-09-18",

@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "target": "battier1686",
+  "title": "Pieter Battier to Gaspar Fagel, Madrid, 1686–1688",
+  "documents": [
+    {
+      "id": "1686-12-19",
+      "read": "read",
+      "shelfmark": "Nationaal Archief 3.01.18 inv. 401, scans 31R, 32L",
+      "date": "1686-12-19",
+      "year": 1686,
+      "country": "Dutch Republic",
+      "route": "Madrid -> unknown",
+      "language": "Dutch",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "No contemporary decipherment reported in the supplied inventory.",
+        "partial": false
+      },
+      "length": {
+        "tokens": 186,
+        "distinct": 118,
+        "unit": "code groups",
+        "measured": true,
+        "file": "tokens/1686-12-19_groups.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Supplied token transcription; no new image inspection.",
+        "image_quality": "good",
+        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+      }
+    },
+    {
+      "id": "1687-12-04",
+      "read": "read in part",
+      "shelfmark": "Nationaal Archief 3.01.18 inv. 401, scans 91R, 92L",
+      "date": "1687-12-04",
+      "year": 1687,
+      "country": "Dutch Republic",
+      "route": "Madrid -> unknown",
+      "language": "Dutch",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "No contemporary decipherment reported in the supplied inventory.",
+        "partial": false
+      },
+      "length": {
+        "tokens": 211,
+        "distinct": 117,
+        "unit": "code groups",
+        "measured": true,
+        "file": "tokens/1687-12-04_groups.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Supplied token transcription; no new image inspection.",
+        "image_quality": "good",
+        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+      }
+    },
+    {
+      "id": "1688-02-12",
+      "read": "read in part",
+      "shelfmark": "Nationaal Archief 3.01.18 inv. 401, scans 99R, 100R",
+      "date": "1688-02-12",
+      "year": 1688,
+      "country": "Dutch Republic",
+      "route": "Madrid -> unknown",
+      "language": "Dutch",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "No contemporary decipherment reported in the supplied inventory.",
+        "partial": false
+      },
+      "length": {
+        "tokens": 271,
+        "distinct": 127,
+        "unit": "code groups",
+        "measured": true,
+        "file": "tokens/1688-02-12_groups.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Supplied token transcription; no new image inspection.",
+        "image_quality": "good",
+        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+      }
+    },
+    {
+      "id": "1688-04-08",
+      "read": "read",
+      "shelfmark": "Nationaal Archief 3.01.18 inv. 401, scans 107R, 108L, 108R, 109L",
+      "date": "1688-04-08",
+      "year": 1688,
+      "country": "Dutch Republic",
+      "route": "Madrid -> unknown",
+      "language": "Dutch",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "No contemporary decipherment reported in the supplied inventory.",
+        "partial": false
+      },
+      "length": {
+        "tokens": 323,
+        "distinct": 151,
+        "unit": "code groups",
+        "measured": true,
+        "file": "tokens/1688-04-08_groups.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Supplied token transcription; no new image inspection.",
+        "image_quality": "good",
+        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+      }
+    },
+    {
+      "id": "1686-12-05",
+      "read": "read in part",
+      "shelfmark": "Nationaal Archief 3.01.18 inv. 401, scans 30R, 31L",
+      "date": "1686-12-05",
+      "year": 1686,
+      "country": "Dutch Republic",
+      "route": "Madrid -> unknown",
+      "language": "Dutch",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "separate folio"
+        ],
+        "source": "Scan 28R",
+        "partial": false
+      },
+      "length": {
+        "tokens": 369,
+        "distinct": 169,
+        "unit": "code groups",
+        "measured": true,
+        "file": "tokens/1686-12-05_groups.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Supplied token transcription; no new image inspection.",
+        "image_quality": "good",
+        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+      }
+    },
+    {
+      "id": "1687-01-30",
+      "read": "read in part",
+      "shelfmark": "Nationaal Archief 3.01.18 inv. 401, scans 41R, 42L, 44R",
+      "date": "1687-01-30",
+      "year": 1687,
+      "country": "Dutch Republic",
+      "route": "Madrid -> unknown",
+      "language": "Dutch",
+      "cleartext_in_document": "none",
+      "plaintext": {
+        "location": [
+          "separate folio"
+        ],
+        "source": "Scans 42R–43R",
+        "partial": false
+      },
+      "length": {
+        "tokens": 781,
+        "distinct": 282,
+        "unit": "code groups",
+        "measured": true,
+        "file": "tokens/1687-01-30_groups.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Supplied token transcription; no new image inspection.",
+        "image_quality": "good",
+        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+      }
+    },
+    {
+      "id": "1688-01-29",
+      "read": "read in part",
+      "shelfmark": "Nationaal Archief 3.01.18 inv. 401, scans 97R",
+      "date": "1688-01-29",
+      "year": 1688,
+      "country": "Dutch Republic",
+      "route": "Madrid -> unknown",
+      "language": "Dutch",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "No contemporary decipherment reported in the supplied inventory.",
+        "partial": false
+      },
+      "length": {
+        "tokens": 67,
+        "distinct": 45,
+        "unit": "code groups",
+        "measured": true,
+        "file": "tokens/1688-01-29_groups.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Supplied token transcription; no new image inspection.",
+        "image_quality": "good",
+        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+      }
+    },
+    {
+      "id": "1688-02-26",
+      "read": "read in part",
+      "shelfmark": "Nationaal Archief 3.01.18 inv. 401, scans 101R",
+      "date": "1688-02-26",
+      "year": 1688,
+      "country": "Dutch Republic",
+      "route": "Madrid -> unknown",
+      "language": "Dutch",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "Scan 101R (partial check)",
+        "partial": true
+      },
+      "length": {
+        "tokens": 117,
+        "distinct": 57,
+        "unit": "code groups",
+        "measured": true,
+        "file": "tokens/1688-02-26_groups.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "Supplied token transcription; no new image inspection.",
+        "image_quality": "good",
+        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "homophonic",
+      "code",
+      "nomenclator"
+    ],
+    "summary": "A Dutch homophonic letter table accompanies an alphabetical codebook with fifteen marked number series and names.",
+    "symbol_kind": "digits and symbols",
+    "distinct_symbols": "unknown",
+    "digit_groups": {
+      "width": "1-3",
+      "separation": "mixed"
+    },
+    "diacritics": {
+      "used": true,
+      "note": "Fifteen blocks selected by overhead marks or struck digit; see NOTES.md."
+    },
+    "homophones": {
+      "used": true,
+      "max_per_vowel": 8,
+      "max_per_consonant": 3
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 1393,
+      "kinds": [
+        "common words",
+        "names",
+        "places",
+        "titles",
+        "phrases"
+      ]
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "partly alphabetical",
+    "word_division": "none",
+    "notes": "1393 is the supplied review count of distinct transcribed dictionary codes, not the full historical codebook. Letter table 2–98; main blocks 99–999; names on key scans 59 and 78–82."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "partial",
+      "where": "Contemporary decipherments on inv. 401 scans 28R, 42R–43R and 101R; no edition found in supplied prior-art work.",
+      "found": "after reading",
+      "used": true
+    },
+    "inputs": [
+      "transcription",
+      "key from archive",
+      "cleartext context",
+      "known plaintext"
+    ],
+    "attack": "key from archive",
+    "human_role": "Decipherment by Feyseel Nur with Claude and Codex. Offline packaging of supplied evidence; original division of transcription work undocumented.",
+    "tools": [
+      "scripts/decode.py",
+      "scripts/measure.py",
+      "scripts/control.py"
+    ],
+    "models": [
+      "Claude (version not supplied)",
+      "OpenAI Codex (version not supplied)"
+    ]
+  },
+  "solution": [
+    {
+      "kind": "literature search",
+      "what": "Supplied research: De Leeuw 2000 describes Fagel codebooks, not Battier; no edition found; letters absent from DECODE.",
+      "result": "partial"
+    },
+    {
+      "kind": "key from source",
+      "what": "Named Battier key NA 1.10.29 inv. 1209, DECODE R2794; old 5345 citation corrected.",
+      "result": "worked"
+    },
+    {
+      "kind": "transcription",
+      "what": "Letter table and about 1400 codebook values transcribed; marked cipher tokens and inventory retained.",
+      "result": "partial"
+    },
+    {
+      "kind": "reading",
+      "what": "Key applied to four focus letters and supporting letters; roughly 55% of cipher in volume read.",
+      "result": "partial"
+    },
+    {
+      "kind": "verification",
+      "what": "Validation letters: 1113/1132 comparable tokens agree (98.3%); 94.7% key-alone.",
+      "result": "partial"
+    },
+    {
+      "kind": "control",
+      "what": "Supplied 300-permutation control: 72% spelled runs segment into Dutch, mean 1.2%, maximum 4.1% shuffled. Not rerun during packaging.",
+      "result": "worked"
+    },
+    {
+      "kind": "verification",
+      "what": "Codex software re-decoding, not paleography: 19 Dec 186/186 and April 313/323 pass strict sense; Dec 1687 94.3% and Feb 1688 92.3% do not.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "key": "partial",
+    "method": "read with known key",
+    "method_basis": "The contemporary key explicitly names Battier; NA 1.10.29 inv. 1209 / DECODE R2794 was applied to his correspondence.",
+    "contribution": [
+      "transcription",
+      "decipherment with ambiguous key",
+      "catalogue correction"
+    ],
+    "fraction_read": 0.55,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "Supplied volume estimate, about 55% of cipher in inv. 401; inventory in inv/orch_letters.tsv. Per-focus-letter strict measured results are in codex_review/metrics.tsv, not a volume-wide denominator.",
+    "codes_open": "unknown",
+    "verification": [
+      "contemporary decipherment",
+      "key confirms",
+      "matched control"
+    ],
+    "gaps": [
+      {
+        "item": "Focus-letter unresolved groups and sense",
+        "blocker": "open-codes",
+        "detail": "12:6?0; getwist versus Turck(en); Novelli/Hofmeester; gesoubconneert gouverneren; Sex.; names, 81 and other repairs: codex_review/semantic_adjustments.tsv."
+      },
+      {
+        "item": "Unread volume letters in inv/orch_letters.tsv, including 102L and 95R",
+        "blocker": "open-codes",
+        "detail": "Existing partial result packaged offline at user request; no claim that all possible research has been exhausted."
+      },
+      {
+        "item": "States General NA 1.01.02 inv. 12588.120–125",
+        "blocker": "needs-physical-access",
+        "detail": "Not digitised."
+      }
+    ],
+    "notes": "Two focus letters pass strict sense: 186/186 and 313/323. Others 199/211 and 250/271 are below. No aggregate grade conversion or volume-wide coherent fraction is claimed. 81=e is contextual and absent from both validation letters.",
+    "class": "read in part"
+  }
+}
