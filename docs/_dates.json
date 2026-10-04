@@ -87,6 +87,7 @@
   "d’affry from the hague to rouillé and bernis, 1757–58": "2026-09-19",
   "edward wotton from scotland to walsingham, aug–sept 1585": "2026-09-21",
   "erving at madrid, 24 march 1807, and john quincy adams at st petersburg, no. 88,": "2026-09-18",
+  "erving to madison, madrid, 10 august 1807": "2026-10-04",
   "etienne bourdeaux to maarten van der goes, 31 january 1801": "2026-09-21",
   "explained": "2026-09-23",
   "ferdinand i (augsburg) to johann malvezzi at the porte, 23 january 1548": "2026-09-21",
@@ -567,6 +568,11 @@
    "hash": "24749ef222b6",
    "updated": "2026-09-24"
   },
+  "erving1807aug": {
+   "first": "2026-10-04",
+   "hash": "aa55417b6741",
+   "updated": "2026-10-04"
+  },
   "esp318": {
    "first": "2026-09-17",
    "hash": "b82c968c28a1",
@@ -609,8 +615,8 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "4faf8a554b08",
-   "updated": "2026-10-01"
+   "hash": "751a9e511908",
+   "updated": "2026-10-04"
   },
   "goldbar": {
    "first": "2026-09-15",
@@ -759,8 +765,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "ba12f9889f18",
-   "updated": "2026-10-03"
+   "hash": "f9af6d3fcb1b",
+   "updated": "2026-10-04"
   },
   "indus": {
    "first": "2026-09-24",
@@ -1579,8 +1585,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "3e2fc9025366",
-   "updated": "2026-10-03"
+   "hash": "cf256582f257",
+   "updated": "2026-10-04"
   },
   "yard1699": {
    "first": "2026-09-18",
