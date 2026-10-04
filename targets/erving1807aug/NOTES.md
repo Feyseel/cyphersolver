@@ -6,8 +6,7 @@ part (414 rows), based on plaintext from an external source (Founders Online). O
 OpenAI Codex in `codex_review/` (verdict: confirmed but overstated). Write-up: `docs/erving1807aug.html`.
 
 Sibling: `../erving1807/` (Erving's No. 21 of 24 March 1807 in the same code, read from Madison's decode; its NOTES
-listed this letter under "Not done"). The contributor's original hand-in is kept unchanged in
-`../erving1807/contrib_feyseel/`; the data files here are copies of it.
+listed this letter under "Not done").
 
 ## Sources
 
