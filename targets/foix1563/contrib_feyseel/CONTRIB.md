@@ -4,6 +4,22 @@ Outside contribution, 4 Oct 2026 (Feyseel Nur, with Claude Opus 5.5 subagents; a
 in `codex_review/`). It addresses the R9241 gap in `../NOTES.md` ("no-key-material; … ciphertext-only annealing …
 finds no language").
 
+**Prior and parallel work.** Lawrence Beck, with ChatGPT, submitted a proposed partial decipherment from the
+photographs one day earlier, in **PR #18** (`targets/foix1563/beck-preliminary/`). Priority for a reading of R9241
+is his. This work was done without knowledge of PR #18 and complements it:
+
+- **The key's origin.** Beck lists BnF fr. 15971 ff. 21 and 26 (de Foix, 11 Oct 1565) as "precise leads, not
+  inspected matches". Here those leaves and their contemporary decipherment (f. 25r) were inspected, and the sign
+  system was shown to be the same: the unfitted 1565 key scores 7.8–10.7 SD above shuffles.
+- **The two readings converge.** They were reached by different routes, Beck's from the images and ours from the
+  1565 key with no images of R9241:
+  - Beck: *Et en ceste uisitation passerent entre eulx quelques …* — here: *Et en ceste visitation p[..]erent
+    d'entre eulx quelque[s] …*
+  - Beck: *que son but seroit de nous faire entrer en quelque debourssement de deniers, dont nous n'avons nule
+    intention* — here: *… son but … faire, car entrer en quelque deboursement de deniers … nulle intention*
+- **Next step.** Compare Beck's key with the 1565 values sign by sign. Where they agree, both are confirmed. Where
+  they conflict (for example r, z, Yb), the 1565 decipherment can arbitrate.
+
 ## Identification
 
 The sign set matches **Paul de Foix's cipher** as reconstructed by S. Tomokiyo from de Foix's own letters of
