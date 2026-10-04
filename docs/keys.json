@@ -1837,6 +1837,14 @@
    "by": "Feyseel Nur (with Claude and Codex)",
    "year": 1601,
    "note": "Rebuilt from 11 and 28 May interlinear glosses and 30 April list A; qF distinct from qT."
+  },
+  {
+   "id": "k-beuningen1676",
+   "label": "Van Beuningen’s Dutch nomenclator, 1675–1677",
+   "kind": "rebuilt here",
+   "by": "Feyseel Nur with Claude and Codex",
+   "year": 1676,
+   "note": "Rebuilt from sibling interlinear glosses in NA 3.01.18 inv. 248–250; later hands and contextual values distinguished."
   }
  ],
  "links": [
@@ -2818,6 +2826,12 @@
    "target": "aerssen1601",
    "how": "rebuilt from",
    "note": "Applied to 25 May and 2 June; 59/61 and 9/11 attested tokens."
+  },
+  {
+   "key": "k-beuningen1676",
+   "target": "beuningen1676",
+   "how": "rebuilt from",
+   "note": "Partial reading of 23 May/2 June 1676; strict 264/278 (94.96%), with gemelte retained."
   }
  ],
  "sources": [
@@ -3246,6 +3260,10 @@
   {
    "source": "s-bourdeau",
    "key": "k-aerssen1601"
+  },
+  {
+   "source": "s-bourdeau",
+   "key": "k-beuningen1676"
   }
  ],
  "unlinked": {

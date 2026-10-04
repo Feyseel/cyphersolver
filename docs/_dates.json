@@ -283,6 +283,7 @@
   "unknown to unknown, 1728 (add ms 32287)": "2026-09-22",
   "unknown writer to hesse-kassel, thirty years’ war (marburg, decode r4500)": "2026-09-22",
   "urquhart’s cyphral octastich, 1652": "2026-09-16",
+  "van beuningen to fagel, 23 may/2 june 1676": "2026-10-05",
   "van dedem at constantinople, 1788–1799": "2026-09-21",
   "van reede to william v, berlin, 4 february 1792": "2026-09-21",
   "van spaen to van der goes, 14–15 january 1808": "2026-09-21",
@@ -423,6 +424,11 @@
    "first": "2026-09-17",
    "hash": "115fbaa14660",
    "updated": "2026-09-24"
+  },
+  "beuningen1676": {
+   "first": "2026-10-05",
+   "hash": "81153bbe99d7",
+   "updated": "2026-10-05"
   },
   "bizozola1520": {
    "first": "2026-09-21",
@@ -771,8 +777,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "d75b5eaec4e1",
-   "updated": "2026-10-04"
+   "hash": "3d540c8d7843",
+   "updated": "2026-10-05"
   },
   "indus": {
    "first": "2026-09-24",
@@ -1591,8 +1597,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "5000690ae53a",
-   "updated": "2026-10-04"
+   "hash": "eb2101052d3a",
+   "updated": "2026-10-05"
   },
   "yard1699": {
    "first": "2026-09-18",

@@ -375,6 +375,11 @@ PAGES = [
          blurb='Four despatches from the Spanish envoy at Stockholm, each cipher passage with a contemporary decipherment in the margin (Brussels SEG 2559, DECODE R1012&ndash;R1015). The syllabic nomenclator key rebuilt earlier for the Balbases letters in the same volume was applied unchanged; it confirms the margins and supplies their illegible words, giving values to all but one of 1,716 groups. Sweden on the eve of the Scanian War.',
          quote='se tomar&aacute; resoluci&oacute;n en &eacute;l sobre el asistir o no a la Francia a mano armada',
          rights='Archives g&eacute;n&eacute;rales du Royaume, Brussels, via DECODE R1012&ndash;R1015'),
+    dict(slug='beuningen1676', label='Van Beuningen to Fagel', year='1676', y=1676.4, place='London &rarr; Gaspar Fagel', st='partial', stt='key from adjacent plaintext, partial',
+         title='Coenraad van Beuningen to Gaspar Fagel, 23 May/2 June 1676',
+         blurb='First partial reading of a letter without a contemporary decipherment. The key was rebuilt from sibling interlinear glosses in Nationaal Archief inv. 248, 249 and 250. The French plan against Den Briel and Hellevoetsluis, Du Plat and a doubtful informer emerge; strict coverage is 264/278 (94.96%), with 265/278 (95.32%) only conditionally.',
+         quote='het my aen-gebracht dessein op den BRIEL ende HELLEVOET',
+         rights='Nationaal Archief, 3.01.18, inv. 249, scans 131&ndash;132 (CC0)'),
     dict(slug='ronquillo1676', label='Salinas &amp; Ronquillo 1676', year='1676&ndash;78', y=1677.1, place='London, Nijmegen &rarr; Copenhagen', st='partial', stt='solved in part',
          title='Bernardo de Salinas and Pedro Ronquillo to Baltasar de Fuenmayor, 1676&ndash;78',
          blurb='Twenty cipher letters from the Spanish envoys in London and at Nijmegen (Brussels SEG 2559, DECODE R966&ndash;R984, R1001). The Balbases 1677 key, from the same volume, was applied unchanged: 88% of 23,463 groups decrypted, and the sixteen contemporary marginal decipherments confirmed. The four letters with no decipherment are decrypted in gist; the residue is mostly transcription noise.',
@@ -1459,6 +1464,8 @@ def attach_methods():
         p['stt_hand'] = p['stt']
         p['st'] = M.status_class(p['method'], p['extent'])
         p['stt'] = M.badge(p['method'], p['extent'], cls)
+IMAGES['beuningen1676'] = ('beuningen1676_lead.jpg', 'Scan 131, right page: after &ldquo;op &rsquo;t Subject van &rsquo;t&rdquo;, the cipher reads &ldquo;my aen-gebracht dessein op den BRIEL ende HELLEVOET&rdquo;.', 'Nationaal Archief, 3.01.18, inv. 249, scan 131 (CC0)')
+
 
 def outcome_html(p):
     """The hero's outcome line: method linked to its glossary entry, and extent."""
