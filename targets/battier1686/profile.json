@@ -35,6 +35,37 @@
       }
     },
     {
+      "id": "1687-04-24",
+      "read": "read",
+      "shelfmark": "Nationaal Archief 3.01.18 inv. 401, scans 58R, 59L",
+      "date": "1687-04-24",
+      "year": 1687,
+      "country": "Dutch Republic",
+      "route": "Madrid -> unknown",
+      "language": "Dutch",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "No known contemporary decipherment. Pages 58L–60R checked before reading: no interlinear plaintext, numbered list or marginal passage numbers. 58L endorses the 10 April letter; 59R is blank; 60L endorses this letter; 60R begins the next letter. This local check does not establish publication novelty.",
+        "partial": false
+      },
+      "length": {
+        "tokens": 235,
+        "distinct": 137,
+        "unit": "code groups",
+        "measured": true,
+        "file": "tokens/1687-04-24_groups.txt"
+      },
+      "transcription": {
+        "by": "llm from images",
+        "source": "LLM transcription from Nationaal Archief scans, checked against the key images.",
+        "image_quality": "good",
+        "notes": "73 tokens on 58R and 162 on 59L; cancelled 937 and clear text excluded. Conservative sense screen 230/235 (97.9%); legacy H 212, C 21, M 1, I 1, H+C 233/235 (99.1%). Review: codex_review/review_1687-04-24.md. Surplus 8=e, covered 5:623 gra[tie], gehelyk, sedert dat and soo als hy remain open; the exact condition of Gastanaga's departure is uncertain."
+      }
+    },
+    {
       "id": "1687-12-04",
       "read": "read in part",
       "shelfmark": "Nationaal Archief 3.01.18 inv. 401, scans 91R, 92L",
@@ -276,7 +307,7 @@
     },
     "nomenclator": {
       "present": true,
-      "entries": 1393,
+      "entries": 1417,
       "kinds": [
         "common words",
         "names",
@@ -290,7 +321,7 @@
     },
     "key_order": "partly alphabetical",
     "word_division": "none",
-    "notes": "1393 is the review count of distinct transcribed dictionary codes, not the full historical codebook. Letter table 2–98; main blocks 99–999; names on key scans 59 and 78–82."
+    "notes": "1417 is the merged count (1393 earlier codes plus 24 new codes in 27 additional rows) of distinct transcribed dictionary codes, not the full historical codebook. Letter table 2–98; main blocks 99–999; names on key scans 59 and 78–82."
   },
   "conditions": {
     "prior_solution": {
@@ -335,7 +366,7 @@
     },
     {
       "kind": "reading",
-      "what": "Key applied to four focus letters and supporting letters; roughly 55% of cipher in volume read.",
+      "what": "Key applied to five focus letters and supporting letters; the earlier volume estimate was roughly 55%, with no revised denominator for the 235-token addition.",
       "result": "partial"
     },
     {
@@ -350,7 +381,7 @@
     },
     {
       "kind": "verification",
-      "what": "Codex software re-decoding, not paleography: 19 Dec 186/186 is validation of contemporary plaintext; only 8 April 1688 passes strict sense without a known contemporary decipherment, 313/323 (96.9%), conservatively 312/323 (96.6%). Dec 1687 94.3% and Feb 1688 92.3% do not pass.",
+      "what": "Codex software re-decoding, not paleography: 19 Dec 186/186 is validation of contemporary plaintext; 24 April 1687 passes strict sense without a known contemporary decipherment, 230/235 (97.9%), as does 8 April 1688, 313/323 (96.9%), conservatively 312/323 (96.6%). Dec 1687 94.3% and Feb 1688 92.3% do not pass.",
       "result": "partial"
     }
   ],
@@ -365,7 +396,7 @@
     ],
     "fraction_read": 0.55,
     "fraction_read_method": "estimated",
-    "fraction_read_source": "Volume estimate, about 55% of cipher in inv. 401; inventory in inv/orch_letters.tsv. Per-focus-letter strict measured results are in codex_review/metrics.tsv, not a volume-wide denominator.",
+    "fraction_read_source": "Earlier volume estimate, about 55% of cipher in inv. 401; no revised volume-wide denominator after adding 235 tokens from 24 April 1687. Inventory: inv/orch_letters.tsv and inv/nw.tsv. Strict results: codex_review/metrics.tsv and codex_review/review_1687-04-24.md.",
     "codes_open": "unknown",
     "verification": [
       "contemporary decipherment",
@@ -373,6 +404,11 @@
       "matched control"
     ],
     "gaps": [
+      {
+        "item": "24 April 1687 unresolved groups and sense",
+        "blocker": "open-codes",
+        "detail": "Surplus 8=e (possible encipherment slip); 5:623 gra[tie] partly covered in the key; gehelyk, sedert dat and soo als hy; exact condition of Gastanaga's departure. Five excluded positions: codex_review/review_1687-04-24.md."
+      },
       {
         "item": "Focus-letter unresolved groups and sense",
         "blocker": "open-codes",
@@ -394,7 +430,7 @@
         "detail": "No check for nearby separate decipherment sheets has been made."
       }
     ],
-    "notes": "Only 8 April 1688 passes strict sense without a known contemporary decipherment: 313/323 (96.9%), conservatively 312/323 (96.6%). The 19 December 1686 letter, 186/186, is the third validation against contemporary plaintext on 32R, not a new reading. Others 199/211 and 250/271 are below. No aggregate grade conversion or volume-wide coherent fraction is claimed. Legacy reading grades remain unchanged; 12:409 = syn is now confirmed by contemporary plaintext. 81=e is contextual and absent from all three validation letters.",
+    "notes": "Two letters pass strict sense without a known contemporary decipherment: 24 April 1687, 230/235 (97.9%) conservatively; 8 April 1688, 313/323 (96.9%), conservatively 312/323 (96.6%). The 19 December 1686 letter, 186/186, is the third validation against contemporary plaintext on 32R, not a new reading. Others 199/211 and 250/271 are below. No aggregate grade conversion or volume-wide coherent fraction is claimed. Legacy reading grades remain unchanged; 12:409 = syn is now confirmed by contemporary plaintext. 81=e is contextual and absent from all three validation letters.",
     "class": "read in part"
   }
 }

@@ -1,9 +1,10 @@
 # Pieter Battier to Gaspar Fagel, Madrid, 1686–1688
 
-Status: read in part; **read with known key**. Only 8 April 1688 passes the strict sense screen without a known contemporary decipherment:
+Status: read in part; **read with known key**. Two letters pass the strict sense screen without a known contemporary decipherment:
+**24 April 1687, 230/235 = 97.9% conservatively**, and 8 April 1688,
 313/323 = 96.9%, or 312/323 = 96.6% conservatively. The 19 December 1686 letter is a third
 validation against contemporary plaintext on 32R. The volume is not a complete decipherment.
-Decipherment by **Feyseel Nur (with Claude and Codex)**; 4 October 2026.
+Decipherment by **Feyseel Nur (with Claude and Codex)**; 4–5 October 2026.
 
 ## Documents and key
 
@@ -42,8 +43,10 @@ first/second/third digit struck, c/, reversed c/. Block 13 begins at 100. The tr
 use `block:number`; bare 2–98 are letters. Names include Spanish councils and grandees
 on key scan 59, with places on scans 78–82 (transcription series 16).
 
-Approximately 1,400 codebook values were read from the key images; Codex counts **1,393
-distinct dictionary codes**. Sorted TSV files retain the dictionary override order, including
+The key transcription contains **1,417 distinct dictionary codes**: the earlier count
+of 1,393 plus 24 new codes in `key/dict/nw.tsv`. Its 27 rows retain scan/column references.
+Three codes already occur in the repository: 15:165, 2:825 and 11:431; the preserved
+24 April review identifies only the first two duplicates. Sorted TSV files retain the dictionary override order, including
 `zz_corrections`. The 365 alphabetical reversals (96 touching focus tokens) are **not 365
 proven misreads**: inflection, thematic lists and historical spelling can break strict order.
 
@@ -52,6 +55,7 @@ proven misreads**: inflection, thematic lists and historical spelling can break 
 | Letter | Cipher scans | Tokens | Key-attested | Strict sense | Generous ceiling | Verdict |
 |---|---|---:|---:|---:|---:|---|
 | 19 Dec 1686 | 31R, 32L | 186 | 186 | 186/186 = 100% | 100% | validation: four passages on 32R |
+| 24 Apr 1687 | 58R, 59L | 235 | 234 complete mappings, including surplus e | **230/235 = 97.9%** | 99.6% legacy H+C+M | passes; no known contemporary decipherment |
 | 4 Dec 1687 | 91R, 92L | 211 | 210 | 199/211 = 94.3% | 96.7% | below |
 | 12 Feb 1688 | 99R, 100R | 271 | 268 | 250/271 = 92.3% | 96.7% | below |
 | 8 Apr 1688 | 107R, 108L, 108R, 109L | 323 | 322 | 313/323 = 96.9% | 99.7% | passes |
@@ -59,8 +63,8 @@ proven misreads**: inflection, thematic lists and historical spelling can break 
 These are the Codex review numbers, not the more generous original H+C totals. The strict
 screen excludes unkeyed emendations and unresolved meanings in `codex_review/semantic_adjustments.tsv`;
 semantic screening is judgment, not statistical confidence. Literal key attestation alone
-does not establish meaningful text. Roughly **55% of the cipher in inv. 401** has been read
-(estimated, not a measured volume-wide denominator). `inv/orch_letters.tsv` lists the unread
+does not establish meaningful text. The earlier estimate was roughly **55% of the cipher in inv. 401** read;
+the 235-token addition has no revised volume-wide denominator. `inv/orch_letters.tsv` lists the unread
 letters. Its legacy READ label means transcribed/decoded/graded, not a pass of the strict bar.
 
 ## Third validation: 19 December 1686
@@ -105,9 +109,47 @@ The surrounding clear text explains the money request and negotiations; it is ma
 `readings/s031R_text.txt` and `s032L_text.txt`. Their provisional date headings predate the
 inventory's identification of 19 December and are preserved as source history.
 
+## Reading: 24 April 1687
+
+Scans **58R–59L** contain **235 cipher tokens** (73 and 162). The conservative Codex
+sense screen accepts **230/235 = 97.9%**. Legacy grades are H 212, C 21, M 1, I 1;
+H+C is 233/235 = 99.1%, not a measure of coherent Dutch sense. Complete key-file
+mappings cover 234 tokens, including the surplus e; 5:623 has only the partial `gra[..]`.
+No token is 81. The review is preserved verbatim in `codex_review/review_1687-04-24.md`.
+
+The decipherment-sheet check covered **58L–60R** before the reading: no interlinear
+plaintext, numbered list or marginal passage numbers were found. 58L is the endorsement
+of the 10 April letter; 59R is blank; 60L endorses the 24 April letter; 60R begins the
+next letter. The small recurring 3 is on a following leaf's tab, not a passage number.
+This is the second passing letter without a known contemporary decipherment; the local
+check does not establish absence of a prior publication.
+
+Gastanaga may be removed before the end of his three years or employed in Peru or
+Catalonia. The exact condition of his departure remains uncertain: `gehelyk` and
+`sedert dat` do not yield a secure conditional construction. The Emperor's ambassador
+seeks the advantages enjoyed by his predecessor and
+
+> beweeght hemel en aarde om weder in de Koninginne goede gra[tie] te komen
+
+He works through a nun, the confessor and ministers. Renewed friendship with the Countess
+of Soissons is intended to obtain her good offices; the plural `sy` leaves the exact
+participants uncertain. Battier concludes that it appears
+
+> Hare Majt. het quaat van den Amb. van den Keyser haar aangedaan noyt niet vergeten sal.
+
+The final `sal` is encoded on 59L, tokens 160–162. The ambassador's identification as
+Mansfeld is not established by these cipher tokens. The review qualifies the fluent
+English summaries in `readings/s058R_text.txt` and `s059L_text.txt`.
+
+The five strict exclusions are 58R:15, a surplus bare **8 = e** (possible encipherment
+slip); 59L:30, **5:623 = gra[tie]**, partly covered by a pasted slip in key scan 29R,
+column 1; 58R:9, **gehelyk** (possibly final -e in the key); 58R:21, **sedert dat**;
+and 59L:52, **soo als hy**. The latter's relation to `by de Koningh` remains unresolved.
+The screen is an editorial assessment, not a confidence probability.
+
 ## Reading: 8 April 1688
 
-This is the only focus letter that passes the strict sense screen without a known contemporary
+This is one of two focus letters that pass the strict sense screen without a known contemporary
 decipherment: **313/323 = 96.9%**, conservatively **312/323 = 96.6%**. Visual inspection of
 scans 107–109 found no decipherment list. Inv. 401 has 109 scans; the letter ends on scan 109
 with the signature “Mad. den 8 April 1688”.
@@ -133,8 +175,14 @@ The unfilled viceroyalty on 108L is **12:6?0**; it is not identified here.
 The 4 December 1687 and 12 February 1688 readings are retained with their token tables,
 but neither passes the strict sense threshold. The reading corpus, including
 29 January and the partial 26 February 1688 check, is supporting material, not a set of new
-complete-reading claims. Every difficult token in the four focus letters remains traceable
-through the TSV notes and the review's semantic adjustments.
+complete-reading claims. Difficult tokens in the five focus letters remain traceable through the TSV notes,
+the earlier semantic adjustments and `codex_review/review_1687-04-24.md`.
+
+The 24 April 1687 review independently re-decodes 235 positions: 233 value fields match
+exactly, with two typography-only differences. This reproduces curated token choices,
+not a blind validation of their marks or digits. All 27 additional key rows were reviewed
+against image crops; the covered gratie ending and possible final -e in gehelyk remain open.
+The contemporary-plaintext validation totals below are unchanged.
 
 The first two validation letters contain **369** tokens (5 December 1686) and **781** (30 January 1687).
 Agreement with contemporary decipherments where comparable is **1113/1132 = 98.3%**;
@@ -164,6 +212,7 @@ inference remains open. The Codex review is independent **software re-decoding, 
 Shifted annotations, dictionary variants and mark choices still require image checks.
 
 ## Remaining gaps
+- 24 April 1687: surplus 8=e; partly covered 5:623 gra[tie]; gehelyk, sedert dat and soo als hy; Gastanaga's exact departure condition - blocker: open-codes; the 230/235 sense screen excludes these five positions; see codex_review/review_1687-04-24.md
 - Separate decipherment sheets near 4 December 1687 and 12 February 1688 have not been checked - blocker: open-codes; comparison with nearby plaintext remains unexamined
 - Focus-letter unresolved groups and sense: 12:6?0; getwist versus inferred Turck(en); Novelli/Hofmeester, gesoubconneert gouverneren and Sex.; name repairs, 81 and other emendations in semantic_adjustments.tsv - blocker: open-codes; key lookup alone does not settle the meaning or mark choices
 - Unread volume letters listed individually in inv/orch_letters.tsv, including 102L and the untranscribed cipher on 95R - blocker: open-codes; not yet transcribed; workable with the same key
@@ -171,17 +220,17 @@ Shifted annotations, dictionary variants and mark choices still require image ch
 
 ## Escalation
 - [x] siblings: all 109 scans inventoried; unread letters listed in inv/orch_letters.tsv are not yet transcribed; workable with the same key
-- [x] clear-pages: 28R, 32R and 42R–43R compared to three validation letters; scans 107–109 visually checked with no decipherment list; 101R has an interlinear check
+- [x] clear-pages: 28R, 32R and 42R–43R compared to three validation letters; 58L–60R checked with no decipherment found for 24 April 1687; scans 107–109 visually checked with no decipherment list; 101R has an interlinear check
 - [x] known-keys: Battier's named inv. 1209 key applied; DECODE R2794 shelfmark discrepancy recorded
 - [x] print: De Leeuw (2000), DECODE, Tomokiyo, editions and NA digitised series searched; no Battier edition found; see evidence/prior_art.md
 - [x] key-rebuild: dictionary transcription and correction overrides preserved; Codex identifies remaining variants and alphabetical reversals
-- [x] retry: four focus letters re-decoded and screened for sense; unresolved readings recorded in semantic_adjustments.tsv; unread letters not yet transcribed; workable with the same key
+- [x] retry: five focus letters re-decoded and screened for sense; unresolved readings recorded in semantic_adjustments.tsv and review_1687-04-24.md; unread letters not yet transcribed; workable with the same key
 
 ## Files and reproduction
 
 - `key/letters.py`, `key/dict/*.tsv`, `key/colindex*.txt`: transcribed key and column locators.
 - `tokens/`: line-labelled cipher tokens; `readings/`: legacy graded tables and texts.
-- `codex_review/`: review.md, audit_notes.md, april_reading.md, metrics.tsv and semantic_adjustments.tsv copied verbatim.
+- `codex_review/`: review.md, audit_notes.md, april_reading.md, metrics.tsv and semantic_adjustments.tsv copied verbatim; review_1687-04-24.md preserves the second passing letter's review verbatim.
 - `scripts/decode.py`: key-only decoding; run `python3 targets/battier1686/scripts/decode.py targets/battier1686/tokens/s031R.txt`.
   Do not use `--write` on preserved readings: it overwrites grades.
 - `scripts/measure.py`: legacy grade totals, **not** the conservative review's semantic screen.
