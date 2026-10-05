@@ -1,7 +1,7 @@
 # Coenraad van Beuningen to Gaspar Fagel, 23 May/2 June 1676
 
-Status: read in part; **key recovered based on adjacent plaintext**. First reading of
-this letter, with no contemporary decipherment. The extent is **PARTIAL**: the
+Status: read in part; **key recovered based on adjacent plaintext**. No earlier reading of
+this letter was found in the sources checked, and it has no contemporary decipherment. The extent is **PARTIAL**: the
 reading does not meet the repository's bar unconditionally.
 Decipherment by **Feyseel Nur (with Claude and Codex)**; added 5 October 2026.
 
