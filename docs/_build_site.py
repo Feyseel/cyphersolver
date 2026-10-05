@@ -397,7 +397,7 @@ PAGES = [
          rights='Archives g&eacute;n&eacute;rales du Royaume, Brussels, via DECODE R1002&ndash;R1011'),
     dict(slug='battier1686', label='Battier to Fagel', year='1686&ndash;1688', y=1686, place='Madrid &rarr; Gaspar Fagel', st='partial', stt='read with known key, partial',
          title='Battier to Fagel: a court divided',
-         blurb='The named Battier key in NA 1.10.29 inv. 1209 reads Dutch reports from Madrid. Two letters pass the strict sense screen: 19 December 1686, 186/186 tokens; 8 April 1688, 313/323 (96.9%). The volume remains partial; roughly 55% of its cipher has been read.',
+         blurb='The named Battier key in NA 1.10.29 inv. 1209 reads Dutch reports from Madrid. Three letters validate the key, including 19 December 1686: four passages, 186 tokens, compared with the contemporary decipherment on 32R. Only 8 April 1688 passes the strict sense screen without a known contemporary decipherment: 313/323 (96.9%), conservatively 312/323 (96.6%). The volume remains partial; roughly 55% of its cipher has been read.',
          quote='Ondertusschen soo formeert sich een gesworen partye tegen den selven', rights='Nationaal Archief, CC0'),
     dict(slug='szembek1689', label='Wallachian postscript against Dunod', year='after 1688', y=1689, place='Wallachia &rarr; a Reverend Father', st='found', stt='read at the time',
          title='A Wallachian postscript against Antide Dunod, after 1688',

@@ -1,7 +1,8 @@
 # Pieter Battier to Gaspar Fagel, Madrid, 1686–1688
 
-Status: read in part; **read with known key**. Two focus letters pass the strict sense screen:
-19 December 1686 and 8 April 1688. The volume is not a complete decipherment.
+Status: read in part; **read with known key**. Only 8 April 1688 passes the strict sense screen without a known contemporary decipherment:
+313/323 = 96.9%, or 312/323 = 96.6% conservatively. The 19 December 1686 letter is a third
+validation against contemporary plaintext on 32R. The volume is not a complete decipherment.
 Decipherment by **Feyseel Nur (with Claude and Codex)**; 4 October 2026.
 
 ## Documents and key
@@ -16,6 +17,7 @@ Decipherment by **Feyseel Nur (with Claude and Codex)**; 4 October 2026.
   1.10.29 inventory. The correct inventory number is **1209**. This is application of an
   identified key, not recovery of an unknown cipher.
 - Contemporary decipherments: 5 December 1686, scan **28R** (cipher 30R, 31L);
+  19 December 1686, **32R** (four numbered passages; cipher 31R, 32L);
   30 January 1687, **42R–43R** (cipher 41R, 42L, 44R); interlinear **101R**, 26 February 1688.
 - The States General set, NA **1.01.02, inv. 12588.120–125**, is not digitised.
 - Manuscript images: Nationaal Archief, **CC0**. The site lead is inv. 401, scan 108, right page.
@@ -49,7 +51,7 @@ proven misreads**: inflection, thematic lists and historical spelling can break 
 
 | Letter | Cipher scans | Tokens | Key-attested | Strict sense | Generous ceiling | Verdict |
 |---|---|---:|---:|---:|---:|---|
-| 19 Dec 1686 | 31R, 32L | 186 | 186 | 186/186 = 100% | 100% | passes |
+| 19 Dec 1686 | 31R, 32L | 186 | 186 | 186/186 = 100% | 100% | validation: four passages on 32R |
 | 4 Dec 1687 | 91R, 92L | 211 | 210 | 199/211 = 94.3% | 96.7% | below |
 | 12 Feb 1688 | 99R, 100R | 271 | 268 | 250/271 = 92.3% | 96.7% | below |
 | 8 Apr 1688 | 107R, 108L, 108R, 109L | 323 | 322 | 313/323 = 96.9% | 99.7% | passes |
@@ -61,7 +63,28 @@ does not establish meaningful text. Roughly **55% of the cipher in inv. 401** ha
 (estimated, not a measured volume-wide denominator). `inv/orch_letters.tsv` lists the unread
 letters. Its legacy READ label means transcribed/decoded/graded, not a pass of the strict bar.
 
-## Reading: 19 December 1686
+## Third validation: 19 December 1686
+
+Scan 32R carries a contemporary numbered list 1–4 in a clerk's hand for the four
+cipher passages on 31R and 32L. The key reading reproduces this decipherment across
+186 tokens, apart from spelling and “niet gedaan” versus “niet afgedaen”. This is the
+third validation letter, not a new reading, and strengthens the identification of
+inv. 1209 as Battier's key. The list confirms **15:325 = wat** (32L, token 65) and
+**12:409 = syn** (32L, token 93); the latter's legacy C grade records a contextual
+mark choice, now confirmed by contemporary plaintext.
+
+On 31R, line L05, tokens 57–59 are `8:721 = niet`, `4:294 = gedaan`, `4:696 = en`;
+32L continues with “blyft alles traineren”. No separate `af` prefix token occurs in
+the recorded sequence. The clerk's “afgedaen” expands the recorded key reading;
+a token omitted from the cipher transcription cannot be excluded without checking
+that cipher line against the image.
+
+The clerk's list reads:
+
+1. “van de Graef van Mansfelt, maer t' sedert het dese laetste eens gemanqueert heeft, is syn persoon weynigh geestimeert, en syn credit hier aen het hof seer geringh, en daerom oock voor hem weynigh apparentie.”
+2. “maer daerom werden de publicque affaires niet afgedaen en blyft alles traineren.”
+3. “maer soo men die helft vinden kost, soude haestelyck een ander Gouverneur de reys naer Vlaenderen aennemen.”
+4. “soo veel impressie, dat men dan soo voorts op geen defensie gedenckt, en wat nogh meer is, men magh se oock soecken te desabuseren soo veel men kan, soo syn se soo seer gepersuadeert, dat Engelandt en den Staet de Spaensche Nederlanden par raison d'interessen sullen moeten defenderen, dat se weynigh op ander middel gedencken.”
 
 The letter has 186 cipher tokens, all key-attested and accepted by the strict screen.
 The ciphered stretches concern candidates for the Netherlands governorship and Madrid's
@@ -83,6 +106,11 @@ The surrounding clear text explains the money request and negotiations; it is ma
 inventory's identification of 19 December and are preserved as source history.
 
 ## Reading: 8 April 1688
+
+This is the only focus letter that passes the strict sense screen without a known contemporary
+decipherment: **313/323 = 96.9%**, conservatively **312/323 = 96.6%**. Visual inspection of
+scans 107–109 found no decipherment list. Inv. 401 has 109 scans; the letter ends on scan 109
+with the signature “Mad. den 8 April 1688”.
 
 The reviewed reconstruction is `codex_review/april_reading.md`; it supersedes the fluent
 interpretations in `readings/s108-109_text.txt`. Representative cipher clauses:
@@ -108,12 +136,15 @@ but neither passes the strict sense threshold. The reading corpus, including
 complete-reading claims. Every difficult token in the four focus letters remains traceable
 through the TSV notes and the review's semantic adjustments.
 
-The validation letters contain **369** tokens (5 December 1686) and **781** (30 January 1687).
+The first two validation letters contain **369** tokens (5 December 1686) and **781** (30 January 1687).
 Agreement with contemporary decipherments where comparable is **1113/1132 = 98.3%**;
 key-alone agreement is **94.7%**. Eighteen positions are not comparable. The source filename
 `validation_1687-01-16.txt` is a legacy misdate: the inventory and validation summary identify
 the letter as **30 January**. Comparison used the existing decipherments, so this is not a blind
-holdout claim. In the shuffle control run with `scripts/control.py`, **72%** of spelled runs segment into Dutch,
+holdout claim. The third validation, 19 December 1686, adds **four passages, 186 tokens**,
+compared with the numbered decipherment on **32R**, with spelling differences and the
+“gedaan”/“afgedaen” distinction above. The earlier percentages describe the first two letters
+only; they are not an aggregate score for all three. In the shuffle control run with `scripts/control.py`, **72%** of spelled runs segment into Dutch,
 versus mean **1.2%**, maximum **4.1%**, for **300** permuted tables. Segmentation tests structure,
 not correctness of names or syntax; the fixed lexicon and names list influence this result.
 
@@ -127,19 +158,20 @@ strict review screen take precedence. Context-only repairs are inferred (I), unc
 are M; no aggregate repository-grade counts are claimed.
 
 The alleged **81=e habit** comprises 17 occurrences: 14 contextual e, 3 retained i. The key
-has **81=i**. Neither fully validated letter contains 81, so they do **not** confirm this habit.
+has **81=i**. None of the three validation letters contains 81, so they do **not** confirm this habit.
 `getwist` is the key reading where the contextual interpretation proposes **Turck(en)**; that
 inference remains open. The Codex review is independent **software re-decoding, not paleography**.
 Shifted annotations, dictionary variants and mark choices still require image checks.
 
 ## Remaining gaps
+- Separate decipherment sheets near 4 December 1687 and 12 February 1688 have not been checked - blocker: open-codes; comparison with nearby plaintext remains unexamined
 - Focus-letter unresolved groups and sense: 12:6?0; getwist versus inferred Turck(en); Novelli/Hofmeester, gesoubconneert gouverneren and Sex.; name repairs, 81 and other emendations in semantic_adjustments.tsv - blocker: open-codes; key lookup alone does not settle the meaning or mark choices
 - Unread volume letters listed individually in inv/orch_letters.tsv, including 102L and the untranscribed cipher on 95R - blocker: open-codes; not yet transcribed; workable with the same key
 - States General parallel set NA 1.01.02 inv. 12588.120–125 - blocker: needs-physical-access; not digitised
 
 ## Escalation
 - [x] siblings: all 109 scans inventoried; unread letters listed in inv/orch_letters.tsv are not yet transcribed; workable with the same key
-- [x] clear-pages: 28R and 42R–43R compared to validation letters; 101R has an interlinear check
+- [x] clear-pages: 28R, 32R and 42R–43R compared to three validation letters; scans 107–109 visually checked with no decipherment list; 101R has an interlinear check
 - [x] known-keys: Battier's named inv. 1209 key applied; DECODE R2794 shelfmark discrepancy recorded
 - [x] print: De Leeuw (2000), DECODE, Tomokiyo, editions and NA digitised series searched; no Battier edition found; see evidence/prior_art.md
 - [x] key-rebuild: dictionary transcription and correction overrides preserved; Codex identifies remaining variants and alphabetical reversals

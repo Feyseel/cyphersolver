@@ -15,9 +15,9 @@
       "cleartext_in_document": "interspersed",
       "plaintext": {
         "location": [
-          "none"
+          "separate folio"
         ],
-        "source": "No contemporary decipherment reported in the supplied inventory.",
+        "source": "Scan 32R: numbered list 1–4 in a contemporary clerk's hand; four passages, 186 cipher tokens. Third validation letter, not a new reading. Confirms 15:325 = wat and 12:409 = syn (legacy C). On 31R L05, tokens 57–59 read 8:721 niet, 4:294 gedaan, 4:696 en, with no separate af prefix token; the clerk has niet afgedaen. A missing transcription token cannot be excluded without checking the cipher line against the image.",
         "partial": false
       },
       "length": {
@@ -29,9 +29,9 @@
       },
       "transcription": {
         "by": "llm from images",
-        "source": "Supplied token transcription; no new image inspection.",
+        "source": "LLM transcription from Nationaal Archief scans, checked against the key images.",
         "image_quality": "good",
-        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+        "notes": "Token-only file extracted from the line-labelled transcription and measured with docs/_check_profile.py. Validation/support entries have no separate new-reading claim."
       }
     },
     {
@@ -46,9 +46,9 @@
       "cleartext_in_document": "interspersed",
       "plaintext": {
         "location": [
-          "none"
+          "unknown"
         ],
-        "source": "No contemporary decipherment reported in the supplied inventory.",
+        "source": "Separate decipherment sheets near this letter have not been checked.",
         "partial": false
       },
       "length": {
@@ -60,9 +60,9 @@
       },
       "transcription": {
         "by": "llm from images",
-        "source": "Supplied token transcription; no new image inspection.",
+        "source": "LLM transcription from Nationaal Archief scans, checked against the key images.",
         "image_quality": "good",
-        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+        "notes": "Token-only file extracted from the line-labelled transcription and measured with docs/_check_profile.py. Validation/support entries have no separate new-reading claim."
       }
     },
     {
@@ -77,9 +77,9 @@
       "cleartext_in_document": "interspersed",
       "plaintext": {
         "location": [
-          "none"
+          "unknown"
         ],
-        "source": "No contemporary decipherment reported in the supplied inventory.",
+        "source": "Separate decipherment sheets near this letter have not been checked.",
         "partial": false
       },
       "length": {
@@ -91,9 +91,9 @@
       },
       "transcription": {
         "by": "llm from images",
-        "source": "Supplied token transcription; no new image inspection.",
+        "source": "LLM transcription from Nationaal Archief scans, checked against the key images.",
         "image_quality": "good",
-        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+        "notes": "Token-only file extracted from the line-labelled transcription and measured with docs/_check_profile.py. Validation/support entries have no separate new-reading claim."
       }
     },
     {
@@ -110,7 +110,7 @@
         "location": [
           "none"
         ],
-        "source": "No contemporary decipherment reported in the supplied inventory.",
+        "source": "No known contemporary decipherment. Scans 107–109 visually checked: no decipherment list. Inv. 401 has 109 scans; the letter ends on 109 with the signature Mad. den 8 April 1688.",
         "partial": false
       },
       "length": {
@@ -122,9 +122,9 @@
       },
       "transcription": {
         "by": "llm from images",
-        "source": "Supplied token transcription; no new image inspection.",
+        "source": "LLM transcription from Nationaal Archief scans, checked against the key images.",
         "image_quality": "good",
-        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+        "notes": "Token-only file extracted from the line-labelled transcription and measured with docs/_check_profile.py. Validation/support entries have no separate new-reading claim."
       }
     },
     {
@@ -153,9 +153,9 @@
       },
       "transcription": {
         "by": "llm from images",
-        "source": "Supplied token transcription; no new image inspection.",
+        "source": "LLM transcription from Nationaal Archief scans, checked against the key images.",
         "image_quality": "good",
-        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+        "notes": "Token-only file extracted from the line-labelled transcription and measured with docs/_check_profile.py. Validation/support entries have no separate new-reading claim."
       }
     },
     {
@@ -184,9 +184,9 @@
       },
       "transcription": {
         "by": "llm from images",
-        "source": "Supplied token transcription; no new image inspection.",
+        "source": "LLM transcription from Nationaal Archief scans, checked against the key images.",
         "image_quality": "good",
-        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+        "notes": "Token-only file extracted from the line-labelled transcription and measured with docs/_check_profile.py. Validation/support entries have no separate new-reading claim."
       }
     },
     {
@@ -203,7 +203,7 @@
         "location": [
           "none"
         ],
-        "source": "No contemporary decipherment reported in the supplied inventory.",
+        "source": "No contemporary decipherment recorded in inv/orch_letters.tsv.",
         "partial": false
       },
       "length": {
@@ -215,9 +215,9 @@
       },
       "transcription": {
         "by": "llm from images",
-        "source": "Supplied token transcription; no new image inspection.",
+        "source": "LLM transcription from Nationaal Archief scans, checked against the key images.",
         "image_quality": "good",
-        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+        "notes": "Token-only file extracted from the line-labelled transcription and measured with docs/_check_profile.py. Validation/support entries have no separate new-reading claim."
       }
     },
     {
@@ -246,9 +246,9 @@
       },
       "transcription": {
         "by": "llm from images",
-        "source": "Supplied token transcription; no new image inspection.",
+        "source": "LLM transcription from Nationaal Archief scans, checked against the key images.",
         "image_quality": "good",
-        "notes": "Token-only file extracted with the supplied parser and measured with docs/_check_profile.py. Validation/support entries have no separate strict pass claim."
+        "notes": "Token-only file extracted from the line-labelled transcription and measured with docs/_check_profile.py. Validation/support entries have no separate new-reading claim."
       }
     }
   ],
@@ -290,12 +290,12 @@
     },
     "key_order": "partly alphabetical",
     "word_division": "none",
-    "notes": "1393 is the supplied review count of distinct transcribed dictionary codes, not the full historical codebook. Letter table 2–98; main blocks 99–999; names on key scans 59 and 78–82."
+    "notes": "1393 is the review count of distinct transcribed dictionary codes, not the full historical codebook. Letter table 2–98; main blocks 99–999; names on key scans 59 and 78–82."
   },
   "conditions": {
     "prior_solution": {
       "exists": "partial",
-      "where": "Contemporary decipherments on inv. 401 scans 28R, 42R–43R and 101R; no edition found in supplied prior-art work.",
+      "where": "Contemporary decipherments on inv. 401 scans 28R, 32R (19 December 1686, four numbered passages), 42R–43R and 101R; no edition found in the prior-art search.",
       "found": "after reading",
       "used": true
     },
@@ -306,21 +306,21 @@
       "known plaintext"
     ],
     "attack": "key from archive",
-    "human_role": "Decipherment by Feyseel Nur with Claude and Codex. Offline packaging of supplied evidence; original division of transcription work undocumented.",
+    "human_role": "Decipherment by Feyseel Nur with Claude and Codex; original division of transcription work undocumented.",
     "tools": [
       "scripts/decode.py",
       "scripts/measure.py",
       "scripts/control.py"
     ],
     "models": [
-      "Claude (version not supplied)",
-      "OpenAI Codex (version not supplied)"
+      "Claude (version unspecified)",
+      "OpenAI Codex (version unspecified)"
     ]
   },
   "solution": [
     {
       "kind": "literature search",
-      "what": "Supplied research: De Leeuw 2000 describes Fagel codebooks, not Battier; no edition found; letters absent from DECODE.",
+      "what": "De Leeuw 2000 describes Fagel codebooks, not Battier; no edition found; letters absent from DECODE.",
       "result": "partial"
     },
     {
@@ -340,24 +340,24 @@
     },
     {
       "kind": "verification",
-      "what": "Validation letters: 1113/1132 comparable tokens agree (98.3%); 94.7% key-alone.",
+      "what": "First two validation letters: 1113/1132 comparable tokens agree (98.3%); 94.7% key-alone; 18 positions not comparable. Third validation: 19 December 1686, four passages and 186 tokens, reproduces the contemporary list on 32R apart from spelling and gedaan/afgedaen. Confirms 15:325 = wat and 12:409 = syn; strengthens the identification of inv. 1209 as Battier's key. Comparison is not blind.",
       "result": "partial"
     },
     {
       "kind": "control",
-      "what": "Supplied 300-permutation control: 72% spelled runs segment into Dutch, mean 1.2%, maximum 4.1% shuffled. Not rerun during packaging.",
+      "what": "300-permutation control: 72% spelled runs segment into Dutch, mean 1.2%, maximum 4.1% shuffled.",
       "result": "worked"
     },
     {
       "kind": "verification",
-      "what": "Codex software re-decoding, not paleography: 19 Dec 186/186 and April 313/323 pass strict sense; Dec 1687 94.3% and Feb 1688 92.3% do not.",
+      "what": "Codex software re-decoding, not paleography: 19 Dec 186/186 is validation of contemporary plaintext; only 8 April 1688 passes strict sense without a known contemporary decipherment, 313/323 (96.9%), conservatively 312/323 (96.6%). Dec 1687 94.3% and Feb 1688 92.3% do not pass.",
       "result": "partial"
     }
   ],
   "outcome": {
     "key": "partial",
     "method": "read with known key",
-    "method_basis": "The contemporary key explicitly names Battier; NA 1.10.29 inv. 1209 / DECODE R2794 was applied to his correspondence.",
+    "method_basis": "The contemporary key explicitly names Battier; NA 1.10.29 inv. 1209 / DECODE R2794 was applied to his correspondence. The third validation against scan 32R strengthens this identification.",
     "contribution": [
       "transcription",
       "decipherment with ambiguous key",
@@ -365,7 +365,7 @@
     ],
     "fraction_read": 0.55,
     "fraction_read_method": "estimated",
-    "fraction_read_source": "Supplied volume estimate, about 55% of cipher in inv. 401; inventory in inv/orch_letters.tsv. Per-focus-letter strict measured results are in codex_review/metrics.tsv, not a volume-wide denominator.",
+    "fraction_read_source": "Volume estimate, about 55% of cipher in inv. 401; inventory in inv/orch_letters.tsv. Per-focus-letter strict measured results are in codex_review/metrics.tsv, not a volume-wide denominator.",
     "codes_open": "unknown",
     "verification": [
       "contemporary decipherment",
@@ -381,15 +381,20 @@
       {
         "item": "Unread volume letters in inv/orch_letters.tsv, including 102L and 95R",
         "blocker": "open-codes",
-        "detail": "Existing partial result packaged offline at user request; no claim that all possible research has been exhausted."
+        "detail": "Not yet transcribed; workable with the same key. No claim that all possible research has been exhausted."
       },
       {
         "item": "States General NA 1.01.02 inv. 12588.120–125",
         "blocker": "needs-physical-access",
         "detail": "Not digitised."
+      },
+      {
+        "item": "Separate decipherment sheets near 4 December 1687 and 12 February 1688",
+        "blocker": "open-codes",
+        "detail": "No check for nearby separate decipherment sheets has been made."
       }
     ],
-    "notes": "Two focus letters pass strict sense: 186/186 and 313/323. Others 199/211 and 250/271 are below. No aggregate grade conversion or volume-wide coherent fraction is claimed. 81=e is contextual and absent from both validation letters.",
+    "notes": "Only 8 April 1688 passes strict sense without a known contemporary decipherment: 313/323 (96.9%), conservatively 312/323 (96.6%). The 19 December 1686 letter, 186/186, is the third validation against contemporary plaintext on 32R, not a new reading. Others 199/211 and 250/271 are below. No aggregate grade conversion or volume-wide coherent fraction is claimed. Legacy reading grades remain unchanged; 12:409 = syn is now confirmed by contemporary plaintext. 81=e is contextual and absent from all three validation letters.",
     "class": "read in part"
   }
 }
